@@ -3,7 +3,7 @@ uid: learn-bizapps.cloud-licensing
 metadata: 
  title: Microsoft Cloud Solution Center and licensing
  description: Microsoft Cloud Solution Center provides a central place to deploy and configure solutions. In this module, you'll learn about Microsoft Cloud Solution Center and licensing scenarios for Microsoft Vaccination Management.
- ms.date: 06/14/2021  
+ ms.date: 07/14/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -24,7 +24,6 @@ roles:
 - administrator   
 products: 
 - industry-solutions 
-- mscloud-healthcare 
 units: 
 - learn-bizapps.cloud-licensing.1-introduction 
 - learn-bizapps.cloud-licensing.2-licensing 
