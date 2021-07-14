@@ -3,7 +3,7 @@ uid: learn-bizapps.vaccination-environment-prep
 metadata: 
  title: Microsoft Vaccination Management environment preparation
  description: Learn how to set up an environment for Microsoft Vaccination Management.
- ms.date: 06/10/2021  
+ ms.date: 07/14/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -24,7 +24,6 @@ roles:
 - administrator
 products:  
 - industry-solutions
-- mscloud-healthcare  
 units: 
 - learn-bizapps.vaccination-environment-prep.1-introduction 
 - learn-bizapps.vaccination-environment-prep.2-tenant 
