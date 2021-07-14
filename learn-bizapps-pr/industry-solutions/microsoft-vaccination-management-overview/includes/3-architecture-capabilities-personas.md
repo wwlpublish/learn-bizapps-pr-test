@@ -32,7 +32,7 @@ Microsoft Vaccination Management has the following capabilities:
 The following entity relationship diagram illustrates the tables and their relationships in Microsoft Vaccination Management. System-generated tables, relationships, and columns, such as Created By and Modified By, aren't displayed in the diagram.
 
 > [!NOTE]
-> This diagram represents Microsoft Vaccination Management 1.1 architecture and not the architecture for the latest Microsoft Vaccination Management 1.2 release. This diagram will be updated again when Microsoft Vaccination Management 1.3 is released.
+> This diagram represents Microsoft Vaccination Management 1.1 architecture and not the architecture for the latest Microsoft Vaccination Management 1.2 release. 
 
 > [!div class="mx-imgBorder"]
 > [![Entity relationship diagram that illustrates the tables and their relationships in Microsoft Vaccination Management.](../media/entity-relationship-diagram.png)](../media/entity-relationship-diagram.png#lightbox)
