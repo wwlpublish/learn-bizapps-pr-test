@@ -1,0 +1,32 @@
+﻿### YamlMime:LearningPath
+uid: learn-bizapps.vaccination-management
+metadata:
+  title: Work with Microsoft Vaccination Management
+  description: Learn how to work with Microsoft Vaccination Management
+  ms.date: 06/14/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-healthcare-vaccination-management
+title: Work with Microsoft Vaccination Management
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Microsoft Vaccination Management can help you accelerate delivery and administration of the COVID-19 vaccine. It provides a configurable solution for healthcare organizations and other vaccine site administrators to connect eligible people with vaccination facilities through online registration and appointment scheduling. The solution also offers vaccine inventory management, an app to check in residents and record vaccinations, and insights about the vaccination program through a centralized dashboard. 
+prerequisites: |
+  - None
+video:
+  title: "Get started with Microsoft Vaccination Management"
+  url: https://www.microsoft.com/videoplayer/embed/RWzAth
+iconUrl: /learn/achievements/vaccination-management.svg
+levels:
+- intermediate
+roles:
+- business-user
+- functional-consultant
+products:
+- industry-solutions
+modules:
+- learn-bizapps.microsoft-vaccination-management-overview 
+trophy:
+  uid: learn.vaccination-management.trophy
+
