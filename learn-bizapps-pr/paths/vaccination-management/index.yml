@@ -26,7 +26,9 @@ roles:
 products:
 - industry-solutions
 modules:
-- learn-bizapps.microsoft-vaccination-management-overview 
+- learn-bizapps.microsoft-vaccination-management-overview
+- learn-bizapps.cloud-licensing
+- learn-bizapps.data-setup-vaccination-management-app 
 trophy:
   uid: learn.vaccination-management.trophy
 
