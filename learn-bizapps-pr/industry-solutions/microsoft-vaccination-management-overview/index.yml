@@ -25,7 +25,6 @@ roles:
 - administrator   
 products: 
 - industry-solutions
-- mscloud-healthcare
 units: 
 - learn-bizapps.microsoft-vaccination-management-overview.1-introduction 
 - learn-bizapps.microsoft-vaccination-management-overview.2-address-global-vaccination-needs 
