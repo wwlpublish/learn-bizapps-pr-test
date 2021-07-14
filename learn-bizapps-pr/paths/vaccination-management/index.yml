@@ -2,7 +2,7 @@
 uid: learn-bizapps.vaccination-management
 metadata:
   title: Work with Microsoft Vaccination Management
-  description: Learn how to work with Microsoft Vaccination Management
+  description: Learn how to use Microsoft Vaccination Management
   ms.date: 06/14/2021
   author: DaveBeasley
   ms.author: dbeasley
@@ -28,7 +28,6 @@ products:
 modules:
 - learn-bizapps.microsoft-vaccination-management-overview
 - learn-bizapps.cloud-licensing
-- learn-bizapps.vaccination-environment-prep 
 - learn-bizapps.post-deployment-configuration 
 - learn-bizapps.data-setup-vaccination-management-app
 - learn-bizapps.registration-booking-process 
