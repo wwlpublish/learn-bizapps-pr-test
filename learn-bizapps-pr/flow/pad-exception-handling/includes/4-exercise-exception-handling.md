@@ -2,15 +2,17 @@ Exception handling is usually implemented in already developed flows, after risk
 
 To implement the following exercise, you can create a new flow containing only a **Download from web** action. The flow in the example is set to download the Windows 10 media creation tool, but you can configure the action to download any file.
 
-![The Download from web action.](..\media\download-from-web-action.png)
+![The Download from web action.](..\media\exercise-download-from-web-action.png)
 
 After developing the main subflow, create a new subflow named **Check_Web_Access**. The subflow should check if the server you want to use is available. 
 
 To achieve this functionality, use the **Ping** action to check the server. Next, use an **If** block to check whether the server is up or down. When the **Ping** action returns **Failure**, the flow should stop.
 
+![The Check_Web_Access subflow.](..\media\exercise-check-web-access-flow.png)
+
 Optionally, you can use the **Get current date and time** and **Write text to file** actions to append a registry to a log file.
 
-![Screenshot of the created flow in the Workspace.](..\media\workspace.png)
+![The optional actions in the Check_Web_Access subflow.](..\media\exercise-check-web-access-flow-optional.png)
 
 ## Set up exception handling for an individual action
 
@@ -32,9 +34,7 @@ If the retry is unsuccessful, the **Check_Web_Access** subflow is run. The subfl
 
 Having ensured that the **Download from web** action runs as intended, let's add two more actions in the main subflow.
 
-Deploy the **Copy file(s)** action and configure it to create a copy of the downloaded file on a second hard drive on your desktop.
-
-Next, use the **Rename file(s)** action to change the name of the newly created file.
+Deploy the **Copy file(s)** action and configure it to create a copy of the downloaded file on a second hard drive on your desktop. Next, use the **Rename file(s)** action to change the name of the newly created file.
 
 While executing the flow, the second drive may be disconnected. This scenario will cause the flow to fail. To avoid failure, you have to implement a common exception handling behavior for both actions, as the risk is the same.
 
