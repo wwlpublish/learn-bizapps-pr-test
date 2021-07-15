@@ -24,7 +24,7 @@ To make the action robust to connectivity issues, open its properties and select
 - Run the **Check_Web_Access** subflow
 - Continue flow run, by repeating the action.
 
-![Exception Handling in the Download from Web action's properties.](..\media\download-from-web-action-properties.png)
+![The error handling options of the Download from web action.](..\media\exercise-download-from-web-action-on-error.png)
 
 This error handling configuration makes the action retry after 2 seconds every time it fails. 
 
@@ -36,10 +36,12 @@ Having ensured that the **Download from web** action runs as intended, let's add
 
 Deploy the **Copy file(s)** action and configure it to create a copy of the downloaded file on a second hard drive on your desktop. Next, use the **Rename file(s)** action to change the name of the newly created file.
 
+![The final main subflow.](..\media\exercise-main-subflow.png)
+
 While executing the flow, the second drive may be disconnected. This scenario will cause the flow to fail. To avoid failure, you have to implement a common exception handling behavior for both actions, as the risk is the same.
 
 Add an **On block error** action before copying the file and configure it to skip the actions inside the block.
 
-![Screenshot of the On block error action's properties.](..\media\on-block-error-action-properties-b.png)
+![The On block error action.](..\media\on-block-error-action.png)
 
 Now, if any error happens while copying or renaming the file, the flow will skip these steps and continue running.
