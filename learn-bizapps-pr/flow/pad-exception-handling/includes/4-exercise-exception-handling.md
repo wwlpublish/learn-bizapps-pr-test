@@ -6,11 +6,11 @@ To implement the following exercise, you can create a new flow containing only a
 
 After developing the main subflow, create a new subflow named **Check_Web_Access**. The subflow should check if the server you want to use is available. 
 
-To achieve this functionality, use the **Ping** action to check the server. Next, use an **If** block to check whether the server is up or down. When the **Ping** action returns **Failure**, the flow should stop.
+To achieve this functionality, use the **Ping** action to check the server. Next, use an **If** block to check if the response indicates that the server is available. When the **Ping** action returns **Failure**, the flow should stop.
 
 ![The Check_Web_Access subflow.](..\media\exercise-check-web-access-flow.png)
 
-Optionally, you can use the **Get current date and time** and **Write text to file** actions to append a registry to a log file.
+Optionally, you can use the **Get current date and time** and **Write text to file** actions to append a new registry to a log file.
 
 ![The optional actions in the Check_Web_Access subflow.](..\media\exercise-check-web-access-flow-optional.png)
 
