@@ -13,7 +13,7 @@ summary: |
   [!include[](../../includes/lp-banner.md)]
   Microsoft Vaccination Management can help you accelerate delivery and administration of the COVID-19 vaccine. It provides a configurable solution for healthcare organizations and other vaccine site administrators to connect eligible people with vaccination facilities through online registration and appointment scheduling. The solution also offers vaccine inventory management, an app to check in residents and record vaccinations, and insights about the vaccination program through a centralized dashboard. 
 prerequisites: |
-  - To successfully complete the exercises in this Learning Path, be sure to complete the module on [Environment preparation](/learn/modules/vaccination-environment-prep/)
+  - To successfully complete the exercises in this Learning Path, complete the module on [Environment preparation](/learn/modules/vaccination-environment-prep/).
 video:
   title: "Get started with Microsoft Vaccination Management"
   url: https://www.microsoft.com/videoplayer/embed/RWzAth
