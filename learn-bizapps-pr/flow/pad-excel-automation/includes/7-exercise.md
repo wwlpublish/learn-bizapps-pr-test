@@ -55,9 +55,9 @@ To copy the cells, follow these steps:
 
 2. In the **Copy mode** options, select **Values from a range of cells**.
 
-3. Set the first **Column** to **D** and **Row** to **1**.
+3. Set the **Start column** to **D** and **Start row** to **1**.
 
-4. Set the second **Column** to **D** and then set **Row** to **%FirstFreeRowOnColumn-1%** so that the entire column is dynamically selected without having to calculate its length.
+4. Set the **End column** to **D** and then set **End row** to **%FirstFreeRowOnColumn-1%** so that the entire column is dynamically selected without having to calculate its length.
 
     ![Screenshot of Copy cells from Excel worksheet properties dialog.](..\media\copy-cells-from-excel-exercise.png)
 

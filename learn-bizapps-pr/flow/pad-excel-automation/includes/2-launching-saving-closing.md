@@ -24,11 +24,11 @@ To save the document in its current path with its current filename, set the **Sa
 
 ![Screenshot of Save Excel action properties dialog.](..\media\save-excel-action-properties.png)
 
-Select **Save document as**, to show additional options to change the **Document Format** and to provide the new **Document path**.
+Select **Save document as**, to show additional options to change the **Document format** and to provide the new **Document path**.
 
 ![Screenshot of Save Excel action properties dialog with Save mode set to Save document as, and Document format and Document path highlighted.](..\media\save-excel-action-properties-continued.png)
 
-Close a specific instance of Excel with the **Close Excel** action. Optionally, save the file with any of the **before closing Excel** options.
+Close a specific instance of Excel with the **Close Excel** action. Optionally, save the file with any of the **Before closing Excel** options.
 
 Use any of the options to save the document, and the action will function similarly to the **Save Excel** action, in addition to closing the document.
 
