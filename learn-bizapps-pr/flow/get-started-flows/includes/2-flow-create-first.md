@@ -2,6 +2,10 @@ In this unit, you'll see more of Power Automate as you build your first flow.
 
 It can be time consuming to search for attachments through email. The flow that you'll build saves time by storing all your email attachments in a folder on your Microsoft OneDrive for Business account.
 
+If you'd like to see the process of creating flows, see the following video. The steps that follow guide you through the process of creating flows.
+
+> [!VIDEO types of flows videos.] 
+
 ## Choose a template
 
 Our many templates will get your flows flowing quickly. They'll help you connect the services you're already using in more meaningful ways.
