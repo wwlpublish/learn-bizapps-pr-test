@@ -106,5 +106,7 @@ For now, let's focus on the **?** menu next to your login, which has these optio
 
 ## What's next?
 
-Now that you have a taste of what Power Automate is and what it can do,
-let's take a look at what makes a flow.
+Let's take a look at the different types of flows that are available in Power Automate.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWGzz0] 
+
