@@ -108,5 +108,5 @@ For now, let's focus on the **?** menu next to your login, which has these optio
 
 Let's take a look at the different types of flows that are available in Power Automate.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4M4MK] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWGzz0] 
 
