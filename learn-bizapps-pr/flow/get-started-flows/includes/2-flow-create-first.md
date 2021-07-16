@@ -4,7 +4,7 @@ It can be time consuming to search for attachments through email. The flow that 
 
 If you'd like to see the process of creating flows, see the following video. The steps that follow guide you through the process of creating flows.
 
-> [!VIDEO types of flows videos.] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWGzyZ] 
 
 ## Choose a template
 
