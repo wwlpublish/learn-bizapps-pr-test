@@ -21,8 +21,8 @@ Add the following measure:
 ```dax
 Product Quantity Rank =
 RANKX(
-    ALL('Product'[Product]),
-    [Quantity]
+	ALL('Product'[Product]),
+	[Quantity]
 )
 ```
 
@@ -33,25 +33,25 @@ The RANKX function iterates over a table that is returned by the [ALL](https://d
 In the table visual, notice that two products tie for tenth place and that the next product's rank is 12. This visual is an example of using the **Skipped** ties argument.
 
 > [!div class="mx-imgBorder"]
-> [![Bike Sales table visual with columns: Product, Quantity, and Rank, ordered by Quantity descending.](../media/dax-table-bike-product-quanity-rank-skipped-ssm.png)](../media/dax-table-bike-product-quanity-rank-skipped-ssm.png#lightbox)
+> [![An image shows a table visual titled Bike Sales. It has three columns: Product, Quantity, and Product Quantity Rank. The table rows are ordered by Quantity descending. Two products share rank 10, and the next product is rank 12.](../media/dax-table-bike-product-quanity-rank-skipped-ssm.png)](../media/dax-table-bike-product-quanity-rank-skipped-ssm.png#lightbox)
 
 Your next task is to enter the following logic to modify the **Product Quantity Rank** measure definition to use dense ranking:
 
 ```dax
 Product Quantity Rank =
 RANKX(
-    ALL('Product'[Product]),
-    [Quantity],
-    ,
-    ,
-    DENSE
+	ALL('Product'[Product]),
+	[Quantity],
+	,
+	,
+	DENSE
 )
 ```
 
 In the table visual, notice that a skipped ranking no longer exists. After the two products that tie for tenth place, the next ranking is 11.
 
 > [!div class="mx-imgBorder"]
-> [![Bike Sales table visual with columns: Product, Quantity, and Rank, ordered by Quantity descending, but with dense ranking.](../media/dax-table-bike-product-quantity-rank-dense-ssm.png)](../media/dax-table-bike-product-quantity-rank-dense-ssm.png#lightbox)
+> [![An image shows a table visual titled Bike Sales. It has three columns: Product, Quantity, and Product Quantity Rank. The table rows are ordered by Quantity descending. Two products share rank 10, and the next product is rank 11.](../media/dax-table-bike-product-quantity-rank-dense-ssm.png)](../media/dax-table-bike-product-quantity-rank-dense-ssm.png#lightbox)
 
 Notice that the table visual total for the **Product Quantity Rank** is one (1). The reason is because the total for all products is ranked.
 
@@ -63,14 +63,14 @@ It's not appropriate to rank total products, so you will now use the following l
 ```dax
 Product Quantity Rank =
 IF(
-    HASONEVALUE('Product'[Product]),
-    RANKX(
-        ALL('Product'[Product]),
-        [Quantity],
-        ,
-        ,
-        DENSE
-    )
+	HASONEVALUE('Product'[Product]),
+	RANKX(
+		ALL('Product'[Product]),
+		[Quantity],
+		,
+		,
+		DENSE
+	)
 )
 ```
 

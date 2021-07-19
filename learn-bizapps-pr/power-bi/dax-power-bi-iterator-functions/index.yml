@@ -3,7 +3,7 @@ uid: learn-bizapps.dax-power-bi-iterator-functions
 metadata: 
  title: Use DAX iterator functions in Power BI Desktop models
  description: By the end of this module, you’ll learn about what the family of iterator functions can do and how to use them in your DAX calculations. Calculations will include custom summarizations, ranking, and concatenation.
- ms.date: 07/07/2020  
+ ms.date: 07/14/2021
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
