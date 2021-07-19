@@ -1,7 +1,7 @@
 Before data can be used to tell a story, it must be run through a process that makes it usable in the story. Data analysis is the process of identifying, cleaning, transforming, and modeling data to discover meaningful and useful information. The data is then crafted into a story through reports for analysis to support the critical decision-making process.
 
 > [!div class="mx-imgBorder"]
-> [![Diagram of reporting on trusted data from various sources.](../media/reporting-trusted-data-ss.png)](../media/reporting-trusted-data-ss.png#lightbox)
+> [![reporting on trusted data](../media/reporting-trusted-data-ss.png)](../media/reporting-trusted-data-ss.png#lightbox)
 
 As the world becomes more data-driven, storytelling through data analysis is becoming a vital component and aspect of large and small businesses. It is the reason that organizations continue to hire data analysts.
 
