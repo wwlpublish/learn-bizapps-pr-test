@@ -1,11 +1,9 @@
 As a data analyst, you are on a journey. Think about all the data that is being generated each day and that is available in an organization, from transactional data in a traditional database, telemetry data from services that you use, to signals that you get from different areas like social media.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWG0K4]
+> [!div class="mx-imgBorder"]
+> [![abundance of data](../media/abundance-data-ss.png)](../media/abundance-data-ss.png#lightbox)
 
 For example, today's retail businesses collect and store massive amounts of data that track the items you browsed and purchased, the pages you've visited on their site, the aisles you purchase products from, your spending habits, and much more.
-
-> [!div class="mx-imgBorder"]
-> [![Diagram of the abundance of data generated filtered into reporting.](../media/abundance-data-ss.png)](../media/abundance-data-ss.png#lightbox)
 
 With data and information as the most strategic asset of a business, the underlying challenge that organizations have today is understanding and using their data to positively effect change within the business. Businesses continue to struggle to use their data in a meaningful and productive way, which impacts their ability to act.
 
