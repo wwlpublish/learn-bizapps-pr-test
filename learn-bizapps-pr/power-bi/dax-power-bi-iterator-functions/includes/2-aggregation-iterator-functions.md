@@ -7,8 +7,8 @@ In this section, you will create your first measure that uses an iterator functi
 ```dax
 Revenue =
 SUMX(
-    Sales,
-    Sales[Order Quantity] * Sales[Unit Price] * (1 - Sales[Unit Price Discount Pct])
+	Sales,
+	Sales[Order Quantity] * Sales[Unit Price] * (1 - Sales[Unit Price Discount Pct])
 )
 ```
 
@@ -24,11 +24,11 @@ Now, add another measure:
 ```dax
 Discount =
 SUMX(
-    Sales,
-    Sales[Order Quantity]
-    * (
-        RELATED('Product'[List Price]) - Sales[Unit Price]
-    )
+	Sales,
+	Sales[Order Quantity]
+	* (
+		RELATED('Product'[List Price]) - Sales[Unit Price]
+	)
 )
 ```
 
@@ -46,8 +46,8 @@ The following example considers a requirement to report on average revenue. Add 
 ```dax
 Revenue Avg =
 AVERAGEX(
-    Sales,
-    Sales[Order Quantity] * Sales[Unit Price] * (1 - Sales[Unit Price Discount Pct])
+	Sales,
+	Sales[Order Quantity] * Sales[Unit Price] * (1 - Sales[Unit Price Discount Pct])
 )
 ```
 
@@ -65,16 +65,17 @@ The following example uses an iterator function to create a new measure that rai
 ```dax
 Revenue Avg Order =
 AVERAGEX(
-    VALUES('Sales Order'[Sales Order]),
-    [Revenue]
+	VALUES('Sales Order'[Sales Order]),
+	[Revenue]
 )
 ```
 
 Format the **Revenue Avg Order** measure as currency with two decimal places, and then add it to the table visual.
 
 > [!div class="mx-imgBorder"]
-> [![A table visual with five columns: Month, Revenue, Discount, Revenue Avg Order Line, and Revenue Avg Order. A year's worth of data is displayed.](../media/dax-table-month-revenue-4-ssm.png)](../media/dax-table-month-revenue-4-ssm.png#lightbox)
+> [![An image show a table visual with five columns: Month, Revenue, Discount, Revenue Avg Order Line, and Revenue Avg Order. A year's worth of data is displayed.](../media/dax-table-month-revenue-4-ssm.png)](../media/dax-table-month-revenue-4-ssm.png#lightbox)
 
 As expected, the average revenue for an order is always higher than the average revenue for a single order line.
 
 Notice that the formula uses the [VALUES](https://docs.microsoft.com/dax/values-function-dax/?azure-portal=true) DAX function. This function lets your formulas determine what values are in filter context. In this case, this AVERAGEX function iterates over each sales order *in filter context*. In other words, it iterates over each sales order for the month. Filter context and the VALUES function are introduced in the filter context module.
+
