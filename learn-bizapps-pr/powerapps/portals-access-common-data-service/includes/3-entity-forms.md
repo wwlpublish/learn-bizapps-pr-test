@@ -104,7 +104,7 @@ Additional settings define other aspects of form behavior, such as styling, tran
 
 **Add attach file** - A number of options are available to add a file upload control to your form. Configuration is flexible and supports multiple files, storage options, mime type, and size restrictions (for example, you can restrict uploads to images up to 2 MB in size). 
 
-**Geolocation** - An table form can be configured to display a map control to display an existing location as a pin on a map or to provide a user with the ability to specify a location. For more information, see [Add Geolocation](https://docs.microsoft.com/powerapps/maker/portals/configure/add-geolocation/?azure-portal=true).
+**Geolocation** - A table form can be configured to display a map control to display an existing location as a pin on a map or to provide a user with the ability to specify a location. For more information, see [Add Geolocation](https://docs.microsoft.com/powerapps/maker/portals/configure/add-geolocation/?azure-portal=true).
 
 The form's map control requires additional configuration to tell it what the various location columns are, to assign values to them, or retrieve values from them. For more information, see [Geolocation configuration for table forms](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-forms.md?azure-portal=true#geolocation-configuration-for-entity-forms).
 
@@ -133,7 +133,7 @@ All commands include options to rename the buttons and change their placement on
 
 ## Add a table form to your portal
 
-An table form defines the required behavior but does not contain information about how and where on the site that the form should be rendered. Two methods to render a table form in a portal are:
+A table form defines the required behavior but does not contain information about how and where on the site that the form should be rendered. Two methods to render a table form in a portal are:
 
 - The table form can be explicitly specified as a target for a table list action like Create, Update, or Edit. In this case, the form will be rendered in a modal pop-up window. Certain limitations apply when the form is rendered in a pop-up window, for example, the ability to create related records from subgrids is not available.
 - Similar to a table list, a table form component can be added to a webpage from portals Studio. This action will place a Liquid tag on the webpage copy to render the table form.
