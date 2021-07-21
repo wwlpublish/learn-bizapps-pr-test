@@ -17,7 +17,7 @@ abstract: |
     - Import a Microsoft Dataverse dataset into Power BI.
     - Create a new Power BI report based on the dataset.
     - Edit a report.
-    - Share a report with others.
+    - Share a report with others in Teams channels, chats, or meetings.
 prerequisites: Appropriate Power BI license to build and share Power BI reports. For more information about Power BI licenses, see the links that are provided in the Summary unit at the end of this module.
 iconUrl: /learn/achievements/dataverse-teams-power-bi.svg  
 levels:  
