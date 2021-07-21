@@ -1,6 +1,6 @@
 In this unit, you'll develop a flow that converts dates in the dd/MM/yyyy format, commonly used in Europe, to the American format (MM/dd/yyyy). The flow will prompt users to enter a date and it will display the converted date in a message box. 
 
-> [!ΝΟΤΕ]
+> [!NOTE]
 > Το make the flow work with date formats used in other regions, replace the presented date formats with the ones you want to use.
 
 To create the flow:
