@@ -10,11 +10,11 @@ To create the flow:
 
     ![Screenshot of the Build a flow dialog box.](..\media\console-build-new-flow.png)
 
-1. When the flow designer is launched, use the **actions** pane to search for and select the **Display input dialog** action. Set the action to prompt users to enter a date in the American format.
+1. When the flow designer is launched, use the **actions** pane to search for and select the **Display input dialog** action. Set the action to prompt users to enter a date in the European format.
 
     ![Screenshot of the Display input dialog action.](..\media\display-input-dialog-action.png)
 
-1. Deploy a **Convert text to datetime** action to convert the entered text to a datetime variable. The text represents the European date format, so configure the custom format in the action's properties.
+1. Deploy a **Convert text to datetime** action to convert the entered text to a datetime variable. The text represents the European date format, so configure the appropriate custom format in the action's properties.
 
     ![Screenshot of the Convert text to datetime action.](..\media\convert-text-to-datetime-action.png)
 
