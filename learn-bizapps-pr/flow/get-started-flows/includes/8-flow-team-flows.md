@@ -16,13 +16,13 @@ If you're the creator or an owner of a team flow, you'll find it listed on the *
 
 ## Prerequisites
 
-To create a team flow, you must have a [paid Power Automate plan](https://flow.microsoft.com/pricing/). Additionally, to add other owners to a team flow or remove owners from it, you must be the creator or an owner.
+To create a team flow, you must have a [paid Power Automate plan](https://flow.microsoft.com/pricing/). Also, to add more owners to a team flow or remove owners from it, you must be the creator or an owner.
 
 ## Create a team flow
 
-You create a team flow by adding other owners to an existing flow. After new owners are added to a flow, the flow will appear on the **Team flows** tab.
+You create a team flow by adding more owners to an existing flow. After new owners are added to a flow, the flow appears on the **Team flows** tab.
 
-1. Sign in to [Power Automate](https://flow.microsoft.com) by using your organizational account.
+1. Sign in to [Power Automate](https://flow.microsoft.com) using your organizational account.
 
 1. Select **My flows**.
 
@@ -32,7 +32,7 @@ You create a team flow by adding other owners to an existing flow. After new own
 
 1. Enter the name, email address, or group name of the person or group that you want to add as an owner.
 
-1. In the list that appears, select the user or group.
+1. In the list that appears, select the user or group to add.
 
     The user or group becomes an owner of the flow.
 
@@ -40,7 +40,7 @@ Keep in mind that when you create a team flow, it appears on the **Team flows** 
 
 ## Add a SharePoint list as a co-owner of a flow
 
-You can add Microsoft SharePoint lists as co-owners of a flow. In that way, everyone who has edit access to the list automatically gets edit access to the flow. After the flow is shared, you can just distribute a link to it.
+You can add a Microsoft SharePoint list as a co-owner of a flow. In that way, everyone who has edit access to the list automatically gets edit access to the flow. After the flow is shared, you can just distribute a link to it.
 
 ## Restrictions on changes to flows
 
