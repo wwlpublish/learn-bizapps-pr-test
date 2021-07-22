@@ -22,20 +22,20 @@ To begin, download [**Customers.xlsx**](https://github.com/MicrosoftDocs/mslearn
 
 The Excel document contains a list of customers. Each customer has a first name, a last name, an address, a state, and a city.
 
-1. Insert a row with headers by using the **Insert row to Excel worksheet** action, specifying the **Row Index**. To add a row at the top of the worksheet, set the **Row index** property to **1**.
+1. Insert a row with headers by using the **Insert row to Excel worksheet** action, specifying the **Row index**. To add a row at the top of the worksheet, set the **Row index** property to **1**.
 
    ![Screenshot of Insert row to Excel worksheet properties dialog.](..\media\insert-row-to-excel-exercise.png)
 
 1. Add five **Write to Excel worksheet** actions, one for each column (or header). In the first of these actions, set **Value to write** to **First Name**, and then set the **Column** property to **A**.
 
-![Screenshot of Write to Excel worksheet properties dialog.](..\media\write-to-excel-exercise.png)
+    ![Screenshot of Write to Excel worksheet properties dialog.](..\media\write-to-excel-exercise.png)
 
-The rest of the **Write to Excel worksheet** actions should be configured as follows:
+    The rest of the **Write to Excel worksheet** actions should be configured as follows:
 
-- **Last Name** — Column B
-- **Age** — Column C
-- **State** — Column D
-- **City** — Column E
+    - **Last Name** — Column B
+    - **Age** — Column C
+    - **State** — Column D
+    - **City** — Column E
 
 ### Switch positions of two columns
 
@@ -51,13 +51,13 @@ Next, to switch the positions of the last two columns so that **State** appears 
 
 To copy the cells, follow these steps:
 
-1. Select the **Copy cells From Excel worksheet** action.
+1. Select the **Copy cells from Excel worksheet** action.
 
 2. In the **Copy mode** options, select **Values from a range of cells**.
 
-3. Set the first **Column** to **D** and **Row** to **1**.
+3. Set the **Start column** to **D** and **Start row** to **1**.
 
-4. Set the second **Column** to **D** and then set **Row** to **%FirstFreeRowOnColumn-1%** so that the entire column is dynamically selected without having to calculate its length.
+4. Set the **End column** to **D** and then set **End row** to **%FirstFreeRowOnColumn-1%** so that the entire column is dynamically selected without having to calculate its length.
 
     ![Screenshot of Copy cells from Excel worksheet properties dialog.](..\media\copy-cells-from-excel-exercise.png)
 
@@ -71,7 +71,7 @@ To paste cells, follow these steps:
 
 ### Delete a blank column
 
-To delete the blank column, select the **Delete column from Excel worksheet** action and then set the **Column** property to **D**.
+To delete the blank column, select the **Delete column from Excel worksheet** action and then set the **Delete column** property to **D**.
   
 ![Screenshot of Delete column from Excel worksheet properties dialog.](..\media\delete-column-from-excel-exercise.png)
 

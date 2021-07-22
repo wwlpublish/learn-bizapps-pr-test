@@ -62,12 +62,12 @@ customers for your app.
 1.	On the table designer toolbar, Select **Business rules**.
 1.	Select **Add business rule**, a new browser tab will open.
 1.	Select on the **Condition New Condition** from the design pane.
-1.	In the right-hand pane, for **column** choose **Contract Amount**.
+1.	In the right-hand pane, for **field** choose **Contract Amount**.
 1.	For the Operator, choose **contains data**.
 1.	Select **Apply**.
 1.	In the right-hand pane, Select **Components**.
 1.	Select and hold **Set Business Required** and drag to the plus symbol to the right of the purple checkbox in the design pane.
-1.	In the right-hand pane, for **column** choose **Probability**.
+1.	In the right-hand pane, for **field** choose **Probability**.
 1.	For the Status, choose **Business Required**.
 1.	Select **Apply**.
 1.	In the top left of the screen, Select the dropdown next to **Prospects New business rule** and set the **Business rule name** to **Make Probability Required**.

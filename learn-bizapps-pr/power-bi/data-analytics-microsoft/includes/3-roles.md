@@ -5,7 +5,7 @@ Today's applications and projects can be large and intricate, often involving th
 In the recent past, roles such as business analysts and business intelligence developers were the standard for data processing and understanding. However, excessive expansion of the size and different types of data has caused these roles to evolve into more specialized sets of skills that modernize and streamline the processes of data engineering and analysis.
 
 > [!div class="mx-imgBorder"]
-> [![Diagram of the various roles in data processing.](../media/roles-data-ss.png)](../media/roles-data-ss.png#lightbox)
+> [![roles in data](../media/roles-data-ss.png)](../media/roles-data-ss.png#lightbox)
 
 The following sections highlight these different roles in data and the specific responsibility in the overall spectrum of data discovery and understanding:
 
