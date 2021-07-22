@@ -5,8 +5,8 @@ metadata:
   title: Launch, close, and handle browsers
   description: Launch, close, and handle browsers
   ms.date: 11/09/2020 
-  author: georgiostrantzas 
-  ms.author: getrantz 
+  author: georgiostrantzas  
+  ms.author: v-gtrantzas  
   ms.topic: interactive-tutorial 
   ms.prod: power-platform 
 durationInMinutes: 7 

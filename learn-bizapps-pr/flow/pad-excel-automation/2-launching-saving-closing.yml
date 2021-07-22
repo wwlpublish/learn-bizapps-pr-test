@@ -5,8 +5,8 @@ metadata:
   title: Launch, save, and close an Excel file 
   description: Learn how to launch, save, and close an Excel file. 
   ms.date: 12/09/2020 
-  author: olegmelnykov 
-  ms.author: olmelnyk 
+  author: georgiostrantzas  
+  ms.author: v-gtrantzas  
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 10 
