@@ -13,6 +13,6 @@ metadata:
 durationInMinutes: 15
 content: |
   [!include[](../includes/unit-banner.md)]
-  [!include[](../includes/power-apps-accessing-labs.md)
+  [!include[](../includes/power-apps-accessing-labs.md)]
   [!include[](includes/5-powerapps-create-first.md)]
 
