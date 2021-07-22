@@ -1,5 +1,5 @@
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Save as menu with Power BI Service selected.](../media/04-save-ss.png)](../media/04-save-ss.png#lightbox)
+> [![The Save as choice](../media/04-save-ss.png)](../media/04-save-ss.png#lightbox)
 
 To publish your report, select **File >** **Save as** and then select **Power BI Service**. Your report will now appear in Power BI service. For more information, go to [Publish datasets and reports from Power BI Desktop](https://docs.microsoft.com/power-bi/create-reports/desktop-upload-desktop-files/?azure-portal=true).
 
