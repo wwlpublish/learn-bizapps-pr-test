@@ -2,7 +2,7 @@ When building dashboards, you should consider ensuring that the same theme is ap
 
 ## Themes in Power BI 
 
-A variety of themes are available for use in Power BI service. Go to a dashboard, select the edit drowpdown arrow, and then select **Dashboard theme**.
+A variety of themes are available for use in Power BI service. Go to a dashboard, select the edit dropdown arrow, and then select **Dashboard theme**.
 
 > [!div class="mx-imgBorder"]
 > [![Selecting dashboard theme on a dashboard](../media/04-dashboard-theme-button-ssm.png)](../media/04-dashboard-theme-button-ssm.png#lightbox)
