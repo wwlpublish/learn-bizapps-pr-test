@@ -15,18 +15,18 @@ quiz:
   questions: 
   - content: Which one of the following Excel actions uses an open Excel file instead of launching Excel?
     choices: 
-    - content: Attach to Running Excel
+    - content: Attach to running Excel
       isCorrect: true 
-      explanation: The Attach to Running Excel action attaches to an Excel file that's already open.
+      explanation: The Attach to running Excel action attaches to an Excel file that's already open.
     - content: Launch Excel
       isCorrect: false 
       explanation: The Launch Excel action launches a new Excel file.
-    - content: Set Active Excel Worksheet
+    - content: Set active Excel worksheet
       isCorrect: false 
-      explanation: The Set Active Excel Worksheet action uses an already defined Excel instance.
-    - content: Activate Cell in Excel Worksheet
+      explanation: The Set active Excel worksheet action uses an already defined Excel instance.
+    - content: Activate cell in Excel worksheet
       isCorrect: false 
-      explanation: The Activate Cell in Excel Worksheet action uses an already defined Excel instance.
+      explanation: The activate cell in Excel worksheet action uses an already defined Excel instance.
   - content: Which one of the following statements about Excel actions is true?
     choices: 
     - content: "To read data from an Excel worksheet, you must select the cells first."
@@ -45,15 +45,15 @@ quiz:
       explanation: The range of cells is specified by the upper-left and lower-right corners.
   - content: Which one of the following Excel actions is necessary for subsequent actions to be carried out on a specific worksheet of an Excel file?
     choices: 
-    - content: Get Active Excel Worksheet
+    - content: Get active Excel worksheet
       isCorrect: false 
-      explanation: The Get Active Excel Worksheet action retrieves an Excel file's active worksheet.
-    - content: Activate Cell in Excel Worksheet
+      explanation: The Get active Excel worksheet action retrieves an Excel file's active worksheet.
+    - content: Activate cell in Excel worksheet
       isCorrect: false 
-      explanation: The Activate Cell in Excel Worksheet action activates specific cells in an Excel file.
-    - content: Set Active Excel Worksheet
+      explanation: The activate cell in Excel worksheet action activates specific cells in an Excel file.
+    - content: Set active Excel worksheet
       isCorrect: true 
-      explanation: The Set Active Excel Worksheet action activates a specific worksheet in an Excel file.
-    - content: Get Selected Cell Range from Excel Worksheet
+      explanation: The Set active Excel worksheet action activates a specific worksheet in an Excel file.
+    - content: Get selected cell range from Excel worksheet
       isCorrect: false 
-      explanation: The Get Selected Cell Range from Excel Worksheet action selects a specified range of cells.
+      explanation: The Get selected cell range from Excel worksheet action selects a specified range of cells.

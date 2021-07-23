@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 07/07/2020 
+ ms.date: 07/14/2021
  author: heyrob 
  ms.author: robde 
  ms.topic: interactive-tutorial 
@@ -32,7 +32,7 @@ quiz:
     - content: Add time intelligence measures to the date table.
       isCorrect: false
       explanation: You are not required to add time intelligence measures to the date table. It's not common to add measures to a dimension table.
-    - content: Mark the date table.
+    - content: Mark as a Date table.
       isCorrect: true 
       explanation: You must mark the date table so that Power BI can correctly filter its dates.
     - content: Add a fiscal hierarchy.

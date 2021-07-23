@@ -11,7 +11,7 @@ The following table explains the common scenarios where table forms can be used.
 
 | Scenario | Description                                                  |
 | -------- | ------------------------------------------------------------ |
-| **Layout** | Table forms can be configured and used in read-only mode as a layout mechanism. Think of table forms as informational pages about employees, products, or any other Microsoft Dataverse table. For example, you might have a custom table in your Dataverse instance that describes open positions that are available within your organization. Instead of crafting a special template to render the page, you can create a separate model-driven form for the table, create a new webpage by using portals Studio, and then add an **Table Form** component to the page. Any published changes in a form layout in a model-driven app will automatically apply to the webpage. |
+| **Layout** | Table forms can be configured and used in read-only mode as a layout mechanism. Think of table forms as informational pages about employees, products, or any other Microsoft Dataverse table. For example, you might have a custom table in your Dataverse instance that describes open positions that are available within your organization. Instead of crafting a special template to render the page, you can create a separate model-driven form for the table, create a new webpage by using portals Studio, and then add a **Table Form** component to the page. Any published changes in a form layout in a model-driven app will automatically apply to the webpage. |
 | **Information capture** | Forms can be used on the portal for data capture from anonymous or authenticated users. For example, a simple lead table form might be rendered on a **Contact Us** page to record anonymous requests as leads in Dynamics 365 Sales. For authenticated users, a portal might use a survey page to collect product feedback from customers into a custom Product Feedback table. |
 | **Record management** | Typically used in authenticated scenarios, table forms allow various combinations of Create, Retrieve, Update, and Delete (CRUD) operations on a table to be defined within a set of related webpages. For example, customers can retrieve and read their own cases and create new ones, partners can edit their company profiles, and employees can view the list of assets that are allocated to them by the company. |
 | **Web apps** | Table forms, when used in conjunction with table lists and subgrids, and with the functionality extended by JavaScript, allow developers to build complete web applications. |
@@ -27,7 +27,7 @@ While reuse of forms that are part of a model-driven app is possible, the common
 
 - Portal forms are more concise with less information presented, especially when external audiences are involved.
 - Portal processes are separate from the internal use of a staff-facing, model-driven app (including Dynamics 365 apps). Dedicated portal forms are easier to maintain because any changes in the model-driven apps need to be manually applied to the portal forms, giving you an opportunity to review the requirements and assess usability aspects.
-- Certain limitations exist on the form and columns that are rendering, for example, PCF controls are not rendered. For more information, see [About table forms](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-forms/?azure-portal=true).
+- Certain limitations exist on the form and columns that are rendering, for example, PCF controls are not rendered. For more information, see [About table forms](/powerapps/maker/portals/configure/entity-forms/?azure-portal=true).
 - Client-side business rules and JavaScript, which are essential parts of a model-driven form, will not run on the portal. It's easy to overlook and might result in unintended consequences. 
 - Special considerations need to be given when you are rendering related records, notes, and a timeline because not all functional aspects are supported (or required) in the portals.
 
@@ -104,9 +104,9 @@ Additional settings define other aspects of form behavior, such as styling, tran
 
 **Add attach file** - A number of options are available to add a file upload control to your form. Configuration is flexible and supports multiple files, storage options, mime type, and size restrictions (for example, you can restrict uploads to images up to 2 MB in size). 
 
-**Geolocation** - An table form can be configured to display a map control to display an existing location as a pin on a map or to provide a user with the ability to specify a location. For more information, see [Add Geolocation](https://docs.microsoft.com/powerapps/maker/portals/configure/add-geolocation/?azure-portal=true).
+**Geolocation** - A table form can be configured to display a map control to display an existing location as a pin on a map or to provide a user with the ability to specify a location. For more information, see [Add Geolocation](/powerapps/maker/portals/configure/add-geolocation/?azure-portal=true).
 
-The form's map control requires additional configuration to tell it what the various location columns are, to assign values to them, or retrieve values from them. For more information, see [Geolocation configuration for table forms](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-forms.md?azure-portal=true#geolocation-configuration-for-entity-forms).
+The form's map control requires additional configuration to tell it what the various location columns are, to assign values to them, or retrieve values from them. For more information, see [Geolocation configuration for table forms](/powerapps/maker/portals/configure/entity-forms.md?azure-portal=true#geolocation-configuration-for-entity-forms).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Table form with geolocation enabled.](../media/3-entity-form-geolocation-ss.png)](../media/3-entity-form-geolocation-ss.png#lightbox)
@@ -133,7 +133,7 @@ All commands include options to rename the buttons and change their placement on
 
 ## Add a table form to your portal
 
-An table form defines the required behavior but does not contain information about how and where on the site that the form should be rendered. Two methods to render a table form in a portal are:
+A table form defines the required behavior but does not contain information about how and where on the site that the form should be rendered. Two methods to render a table form in a portal are:
 
 - The table form can be explicitly specified as a target for a table list action like Create, Update, or Edit. In this case, the form will be rendered in a modal pop-up window. Certain limitations apply when the form is rendered in a pop-up window, for example, the ability to create related records from subgrids is not available.
 - Similar to a table list, a table form component can be added to a webpage from portals Studio. This action will place a Liquid tag on the webpage copy to render the table form.

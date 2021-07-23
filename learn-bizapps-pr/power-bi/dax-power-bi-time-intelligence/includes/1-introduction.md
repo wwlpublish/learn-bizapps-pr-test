@@ -7,18 +7,19 @@ For example, at the Adventure Works company, their financial year begins on July
 > [!div class="mx-imgBorder"]
 > [![An image shows a matrix visual with grouping on Year and Month on the rows and Revenue and Revenue YTD summarizations.](../media/dax-matrix-revenue-ytd-ss.png)](../media/dax-matrix-revenue-ytd-ss.png#lightbox)
 
-The filter context for **2017 August** contains each of the 31 dates of August, which are stored in the **Date** table. However, the calculated year-to-date revenue for **2017 August** applies a different filter context. It's the first date of the year through to the last date in filter context. In this example, that's July 1, 2017 through to August 31, 2017.
+The filter context for **2017 August** contains each of the 31 dates of August, which are stored in the **Date** table. However, the calculated year-to-date revenue for **2017 August** applies a different filter context. It's the first date of the year through to the last date in filter context. In this example, that's July 1, 2017 through to August 30, 2017.
 
 Time intelligence calculations modify date filter contexts. They can help you answer these time-related questions:
 
-- What's the accumulation of revenue for the year, quarter, or month?
+-   What's the accumulation of revenue for the year, quarter, or month?
 
-- What revenue was produced for the same period last year?
+-   What revenue was produced for the same period last year?
 
-- What growth in revenue has been achieved over the same period last year?
+-   What growth in revenue has been achieved over the same period last year?
 
-- How many new customers made their first order in each month?
+-   How many new customers made their first order in each month?
 
-- What's the inventory stock on-hand value for the company's products?
+-   What's the inventory stock on-hand value for the company's products?
 
 This module describes how to create time intelligence measures to answer these questions.
+

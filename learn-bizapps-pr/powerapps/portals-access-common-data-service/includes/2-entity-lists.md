@@ -2,7 +2,7 @@ The **Table Lists** component allows a maker to display a list of Microsoft Data
 
 ## Create a table list 
 
-An table list can be added as a component to a webpage in Power Apps portals Studio. After placing the list component on a page, the maker will need to set the properties of the table list. Then, the maker will choose the table and one or more model-driven views to be used to render the table list on the page.
+A table list can be added as a component to a webpage in Power Apps portals Studio. After placing the list component on a page, the maker will need to set the properties of the table list. Then, the maker will choose the table and one or more model-driven views to be used to render the table list on the page.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of table list in Portal Studio.](../media/2-entity-list-portal-studio-ss.png)](../media/2-entity-list-portal-studio-ss.png#lightbox)
@@ -33,7 +33,7 @@ Power Apps portals Studio provides a basic interface for creating and configurin
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Table List in Portal Management.](../media/2-list-portal-app-ssm.png)](../media/2-list-portal-app-ssm.png#lightbox)
 
-An table list can be as simple or as complicated as your business requirements specify. The only required properties for the table list, other than the name and the website, are the target **Table Name** and one or more **Views**. 
+A table list can be as simple or as complicated as your business requirements specify. The only required properties for the table list, other than the name and the website, are the target **Table Name** and one or more **Views**. 
 
 Table lists are highly configurable and have many settings that define the list behavior. Lists can also include actions for the user to interact with the items on the list.
 
@@ -101,7 +101,7 @@ Table lists can have actions associated with them to enable per list commands, l
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Table list commands and views.](../media/2-entity-list-features-commands-ssm.png)](../media/2-entity-list-features-commands-ssm.png#lightbox)
 
-For more information, see [About table lists](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-lists/?azure-portal=true).
+For more information, see [About table lists](/powerapps/maker/portals/configure/entity-lists/?azure-portal=true).
 
 Watch the following video to learn how to configure and display the view on a portal page and add interactive filtering capabilities on an existing Dataverse table.
 
