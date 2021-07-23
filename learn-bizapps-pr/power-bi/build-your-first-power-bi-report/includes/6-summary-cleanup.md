@@ -2,21 +2,21 @@ Congratulations! You've just gone through the process of creating a Microsoft Po
 
 In **Power BI Desktop**, you can connect to all sorts of data sources. You just have to select **Get Data** on the ribbon, and then a multitude of connector options appears. 
 
-![Screenshot of the connector options in the Get data menu.](../media/pbid-summary_01.png)
+![Connect to data](../media/pbid-summary_01.png)
 
 You also learned that connecting to more than one data source is as easy as making a second **Get Data** connection. You can also use the **New Source** button in **Power Query Editor**. The **Navigator** window in **Power Query Editor** provides a preview of the data.
 
-![Screenshot of the Navigator window preview of the data.](../media/pbid-getdata_02.jpg)
+![The Navigator window](../media/pbid-getdata_02.jpg)
 
 After you select data, you can shape it the way you want by removing columns and rows, or by merging connections into a single **data model** that you can use in your report.
 
 You learned that creating visuals is as easy as dragging fields onto the report canvas. You can then change those visuals however you want, experimenting until you get them looking just the way you want.
 
-![Screenshot of the State field on the canvas.](../media/pbid-visuals_03a.png)
+![Drag a field onto the canvas](../media/pbid-visuals_03a.png)
 
 And after your report is all done, you can share it with others in your organization by publishing it to the Power BI service.
 
-![Screenshot of the Publish button in Power BI.](../media/pbid-share_01.png)
+![Publish button](../media/pbid-share_01.png)
 
 Great work! As you might remember, we went through a few visuals but then had to move on, promising that the finished report would be available from a link in this summary. Well, here we are, and here it is. To download the finished Power BI Desktop report, use the following link:
 

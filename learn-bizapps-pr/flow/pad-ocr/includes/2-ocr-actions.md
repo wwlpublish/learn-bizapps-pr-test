@@ -4,15 +4,15 @@ Power Automate Desktop provides a wide variety of optical character recognition 
 
 To perform any OCR operation, you have to initialize an OCR engine. OCR engines are software tools used to convert typed or handwritten content into a machine-readable and editable format.
 
-Power Automate Desktop supports the Microsoft MODI and Google Tesseract engines through the **Create MODI OCR engine** and **Create Tesseract OCR engine** actions. Both actions have the same structure and work identically.
+Power Automate Desktop supports thr Google Tesseract engine through the **Create Tesseract OCR engine** action.
 
-![Screenshot of the Create MODI O C R engine action.](..\media\create-modi-ocr-engine-action.png)
+![Screenshot of the Create Tesseract O C R engine action.](..\media\create-tesseract-ocr-engine-action.png)
 
 To initialize the engine, you need to specify its language and set the image's width and height multipliers.
 
 Image multipliers increase the size of the image to make text extraction or searching more effective. Although multipliers are a valuable mechanism, avoid setting values greater than three because high values might lead to failed results.
 
-As an output, these actions produce an OCR engine variable. This variable is used as input in virtually every other OCR action.
+As an output, the action produces an OCR engine variable. This variable is used as input in virtually every other OCR action.
 
 Additionally, the **Create Tesseract OCR engine** action provides the **Use other language** option to use languages outside the provided list. To use another language, you have to populate the language's abbreviation and the respective data file's path.
 
