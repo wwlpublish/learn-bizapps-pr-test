@@ -38,7 +38,7 @@ In this task, you will learn how to create a demo tenant along with the required
 8. Once the verification completes, request a valid domain name and Check Availability.
 
     > [!div class="mx-imgBorder"]
-    > [![Set up a User ID and password in your new domain and then select Sign up.](../media/6-identity.png)](../media/6-identity.png)
+    > [![Screenshot of validating the domain name.](../media/6-identity.png)](../media/6-identity.png)
 
 9. Set up a username and password and sign-up.
     
@@ -48,7 +48,7 @@ In this task, you will learn how to create a demo tenant along with the required
 10. Your Microsoft 365 tenant has been successfully created along with the Dynamics 365 Customer Engagement Plan license that includes a Power Apps license as well.
 
     > [!div class="mx-imgBorder"]
-    > [![Sreenshot of trial set up being completed.](../media/7-finalize-trial.png)](../media/7-finalize-trial.png)
+    > [![Sreenshot of trial set up being completed for the license.](../media/7-finalize-trial.png)](../media/7-finalize-trial.png)
 
 11. Select Get Started. This will open the Power Platform Admin Center where you will create a **New Environment** on which the Microsoft Vaccination Management applications will be installed later. Select a valid name for the Environment.  
 
@@ -60,6 +60,6 @@ In this task, you will learn how to create a demo tenant along with the required
 12.	For **Enable Dynamics 365 apps**, select No. This will ensure no Dynamics 365 applications are installed on the Dataverse Environment. Subsequently only Microsoft Vaccination Management applications will be installed. 
 
     > [!div class="mx-imgBorder"]
-    > [![Sreenshot of trial set up being completed.](../media/12-apps.png)](../media/12-apps.png)
+    > [![Sreenshot of selecting no for enabling Dynamics 365 apps.](../media/12-apps.png)](../media/12-apps.png)
 
 13. Select **Save**.
