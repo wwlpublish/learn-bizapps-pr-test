@@ -52,14 +52,9 @@ In this task, you will learn how to create a demo tenant along with the required
 
 11. Select Get Started. This will open the Power Platform Admin Center where you will create a **New Environment** on which the Microsoft Vaccination Management applications will be installed later. Select a valid name for the Environment.  
 
-    > [!div class="mx-imgBorder"]
-    > [![Sreenshot of trial set up being completed.](../media/11-admin-center.png)](../media/11-admin-center.png)
-
-    > [!NOTE] Select United States - Default for region. As of current state, Microsoft Vaccination Management is only available in United States region. 
+    >[!NOTE] 
+    > Select United States - Default for region. As of current state, Microsoft Vaccination Management is only available in United States region. 
 
 12.	For **Enable Dynamics 365 apps**, select No. This will ensure no Dynamics 365 applications are installed on the Dataverse Environment. Subsequently only Microsoft Vaccination Management applications will be installed. 
-
-    > [!div class="mx-imgBorder"]
-    > [![Sreenshot of selecting no for enabling Dynamics 365 apps.](../media/12-apps.png)](../media/12-apps.png)
 
 13. Select **Save**.
