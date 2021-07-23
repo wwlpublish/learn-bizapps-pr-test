@@ -25,12 +25,12 @@ In this task, you will learn how to create a demo tenant along with the required
     > [!div class="mx-imgBorder"]
     > [![Selecting Set up account from the trial.](../media/3-account.png)](../media/3-account.png)
 
-6. If the email is already using other Microsoft Services it will throw the following warning.
+6. If the email is already using other Microsoft Services, it will throw the following warning.
 
     > [!div class="mx-imgBorder"]
     > [![Provide a phone number where you can receive a text message or be called with a verification code to prove that you are not a robot.](../media/4-contact.png)](../media/4-contact.png)
 
-7. Select **Create a new account instead**. It will open the following page. Provide the necessary information. Enter a valid phone number where you can receive text message to validate the sign up process.  
+7. Select **Create a new account instead**. It will open the following page. Provide the necessary information. Enter a valid phone number where you can receive text message to validate the sign-up process.  
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of code verification for the trial.](../media/5-code.png)](../media/5-code.png)
@@ -40,7 +40,7 @@ In this task, you will learn how to create a demo tenant along with the required
     > [!div class="mx-imgBorder"]
     > [![Set up a User ID and password in your new domain and then select Sign up.](../media/6-identity.png)](../media/6-identity.png)
 
-9. Setup a username and password and sign up.
+9. Set up a username and password and sign-up.
     
     > [!div class="mx-imgBorder"]
     > [![Set up a User ID and password in your new domain and then select Sign up.](../media/7-plan.png)](../media/7-plan.png)
@@ -50,7 +50,7 @@ In this task, you will learn how to create a demo tenant along with the required
     > [!div class="mx-imgBorder"]
     > [![Sreenshot of trial set up being completed.](../media/7-finalize-trial.png)](../media/7-finalize-trial.png)
 
-11. Select Get Started. This will open the Power Platform Admin Center where you will create a **New Environment** on which the Microsoft Vaccination Management applications will be installed subsequently. Select a valid name for the Environment.  
+11. Select Get Started. This will open the Power Platform Admin Center where you will create a **New Environment** on which the Microsoft Vaccination Management applications will be installed later. Select a valid name for the Environment.  
 
     > [!div class="mx-imgBorder"]
     > [![Sreenshot of trial set up being completed.](../media/11-admin-center.png)](../media/11-admin-center.png)
