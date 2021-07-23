@@ -9,12 +9,12 @@ The Q&A feature is a tool within Power BI Desktop that allows you to ask natural
 To locate the Q&A feature, go to your dashboard in Power BI service. Along the top ribbon is the **Ask a question about your data** search box.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Q&A feature on a dashboard.](../media/03-question-answer-feature-ss.png)](../media/03-question-answer-feature-ss.png#lightbox)
+> [![Q&A feature on a dashboard](../media/03-question-answer-feature-ss.png)](../media/03-question-answer-feature-ss.png#lightbox)
 
 After selecting this box, you will be routed to the following page.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Q&A page after selecting Ask a question.](../media/03-question-answer-visual-example-ss.png)](../media/03-question-answer-visual-example-ss.png#lightbox)
+> [![Example of Q&A Visual](../media/03-question-answer-visual-example-ss.png)](../media/03-question-answer-visual-example-ss.png#lightbox)
 
 The Q&A visual consists of three main elements:
 
@@ -23,12 +23,12 @@ The Q&A visual consists of three main elements:
 -   **Pre-populated suggestion tiles** - This element contains tiles with pre-populated suggestions for questions that the user can consider asking. When the user selects one of these tiles, they will be shown analysis. For example, if you select the **top product category named by march sales** tile, you would get the following visual that is converted from the Q&A visual.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot example of selecting convert icon.](../media/03-converting-visual-icon-ss.png)](../media/03-converting-visual-icon-ss.png#lightbox)
+	> [![Example of selecting convert icon](../media/03-converting-visual-icon-ss.png)](../media/03-converting-visual-icon-ss.png#lightbox)
 
 -   **Pin visual** icon - This icon is located in the upper right of the visual, as shown in the following image.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Pin visual button in the upper right.](../media/03-pin-visual-ssm.png)](../media/03-pin-visual-ssm.png#lightbox)
+	> [![Pin visual button](../media/03-pin-visual-ssm.png)](../media/03-pin-visual-ssm.png#lightbox)
 
 Selecting the **pin visual** icon will allow you to pin the visual onto a new or existing dashboard, as you have done previously.
 

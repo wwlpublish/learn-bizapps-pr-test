@@ -13,7 +13,7 @@ In this view, you will be able to configure the action’s exception handling be
 ![The populated Exception Handling tab in the Open SQL Connection action's properties.](..\media\open-sql-connection-action-properties-all-exceptions.png)
 
 > [!NOTE]
-> Any user-created rules can be rearranged using the **Drag rule** icon on the right.
+> You can drag and drop any user-created rules to rearrange them.
 
 In the above case, for example, when this action fails, it will retry one more time after 2 seconds, and then run a subflow that will send an email to notify the administrator about the database status.
 

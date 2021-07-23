@@ -3,10 +3,9 @@ uid: learn-bizapps.build-your-first-report.5-exercise-share-a-power-bi-report
 metadata:
   title: Exercise - Share a Power BI report
   description: Exercise - Share a Power BI report
-  ms.date: 02/01/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 07/20/2021
+  author: heyrob
+  ms.author: robde
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
 title: Exercise - Share a Power BI report

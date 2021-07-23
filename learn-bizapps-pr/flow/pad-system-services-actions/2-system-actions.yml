@@ -5,8 +5,8 @@ metadata:
   title: System actions
   description: Learn about the system group of actions.
   ms.date: 09/24/2020 
-  author: olegmelnykov 
-  ms.author: olmelnyk 
+  author: georgiostrantzas  
+  ms.author: v-gtrantzas  
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 15 
