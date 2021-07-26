@@ -1,6 +1,6 @@
-In this unit, you'll create a model-driven app by using one of the standard entities that's available in your Microsoft Power Apps environment.
-
 ## Create a model-driven app
+
+In this unit, you'll create a model-driven app by using one of the standard entities that's available in your Microsoft Power Apps environment.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) by using your organizational account.
 2. Select the environment you want, or go to the [Power Apps admin center](https://admin.powerplatform.microsoft.com) to create a new one.
