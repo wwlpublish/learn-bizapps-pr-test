@@ -1,40 +1,47 @@
-Exception handling is often added to an already developed flow, when risks have been identified by testing.
+Exception handling is usually implemented in already developed flows, after risks have been identified by testing.
 
-In this exercise, you'll add exception handling rules to a flow that has already been developed and tested.
+To implement the following exercise, you can create a new flow containing only a **Download from web** action. The flow in the example is set to download the Windows 10 media creation tool, but you can configure the action to download any file.
+
+![The Download from web action.](..\media\exercise-download-from-web-action.png)
+
+After developing the main subflow, create a new subflow named **Check_Web_Access**. The subflow should check if the server you want to use is available. 
+
+To achieve this functionality, use the **Ping** action to check the server. Next, use an **If** block to check if the response indicates that the server is available. When the **Ping** action returns **Failure**, the flow should stop.
+
+![The Check_Web_Access subflow.](..\media\exercise-check-web-access-flow.png)
+
+Optionally, you can use the **Get current date and time** and **Write text to file** actions to append a new registry to a log file.
+
+![The optional actions in the Check_Web_Access subflow.](..\media\exercise-check-web-access-flow-optional.png)
 
 ## Set up exception handling for an individual action
 
-This flow downloads an Excel file to the user’s desktop, and proceeds to modify its data into a new worksheet.
+Back to the main subflow, the **Download from web** action could be a potential risk, as internet connectivity issues may cause the flow to fail.
 
-The **Download from Web** action has been identified as a potential risk, because internet connectivity isn't always stable.
-
-Edit the action and select **On error**. Then, activate the following options:
+To make the action robust to connectivity issues, open its properties and select **On error**. Then, configure the following options:
 
 - Retry the action
-- Run the **Check Web Access** subflow
+- Run the **Check_Web_Access** subflow
 - Continue flow run, by repeating the action.
 
-The result should look like this:
+![The error handling options of the Download from web action.](..\media\exercise-download-from-web-action-on-error.png)
 
-![Exception Handling in the Download from Web action's properties.](..\media\download-from-web-action-properties.png)
+This error handling configuration makes the action retry after 2 seconds every time it fails. 
 
-If this action fails, it will first retry after 2 seconds.
-If the retry fails, the **Check Web Access** subflow will run. This subflow has been designed to ping [https://www.microsoft.com](https://www.microsoft.com), to check whether there are issues with web connectivity - if the ping action produces a **Failed** result, a log entry is created in a text file on the user’s desktop, and the flow is stopped.
-
-![Screenshot of the created flow in the Workspace.](..\media\workspace.png)
-
-If this computer's internet connectivity is at fault, the flow will end. If not, the action’s exception handling will continue, so the action will be repeated.
+If the retry is unsuccessful, the **Check_Web_Access** subflow is run. The subflow checks if the server is available. If it isn't, the flow stops. If it's available, the action is rerun.
 
 ## Set up exception handling for a block of actions
 
-Having ensured that the **Download from Web** action will run as intended, let’s proceed to the part of the flow that utilizes Excel to modify the file’s data.
+Having ensured that the **Download from web** action runs as intended, let's add two more actions in the main subflow.
 
-After the file is opened, a series of actions are performed on its contents. Due to hardware limitations and the size of the data, the performance of the computer where this task is run is sometimes reduced, which causes Excel to become unresponsive. For this reason, you will have to add exception handling to all the Excel-related actions, because there is no single action that poses the risk.
+Deploy the **Copy file(s)** action and configure it to create a copy of the downloaded file on a second hard drive on your desktop. Next, use the **Rename file(s)** action to change the name of the newly created file.
 
-To achieve this, add a **On block error** action after the file is opened, and configure it so that it runs the **Restart Excel** subflow, and then repeats the failed action:
+![The final main subflow.](..\media\exercise-main-subflow.png)
 
-![Screenshot of the On block error action's properties.](..\media\on-block-error-action-properties-b.png)
+While executing the flow, the second drive may be disconnected. This scenario will cause the flow to fail. To avoid failure, you have to implement a common exception handling behavior for both actions, as the risk is the same.
 
-Press **OK**, and move the **End** action after the file is closed.
+Add an **On block error** action before copying the file and configure it to skip the actions inside the block.
 
-The **Restart Excel** subflow saves the file in its current state, closes it, and then reopens it. Therefore, if any of the Excel-related actions fails, the flow will save and close the file, reopen it, and attempt to resume running.
+![The On block error action.](..\media\on-block-error-action.png)
+
+Now, if any error happens while copying or renaming the file, the flow will skip these steps and continue running.
