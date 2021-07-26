@@ -2,15 +2,13 @@
 
 In this unit, you'll create a model-driven app by using one of the standard entities that's available in your Microsoft Power Apps environment.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/) by using your organizational account.
-2. Select the environment you want, or go to the [Power Apps admin center](https://admin.powerplatform.microsoft.com) to create a new one.
-3. On the **Home** page, select the **Model-driven app from blank**.  
-4. Click **Create**.
+1. On the **Home** page, select the **Model-driven app from blank**.  
+2. Click **Create**.
 
     ![Screenshot of the Model-driven app from blank feature.](../media/updated-choose-design-mode.png)
 
-5. On the **Create a New App** page, enter a name and description for the app.
-6. Select **Done**. Your new app appears in the App Designer, and you can now add components to it.
+3. On the **Create a New App** page, enter a name and description for the app.
+4. Select **Done**. Your new app appears in the App Designer, and you can now add components to it.
 
 ## Add components to your app
 You add components to your app by using the App Designer.
