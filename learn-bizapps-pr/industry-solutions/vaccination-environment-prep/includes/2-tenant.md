@@ -58,3 +58,51 @@ In this task, you will learn how to create a demo tenant along with the required
 12.	For **Enable Dynamics 365 apps**, select No. This will ensure no Dynamics 365 applications are installed on the Dataverse Environment. Subsequently only Microsoft Vaccination Management applications will be installed. 
 
 13. Select **Save**.
+
+### Task 2: Add prerequisite licenses
+
+In this task, you will learn how to add the other trial licenses (Office 365 E5 for sending/receiving emails and Power BI Pro to deploy and view the Microsoft Vaccination Management dashboards) that are required for you to complete the labs.
+
+1.  Go to <https://admin.microsoft.com> and sign in with the credentials that you created in **Task 1**.
+
+2.  Select **Purchase services** on the left pane and then search for **Office 365 E5** in the **Office 365** category. Select **Details** on Office 365 E5.
+
+    > [!div class="mx-imgBorder"]
+    > [![Sreenshot of selecting Purchase services in the trial.](../media/8-service.png)](../media/8-service.png)
+
+3.  Select **Start free trial**.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of selecting the trial subscription.](../media/9-start-trial.png)](../media/9-start-trial.png)
+
+4.  Provide the same phone number that you used while creating the tenant.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot to enter a code to prove that you are not a robot.](../media/10-verification.png)](../media/10-verification.png)
+
+5.  Provide the code and select **Start your free trial**.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot to enter verification code for the trial.](../media/11-verify-code.png)](../media/11-verify-code.png)
+
+6.  Select **Try now** and then **Continue** to check out the free trial order.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the check out process for the trial.](../media/12-check-out.png)](../media/12-check-out.png)
+
+7.  Go to the **Microsoft 365 admin center** page, select **Purchase services** on the left pane and then search for **Power BI Pro** in the **Power BI** category. Select **Details** on **Power BI Pro**.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot showing the selection of Power BI.](../media/13-power-bi.png)](../media/13-power-bi.png)
+
+8.  Select **Start free trial**.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot showing the final selection for Power BI.](../media/14-power-bi-trial.png)](../media/14-power-bi-trial.png)
+
+9.  Select **Try now** and then **Continue** to check out the free trial order.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the Check out screen to confirm your free trial order.](../media/15-check-out.png)](../media/15-check-out.png)
+
+You have now added Office 365 E5 and Power BI Pro trial licenses. Now, you can assign the new licenses to the required users in the tenant.
