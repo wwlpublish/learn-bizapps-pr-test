@@ -1,49 +1,59 @@
-In attended automation, interaction between the user and workstation is necessary; message boxes provide a direct means for this communication to take place.
+In attended automation, the interaction between users and workstations is essential. Message boxes provide a direct means for this communication to take place.
 
-In this exercise, you will develop an attended flow, which receives real-time input from the user, and provides useful information as output while running.
+In this exercise, you'll develop an attended flow that reads orders from Excel worksheets and prompts users to select a discount for high-value orders.
 
-To begin, download [**Orders.zip**](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-desktop/Orders.zip). Select **Download** on the right. Extract the Excel file to your local computer.
+To begin, download [**Orders.zip**](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-desktop/Orders.zip). Select **Download** on the right and extract the Excel file to your local computer.
 
-1. Start by prompting the user to select an Excel file. Use a **Display Select File Dialog** action.
+1. Start by prompting the user to select an Excel file. Use the **Display select file dialog** action and configure the **File filter** field to allow only **xlsx** files.
 
-   ![Screenshot of the display select file dialog properties dialog.](..\media\display-select-file-dialog-properties-exercise.png)
+   ![Screenshot of the Display select file dialog action.](..\media\display-select-file-dialog-properties-exercise.png)
 
-1. To read all the data in the Excel file, first retrieve the range of the data within.
+1. Before reading any data from the selected file, you have to launch it using the **Launch Excel** action.
 
-   ![Screenshot of the exercise workspace with Get first free column and row.](..\media\exercise-workspace.png)
+   ![Screenshot of the Launch Excel action.](..\media\launch-excel-action-exercise.png)
 
-1. Then, read the data in the designated range.
+1. To read the data of the Excel file, deploy the **Get first free column/row from Excel worksheet** action and then use the **Read from Excel worksheet** action to read the data in the designated range.
 
-   ![Screenshot of the Read from Excel worksheet properties dialog.](..\media\read-from-excel-worksheet-properties-exercise.png)
+   ![Screenshot of the Read from Excel worksheet action.](..\media\read-from-excel-worksheet-properties-exercise.png)
 
-1. Add a **For Each** action to iterate through the data.
+1. Use the **Write to Excel worksheet** action to add a **Discount** header in the first free column of the Excel file.
+
+   ![Screenshot of the Write to Excel worksheet action.](..\media\write-excel-worksheet-exercise.png)
+
+1. Before handling each Excel row independently, create a new variable named **Counter** and initialize it to **2**. This variable will indicate the number of the row you're handling in each iteration. 
+
+   ![Screenshot of the Set variable action.](..\media\set-variable-action-exercise.png)
+
+1. Add a **For each** loop to iterate through the retrieved data.
 
    ![Screenshot of the For each properties dialog.](..\media\for-each-properties-exercise.png)
 
-1. To check the contents of the **Gross Sales** column (column G), first convert them into a number, and add an **If** action to check whether it exceeds 100000.
+1. To check the value of the **Gross** column (column G), convert it into a number, and then add an **If** action to check whether it exceeds 100,000.
 
-   ![Screenshot of the Convert text to number properties dialog.](..\media\convert-text-to-number-properties-exercise.png)
+   ![Screenshot of the Convert text to number action.](..\media\convert-text-to-number-properties-exercise.png)
 
-   ![Screenshot of the exercise workspace with For each added.](..\media\exercise-workspace-continued.png)
+   ![Screenshot of the exercise workspace with the if block added.](..\media\exercise-workspace.png)
 
-1. In case the value exceeds 100000, the user should decide whether to add a discount. Use the **Display Message** action to provide the necessary information to the user, and prompt them to choose using **Yes**/**No** buttons.
+1. If the value exceeds 100,000, the user should decide whether to add a discount. Deploy the **Display message** action to provide the necessary information to the user, and prompt them to choose **Yes** or **No**.
 
-   ![Screenshot of the Display message properties dialog.](..\media\display-message-properties-exercise.png)
+   ![Screenshot of the Display message action.](..\media\display-message-properties-exercise.png)
 
-1. Add another **If** action, to check which button was pressed.
+1. Add a second **If** action to check which button was pressed in the previous step.
 
-   ![Screenshot of the If properties dialog.](..\media\if-properties-exercise.png)
+   ![Screenshot of the If action.](..\media\if-properties-exercise.png)
 
-1. If the user selects **Yes**, a window will prompt them to enter the discount amount; use the **Display Input Dialog** action to achieve this.
+1. If the user selects **Yes**, a window will prompt them to enter the discount amount; use the **Display input dialog** action to achieve this functionality.
 
-   ![Screenshot of the Display input dialog properties dialog.](..\media\display-input-dialog-properties-exercise.png)
+   ![Screenshot of the Display input dialog action.](..\media\display-input-dialog-properties-exercise.png)
 
-1. Finally, write the discount amount into Excel.
+1. Write the selected discount amount into the **Discount** column of the Excel file.
 
-    ![Screenshot of the Write to Excel worksheet properties dialog.](..\media\write-to-excel-worksheet-properties-exercise.png)
+    ![Screenshot of the Write to Excel worksheet action.](..\media\write-to-excel-worksheet-properties-exercise.png)
 
-1. Run the flow. When prompted, select the **Orders.xlsx** file.
+1. Before exiting the previously created **For each** loop, use the **Increase variable** action to increase the **Counter** variable by one.
+
+    ![Screenshot of the Increase variable action.](..\media\increase-variable-action-exercise.png)
+
+1. Finally, run the flow. When prompted, select the **Orders.xlsx** file.
 
     ![Screenshot of the completed exercise workspace.](..\media\final-exercise-workspace.png)
-
-This way, the user interacts with the flow seamlessly throughout the entire task.
