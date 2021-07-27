@@ -5,8 +5,8 @@ metadata:
   title: Database actions
   description: Learn about database actions in Power Automate Desktop.
   ms.date: 02/02/2021  
-  author: georgiostrantzas  
-  ms.author: v-gtrantzas  
+  author: mariosleon  
+  ms.author: marleon
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 15 
