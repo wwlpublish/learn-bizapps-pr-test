@@ -5,8 +5,8 @@ metadata:
   title: Introduction 
   description: Introduction to automating system and services actions in Power Automate Desktop 
   ms.date: 09/24/2020 
-  author: georgiostrantzas  
-  ms.author: v-gtrantzas  
+  author: mariosleon  
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 2
