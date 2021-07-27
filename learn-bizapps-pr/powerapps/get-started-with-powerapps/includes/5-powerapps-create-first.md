@@ -17,20 +17,16 @@ To connect to a data source, use the following procedure:
 
 1. Go to [https://make.powerapps.com](https://make.powerapps.com) and sign in with your organizational account.
 
-1. In the left pane, select **Apps**.
+1. On the **Home** screen, under the **Start from data** section, select **Other data sources**.
 
-1. Select **+ New app** and then **Canvas** from the drop-down menu.
-1. For the **OneDrive for Business** data source, select **Phone layout**.
+    ![Screenshot of the Canvas app from blank screen with Phone layout and Create highlighted.](../media/powerapps-home-screen-data-sources.png)
 
-    ![Screenshot of the Start with your data screen with Phone layout for OneDrive for Business highlighted.](../media/powerapps-start-excel.png)
+    Generated apps are always based on a single list or table, but you can add more data to the app later. The next four steps explain how to connect to the Excel workbook.
 
-    Generated apps are always based on a single list or table, but you can add more data to the app later. The next three steps explain how to connect to the Excel workbook.
-
-1. Under **OneDrive for Business**, select **Create**.  
-1. Under **Connections**, select **OneDrive for Business** and browse to the file location.
-    You might need to select **New Connection** to see the **OneDrive for Business** connection. 
+1. In the **New** tab section, under **Connections**, select **OneDrive for Business** and browse to the file location.
+    You might need to select **New Connection** to see the **OneDrive for Business** connection.
 1. Under **Choose an Excel file**, select the **FlooringEstimates.xlsx** file.
-1. Under **Choose a table**, select the **FlooringEstimates** table. 
+1. Under **Choose a table**, select the **FlooringEstimates** table.
 1. Select **Connect** on the bottom right.
 
 Power Apps generates the app by inspecting your data and matching it with Power Apps capabilities so that you get a working app as a starting point.
