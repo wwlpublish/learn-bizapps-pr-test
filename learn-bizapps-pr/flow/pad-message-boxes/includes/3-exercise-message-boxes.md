@@ -18,7 +18,7 @@ To begin, download [**Orders.zip**](https://github.com/MicrosoftDocs/mslearn-dev
 
 1. Use the **Write to Excel worksheet** action to add a **Discount** header in the first free column of the Excel file.
 
-   ![Screenshot of the Write to Excel worksheet action.](..\media\write-excel-worksheet-exercise.png)
+   ![Screenshot of the Write to Excel worksheet action that writes the Discount header.](..\media\write-excel-worksheet-exercise.png)
 
 1. Before handling each Excel row independently, create a new variable named **Counter** and initialize it to **2**. This variable will indicate the number of the row you're handling in each iteration. 
 
