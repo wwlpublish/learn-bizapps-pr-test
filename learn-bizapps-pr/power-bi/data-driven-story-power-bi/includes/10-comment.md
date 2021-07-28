@@ -5,9 +5,9 @@ Comments are also available for paginated reports, dashboards, and visuals. Anyo
 To add or view comments on a report, open the report in Power BI web service. In the upper-right corner, select **Comments**. In the **Comments** pane, you can view existing comments and write your own comments, and then select **Post Comment**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of adding a comment to a report.](../media/10-add-comment-report-ssm.png)](../media/10-add-comment-report-ssm.png#lightbox)
+> [![Add comment to report](../media/10-add-comment-report-ssm.png)](../media/10-add-comment-report-ssm.png#lightbox)
 
 To add a comment from a visual, select the visual in the report to open it in focus mode. Select **Comments** from the top menu and enter your comment in the **Comments** pane that displays.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of adding a comment to a visual.](../media/10-add-comment-visual-ss.png)](../media/10-add-comment-visual-ss.png#lightbox)
+> [![Add comment to visual](../media/10-add-comment-visual-ss.png)](../media/10-add-comment-visual-ss.png#lightbox)

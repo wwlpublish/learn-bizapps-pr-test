@@ -10,20 +10,20 @@ If you have been given some layout requirements, you still need to carefully con
 
 Considering the different needs of the report audience is crucial. Your report audience might have hearing, motor, cognitive, or visual impairment. To accommodate those needs, you should create a report that offers an accessible experience, which means that the report will be simple to navigate and understand by keyboard or screen-reader users. You'll learn more about design and configuring your report for accessibility in subsequent sections.
 
-Carefully consider each visual and element that you plan on using in the report. Everything should have a purpose, and you should consider how each element will appear to your report users. While you might consider using different types of visuals for the sake of variety or to demonstrate your skill set, sometimes a simple visual is all that you need. Likely, your organization will have style guidelines for reports, in which case, you'll have to adhere to particular color scheme and font. Do keep in mind that the more visuals you use in your report, the more that they impact the performance of your report.
+Carefully consider each visual and element that you plan on using in the report. Everything should have a purpose, and you should consider how each element will appear to your report users. While you might consider using different types of visuals for the sake of variety or to demonstrate your skillset, sometimes a simple visual is all that you need. Likely, your organization will have style guidelines for reports, in which case, you'll have to adhere to particular color scheme and font. Do keep in mind that the more visuals you use in your report, the more that they impact the performance of your report. 
 
 Other key guidelines for creating a well-designed report layout include:
 
-- Draw a sketch of your report layout. This approach will help you get an idea of what it will look like before you spend considerable time physically designing it. Alternatively, you could draw multiple sketches, where you try out different ideas and then discuss these ideas with your team to help select the best layout design.
+-   Draw a sketch of your report layout. This approach will help you get an idea of what it will look like before you spend considerable time physically designing it. Alternatively, you could draw multiple sketches, where you try out different ideas and then discuss these ideas with your team to help select the best layout design.
 
-- Focus on the most important information. Highlight key parts of your report with a bright color or summary icon so that it stands out and draws users to the most critical metrics.
+-   Focus on the most important information. Highlight key parts of your report with a bright color or summary icon so that it stands out and draws users to the most critical metrics.
 
-- Select the right background for the context of your report. A white background can make your report look clean and professional, whereas a black background can draw attention to colorful highlights on the report. Using images as a background can add visual interest.
+-   Select the right background for the context of your report. A white background can make your report look clean and professional, whereas a black background can draw attention to colorful highlights on the report. Using images as a background can add visual interest.
 
 The following image shows a poorly designed report layout, which you should avoid. A later section will provide an example of the same report but with an improved design.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of an example of a bad report design.](../media/2-example-bad-report-design-ss.png)](../media/2-example-bad-report-design-ss.png#lightbox)
+> [![Example of bad report design](../media/2-example-bad-report-design-ss.png)](../media/2-example-bad-report-design-ss.png#lightbox)
 
 The following sections provide more detailed guidance for setting up the report page and using visuals.
 
@@ -34,14 +34,14 @@ It is important to consider that you and the report users might view the reports
 The default display view is **Fit to page**, which means that the contents are scaled to best fit the page. If you need to change this view, go to the **View** tab, select **Page view**, and then select your preferred page view option, as illustrated in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Page view options on the View tab.](../media/2-page-view-options-ss.png)](../media/2-page-view-options-ss.png#lightbox)
+> [![Page view options on View tab](../media/2-page-view-options-ss.png)](../media/2-page-view-options-ss.png#lightbox)
 
 To access the page settings, select the white space on your report canvas to open the **Format** pane. You can then configure the following settings to suit your needs: **Page information**, **Page alignment**, **Page size**, **Wallpaper**, **Page background**, and **Filter pane**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Page configuration options on Format pane.](../media/2-page-configuration-options-ssm.png)](../media/2-page-configuration-options-ssm.png#lightbox)
+> [![Page configuration options on Format pane](../media/2-page-configuration-options-ssm.png)](../media/2-page-configuration-options-ssm.png#lightbox)
 
-### Visuals
+### Visuals 
 
 You might want to use a combination of visuals in your report, such as cards, charts, tables, slicers, and so on. It is important to use the right number of visuals on a page, and then size and position those visuals strategically.
 
@@ -64,12 +64,12 @@ To move a visualization, select any area of the visualization and then drag it t
 To evenly distribute distance between visuals that are located on the canvas, you can also use the **Align** function. Use **CTRL**+click to select all visuals that you want to align, select the **Format** tab, and then select **Distribute horizontally**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Page alignment options on Format tab.](../media/2-page-alignment-options-ssm.png)](../media/2-page-alignment-options-ssm.png#lightbox)
+> [![Page alignment options on Format tab](../media/2-page-alignment-options-ssm.png)](../media/2-page-alignment-options-ssm.png#lightbox)
 
 The visuals will then be evenly distributed.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of evenly distributed visuals.](../media/2-evenly-distributed-visuals-ss.png)](../media/2-evenly-distributed-visuals-ss.png#lightbox)
+> [![Evenly distributed visuals](../media/2-evenly-distributed-visuals-ss.png)](../media/2-evenly-distributed-visuals-ss.png#lightbox)
 
 #### Size of visuals
 
@@ -93,10 +93,10 @@ Designing a report that offers an accessible experience will benefit all report 
 
 Generally, when you are using Power BI with a screen reader, we recommend that you turn scan mode or browse mode off.
 
-To improve the process of creating reports with screen readers, a context menu is available. The menu allows you to move fields in the well up or down in the **Fields** list. The menu also allows you to move fields to other wells, such as **Legend**, **Value**, or others.
+To improve the process of creating reports with screen readers, a context menu is available. The menu allows you to move fields in the well up or down in the **Fields** list. The menu also allows you to move fields to other wells, such as **Legend**, **Value**, **Small Multiples**, and **Tooltips**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the context menu options with Move to > Legend selected.](../media/2-context-menu-options-ssm.png)](../media/2-context-menu-options-ssm.png#lightbox)
+> [![Context menu options](../media/2-context-menu-options-ssm.png)](../media/2-context-menu-options-ssm.png#lightbox)
 
 ### Accessibility standards
 
@@ -104,25 +104,25 @@ Power BI is committed to accessibility standards under the Web Content Accessibi
 
 Web Content Accessibility Guidelines (WCAG) help make web content accessible to people with disabilities. The key principles of the guidelines are:
 
-- Perceivable - Information and user interface components must be presentable to users in ways that they can perceive.
+-   Perceivable - Information and user interface components must be presentable to users in ways that they can perceive.
 
-- Operable - User interface components and navigation must be operable.
+-   Operable - User interface components and navigation must be operable.
 
-- Understandable - Information and the operation of the user interface must be understandable.
+-   Understandable - Information and the operation of the user interface must be understandable.
 
 ### Accessibility features
 
 The following accessibility features are built in to Power BI Desktop, so you don't need to do any configuration in this regard:
 
-- Keyboard navigation
+-   Keyboard navigation
 
-- Screen-reader compatibility
+-   Screen-reader compatibility
 
-- High contrast colors view
+-   High contrast colors view
 
-- Focus mode
+-   Focus mode
 
-- Show data table
+-   Show data table
 
 Accessibility features that you do need to configure include:
 
@@ -147,7 +147,7 @@ If you do not want to use static text, you can use Data Analysis Expressions (DA
 To apply conditional formatting, right-click the **Alt Text** box, select **Conditional formatting**, and then configure the settings as required.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of adding alt text to an object.](../media/2-add-alt-text-option-ssm.png)](../media/2-add-alt-text-option-ssm.png#lightbox)
+> [![Add alt text to object](../media/2-add-alt-text-option-ssm.png)](../media/2-add-alt-text-option-ssm.png#lightbox)
 
 #### Tab order
 
@@ -158,7 +158,7 @@ To set the tab order, select the **View** tab in the ribbon and then select **Se
 To hide an object from the tab order, select the number next to that object. For example, it's best to hide decorative shapes and images that you have in your report.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Selection with the Tab order of objects.](../media/2-set-tab-order-objects-ss.png)](../media/2-set-tab-order-objects-ss.png#lightbox)
+> [![Set tab order of objects](../media/2-set-tab-order-objects-ss.png)](../media/2-set-tab-order-objects-ss.png#lightbox)
 
 #### Titles and labels
 
@@ -167,14 +167,14 @@ To help all users, you should provide clear, concise, descriptive titles for you
 Compare the following images, where the image on the left shows a visual with an acronym in the title, and the image on the right shows a visual with a clearer title.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Comparison of visual titles](../media/2-comparison-visual-titles-ss.png)](../media/2-comparison-visual-titles-ss.png#lightbox)
+> [![Comparison of visual titles](../media/2-comparison-visual-titles-ss.png)](../media/2-comparison-visual-titles-ss.png#lightbox)
 
 Make sure that all labels within a visual are easy to read and understand. You can turn on or off the labels for each series in your visual or position them above or below a series to make them clearer. Don't turn on labels for every visual because it might have the opposite effect by distracting users and making your report less accessible.
 
-Compare the following images, where the first image has fewer numbers or descriptions of the data, whereas the second has several.
+Compare the following images, where the first image has fewer numbers or descriptions of the data, whereas the second has several. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of a comparison of visual labels.](../media/2-comparison-visual-labels-ss.png)](../media/2-comparison-visual-labels-ss.png#lightbox)
+> [![Comparison of visual labels](../media/2-comparison-visual-labels-ss.png)](../media/2-comparison-visual-labels-ss.png#lightbox)
 
 #### Markers
 
@@ -185,10 +185,10 @@ Keep in mind that, if you turn on markers for every visual, it might be distract
 To turn on markers, in the **Format** pane, expand the **Shapes** section, and then scroll down and move the **Show marker** slider to the **On** position.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Shapes section with the Show marker option highlighted.](../media/2-turn-markers-ssm.png)](../media/2-turn-markers-ssm.png#lightbox)
+> [![Turn on markers](../media/2-turn-markers-ssm.png)](../media/2-turn-markers-ssm.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the markers added to the visual.](../media/2-view-markers-visual-ss.png)](../media/2-view-markers-visual-ss.png#lightbox)
+> [![View markers on visual](../media/2-view-markers-visual-ss.png)](../media/2-view-markers-visual-ss.png#lightbox)
 
 #### Themes
 
@@ -196,33 +196,33 @@ To make your reports even more accessible, ensure that enough contrast exists be
 
 Some of your report viewers might have color vision deficiencies. Using fewer colors or a monochrome palette in your report can help mitigate the creation of inaccessible reports. The following color combinations are difficult for users with color vision deficiencies to distinguish, so you should avoid using them together in a chart or on the same report page.
 
-- Green and red
+-   Green and red
 
-- Green and brown
+-   Green and brown
 
-- Blue and purple
+-   Blue and purple
 
-- Green and blue
+-   Green and blue
 
-- Light green and yellow
+-   Light green and yellow
 
-- Blue and grey
+-   Blue and grey
 
-- Green and grey
+-   Green and grey
 
-- Green and black
+-   Green and black
 
 Power BI Desktop has built-in themes that you can use to make your report more accessible and generally look better. You can access these themes from the **View** tab. Select the **Expand** button to view all available themes and related options. Select any theme and it will automatically apply across the whole report. All visuals will use the colors and formatting from your selected theme as their defaults.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the View tab theme options.](../media/2-view-theme-options-ss.png)](../media/2-view-theme-options-ss.png#lightbox)
+> [![View theme options](../media/2-view-theme-options-ss.png)](../media/2-view-theme-options-ss.png#lightbox)
 
 You can also import or create your custom themes by expanding the following **Themes** options.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Import or Create theme options.](../media/2-view-theme-options-ssm.png)](../media/2-view-theme-options-ssm.png#lightbox)
+> [![Import or Create theme options](../media/2-view-theme-options-ssm.png)](../media/2-view-theme-options-ssm.png#lightbox)
 
 The following image depicts the same report that was shown at the beginning of this unit. However, in this image, the report has a better design; it has a planned layout and consistent color scheme and formatting.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of an example of an improved report design.](../media/2-example-improved-report-design-ss.png)](../media/2-example-improved-report-design-ss.png#lightbox)
+> [![Example of improved report design](../media/2-example-improved-report-design-ss.png)](../media/2-example-improved-report-design-ss.png#lightbox)
