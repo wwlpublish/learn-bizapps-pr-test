@@ -51,7 +51,7 @@ A common method for sharing Power BI visualizations is to create a Power BI app.
 
 Two options for using Dataverse data in Power BI are:
 
-- **Dataverse  connector** - The earlier version of the connector that uses the OData connection to Dataverse. You should use this connector for large datasets that are greater than 80 MB. This version also supports paging of the query results and building reports that use the image data type. OData connections import data into a dataset and are refreshed on a regular interval.
+- **Common Data Service (legacy) connector** - The earlier version of the connector that uses the OData connection to Dataverse. You should use this connector for large datasets that are greater than 80 MB. This version also supports paging of the query results and building reports that use the image data type. OData connections import data into a dataset and are refreshed on a regular interval.
 - **Dataverse connector** - This option uses the new Tabular Data Stream (TDS) protocol to connect to Dataverse. This connector can either import the data into the dataset or use Direct Query, which permits real-time data.
 
 > [!NOTE]
