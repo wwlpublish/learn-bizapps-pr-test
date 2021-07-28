@@ -23,7 +23,7 @@ Other key guidelines for creating a well-designed report layout include:
 The following image shows a poorly designed report layout, which you should avoid. A later section will provide an example of the same report but with an improved design.
 
 > [!div class="mx-imgBorder"]
-> [![Example of bad report designt](../media/2-example-bad-report-design-ss.png)](../media/2-example-bad-report-design-ss.png#lightbox)
+> [![Example of bad report design](../media/2-example-bad-report-design-ss.png)](../media/2-example-bad-report-design-ss.png#lightbox)
 
 The following sections provide more detailed guidance for setting up the report page and using visuals.
 

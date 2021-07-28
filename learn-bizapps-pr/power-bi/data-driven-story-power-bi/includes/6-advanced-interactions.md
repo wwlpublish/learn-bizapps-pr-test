@@ -68,7 +68,7 @@ Power BI Desktop automatically creates a **Back** button visual on the page for 
 To use drillthrough, right-click a data point on a visual in another report page, select **Drill through**, and then select the focused page (**Details page**) to get details that are filtered to that context.
 
 > [!div class="mx-imgBorder"]
-> [![alt text](../media/6-select-drill-through-context-menu-ssm.png)](../media/6-select-drill-through-context-menu-ssm.png#lightbox)
+> [![drillthrough menu](../media/6-select-drill-through-context-menu-ssm.png)](../media/6-select-drill-through-context-menu-ssm.png#lightbox)
 
 ## Cross-report drillthrough
 
