@@ -20,8 +20,6 @@ Your model can\'t be used until you publish it. If you are satisfied with your m
 
 After your Form processing model is published, you can also use it in a flow. You can use the **AI Builder** action in Power Automate to take advantage of the results of your model.
 
-![Screenshot of Power Automate shows a flow that processes documents received by email and extracts the data using AI Builder](../media/image-5.png)
-
 1. Select **Use model**.
 
 2. Select **+ New flow in Power Automate** and select one of the triggers proposed, for this module we will use the Microsoft 365 Outlook work email account.
