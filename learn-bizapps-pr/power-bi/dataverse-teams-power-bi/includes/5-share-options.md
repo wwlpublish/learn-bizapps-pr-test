@@ -65,8 +65,8 @@ To create a share link, follow these steps:
     - **People with existing access** - Use this option when you want to generate a link and not change the existing permissions.
     - **Specific people** - This link prompts you to provide the name of specific people, groups, or external guests in your organization's Microsoft Azure Active Directory (Azure AD). You can't grant access to external users that aren't guests of your organization.
 
-    >[!Note]
-    Use the **Specific people** option to ensure everyone has access when sharing as a tab in a channel, chat, or meeting.
+    > [!NOTE]
+    > Use the **Specific people** option to ensure everyone has access when sharing as a tab in a channel, chat, or meeting.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Send link dialog box with People in your organization selected.](../media/image-43.png)](../media/image-43.png#lightbox)
