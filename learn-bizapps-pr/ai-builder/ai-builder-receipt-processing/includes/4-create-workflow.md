@@ -26,7 +26,7 @@ Next, you'll scan the contents of the image file for the key receipt information
 
 1. Search for the **AI Builder** connector or select it from the list of connectors.
 
-1. Select the **Process and save information from receipts** action.
+1. Select the **Extract information from receipts** action.
 
 1. In the **Receipt file** field, select the **File content** dynamic content from the trigger that you added.
 
