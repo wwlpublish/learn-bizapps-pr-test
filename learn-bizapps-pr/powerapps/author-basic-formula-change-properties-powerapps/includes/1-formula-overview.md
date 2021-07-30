@@ -4,7 +4,7 @@ single function formulas or combine multiple functions and elements in
 the same formula. In Power Apps, you also can modify the way controls
 behave and display by defining the control's properties with a formula.
 To view all the Power Apps functions, see more information in the
-[formula reference for Power Apps](h/powerapps/maker/canvas-apps/formula-reference).
+[formula reference for Power Apps](/powerapps/maker/canvas-apps/formula-reference).
 The following screenshot shows the controls that are available in Power Apps. To view
 the full list of controls, see more information in the 
 [controls and properties in Power Apps](/powerapps/maker/canvas-apps/reference-properties).

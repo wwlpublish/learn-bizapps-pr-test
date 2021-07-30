@@ -20,7 +20,8 @@ The learning objectives for this module are:
 
 In order to show how to import data from Dataverse for Teams into Power BI, we need to first have some data in Dataverse for Teams. For the purposes of this learning path, we will use a table called **Cost Trends** that stores information captured by a Power App. You can use the [Cost trends](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/raw/master/power-apps/dataverse-power-bi/CostTrends.zip) spreadsheet to upload data. Select **Download** and then extract the spreadsheet to your local computer. Select a Microsoft team that has a Dataverse for Teams environment then create a new table named **Cost Trends** with the fields and data types that are shown in the following table.
 
->[!Note] Please see the links that are provided in the Summary unit at the end of the module on how to create tables in Dataverse for Teams.
+> [!NOTE]
+> Please see the links that are provided in the Summary unit at the end of the module on how to create tables in Dataverse for Teams.
 
 | Column name | Data type |
 |-------------|-----------|
