@@ -16,7 +16,12 @@ The environment URL for the Dataverse for Teams table is required when you are c
 
 1. Launch Teams or use your browser to open [https://teams.microsoft.com](https://teams.microsoft.com/?azure-portal=true).
 
-1. Select the **Microsoft Power Apps** application.
+1. Select the **More added apps** ellipsis then type in **power apps** in the search bar
+
+1. Select **Power Apps** from the search results. If you don't already have it installed click, on **More apps >** and install it from the Teams app store
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the More added apps ellipsis with the search bar highlighted.](../media/image-63.png)](../media/image-63.png#lightbox)    
 
 1. Select the **Build** tab.
 

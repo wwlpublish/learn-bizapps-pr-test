@@ -36,7 +36,7 @@ If you've never signed in to Power BI before, sign in and then go through the ne
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Power BI app, right-clicked, with Pin selected.](../media/image-40.png)](../media/image-40.png#lightbox)
 
-The Power BI app for Teams launch page gives you quick access to your favorite reports, dashboards, and workspaces. Also, you can explore Power BI training, highlighted content that is published by the Power BI community, and recommended apps.
+The Power BI app for Teams launch page gives you quick access to your favorite reports, dashboards, and workspaces. Also, you can explore Power BI training and recommended apps.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Power BI app for Teams launch page.](../media/image-41.png)](../media/image-41.png#lightbox)
@@ -52,6 +52,8 @@ To create a share link, follow these steps:
 
 1. Open the report in the Power BI for Teams app.
 
+1. Set any filters or slicers that you want the recipients to see. The share link will contain this information and users will see the filtered report when using the shared link.
+
 1. Select **Share** from the menu bar.
 
     > [!div class="mx-imgBorder"]
@@ -62,6 +64,9 @@ To create a share link, follow these steps:
     - **People in your organization** - This link grants access to people in your organization. It doesn't work for external users.
     - **People with existing access** - Use this option when you want to generate a link and not change the existing permissions.
     - **Specific people** - This link prompts you to provide the name of specific people, groups, or external guests in your organization's Microsoft Azure Active Directory (Azure AD). You can't grant access to external users that aren't guests of your organization.
+
+    >[!Note]
+    Use the **Specific people** option to ensure everyone has access when sharing as a tab in a channel, chat, or meeting.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Send link dialog box with People in your organization selected.](../media/image-43.png)](../media/image-43.png#lightbox)
@@ -183,6 +188,11 @@ To reference a Power BI report from a channel or chat, follow these steps:
     > [![Screenshot of the message with the Send icon highlighted.](../media/image-57.png)](../media/image-57.png#lightbox)
 
 Users can select to **Open** the Power BI report, or they can select **Subscribe** to set up a schedule to receive email updates. For more information about subscribing to a Power BI report, see the links in the Summary unit at the end of the module.
+
+## Share Power BI during a meeting
+
+Data-driven decision-making allows you and your team to spot trends, drive actions, and improve outcomes. Review data each week with your team to enable better data-driven decisions. Add Power BI reports to meetings by adding a link to the invite, adding the tab in a channel, sharing the link in the meeting chat, or sharing your screen.
+
 
 ## Add comments to a report
 
