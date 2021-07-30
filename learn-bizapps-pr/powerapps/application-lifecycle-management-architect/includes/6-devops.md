@@ -44,7 +44,7 @@ Tasks in Microsoft Power Platform Build Tools can be used along with any other a
 
 When deploying solutions through a release pipeline, a decision has to be made to push the release manually or automatically. Release pipeline runs can be started manually by an Azure DevOps user, run automatically on a schedule, or triggered by a Pull request. Continuous deployment can be enabled on a release pipeline to push the latest solution build to other environments as soon as the build becomes available. 
 
-For immediate breakfixes to a solution, a manual trigger is likely the preferred method in order to make the newest build available in the upstream environments as quickly as possible, whereas a scheduled or pull request trigger makes more sense when updates to solutions are done on a regular basis. 
+For immediate break/fixes to a solution, a manual trigger is likely the preferred method in order to make the newest build available in the upstream environments as quickly as possible, whereas a scheduled or pull request trigger makes more sense when updates to solutions are done regularly. 
 
 > [![Screenshot of release pipeline triggers continuous deployment and pull request triggers.](../media/6-release-triggers.png)](../media/6-release-triggers.png#lightbox)
 
@@ -58,7 +58,7 @@ However, if a major bug is discovered in a QAT environment, the developers may c
 
 Perhaps Contoso Bank is running a smaller project without strict timelines for release cycles. In that case, using a manual trigger for the release pipeline might be preferred because there is no regular rhythm to when new builds are made available. 
 
-For more information on Using DevOps to move from manual to automated ALM, as well as best practices around which deployment methodology is right for you, check out [Microsoft Docs.](/power-platform/alm/use-devops-automated-alm/?azure-portal=true)
+For more information on Using DevOps to move from manual to automated ALM, and best practices around which deployment methodology is right for you, check out [Microsoft Docs.](/power-platform/alm/use-devops-automated-alm/?azure-portal=true)
 
 ## Alternative automation tools
 
@@ -68,5 +68,3 @@ Alternatives for automating deployments without using Azure DevOps are:
 - PowerShell can be used instead of build tasks for more control.
 - Power Automate can be used with the platform admin connectors to automate deployments.
 - GitHub actions are currently in preview.
-
-
