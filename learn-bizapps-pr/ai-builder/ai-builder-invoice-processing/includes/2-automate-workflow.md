@@ -34,7 +34,7 @@ Next, you'll scan the contents of the image file for the key invoice information
 
 1. Search for the **AI Builder** connector or select it from the list of connectors.
 
-1. Select the **Process and save information from invoices** action.
+1. Select the **Extract information from invoices** action.
 
 1. In the **Invoice file** field, select the **File content** dynamic content from the OneDrive trigger.
 
