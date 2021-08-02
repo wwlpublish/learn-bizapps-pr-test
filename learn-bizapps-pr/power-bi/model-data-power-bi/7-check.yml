@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge
  description: Answer the following questions to see what you've learned.
- ms.date: 07/15/2019 
+ ms.date: 07/28/2021
  author: heyrob 
  ms.author: robde 
  ms.topic: interactive-tutorial 
@@ -56,7 +56,7 @@ quiz:
     - content: You don't need to do anything, it is automatic. 
       isCorrect: true 
       explanation: When you create a table visualization in your report by using a date field, Power BI Desktop automatically includes breakdowns by time period. 
-  - content: How do you create intermediate calculations and data that you want stored as part of the model rather than as part of a query?
+  - content: How do you create data tables that you want stored as part of the model rather than as part of a query?
     choices: 
     - content: Use a calculated table
       isCorrect: true 
