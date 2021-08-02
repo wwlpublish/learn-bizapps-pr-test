@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 06/10/2021
+ ms.date: 07/28/2021
  author: heyrob 
  ms.author: robde 
  ms.topic: interactive-tutorial 
@@ -15,7 +15,7 @@ quiz:
   questions: 
   - content: What is a risk of having null values in a numeric column? 
     choices: 
-    - content: That function SUM of data will be incorrect. 
+    - content: That funtion SUM of data will be incorrect. 
       isCorrect: false
       explanation: This is incorrect. SUM will ignore NULL values and calculate correctly. 
     - content: That function MAX of data will be incorrect. 
