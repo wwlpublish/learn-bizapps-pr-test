@@ -6,7 +6,7 @@ It is important that you choose an effective visualization to ensure that you di
 
 ## Table and Matrix visualizations
 
-In the previous example, the **Table** visualization was selected by default. The table is a grid that contains related data in a logical series of rows and columns. The table supports two dimensions and the data is flat, which means that duplicate values are displayed and not aggregated. It can also contain headers and a row for totals.
+In the previous example, the **Table** visualization was selected by default. The table is a grid that contains related data in a logical series of rows and columns. The table supports two dimensions and it can also contain headers and a row for totals.
 
 > [!div class="mx-imgBorder"]
 > [![Table visualization type](../media/3-table-visualization-ssm.png)](../media/3-table-visualization-ssm.png#lightbox)
