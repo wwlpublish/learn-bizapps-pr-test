@@ -15,7 +15,7 @@ To add the Flic connector to Power Automate take the following steps.
 
 1. Select **Create**.
 
-1. A pop-up window will appear, asking for the email and password that you used to create your Flic.io account. Enter your information and then select the **Login** button. A pop-up window will appear, asking for the email and password that you used to create your Flic.io account. Enter your information and then select the **Login** button.
+1. A pop-up window will appear, asking for the email and password that you used to create your Flic.io account. Enter your information and then select the **Login** button.
 
     ![Screenshot of the Flic connector email password.](../media/flic-connector-email-password.jpg)
 
