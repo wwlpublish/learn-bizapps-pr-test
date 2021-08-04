@@ -64,7 +64,7 @@ WeekNum = WEEKNUM(Dates[Date])
 ```
 
 ```dax
-DayoftheWeek = FORMAT(Dates[Date].[Day], "DDDD")
+DayoftheWeek = FORMAT(Dates[Date], "DDDD")
 ```
 
 When you have finished, your table will contain the columns that are shown in the following figure.
