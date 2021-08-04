@@ -12,11 +12,11 @@ To begin, download [**Orders.zip**](https://github.com/MicrosoftDocs/mslearn-dev
 
    ![Screenshot of the Launch Excel action.](..\media\launch-excel-action-exercise.png)
 
-1. To read the data of the Excel file, deploy the **Get first free column/row from Excel worksheet** action and then use the **Read from Excel worksheet** action to read the data in the designated range.
+1. To read the data from the Excel file, deploy the **Read from Excel worksheet** action and select **All available values from worksheet** in the **Retrieve** field.
 
    ![Screenshot of the Read from Excel worksheet action.](..\media\read-from-excel-worksheet-properties-exercise.png)
 
-1. Use the **Write to Excel worksheet** action to add a **Discount** header in the first free column of the Excel file.
+1. Deploy the **Get first free column/row from Excel worksheet** action, and then use the **Write to Excel worksheet** action to add a **Discount** header in the first free column of the Excel file.
 
    ![Screenshot of the Write to Excel worksheet action that writes the Discount header.](..\media\write-excel-worksheet-exercise.png)
 
