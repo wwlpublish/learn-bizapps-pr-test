@@ -12,6 +12,6 @@ Variables store cell contents based on their type. For example, a date is stored
 
 ![Screenshot of Read from Excel worksheet properties advanced section.](..\media\read-from-excel-properties-advanced-tab.png)
 
-Alternatively, select cells in the document to which the instance is assigned, and use the **Values from selection** option to retrieve the values of the currently selected cells. To select all data in an Excel worksheet, select **All available value from worksheet** in the **Retrieve** field.
+Alternatively, select cells in the document to which the instance is assigned, and use the **Values from selection** option to retrieve the values of the currently selected cells. To retrieve all data from an Excel worksheet, select **All available values from worksheet** in the **Retrieve** field.
 
 ![Screenshot of the Retrieve field in the Read from Excel worksheet action.](..\media\read-from-excel-action-properties-all-values.png)
