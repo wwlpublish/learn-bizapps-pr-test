@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.power-bi-admin-collaboration 
 metadata: 
- title: Facilitate collaboration and sharing
+ title: Facilitate collaboration and sharing in Power BI
  description: Learn how to collaborate and share dashboards and reports with coworkers.
  ms.date: 04/30/2021  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
-title: Facilitate collaboration and sharing
+title: Facilitate collaboration and sharing in Power BI
 summary: |  
   [!include[](../includes/module-banner.md)] 
   You've created dashboards and reports. Perhaps you want to collaborate on them with your coworkers. Or maybe you're ready to distribute them more widely. What's the best way to collaborate and share them? In this module, we compare your options.
