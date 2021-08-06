@@ -32,7 +32,7 @@ quiz:
     - content: They are the same. 
       isCorrect: false
       explanation: Reports and dashboards have similar functionalities but are different. 
-    - content: In reports, you can use the slicers and filter by selecting a data point on a visual; in dashboards, you can only filter a dashboard tile in focus mode, but can't save the filter.
+    - content: In reports, you can use the slicers and filter by selecting a data point on a visual; in dashboards, you cannot. 
       isCorrect: false 
       explanation: In both reports and dashboards, you can use the slicers and filter by selecting a data point. 
     - content: In reports, you can have multiple pages; in dashboards, you can have only one page. 

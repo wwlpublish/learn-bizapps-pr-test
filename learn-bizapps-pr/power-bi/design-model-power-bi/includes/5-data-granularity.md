@@ -65,7 +65,7 @@ TotalSales = SUM(Sales[Total Sales])/100
 BudgetAmount = SUM (Budget[BudgetAmount])
 ```
 
-Select the matrix visual on the **Visualization** pane, and then enter these measures and the **Date** into the **Values** field**.** You have now accomplished the goal of building a matrix of the total sales and budgets over time.
+Select the table visual on the **Visualization** pane, and then enter these measures and the **Date** into the **Values** field. You have now accomplished the goal of building a matrix of the total sales and budgets over time.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Matrix visual being built.](../media/05-matrix-visual-being-built-04-ssm.png)](../media/05-matrix-visual-being-built-04-ssm.png#lightbox)

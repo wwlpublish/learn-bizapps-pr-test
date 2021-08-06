@@ -4,7 +4,7 @@ For example, finance departments usually review a significant amount of receipts
 
 The automation of these tasks can increase efficiency across the organization and disengage employees from repetitive and unproductive data extraction procedures.
 
-Power Automate Desktop enables users to read, extract, and manage data within an assortment of files through optical character recognition (OCR) technologies. The platform supports the **Microsoft MODI** and the **Google Tesseract** OCR engines while providing various related actions.
+Power Automate Desktop enables users to read, extract, and manage data within an assortment of files through optical character recognition (OCR) technologies. The platform supports the **Google Tesseract** OCR engine while providing various related actions.
 
 Using OCR actions, you can deal with the most challenging workflows that would typically require human intervention.
 

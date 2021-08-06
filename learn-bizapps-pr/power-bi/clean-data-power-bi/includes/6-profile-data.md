@@ -74,8 +74,7 @@ including the count of rows, which is important when verifying whether
 the importing of your data was successful. For example, if your original
 database had 100 rows, you could use this row count to verify that 100
 rows were, in fact, imported correctly. Additionally, this row count
-will show how many rows that Power BI has deemed as being outliers (and
-therefore "errors"), empty rows and strings, and the min and max, which
+will show how many rows that Power BI has deemed as being outliers, empty rows and strings, and the min and max, which
 will tell you the smallest and largest value in a column, respectively.
 This distinction is particularly important in the case of numeric data
 because it will immediately notify you if you have a maximum value that

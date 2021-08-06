@@ -4,6 +4,8 @@ Canvas apps takes your declarative "what" and optimizes the "how." You might not
 
 Canvas apps can be made to look attractive and, while having an attractive app is important, apps that perform well will get better user adoption.
 
+For more information on imperative and declarative development, see the learn module [Use imperative development techniques for canvas apps in Power Apps](/learn/modules/use-imperative-dev-techniques-powerapps-canvas-app/?azure-portal=true).
+
 The following sections discuss techniques for optimizing canvas app performance.
 
 ## Offload work from apps
@@ -29,7 +31,7 @@ With OnStart, you should encourage makers to use the **ClearCollect** function t
 
 ![Diagram showing concurrent dataset loading.](../media/5-onstart-2.png)
 
-With so many options, performance needs to be considered often. Analysis and improving optimizations are ongoing efforts. You should validate best practices by referring to [slow performance sources](https://docs.microsoft.com/powerapps/maker/canvas-apps/slow-performance-sources), [common performance issues](https://docs.microsoft.com/powerapps/maker/canvas-apps/common-performance-issue-resolutions), and [performance tips](https://docs.microsoft.com/powerapps/maker/canvas-apps/performance-tips).
+With so many options, performance needs to be considered often. Analysis and improving optimizations are ongoing efforts. You should validate best practices by referring to [slow performance sources](/powerapps/maker/canvas-apps/slow-performance-sources), [common performance issues](/powerapps/maker/canvas-apps/common-performance-issue-resolutions), and [performance tips](/powerapps/maker/canvas-apps/performance-tips).
 
 The solution architect should implement a canvas app performance-tuning strategy.
 
@@ -74,4 +76,4 @@ With your app connected to Application Insights, you can collect telemetry on ho
 
 As a solution architect, you should decide if Application Insights will be included in the apps that you create.
 
-For more information, see [Application Insights](https://docs.microsoft.com/powerapps/maker/canvas-apps/application-insights).
+For more information, see [Application Insights](/powerapps/maker/canvas-apps/application-insights).

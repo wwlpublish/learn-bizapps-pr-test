@@ -3,7 +3,7 @@ uid: learn-bizapps.change-properties.7-knowledge-check
 metadata: 
   title: Author a basic formula to change properties in a canvas app in Power Apps knowledge check 
   description: Author a basic formula to change properties in a canvas app in Power Apps knowledge check 
-  ms.date: 06/29/2021  
+  ms.date: 07/30/2021 
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial 
@@ -18,16 +18,16 @@ quiz:
     choices: 
     - content: All controls have the same properties.
       isCorrect: false 
-      explanation: Each control has a set of unique properties, but there are a few common properties every control includes. 
+      explanation: Each type of control has a different set of properties. Some properties are common to almost every type of control, but other properties are specific to one type of control. 
     - content: Controls do not share any of the same properties.
       isCorrect: false 
-      explanation: Each control has a set of unique properties, but there are a few common properties every control includes. 
+      explanation: Each type of control has a different set of properties. Some properties are common to almost every type of control, but other properties are specific to one type of control. 
     - content: Each control has a set of unique properties, but there are a few common properties every control includes, such as the X and Y properties.
-      isCorrect: true
-      explanation: Each control has a set of unique properties, but there are a few common properties every control includes. 
+      isCorrect: false
+      explanation: Each type of control has a different set of properties. Some properties are common to almost every type of control, but other properties are specific to one type of control. For example screen controls do not include the X and Y properties. 
     - content: None of the above
-      isCorrect: false 
-      explanation: Each control has a set of unique properties, but there are a few common properties every control includes. 
+      isCorrect: true 
+      explanation: Each type of control has a different set of properties. Some properties are common to almost every type of control, but other properties are specific to one type of control. 
   - content: If you wanted to ensure that a user could not submit a form unless they had provided an email address, what function would you use in combination with the **If** function on the **DisplayMode** property of your Submit button?
     choices: 
     - content: Lookup

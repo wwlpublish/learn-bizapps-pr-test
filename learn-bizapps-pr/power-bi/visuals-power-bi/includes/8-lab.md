@@ -479,8 +479,6 @@ In this task, you will explore the **Sales Report** in the Power BI service.
 
 	In focus mode it zooms in on the visual to full page size.
 
-1. Hover the cursor over different segments of the pie charts to reveal tooltips.
-
 1. To return to the report page, at the top-left, click **Back to Report**.
 
 	> [!div class="mx-imgBorder"]

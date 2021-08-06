@@ -5,8 +5,8 @@ metadata:
   title: Exercise - Create a flow that calls a Power Automate Desktop process
   description: Follow this exercise to practice running a Power Automate Desktop process from a flow.
   ms.date: 12/10/2020  
-  author: olegmelnykov 
-  ms.author: olmelnyk 
+  author: mariosleon  
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 20 

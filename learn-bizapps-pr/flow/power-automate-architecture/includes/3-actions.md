@@ -8,7 +8,7 @@ The **Dataverse** connector has the following actions:
 - Update a record
 - Delete a record
 
-The **Dataverse** connector has the same actions, including several more:
+The **Common Dataverse (current environment)** connector has the same actions, including several more:
 - Create a new row
 - Get a row by ID
 - List rows

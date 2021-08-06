@@ -3,10 +3,9 @@ uid: learn-bizapps.get-started-with-power-bi.5-summary-cleanup
 metadata:
   title: Summary
   description: Summary
-  ms.date: 07/20/2021
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 02/01/2019
+  author: heyrob
+  ms.author: robde
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
 title: Summary
