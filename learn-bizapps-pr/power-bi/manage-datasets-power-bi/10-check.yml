@@ -2,13 +2,13 @@
 uid: learn-bizapps.manage-datasets-power-bi.10-check 
 title: Check your knowledge 
 metadata: 
- title: Check your knowledge 
- description: Answer the following questions to see what you've learned. 
- ms.date: 07/20/2021
- author: heyrob 
- ms.author: robde 
- ms.topic: interactive-tutorial 
- ms.prod: learning-power-bi 
+  title: Check your knowledge 
+  description: Answer the following questions to see what you've learned. 
+  ms.date: 07/20/2021
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
 durationInMinutes: 3 
 quiz: 
   title: Answer the following questions to see what you've learned. 
@@ -43,6 +43,6 @@ quiz:
     - content: Promotion is for broad usage while Certification needs permission granted on the Admin Tenant settings.
       isCorrect: false 
       explanation: Promotion does not need specific permissions while Certification requires permission from the dataset owner to access to the dataset.
-- content: Promotion is for specific users while Certification needs permission granted on the Admin Tenant settings.
+    - content: Promotion is for specific users while Certification needs permission granted on the Admin Tenant settings.
       isCorrect: false 
       explanation: Promotion does not need specific permissions while Certification requires permission from the dataset owner to access to the dataset.
