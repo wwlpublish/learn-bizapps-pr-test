@@ -35,9 +35,9 @@ After the data is loaded, the predefined GitHub app dashboard appears.
 
 In addition to the app **dashboard**, the **report** that was generated (as part of the GitHub app) and used to create the dashboard is available, as is the **dataset** (the collection of data pulled from GitHub) that was created during data import and used to create the GitHub report.
 
-![Github navigation](../media/pbi-touring_06.png)
+![GitHub navigation](../media/pbi-touring_06.png)
 
-You can select any of the visuals and interact with them. If you click on a secion in one visual, all the other visuals on the page will filter accordingly.  For example, when you click on **MIHART** in the donut chart on the **Pull Requests** report, the other visuals on the page adjust to reflect that selection.
+You can select any of the visuals and interact with them. If you click on a section in one visual, all the other visuals on the page will filter accordingly.  For example, when you click on **MIHART** in the donut chart on the **Pull Requests** report, the other visuals on the page adjust to reflect that selection.
 
 ![Power BI navigation](../media/pbi-touring_06b.png)
 
