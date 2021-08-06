@@ -22,7 +22,7 @@ In this example, you will connect to your database on SQL Server by following th
    > [!div class="mx-imgBorder"]
    > [![Add query to execution statement](../media/2-add-query-execution-statement-ssm.png)](../media/2-add-query-execution-statement-ssm.png#lightbox)
 
-When the connection is made, the data will be shown in the preview window. 
+   When the connection is made, the data will be shown in the preview window. 
 
 3. Select **Edit** to open the data in Power Query Editor.
 
@@ -119,7 +119,7 @@ Next, you need to create a function that will pass the new **SalesPersonID** que
    > [!div class="mx-imgBorder"]
    > [![Select create function window](../media/2-create-function-window-ss.png)](../media/2-create-function-window-ss.png#lightbox)
 
-Your new function will appear in the **Queries** pane.
+   Your new function will appear in the **Queries** pane.
 
    > [!div class="mx-imgBorder"]
    > [![Function in Query pane](../media/2-function-query-pane-ssm.png)](../media/2-function-query-pane-ssm.png#lightbox)
