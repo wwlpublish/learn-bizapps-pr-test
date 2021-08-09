@@ -22,9 +22,9 @@ Select **View insights** to open the **Quick Insights** page for the selected da
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Count of Product Quick Insights card.](../media/9-insights-card-ss.png)](../media/9-insights-card-ss.png#lightbox)
 
-## Add a Quick insights result card to a report
+## Add a Quick insights result card to a dashboard
 
-If you see an insight card that is particularly compelling, you can add it to your report. On the **Quick Insights** page, hover over the card, then select the pin icon. The visual is added to your dashboard, where you can reposition it as required.
+If you see an insight card that is particularly compelling, you can add it to your dashboard. On the **Quick Insights** page, hover over the card, then select the pin icon. The visual is added to your dashboard, where you can reposition it as required.
 
 ## Interact with the quick insights results
 

@@ -28,19 +28,19 @@ quiz:
     choices: 
     - content: Analyzing customer feedback and surveys 
       isCorrect: false
-      explanation: Analyzing employee sentiments can be supported by key phrase extraction.
+      explanation: Analyzing customer feedback, surveys, social media, employee sentiments, emails, and other unstructured text are all supported by key phrase extraction.
     - content: Analyzing social media  
       isCorrect: false
-      explanation: Analyzing employee sentiments can be supported by key phrase extraction.
+      explanation: Analyzing customer feedback, surveys, social media, employee sentiments, emails, and other unstructured text are all supported by key phrase extraction.
     - content: Analyzing emails and other unstructured text 
       isCorrect: false
-      explanation: Analyzing employee sentiments can be supported by key phrase extraction.
+      explanation: Analyzing customer feedback, surveys, social media, employee sentiments, emails, and other unstructured text are all supported by key phrase extraction.
     - content: Analyzing employee sentiments 
-      isCorrect: true
-      explanation: Analyzing employee sentiments can be supported by key phrase extraction.
-    - content: All of the above 
       isCorrect: false
-      explanation: Analyzing employee sentiments can be supported by key phrase extraction.
+      explanation: Analyzing customer feedback, surveys, social media, employee sentiments, emails, and other unstructured text are all supported by key phrase extraction.
+    - content: All of the above 
+      isCorrect: true
+      explanation: Analyzing customer feedback, surveys, social media, employee sentiments, emails, and other unstructured text are all supported by key phrase extraction.
   - content: Where can you use key phrase extraction analysis? 
     choices: 
     - content: Power Automate only 
