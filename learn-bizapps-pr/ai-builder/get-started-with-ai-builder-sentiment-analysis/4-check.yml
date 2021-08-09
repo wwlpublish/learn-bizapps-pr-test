@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: Positive/negative 
       isCorrect: false
-      explanation: The possible outputs of Sentiment analysis models are positive, negative, neutral, and mixed.
+      explanation: The possible outputs of Sentiment analysis models are positive, negative, and neutral.
     - content: Positive/negative/neutral 
       isCorrect: false
-      explanation: The possible outputs of Sentiment analysis models are positive, negative, neutral, and mixed.
+      explanation: The possible outputs of Sentiment analysis models are positive, negative, and neutral.
     - content: Positive/negative/neutral/mixed 
-      isCorrect: true
-      explanation: The possible outputs of Sentiment analysis models are positive, negative, neutral, and mixed.
-    - content: Positive/negative/mixed 
       isCorrect: false
-      explanation: The possible outputs of Sentiment analysis models are positive, negative, neutral, and mixed.
+      explanation: The possible outputs of Sentiment analysis models are positive, negative, and neutral.
+    - content: Positive/negative/mixed 
+      isCorrect: true
+      explanation: The possible outputs of Sentiment analysis models are positive, negative, and neutral.
   - content: Which of the following business scenarios can be supported by Sentiment analysis?
     choices: 
     - content: Analyzing customer feedback and surveys 
