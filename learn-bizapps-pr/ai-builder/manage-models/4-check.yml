@@ -31,13 +31,13 @@ quiz:
     choices: 
     - content: One
       isCorrect: false
-      explanation: You can have two trained model versions at any given time.
+      explanation: You can have three trained model versions at any given time.
     - content: Two
-      isCorrect: true
-      explanation: You can have two trained model versions at any given time.
-    - content: Three
       isCorrect: false
-      explanation: You can have two trained model versions at any given time.
+      explanation: You can have three trained model versions at any given time.
+    - content: Three
+      isCorrect: true
+      explanation: You can have three trained model versions at any given time.
   - content: By default, who can see and use a model you have created?
     choices: 
     - content: Just me
