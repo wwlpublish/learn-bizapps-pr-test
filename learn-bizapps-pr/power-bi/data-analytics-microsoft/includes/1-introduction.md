@@ -5,7 +5,7 @@ As a data analyst, you are on a journey. Think about all the data that is being 
 
 For example, today's retail businesses collect and store massive amounts of data that track the items you browsed and purchased, the pages you've visited on their site, the aisles you purchase products from, your spending habits, and much more.
 
-With data and information as the most strategic asset of a business, the underlying challenge that organizations have today is understanding and using their data to positively effect change within the business. Businesses continue to struggle to use their data in a meaningful and productive way, which impacts their ability to act.
+With data and information as the most strategic asset of a business, the underlying challenge that organizations have today is understanding and using their data to positively affect change within the business. Businesses continue to struggle to use their data in a meaningful and productive way, which impacts their ability to act.
 
 A retail business should be able to use their vast amounts of data and information in such a way that impacts the business, including: 
 
@@ -20,7 +20,7 @@ Additionally, you might be looking for daily/monthly sale patterns. Common data 
 
 The key to unlocking this data is being able to tell a story with it. In today's highly competitive and fast-paced business world, crafting reports that tell that story is what helps business leaders take action on the data. Business decision makers depend on an accurate story to drive better business decisions. The faster a business can make precise decisions, the more competitive they will be and the better advantage they will have. Without the story, it is difficult to understand what the data is trying to tell you.
 
-However, having data alone is not enough. You need to be able to act on the data to effect change within the business. That action could involve reallocating resources within the business to accommodate a need, or it could be identifying a failing campaign and knowing when to change course. These situations are where telling a story with your data is important.
+However, having data alone is not enough. You need to be able to act on the data to affect change within the business. That action could involve reallocating resources within the business to accommodate a need, or it could be identifying a failing campaign and knowing when to change course. These situations are where telling a story with your data is important.
 
 The underlying challenge that businesses face today is understanding and using their data in such a way that impacts their business and ultimately their bottom line. You need to be able to look at the data and facilitate trusted business decisions. Then, you need the ability to look at metrics and clearly understand the meaning behind those metrics.
 
