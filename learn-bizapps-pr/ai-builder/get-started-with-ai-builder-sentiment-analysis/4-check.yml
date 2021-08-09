@@ -19,13 +19,13 @@ quiz:
       isCorrect: false
       explanation: The possible outputs of Sentiment analysis models are positive, negative, and neutral.
     - content: Positive/negative/neutral 
-      isCorrect: false
+      isCorrect: true
       explanation: The possible outputs of Sentiment analysis models are positive, negative, and neutral.
     - content: Positive/negative/neutral/mixed 
       isCorrect: false
       explanation: The possible outputs of Sentiment analysis models are positive, negative, and neutral.
     - content: Positive/negative/mixed 
-      isCorrect: true
+      isCorrect: false
       explanation: The possible outputs of Sentiment analysis models are positive, negative, and neutral.
   - content: Which of the following business scenarios can be supported by Sentiment analysis?
     choices: 
