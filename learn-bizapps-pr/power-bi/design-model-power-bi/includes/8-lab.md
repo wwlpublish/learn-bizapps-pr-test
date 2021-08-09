@@ -321,7 +321,7 @@ In this task, you will configure the **Sales** table.
 
 1. Select the **Quantity** column.
 
-1. In the **Properties** pane, from inside the **Formatting** section, slide the **Thousands Separator** property to **On**.
+1. In the **Properties** pane, from inside the **Formatting** section, slide the **Thousands Separator** property to **Yes**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Properties pane and the Thousands separator toggle.](../media/lab-13-ssm.png)](../media/lab-13-ssm.png#lightbox)
