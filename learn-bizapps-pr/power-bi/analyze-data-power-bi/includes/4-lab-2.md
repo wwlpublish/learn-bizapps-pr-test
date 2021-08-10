@@ -24,12 +24,12 @@ Congratulations. You are the new sales manager at a clothing manufacturing compa
 1. Sign in to [http://app.powerbi.com](http://app.powerbi.com).
 1. Select the **Apps** tab on the left.
 1. Select the **Get apps** button.
-1. Search for “_Sales and Marketing sample_.”  
+1. Search for “_Retail Analysis_.”  
 
    ![Screenshot of the sample app for this lab.](../media/lab-2/power-bi-top-app-results.png)
 
-1. From the **Install this Power BI app?** prompt, select the **Install** button.
 1. Select the “**Get it now**” link and wait for the app to install.
+1. From the **Install this Power BI app?** prompt, select the **Install** button.
 1. From the **Get started with your new app** screen, select the **Explore App** button. 
 1. Select the **Apps** tab on the left and then select the **Sales and Marketing sample** app tile.
 1. The first time you launch the app, you will see **Get started with your new app**
@@ -42,7 +42,7 @@ In this section, you will explore two questions:
 *  Why did our company, VanArsdel, underperform in June?
 *  What are our best growth opportunities?
 
-1. In the **Sales and Marketing sample** app, start on the **YTD Category** report page by selecting the **YTD Category** tab at the bottom from any report (or by selecting the **Total Units YTD** visual from the dashboard).
+1. In the **Sales and Marketing sample** app, start on the **YTD Category** report page by selecting the **YTD Category** tab at the left of the screen.
 
    ![Screenshot of the YTD Category report in the sample app.](../media/lab-2/power-bi-ytd-category-report.png)
 
@@ -102,4 +102,4 @@ In this section, you will explore two questions:
 
    ![Screenshot of the units by segment for June.](../media/lab-2/power-bi-segments-in-june.png)
 
-1. Why are Van Arsdel sales failing in June? What could we do to better compete?
+1. Why are Van Arsdel sales failing in June? What could we do to better compete? 

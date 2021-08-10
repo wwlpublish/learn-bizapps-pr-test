@@ -1,7 +1,9 @@
 Sometimes, the fastest way to get answers about your data is by asking questions in the Q&A feature of Power BI. 
 
+
 > [!NOTE]
 > Though Power BI Q&A only currently supports answering queries that are asked in English, a preview is available for Spanish that can be enabled by your Power BI administrator.
+
 
 **Explore Q&A**
 
@@ -13,7 +15,7 @@ You can use Q&A to explore your data by using the intuitive, natural language ca
 
 Ask a question about your data in Q&A by using natural language. Natural language refers to the ordinary language that humans use to communicate with one another every day. An example would be, “What are the total units by region?”
 
-![Screenshot of the data results for What are the total units by region.](../media/2-3/power-bi-ask-answer.png)
+![Screenshot of the data results for What are the total units by region.Image of the Q&A example: "What are the total units by region?"](../media/2-3/power-bi-ask-answer.png)
 
 Q&A is available on dashboards and reports in Power BI. To open the Q&A screen, go to the dashboard and place your cursor in the question box.
 
@@ -26,6 +28,7 @@ Other helpful items are provided on the side of the screen. For each dataset, Q&
 Another way that Q&A helps you ask questions is with prompts, autocomplete, and visual cues.
 
 ![Animated image of Power BI answering Q&A questions.](../media/2-3/power-bi-qa.gif)
+
 
 ### Q&A visuals
 
