@@ -16,7 +16,7 @@ Each dimension table must have a unique column, which is referred to as its key 
 
 The following figure compares characteristics of fact and dimension tables.
 
-|                        |     Dimension table                                                                 |     Fact table                                                                               |
+| Characteristic                       |     Dimension table                                                                 |     Fact table                                                                               |
 |------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 |     Model purpose      |     Stores business entities                                                       |     Stores events or observations                                                             |
 |     Table structure    |     Includes a key column and descriptive columns for filtering and grouping    |     Includes dimension key columns and numeric measure columns that can be summarized    |
