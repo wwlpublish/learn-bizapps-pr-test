@@ -20,7 +20,7 @@ The **Document automation base kit** provides a basic implementation of role-bas
 
 The features available in the validation application by each persona are summarized in the table.
 
-| | Manual Reviewer | Process Owner |
+| Feature | Manual Reviewer | Process Owner |
 |---|---|---|
 |     Controlling Dataverse role                              |     Document Automation Reviewer                                            | System Customizer    |
 |     Access the   **Configuration** tab                        |                                                                             |     X                |
