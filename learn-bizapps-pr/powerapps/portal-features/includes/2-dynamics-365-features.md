@@ -24,7 +24,7 @@ Knowledge management is available by default on the Customer self-service, Partn
 
 Forums allow members of a particular community who share common interests to post questions, start discussions, or ask for help.  
 
-Forums are set up and configured by using the Portal Management app. For information on how to configure forums, see [Set up and manage forums](https://docs.microsoft.com/dynamics365/portals/setup-manage-forums/?azure-portal=true). The **Forums** feature is also available on the Community, Customer self-service, Employee self-service, and Partner portals.
+Forums are set up and configured by using the Portal Management app. For information on how to configure forums, see [Set up and manage forums](/dynamics365/portals/setup-manage-forums/?azure-portal=true). The **Forums** feature is also available on the Community, Customer self-service, Employee self-service, and Partner portals.
 
 An organization will choose forums as a way for their community to interact with each other by asking questions, starting discussions, or by looking for help.
 
@@ -44,7 +44,7 @@ The organization can control from whom and how forum threads and posts are creat
 
 The Community portal has the ability for members of its online community to post blog articles.  
 
-See [Manage blogs](https://docs.microsoft.com/dynamics365/customer-engagement/portals/manage-blogs/?azure-portal=true) to learn how to configure and set up blogs on Power Apps portals.
+See [Manage blogs](/dynamics365/customer-engagement/portals/manage-blogs/?azure-portal=true) to learn how to configure and set up blogs on Power Apps portals.
 
 The organization must first create the blog by using the Portal Management app. After the blog has been created, the organization can grant the Blog Author web role to the portal user. The portal user will then be able to use the front side editing tools to create blog articles by writing text and inserting images and reference links.
 
@@ -62,7 +62,7 @@ The **Ideas** feature of the Community portal is an extension of the **Forums** 
 
 The **Ideas** feature is available on the Community, Customer self-service, and Employee self-service portals.
 
-To configure ideas on the Community portal, see [Crowdsource ideas](https://docs.microsoft.com/dynamics365/customer-engagement/portals/crowdsource-ideas/?azure-portal=true).
+To configure ideas on the Community portal, see [Crowdsource ideas](/dynamics365/customer-engagement/portals/crowdsource-ideas/?azure-portal=true).
 
 For an organization to best serve their customers or constituents, it is important that they allow an easy feedback mechanism. The Ideas portal allows portal visitors to submit a particular suggestion to the organization. This suggestion might be for a policy change, a new feature, or a new product or service recommendation. 
 
@@ -90,7 +90,7 @@ The key features of the **Project Service Automation** extension are:
 - View invoices
 - Review contract and order forms
 
-For more information, see the [Project Service Portal Extension](https://docs.microsoft.com/dynamics365/portals/integrate-project-service-automation/?azure-portal=true) documentation.
+For more information, see the [Project Service Portal Extension](/dynamics365/portals/integrate-project-service-automation/?azure-portal=true) documentation.
 
 ## Field Service integration 
 
@@ -104,4 +104,4 @@ The main features of the Field Service extension are:
 - Allow customers to view and request work orders from the portal
 - Customers can view invoices on the portal
 
-For more information, see the [Field Service Portal Extension](https://docs.microsoft.com/dynamics365/portals/integrate-field-service/?azure-portal=true) documentation.
+For more information, see the [Field Service Portal Extension](/dynamics365/portals/integrate-field-service/?azure-portal=true) documentation.

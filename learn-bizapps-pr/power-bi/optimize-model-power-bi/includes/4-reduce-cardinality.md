@@ -52,5 +52,5 @@ In Power BI Desktop, a Mixed mode design produces a composite model. Essentially
 
 An effective technique to reduce the model size is to set the **Storage Mode** property for larger fact-type tables to **DirectQuery**. This design approach can work well in conjunction with techniques that are used to summarize your data. For example, the summarized sales data could be used to achieve high performance "summary" reporting. A drill-through page could be created to display granular sales for specific (and narrow) filter context, displaying all in-context sales orders. The drill-through page would include visuals based on a DirectQuery table to retrieve the sales order data (sales order details).
 
-For more information, see [Data reduction techniques for Import modeling](https://docs.microsoft.com/power-bi/guidance/import-modeling-data-reduction#group-by-and-summarize/?azure-portal=true).
+For more information, see [Data reduction techniques for Import modeling](/power-bi/guidance/import-modeling-data-reduction#group-by-and-summarize/?azure-portal=true).
 

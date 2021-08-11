@@ -38,4 +38,4 @@ After you have created a few topics, you might want to use a previous topic as a
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the make a copy menu item when copying a topic.](../media/7-4.png)](../media/7-4.png#lightbox)
 
-The new topic appears in the **User Topics** list. All copied topics have a status of **Off** by default to avoid confusion on which topic will trigger because it will have the same trigger phrases as the original topic. After you have finished editing the new topic, you can turn it **On** to [test it in the Test bot](https://docs.microsoft.com/power-virtual-agents/authoring-test-bot/?azure-portal=true) window and, when ready, publish the new topic.
+The new topic appears in the **User Topics** list. All copied topics have a status of **Off** by default to avoid confusion on which topic will trigger because it will have the same trigger phrases as the original topic. After you have finished editing the new topic, you can turn it **On** to [test it in the Test bot](/power-virtual-agents/authoring-test-bot/?azure-portal=true) window and, when ready, publish the new topic.

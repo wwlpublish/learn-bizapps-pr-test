@@ -7,4 +7,4 @@ If your report fails to refresh, ensure that your data source credentials are up
 
 If your data source credentials are not up to date, you'll need to take further action to investigate and resolve the issue.
 
-For more information, see [Troubleshooting refresh scenarios](https://docs.microsoft.com/power-bi/connect-data/refresh-troubleshooting-refresh-scenarios/?azure-portal=true).
+For more information, see [Troubleshooting refresh scenarios](/power-bi/connect-data/refresh-troubleshooting-refresh-scenarios/?azure-portal=true).

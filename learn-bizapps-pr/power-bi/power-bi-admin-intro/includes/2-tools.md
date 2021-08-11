@@ -12,10 +12,10 @@ Power BI tools to promote optimal use fall into two categories: Power BI desktop
 
 - **Datasets** - A source of data ready for reporting and visualization.
 
-- **Reports** - Generate reports from the Power BI service from My Workspace or in a new workspace experience. You can also create reports from endorsed datasets. For details on creating reports, refer to this [article](https://docs.microsoft.com/power-bi/connect-data/service-datasets-discover-across-workspaces/?azure-portal=true).
+- **Reports** - Generate reports from the Power BI service from My Workspace or in a new workspace experience. You can also create reports from endorsed datasets. For details on creating reports, refer to this [article](/power-bi/connect-data/service-datasets-discover-across-workspaces/?azure-portal=true).
 
-- **Dashboards** - A single page, often called a canvas, that tells a story through visualizations. For an introduction to creating dashboards through Power BI, refer to this [article](https://docs.microsoft.com/power-bi/create-reports/service-dashboards/?azure-portal=true).
+- **Dashboards** - A single page, often called a canvas, that tells a story through visualizations. For an introduction to creating dashboards through Power BI, refer to this [article](/power-bi/create-reports/service-dashboards/?azure-portal=true).
 
-- **Workspaces** (v1 and v2) - Workspaces are created on capacities. Essentially, they are containers for dashboards, reports, workbooks, datasets, and dataflows. There are two types of workspaces, *My workspace* and *Workspaces*. My workspace is the personal workspace for any Power BI customer to work with your own content. Workspaces are used to collaborate and share content with colleagues. For more information on workspaces, see this [article](https://docs.microsoft.com/power-bi/fundamentals/service-basic-concepts/?azure-portal=true).
+- **Workspaces** (v1 and v2) - Workspaces are created on capacities. Essentially, they are containers for dashboards, reports, workbooks, datasets, and dataflows. There are two types of workspaces, *My workspace* and *Workspaces*. My workspace is the personal workspace for any Power BI customer to work with your own content. Workspaces are used to collaborate and share content with colleagues. For more information on workspaces, see this [article](/power-bi/fundamentals/service-basic-concepts/?azure-portal=true).
 
-- **Dataflows** - Reusable transformation logic that can be shared by many datasets and reports. For an introduction to dataflows, refer to this [article](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-introduction-self-service/?azure-portal=true).
+- **Dataflows** - Reusable transformation logic that can be shared by many datasets and reports. For an introduction to dataflows, refer to this [article](/power-bi/transform-model/dataflows/dataflows-introduction-self-service/?azure-portal=true).

@@ -92,4 +92,4 @@ Integers are better than strings for two reasons:
 
 Strings are referenced twice, while integers are referenced only once.
 
-For more information, see [Understand star schema and the importance for Power BI](https://docs.microsoft.com/power-bi/guidance/star-schema/?azure-portal=true). 
+For more information, see [Understand star schema and the importance for Power BI](/power-bi/guidance/star-schema/?azure-portal=true). 

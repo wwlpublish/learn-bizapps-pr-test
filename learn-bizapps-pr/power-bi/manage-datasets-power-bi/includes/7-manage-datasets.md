@@ -49,4 +49,4 @@ When you apply your change, the **Certified** setting will update to display a m
 > [!div class="mx-imgBorder"]
 > [![View certified message details](../media/7-view-certified-details-ss.png)](../media/7-view-certified-details-ss.png#lightbox)
 
-For more information, see [Promote your dataset](https://docs.microsoft.com/power-bi/service-datasets-promote/?azure-portal=true) or [Certify datasets](https://docs.microsoft.com/power-bi/service-datasets-certify/?azure-portal=true).
+For more information, see [Promote your dataset](/power-bi/service-datasets-promote/?azure-portal=true) or [Certify datasets](/power-bi/service-datasets-certify/?azure-portal=true).

@@ -6,7 +6,7 @@ Each topic consists of two primary elements:
 
 - **Conversation nodes** - Define how a bot should respond and what it should do.
 
-You can design topics by [customizing provided templates](https://docs.microsoft.com/power-virtual-agents/authoring-template-topics/?azure-portal=true), creating a new one, or using a topic that has been suggested from existing sites. Your bot can have up to 1,000 topics.
+You can design topics by [customizing provided templates](/power-virtual-agents/authoring-template-topics/?azure-portal=true), creating a new one, or using a topic that has been suggested from existing sites. Your bot can have up to 1,000 topics.
 
 ## Get started with topics
 
@@ -72,5 +72,5 @@ The following image shows that for each path, a **Message** node is added that p
 > [!div class="mx-imgBorder"]
 > [![Screenshot of message node added for seperate converstations.](../media/power-virtual-agents-4-6-ss.png)](../media/power-virtual-agents-4-6-ss.png#lightbox)
 
-You now have a simple branching dialog tree and can begin to create more complex versions of this tree by incorporating [variables](https://docs.microsoft.com/power-virtual-agents/authoring-variables/?azure-portal=true), [entities](https://docs.microsoft.com/power-virtual-agents/advanced-entities-slot-filling/?azure-portal=true), and [Power Automate flows](https://docs.microsoft.com/power-virtual-agents/advanced-flow/?azure-portal=true).
+You now have a simple branching dialog tree and can begin to create more complex versions of this tree by incorporating [variables](/power-virtual-agents/authoring-variables/?azure-portal=true), [entities](/power-virtual-agents/advanced-entities-slot-filling/?azure-portal=true), and [Power Automate flows](/power-virtual-agents/advanced-flow/?azure-portal=true).
 

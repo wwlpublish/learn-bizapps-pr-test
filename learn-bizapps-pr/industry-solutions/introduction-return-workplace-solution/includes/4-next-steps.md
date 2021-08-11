@@ -25,9 +25,9 @@ For the more experienced Dynamics 365 or Microsoft Power Platform consultant, th
 
 1. Deploy the portal.
 
-For more information, see [Deploy the Return to the Workplace solution](https://docs.microsoft.com/dynamics365/industry/return-to-workplace/deploy/?azure-portal=true).
+For more information, see [Deploy the Return to the Workplace solution](/dynamics365/industry/return-to-workplace/deploy/?azure-portal=true).
 
-Deployments in the US Government cloud have a few variations to the previous steps. For more information, see [Appendix: Deploy the app and publish Power BI dashboard (US Government customers only)](https://docs.microsoft.com/dynamics365/industry/return-to-workplace/deploy?azure-portal=true#appendix-deploy-the-app-and-publish-power-bi-dashboard-us-government-customers-only).
+Deployments in the US Government cloud have a few variations to the previous steps. For more information, see [Appendix: Deploy the app and publish Power BI dashboard (US Government customers only)](/dynamics365/industry/return-to-workplace/deploy?azure-portal=true#appendix-deploy-the-app-and-publish-power-bi-dashboard-us-government-customers-only).
 
 Additionally, the expected extensions and platform capabilities are still available to you as a maker in the environment. Extend the configuration as needed, but be mindful of the impact to the solutions that you have deployed. Ideas on functionality that you could extend include:
 

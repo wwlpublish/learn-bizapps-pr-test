@@ -25,7 +25,7 @@ addresses.
 
 As you begin using the **Concat** function be sure not confuse it with
 the
-[**Concatenate**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-concatenate)
+[**Concatenate**](/powerapps/maker/canvas-apps/functions/function-concatenate/?azure-portal=true)
 function that is used to combine multiple strings into one string.
 
 Turn a string into a single column table

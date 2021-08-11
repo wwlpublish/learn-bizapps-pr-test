@@ -45,7 +45,7 @@ You can use advanced settings to implement some of the features that do not map 
 
 ### Commands
 
-Table lists, table forms, and web forms include action button configuration that adds per-row actions. See [table form action configuration](/powerapps/maker/portals/configure/entity-forms#entity-form-action-configuration/?azure-portal=true) and [table list configuration](/powerapps/maker/portals/configure/entity-lists#entity-list-configuration/?azure-portal=true) for information about available actions.
+Table lists, table forms, and web forms include action button configuration that adds per-row actions. See [table form action configuration](/powerapps/maker/portals/configure/entity-forms?azure-portal=true#entity-form-action-configuration) and [table list configuration](/powerapps/maker/portals/configure/entity-lists?azure-portal=true#entity-list-configuration) for information about available actions.
 
 Some commands include the **Filter Criteria** setting. You can use it to enter FetchXML that evaluates and hides the command if the selected row is not returned by the specified FetchXML query.
 

@@ -5,7 +5,7 @@ Branching allows you to evaluate conditions to initiate conversation nodes to la
 > [!div class="mx-imgBorder"]
 > [![Add a condition, either for a branch based on a condition or for all other conditions.](../media/3-1.png)](../media/3-1.png#lightbox)
 
-You can select how the bot conversation should branch at this point. For example, if you have set up [end-user authentication](https://docs.microsoft.com/power-virtual-agents/advanced-end-user-authentication/?azure-portal=true), then you might want to specify a different message if the user is signed on (which might have happened earlier in the conversation).
+You can select how the bot conversation should branch at this point. For example, if you have set up [end-user authentication](/power-virtual-agents/advanced-end-user-authentication/?azure-portal=true), then you might want to specify a different message if the user is signed on (which might have happened earlier in the conversation).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the variable to choose for a branch.](../media/3-1-1.png)](../media/3-1-1.png#lightbox)

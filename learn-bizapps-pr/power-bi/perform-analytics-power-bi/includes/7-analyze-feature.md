@@ -19,4 +19,4 @@ In this example, you select the **Explain the increase** option, and a window di
 
 If you find this analysis useful, you can add the new visual to your report so that other users can view it. Select the plus (**+**) icon in the upper-right corner of the visual to add it to your report.
 
-For more information about the Analyze feature, see [Apply insights in Power BI Desktop to discover where distributions vary (preview)](https://docs.microsoft.com/power-bi/create-reports/desktop-insights-find-where-different/?azure-portal=true).
+For more information about the Analyze feature, see [Apply insights in Power BI Desktop to discover where distributions vary (preview)](/power-bi/create-reports/desktop-insights-find-where-different/?azure-portal=true).

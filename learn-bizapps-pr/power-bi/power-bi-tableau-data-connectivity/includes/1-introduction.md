@@ -63,4 +63,4 @@ Composite modes are geared toward allowing Power BI to determine the most effici
 
 ## Reference links
 
-For more information on the different dataset modes, see [Dataset modes in the Power BI service](https://docs.microsoft.com/power-bi/connect-data/service-dataset-modes-understand/?azure-portal=true).
+For more information on the different dataset modes, see [Dataset modes in the Power BI service](/power-bi/connect-data/service-dataset-modes-understand/?azure-portal=true).

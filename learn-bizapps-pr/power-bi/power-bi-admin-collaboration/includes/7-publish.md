@@ -19,7 +19,7 @@ The following steps describe how to use Publish to web.
    > [![Screenshot of the message box showing Contact your admin to enable code creation.](../media/7-contact.png)](../media/7-contact.png#lightbox)
 
    > [!tip]
-   > For help finding the person who can enable Publish to web in your organization, see [How to find your Power BI administrator](https://docs.microsoft.com/power-bi/collaborate-share/service-publish-to-web?azure-portal=true#find-your-power-bi-administrator).
+   > For help finding the person who can enable Publish to web in your organization, see [How to find your Power BI administrator](/power-bi/collaborate-share/service-publish-to-web?azure-portal=true#find-your-power-bi-administrator).
 
 1. Review the dialog content and select Create embed code.
 

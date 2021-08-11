@@ -1,4 +1,4 @@
-To make a custom connector available to all users in Logic Apps, Power Automate, and Power Apps as a certified connector, submit your connector to Microsoft for certification. Microsoft will review the connector and, if it meets certification criteria, will approve it for publishing. After the connector has been published, it will join the [full list](https://docs.microsoft.com/connectors/connector-reference/?azure-portal=true) of publicly available connectors.
+To make a custom connector available to all users in Logic Apps, Power Automate, and Power Apps as a certified connector, submit your connector to Microsoft for certification. Microsoft will review the connector and, if it meets certification criteria, will approve it for publishing. After the connector has been published, it will join the [full list](/connectors/connector-reference/?azure-portal=true) of publicly available connectors.
 
 This unit examines each step, including some high-level steps, in the certification process. These same steps apply to later updates as well, but depending on the scope of the update, they can be considerably quicker.
 
@@ -23,7 +23,7 @@ A few key planning factors that you should consider are:
 
 - Review the supported OpenAPI extensions for applicability. For example, the test connection is commonly implemented by certified connectors. Also, using dynamic value extensions can be helpful if you have parameters with lists of values to choose from.
 
-For new connector certification, you don't have to wait until you finish developing the connector to register for certification. For more information, see the [Certification Process](https://docs.microsoft.com/connectors/custom-connectors/submit-certification?azure-portal=true#certification-process). Expect to receive an email from a Microsoft representative, who will help you better understand your custom connector, explain your development progress, and guide you through the certification process.
+For new connector certification, you don't have to wait until you finish developing the connector to register for certification. For more information, see the [Certification Process](/connectors/custom-connectors/submit-certification?azure-portal=true#certification-process). Expect to receive an email from a Microsoft representative, who will help you better understand your custom connector, explain your development progress, and guide you through the certification process.
 
 For updates to a certified connector, the most important part of planning is to not break existing users. This issue will be discussed in more detail in a later unit.
 
@@ -35,7 +35,7 @@ The primary focus in the development step is getting your API and the definition
 
 The introduction unit covered a high-level overview of how to create an open-source connector. You will put the certified connector in the **certified-connectors** folder. Prior to submitting a pull request, make sure that you perform the following tasks:
 
-- Edit your connector files to add the [specific required metadata](https://docs.microsoft.com/connectors/custom-connectors/certification-submission?azure-portal=true#publisher-and-stack-owner). Your connector files must contain specific metadata that describes the connector and its end service.
+- Edit your connector files to add the [specific required metadata](/connectors/custom-connectors/certification-submission?azure-portal=true#publisher-and-stack-owner). Your connector files must contain specific metadata that describes the connector and its end service.
 
 - Run the paconn validate command on your downloaded connector and then resolve errors.
 
@@ -53,7 +53,7 @@ As part of the process for submitting to ISV Studio for certification, you shoul
 
 - Connector testing information, for example, an API key, other authentication details, or any details that would help a tester use the connector.
 
-- An `Intro.md` file that contains information to include in the public documentation for the connector. You can find a template in the [Submitting to ISV Studio](https://docs.microsoft.com/connectors/custom-connectors/certification-submission?azure-portal=true#submitting-to-isv-studio) documentation.
+- An `Intro.md` file that contains information to include in the public documentation for the connector. You can find a template in the [Submitting to ISV Studio](/connectors/custom-connectors/certification-submission?azure-portal=true#submitting-to-isv-studio) documentation.
 
 As the certification progresses, you will get updates in the portal and will receive an email from the primary contact. If issues are encountered, you will be expected to resolve them before the certification will proceed. After the connector has passed certification, it will be scheduled for deployment to the "Preview" region for testing.
 
@@ -61,7 +61,7 @@ As the certification progresses, you will get updates in the portal and will rec
 
 As part of the certification process, your connector is deployed to the "Preview" region for testing. It's now your opportunity to make sure that the deployed connector works properly before it's deployed to all regions worldwide. Make sure that you test all functionality of your connector in Power Apps, Power Automate, and Logic Apps. 
 
-For more information, see [Instructions on testing your connector in certification](https://docs.microsoft.com/connectors/custom-connectors/certification-testing/?azure-portal=true).
+For more information, see [Instructions on testing your connector in certification](/connectors/custom-connectors/certification-testing/?azure-portal=true).
 
 ## Deployment
 

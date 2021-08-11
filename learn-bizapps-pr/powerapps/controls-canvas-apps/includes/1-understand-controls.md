@@ -14,7 +14,7 @@ common to almost every type of control, but other properties, such as
 In addition to the controls listed above, there are other types of
 controls that you can add to enhance your apps:
 
-**Galleries** - These controls are layout containers that hold a set of controls that show data from a data source. For more information about galleries, see [Work with data in a Power Apps canvas app](https://docs.microsoft.com/learn/paths/work-with-data-in-a-canvas-app/).
+**Galleries** - These controls are layout containers that hold a set of controls that show data from a data source. For more information about galleries, see [Work with data in a Power Apps canvas app](/learn/paths/work-with-data-in-a-canvas-app/?azure-portal=true).
 
 **Data table** - The **Data table** control shows data from a data source
 in a format that includes column headers for each field that the control
@@ -26,7 +26,7 @@ controls.
 
 **Forms** - These controls show details about your data and let you
 create and edit items. for more information about forms, see
-[Write data in a Power Apps canvas app](https://docs.microsoft.com/learn/modules/write-data/).
+[Write data in a Power Apps canvas app](/learn/modules/write-data/?azure-portal=true).
 
 **Media** - These controls let you add background images and sounds.
 Controls include a camera button (so that users can take pictures from

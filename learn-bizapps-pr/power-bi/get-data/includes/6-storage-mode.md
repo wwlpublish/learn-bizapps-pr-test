@@ -29,4 +29,4 @@ The DirectQuery option is useful when you do not want to save local copies of yo
 
 In Dual mode, you can identify some data to be directly imported and other data that must be queried. Any table that is brought in to your report is a product of both Import and DirectQuery modes. Using the Dual mode allows Power BI to choose the most efficient form of data retrieval.
 
-For more information regarding Storage Modes, please refer to [Storage Modes](https://docs.microsoft.com/power-bi/transform-model/desktop-storage-mode/?azure-portal=true).
+For more information regarding Storage Modes, please refer to [Storage Modes](/power-bi/transform-model/desktop-storage-mode/?azure-portal=true).

@@ -12,7 +12,7 @@ When handling messages, the connector runtime limits message content to a maximu
 
 For a custom connector to use chunk transfer, the following parameters are required:
 
--   The API must support chunking. For more information, see [Chunked message handling for connectors](https://docs.microsoft.com/azure/logic-apps/logic-apps-handle-large-messages?azure-portal=true#chunked-message-handling-for-connectors).
+-   The API must support chunking. For more information, see [Chunked message handling for connectors](/azure/logic-apps/logic-apps-handle-large-messages?azure-portal=true#chunked-message-handling-for-connectors).
 
 -   Your custom connector must enable the chunk transfer capability extension on the action.
 

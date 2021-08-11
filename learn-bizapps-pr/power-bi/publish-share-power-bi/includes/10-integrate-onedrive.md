@@ -13,4 +13,4 @@ To connect to a PBIX (Power BI Desktop) file on OneDrive for Business, sign in t
 
 Your content appears on the left-hand side navigation bar. File changes on the **OneDrive for Business** page will automatically reflect in the Power BI environment and will be recorded in the version history.
 
-For more information, see [Connect to files stored in OneDrive for your Power BI app workspace](https://docs.microsoft.com/power-bi/collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business/?azure-portal=true).
+For more information, see [Connect to files stored in OneDrive for your Power BI app workspace](/power-bi/collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business/?azure-portal=true).

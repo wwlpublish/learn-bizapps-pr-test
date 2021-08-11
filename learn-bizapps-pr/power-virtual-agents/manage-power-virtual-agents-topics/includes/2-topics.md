@@ -103,11 +103,11 @@ Each topic that you include in your bot will likely be specific. For example, th
 
 One of the many advantages to Power Virtual Agents is the ability to implement actions such as sending emails, locating external data, or creating activities based on data that is entered in the bot. The **Call an action** node helps to facilitate this ability by allowing you to call a Power Automate flow from the bot.
 
-For more information, see [Microsoft Docs](https://docs.microsoft.com/power-virtual-agents/advanced-flow/?azure-portal=true).
+For more information, see [Microsoft Docs](/power-virtual-agents/advanced-flow/?azure-portal=true).
 
 ## Use the End the conversation node
 
-Often, the end of a topic also represents the end of the conversation. The **End the conversation** node signifies the end of the entire conversation and provides actions that can be initiated. You can have a survey appear that asks the user if their question or issue was answered or resolved correctly. This information is collected under the [customer satisfaction analytics page](https://docs.microsoft.com/power-virtual-agents/analytics-csat/?azure-portal=true). You could also elect to escalate the conversation [over to a live agent](https://docs.microsoft.com/power-virtual-agents/advanced-hand-off/?azure-portal=true) if you are using a suitable customer service portal, such as Omnichannel for Microsoft Dynamics 365 Customer Service. At the end of a response that resolves the user's issue or answers the question, select **End the conversation**.
+Often, the end of a topic also represents the end of the conversation. The **End the conversation** node signifies the end of the entire conversation and provides actions that can be initiated. You can have a survey appear that asks the user if their question or issue was answered or resolved correctly. This information is collected under the [customer satisfaction analytics page](/power-virtual-agents/analytics-csat/?azure-portal=true). You could also elect to escalate the conversation [over to a live agent](/power-virtual-agents/advanced-hand-off/?azure-portal=true) if you are using a suitable customer service portal, such as Omnichannel for Microsoft Dynamics 365 Customer Service. At the end of a response that resolves the user's issue or answers the question, select **End the conversation**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of end the conversation node details area.](../media/2-5.png)](../media/2-5.png#lightbox)

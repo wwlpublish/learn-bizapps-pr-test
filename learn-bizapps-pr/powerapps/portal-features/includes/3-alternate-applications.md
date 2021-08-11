@@ -18,11 +18,11 @@ Integrations to specific payment gateways will need to be custom developed and a
 > [![Screenshot of the Event Management Portal.](../media/3-event-portal.png)](../media/3-event-portal.png#lightbox)
 
 
-For more information, see the [Dynamics 365 Marketing Portal](https://docs.microsoft.com/dynamics365/marketing/set-up-event-portal/?azure-portal=true) documentation.
+For more information, see the [Dynamics 365 Marketing Portal](/dynamics365/marketing/set-up-event-portal/?azure-portal=true) documentation.
 
 ## Customer portal (Dynamics 365 Supply Chain Management)
 
-The Customer portal template allows you to create an externally facing website that is connected to a Dynamics 365 Supply Chain Management environment. It uses [dual-write capabilities](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page/?azure-portal=true) to link Microsoft Dataverse entities to Dynamics 365 Supply Chain Management data. 
+The Customer portal template allows you to create an externally facing website that is connected to a Dynamics 365 Supply Chain Management environment. It uses [dual-write capabilities](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page/?azure-portal=true) to link Microsoft Dataverse entities to Dynamics 365 Supply Chain Management data. 
 
 The template provides guidance and a starting point for creating custom websites for business-to-business (B2B) sales-order processing and related scenarios. It helps companies bring dual-write, Power Apps portals, and Dynamics 365 Supply Chain Management together to create a self-service experience for their enterprise customers.
 
@@ -35,4 +35,4 @@ The key features of the Customer portal are:
 - Ability to view account information
 - Ability to create orders on the portal
 
-For more information, see the [Dynamics 365 Supply Chain Management Customer Portal](https://docs.microsoft.com/dynamics365/supply-chain/sales-marketing/customer-portal-overview/?azure-portal=true) documentation.
+For more information, see the [Dynamics 365 Supply Chain Management Customer Portal](/dynamics365/supply-chain/sales-marketing/customer-portal-overview/?azure-portal=true) documentation.

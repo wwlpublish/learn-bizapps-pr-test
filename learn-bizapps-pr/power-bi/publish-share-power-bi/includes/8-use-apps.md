@@ -20,4 +20,4 @@ Power BI processes those changes and publishes the updated app to the app galler
 
 ![Screenshot of the success notice after updating an app.](../media/power-bi-learn-06-04-content-pack-success.png)
 
-For more information, see [Change your published app](https://docs.microsoft.com/power-bi/service-create-distribute-apps#change-your-published-app).
+For more information, see [Change your published app](/power-bi/service-create-distribute-apps#change-your-published-app).

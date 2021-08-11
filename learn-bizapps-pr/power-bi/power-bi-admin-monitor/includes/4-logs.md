@@ -1,4 +1,4 @@
-Knowing who is taking what action on which item in your Power BI tenant can be critical in helping your organization fulfill its requirements, like meeting regulatory compliance and records management. With Power BI, you have two options to track user activity: The [Power BI activity log](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-activity-log/?azure-portal=true) and the [unified audit log](https://docs.microsoft.com/power-bi/admin/service-admin-auditing?azure-portal=true#use-the-audit-log). The Power BI activity log will be covered in Unit 5 of this course.
+Knowing who is taking what action on which item in your Power BI tenant can be critical in helping your organization fulfill its requirements, like meeting regulatory compliance and records management. With Power BI, you have two options to track user activity: The [Power BI activity log](/power-bi/admin/service-admin-auditing#use-the-activity-log/?azure-portal=true) and the [unified audit log](/power-bi/admin/service-admin-auditing?azure-portal=true#use-the-audit-log). The Power BI activity log will be covered in Unit 5 of this course.
 
 As the tenant admin, it's likely that at some point you'll be required to answer questions about a specific instance or activity in the tenant. Questions such as who is accessing my report, or when did they access the report will require investigation by the tenant admin. These investigations can be done through the O365 cloud. But these queries produce event activity records on all products in the O365 container, including:
 
@@ -17,4 +17,4 @@ The following is an example of an audit log search.
 
 The Power BI audit log search is primarily a manual task. The Power BI activity log is the set of audit events specific to Power BI.
 
-For additional information about Power BI audit logs, review [Track user activities in Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing/?azure-portal=true).
+For additional information about Power BI audit logs, review [Track user activities in Power BI](/power-bi/admin/service-admin-auditing/?azure-portal=true).

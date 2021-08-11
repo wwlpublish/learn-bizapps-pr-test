@@ -86,7 +86,7 @@ Calculated tables are useful to work in scenarios when multiple relationships be
 
 ## Create a date table
 
-In the next example, a second calculated table will be created, this time by using the [CALENDARAUTO](https://docs.microsoft.com/dax/calendarauto-function-dax/?azure-portal=true) DAX function.
+In the next example, a second calculated table will be created, this time by using the [CALENDARAUTO](/dax/calendarauto-function-dax/?azure-portal=true) DAX function.
 
 Create the Due Date calculated table by using the following definition.
 
@@ -107,7 +107,7 @@ Effectively, the CALENDARAUTO function guarantees that the following requirement
 -   The column must not have missing dates.
 
 > [!TIP]
-> You can also create a date table by using the [CALENDAR](https://docs.microsoft.com/dax/calendar-function-dax/?azure-portal=true) DAX function and passing in two date values, which represent the date range. The function generates one row for each date within the range. You can pass in static date values or pass in expressions that retrieve the earliest/latest dates from specific columns in your model.
+> You can also create a date table by using the [CALENDAR](/dax/calendar-function-dax/?azure-portal=true) DAX function and passing in two date values, which represent the date range. The function generates one row for each date within the range. You can pass in static date values or pass in expressions that retrieve the earliest/latest dates from specific columns in your model.
 
 Next, switch to data view, and then in the **Fields** pane, select the Due Date table. Now, review the column of dates. You might want to order them to see the earliest date in the first row by selecting the arrow inside the **Date** column header and then sorting in ascending order.
 

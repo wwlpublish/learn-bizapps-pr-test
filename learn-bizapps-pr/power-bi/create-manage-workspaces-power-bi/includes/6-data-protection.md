@@ -8,7 +8,7 @@ As enterprises grow, so does their data. Often, strict requirements and regulati
 
 To continue with the module scenario, as more reports and dashboards are increasingly added to the Tailwind Traders workspace, the Sales team becomes concerned as they realize the urgency of securing their data. The team is concerned about the possibility of new users exporting data without permission. The Sales team doesn't want to roll back reports or dashboards, so they have asked you to implement comprehensive security measures that protect data access within and outside of Power BI. You can complete this task by configuring data protection labels in Power BI. 
 
-Before you begin, ensure that you have the appropriate licensing, as shown [here](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview/?azure-portal=true).
+Before you begin, ensure that you have the appropriate licensing, as shown [here](/power-bi/admin/service-security-data-protection-overview/?azure-portal=true).
 
 ## Sensitivity labels
 
@@ -36,4 +36,4 @@ This factor is crucial when you are exporting data. Data that is exported to Mic
 
 However, if you didn't have established permissions, you would be denied access to see the data. This verification ensures that only appropriate users have access to view the data, which helps make sure that your data is secured.
 
-For more information, see [Apply Data Sensitivity Labels in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-security-apply-data-sensitivity-labels).
+For more information, see [Apply Data Sensitivity Labels in Power BI](/power-bi/collaborate-share/service-security-apply-data-sensitivity-labels).

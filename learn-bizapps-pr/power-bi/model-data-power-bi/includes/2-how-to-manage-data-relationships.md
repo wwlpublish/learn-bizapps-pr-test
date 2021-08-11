@@ -34,4 +34,4 @@ Generally, we recommend minimizing the use of bi-directional relationships. They
 
 Setting accurate relationships between your data allows you to create complex calculations across multiple data elements.
 
-For more information, see: [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships/?azure-portal=true) and [Bi-directional relationship guidance](https://docs.microsoft.com/power-bi/guidance/relationships-bidirectional-filtering/?azure-portal=true).
+For more information, see: [Create and manage relationships in Power BI Desktop](/power-bi/desktop-create-and-manage-relationships/?azure-portal=true) and [Bi-directional relationship guidance](/power-bi/guidance/relationships-bidirectional-filtering/?azure-portal=true).
