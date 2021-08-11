@@ -6,15 +6,15 @@ In this unit, you will
 
 Before you begin this course, we recommend that you get familiar with these products:
 
-- [Introduction to Power Automate](https://docs.microsoft.com/learn/modules/introduction-power-automate/) learn module.
+- [Introduction to Power Automate](/learn/modules/introduction-power-automate/?azure-portal=true) learn module.
 
-- [Introduction to Power Apps](https://docs.microsoft.com/learn/modules/introduction-power-apps/) learn module.
+- [Introduction to Power Apps](/learn/modules/introduction-power-apps/?azure-portal=true) learn module.
 
-- [Get started with Dataverse](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) learn module.
+- [Get started with Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/?azure-portal=true) learn module.
 
-- [Get started with Form processing in AI Builder](https://docs.microsoft.com/learn/modules/get-started-with-form-processing/) learn module.
+- [Get started with Form processing in AI Builder](/learn/modules/get-started-with-form-processing/?azure-portal=true) learn module.
 
-- [Overview of AI Builder form processing model](https://docs.microsoft.com/ai-builder/form-processing-model-overview) documentation.
+- [Overview of AI Builder form processing model](/ai-builder/form-processing-model-overview/?azure-portal=true) documentation.
 
 ## What document automation is
 
@@ -43,7 +43,7 @@ Document automation provides this standard end-to-end solution. It includes the 
 > [!div class="mx-imgBorder"]
 > [![Document automation consists of automatically storing documents and sending them for processing in Power Automate, processing documents in AI Builder, and reviewing processed documents in Power Apps.](../media/1-document-automation.png)](../media/1-document-automation.png#lightbox)
 
-The document automation tool is a solution that you install in one of your Environments (learn more about environments in [Environments Overview](https://docs.microsoft.com/power-platform/admin/environments-overview)). This solution includes several Power Automate flows, a Power App, and several Dataverse data tables. It's called the **Document automation base kit**.
+The document automation tool is a solution that you install in one of your Environments (learn more about environments in [Environments Overview](/power-platform/admin/environments-overview/?azure-portal=true)). This solution includes several Power Automate flows, a Power App, and several Dataverse data tables. It's called the **Document automation base kit**.
 
 ## What document automation includes
 
@@ -141,9 +141,9 @@ Document automation is a reference managed solution. Users are free to use and u
 
 To use this solution, you need the following licenses:
 
-- One [Power Automate license](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus/) to run all the flows that orchestrate the process.
+- One [Power Automate license](/power-platform/admin/pricing-billing-skus/?azure-portal=true) to run all the flows that orchestrate the process.
 
-- A [Power Apps license](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus/) for any user who must manually review and approve documents.
+- A [Power Apps license](/power-platform/admin/pricing-billing-skus/?azure-portal=true) for any user who must manually review and approve documents.
 
 - A Power Apps license for the process owner to configure the process.
 

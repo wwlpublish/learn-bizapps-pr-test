@@ -7,4 +7,4 @@ Specifically, you learned how to:
 - Write the data to Excel.
 - Test the flow.
 
-To learn more about AI Builder invoice processing, see the [Invoice processing model](https://docs.microsoft.com/ai-builder/prebuilt-invoice-processing) article.
+To learn more about AI Builder invoice processing, see the [Invoice processing model](/ai-builder/prebuilt-invoice-processing/?azure-portal=true) article.
