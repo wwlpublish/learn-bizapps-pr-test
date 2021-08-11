@@ -87,11 +87,11 @@ With Power BI reports, you can get a holistic view of Dataverse data with visual
 
 Importing the solution is a required installation process that helps ensure that all non-core components in the starter kit work. You'll need to create an environment in which to set up the CoE.
 
-1.  Download the [CoE Starter Kit compressed file](https://aka.ms/CoeStarterKitDownload).
+1.  Download the [CoE Starter Kit compressed file](https://aka.ms/CoeStarterKitDownload/?azure-portal=true).
 
 	> [!IMPORTANT]
 	> Extract the zip file after downloading and before moving on to the next step. The CoE Starter Kit compressed file contains all solution components and non-solution aware components that make up the CoE Starter Kit.
-	> For more information, see [Set up core components](/power-platform/guidance/coe/setup-core-components).
+	> For more information, see [Set up core components](/power-platform/guidance/coe/setup-core-components/?azure-portal=true).
 
 1.  Create an environment in which to set up the CoE.
 

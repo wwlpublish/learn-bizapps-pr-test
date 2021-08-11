@@ -6,7 +6,6 @@ Using an OpenAPI document describing a web API, the consumer can understand and 
 
 A custom connector can be created for any web API as long as it's properly described by an OpenAPI document. That means the VanArsdel fusion development team is not limited to creating custom connectors for their Power Apps applications from web APIs hosted in [Azure API Management][az apim].
 
-
 ## What does OpenAPI document do? ##
 
 The OpenAPI document specifies a contract of the surface area of the web API. It abstracts the actual implementation specifics away from the consumer of the API. That means you can quickly build your application by knowing what methods to call and what they will return without having to worry about how those methods are invoked.
@@ -23,7 +22,6 @@ Once you create the custom connector from the OpenAPI document, you will be able
 
 :::image type="content" source="../media/04-what-is-openapi-and-why-should-use-it-03.png" alt-text="Custom Connector on Power Apps Page":::
 
-
 ## Why use an OpenAPI document for custom connectors? ##
 
 There are many advantages of using the OpenAPI document for your custom connector creation. But the following two benefits are the most crucial for citizen developers.
@@ -35,14 +33,13 @@ As you can see the diagram below, the OpenAPI document doesn't have to know the 
 
 :::image type="content" source="../media/04-what-is-openapi-and-why-should-use-it-04.png" alt-text="OpenAPI without Having to Know Web API":::
 
-
 ## A custom connector from an OpenAPI document or Azure API Management ##
 
 To create a custom connector, you can use either Azure API Management or an OpenAPI document. Which one should you choose?
 
 The table below lists some comparisons between Azure API Management and OpenAPI for custom connectors.
 
-|     | Azure API Management | OpenAPI document |
+| Connector | Azure API Management | OpenAPI document |
 | ---:|:---:|:---:|
 | API Control | Centralized | Distributed |
 | API Structure Layer | Complex | Simple |
@@ -51,7 +48,6 @@ The table below lists some comparisons between Azure API Management and OpenAPI 
 | Extra Cost | Yes | No |
 | Architectural Complexity | Higher | Lower |
 
-
-[az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
+[az apim]: /azure/api-management/api-management-key-concepts
 
 [pa]: https://powerapps.microsoft.com/

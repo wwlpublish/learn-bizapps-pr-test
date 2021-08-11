@@ -22,4 +22,4 @@ For example, consider a scenario where you have sales details in a table and a c
 
 ## Reference links
 
-[Introduction to dataflows and self-service data prep](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-introduction-self-service/?azure-portal=true)
+[Introduction to dataflows and self-service data prep](/power-bi/transform-model/dataflows/dataflows-introduction-self-service/?azure-portal=true)

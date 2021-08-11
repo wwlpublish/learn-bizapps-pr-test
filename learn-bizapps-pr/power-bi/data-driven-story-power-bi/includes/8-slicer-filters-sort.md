@@ -29,7 +29,7 @@ To apply a slicer, select the **Slicer** icon in the **Visualizations** pane. Th
 The visualization then changes to a list of items (filters) with check boxes that you can use to segment the data. When you select an item's check box, Power BI will filter (slice) all the other visualizations on the same report page, as illustrated in the following image.
 
 > [!div class="mx-imgBorder"]
-> [![Use a slicer](../media/8-use-slicer-ss.png)](../media/8-use-slicer-ss.png#lightbox)
+> [![Screenshot of the slicer icon in the Visualizations pane.](../media/8-use-slicer-ss.png)](../media/8-use-slicer-ss.png#lightbox)
 
 You can add as many slicers as you want to a report page. If you use a list type of slicer, you can configure the selection controls. Select the slicer and then, in the **Format** pane, expand the **Selection controls** section to view the following options:
 
@@ -42,7 +42,7 @@ You can add as many slicers as you want to a report page. If you use a list type
 While slicers are useful, if you want to filter your data in a basic way, you don't need to add slicers to your report. Power BI Desktop has a **Filters** pane that can handle the basic slicer operations. Therefore, depending on your requirements, you might save time and effort by avoiding the use of slicers and using the **Filters** pane instead. By using this pane, you can reduce the total number of visuals on a report, which will improve performance.
 
 > [!div class="mx-imgBorder"]
-> [![Configure slicer selection controls](../media/8-configure-slicer-controls-ss.png)](../media/8-configure-slicer-controls-ss.png#lightbox)
+> [![Screenshot of the Filters options for the visual.](../media/8-configure-slicer-controls-ss.png)](../media/8-configure-slicer-controls-ss.png#lightbox)
 
 
 
@@ -77,12 +77,12 @@ You can expand and collapse the **Filters** pane so that you can hide it when yo
 -   **Drillthrough** - Filters that apply to a single entity in a report.
 
 > [!div class="mx-imgBorder"]
-> [![Configure filter options](../media/8-configure-filter-options-ss.png)](../media/8-configure-filter-options-ss.png#lightbox)
+> [![Screenshot of the Filters options set to Region is All and SalesAmount is All.](../media/8-configure-filter-options-ss.png)](../media/8-configure-filter-options-ss.png#lightbox)
 
 To apply a filter, drag and drop a field from the **Fields** pane into the relevant section of the **Filter** pane.
 
 > [!div class="mx-imgBorder"]
-> [![Add field to filters pane](../media/8-add-field-filters-pane-ssm.png)](../media/8-add-field-filters-pane-ssm.png#lightbox)
+> [![Screenshot of adding the field to the filters pane.](../media/8-add-field-filters-pane-ssm.png)](../media/8-add-field-filters-pane-ssm.png#lightbox)
 
 ## Sort data
 
@@ -99,4 +99,4 @@ To sort a visual, start by selecting the **More options...** button in the upper
 -   **Sort by** - Sorts the data by a specific column. Hover over this option to display the list of columns that you can select from.
 
 > [!div class="mx-imgBorder"]
-> [![Sort the data in a visual](../media/8-sort-visual-data-ss.png)](../media/8-sort-visual-data-ss.png#lightbox)
+> [![Screenshot of sorting the the data in a visual.](../media/8-sort-visual-data-ss.png)](../media/8-sort-visual-data-ss.png#lightbox)

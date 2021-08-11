@@ -4,6 +4,6 @@ We also reviewed the key Microsoft technologies that are configured as part of t
 
 For more information, see:
 
-[Microsoft Cloud for Healthcare documentation](https://docs.microsoft.com/industry/healthcare/)
+[Microsoft Cloud for Healthcare documentation](/industry/healthcare/?azure-portal=true)
 
-[Get started with Microsoft Cloud for Healthcare solutions powered by Dynamics 365](https://docs.microsoft.com/dynamics365/industry/healthcare/overview)
+[Get started with Microsoft Cloud for Healthcare solutions powered by Dynamics 365](/dynamics365/industry/healthcare/overview/?azure-portal=true)

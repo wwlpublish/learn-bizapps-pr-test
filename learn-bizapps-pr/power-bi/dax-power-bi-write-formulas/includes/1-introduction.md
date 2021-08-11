@@ -7,7 +7,7 @@ By using Data Analysis Expressions (DAX), you can add three types of calculation
 -   Measures
 
 > [!NOTE]
-> DAX can also be used to define row-level security (RLS) rules, which are expressions that enforce filters over model tables. However, rules aren't considered to be model calculations so they're out of scope for this module. For more information, see [Row-level security (RLS) with Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-rls/?azure-portal=true).
+> DAX can also be used to define row-level security (RLS) rules, which are expressions that enforce filters over model tables. However, rules aren't considered to be model calculations so they're out of scope for this module. For more information, see [Row-level security (RLS) with Power BI](/power-bi/admin/service-admin-rls/?azure-portal=true).
 
 ## Calculated tables
 
@@ -26,7 +26,7 @@ Calculated tables can be useful in various scenarios:
 
 ### Date tables
 
-Date tables are required to apply special time filters known as *time intelligence*. A family of DAX functions, known as time-intelligence functions, only work correctly when a date table is set up. When your source data doesn't include a date table, you can create one as calculated tables by using the [CALENDAR](https://docs.microsoft.com/dax/calendar-function-dax/?azure-portal=true) or [CALENDARAUTO](https://docs.microsoft.com/dax/calendarauto-function-dax/?azure-portal=true) DAX functions.
+Date tables are required to apply special time filters known as *time intelligence*. A family of DAX functions, known as time-intelligence functions, only work correctly when a date table is set up. When your source data doesn't include a date table, you can create one as calculated tables by using the [CALENDAR](/dax/calendar-function-dax/?azure-portal=true) or [CALENDARAUTO](/dax/calendarauto-function-dax/?azure-portal=true) DAX functions.
 
 ### Role-playing dimensions
 
@@ -35,7 +35,7 @@ When two model tables have multiple relationships, it could be because your mode
 > [!div class="mx-imgBorder"]
 > [![The image shows two tables: Sales and Date. There are two relationships between the tables. Only one relationship is active.](../media/dax-sales-data-relationships-1-ss.png)](../media/dax-sales-data-relationships-1-ss.png#lightbox)
 
-Microsoft Power BI models only allow one active relationship between tables, which in the model diagram is indicated as a solid line. The active relationship is used by default to propagate filters, which in this case would be from the Date table to the **OrderDateKey** column in the Sales table. Any remaining relationships between the two tables are inactive. In a model diagram, the relationships are represented as dashed lines. Inactive relationships are only used when they're expressly requested in a calculated formula by using the [USERELATIONSHIP](https://docs.microsoft.com/dax/userelationship-function-dax/?azure-portal=true) DAX function.
+Microsoft Power BI models only allow one active relationship between tables, which in the model diagram is indicated as a solid line. The active relationship is used by default to propagate filters, which in this case would be from the Date table to the **OrderDateKey** column in the Sales table. Any remaining relationships between the two tables are inactive. In a model diagram, the relationships are represented as dashed lines. Inactive relationships are only used when they're expressly requested in a calculated formula by using the [USERELATIONSHIP](/dax/userelationship-function-dax/?azure-portal=true) DAX function.
 
 Perhaps a better model design could have two date tables, each with an active relationship to the Sales table. Thus, report users can filter by order date or ship date, or both at the same time. A calculated table can duplicate the Date table data to create the Ship Date table.
 
@@ -44,7 +44,7 @@ Perhaps a better model design could have two date tables, each with an active re
 
 ### What-if analysis
 
-Power BI Desktop supports a feature called [What-if parameters](https://docs.microsoft.com/power-bi/transform-model/desktop-what-if/?azure-portal=true). When you create a **what-if** parameter, a calculated table is automatically added to your model.
+Power BI Desktop supports a feature called [What-if parameters](/power-bi/transform-model/desktop-what-if/?azure-portal=true). When you create a **what-if** parameter, a calculated table is automatically added to your model.
 
 **What-if** parameters allow report users to select or filter by values that are stored in the calculated table. Measure formulas can use selected value(s) in a meaningful way. For example, a **what-if** parameter could allow the report user to select a hypothetical currency exchange rate, and a measure could divide revenue values (in a local currency) by the selected rate.
 

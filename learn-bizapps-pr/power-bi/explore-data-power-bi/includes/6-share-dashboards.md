@@ -21,4 +21,4 @@ If you select the **Send email notification to recipients** check box, then your
 Anyone whom you share a dashboard with can see and interact with it exactly as you do. However, they have read-only access to the underlying reports, and get access to the entire underlying dataset unless row-level security (RLS) is applied to the underlying dataset.
 
 
-For more information, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards/?azure-portal=true).
+For more information, see [Share Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards/?azure-portal=true).

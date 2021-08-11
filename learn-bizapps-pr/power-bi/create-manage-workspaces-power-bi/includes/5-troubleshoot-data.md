@@ -104,4 +104,4 @@ This card also contains useful options under the ellipsis (**...**), as shown in
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the ellipsis menu options on the report card.](../media/05-ellipsis-on-report-card-ss.png)](../media/05-ellipsis-on-report-card-ss.png#lightbox)
 
-Now that you have had an in-depth look into the **Lineage** view in Power BI, you can commence with cleaning up the Tailwind Traders workspace. For more information, see [Data Lineage](https://docs.microsoft.com/power-bi/collaborate-share/service-data-lineage/?azure-portal=true).
+Now that you have had an in-depth look into the **Lineage** view in Power BI, you can commence with cleaning up the Tailwind Traders workspace. For more information, see [Data Lineage](/power-bi/collaborate-share/service-data-lineage/?azure-portal=true).

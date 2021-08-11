@@ -5,8 +5,8 @@ metadata:
   title: Back up and restore the database file
   description: Learn how to back up and restore the database file.
   ms.date: 08/20/2020 
-  author: georgiostrantzas 
-  ms.author: getrantz 
+  author: mariosleon 
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate   
 durationInMinutes: 4 

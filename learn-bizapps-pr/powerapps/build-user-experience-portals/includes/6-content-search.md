@@ -18,7 +18,7 @@ The aim of global search is to locate information within the site content. All c
 Each of the mentioned tables includes a **Portal Search** view that defines a set of columns that are searchable within the table. You can change the columns that are defined in these views and publish the changes to modify the scope of the search. The name of the view is defined by the site setting `Search/IndexQueryName` and can be changed.
 
 > [!NOTE]
-> After changing the views or the view name, you need to rebuild the index as documented in the [Rebuild full search index](/powerapps/maker/portals/configure/search#rebuild-full-search-index/?azure-portal=true) article.
+> After changing the views or the view name, you need to rebuild the index as documented in the [Rebuild full search index](/powerapps/maker/portals/configure/search?azure-portal=true#rebuild-full-search-index) article.
 
 Knowledge articles have a feature that allows you to mark an article as **Internal Only**. Articles are searchable only if they are published and their **Internal Only** column is set to **false**.
 
@@ -45,13 +45,13 @@ Global search is highly configurable, and configuration is available for both fu
 
 ### Related site settings
 
-Every aspect of the global search functionality can be configured by using the site settings that are described in detail in [Related site settings](/powerapps/maker/portals/configure/search#related-site-settings/?azure-portal=true).
+Every aspect of the global search functionality can be configured by using the site settings that are described in detail in [Related site settings](/powerapps/maker/portals/configure/search?azure-portal=true#related-site-settings).
 
 ### Content snippets
 
 Visual aspects of the global search functionality can be configured by using relevant content snippets, which define elements of the search user interface, including faceted search. The configurable elements include captions, titles, tooltips, buttons, and others. Because content snippets are language-aware, you can adapt the appearance and behavior of the search for the multilingual audience.
 
-For more information, see [Related content snippets](/powerapps/maker/portals/configure/search#related-content-snippets/?azure-portal=true).
+For more information, see [Related content snippets](/powerapps/maker/portals/configure/search?azure-portal=true#related-content-snippets).
 
 ### Attachment search
 

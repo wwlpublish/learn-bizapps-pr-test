@@ -5,8 +5,8 @@ metadata:
   title: Direct web access and scripting
   description: Learn about direct web access and scripting in WinAutomation.
   ms.date: 09/30/2020 
-  author: georgiostrantzas 
-  ms.author: getrantz 
+  author: mariosleon 
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 5 

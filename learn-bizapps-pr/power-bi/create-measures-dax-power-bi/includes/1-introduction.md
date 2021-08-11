@@ -91,7 +91,7 @@ The DAX calculated column does not compress as well as the other methods. The ot
 
 Generally, the earlier you can create a column, the better. It is not considered an optimal practice to use DAX for calculations if you can use a different mechanism.
 
-In addition, one way to avoid using a calculated column is to use one of the X functions, such as SUMX, COUNTX, MINX, and so on. The X functions are beyond the scope of this module; however, they allow you to create measures that are aware of the data in individual rows and calculate totals based on the totals in the row. These functions are called iterator functions because, though they are used in measures, they iterate over the individual rows to do their calculations. An X function will perform better and use less disk space than a calculated column. For more information about X functions, see the [Microsoft documentation](https://docs.microsoft.com/dax/sumx-function-dax/?azure-portal=true). 
+In addition, one way to avoid using a calculated column is to use one of the X functions, such as SUMX, COUNTX, MINX, and so on. The X functions are beyond the scope of this module; however, they allow you to create measures that are aware of the data in individual rows and calculate totals based on the totals in the row. These functions are called iterator functions because, though they are used in measures, they iterate over the individual rows to do their calculations. An X function will perform better and use less disk space than a calculated column. For more information about X functions, see the [Microsoft documentation](/dax/sumx-function-dax/?azure-portal=true). 
 
 ## Use measures
 
@@ -110,7 +110,7 @@ To create a quick measure in Power BI Desktop, right-click or select the ellipsi
 
 In the **Quick measures** window, you can select the calculation that you want and the fields to run the calculation against. For instance, you can select a calculation and the column that you want to operate over. Power BI creates the DAX measure for you and displays the DAX. This approach can be a helpful way to learn the DAX syntax.
 
-For more information, see the [Use quick measures for common calculations](https://docs.microsoft.com/power-bi/desktop-quick-measures/?azure-portal=true) documentation.
+For more information, see the [Use quick measures for common calculations](/power-bi/desktop-quick-measures/?azure-portal=true) documentation.
 
 ## Create a measure
 

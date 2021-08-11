@@ -1,4 +1,4 @@
-For this exercise, you will develop a simple flow with Power Automate that uses AI Builder Key phrase extraction to check for key phrases whenever you receive a new message in a Yammer group. The sentiment is then sent as a push notification to your mobile flow app. For more information, see [Create a flow in Power Automate](https://docs.microsoft.com/power-automate/get-started-logic-flow).
+For this exercise, you will develop a simple flow with Power Automate that uses AI Builder Key phrase extraction to check for key phrases whenever you receive a new message in a Yammer group. The sentiment is then sent as a push notification to your mobile flow app. For more information, see [Create a flow in Power Automate](/power-automate/get-started-logic-flow/?azure-portal=true).
 
 **Create a flow that extracts key phrases**
 

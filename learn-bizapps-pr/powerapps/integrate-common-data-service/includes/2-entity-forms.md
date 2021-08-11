@@ -27,7 +27,7 @@ Other form options include:
 - Enable CAPTCHA to prevent spamming on forms that are open to anonymous users.
 - Control validation behavior, for example, whether to mark all columns as required regardless of the form setting.
 
-See the [Form options](/powerapps/maker/portals/configure/entity-forms#form-options/?azure-portal=true) documentation for a complete list of available options.
+See the [Form options](/powerapps/maker/portals/configure/entity-forms?azure-portal=true#form-options) documentation for a complete list of available options.
 
 ### On success settings
 
@@ -54,7 +54,7 @@ Other actions that you can configure include:
 
 - **Geolocation** - You can configure a table form to display a map control that either displays an existing location as a pin on a map or that allows the user to specify a location. For more information, see [Add Geolocation](/powerapps/maker/portals/configure/add-geolocation/?azure-portal=true).
 
-The form's map control requires additional configuration to tell it what the various location columns are, to assign values to them, or to retrieve values from them. For more information, see [Geolocation configuration for table forms](/powerapps/maker/portals/configure/entity-forms#geolocation-configuration-for-entity-forms/?azure-portal=true).
+The form's map control requires additional configuration to tell it what the various location columns are, to assign values to them, or to retrieve values from them. For more information, see [Geolocation configuration for table forms](/powerapps/maker/portals/configure/entity-forms?azure-portal=true#geolocation-configuration-for-entity-forms).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the table form with geolocation enabled.](../media/entity-form-geolocation.png)](../media/entity-form-geolocation.png#lightbox)

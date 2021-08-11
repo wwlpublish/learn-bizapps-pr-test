@@ -3,7 +3,7 @@ math operations across your data. This math can be counting functions or
 aggregate functions. Both support tables of data. Not covered in this
 module are additional math functions and operators for non-table data.
 For a complete list of all functions, see [Formula reference for
-Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/formula-reference).
+Power Apps](/powerapps/maker/canvas-apps/formula-reference/?azure-portal=true).
 
 Counting functions
 ------------------
@@ -20,18 +20,18 @@ types of visual indicators improve the user experience.
 
 Power Apps includes the following counting functions:
 
--   **Count** counts the number of records that contain a
+- **Count** counts the number of records that contain a
     number in a single-column table.
 
--   **CountA** counts the number of records that aren't
+- **CountA** counts the number of records that aren't
     blank in a single-column table. This function includes empty text
     ("") in the count.
 
--   **CountIf** counts the number of records in a table
+- **CountIf** counts the number of records in a table
     that are true for a logical formula. The formula can reference
     columns of the table.
 
--   **CountRows** counts the number records in a table.
+- **CountRows** counts the number records in a table.
 
 **Count** and **CountA** only support single-column tables, and that is
 the only argument they accept.

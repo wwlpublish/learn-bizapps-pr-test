@@ -42,4 +42,4 @@ The Portal Management app includes a portal wizard that can be used to generate 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Create Portal Content wizard.](../media/1-portal-wizard-ss.png)](../media/1-portal-wizard-ss.png#lightbox)
 
-For more information about how to use the portal wizard, see [Create and expose portal content easily](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content/?azure-portal=true).
+For more information about how to use the portal wizard, see [Create and expose portal content easily](/dynamics365/portals/create-expose-portal-content/?azure-portal=true).

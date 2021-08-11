@@ -9,8 +9,8 @@ A user’s app experience will be how they judge the solution architecture.
 
 See the following links for more information on Power Apps architecture.
 
-- [Master advanced techniques for Power Apps canvas apps learning path](https://docs.microsoft.com/learn/paths/understand-advanced-topics/)
+- [Master advanced techniques for Power Apps canvas apps learning path](/learn/paths/understand-advanced-topics/?azure-portal=true)
 
-- [Create components with Power Apps component framework learning path](https://docs.microsoft.com/learn/paths/use-power-apps-component-framework/)
+- [Create components with Power Apps component framework learning path](/learn/paths/use-power-apps-component-framework/?azure-portal=true)
 
-- [Power Apps guidance documentation](https://docs.microsoft.com/powerapps/guidance/)
+- [Power Apps guidance documentation](/powerapps/guidance/?azure-portal=true)

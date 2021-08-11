@@ -21,5 +21,5 @@ To create a dataflow, launch the Power BI service in a browser then select a **
 
 The next two steps are to schedule a refresh and build the dataset using your Power BI desktop.
 
-For more information or instructions on how to create a dataflow, see the following [article](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-create/?azure-portal=true).
+For more information or instructions on how to create a dataflow, see the following [article](/power-bi/transform-model/dataflows/dataflows-create/?azure-portal=true).
 

@@ -9,12 +9,12 @@ Before you run **Performance analyzer**, ensure that you clear the visual cache 
 When you have cleared the caches and opened the report on the blank page, to run the **Performance analyzer**, go to the **View** tab, select **Performance analyzer**, and then select **Start recording**. 
 
 > [!div class="mx-imgBorder"]
-> [![Run performance analyzer](../media/11-run-performance-analyzer-ssm.png)](../media/11-run-performance-analyzer-ssm.png#lightbox)
+> [![Screenshot of the Performance analyzer button on the View tab.](../media/11-run-performance-analyzer-ssm.png)](../media/11-run-performance-analyzer-ssm.png#lightbox)
 
 Interact with your report as you would expect a user to, and then stop the recording. The results of your interactions will display in the **Performance analyzer** pane as you work. When you are finished, select the **Stop** button. Then, you can analyze the results in the **Performance analyzer** pane. Performance results of each item in the report will display, in milliseconds, under the **Duration** column. The following image shows that all items on the report take less than two seconds to load, which is acceptable. You can expand an item in the list to view more detailed information and identify the exact cause of the issue, such as the DAX query, the visual display, or something else (other).
 
 > [!div class="mx-imgBorder"]
-> [![Performance analyzer results](../media/11-performance-analyzer-results-ss.png)](../media/11-performance-analyzer-results-ss.png#lightbox)
+> [![Screenshot of the Performance analyzer results.](../media/11-performance-analyzer-results-ss.png)](../media/11-performance-analyzer-results-ss.png#lightbox)
 
 If you want to examine the DAX query, select **Copy query** and then paste it into DAX Studio for further analysis. DAX Studio is a free, open-source tool that is provided by another source that you can download and install on your computer.
 
@@ -25,7 +25,7 @@ The results of your analysis will identify areas for improvement and highlight i
 A common reason for poor performance is too many visuals on the same page. The following image shows an example of a busy page that contains several visuals.
 
 > [!div class="mx-imgBorder"]
-> [![Too many visuals on a report page](../media/11-too-many-visuals-report-page-ss.png)](../media/11-too-many-visuals-report-page-ss.png#lightbox)
+> [![Screenshot of too many visuals on a report page.](../media/11-too-many-visuals-report-page-ss.png)](../media/11-too-many-visuals-report-page-ss.png#lightbox)
 
 If you identify visuals as the bottleneck that has caused poor performance, take the following measures to tune the report:
 

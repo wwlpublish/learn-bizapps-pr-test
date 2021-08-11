@@ -6,4 +6,4 @@ Always strive to use solutions for your automation.
 
 ## Next steps
 
-For more information, see [Power Automate guidance documentation](https://docs.microsoft.com/power-automate/guidance/).
+For more information, see [Power Automate guidance documentation](/power-automate/guidance/?azure-portal=true).

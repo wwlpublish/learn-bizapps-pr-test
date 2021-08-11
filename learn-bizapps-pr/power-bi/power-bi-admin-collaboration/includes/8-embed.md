@@ -1,6 +1,6 @@
-With the new **Embed** option for Power BI reports, you can easily and securely embed reports in internal web portals. These portals can be **cloud-based** or **hosted on-premises**, such as SharePoint 2019. Embedded reports respect all item permissions and data security through [row-level security (RLS)](https://docs.microsoft.com/power-bi/admin/service-admin-rls/?azure-portal=true). They provide no-code embedding into any portal that accepts a URL or iFrame.
+With the new **Embed** option for Power BI reports, you can easily and securely embed reports in internal web portals. These portals can be **cloud-based** or **hosted on-premises**, such as SharePoint 2019. Embedded reports respect all item permissions and data security through [row-level security (RLS)](/power-bi/admin/service-admin-rls/?azure-portal=true). They provide no-code embedding into any portal that accepts a URL or iFrame.
 
-The **Embed** option supports [URL filters](https://docs.microsoft.com/power-bi/collaborate-share/service-url-filters/?azure-portal=true) and URL settings. It allows you to integrate with portals using a low-code approach requiring only basic HTML and JavaScript knowledge.
+The **Embed** option supports [URL filters](/power-bi/collaborate-share/service-url-filters/?azure-portal=true) and URL settings. It allows you to integrate with portals using a low-code approach requiring only basic HTML and JavaScript knowledge.
 
 ## How to embed Power BI reports into portals
 
@@ -36,4 +36,4 @@ The **Embed** option supports [URL filters](https://docs.microsoft.com/power-
 
 The **Embed** option doesn't automatically permit users to view the report. View permissions are set in the Power BI service.
 
-In the Power BI service, you can share embedded reports with users requiring access. If you're using a Microsoft 365 Group, you can list the user as a workspace member. For more information, see how to [manage your workspace in Power BI and Microsoft 365](https://docs.microsoft.com/power-bi/collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365/?azure-portal=true).
+In the Power BI service, you can share embedded reports with users requiring access. If you're using a Microsoft 365 Group, you can list the user as a workspace member. For more information, see how to [manage your workspace in Power BI and Microsoft 365](/power-bi/collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365/?azure-portal=true).

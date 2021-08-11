@@ -1,4 +1,4 @@
-Before you begin this course, we recommend that you first see the Get started with AI Builder module and read the [What is AI Builder?](https://docs.microsoft.com/ai-builder/overview/?azure-portal=true) content.
+Before you begin this course, we recommend that you first see the Get started with AI Builder module and read the [What is AI Builder?](/ai-builder/overview/?azure-portal=true) content.
 
 ### Introduction to the Business card model
 

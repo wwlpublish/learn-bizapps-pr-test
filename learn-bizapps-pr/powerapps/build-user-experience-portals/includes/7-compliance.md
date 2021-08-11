@@ -42,4 +42,4 @@ Power Apps portals use content snippets to store terms and conditions and to sup
 
 The contact table includes the **Portal Terms Agreement Date**, which indicates the date and time that the person agreed to the portal terms and conditions.
 
-For more information, see [Agreeing to terms and conditions](/powerapps/maker/portals/configure/implement-gdpr#agreeing-to-terms-and-conditions/?azure-portal=true).
+For more information, see [Agreeing to terms and conditions](/powerapps/maker/portals/configure/implement-gdpr?azure-portal=true#agreeing-to-terms-and-conditions).

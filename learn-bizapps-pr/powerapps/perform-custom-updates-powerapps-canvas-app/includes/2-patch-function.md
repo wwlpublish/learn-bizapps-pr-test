@@ -144,20 +144,20 @@ There are four sources to pass values in your formula to Patch your data source:
 
 ## Patch example
 
-Let’s take a look at another example, in this example you’re trying to build a simple solution for signing users into class as they arrive. This type of Power Apps solution is common and by using the Patch function it can be achieved with only a few steps. 
+Let’s take a look at another example, in this example you’re trying to build a simple solution for signing users into class as they arrive. This type of Power Apps solution is common and by using the Patch function it can be achieved with only a few steps.
 
 ![Screenshot of a Power Apps solution patch example.](../media/another-patch-example.png)
 
-### Solution breakdown 
+### Solution breakdown
 
-Here we have a simple Canvas app connected to our data source (TrainingClassSignIn). The data source has the following columns, **Training Class**, **FirstName**, **LastName**, **EmailAddress**, **SignInStatus**. This is the information we want to capture when a user selects the **Sign-in** button. In the formula bar, you see the following code: 
+Here we have a simple Canvas app connected to our data source (TrainingClassSignIn). The data source has the following columns, **Training Class**, **FirstName**, **LastName**, **EmailAddress**, **SignInStatus**. This is the information we want to capture when a user selects the **Sign-in** button. In the formula bar, you see the following code:
 
 ```powerappsfl
 Patch(TrainingClassSignIn,Defaults(TrainingClassSignIn),{TrainingClass:TrainingClassDD.Selected.Value, FirstName:FirstNameInput.Text, LastName:LastNameInput.Text, EmailAddress:EmailAddressInput.Text, SignInStatus:"Attended"})
 ```
-To elaborate, whenever someone selects the **Sign-in** button, a new record will be written to the TrainingClassSignIn data source. As to what data will be written back for the user signing in, you can see it’s getting this information from the Controls we added. You will also notice; it is setting the SignInStatus to “Attended” for each new record.  
+To elaborate, whenever someone selects the **Sign-in** button, a new record will be written to the TrainingClassSignIn data source. As to what data will be written back for the user signing in, you can see it’s getting this information from the Controls we added. You will also notice; it is setting the SignInStatus to “Attended” for each new record.
 
 As you can see, Patch is flexible and powerful. Patch has even more
 capabilities including the ability to update multiple records and merge
 records. For more information about these scenarios, see
-[Patch function in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-patch). 
+[Patch function in Power Apps](/powerapps/maker/canvas-apps/functions/function-patch/?azure-portal=true).

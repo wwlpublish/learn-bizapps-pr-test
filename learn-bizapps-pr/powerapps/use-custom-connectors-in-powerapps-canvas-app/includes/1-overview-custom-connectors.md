@@ -16,12 +16,12 @@ Creating custom connectors
 
 You can create custom connectors using three different approaches:
 
--   [Using a blank custom connector](https://docs.microsoft.com/connectors/custom-connectors/define-blank)
+- [Using a blank custom connector](/connectors/custom-connectors/define-blank/?azure-portal=true)
 
--   [From an OpenAPI definition](https://docs.microsoft.com/connectors/custom-connectors/define-openapi-definition)
+- [From an OpenAPI definition](/connectors/custom-connectors/define-openapi-definition/?azure-portal=true)
 
--   [From a Postman collection](https://docs.microsoft.com/connectors/custom-connectors/define-postman-collection)
+- [From a Postman collection](/connectors/custom-connectors/define-postman-collection/?azure-portal=true)
 
 While the requirements for each approach will vary, they all require either a per user/app/month or a per user/month for all users using the app. Each link
 above points to the instructions for each approach. You'll learn how to
-create a custom connector from a Postman collection in a later unit. 
+create a custom connector from a Postman collection in a later unit.

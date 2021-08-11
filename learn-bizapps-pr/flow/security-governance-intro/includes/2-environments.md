@@ -4,7 +4,7 @@ container for apps and flows to run within. Every flow must be
 assigned to an environment. Every licensed user belongs to the default environment.
 
 Additional environments can be provisioned where opt-in access is possible.
-A strategy that some organizations adopt includes [renaming the default environment](https://docs.microsoft.com/power-platform/admin/environments-administration?azure-portal=true#rename-your-environment)
+A strategy that some organizations adopt includes [renaming the default environment](/power-platform/admin/environments-administration?azure-portal=true#rename-your-environment)
 to be called **Personal Productivity**, which implies permission to build
 flows that improve their own productivity.
 
@@ -13,7 +13,7 @@ testing, and production purposes. Using this strategy might also align flow crea
 with existing IT change management requirements.
 
 By default, anyone can create environments, but administrators can also
-[control who can create and manage environments in Microsoft Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/control-environment-creation/?azure-portal=true) and
+[control who can create and manage environments in Microsoft Power Platform Admin center](/power-platform/admin/control-environment-creation/?azure-portal=true) and
 limit it to a set of administrators.
 
 ![Screenshot of Microsoft Power Platform Admin Center displaying a list of environments including Personal Productivity, Production, Test, and Development.](../media/1-environments.png)

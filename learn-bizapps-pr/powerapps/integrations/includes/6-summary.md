@@ -8,8 +8,8 @@ A solution architect must ensure that integrations don't make the solution less 
 
 For more information, see the following links:
 
-- [Data integration](https://docs.microsoft.com/powerapps/developer/data-platform/data-synchronization)
+- [Data integration](/powerapps/developer/data-platform/data-synchronization/?azure-portal=true)
 
-- [Integration with Azure](https://docs.microsoft.com/powerapps/developer/data-platform/azure-integration)
+- [Integration with Azure](/powerapps/developer/data-platform/azure-integration/?azure-portal=true)
 
-- [Integrate with Microsoft Power Platform and Dataverse learning path](https://docs.microsoft.com/learn/paths/integrate-power-platform)
+- [Integrate with Microsoft Power Platform and Dataverse learning path](/learn/paths/integrate-power-platform/?azure-portal=true)

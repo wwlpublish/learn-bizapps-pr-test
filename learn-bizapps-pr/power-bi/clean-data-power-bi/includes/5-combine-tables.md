@@ -120,4 +120,4 @@ Now, you can merge two queries or tables in different ways so that you
 can view your data in the most appropriate way for your business
 requirements.
 
-For more information on this topic, see the [Shape and Combine Data in Power BI](https://docs.microsoft.com/power-bi/connect-data/desktop-shape-and-combine-data/?azure-portal=true) documentation.
+For more information on this topic, see the [Shape and Combine Data in Power BI](/power-bi/connect-data/desktop-shape-and-combine-data/?azure-portal=true) documentation.

@@ -23,24 +23,25 @@ Collect(YourDataSource, collectMyFirstCollection)
 If these requirements are met, that function creates a record in your
 data source for each record in the collection:
 
--   All the columns in your collection must exist in the data source.
-    The data source can have additional columns, but the columns in your
-    collection must be present.
+- All the columns in your collection must exist in the data source.
+  The data source can have additional columns, but the columns in your
+  collection must be present.
 
--   The data type (such as Text, Number, or Date) of each column in the
-    collection must match the data source.
+- The data type (such as Text, Number, or Date) of each column in the
+  collection must match the data source.
 
--   Your data source must not have required columns that your collection
-    doesn't have.
+- Your data source must not have required columns that your collection
+  doesn't have.
 
-> [!Tip] 
+> [!Tip]
 > If necessary, you can use these functions to transform your collection so that the columns match your data source.
-> -   AddColumns
-> -   DropColumns
-> -   RenameColumns
-> -   ShowColumns
+>
+> - AddColumns
+> - DropColumns
+> - RenameColumns
+> - ShowColumns
 
-For more information, see [AddColumns, DropColumns, RenameColumns, and ShowColumns functions in Power Apps.](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-table-shaping)
+For more information, see [AddColumns, DropColumns, RenameColumns, and ShowColumns functions in Power Apps.](/powerapps/maker/canvas-apps/functions/function-table-shaping/?azure-portal=true)
 
 ### Patch and ForAll
 
@@ -72,4 +73,3 @@ but only for the records where **UpdateSource** was set to true.
 This example could be further optimized, but it should demonstrate to
 you the concept and pieces for dynamically saving your collection to a
 data source.
- 

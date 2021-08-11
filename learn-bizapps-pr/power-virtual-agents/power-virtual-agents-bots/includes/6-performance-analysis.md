@@ -18,7 +18,7 @@ To add a bot to the demo website, select the demo website link under **Share yo
 
 Now that the bot is published, you can begin to deploy it to other channels.
 
-For more information, see [publishing your bot](https://docs.microsoft.com/power-virtual-agents/publication-fundamentals-publish-channels/?azure-portal=true) to other channels. 
+For more information, see [publishing your bot](/power-virtual-agents/publication-fundamentals-publish-channels/?azure-portal=true) to other channels. 
 
 ## Analyze the performance of your bot
 

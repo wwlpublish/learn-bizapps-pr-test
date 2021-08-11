@@ -35,4 +35,4 @@ Industry accelerators are foundational components within Microsoft Power Platfor
 - Manufacturing
 - Media and entertainment
 
-For more information, see [Overview of industry accelerators](https://docs.microsoft.com/dynamics365/industry/accelerators/overview).
+For more information, see [Overview of industry accelerators](/dynamics365/industry/accelerators/overview/?azure-portal=true).

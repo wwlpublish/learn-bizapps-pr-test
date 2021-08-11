@@ -55,7 +55,7 @@ In the following figure, notice that two colleagues are internal and the other t
 ![Screenshot of the Share report dialog with emails added.](../media/1-4/power-bi-share.png)
 
 > [!TIP]
-> You can [share a dashboard or report from any of the Power BI mobile apps](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-share-dashboard-from-the-mobile-apps).
+> You can [share a dashboard or report from any of the Power BI mobile apps](/power-bi/consumer/mobile/mobile-share-dashboard-from-the-mobile-apps).
 
 ## Add comments to a dashboard
 
