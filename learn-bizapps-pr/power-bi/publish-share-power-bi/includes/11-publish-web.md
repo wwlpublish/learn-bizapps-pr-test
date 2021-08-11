@@ -24,4 +24,4 @@ If you want to delete an embedded code that you created, Power BI can help. In P
 
 The Power BI workspace shows the embed codes that you've created.
 
-For more information, see [Publish to web from Power BI](https://docs.microsoft.com/power-bi/service-publish-to-web/?azure-portal=true).
+For more information, see [Publish to web from Power BI](/power-bi/service-publish-to-web/?azure-portal=true).

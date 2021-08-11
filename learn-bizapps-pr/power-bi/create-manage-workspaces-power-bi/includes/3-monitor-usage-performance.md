@@ -47,4 +47,4 @@ On the **Report performance** tab, you can view metrics such as:
 
 -   Filters for date, so you can see how the performance changes according to the day.
 
-For more information, see [Monitor Usage Metrics](https://docs.microsoft.com/power-bi/collaborate-share/service-modern-usage-metrics/?azure-portal=true).
+For more information, see [Monitor Usage Metrics](/power-bi/collaborate-share/service-modern-usage-metrics/?azure-portal=true).

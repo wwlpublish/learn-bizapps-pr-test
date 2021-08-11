@@ -16,4 +16,4 @@ For example, a scatter plot will have more options around visual shapes, sizes, 
 
 Power BI also offers conditional formatting and Tooltips, but we'll discuss these topics in the upcoming units.
 
-More information on [importing custom report theme files](https://docs.microsoft.com/power-bi/create-reports/desktop-report-themes?azure-portal=true#import-custom-report-theme-files) is available.
+More information on [importing custom report theme files](/power-bi/create-reports/desktop-report-themes?azure-portal=true#import-custom-report-theme-files) is available.

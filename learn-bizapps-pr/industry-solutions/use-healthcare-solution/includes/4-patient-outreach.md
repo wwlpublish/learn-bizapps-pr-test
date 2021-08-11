@@ -1,4 +1,4 @@
-Patient Outreach is an extension of the [Microsoft Dynamics 365 Marketing](https://docs.microsoft.com/learn/modules/dynamics-365-for-marketing/?azure-portal=true) app that has been extended and tailored to healthcare scenarios. The app allows healthcare organizations to communicate targeted medical and health-related information to specific patient communities. The app runs from a centralized Dataverse environment that you can access from other Microsoft Cloud for Healthcare apps.
+Patient Outreach is an extension of the [Microsoft Dynamics 365 Marketing](/learn/modules/dynamics-365-for-marketing/?azure-portal=true) app that has been extended and tailored to healthcare scenarios. The app allows healthcare organizations to communicate targeted medical and health-related information to specific patient communities. The app runs from a centralized Dataverse environment that you can access from other Microsoft Cloud for Healthcare apps.
 
 The Patient Outreach app is separated into the following key areas:
 
@@ -18,7 +18,7 @@ The **Customers** section groups together information about related medical orga
 
 ### Accounts
 
-The Accounts table holds information about households, medical centers, insurance companies, and other related organizations or groups as they relate to healthcare management. The Accounts table is part of [Common Data Model](https://docs.microsoft.com/common-data-model/?azure-portal=true) and is extended specifically for healthcare applications.
+The Accounts table holds information about households, medical centers, insurance companies, and other related organizations or groups as they relate to healthcare management. The Accounts table is part of [Common Data Model](/common-data-model/?azure-portal=true) and is extended specifically for healthcare applications.
 
 ### Patients
 

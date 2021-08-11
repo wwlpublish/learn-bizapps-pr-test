@@ -32,7 +32,7 @@ To begin the analysis process, select **Start recording**, select the page of th
 > [!div class="mx-imgBorder"]
 > [![Performance analyzer overview](../media/2-performance-analyzer-overview-ssm.png)](../media/2-performance-analyzer-overview-ssm.png#lightbox)
 
-For more detailed information, see [Use Performance Analyzer to examine report element performance](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer/?azure-portal=true).
+For more detailed information, see [Use Performance Analyzer to examine report element performance](/power-bi/create-reports/desktop-performance-analyzer/?azure-portal=true).
 
 ### Review results
 
@@ -116,7 +116,7 @@ It is best practice to not import columns of data that you do not need. To avoid
 
 When you remove an unnecessary column, you will reduce the size of the data model which, in turn, results in a smaller file size and faster refresh time. Also, because the dataset contains only relevant data, the overall report performance will be improved.
 
-For more information, see [Data reduction techniques for Import modeling](https://docs.microsoft.com/power-bi/guidance/import-modeling-data-reduction/?azure-portal=true).
+For more information, see [Data reduction techniques for Import modeling](/power-bi/guidance/import-modeling-data-reduction/?azure-portal=true).
 
 ### Metadata
 
@@ -173,4 +173,4 @@ To enable/disable this **Auto date/time** option, go to **File** **>** **Options
 > [!div class="mx-imgBorder"]
 > [![Configure auto date/time options matrix](../media/2-auto-date-time-configure-global-options-ssm.png)](../media/2-auto-date-time-configure-global-options-ssm.png#lightbox)
 
-For an overview and general introduction to the **Auto date/time** feature, see [Apply auto date/time in Power BI Desktop](https://docs.microsoft.com/power-bi/transform-model/desktop-auto-date-time/?azure-portal=true).
+For an overview and general introduction to the **Auto date/time** feature, see [Apply auto date/time in Power BI Desktop](/power-bi/transform-model/desktop-auto-date-time/?azure-portal=true).

@@ -2,7 +2,7 @@ Frequently, when a bot interacts with customers, it might require information fr
 
 Power Virtual Agents bots perform these types of actions by calling Microsoft Power Automate flows. Flows can help automate activities, call operating systems, or engage with external applications. For example, Power Automate would pass the location information that is captured in the bot to an external service and then send the forecast details back to the Power Virtual Agents bot.
 
-Power Automate flows are called from within topics by using the **Call an action** node. You can use a flow that already exists in your [Power Apps environment](https://docs.microsoft.com/power-virtual-agents/environments-first-run-experience/?azure-portal=true), or you can create one from within the Power Virtual Agents [authoring canvas](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics/?azure-portal=true). To allow a Power Automate flow to interact with a Power Virtual Agents bot, it requires a special Power Virtual Agents trigger. This trigger will capture data from the bot and send response information back to the bot.
+Power Automate flows are called from within topics by using the **Call an action** node. You can use a flow that already exists in your [Power Apps environment](/power-virtual-agents/environments-first-run-experience/?azure-portal=true), or you can create one from within the Power Virtual Agents [authoring canvas](/power-virtual-agents/authoring-create-edit-topics/?azure-portal=true). To allow a Power Automate flow to interact with a Power Virtual Agents bot, it requires a special Power Virtual Agents trigger. This trigger will capture data from the bot and send response information back to the bot.
 
 Power Automate provides the following trigger and action:
 
@@ -102,4 +102,4 @@ For example: **Today's forecast for** (x)location:{x}day_summary. **Chance of ra
 > [!div class="mx-imgBorder"]
 > [![You can insert output parameters into messages presented to the customer.](../media/2-10.png)](../media/2-10.png#lightbox)
 
-For more information, see [Microsoft Docs](https://docs.microsoft.com/power-virtual-agents/advanced-flow/?azure-portal=true).
+For more information, see [Microsoft Docs](/power-virtual-agents/advanced-flow/?azure-portal=true).

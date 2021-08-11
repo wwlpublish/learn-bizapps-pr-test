@@ -44,7 +44,7 @@ The best way to determine if Power BI recognizes a keyword is by typing it in th
 The keywords in the following table use singular and present tense, but all tenses and pluralities are recognized. 
 
 For more detailed information, see:
-[Tips for asking questions in Power BI Q&A](https://docs.microsoft.com/power-bi/consumer/end-user-q-and-a-tips)
+[Tips for asking questions in Power BI Q&A](/power-bi/consumer/end-user-q-and-a-tips)
 
 |     Category         |     Keywords                                                                                                                                                                                                                                                                                                                                                                                           |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

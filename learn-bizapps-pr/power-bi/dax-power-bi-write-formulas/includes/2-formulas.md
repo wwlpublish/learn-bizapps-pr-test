@@ -104,7 +104,7 @@ If you are a DAX beginner, the fact that column and measure references are alway
 
 Therefore, while we recommend that you always precede a column reference with its table name, the inverse is true for measures: We recommend that you never precede a measure reference with its table name.
 
-For more information, see [Column and measure references](https://docs.microsoft.com/power-bi/guidance/dax-column-measure-references/?azure-portal=true).
+For more information, see [Column and measure references](/power-bi/guidance/dax-column-measure-references/?azure-portal=true).
 
 ## DAX variables
 

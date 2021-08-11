@@ -27,7 +27,7 @@ As with any other system topic, the fallback topic can be customized to fit your
 > [!div class="mx-imgBorder"]
 > [![Question node added with multiple choice options to direct the user accordingly.](../media/6-3.png)](../media/6-3.png#lightbox)
 
-You can use the information that is stored in the UnrecognizedTriggerPhrase variable to further personalize the experience. For example, you can pass the information as input to a [Power Automate flow](https://docs.microsoft.com/power-virtual-agents/advanced-flow/?azure-portal=true) or [Bot Framework Skill](https://docs.microsoft.com/power-virtual-agents/advanced-use-skills/?azure-portal=true).
+You can use the information that is stored in the UnrecognizedTriggerPhrase variable to further personalize the experience. For example, you can pass the information as input to a [Power Automate flow](/power-virtual-agents/advanced-flow/?azure-portal=true) or [Bot Framework Skill](/power-virtual-agents/advanced-use-skills/?azure-portal=true).
 
 ### Delete a system fallback topic
 

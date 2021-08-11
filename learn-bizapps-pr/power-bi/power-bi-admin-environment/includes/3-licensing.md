@@ -1,4 +1,4 @@
-This unit focuses on purchasing services and per-user licensing from an administrator perspective. For more information about how users can get their own license, see [Signing up for Power BI as an individual](https://docs.microsoft.com/power-bi/fundamentals/service-self-service-signup-for-power-bi/?azure-portal=true).
+This unit focuses on purchasing services and per-user licensing from an administrator perspective. For more information about how users can get their own license, see [Signing up for Power BI as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi/?azure-portal=true).
 
 All users of the Power BI service must have a license. There are two ways for users to get a license:
 
@@ -17,7 +17,7 @@ The graphic below shows user capabilities by license type.
 
 You must have a Microsoft 365 admin role to purchase or assign licenses for your organization.
 
-The following table shows which role is required to do tasks related to purchase and licensing. For more information about administrator roles in Azure Active Directory, see [View and assign administrator roles in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal/?azure-portal=true). To learn more about admin roles in Microsoft 365, including best practices, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles/?azure-portal=true).
+The following table shows which role is required to do tasks related to purchase and licensing. For more information about administrator roles in Azure Active Directory, see [View and assign administrator roles in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal/?azure-portal=true). To learn more about admin roles in Microsoft 365, including best practices, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles/?azure-portal=true).
 
 | **Who can purchase services and licenses?** | **Who can manager user licenses?** |
 |---------------------------------------------|-----------------------------------|
@@ -41,7 +41,7 @@ A Power BI Premium license allocates a capacity to an organization. Suitable for
 Dedicated compute and storage resources are managed by capacity admins in the organization. In addition to other Premium advantages, content stored in Premium capacity can be accessed by and distributed to users who don't have Power BI Pro licenses. At least one user must have a Power BI Pro license assigned to use Premium, and content creators and developers still need a Power BI Pro license.
 
 > [!Note]
-> The two types of licenses aren't mutually exclusive. You can have both Power BI Premium and Power BI Pro. In this configuration, content stored in Premium capacity can be shared with all users and shared capacity is also available. For information about capacity limits, see [Manage data storage in Power BI workspaces](https://docs.microsoft.com/power-bi/admin/service-admin-manage-your-data-storage-in-power-bi/?azure-portal=true).
+> The two types of licenses aren't mutually exclusive. You can have both Power BI Premium and Power BI Pro. In this configuration, content stored in Premium capacity can be shared with all users and shared capacity is also available. For information about capacity limits, see [Manage data storage in Power BI workspaces](/power-bi/admin/service-admin-manage-your-data-storage-in-power-bi/?azure-portal=true).
 
 To compare product features and pricing, see [Power BI pricing](https://powerbi.microsoft.com/pricing/?azure-portal=true).
 
@@ -58,7 +58,7 @@ The following image shows typical content access scenarios based on license type
 > [!div class="mx-imgBorder"]
 > [![Table showing guest user access to content based on Power BI type.](../media/3-scenarios.png)](../media/3-scenarios.png#lightbox)
 
-For detailed information about providing guest users with access to content, review this article. [Distribute Power BI content to external guest users using Azure Active Directory B2B](https://docs.microsoft.com/power-bi/whitepaper-azure-b2b-power-bi/?azure-portal=true).
+For detailed information about providing guest users with access to content, review this article. [Distribute Power BI content to external guest users using Azure Active Directory B2B](/power-bi/whitepaper-azure-b2b-power-bi/?azure-portal=true).
 
 ## Configure, enable, and monitor B2B trust
 

@@ -49,7 +49,7 @@ On the **General** tab, name the parameter, select the data type, and then choos
 
 On the **Available Values** tab, enter options that the user can choose from. The **Default Values** tab has the initial value of the parameter when the report loads, but it can be changed by the user.
 
-You can also get parameter values from a query. For more information, see the [Microsoft documentation](https://docs.microsoft.com/power-bi/paginated-reports/paginated-reports-parameters/?azure-portal=true) on parameters.
+You can also get parameter values from a query. For more information, see the [Microsoft documentation](/power-bi/paginated-reports/paginated-reports-parameters/?azure-portal=true) on parameters.
 
 After you have created a parameter, you can use it to interact with the report. If you return to the dataset, you can connect that parameter with the query.
 

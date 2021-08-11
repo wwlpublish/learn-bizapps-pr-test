@@ -6,7 +6,7 @@ There are multiple portals and tools used by Power BI administrators. A list of 
 
 **Power BI admin portal** - Used to manage a Power BI tenant, including the configuration of governance policies, usage monitoring, and provisioning of licenses, capacities, and organizational resources.
 
-**Power BI gateway management** - Use Microsoft Power Platform admin center to view and manage on-premises data gateways. For more information about gateway administration and management, see this [article](https://docs.microsoft.com/power-platform/admin/onpremises-data-gateway-management#manage-gateway-installers/?azure-portal=true).
+**Power BI gateway management** - Use Microsoft Power Platform admin center to view and manage on-premises data gateways. For more information about gateway administration and management, see this [article](/power-platform/admin/onpremises-data-gateway-management#manage-gateway-installers/?azure-portal=true).
 
 **Microsoft Power Platform admin center** - Provides a unified portal for administrators to manage environments and settings for Power Apps, Power Automate, and customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation).
 
@@ -18,4 +18,4 @@ There are multiple portals and tools used by Power BI administrators. A list of 
 
 **PowerShell** - With PowerShell cmdlets for app creators and administrators, you can automate many of the monitoring and management tasks that are only possible manually today in [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc&azure-portal=true).
 
-**REST APIs** - Automate common Power BI administrator tasks with REST APIs. Find existing REST APIs available for automating common Power BI administration tasks [here](https://docs.microsoft.com/rest/api/power-bi/admin/?azure-portal=true).
+**REST APIs** - Automate common Power BI administrator tasks with REST APIs. Find existing REST APIs available for automating common Power BI administration tasks [here](/rest/api/power-bi/admin/?azure-portal=true).

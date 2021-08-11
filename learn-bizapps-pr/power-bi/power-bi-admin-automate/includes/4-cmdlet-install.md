@@ -53,4 +53,4 @@ PowerShell
 Get-PowerBIWorkspace -Scope Organization -All
 ```
 
-For additional commonly used Power BI cmdlets, see [Microsoft Power BI Cmdlets for Windows PowerShell and PowerShell Core](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps/?azure-portal=true).
+For additional commonly used Power BI cmdlets, see [Microsoft Power BI Cmdlets for Windows PowerShell and PowerShell Core](/powershell/power-bi/overview?view=powerbi-ps/?azure-portal=true).

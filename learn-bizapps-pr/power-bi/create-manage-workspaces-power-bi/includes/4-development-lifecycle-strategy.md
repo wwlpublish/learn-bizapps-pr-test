@@ -128,4 +128,4 @@ Exercise caution with this tool. Reports are dependent on their datasets. If a d
 
 We recommend that you use deployment pipelines in Power BI service. This tool ensures that the development life cycle is streamlined and that you can create one centralized location to collaborate, keep track of, and deploy your reports.
 
-For more information, see [Deployment Pipelines Best Practices](https://docs.microsoft.com/power-bi/create-reports/deployment-pipelines-best-practices/?azure-portal=true).
+For more information, see [Deployment Pipelines Best Practices](/power-bi/create-reports/deployment-pipelines-best-practices/?azure-portal=true).

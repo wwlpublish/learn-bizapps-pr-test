@@ -13,7 +13,7 @@ Unfortunately, the performance of your Power BI model will not only be impacted 
 
 Therefore, using DirectQuery poses a risk to the quality of your model's performance. To optimize performance in this situation, you need to have control over, or access to, the source database.
 
-For more detailed information, see [DirectQuery model guidance in Power BI Desktop](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance/?azure-portal=true).
+For more detailed information, see [DirectQuery model guidance in Power BI Desktop](/power-bi/guidance/directquery-model-guidance/?azure-portal=true).
 
 ## Implications of using DirectQuery
 
@@ -59,7 +59,7 @@ The use of DirectQuery can have negative implications. The limitations vary, dep
 
 -   **Reporting** -- Almost all the reporting capabilities that you have with imported data are also supported for DirectQuery models, provided that the underlying source offers a suitable level of performance. However, when the report is published in Power BI service, the Quick Insights and Q&A features are not supported. Also, the use of the Explore feature in Excel will likely result in poorer performance.
 
-For more detailed information on the limitations of using DirectQuery, see [Implications of using DirectQuery](https://docs.microsoft.com/power-bi/connect-data/desktop-directquery-about#implications-of-using-directquery).
+For more detailed information on the limitations of using DirectQuery, see [Implications of using DirectQuery](/power-bi/connect-data/desktop-directquery-about#implications-of-using-directquery).
 
 Now that you have a brief understanding of how DirectQuery works and the limitations that it poses, you can take action to improve the performance.
 
@@ -77,7 +77,7 @@ You can analyze the duration of the queries that are being sent to the underlyin
 
 You don't need to use a special approach when optimizing a DirectQuery model; you can apply the same optimization techniques that you used on the imported data to tune the data from the DirectQuery source. For example, you can reduce the number of visuals on the report page or reduce the number of fields that are used in a visual. You can also remove unnecessary columns and rows.
 
-For more detailed guidance on how a optimize a DirectQuery query, see: [DirectQuery model guidance in Power BI Desktop](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance/?azure-portal=true) and [Guidance for using DirectQuery successfully](https://docs.microsoft.com/power-bi/connect-data/desktop-directquery-about#guidance-for-using-directquery-successfully/?azure-portal=true).
+For more detailed guidance on how a optimize a DirectQuery query, see: [DirectQuery model guidance in Power BI Desktop](/power-bi/guidance/directquery-model-guidance/?azure-portal=true) and [Guidance for using DirectQuery successfully](/power-bi/connect-data/desktop-directquery-about#guidance-for-using-directquery-successfully/?azure-portal=true).
 
 ### Optimize the underlying data source (connected database)
 
