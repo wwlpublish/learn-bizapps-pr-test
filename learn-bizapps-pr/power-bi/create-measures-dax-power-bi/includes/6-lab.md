@@ -197,14 +197,13 @@ In this task, you will add additional columns to enable filtering and grouping b
 
 1. To customize the **Month** field sort order, switch to Data view.
 
-1. Add the **MonthKey** column to the **Date** table.
+1. Add the **MonthKey** column to the **Date** table. This formula computes a numeric value for each year/month combination.
 
 	```DAX
 	MonthKey =
-
+	
 	(YEAR('Date'[Date]) * 100) + MONTH('Date'[Date])
-
-	This formula computes a numeric value for each year/month combination.
+	```
 
 1. In Data view, verify that the new column contains numeric values (e.g. 201707 for July 2017, etc.).
 

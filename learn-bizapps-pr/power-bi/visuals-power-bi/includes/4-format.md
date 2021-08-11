@@ -43,7 +43,7 @@ It is best practice to keep the default white background so the presented data c
 
 Using tooltips is a clever way of providing more contextual information and detail to data points on a visual. When you add a visual, the default tooltip displays the data point's value and category, but you can customize this information to suit your needs. For example, you might want to provide your report users with additional context and information, or specify additional data points that you want users to see when they hover over the visual.
 
-To expand on the data points that are displayed in the default tooltip, you can drag a field (value) from the **Fields** panel into the **Tooltips** bucket. However, you should not add many more fields to the tooltips because adding too many fields can introduce performance issues and slow down your visuals.
+To expand on the data points that are displayed in the default tooltip, you can drag a field from the **Fields** panel into the **Tooltips** bucket. However, you should not add many more fields to the tooltips because adding too many fields can introduce performance issues and slow down your visuals.
 
 The following image shows the default tooltip first and then the customized tooltip that displays additional data.
 

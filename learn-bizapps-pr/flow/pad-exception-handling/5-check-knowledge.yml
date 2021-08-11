@@ -5,15 +5,15 @@ metadata:
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
  ms.date: 10/27/2020 
- author: georgiostrantzas  
- ms.author: v-gtrantzas  
+ author: mariosleon  
+ ms.author: marleon 
  ms.topic: interactive-tutorial 
  ms.prod: learning-power-automate 
 durationInMinutes: 3 
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "Which actions do they have exception handling options?"
+  - content: "Which actions have exception handling options?"
     choices: 
     - content: "Most of the actions"
       isCorrect: true

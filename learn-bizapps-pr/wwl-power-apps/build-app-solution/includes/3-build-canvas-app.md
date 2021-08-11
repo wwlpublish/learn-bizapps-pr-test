@@ -168,11 +168,13 @@ is just one of the many sources you can use to expand your canvas app’s data.
 
 1.  Select **View** \> **Data sources** to open the **Data** pane.
 
-2.  In the search bar, type or paste the first few letters of **Office 365 Outlook:**
+2.  Select **Add Data**.
+
+3.  In the search bar, type or paste the first few letters of **Office 365 Outlook:**
 
     ![Office 365 Outlook in data sources list](../media/canvas-app-outlook.png)
 
-3.  Select **Connect**, and if prompted to sign in, enter your work account.
+4.  Select **Connect**, and if prompted to sign in, enter your work account.
 
 The Office 365 Outlook connection has been created and added to your app. Now,
 it is ready to be used.

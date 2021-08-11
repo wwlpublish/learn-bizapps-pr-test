@@ -3,19 +3,18 @@ Imported data often contains fields that you don't need for your reporting and v
 Tasks in this module include:
 ![Conceptual graphic of the tasks in this module.](../media/04-power-bi-desktop-overview.png)
 
-## Hide fields
 
+## Hide fields
 To hide a field in the Fields pane of Power BI Desktop, right-click the column and select **Hide**. Your hidden fields aren't deleted. If you've used a hidden field in existing visuals, the data is still there; the hidden field just isn't displayed on the Fields pane.
 
-![Screenshot of a column right-clicked to show the Hide option.](../media/04-power-bi-desktop-hide-field.png)
+![Screenshot of the Hide feature.](../media/04-power-bi-desktop-hide-field.png)
 
 If you view tables in the **Model** view, hidden fields appear dimmed. The data in these tables is still available and is still part of the model. You can unhide any field that has been hidden by right-clicking the field and then selecting **unhide**.
 
 ## Sort visualization data by another field
-
 The **Sort by Column** tool, available on the **Table tools** tab, is useful to help ensure that your data is displayed in the order that you intended.  
 
-![Screenshot of the Sort by Column option on the Column tool tab.](../media/04-power-bi-desktop-sort-by-column.png)
+![Screenshot of the Sort by Column field.](../media/04-power-bi-desktop-sort-by-column.png)
 
 As a common example, data that includes the name of the month is sorted alphabetically by default, for example, August would appear before February.
 

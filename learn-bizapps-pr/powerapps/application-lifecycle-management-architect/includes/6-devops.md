@@ -40,6 +40,26 @@ Tasks in Microsoft Power Platform Build Tools can be used along with any other a
 
 > [![Diagram of Azure DevOps with Microsoft Power Platform.](../media/6-alm-devops.png)](../media/6-alm-devops.png#lightbox)
 
+## Deployment Methodologies
+
+When deploying solutions through a release pipeline, a decision has to be made to push the release manually or automatically. Release pipeline runs can be started manually by an Azure DevOps user, run automatically on a schedule, or triggered by a Pull request. Continuous deployment can be enabled on a release pipeline to push the latest solution build to other environments as soon as the build becomes available. 
+
+For immediate break/fixes to a solution, a manual trigger is likely the preferred method in order to make the newest build available in the upstream environments as quickly as possible, whereas a scheduled or pull request trigger makes more sense when updates to solutions are done regularly. 
+
+> [![Screenshot of release pipeline triggers continuous deployment and pull request triggers.](../media/6-release-triggers.png)](../media/6-release-triggers.png#lightbox)
+
+> [![Screenshot of release pipeline triggers scheduled release trigger.](../media/6-release-triggers-2.png)](../media/6-release-triggers-2.png#lightbox)
+
+Consider this example:
+
+Contoso Bank has a team of developers working on a complex Power Platform solution that needs to be sent through various stages of testing before reaching production. The development team uses Agile methodologies for their development projects, and enforces a regular pattern of build and release cycles. For this reason, the Contoso Bank development team uses the scheduled release pipeline trigger, where the schedule is based around their pre-defined sprint cycles. This is an automated approach to pushing releases. 
+
+However, if a major bug is discovered in a QAT environment, the developers may choose to patch the bug with a new build and trigger the release pipeline manually so that testing in the QAT environment can continue as quickly as possible. 
+
+Perhaps Contoso Bank is running a smaller project without strict timelines for release cycles. In that case, using a manual trigger for the release pipeline might be preferred because there is no regular rhythm to when new builds are made available. 
+
+For more information on Using DevOps to move from manual to automated ALM, and best practices around which deployment methodology is right for you, check out [Microsoft Docs.](/power-platform/alm/use-devops-automated-alm/?azure-portal=true)
+
 ## Alternative automation tools
 
 Alternatives for automating deployments without using Azure DevOps are:

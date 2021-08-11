@@ -24,7 +24,7 @@ In this task, you will sync the **Year** and **Region** slicers.
 
 1. You will be prompted to login to Power BI, login using Power BI account credentials.
 
-1.	You may get an error “Unable to connect,” the account is utilized by many learners. Click on **Edit** and select the Sales Analysis report you created in an earlier lab.    
+1.	You may get an error "Unable to connect," the account is utilized by many learners. Click on **Edit** and select the Sales Analysis report you created in an earlier lab.    
 
 1. On the **Sales Report** file, on the **Overview** page, set the **Year** slicer to **FY2018**.
 
@@ -88,7 +88,7 @@ In this task, you will create a new page and configure it as a drill through pag
 1. At the top-left of the report page, notice the arrow button.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the top-lef arrow button.](../media/lab-8-ss.png)](../media/lab-8-ss.png#lightbox)
+	> [![Screenshot of the top-left arrow button.](../media/lab-8-ss.png)](../media/lab-8-ss.png#lightbox)
 
 	The button was added automatically. It allows report users to navigate back to the page from which they drilled through.
 
@@ -260,7 +260,7 @@ In this task, you will add two bookmarks, one to display each of the monthly sal
 	> To select the visual that is covered up, select it in the **Selection** pane.
 
 	> [!div class="mx-imgBorder"]
-	> [![Image of the size and position of thesecond visual on the pane.](../media/lab-26-ss.png)](../media/lab-26-ss.png#lightbox)
+	> [![Image of the size and position of the second visual on the pane.](../media/lab-26-ss.png)](../media/lab-26-ss.png#lightbox)
 
 1. In the **Bookmarks** pane, select each of the bookmarks, and notice that only one of the visuals is visible.
 
