@@ -37,7 +37,7 @@ quiz:
       explanation: This option doesn't exist when connecting to AAS cubes. 
   - content: What can you do to improve performance when you are getting data in Power BI? 
     choices: 
-    - content: Do some calculations in the original data source 
+    - content: Perform some calculations in the original data source 
       isCorrect: true 
       explanation: Power Query and Power Query Editor are built to allow you to process the data, however, the processing power required to do this may lower performance in other areas of your reports. It is good practice to process as much as possible in the native data source.  
     - content: Only pull data into the Power BI service, not Power BI Desktop 
