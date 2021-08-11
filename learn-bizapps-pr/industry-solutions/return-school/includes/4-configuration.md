@@ -16,7 +16,7 @@ For the more experienced Microsoft Dynamics 365 or Microsoft Power Platform cons
 
 1.  Set up the portal URL environment variable.
 
-For more information, see [Deploy Microsoft Return to School](https://docs.microsoft.com/dynamics365/industry/return-to-school/deploy/?azure-portal=true).
+For more information, see [Deploy Microsoft Return to School](/dynamics365/industry/return-to-school/deploy/?azure-portal=true).
 
 Additionally, the expected extensions and platform capabilities are still available to you as a maker in the environment. Extend the configuration as needed but be mindful of the impact to the solutions that you have deployed.
 

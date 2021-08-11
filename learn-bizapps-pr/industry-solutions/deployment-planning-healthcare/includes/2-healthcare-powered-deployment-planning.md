@@ -36,7 +36,7 @@ Depending on what specific applications and features will be implemented, to ins
 
 -   Microsoft Cloud for Healthcare add-on (all solutions)
 
-During deployment, the Dynamics 365 Solution Center will verify that the tenant has the appropriate licenses. Because requirements might evolve over time, we recommend that you review the Dynamics 365 Licensing Guide. The guide provides up-to-date information on pricing and licensing requirements for Dynamics 365 applications. Also, you should review the [How to buy the Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare/buy/?azure-portal=true) documentation for up-to-date steps on pricing information and how to acquire the Microsoft Cloud for Healthcare add-on.
+During deployment, the Dynamics 365 Solution Center will verify that the tenant has the appropriate licenses. Because requirements might evolve over time, we recommend that you review the Dynamics 365 Licensing Guide. The guide provides up-to-date information on pricing and licensing requirements for Dynamics 365 applications. Also, you should review the [How to buy the Microsoft Cloud for Healthcare](/industry/healthcare/buy/?azure-portal=true) documentation for up-to-date steps on pricing information and how to acquire the Microsoft Cloud for Healthcare add-on.
 
 ## Dataverse environment
 
@@ -60,7 +60,7 @@ The Care Management solution does not require dependencies on existing Microsoft
 
 ### Patient Service Center
 
-The Patient Service Center application requires the [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/?azure-portal=true) app and the [Digital Messaging Add-in for Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/introduction-omnichannel/?azure-portal=true) (also known as Omnichannel for Customer Service).
+The Patient Service Center application requires the [Dynamics 365 Customer Service](/dynamics365/customer-service/?azure-portal=true) app and the [Digital Messaging Add-in for Dynamics 365 Customer Service](/dynamics365/customer-service/introduction-omnichannel/?azure-portal=true) (also known as Omnichannel for Customer Service).
 
 Dynamics 365 Customer Service provides case management capabilities to track the life cycle and communication that are associated with a particular incident that is related to a customer. Cases can also be routed or managed through queues, and a searchable library of knowledge base articles can be reviewed and attached to specific cases.
 
@@ -72,14 +72,14 @@ The Digital Messaging Add-in for Dynamics 365 component enables healthcare agent
 
 To deploy Microsoft Cloud for Healthcare, you will need to provision the Digital Messaging Add-in and have the various channels enabled.
 
-For more information, see [Provision Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/customer-service/omnichannel-provision-license/?azure-portal=true).
+For more information, see [Provision Omnichannel for Customer Service](/dynamics365/customer-service/omnichannel-provision-license/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Dynamics 365 Administrator Center showing the setup of Omnichannel channels.](../media/provisions.png)](../media/provisions.png#lightbox)
 
 ### Patient Outreach
 
-The Patient Outreach application requires [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/help-hub/?azure-portal=true).
+The Patient Outreach application requires [Dynamics 365 Marketing](/dynamics365/marketing/help-hub/?azure-portal=true).
 
 With the Dynamics 365 Marketing app, users can create targeted communication campaigns and customer journeys, manage events, and manage subscription lists.
 
@@ -89,22 +89,22 @@ The Microsoft Cloud for Healthcare deployment process will configure Dynamics 36
 
 ### Patient Access
 
-The Patient Access application uses [Power Apps portals](https://docs.microsoft.com/powerapps/maker/portals/overview/?azure-portal=true), specifically an enhancement of the Customer self-service portal. The Customer self-service portal allows external stakeholders to interact with the Dynamics 365 Customer Service app.
+The Patient Access application uses [Power Apps portals](/powerapps/maker/portals/overview/?azure-portal=true), specifically an enhancement of the Customer self-service portal. The Customer self-service portal allows external stakeholders to interact with the Dynamics 365 Customer Service app.
 
 The Patient Access portal allows patients to sign in, request appointments, and send and receive confidential communications with their healthcare professionals.
 
 Prior to deployment of the Microsoft Cloud for Healthcare Patient Access solution, you will need to provision a Power Apps portal on the Dataverse environment. Ideally, the environment should not have other portals deployed because the process could overwrite existing portal configurations.
 
-For more information, see [Create a portal with Dynamics 365 environment](https://docs.microsoft.com/powerapps/maker/portals/create-dynamics-portal/?azure-portal=true).
+For more information, see [Create a portal with Dynamics 365 environment](/powerapps/maker/portals/create-dynamics-portal/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
 > [![Power Apps maker portal showing screen to deploy the Customer self-service portal on the Dataverse environment.](../media/customer-self-service.png)](../media/customer-self-service.png#lightbox)
 
 ### Home Health
 
-The Home Health application uses [Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/overview/?azure-portal=true), which is designed to manage onsite service to customer locations. The Home Health application extends this concept to help health coordinators effectively schedule care team member home visit appointments, optimize routes, and coordinate tasks and processes during the visit. If Dynamics 365 Field Service was not added when the initial Dataverse database was created, it will need to be installed prior to deployment of the Home Health app.
+The Home Health application uses [Dynamics 365 Field Service](/dynamics365/field-service/overview/?azure-portal=true), which is designed to manage onsite service to customer locations. The Home Health application extends this concept to help health coordinators effectively schedule care team member home visit appointments, optimize routes, and coordinate tasks and processes during the visit. If Dynamics 365 Field Service was not added when the initial Dataverse database was created, it will need to be installed prior to deployment of the Home Health app.
 
-For more information, see [How to install Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service/?azure-portal=true).
+For more information, see [How to install Dynamics 365 Field Service](/dynamics365/field-service/install-field-service/?azure-portal=true).
 
 The Microsoft Cloud for Health deployment process will configure Dynamics 365 Field Service for the Home Health app.
 
@@ -123,7 +123,7 @@ To deploy Microsoft Cloud for Healthcare apps, the user who is performing the in
 
 With the prerequisites installed and the user licensed, Microsoft Cloud for Healthcare solutions powered by Dynamics 365 can be deployed.
 
-For more information, see [Deploy Microsoft Cloud for Healthcare solutions powered by Dynamics 365](https://docs.microsoft.com/dynamics365/industry/healthcare/deploy/?azure-portal=true).
+For more information, see [Deploy Microsoft Cloud for Healthcare solutions powered by Dynamics 365](/dynamics365/industry/healthcare/deploy/?azure-portal=true).
 
 Most provider solutions can be deployed in one process or individually, depending on the requirements.
 
