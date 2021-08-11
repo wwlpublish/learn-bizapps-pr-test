@@ -1,4 +1,4 @@
-In this exercise, you will build a Power Automate flow to check when an image has been added to a folder and trigger AI Builder Business card reader. If the contact information is extracted, it is saved in Microsoft Dataverse. (See [Use the business card reader prebuilt model in Power Automate](https://docs.microsoft.com/ai-builder/flow-business-card-reader/?azure-portal=true)).
+In this exercise, you will build a Power Automate flow to check when an image has been added to a folder and trigger AI Builder Business card reader. If the contact information is extracted, it is saved in Microsoft Dataverse. (See [Use the business card reader prebuilt model in Power Automate](/ai-builder/flow-business-card-reader/?azure-portal=true)).
 
 ## Create a flow in Power Automate
 

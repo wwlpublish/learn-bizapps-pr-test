@@ -1,7 +1,7 @@
 
-Before following this course, we recommend reading "Get Started with AI Builder" and the documentation [What is AI Builder?](https://docs.microsoft.com/ai-builder/overview).
+Before following this course, we recommend reading "Get Started with AI Builder" and the documentation [What is AI Builder?](/ai-builder/overview/?azure-portal=true).
 
-The [AI Builder Text recognition model](https://docs.microsoft.com/ai-builder/prebuilt-text-recognition) can help to automate your business. AI Builder Text recognition is a built-in model, which means you can use it without having to customize and train. It leverages [Azure Computer Vision OCR service](https://docs.microsoft.com/azure/search/cognitive-search-skill-ocr), to process an image to extract printed or handwritten text.
+The [AI Builder Text recognition model](/ai-builder/prebuilt-text-recognition/?azure-portal=true) can help to automate your business. AI Builder Text recognition is a built-in model, which means you can use it without having to customize and train. It leverages [Azure Computer Vision OCR service](/azure/search/cognitive-search-skill-ocr/?azure-portal=true), to process an image to extract printed or handwritten text.
 
 ## Example scenario | Contoso Shipment
 
