@@ -10,9 +10,9 @@ The underlying features and components that are used to build the kit (such as D
 
 [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention/?azure-portal=true)
 
-[Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide/?azure-portal=true)
+[Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off/?azure-portal=true)
 
-[Search the audit sign in the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#before-you-begin/?azure-portal=true)
+[Search the audit sign in the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?azure-portal=true#before-you-begin)
 
 [Dataverse (legacy)](/connectors/commondataservice/?azure-portal=true)
 
