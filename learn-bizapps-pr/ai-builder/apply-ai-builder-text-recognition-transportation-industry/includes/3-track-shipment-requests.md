@@ -1,4 +1,4 @@
-**We will build a model-driven Power Apps** (see [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview))
+**We will build a model-driven Power Apps** (see [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview/?azure-portal=true))
 
 ## Track progress
 
@@ -14,7 +14,7 @@ To use the entity that we have created in previous unit we need to reference it.
 
 ## Enter new shipment requests
 
-To enter new container shipment requests, we need to create an entry form (See [Create or edit a model-driven app main form for an entity](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-main-forms)). Edit the data entry form by selecting the "Forms" button in the left view and edit button on the "Information" main form in the right pane.
+To enter new container shipment requests, we need to create an entry form (See [Create or edit a model-driven app main form for an entity](/powerapps/maker/model-driven-apps/create-edit-main-forms/?azure-portal=true)). Edit the data entry form by selecting the "Forms" button in the left view and edit button on the "Information" main form in the right pane.
 
 ![On the Components tab, under Main Forms, Information is selected.](../media/image5.png)
 
@@ -28,7 +28,7 @@ Save and close the window.
 
 ## Track shipment progress
 
-To track shipment progress, we need a view of all containers with their information and shipping state (See [Customize entity views](https://docs.microsoft.com/powerapps/developer/model-driven-apps/customize-entity-views)).
+To track shipment progress, we need a view of all containers with their information and shipping state (See [Customize entity views](/powerapps/developer/model-driven-apps/customize-entity-views/?azure-portal=true)).
 
 Click on "Views" in the left view and "Create New" button on the left pane.
 

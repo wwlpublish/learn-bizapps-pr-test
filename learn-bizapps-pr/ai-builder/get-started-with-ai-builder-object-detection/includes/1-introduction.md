@@ -1,10 +1,10 @@
-Before following this course, we recommend that you read the [Get Started with AI Builder]{.underline} module and read the [What is AI Builder?](https://docs.microsoft.com/ai-builder/overview) documentation.
+Before following this course, we recommend that you read the [Get Started with AI Builder]{.underline} module and read the [What is AI Builder?](/ai-builder/overview/?azure-portal=true) documentation.
 
 ## Introduction to AI Builder Object detection
 
 AI Builder Object detection is an AI model that you can train to detect objects in pictures. AI models usually require that you provide samples of data to train before you are able to perform predictions. Prebuilt models are pre-trained by using a set of samples that are provided by Microsoft, so they are instantly ready to be used in predictions.
 
-When you are predicting, AI Builder Object detection will recognize the objects that you submitted during the training phase with help from [Azure Custom Vision Object detection](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/home) technology. Object detection can detect up to 500 different objects in a single model and support JPG, PNG, BMP image format or photos through the Power Apps control.
+When you are predicting, AI Builder Object detection will recognize the objects that you submitted during the training phase with help from [Azure Custom Vision Object detection](/azure/cognitive-services/custom-vision-service/home/?azure-portal=true) technology. Object detection can detect up to 500 different objects in a single model and support JPG, PNG, BMP image format or photos through the Power Apps control.
 
 ## What you can do with Object detection
 

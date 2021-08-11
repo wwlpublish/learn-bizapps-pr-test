@@ -27,7 +27,7 @@ Select the tile for one of the following model types:
 
 Make sure that you have everything you need to create your model, as listed
 on the **Get started** tab. You can also use [sample
-data](https://docs.microsoft.com/ai-builder/samples) to create any
+data](/ai-builder/samples/?azure-portal=true) to create any
 of these models.
 
 1. Enter a name for your model in the **Name this AI model** field.
