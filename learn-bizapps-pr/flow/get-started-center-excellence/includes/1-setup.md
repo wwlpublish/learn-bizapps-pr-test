@@ -20,38 +20,38 @@ Make sure that you meet the following requirements before you begin this module:
 
 -   The environment must have a data loss prevention (DLP) policy that allows:
 
-    -   [Dataverse (legacy)](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true) 
+    -   [Dataverse (legacy)](/connectors/commondataservice/?azure-portal=true) 
 
-    -   [Dataverse](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true) 
+    -   [Dataverse](/connectors/commondataserviceforapps/?azure-portal=true) 
 
-    -   [Office 365 Users](https://docs.microsoft.com/connectors/office365users/?azure-portal=true), 
+    -   [Office 365 Users](/connectors/office365users/?azure-portal=true), 
 
-    -   [Microsoft Power Platform for Admins](https://docs.microsoft.com/connectors/powerplatformforadmins/?azure-portal=true)
+    -   [Microsoft Power Platform for Admins](/connectors/powerplatformforadmins/?azure-portal=true)
 
-    -   [Power Automate Management](https://docs.microsoft.com/connectors/flowmanagement/?azure-portal=true) 
+    -   [Power Automate Management](/connectors/flowmanagement/?azure-portal=true) 
 
-    -   [Office 365 Outlook](https://docs.microsoft.com/connectors/office365/?azure-portal=true) 
+    -   [Office 365 Outlook](/connectors/office365/?azure-portal=true) 
 
-    -   [Power Apps for Admins](https://docs.microsoft.com/connectors/powerappsforadmins/?azure-portal=true) 
+    -   [Power Apps for Admins](/connectors/powerappsforadmins/?azure-portal=true) 
 
-    -   [Power Apps for Makers](https://docs.microsoft.com/connectors/powerappsforappmakers/?azure-portal=true) 
+    -   [Power Apps for Makers](/connectors/powerappsforappmakers/?azure-portal=true) 
 
-    -   [SharePoint](https://docs.microsoft.com/connectors/sharepointonline/?azure-portal=true) 
+    -   [SharePoint](/connectors/sharepointonline/?azure-portal=true) 
 
-    -   [Azure Active Directory (Azure AD)](https://docs.microsoft.com/connectors/azuread/?azure-portal=true) 
+    -   [Azure Active Directory (Azure AD)](/connectors/azuread/?azure-portal=true) 
 
-    -   [Power Automate for Admins](https://docs.microsoft.com/connectors/microsoftflowforadmins/?azure-portal=true) 
+    -   [Power Automate for Admins](/connectors/microsoftflowforadmins/?azure-portal=true) 
 
-    -   [RSS](https://docs.microsoft.com/connectors/rss/?azure-portal=true) 
+    -   [RSS](/connectors/rss/?azure-portal=true) 
 
-    -   [Office 365 Groups](https://docs.microsoft.com/connectors/office365groups/?azure-portal=true) 
+    -   [Office 365 Groups](/connectors/office365groups/?azure-portal=true) 
 
-    -   [Approvals](https://docs.microsoft.com/connectors/approvals/?azure-portal=true) and HTTP to be used together
+    -   [Approvals](/connectors/approvals/?azure-portal=true) and HTTP to be used together
 
     > [!NOTE]
-    > Those connectors must be in the business data-only bucket of the DLP policy for this environment. If you're using the [audit log](https://docs.microsoft.com/power-platform/guidance/coe/setup-auditlog/?azure-portal=true) solution, the custom connector that is used to connect to the Microsoft 365 audit log must be included in your business data-only bucket as well.
+    > Those connectors must be in the business data-only bucket of the DLP policy for this environment. If you're using the [audit log](/power-platform/guidance/coe/setup-auditlog/?azure-portal=true) solution, the custom connector that is used to connect to the Microsoft 365 audit log must be included in your business data-only bucket as well.
 
--   If multiple DLP policies apply to the same environment, then all of them must have the connectors that the CoE Starter Kit uses in business data only or, if you have a policy that applies to all environments that you don't want to change, you can exclude the CoE environment from that policy. For more information, see [DLP policy scope](https://docs.microsoft.com/power-platform/admin/wp-data-loss-prevention?azure-portal=true#policy-scope).
+-   If multiple DLP policies apply to the same environment, then all of them must have the connectors that the CoE Starter Kit uses in business data only or, if you have a policy that applies to all environments that you don't want to change, you can exclude the CoE environment from that policy. For more information, see [DLP policy scope](/power-platform/admin/wp-data-loss-prevention?azure-portal=true#policy-scope).
 
 -   You've downloaded the CoE solution and CoE Power BI dashboard files to your device. The entire content package can be downloaded directly at [aka.ms/CoEStarterKitDownload](https://aka.ms/CoEStarterKitDownload/?azure-portal=true).
 

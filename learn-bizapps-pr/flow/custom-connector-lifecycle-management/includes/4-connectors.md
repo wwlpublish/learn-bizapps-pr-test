@@ -12,7 +12,7 @@ Use care to ensure that someone is not editing your custom connector by using th
 
 ## Install the command-line tool
 
-The **paconn** command-line tool requires Python 3.5 or above. Python should be installed first, followed by the **pip install paconn** command to install the tool. Detailed [installation instructions](https://docs.microsoft.com/connectors/custom-connectors/paconn-cli/?azure-portal=true) are available.
+The **paconn** command-line tool requires Python 3.5 or above. Python should be installed first, followed by the **pip install paconn** command to install the tool. Detailed [installation instructions](/connectors/custom-connectors/paconn-cli/?azure-portal=true) are available.
 
 ## Settings file or parameters
 
@@ -23,7 +23,7 @@ Using the settings file can make it easier for you to run commands multiple time
 > [!div class="mx-imgBorder"]
 > [![Screenshot example of the settings file contents.](../media/settings-json.png)](../media/settings-json.png#lightbox)
 
-You can review the [detailed list of settings](https://docs.microsoft.com/connectors/custom-connectors/paconn-cli?azure-portal=true#settings-file) for more specifics on values for each setting.
+You can review the [detailed list of settings](/connectors/custom-connectors/paconn-cli?azure-portal=true#settings-file) for more specifics on values for each setting.
 
 ## Authenticate
 

@@ -28,13 +28,13 @@ The application life cycle is the cyclical development process that involves the
 > [!div class="mx-imgBorder"]
 > [![Diagram of the cyclical development process of application lifecycle management.](../media/diagram-application-lifecycle.png)](../media/diagram-application-lifecycle.png#lightbox)
 
-When you create an open source and/or certify your custom connector, the deploy phase is more than simply moving it to another environment. You need to follow a specific set of procedures, which you can learn more about by going to [Instructions on submitting your connector to Microsoft](https://docs.microsoft.com/connectors/custom-connectors/certification-submission/?azure-portal=true).
+When you create an open source and/or certify your custom connector, the deploy phase is more than simply moving it to another environment. You need to follow a specific set of procedures, which you can learn more about by going to [Instructions on submitting your connector to Microsoft](/connectors/custom-connectors/certification-submission/?azure-portal=true).
 
 ## ALM in Microsoft Power Platform
 
 Microsoft Power Platform provides ALM tools to support a healthy life cycle management process. These tools rely on Microsoft Dataverse and solutions. Solutions are the mechanisms for implementing ALM in Microsoft Power Apps and Microsoft Power Automate. Custom connectors can be created in and transported between environments by using solutions.
 
-A key aspect of ALM in Microsoft Power Platform is using environments for specific purposes during different phases of the life cycle. For example, in a basic ALM setup, you would have development, test, and production environments. For more information, see [Environment strategy for ALM](https://docs.microsoft.com/power-platform/alm/environment-strategy-alm/?azure-portal=true).
+A key aspect of ALM in Microsoft Power Platform is using environments for specific purposes during different phases of the life cycle. For example, in a basic ALM setup, you would have development, test, and production environments. For more information, see [Environment strategy for ALM](/power-platform/alm/environment-strategy-alm/?azure-portal=true).
 
 Another key aspect of ALM is applying source control to track changes that are made over each release of the custom connector or other components. By using Microsoft Power Platform build tools, you can automate the process of taking a snapshot of a solution that contains your connector and using version control to track what changed with each revision.
 

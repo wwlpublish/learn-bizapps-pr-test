@@ -26,4 +26,4 @@ When you are ready to update your custom connector, make the changes in your dev
 
 Using solutions to manage the life cycle of your custom connector provides a consistent way of doing it with how you manage other Microsoft Power Platform resources. The same techniques that you use for automating the export, import, and source control of your assets can be consistently applied for custom connectors as well. This module will later describe automating the process by using Microsoft Power Platform Build Tools. 
 
-For more information, see [Application lifecycle management (ALM) with Microsoft Power Platform](https://docs.microsoft.com/power-platform/alm/?azure-portal=true).
+For more information, see [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/?azure-portal=true).

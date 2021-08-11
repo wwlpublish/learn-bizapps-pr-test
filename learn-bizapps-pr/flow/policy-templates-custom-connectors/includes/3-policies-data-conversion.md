@@ -16,7 +16,7 @@ If you use the peek feature on the action step, you can see how the data is stru
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the peek view of the update task details showing the JSON for the prior example.](../media/peek-feature.png)](../media/peek-feature.png#lightbox)
 
-If you look at the Microsoft Planner API [docs](https://docs.microsoft.com/graph/api/plannertaskdetails-update?view=graph-rest-1.0&tabs=http/?azure-portal=true) for this operation, notice that it wants the data structured like the following example.
+If you look at the Microsoft Planner API [docs](/graph/api/plannertaskdetails-update?view=graph-rest-1.0&tabs=http/?azure-portal=true) for this operation, notice that it wants the data structured like the following example.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the API docs data structure example.](../media/data-structure.png)](../media/data-structure.png#lightbox)

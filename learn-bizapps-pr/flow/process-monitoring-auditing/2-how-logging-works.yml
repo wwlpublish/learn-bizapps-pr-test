@@ -5,8 +5,8 @@ metadata:
   title: How logging works
   description: Learn about how the logging process works in WinAutomation.
   ms.date: 09/21/2020   
-  author: georgiostrantzas 
-  ms.author: getrantz 
+  author: mariosleon 
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 5 
