@@ -14,39 +14,39 @@ the **Button** control, a sequence of actions or behaviors will take
 place changing the state of the app. This is done by placing a formula
 in the **OnSelect** property of the **Button** control.
 
--   Change the screen that's displayed -
-    [**Back**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-navigate)
+- Change the screen that's displayed -
+    [**Back**](/powerapps/maker/canvas-apps/functions/function-navigate/?azure-portal=true)
     and
-    [**Navigate**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-navigate)
+    [**Navigate**](/powerapps/maker/canvas-apps/functions/function-navigate/?azure-portal=true)
     functions.
 
--   Control a
-    [signal](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/signals) -
-    [**Enable**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-enable-disable)
+- Control a
+    [signal](/powerapps/maker/canvas-apps/functions/signals/?azure-portal=true) -
+    [**Enable**](/powerapps/maker/canvas-apps/functions/function-enable-disable/?azure-portal=true)
     and
-    [**Disable**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-enable-disable)
+    [**Disable**](/powerapps/maker/canvas-apps/functions/function-enable-disable/?azure-portal=true)
     functions.
 
--   Refresh, update, or remove items in a [data
-    source](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-data-sources) -
-    [**Refresh**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-refresh),
-    [**Update**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-update-updateif),
-    [**UpdateIf**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-update-updateif),
-    [**Patch**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-patch),
-    [**Remove**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-remove-removeif),
-    [**RemoveIf**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-remove-removeif)
+- Refresh, update, or remove items in a [data
+    source](/powerapps/maker/canvas-apps/working-with-data-sources/?azure-portal=true) -
+    [**Refresh**](/powerapps/maker/canvas-apps/functions/function-refresh/?azure-portal=true),
+    [**Update**](/powerapps/maker/canvas-apps/functions/function-update-updateif/?azure-portal=true),
+    [**UpdateIf**](/powerapps/maker/canvas-apps/functions/function-update-updateif/?azure-portal=true),
+    [**Patch**](/powerapps/maker/canvas-apps/functions/function-patch/?azure-portal=true),
+    [**Remove**](/powerapps/maker/canvas-apps/functions/function-remove-removeif/?azure-portal=true),
+    [**RemoveIf**](/powerapps/maker/canvas-apps/functions/function-remove-removeif/?azure-portal=true)
     functions.
 
--   Update a [context
-    variable](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-variables#use-a-context-variable) -
-    [**UpdateContext**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-updatecontext)
+- Update a [context
+    variable](/powerapps/maker/canvas-apps/working-with-variables?azure-portal=true#use-a-context-variable) -
+    [**UpdateContext**](/powerapps/maker/canvas-apps/functions/function-updatecontext/?azure-portal=true)
     function.
 
--   Create, update, or remove items in a
-    [collection](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-data-sources#collections) -
-    [**Collect**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect),
-    [**Clear**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect),
-    [**ClearCollect**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect)
+- Create, update, or remove items in a
+    [collection](/powerapps/maker/canvas-apps/working-with-data-sources?azure-portal=true#collections) -
+    [**Collect**](/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect/?azure-portal=true),
+    [**Clear**](/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect/?azure-portal=true),
+    [**ClearCollect**](/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect/?azure-portal=true)
     functions.
 
 A very simple but popular example of using the **Button** control is
@@ -56,7 +56,6 @@ using the following formula.
 ```powerappsfl
 Navigate(Screen2,ScreenTransition.Cover)
 ```
-
 
 ![Screenshot of Power Apps Tree view Button control.](../media/navigate-button.png)
 

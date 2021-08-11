@@ -1,6 +1,6 @@
 The purpose of this hands-on lab is to introduce the Power Apps portals invitation-based user registration process.
 
-The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install sample data to assist with the exercises. Dynamics 365 does provide the ability to add sample data, as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install the sample data into your environment.
+The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install sample data to assist with the exercises. Dynamics 365 does provide the ability to add sample data, as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install the sample data into your environment.
 
 ## Learning objectives
 

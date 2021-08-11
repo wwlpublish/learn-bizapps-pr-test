@@ -21,7 +21,7 @@ Controls are one of the biggest components of a Power App because implementation
 -   **OnSelect** - How the app responds when the user taps or clicks a
     control.
 
--   **Reset** - Whether a control reverts to its default value. For more information, see [Reset function in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-reset).
+-   **Reset** - Whether a control reverts to its default value. For more information, see [Reset function in Power Apps](/powerapps/maker/canvas-apps/functions/function-reset/?azure-portal=true).
 
 -   **Text** - Text that appears on a control or that the user types into
     a control.
@@ -32,4 +32,4 @@ Controls are one of the biggest components of a Power App because implementation
 -   **Visible** - Whether a control appears or is hidden.
 
 To view a list of all the controls and their properties, see
-[Controls and properties in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/reference-properties).
+[Controls and properties in Power Apps](/powerapps/maker/canvas-apps/reference-properties/?azure-portal=true).

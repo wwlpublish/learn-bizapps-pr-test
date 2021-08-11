@@ -87,7 +87,7 @@ Country:"Italy", Population:1344000})
 5.  Select the top or first Label, in the **Text** property the default for example shows **ThisItem.City**, you could
     change this to something else if you would like. For more
     information about the ThisItem operator, see
-    [Screenshot of operators and data types in Power Apps for text property.](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/operators).
+    [Screenshot of operators and data types in Power Apps for text property.](/powerapps/maker/canvas-apps/functions/operators/?azure-portal=true).
 
 6.  Select the middle or second Label, which shows as
     **ThisItem.Country**.

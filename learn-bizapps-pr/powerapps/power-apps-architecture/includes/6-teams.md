@@ -18,4 +18,4 @@ Using Dataverse for Teams might seem attractive initially, but as a solution arc
 - AI Builder is not supported
 - Custom connectors are not supported
 
-For more information, see [known issues and limitations](https://docs.microsoft.com/powerapps/teams/known-issues-limitations).
+For more information, see [known issues and limitations](/powerapps/teams/known-issues-limitations/?azure-portal=true).

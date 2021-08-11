@@ -6,7 +6,7 @@ Before you can add a Power BI report to a Power Apps portal, you will need to en
 > [![Screenshot of the admin center Set up Power BI integration with Enable Power BI visualization and Enable Power BI Embedded service features.](../media/enable-power-bi.png)](../media/enable-power-bi.png#lightbox)
 
 - **Power BI visualization** - Allows you to embed *publish to web* Power BI reports for anonymous visitors or share Power BI reports or dashboards to Power BI Azure Active Directory authenticated users (for example, on an Employee self-service portal).
-- **Power BI Embedded service** - Allows you to share the Power BI reports or dashboards to external users who don't have a Power BI license or Azure Active Directory authentication set up. This feature uses the *new workspaces* feature of Power BI. For more information, see [Create the new workspaces in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces/?azure-portal=true)).
+- **Power BI Embedded service** - Allows you to share the Power BI reports or dashboards to external users who don't have a Power BI license or Azure Active Directory authentication set up. This feature uses the *new workspaces* feature of Power BI. For more information, see [Create the new workspaces in Power BI](/power-bi/collaborate-share/service-create-the-new-workspaces/?azure-portal=true)).
 
 ## Enable Power BI visualization
 
@@ -33,7 +33,7 @@ The `powerbi` Liquid tag accepts the following parameters:
    % powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
    ```
 
-You can also filter the report on one or more values. For more information, see [Filter a report by using query string parameters in the URL](https://docs.microsoft.com/power-bi/service-url-filters/?azure-portal=true).
+You can also filter the report on one or more values. For more information, see [Filter a report by using query string parameters in the URL](/power-bi/service-url-filters/?azure-portal=true).
 
 > [!IMPORTANT]
 > The Anonymous report doesn't support filtering.
@@ -79,6 +79,6 @@ When you are adding an embedded Power BI report, specify if the audience is for 
 > [!NOTE]
 > Power BI sharing requires appropriate licensing to be in place. Licensing requirements depend on the audience and method of sharing.
 
-For more information on setting up Power BI integration, see [Set up Power BI integration](https://docs.microsoft.com/powerapps/maker/portals/admin/set-up-power-bi-integration/?azure-portal=true).
+For more information on setting up Power BI integration, see [Set up Power BI integration](/powerapps/maker/portals/admin/set-up-power-bi-integration/?azure-portal=true).
 
-For more information on sharing and licensing requirements, see [Share Power BI workspace](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports#collaborate-with-coworkers-in-an-app-workspace/?azure-portal=true) and [Share Power BI dashboard and report](https://docs.microsoft.com/power-bi/service-share-dashboards/?azure-portal=true).
+For more information on sharing and licensing requirements, see [Share Power BI workspace](/power-bi/service-how-to-collaborate-distribute-dashboards-reports#collaborate-with-coworkers-in-an-app-workspace/?azure-portal=true) and [Share Power BI dashboard and report](/power-bi/service-share-dashboards/?azure-portal=true).

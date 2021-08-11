@@ -1,6 +1,6 @@
 The purpose of this hands-on lab is to introduce the concept of building and extending Liquid templates.
 
-The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install some sample data to assist with the exercises. Microsoft Dataverse does provide the ability to add sample data as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data) documentation to install the sample data into your environment.
+The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install some sample data to assist with the exercises. Microsoft Dataverse does provide the ability to add sample data as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install the sample data into your environment.
 
 ## Learning objectives
 
@@ -14,7 +14,7 @@ At the end of these exercises, you will be able to:
 
 For this exercise, you will need to have the following parameters set up in your environment:
 
-- A Power Apps portal that is provisioned. If you do not have a Power Apps portal available, follow the [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal) instructions to create one.
+- A Power Apps portal that is provisioned. If you do not have a Power Apps portal available, follow the [Create Portal](/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
 - Access to the Power Apps maker portal.
 
 ## High-level steps

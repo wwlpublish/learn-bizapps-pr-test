@@ -35,7 +35,7 @@ The following types of environments are available in Microsoft Power Platform:
 > [!IMPORTANT]
 > The solution architect needs to define how many environments are required, their purposes, and the dependencies between environments. At a minimum, a healthy ALM practice should include using a test environment prior to deploying anything to the production environment. This practice ensures that you have a place to test your app, but it also ensures that the deployment can be tested.
 
-For more information, see [environments](/power-platform/admin/environments-overview) and [environment strategy](/power-platform/guidance/adoption/environment-strategy).
+For more information, see [environments](/power-platform/admin/environments-overview/?azure-portal=true) and [environment strategy](/power-platform/guidance/adoption/environment-strategy/?azure-portal=true).
 
 ## Handle solutions and other non-solution aware code and components
 

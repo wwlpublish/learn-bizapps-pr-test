@@ -46,6 +46,6 @@ A new custom connector from the OpenAPI document is now created and ready to be 
 
 
 [pa]: https://powerapps.microsoft.com/
-[pa pricing]: https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus
+[pa pricing]: /powerapps/administrator/pricing-billing-skus
 
 [artifacts]: https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/fusion-developers/artifacts.zip

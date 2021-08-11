@@ -15,12 +15,12 @@ To sum up, this module has covered the following topics:
 
 ## Learn more ##
 
-* [Export APIs from Azure API Management to Microsoft Power Platform](https://docs.microsoft.com/azure/api-management/export-api-power-platform)
-* [Create a Custom Connector from an OpenAPI Definition](https://docs.microsoft.com/connectors/custom-connectors/define-openapi-definition)
-* [Use a Custom Connector from a Power Apps App](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-powerapps)
-* [Custom Connector FAQ for Azure Logic Apps, Power Automate, and Power Apps](https://docs.microsoft.com/connectors/custom-connectors/faq)
+* [Export APIs from Azure API Management to Microsoft Power Platform](/azure/api-management/export-api-power-platform/?azure-portal=true)
+* [Create a Custom Connector from an OpenAPI Definition](/connectors/custom-connectors/define-openapi-definition/?azure-portal=true)
+* [Use a Custom Connector from a Power Apps App](/connectors/custom-connectors/use-custom-connector-powerapps/?azure-portal=true)
+* [Custom Connector FAQ for Azure Logic Apps, Power Automate, and Power Apps](/connectors/custom-connectors/faq/?azure-portal=true)
 
 
 ## Additional resources ##
 
-* [Fusion development approach to building apps using Power Apps](https://aka.ms/fusiondevbook)
+* [Fusion development approach to building apps using Power Apps](https://aka.ms/fusiondevbook/?azure-portal=true)

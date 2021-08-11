@@ -10,13 +10,13 @@ A custom connector is a wrapper around a REST API that lets an underlying servic
 You can use any language and platform for your API, as long as it's made
 available as a REST API or SOAP API. Here are a few examples:
 
--   Publicly available APIs like
-    [NOAA](https://www.ncdc.noaa.gov/cdo-web/webservices/v2), [US Census
-    API](https://www.census.gov/developers/), or [EU Open Data
-    Portal](https://data.europa.eu/euodp/en/developerscorner).
+- Publicly available APIs like
+  [NOAA](https://www.ncdc.noaa.gov/cdo-web/webservices/v2/?azure-portal=true), [US Census
+  API](https://www.census.gov/developers/?azure-portal=true), or [EU Open Data
+  Portal](https://data.europa.eu/euodp/en/developerscorner/?azure-portal=true).
 
--   An API that you create and deploy to any cloud hosting provider,
-    such as Azure, Heroku, or Google Cloud.
+- An API that you create and deploy to any cloud hosting provider,
+  such as Azure, Heroku, or Google Cloud.
 
 A custom line-of-business API that's deployed to your network. You can
 connect to the API if it's available over the public internet, or you
@@ -24,36 +24,36 @@ can connect to it through a gateway (currently available in Power Automate and P
 
 For Microsoft technologies, we recommend one of these platforms:
 
--   [Azure Functions](https://azure.microsoft.com/services/functions/)
+- [Azure Functions](https://azure.microsoft.com/services/functions/?azure-portal=true)
 
--   [Azure Web
-    Apps](https://azure.microsoft.com/services/app-service/web/)
+- [Azure Web
+  Apps](https://azure.microsoft.com/services/app-service/web/?azure-portal=true)
 
--   [Azure API
-    Apps](https://azure.microsoft.com/services/app-service/api/)
+- [Azure API
+  Apps](https://azure.microsoft.com/services/app-service/api/?azure-portal=true)
 
 To secure your API and connectors, you can use one of these standard
 authentication methods ([Azure Active
-Directory](https://azure.microsoft.com/develop/identity/) is
+Directory](https://azure.microsoft.com/develop/identity/?azure-portal=true) is
 recommended):
 
--   [Generic OAuth 2.0](https://oauth.net/2/)
+- [Generic OAuth 2.0](https://oauth.net/2/?azure-portal=true)
 
--   OAuth 2.0 for specific services, such as Azure Active Directory,
-    Dropbox, GitHub, and Salesforce
+- OAuth 2.0 for specific services, such as Azure Active Directory,
+  Dropbox, GitHub, and Salesforce
 
--   [Basic
-    Authentication](https://swagger.io/docs/specification/authentication/basic-authentication/)
+- [Basic
+  Authentication](https://swagger.io/docs/specification/authentication/basic-authentication/?azure-portal=true)
 
--   [API
-    Key](https://swagger.io/docs/specification/authentication/api-keys/)
+- [API
+  Key](https://swagger.io/docs/specification/authentication/api-keys/?azure-portal=true)
 
 You can set up Azure AD authentication for your API in the Azure portal
 so you don't have to implement authentication through code. If needed,
 you can require and enforce authentication through your API's code. For
 more information about Azure AD for custom connectors, see
 [Secure your API and connector with Azure
-AD](https://docs.microsoft.com/connectors/custom-connectors/azure-active-directory-authentication).
+AD](/connectors/custom-connectors/azure-active-directory-authentication/?azure-portal=true).
 
 Describe the API and define the custom connector
 ------------------------------------------------
@@ -62,21 +62,21 @@ After you have an API, the next step to consider is how to describe the API's in
 
 Use one of the following approaches to describe your API:
 
--   An OpenAPI definition (formerly known as a Swagger file). For more information, see
-    [Create a custom connector from an
-    OpenAPI](https://docs.microsoft.com/connectors/custom-connectors/define-openapi-definition)
-   and [What is Swagger](http://swagger.io/getting-started/).
+- An OpenAPI definition (formerly known as a Swagger file). For more information, see
+  [Create a custom connector from an
+  OpenAPI](/connectors/custom-connectors/define-openapi-definition/?azure-portal=true)
+ and [What is Swagger](http://swagger.io/getting-started/?azure-portal=true).
 
--   A Postman collection. For more information, see [Create a Postman collection for a custom
-    connector](https://docs.microsoft.com/connectors/custom-connectors/create-postman-collection),
-    [Create a custom connector from a Postman
-    collection](https://docs.microsoft.com/connectors/custom-connectors/define-postman-collection),
-    and [Postman documentation](https://www.getpostman.com/docs/).
+- A Postman collection. For more information, see [Create a Postman collection for a custom
+  connector](/connectors/custom-connectors/create-postman-collection/?azure-portal=true),
+  [Create a custom connector from a Postman
+  collection](/connectors/custom-connectors/define-postman-collection/?azure-portal=true),
+  and [Postman documentation](https://www.getpostman.com/docs/?azure-portal=true).
 
--   You can also start with a blank custom connection using the custom connector wizard in
-    Power Apps and Power Automate. For more information, see [Create a custom connector from
-    scratch](https://docs.microsoft.com/connectors/custom-connectors/define-blank)
-    for additional information.
+- You can also start with a blank custom connection using the custom connector wizard in
+  Power Apps and Power Automate. For more information, see [Create a custom connector from
+  scratch](/connectors/custom-connectors/define-blank/?azure-portal=true)
+  for additional information.
 
 OpenAPI definitions and Postman collections use a different format, but
 both are language-independent, machine-readable documents that describe
@@ -101,14 +101,14 @@ the Azure Logic Apps connector.
 
 For more information about using custom connectors from Power Apps, Power Automate, and Azure Logic Apps:
 
--   [Use a custom connector from a Power Apps
-    app](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-powerapps)
+- [Use a custom connector from a Power Apps
+  app](/connectors/custom-connectors/use-custom-connector-powerapps/?azure-portal=true)
 
--   [Use a custom connector from a
-    flow](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-flow)
+- [Use a custom connector from a
+  flow](/connectors/custom-connectors/use-custom-connector-flow/?azure-portal=true)
 
--   [Use a custom connector from a logic
-    app](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-logic-apps)
+- [Use a custom connector from a logic
+  app](/connectors/custom-connectors/use-custom-connector-logic-apps/?azure-portal=true)
 
 Share the custom connector
 --------------------------
@@ -116,7 +116,7 @@ Share the custom connector
 Connectors can be shared with other users in your organization the same
 way you share resources in Power Apps, Power Automate, and Azure Logic
 Apps. For more information, see [Share a custom connector in your
-organization](https://docs.microsoft.com/connectors/custom-connectors/share).
+organization](/connectors/custom-connectors/share/?azure-portal=true).
 
 Certify the custom connector
 ----------------------------
@@ -125,4 +125,4 @@ If you want to share the connector with all users in Power Apps,
 Power Automate, and Azure Logic Apps, you can submit the connector for
 Microsoft certification. During this process, Microsoft reviews the
 connector, checks for technical and content compliance, and validates
-functionality for Power Apps, Power Automate, and Azure Logic Apps. For more information, see [Submit your connector for Microsoft certification](https://docs.microsoft.com/connectors/custom-connectors/submit-certification). 
+functionality for Power Apps, Power Automate, and Azure Logic Apps. For more information, see [Submit your connector for Microsoft certification](/connectors/custom-connectors/submit-certification/?azure-portal=true).

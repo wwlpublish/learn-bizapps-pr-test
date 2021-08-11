@@ -61,4 +61,4 @@ a collection where you track that same data gets you the same result.
 
 For more information about usage and rules for the ForAll function, see
 [ForAll function in
-Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-forall). 
+Power Apps](/powerapps/maker/canvas-apps/functions/function-forall/?azure-portal=true).
