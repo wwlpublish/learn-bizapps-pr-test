@@ -19,7 +19,7 @@ You only need multiple environments if your company is global and you are suppor
 
 ## Create environments
 
-The first time that you sign in to Power Virtual Agents and create a new bot, a default environment is created. Unless specified otherwise, any additional bots will be created in the default environment. If additional environments are needed, such as for different regions, organizational needs, or other circumstances, they can be added through the [Microsoft Power Platform admin center](https://docs.microsoft.com/power-platform/admin/create-environment/?azure-portal=true).
+The first time that you sign in to Power Virtual Agents and create a new bot, a default environment is created. Unless specified otherwise, any additional bots will be created in the default environment. If additional environments are needed, such as for different regions, organizational needs, or other circumstances, they can be added through the [Microsoft Power Platform admin center](/power-platform/admin/create-environment/?azure-portal=true).
 
 When in the admin center, you can add environments by going to the **Environments** tab and selecting **New** to open the new environment panel.
 
@@ -29,11 +29,11 @@ For each environment, you will need to provide the following information:
 
 -   **Environment** - Defines the type of environment to create, such as production, trial, or sandbox.
 
--   **Region** - Defines the [support data region](https://docs.microsoft.com/power-virtual-agents/data-location/?azure-portal=true) where the environment will be created.
+-   **Region** - Defines the [support data region](/power-virtual-agents/data-location/?azure-portal=true) where the environment will be created.
 
 > [!div class="mx-imgBorder"]
 > [![name, environment, and region for environment](../media/power-virtual-agents-2-1-ssm.png)](../media/power-virtual-agents-2-1-ssm.png#lightbox)
 
 If you want to have a Microsoft Dataverse database created for the environment to use entities like accounts, contacts, and other business-related data, you can set the **Create a database for this environment** field to **Yes**. Additionally, you should select **Yes** if you are using Power Virtual Agents in conjunction with other Dynamics 365 applications. Data from Dataverse can be used in bots to provide tailored customer experiences. After the Dataverse database has been created, new bots can be deployed to the environment from the Power Virtual Agents portal.
 
-For more information, see [creating environments](https://docs.microsoft.com/power-virtual-agents/environments-first-run-experience#create-a-new-environment-for-your-bots/?azure-portal=true). 
+For more information, see [creating environments](/power-virtual-agents/environments-first-run-experience#create-a-new-environment-for-your-bots/?azure-portal=true). 

@@ -1,4 +1,4 @@
-Situations might occur where a bot needs to hand off a conversation to a live agent. This situation often happens when a user has asked for information that the bot doesn't know, or after the bot has captured the necessary information that is required to ensure that the conversation can be routed correctly to a live agent. When a bot hands off a conversation to live agent, it shares the full history of the conversation (the context) and any variables with the agent. Power Virtual Agents bots can be configured to hand off conversations to agents for organizations that use Omnichannel for Customer Service and to conduct a generic handoff, as described in [configure generic handoff](https://docs.microsoft.com/power-virtual-agents/configure-generic-handoff). This feature allows Omnichannel for Customer Service to route incoming escalations to the appropriate live agent queue, and it also allows the live agents to review exactly what occurred in the prior conversation so that they can resume at that point. This process prevents agents from potentially asking for information that was previously captured by the bot.
+Situations might occur where a bot needs to hand off a conversation to a live agent. This situation often happens when a user has asked for information that the bot doesn't know, or after the bot has captured the necessary information that is required to ensure that the conversation can be routed correctly to a live agent. When a bot hands off a conversation to live agent, it shares the full history of the conversation (the context) and any variables with the agent. Power Virtual Agents bots can be configured to hand off conversations to agents for organizations that use Omnichannel for Customer Service and to conduct a generic handoff, as described in [configure generic handoff](/power-virtual-agents/configure-generic-handoff). This feature allows Omnichannel for Customer Service to route incoming escalations to the appropriate live agent queue, and it also allows the live agents to review exactly what occurred in the prior conversation so that they can resume at that point. This process prevents agents from potentially asking for information that was previously captured by the bot.
 
 ### Transfer conversations to agents
 
@@ -14,7 +14,7 @@ The way that Power Virtual Agents tells the bot that it is time to transfer a co
 
 - **End with survey** - A survey appears that asks the user if their question or issue was answered or resolved correctly.
 
-- **Transfer to agent** - Escalates the conversation [to a live agent](https://docs.microsoft.com/power-virtual-agents/advanced-hand-off/?azure-portal=true).
+- **Transfer to agent** - Escalates the conversation [to a live agent](/power-virtual-agents/advanced-hand-off/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
 > [![End the conversation menu with options to End with survey or Transfer to agent.](../media/3-1.png)](../media/3-1.png#lightbox)
@@ -23,7 +23,7 @@ Bot authors can end a conversation and transfer to an agent from within a specif
 
 ### Configure where to hand off the conversation
 
-To facilitate the transfer of a conversation to an agent, you will need to configure the bot to send the conversation to a specific Omnichannel for Customer Service instance. Only published bots can be used to ensure that the end-to-end capabilities work as expected. Make sure that you have [published your bot](https://docs.microsoft.com/power-virtual-agents/getting-started-deploy/?azure-portal=true) prior to validating the integrated experience.
+To facilitate the transfer of a conversation to an agent, you will need to configure the bot to send the conversation to a specific Omnichannel for Customer Service instance. Only published bots can be used to ensure that the end-to-end capabilities work as expected. Make sure that you have [published your bot](/power-virtual-agents/getting-started-deploy/?azure-portal=true) prior to validating the integrated experience.
 
 When you create the connection between Power Virtual Agents and Omnichannel for Customer Service, a Microsoft Azure Active Directory (Azure AD) application registration is used to call the bot. Creating the application registration is done on the [Azure portal](https://portal.azure.com/?azure-portal=true). You can register your apps by going to Azure Active Directory and creating a new registration under **App registrations**.
 
@@ -40,7 +40,7 @@ Three primary areas that can be defined when you create the application registra
 
 After you have defined the parameters, select the **Register** button.
 
-For more information, see [Microsoft Docs](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application).
+For more information, see [Microsoft Docs](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application).
 
 ### Configure transfer to agent
 
@@ -55,14 +55,14 @@ The primary component that you need to provide is the application ID for the app
 
 In your Azure portal, go to Azure Active Directory and select **App registrations**. All registered applications will be displayed. Select the application that you want to use with the bot. The application ID will be on the **Applications overview** page. Copy the ID and paste it into the **Power Virtual Agents Application ID** field.
 
-Power Virtual Agents uses a Microsoft [Teams channel](https://docs.microsoft.com/power-virtual-agents/getting-started-deploy/?azure-portal=true) to communicate with Omnichannel for Customer Service. As you go through the setup wizard, if a Teams channel has not been enabled, one will be enabled automatically.
+Power Virtual Agents uses a Microsoft [Teams channel](/power-virtual-agents/getting-started-deploy/?azure-portal=true) to communicate with Omnichannel for Customer Service. As you go through the setup wizard, if a Teams channel has not been enabled, one will be enabled automatically.
 
 > [!div class="mx-imgBorder"]
 > [![Power Virtual Agents Application ID comes from the app registration in Azure AD.](../media/3-4.png)](../media/3-4.png#lightbox)
 
 The last part of the configuration process is to select the Omnichannel for Customer Service environment that you want to use with the bot. Make sure that you select an environment where your Omnichannel for Customer Service instance is provisioned. The list shows all available environments, even if Omnichannel for Customer Service is not provisioned.
 
-When the connection has been established, you can select the **Go to Omnichannel** link to [continue configuring the bot connection in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/administrator/configure-bot-virtual-agent/?azure-portal=true).
+When the connection has been established, you can select the **Go to Omnichannel** link to [continue configuring the bot connection in Omnichannel for Customer Service](/dynamics365/omnichannel/administrator/configure-bot-virtual-agent/?azure-portal=true).
 
 ### Remove Omnichannel for Customer Service connection
 
@@ -70,4 +70,4 @@ As of the time when this course was published, it was not possible to remove the
 
 After the handoff has been configured, you will need to finish the remaining configuration in Omnichannel for Customer Service.
 
-For more information, see [Microsoft Docs](https://docs.microsoft.com/dynamics365/omnichannel/administrator/configure-bot-virtual-agent/?azure-portal=true) and [configure generic handoff](https://docs.microsoft.com/power-virtual-agents/configure-generic-handoff/?azure-portal=true).
+For more information, see [Microsoft Docs](/dynamics365/omnichannel/administrator/configure-bot-virtual-agent/?azure-portal=true) and [configure generic handoff](/power-virtual-agents/configure-generic-handoff/?azure-portal=true).

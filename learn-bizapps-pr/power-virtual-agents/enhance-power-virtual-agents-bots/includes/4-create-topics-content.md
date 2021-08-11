@@ -4,7 +4,7 @@ Two ways that organizations can automatically generate topics for a bot are from
 
 Power Virtual Agents uses AI-assisted authoring to help organizations automatically extract and insert relevant content from existing web content topics into your bot. This feature eliminates the need to copy and paste or manually recreate content into topics.
 
-AI evaluates the page and determines structure and content. It isolates content blocks that relate to a support issue or question and classifies them into topics. Each identified topic will follow the same structure as other topics. They will contain [trigger phrases that are identified during the process and an initial Message node](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics/?azure-portal=true). These topics appear as suggested topics that can be modified and deleted like other topics.
+AI evaluates the page and determines structure and content. It isolates content blocks that relate to a support issue or question and classifies them into topics. Each identified topic will follow the same structure as other topics. They will contain [trigger phrases that are identified during the process and an initial Message node](/power-virtual-agents/authoring-create-edit-topics/?azure-portal=true). These topics appear as suggested topics that can be modified and deleted like other topics.
 
 ## Extract content from Customer Service Insights 
 
@@ -14,7 +14,7 @@ Dynamics 365 Customer Service Insights uses AI to automatically group your organ
 
 - Topics that have a high volume. These types of topics allow the automation to potentially bring you more business benefit and impact. 
 
-For more information, see [Automate topics for a Power Virtual Agents bot](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/automate-topics/?azure-portal=true).
+For more information, see [Automate topics for a Power Virtual Agents bot](/dynamics365/ai/customer-service-insights/automate-topics/?azure-portal=true).
 
 ## Extract content from webpages
 
