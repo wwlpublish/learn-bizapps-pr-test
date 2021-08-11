@@ -35,7 +35,7 @@ quiz:
     - content: Direct Query
       isCorrect: false 
       explanation: This option doesn't exist when connecting to AAS cubes. 
-  - content: What can you do to improve performance when you are getting data in Power BI? 
+  - content: What can you do to improve performance when you're getting data in Power BI? 
     choices: 
     - content: Perform some calculations in the original data source 
       isCorrect: true 
@@ -43,7 +43,7 @@ quiz:
     - content: Only pull data into the Power BI service, not Power BI Desktop 
       isCorrect: false 
       explanation: False. No performance difference exists between Power BI service and Power BI Desktop. 
-    - content: Use the Select SQL statement in your SQL queries when you are pulling data from a relational database. 
+    - content: Use the Select SQL statement in your SQL queries when you're pulling data from a relational database. 
       isCorrect: false 
       explanation: False. This approach might decrease performance because you will be getting more columns and rows then you’ll likely need. 
     - content: Combine date and time columns into a single column 
