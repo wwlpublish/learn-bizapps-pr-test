@@ -9,15 +9,15 @@ The following example shows conditional formatting being used in two visuals, **
 In this example, you will select the table visualization and then, in the **Format** pane, expand the **Conditional formatting** section. Turn on the **Background color** option, and then select the **Advanced controls** option. In the window that displays, set a condition to change background color to red for cells that have low values and  green for cells with high values.
 
 > [!div class="mx-imgBorder"]
-> [![Set conditional formatting for visualization title](../media/7-set-condtional-formatting-visualization-ssm.png)](../media/7-set-condtional-formatting-visualization-ssm.png#lightbox)
+> [![Screenshot of setting conditional formatting for visualization title.](../media/7-set-condtional-formatting-visualization-ssm.png)](../media/7-set-condtional-formatting-visualization-ssm.png#lightbox)
 
 The Power BI conditional formatting function will automatically detect the highest and the lowest number in each column and will apply background coloring according to the values. 
 
 > [!div class="mx-imgBorder"]
-> [![Impact of conditional formatting on the visualization](../media/7-impact-conditional-formatting-visualization-ss.png)](../media/7-impact-conditional-formatting-visualization-ss.png#lightbox)
+> [![Screenshot of the impact of conditional formatting on the visualization.](../media/7-impact-conditional-formatting-visualization-ss.png)](../media/7-impact-conditional-formatting-visualization-ss.png#lightbox)
 
 If you want to remove the conditional formatting that you set, select the **Values** tab on the **Visualizations** pane and right-click the value (field) that you set the formatting for. Select **Remove conditional formatting** and then select the type of formatting that you want to remove, for example **All** or **Background color**.
 
 > [!div class="mx-imgBorder"]
-> [![Remove conditional formatting from the visualization](../media/7-remove-conditional-formatting-visualization-ss.png)](../media/7-remove-conditional-formatting-visualization-ss.png#lightbox)
+> [![Screenshot of the Remove conditional formatting option.](../media/7-remove-conditional-formatting-visualization-ss.png)](../media/7-remove-conditional-formatting-visualization-ss.png#lightbox)
 

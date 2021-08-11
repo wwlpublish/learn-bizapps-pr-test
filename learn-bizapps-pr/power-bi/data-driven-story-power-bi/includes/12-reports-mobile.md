@@ -1,7 +1,7 @@
 Some of your report users will want to view your report on their mobile phone or tablet. While they can view any Power BI report page in landscape orientation, you might want to create an additional view that is optimized for mobile devices and displays in portrait orientation. Power BI gives you the power to use visuals that make sense for mobile users and rearrange those visuals in the most effective way.
 
 > [!div class="mx-imgBorder"]
-> [![Mobile design overview](../media/12-mobile-design-overview-ss.png)](../media/12-mobile-design-overview-ss.png#lightbox)
+> [![Screenshot of the Mobile design overview.](../media/12-mobile-design-overview-ss.png)](../media/12-mobile-design-overview-ss.png#lightbox)
 
 When you have finished creating your report for the regular web view, you can then change the report so that it's optimized for use on phones and tablets.
 
@@ -20,12 +20,12 @@ To design the mobile-optimized view of a report page, start by opening the mobil
 This selection will result in showing a scrollable canvas that is shaped like a phone and a **Visualizations** pane that lists all visuals on the original report page. Each visual appears with its name, for easy identification, and a visibility indicator that is useful when you are working with bookmarks. The visibility indicator of a visual will change depending on the visibility status of the visual in the current state of the web report view.
 
 > [!div class="mx-imgBorder"]
-> [![Open mobile layout](../media/12-open-mobile-layout-ss.png)](../media/12-open-mobile-layout-ss.png#lightbox)
+> [![Screenshot of the Mobile layout button and the Visualizations pane.](../media/12-open-mobile-layout-ss.png)](../media/12-open-mobile-layout-ss.png#lightbox)
 
 To add a visual to the mobile layout canvas, drag the visual from the **Visualizations** pane to the phone canvas, or double-click the visual in the **Visualization** pane. You can then resize and reposition the visual in the same way that you would a report page. Repeat these steps to add other visuals to the mobile layout canvas.
 
 > [!div class="mx-imgBorder"]
-> [![Add visuals to mobile layout](../media/12-add-visuals-mobile-layout-ss.png)](../media/12-add-visuals-mobile-layout-ss.png#lightbox)
+> [![Screenshot of adding visuals to a mobile layout.](../media/12-add-visuals-mobile-layout-ss.png)](../media/12-add-visuals-mobile-layout-ss.png#lightbox)
 
 ## Configure visuals and slicers for use in mobile reports
 
@@ -38,4 +38,4 @@ Regarding slicers, which offer on-canvas filtering of report data, you might wan
 -   Decide on the orientation of the slicer, whether it should be vertical, horizontal, or responsive (responsive slicers must be horizontal). If you make the slicer responsive, as you change its size and shape, it shows more or fewer options. If you make the slicer small enough, it becomes a filter icon on the report page.
 
 > [!div class="mx-imgBorder"]
-> [![Configure slicers for mobile layout](../media/12-configure-slicers-mobile-layout-ss.png)](../media/12-configure-slicers-mobile-layout-ss.png#lightbox)
+> [![Screenshot of configuring slicers for a mobile layout.](../media/12-configure-slicers-mobile-layout-ss.png)](../media/12-configure-slicers-mobile-layout-ss.png#lightbox)
