@@ -6,13 +6,13 @@ Before starting, you should create two empty folders, named **PDF** and **DOCX**
 
 1. Use the **Get Special Folder** action to retrieve the **Desktop** and **My Documents** folder paths:
 
-    ![Screenshot of the get special folder action properties dialog.](..\media\get-special-folder-action-properties.png)
+    ![Screenshot of the get special folder action properties dialog for Desktop.](..\media\get-special-folder-action-properties.png)
 
-    ![Screenshot of the get special folder action properties dialog.](..\media\get-special-folder-action-properties-continued.png)
+    ![Screenshot of the get special folder action properties dialog for Documents.](..\media\get-special-folder-action-properties-continued.png)
 
 2. Use the **Get Files in Folder** action to retrieve all .pdf and .docx files in the desktop:
 
-    ![Screenshot of the get files in folder action properties dialog.](..\media\get-files-in-folder-action-properties.png)
+    ![Screenshot of the get files in folder action properties dialog for Desktop.](..\media\get-files-in-folder-action-properties.png)
 
 3. Add a **For Each** loop in order to loop through the list of retrieved files. The loop will iterate through each one of the retrieved files, storing it in the **%CurrentItem%** variable:
 
