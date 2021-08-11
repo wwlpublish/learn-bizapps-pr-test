@@ -10,11 +10,11 @@ Functions for modifying the data source
 When it comes to updating a data source, there are two primary functions
 to consider:
 
--   **Patch** -- This function is used to either edit an existing
+- **Patch** -- This function is used to either edit an existing
     record or to create a new record in a table. It can write one or
     more fields at a time.
 
--   **Remove** -- This function is used to remove (delete) a
+- **Remove** -- This function is used to remove (delete) a
     record from a table.
 
 For example, in your **Gallery** of records, you can add a
@@ -28,16 +28,16 @@ its value. For example, if you wanted to build functionality to get the
 invoice number of the last record in the table to display you would use
 the **Last** function.
 
--   **First** -- This function returns the first (top) record in
+- **First** -- This function returns the first (top) record in
     the table.
 
--   **Last** -- This function returns the last (bottom) record in
+- **Last** -- This function returns the last (bottom) record in
     the table.
 
--   **Shuffle** -- This function reorders the records in your
+- **Shuffle** -- This function reorders the records in your
     table in random order.
 
--   **CountRows** -- This function counts the number of
+- **CountRows** -- This function counts the number of
     records in your table.
 
 A fun way to explore these functions is to build a random function for
@@ -55,7 +55,7 @@ display a random ID.
 Math functions with tables
 --------------------------
 
-In the module, [Author a basic formula to change properties in Power Apps canvas apps](https://docs.microsoft.com/learn/modules/author-basic-formula-change-behaviors-powerapps/), you learned about the aggregation functions for
+In the module, [Author a basic formula to change properties in Power Apps canvas apps](/learn/modules/author-basic-formula-change-behaviors-powerapps/?azure-portal=true), you learned about the aggregation functions for
 summing, averaging, and other operation on numbers. Now you can apply
 that same concept to a table.
 
@@ -69,10 +69,10 @@ collection named collectCustomerInvoices.
 | 3                   | 3/14/2020            | Contoso         | 32.99           |
 | 4                   | 4/2/2020             | Fabrikam        | 105.32          |
 
-1.  Place a **Label** control on the screen
+1. Place a **Label** control on the screen
 
-2.  Set the **Text** property to: Average(collectCustomerInvoices, Amount)
+2. Set the **Text** property to: Average(collectCustomerInvoices, Amount)
 
 The label will display 99.55 based on the example data. The math
 functions are a great way to provide additional information to your
-users. 
+users.

@@ -5,7 +5,7 @@ Power Automate Desktop provides this functionality through the input and output 
 This feature creates unlimited potentialities allowing you to make the most out of the platform and create a complete automation solution.
 
 > [!NOTE]
-> You can find more information about passing data between Power Automate Desktop and Power Automate in [Link a Power Automate Desktop flow with a flow](https://docs.microsoft.com/power-automate/ui-flows/desktop/link-pad-flow-portal).
+> You can find more information about passing data between Power Automate Desktop and Power Automate in [Link a Power Automate Desktop flow with a flow](/power-automate/ui-flows/desktop/link-pad-flow-portal/?azure-portal=true).
 
 To create an input or output variable, select the + button in the variables pane, and choose the respective option.
 

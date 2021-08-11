@@ -9,7 +9,7 @@ When a user starts a business process flow, the process bar at the top of the pa
 ## Prerequisites
 
 * Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
-* An [environment](/power-platform/admin/environments-overview) with a [Microsoft Dataverse database](/power-platform/admin/create-database). (Applicable only for work or school accounts).
+* An [environment](/power-platform/admin/environments-overview/?azure-portal=true) with a [Microsoft Dataverse database](/power-platform/admin/create-database/?azure-portal=true). (Applicable only for work or school accounts).
 * Experience with creating a business process flow.
 
 > [!TIP]

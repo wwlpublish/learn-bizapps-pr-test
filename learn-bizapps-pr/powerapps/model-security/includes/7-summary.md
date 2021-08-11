@@ -14,8 +14,8 @@ Primarily, solution architects should keep security as simple as possible, while
 
 ## Next Steps
 
-Learn more with the [Review the security model for your Dynamics 365 solutions module](https://docs.microsoft.com/learn/modules/fast-track-security/?azure-portal=true).
+Learn more with the [Review the security model for your Dynamics 365 solutions module](/learn/modules/fast-track-security/?azure-portal=true).
 
-For more information, see the [Securing the app and data documentation](https://docs.microsoft.com/powerapps/guidance/planning/security/?azure-portal=true).
+For more information, see the [Securing the app and data documentation](/powerapps/guidance/planning/security/?azure-portal=true).
 
-For more information, see [Security concepts in Microsoft Dataverse](https://docs.microsoft.com/power-platform/admin/wp-security-cds/?azure-portal-true).
+For more information, see [Security concepts in Microsoft Dataverse](/power-platform/admin/wp-security-cds/?azure-portal-true).

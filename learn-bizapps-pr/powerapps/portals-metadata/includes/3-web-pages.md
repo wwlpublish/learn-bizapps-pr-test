@@ -73,5 +73,5 @@ Ultimately, the goal for the process of building a webpage is to provide improve
 
 Power Apps portals includes a robust and flexible mechanism for building static pages or the pages that include data from other Dataverse entities. By using a combination of Table Lists, Table Forms, Web Forms, and Liquid, you can build complete web applications by extending your Dataverse or Dynamics 365 solutions to external and internal audiences.
 
-For more information, see [Manage web pages](https://docs.microsoft.com/powerapps/maker/portals/configure/web-page/?azure-portal=true).
+For more information, see [Manage web pages](/powerapps/maker/portals/configure/web-page/?azure-portal=true).
 

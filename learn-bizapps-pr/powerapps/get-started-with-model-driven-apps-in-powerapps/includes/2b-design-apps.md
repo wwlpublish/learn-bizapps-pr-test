@@ -25,11 +25,11 @@ Model-driven apps are created using the App Designer.  You will choose the table
 
 The first step in the process is to understand your business requirements. Work with the app stakeholders to consider your security, accessibility, data, and design needs. 
 
-For security, the Dataverse has a robust security model. You will want to consider how securing your app’s data affects your app and what security model best supports your business needs. There are lots of options available, including hierarchy security, row-level security, to name a few. You will need to confirm your data is secured to meet your needs, and then your app will honor that security. For more information, see [Security in Dataverse](/power-platform/admin/wp-security?azureportal=true).
+For security, the Dataverse has a robust security model. You will want to consider how securing your app’s data affects your app and what security model best supports your business needs. There are lots of options available, including hierarchy security, row-level security, to name a few. You will need to confirm your data is secured to meet your needs, and then your app will honor that security. For more information, see [Security in Dataverse](/power-platform/admin/wp-security/?azureportal=true).
 
 During this process, you will also want to identify any government regulations or authentication/authorization requirements (if applicable). You may want to implement multi-factor authentication but will need to think about how this will affect users connecting to your application. You don’t necessarily have to have all the answers to your questions here; you just want to flush out all of the requirements. 
 
-Finally, does your app need to be available when the user is disconnected from the internet? This is called Offline Mode and is supported by the Dataverse and Model-driven apps when using iOS or Android clients. It does require additional design considerations. For more information, see [Set up mobile offline synchronization](/dynamics365/mobile-app/setup-mobile-offline-for-admin?azureportal=true).
+Finally, does your app need to be available when the user is disconnected from the internet? This is called Offline Mode and is supported by the Dataverse and Model-driven apps when using iOS or Android clients. It does require additional design considerations. For more information, see [Set up mobile offline synchronization](/dynamics365/mobile-app/setup-mobile-offline-for-admin/?azureportal=true).
 	
 ### Data Model
 
@@ -94,4 +94,4 @@ A common output need for apps is to visualize the data.  For this requirement, y
 
 It is also important to know about the different App accelerators and third-party solutions available to you. Depending on the industry you are in, Health, Financial, Banking, Education, Non- Profit, Automotive, or Media, Microsoft has released a number of accelerators or foundational components to assist you with quickly standing up your solution. For more information, see [Industry accelerators overview](/common-data-model/industry-accelerators?azureportal=true).
 
-For more information. see [Planning a Power Apps project](/powerapps/guidance/planning/introduction).
+For more information. see [Planning a Power Apps project](/powerapps/guidance/planning/introduction/?azure-portal=true).

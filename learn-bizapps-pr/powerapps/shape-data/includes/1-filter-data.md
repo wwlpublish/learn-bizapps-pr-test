@@ -1,12 +1,12 @@
-Most business apps do not want or need to show the user all the data, 
-instead only the data that is relevant to them. To do this, you can use 
-functions such as Filter and Search to provide a more focused view of the information. 
-These functions, when delegated to the data source to be processed, 
-also reduce the number of rows that must be downloaded and processed by the app. 
+Most business apps do not want or need to show the user all the data,
+instead only the data that is relevant to them. To do this, you can use
+functions such as Filter and Search to provide a more focused view of the information.
+These functions, when delegated to the data source to be processed,
+also reduce the number of rows that must be downloaded and processed by the app.
 This creates a faster experience for your users.
 
-In the previous module, you learned about adding a data source to a gallery. 
-In this module, you will extend on those concepts by shaping the data to show 
+In the previous module, you learned about adding a data source to a gallery.
+In this module, you will extend on those concepts by shaping the data to show
 what is relevant to the user.
 
 Use the filter function to filter data
@@ -89,10 +89,10 @@ Microsoft Power Apps supports a wide range of operators and the nesting of them 
 shape your data.
 
 For more information on the different operators that are available in
-Power Apps, see [Operators and data types in Power Apps](/powerapps/maker/canvas-apps/functions/operators)
+Power Apps, see [Operators and data types in Power Apps](/powerapps/maker/canvas-apps/functions/operators/?azure-portal=true)
 in the documentation. Other examples include greater
 than, less than, not, in, exact in, and more. Also, when evaluating
 operators be sure that you understand delegation. Different operators have
-different delegation behaviors with different data sources. For a list 
-of data sources and their operators, 
-see [Understand delegation in a canvas app](/powerapps/maker/canvas-apps/delegation-list).
+different delegation behaviors with different data sources. For a list
+of data sources and their operators,
+see [Understand delegation in a canvas app](/powerapps/maker/canvas-apps/delegation-list/?azure-portal=true).

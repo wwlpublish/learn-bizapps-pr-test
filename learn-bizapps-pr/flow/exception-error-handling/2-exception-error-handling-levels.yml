@@ -5,8 +5,8 @@ metadata:
   title: Levels of exception and error handling in WinAutomation
   description: Levels of exception and error handling in WinAutomation
   ms.date: 08/27/2020 
-  author: georgiostrantzas 
-  ms.author: getrantz 
+  author: mariosleon 
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 5 

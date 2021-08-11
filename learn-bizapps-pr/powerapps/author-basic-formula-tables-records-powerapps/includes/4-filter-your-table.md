@@ -27,7 +27,7 @@ Filter(collectCustomerInvoices, CustomerName = "Contoso")
 
 The formula would return a table that contained the second and third
 records only. You can use this method to reduce the amount of data
-displayed in your app. This makes for a better user experience 
-and better performance. For more information and to see 
-other uses of the **Filter** function, 
-see [Filter, Search, and LookUp functions in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-filter-lookup). 
+displayed in your app. This makes for a better user experience
+and better performance. For more information and to see
+other uses of the **Filter** function,
+see [Filter, Search, and LookUp functions in Power Apps](/powerapps/maker/canvas-apps/functions/function-filter-lookup/?azure-portal=true).

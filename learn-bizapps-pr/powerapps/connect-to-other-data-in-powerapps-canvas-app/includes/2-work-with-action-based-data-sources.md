@@ -91,6 +91,7 @@ below.
     ```powerappsfl
     Office365Users.ManagerV2(User().Email).mail
     ```
+
 > [!NOTE]
 > If you receive an error after entering this formula then the user does not have a manager assigned in Office 365.
 
@@ -99,10 +100,9 @@ The following is a breakdown of the formula.
 
 | **Formula argument** | **Formula input**    | **Notes**       |
 | :------------------- | :------------------- |:----------------|
-| id                 | User().Email                | User() is a built-in function that returns information about the current logged in user including FullName, Email, and Image.            |     
-| .property                 | .mail                 | The function returns the whole user record for the manager. To display only the email address in a Label, use the dot (.) notation.            |     
-                                             
-                               
+| id                 | User().Email                | User() is a built-in function that returns information about the current logged in user including FullName, Email, and Image.            |
+| .property                 | .mail                 | The function returns the whole user record for the manager. To display only the email address in a Label, use the dot (.) notation.            |
+
 Update the logged in user's profile info
 ----------------------------------------
 
@@ -123,27 +123,29 @@ by using the provided function.
     ```powerappsfl
     Office365Users.UpdateMyProfile({aboutMe: "Project manager with 5 years of technical project management experience."})
     ```
+
 That will update your Microsoft 365 Profile. The following is a breakdown of the formula.
 
 | **Formula argument** | **Formula input**    | **Notes**       |
 | :------------------- | :------------------- |:----------------|
 | Optional  | {aboutMe: \" Project manager with 5 years of technical project management experience."} | Additional optional parameters: birthday, interests, mySite, pastProjects, schools, skills |
 
-Another example would be to update the profile by referencing a **text input** 
+Another example would be to update the profile by referencing a **text input**
 control on the screen.  If you had a text input control on the
 screen named textinput1, the formula would update to:
 
 ```powerappsfl
 Office365Users.UpdateMyProfile({aboutMe: TextInput1.Text})
 ```
+
 The Office 365 Users action-based data source is a rich data source and
 commonly used in many apps. You should take some time to get more
 familiar with this data source. To learn more about this and all of the
-available data sources, see [Connectors](https://docs.microsoft.com/connectors/).
+available data sources, see [Connectors](/connectors/?azure-portal=true).
 
 These examples demonstrate how to integrate an action-based data source
 into your app. The concepts can be similar to tabular data sources, like when displaying users in a gallery, but also
 different, like when writing back to a user's profile.
 
 In the next unit, you will learn more about Power Automate and how to
-integrate it with your Power Apps apps. 
+integrate it with your Power Apps apps.

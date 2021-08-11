@@ -61,7 +61,7 @@ A custom API can be a function or an action. You should use a function, which is
 You can use a plug-in to perform the actual data operation for the custom API.
 
 > [!NOTE]
-> For more information, see [Create and use Custom APIs](https://docs.microsoft.com/powerapps/developer/data-platform/custom-api).
+> For more information, see [Create and use Custom APIs](/powerapps/developer/data-platform/custom-api/?azure-portal=true).
 
 ## Azure Functions
 

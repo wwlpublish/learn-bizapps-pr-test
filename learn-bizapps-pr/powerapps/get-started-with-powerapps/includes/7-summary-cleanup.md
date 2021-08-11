@@ -15,7 +15,7 @@ See [Create your first app](https://www.youtube.com/watch?v=88FlPT7XbP0) if you'
 
 To learn more about licensing in Microsoft Power Platform review the following links:
 
-[Microsoft Power Platform licensing overview](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus)
+[Microsoft Power Platform licensing overview](/power-platform/admin/pricing-billing-skus/?azure-portal=true)
 
 [Microsoft Power Apps pricing](https://powerapps.microsoft.com/pricing/?azureportal=true)
 

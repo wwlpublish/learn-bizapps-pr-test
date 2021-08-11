@@ -40,9 +40,9 @@ Regardless of whether you use Azure DevOps or GitHub, the following table explai
 |     Unpack solution    |     The unpack solution task takes the zip file   and breaks it down into individual files that are appropriate for storing in   source control.                                                                                        |
 |     Pack solution      |     The pack solution task takes the individual   files from source control or any folder and puts them back into a single zip   file that is ready for import.                                                                                 |
 
-Review the [complete list](https://docs.microsoft.com/power-platform/alm/devops-build-tool-tasks/?azure-portal=true) of Azure DevOps build tasks for more specifics on each.
+Review the [complete list](/power-platform/alm/devops-build-tool-tasks/?azure-portal=true) of Azure DevOps build tasks for more specifics on each.
 
-Review the [complete list](https://docs.microsoft.com/power-platform/alm/devops-github-available-actions/?azure-portal=true) of GitHub actions for more specifics on each.
+Review the [complete list](/power-platform/alm/devops-github-available-actions/?azure-portal=true) of GitHub actions for more specifics on each.
 
 ## Custom connectors and solutions
 

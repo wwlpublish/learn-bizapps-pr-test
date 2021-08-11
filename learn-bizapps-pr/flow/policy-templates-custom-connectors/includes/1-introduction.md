@@ -43,7 +43,7 @@ Configuring a policy template results in modification of the connector's API pro
 
 ## View and modify by using CLI
 
-In addition to viewing policies in the portal, you can also export them as part of the API properties file by using the paconn download command from [CLI](https://docs.microsoft.com/connectors/custom-connectors/paconn-cli/?azure-portal=true).
+In addition to viewing policies in the portal, you can also export them as part of the API properties file by using the paconn download command from [CLI](/connectors/custom-connectors/paconn-cli/?azure-portal=true).
 
 -   The download includes four files (apiDefintion.swagger.json, apiProperties.json, icon.png, settings.json).
 

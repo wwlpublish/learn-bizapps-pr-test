@@ -35,10 +35,9 @@ Keep the following points in mind when you design a business process flow that h
 
 ## Prerequisites
 
-* Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
-* An [environment](/power-platform/admin/environments-overview) with a [Microsoft Dataverse database](/power-platform/admin/create-database) and Dynamics 365 Apps enabled. (Applicable only for work or school accounts).
-* Experience with creating a business process flow.
-
+- Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
+- An [environment](/power-platform/admin/environments-overview/?azure-portal=true) with a [Microsoft Dataverse database](/power-platform/admin/create-database/?azure-portal=true) and Dynamics 365 Apps enabled. (Applicable only for work or school accounts).
+- Experience with creating a business process flow.
 
 ## Dynamics 365 customer engagement example: Car selling process flow that has two branches
 

@@ -4,5 +4,5 @@ This module explained how Microsoft Dataverse for Teams is defined as a product,
 
 | Topic                                                           | Link                                                                                                                      |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Additional information on the available data types in Dataverse | [Data types](https://docs.microsoft.com/powerapps/maker/data-platform/types-of-fields)                                            |
-| Information on how to create teams and channels                                | [Create a team](https://docs.microsoft.com/microsoftteams/get-started-with-teams-create-your-first-teams-and-channels#create-a-team) |
+| Additional information on the available data types in Dataverse | [Data types](/powerapps/maker/data-platform/types-of-fields/?azure-portal=true)                                            |
+| Information on how to create teams and channels                                | [Create a team](/microsoftteams/get-started-with-teams-create-your-first-teams-and-channels?azure-portal=true#create-a-team) |

@@ -59,10 +59,10 @@ You need to create a connection to the custom connector in order to use it. Gene
 
 You have completed creating a custom connector for inventory management.
 
-[az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
-[az cli install]: https://docs.microsoft.com/cli/azure/install-azure-cli
+[az apim]: /azure/api-management/api-management-key-concepts
+[az cli install]: /cli/azure/install-azure-cli
 [pa]: https://powerapps.microsoft.com/
 [pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true
-[pa pricing]: https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus
+[pa pricing]: /powerapps/administrator/pricing-billing-skus
 
 [artifacts]: https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/fusion-developers/artifacts.zip

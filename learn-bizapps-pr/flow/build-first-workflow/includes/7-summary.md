@@ -4,6 +4,6 @@ Bring automation and workflows to Microsoft Teams by using Power Automate and Da
 
 For more information, see the following links:
 
-- [Overview of Adaptive Cards for Microsoft Teams](https://docs.microsoft.com/power-automate/overview-adaptive-cards/?azure-portal=true)
+- [Overview of Adaptive Cards for Microsoft Teams](/power-automate/overview-adaptive-cards/?azure-portal=true)
 
-- [Get started with canvas-app formulas in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-formulas/?azure-portal=true)
+- [Get started with canvas-app formulas in Power Apps](/powerapps/maker/canvas-apps/working-with-formulas/?azure-portal=true)

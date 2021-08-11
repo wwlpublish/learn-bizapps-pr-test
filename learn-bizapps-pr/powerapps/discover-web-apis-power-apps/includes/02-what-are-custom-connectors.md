@@ -31,6 +31,6 @@ A custom connector is a wrapper around a web API, it allows Power Apps to commun
 :::image type="content" source="../media/02-what-are-custom-connectors-04.png" alt-text="Connector vs Connection":::
 
 
-[az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
-[az cuscon]: https://docs.microsoft.com/connectors/custom-connectors/
-[az learn apim]: https://docs.microsoft.com/learn/modules/integrate-openapi-enabled-web-api-with-apim-and-visual-studio/
+[az apim]: /azure/api-management/api-management-key-concepts
+[az cuscon]: /connectors/custom-connectors/
+[az learn apim]: /learn/modules/integrate-openapi-enabled-web-api-with-apim-and-visual-studio/

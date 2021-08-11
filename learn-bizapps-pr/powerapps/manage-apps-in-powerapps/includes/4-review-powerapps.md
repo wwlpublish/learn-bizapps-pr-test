@@ -1,4 +1,4 @@
-Congratulations on building your first app! 
+Congratulations on building your first app!
 
 To review, so far you've learned how to:
 
@@ -15,19 +15,19 @@ One goal of this module is to provide a clearer picture of what Power Apps is an
 
 ### Power Apps resources
 
-- Explore further with the [Power Apps documentation](https://docs.microsoft.com/powerapps/).
-- Stay current with the [Power Apps blog](https://powerapps.microsoft.com/blog/).
-- Join the [Power Apps community](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1).
+- Explore further with the [Power Apps documentation](/powerapps/?azure-portal=true).
+- Stay current with the [Power Apps blog](https://powerapps.microsoft.com/blog/?azure-portal=true).
+- Join the [Power Apps community](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1/?azure-portal=true).
 - Expand your expertise with additional Power Apps learning paths:
-    - [Use basic formulas to make better Power Apps canvas apps](https://docs.microsoft.com/learn/paths/use-basic-formulas-powerapps-canvas-app/) 
-    - [Work with data in a Power Apps canvas app](https://docs.microsoft.com/learn/paths/work-with-data-in-a-canvas-app/)
-    - [Use the UI and controls in a canvas app in Power Apps](https://docs.microsoft.com/learn/paths/ui-controls-canvas-app-powerapps/)
-    - [Use advanced data options and connectors in Power Apps](https://docs.microsoft.com/learn/paths/advanced-data-options-and-connectors/)
-    - [Master advanced techniques for Power Apps canvas apps](https://docs.microsoft.com/learn/paths/understand-advanced-topics/)
-- Improve Power Apps by submitting an [idea](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas).
+  - [Use basic formulas to make better Power Apps canvas apps](/learn/paths/use-basic-formulas-powerapps-canvas-app/?azure-portal=true)
+  - [Work with data in a Power Apps canvas app](/learn/paths/work-with-data-in-a-canvas-app/?azure-portal=true)
+  - [Use the UI and controls in a canvas app in Power Apps](/learn/paths/ui-controls-canvas-app-powerapps/?azure-portal=true)
+  - [Use advanced data options and connectors in Power Apps](/learn/paths/advanced-data-options-and-connectors/?azure-portal=true)
+  - [Master advanced techniques for Power Apps canvas apps](/learn/paths/understand-advanced-topics/?azure-portal=true)
+- Improve Power Apps by submitting an [idea](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas/?azure-portal=true).
 
 ### Power Apps downloads
 
-- [Power Apps Mobile for Windows](https://aka.ms/powerappswin)
-- [Power Apps Mobile for iOS](https://aka.ms/powerappsios)
-- [Power Apps Mobile for Android](https://aka.ms/powerappsandroid)
+- [Power Apps Mobile for Windows](https://aka.ms/powerappswin/?azure-portal=true)
+- [Power Apps Mobile for iOS](https://aka.ms/powerappsios/?azure-portal=true)
+- [Power Apps Mobile for Android](https://aka.ms/powerappsandroid/?azure-portal=true)

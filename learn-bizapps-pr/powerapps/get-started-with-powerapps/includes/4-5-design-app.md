@@ -1,13 +1,14 @@
-As an App Maker, before you begin building your Power Apps solution, it's recommended to go through a design process. 
+As an App Maker, before you begin building your Power Apps solution, it's recommended to go through a design process.
 When designing your Power Apps solution, there are several different factors to consider, such as:
--	Business requirements
--	Data Model
--	User Experience (UX)
--	User Interface (UI)
--	Business Logic
--	Output
 
-By going through a simple design process, you can flush out any minor issues before they become a larger problem once the app has been put into production. It is also important to understand that this design process is for Canvas apps. 
+- Business requirements
+- Data Model
+- User Experience (UX)
+- User Interface (UI)
+- Business Logic
+- Output
+
+By going through a simple design process, you can flush out any minor issues before they become a larger problem once the app has been put into production. It is also important to understand that this design process is for Canvas apps.
 
 So how do you go from a simple blank Canvas app, as seen below?
 
@@ -19,20 +20,19 @@ To a fully customized Canvas app solution?
 
 ## Understand the needs of the user
 
-One of the most powerful and, at the same time, challenging parts of building a canvas app is that you start with a blank screen. This gives you the ability to build what you want, but to do that you have to know what you want. 
+One of the most powerful and, at the same time, challenging parts of building a canvas app is that you start with a blank screen. This gives you the ability to build what you want, but to do that you have to know what you want.
 
-In many cases, when purchasing software to solve and or streamline business solutions, there are many business processes that don't quite fall within the software's supported guidelines. When you run into this issue, typically, there are several internal discussions and meetings held to determine how those unsupported processes can be updated/altered to meet the software requirements. For most organizations, this isn't ideal because of the cost or time takes to update those business processes. The great news is, by using Power Apps to build your solution, you won't have to worry about unsupported business solutions. Why? With Power Apps, you can build a custom solution tailored to the exact needs of your business requirements. 
+In many cases, when purchasing software to solve and or streamline business solutions, there are many business processes that don't quite fall within the software's supported guidelines. When you run into this issue, typically, there are several internal discussions and meetings held to determine how those unsupported processes can be updated/altered to meet the software requirements. For most organizations, this isn't ideal because of the cost or time takes to update those business processes. The great news is, by using Power Apps to build your solution, you won't have to worry about unsupported business solutions. Why? With Power Apps, you can build a custom solution tailored to the exact needs of your business requirements.
 
-Often when building an app, you are tempted to recreate the piece of paper or legacy software-driven process exactly. This is possible but might not be the ideal solution. By challenging the existing process and asking what it is the business needs to do, not what does the piece of paper or old software allows you to do, it opens the possibility of better, more efficient processes. For example, maybe on the paper process, the user had to type notes about what they see.  Would it be better instead to just take a picture? This type of thinking will lead to better apps and better outcomes. 
+Often when building an app, you are tempted to recreate the piece of paper or legacy software-driven process exactly. This is possible but might not be the ideal solution. By challenging the existing process and asking what it is the business needs to do, not what does the piece of paper or old software allows you to do, it opens the possibility of better, more efficient processes. For example, maybe on the paper process, the user had to type notes about what they see.  Would it be better instead to just take a picture? This type of thinking will lead to better apps and better outcomes.
 
 ### Business Requirements
 
-Every app you develop will have a different set of business requirements based on the solution. Taking the time to think about all the requirements is key to rolling out a successful production app. 
+Every app you develop will have a different set of business requirements based on the solution. Taking the time to think about all the requirements is key to rolling out a successful production app.
 
-Depending on the solution or company policies, you may have certain security, privacy, or compliance requirements you must follow. For example, let's say you are collecting secure personal information in the app.  You will want to ensure this information is securely stored and not visible to everyone. 
+Depending on the solution or company policies, you may have certain security, privacy, or compliance requirements you must follow. For example, let's say you are collecting secure personal information in the app.  You will want to ensure this information is securely stored and not visible to everyone.
 
 During this process, you will also want to identify any government regulations or authentication/authorization requirements (if applicable). You don't necessarily have to have all the answers to your questions here; you just want to know all the requirements.
-
 
 ### Data Model
 
@@ -45,7 +45,7 @@ In the "Power Apps related technologies" module, you learned about some of the c
 
 By designing your Power Apps solution in a Canvas app, you have complete control of the end-user experience. This allows you to fully customize nearly every aspect of your app. However, just because you can doesn't necessarily mean you should. When designing your Power Apps solution your goal should be to keep it simple. When your end users open the application and begin using it, they should have no confusion about what to click on or where to go. If your app requires an extensive training program for users to understand how to use it, you may want to rethink your app.
 
-Some of the basic designs elements you will want to consider are things like: 
+Some of the basic designs elements you will want to consider are things like:
 
 - Custom Branding (your logo and colors)
 - Pop-ups
@@ -53,7 +53,7 @@ Some of the basic designs elements you will want to consider are things like:
 
 ![Screenshot of a pop-up Survey app for training class.](../media/update-8.png)
 
-One of the most common User Experience enhancements you can implement in your applications are Pop-ups. By implementing pop-ups, you can provide the users with a simple, but useful visual to confirm what the user clicked on went through or maybe your pop-up acts as a loading screen as the logic on the backend is processed. For example, in the screenshot below when a user clicks on "Submit", we might have a simple pop-up display to let them know their submission was successful. 
+One of the most common User Experience enhancements you can implement in your applications are Pop-ups. By implementing pop-ups, you can provide the users with a simple, but useful visual to confirm what the user clicked on went through or maybe your pop-up acts as a loading screen as the logic on the backend is processed. For example, in the screenshot below when a user clicks on "Submit", we might have a simple pop-up display to let them know their submission was successful.
 
 In this example app, the user completes a Survey for the training class they just attended.
 
@@ -72,13 +72,14 @@ Finally, challenge yourself to do better with your user experience. Maybe today,
 ### User Interface (UI)
 
 To fully visualize the User Interface or UI, you may want to consider creating a mockup of your application. Two common ways to create a mockup of your application are below:
+
 - Use Visio to create a wireframe diagram. A wireframe is a visual representation of an application's user interface. To begin, there are various website and mobile wireframe templates available, or you could start from blank template. The diagrams are a quick way to show app functionality and gain team consensus on the design.
 
 The example below shows a simple Visio wireframe of a Purchase Items screen in an inventory app.
 
 ![Screenshot example of a simple Visio wireframe.](../media/visio-wireframe.png)
 
-- Use Power Apps to create a mockup of your application. You can add most of the controls, graphics, forms, and other items to your app screens and play with the layout and size for each element as if you were building the app for real. When designing the UI you don't need to add the logic behind the various elements you placed on the screen.  The goal here is to focus on what the app could look like and how it could function. This similar to what you can do with a Visio wireframe but one of the biggest pros of going this route is that you will gain more experience working with Power Apps and also learn more about the various UI elements available in the process. All of the experience and knowledge you will gain by creating your app mockup in Power Apps will only payoff later when it's time to start on the production app. Another significant upside to using Power Apps for your mockup is that if you show this to your team and they like what you did, you can continue building off this app or create a new app and copy the elements you would like to keep to your other application. By not having to redo the UI or only having to redo parts of it, you could potentially save yourself hours of work. 
+- Use Power Apps to create a mockup of your application. You can add most of the controls, graphics, forms, and other items to your app screens and play with the layout and size for each element as if you were building the app for real. When designing the UI you don't need to add the logic behind the various elements you placed on the screen.  The goal here is to focus on what the app could look like and how it could function. This similar to what you can do with a Visio wireframe but one of the biggest pros of going this route is that you will gain more experience working with Power Apps and also learn more about the various UI elements available in the process. All of the experience and knowledge you will gain by creating your app mockup in Power Apps will only payoff later when it's time to start on the production app. Another significant upside to using Power Apps for your mockup is that if you show this to your team and they like what you did, you can continue building off this app or create a new app and copy the elements you would like to keep to your other application. By not having to redo the UI or only having to redo parts of it, you could potentially save yourself hours of work.
 
 The example below shows a simple mockup of a New Purchase Order Screen.
 
@@ -86,9 +87,8 @@ The example below shows a simple mockup of a New Purchase Order Screen.
 
 It really comes down to your preference and comfort with the software you are using to create the mockup. You should also consider licensing and costs when making this decision. Visio requires other licensing to get the full functionality required for creating a wireframe diagram. Whereas with Power Apps, it doesn't matter which license you have.  As long as you have Power Apps (and sufficient permissions in your environment), you can create apps and mockup apps.
 
-As you design the User Interface, a few other things to think about are Accessibility and Localization. It's important to ensure the app interface follows accessibility guidelines so all your users can interact with your application without any issues. To review these guidelines and other accessibility properties, see [Create accessible canvas apps in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/accessible-apps/?azureportal=true).
+As you design the User Interface, a few other things to think about are Accessibility and Localization. It's important to ensure the app interface follows accessibility guidelines so all your users can interact with your application without any issues. To review these guidelines and other accessibility properties, see [Create accessible canvas apps in Power Apps](/powerapps/maker/canvas-apps/accessible-apps/?azureportal=true).
 
-Localization can be something you must consider when developing your application as well. Depending on where your app will be used, you may need to use different punctuation. For example, some regions of the world use a . (dot or period) as the decimal separator while others use a , (comma). For more information on building a globally supported application, see [Build global support into canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/global-apps/?azure-portal=true).
+Localization can be something you must consider when developing your application as well. Depending on where your app will be used, you may need to use different punctuation. For example, some regions of the world use a . (dot or period) as the decimal separator while others use a , (comma). For more information on building a globally supported application, see [Build global support into canvas apps](/powerapps/maker/canvas-apps/global-apps/?azure-portal=true).
 
-
-For more information. see [Planning a Power Apps project](https://docs.microsoft.com/powerapps/guidance/planning/introduction).
+For more information. see [Planning a Power Apps project](/powerapps/guidance/planning/introduction/?azure-portal=true).

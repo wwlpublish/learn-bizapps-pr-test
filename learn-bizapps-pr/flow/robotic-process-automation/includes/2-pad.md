@@ -12,7 +12,7 @@ Power Automate Desktop flows can be run attended, with the user manually initiat
 Power Automate Desktop flows are a valid way to perform integrations and automation when no other alternative is available, or when developing an integration would be expensive and time-consuming.
 
 > [!NOTE]
-> Power Automate cloud flows are explained in the [Power Automate architecture module](https://docs.microsoft.com/learn/modules/power-automate-architecture/?azure-portal=true).
+> Power Automate cloud flows are explained in the [Power Automate architecture module](/learn/modules/power-automate-architecture/?azure-portal=true).
 
 ## Desktop software
 
@@ -25,7 +25,7 @@ You'll need a computer that is running Windows 10, Windows Server 2016, or Windo
 > [!NOTE]
 > For unattended flows, Windows 10 Home is insufficient, and Windows 10 Pro or Windows 10 Enterprise is required.
 
-To start a desktop flow from the cloud, a second application is required to be installed on the computer where Power Automate Desktop is installed. This second application is the **On-premises data gateway**. This tool allows desktop flows to be triggered by a Power Automate cloud flow. You can download a gateway from [Install an on-premises data gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-install/?azure-portal=true) or from the Power Automate portal.
+To start a desktop flow from the cloud, a second application is required to be installed on the computer where Power Automate Desktop is installed. This second application is the **On-premises data gateway**. This tool allows desktop flows to be triggered by a Power Automate cloud flow. You can download a gateway from [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install/?azure-portal=true) or from the Power Automate portal.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram of the On-premises data gateway application.](../media/2-on-premises-data-gateway.png)](../media/2-on-premises-data-gateway.png#lightbox)
@@ -38,7 +38,7 @@ To interact with web applications, a modern web browser is required. The latest 
 
 Additionally, you will be required to install a browser extension, which can be installed by the Power Automate Desktop installer, but it might require more configuration. Again, the solution architect will need to liaise with the IT department because installing browser extensions might be blocked by corporate IT policies.
 
-Further settings for browsers should be configured as well. These settings are described in [Use browsers and manage extensions](https://docs.microsoft.com/power-automate/desktop-flows/using-browsers/?azure-portal=true), and the solution architect will need to arrange for these settings to be applied.
+Further settings for browsers should be configured as well. These settings are described in [Use browsers and manage extensions](/power-automate/desktop-flows/using-browsers/?azure-portal=true), and the solution architect will need to arrange for these settings to be applied.
 
 ## Requirements
 

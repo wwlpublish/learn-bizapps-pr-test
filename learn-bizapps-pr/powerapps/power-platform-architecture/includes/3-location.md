@@ -14,7 +14,7 @@ Microsoft offers the option of choosing global, local, and sovereign clouds:
 - **Sovereign cloud** - A cloud option that adheres to the strictest standards of operation. Data remains inside the country or region of residence always. Sovereign clouds are: US Government and China.
 
 > [!NOTE]
-> New locations are planned, so the preceding list might not be complete. Go to <https://docs.microsoft.com/power-platform/availability> for the latest information.
+> New locations are planned, so the preceding list might not be complete. Go to </power-platform/availability> for the latest information.
 
 The following diagram shows the supported Microsoft Power Platform locations.
 ![Diagram representing supported Microsoft Power Platform locations.](../media/3-location.png)
