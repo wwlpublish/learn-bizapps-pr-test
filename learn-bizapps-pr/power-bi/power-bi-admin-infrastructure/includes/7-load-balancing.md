@@ -13,4 +13,4 @@ For example, to provide load balancing from the Power BI service, select the gea
 
 It is recommended to disable or remove an offline gateway member in the cluster. If a gateway member is offline instead of disabled or removed, the service might try to execute a query on that offline member, before moving to the next one. This can negatively impact performance.
 
-For more information, see this article, [Manage on-premises data gateway high-availability clusters and load balancing](https://docs.microsoft.com/data-integration/gateway/service-gateway-high-availability-clusters/?azure-portal=true).
+For more information, see this article, [Manage on-premises data gateway high-availability clusters and load balancing](/data-integration/gateway/service-gateway-high-availability-clusters/?azure-portal=true).

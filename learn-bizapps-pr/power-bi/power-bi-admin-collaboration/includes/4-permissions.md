@@ -8,7 +8,7 @@ To grant access to a new workspace, assign those user groups or individuals to o
 
 - If you nest user groups, all the contained users have permission.
 
-All of these capabilities, except viewing and interacting, require a Power BI Pro license. Read more about [licensing](https://docs.microsoft.com/power-bi/collaborate-share/service-new-workspaces?azure-portal=true#licenses) in this article.
+All of these capabilities, except viewing and interacting, require a Power BI Pro license. Read more about [licensing](/power-bi/collaborate-share/service-new-workspaces?azure-portal=true#licenses) in this article.
 
 > [!div class="mx-tdCol2BreakAll"]
 > | **Role** | **Capabilities or permissions** |
@@ -18,12 +18,12 @@ All of these capabilities, except viewing and interacting, require a Power BI Pr
 > | Contributor | Update an app - if allowed.\* Feature dashboards and reports on colleagues' Home. Create, edit, and delete content in the workspace. Publish reports to the workspace, delete content. Create a report in another workspace based on a dataset in the this workspace.\*\* Copy a report.\*\*\* Schedule data refreshes via the on-premises gateway.**** Modify gateway connection. |
 > | Viewer | View and interact with an item.***** Read data stored in workspace dataflows. |
 
-\* Contributors can [update the app associated with the workspace](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces?azure-portal=true#allow-contributors-to-update-the-app), if the workspace Admin delegates this permission to them. However, they can't publish a new app or change who has permission to it.
+\* Contributors can [update the app associated with the workspace](/power-bi/collaborate-share/service-create-the-new-workspaces?azure-portal=true#allow-contributors-to-update-the-app), if the workspace Admin delegates this permission to them. However, they can't publish a new app or change who has permission to it.
 
 ** Contributors and Viewers can also share items in a workspace if they have Reshare permissions.
 
-*** To copy a report, and to create a report in another workspace based on a dataset in this workspace, you need [Build permission for the dataset](https://docs.microsoft.com/power-bi/connect-data/service-datasets-build-permissions/?azure-portal=true). For datasets in this workspace, the people with Admin, Member, and Contributor roles automatically have Build permission through their workspace role.
+*** To copy a report, and to create a report in another workspace based on a dataset in this workspace, you need [Build permission for the dataset](/power-bi/connect-data/service-datasets-build-permissions/?azure-portal=true). For datasets in this workspace, the people with Admin, Member, and Contributor roles automatically have Build permission through their workspace role.
 
-**** Keep in mind that you also need permissions on the gateway. Those permissions are managed elsewhere, independent of workspace roles and permissions. See [Manage an on-premises gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage/?azure-portal=true) for details.
+**** Keep in mind that you also need permissions on the gateway. Those permissions are managed elsewhere, independent of workspace roles and permissions. See [Manage an on-premises gateway](/data-integration/gateway/service-gateway-manage/?azure-portal=true) for details.
 
 ***** Even if you don't have a Power BI Pro license, you can view and interact with items in the Power BI service if the items are in a workspace in a Premium capacity.

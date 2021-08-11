@@ -38,5 +38,5 @@ To access and configure query caching, follow these steps:
 > [!WARNING]
 > If many datasets have query caching enabled, and a refresh occurs, a reduction in performance might occur because a large number of queries are being processed at once.  
 
-For more information, see [Query Caching in Power BI](https://docs.microsoft.com/power-bi/connect-data/power-bi-query-caching/?azure-portal=true).
+For more information, see [Query Caching in Power BI](/power-bi/connect-data/power-bi-query-caching/?azure-portal=true).
 

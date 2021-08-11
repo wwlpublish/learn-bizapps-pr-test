@@ -13,7 +13,7 @@ Two types of on-premises gateways are:
 
 ## Use an on-premises gateway
 
-Before you can connect to your on-premises data source, you need to [install the on-premises data gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-install/?azure-portal=true), and then configure it to suit your organizational needs. Usually, this task is completed by an admin in your organization.
+Before you can connect to your on-premises data source, you need to [install the on-premises data gateway](/data-integration/gateway/service-gateway-install/?azure-portal=true), and then configure it to suit your organizational needs. Usually, this task is completed by an admin in your organization.
 
 When the on-premises gateway is installed and configured, you can start the gateway and then sign in by using your Microsoft 365 organization account.
 
@@ -41,8 +41,8 @@ When you are working in the cloud and interacting with an element that is connec
 
 Troubleshooting a gateway is an ever-changing topic. Refer to the following documents for the latest troubleshooting guidance:
 
--   To learn how to run a network port test, see [Adjust communication settings for the on-premises data gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-communication#network-ports-test/?azure-portal=true).
+-   To learn how to run a network port test, see [Adjust communication settings for the on-premises data gateway](/data-integration/gateway/service-gateway-communication#network-ports-test/?azure-portal=true).
 
--   To get information on how to provide proxy information for your gateway, see [Configure proxy settings for the on-premises data gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-proxy/?azure-portal=true).
+-   To get information on how to provide proxy information for your gateway, see [Configure proxy settings for the on-premises data gateway](/data-integration/gateway/service-gateway-proxy/?azure-portal=true).
 
--   To find the current data center region that you're in, see [Set the data center region](https://docs.microsoft.com/data-integration/gateway/service-gateway-data-region/?azure-portal=true).
+-   To find the current data center region that you're in, see [Set the data center region](/data-integration/gateway/service-gateway-data-region/?azure-portal=true).

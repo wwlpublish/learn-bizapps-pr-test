@@ -94,6 +94,6 @@ Measures are going to be a little different when compared to calculated columns.
 
 ### Reference links
 
-For more information on calculated columns, see: [Create calculated columns in Power BI Desktop](https://docs.microsoft.com/power-bi/transform-model/desktop-calculated-columns/?azure-portal=true)
+For more information on calculated columns, see: [Create calculated columns in Power BI Desktop](/power-bi/transform-model/desktop-calculated-columns/?azure-portal=true)
 
-For more information on DAX, see: [Use DAX in Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/?azure-portal=true)
+For more information on DAX, see: [Use DAX in Power BI Desktop](/learn/paths/dax-power-bi/?azure-portal=true)

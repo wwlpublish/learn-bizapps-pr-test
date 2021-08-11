@@ -78,4 +78,4 @@ The first refresh operation in Power BI service will load the historical data fo
 
 When you have defined the incremental refresh policy in Power BI Desktop, to apply that refresh policy, you need to publish the report to Power BI service.
 
-For more information, see [Incremental refresh on Power BI](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh/?azure-portal=true).
+For more information, see [Incremental refresh on Power BI](/power-bi/service-premium-incremental-refresh/?azure-portal=true).

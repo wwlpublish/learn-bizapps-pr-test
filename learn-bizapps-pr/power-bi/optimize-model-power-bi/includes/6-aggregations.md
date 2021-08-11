@@ -67,4 +67,4 @@ You can open the **Manage Aggregations** window from any view in Power BI Deskto
 
 For each aggregation column, you can select an option from the **Summarization** drop-down list and make changes to the selected detail table and column. When you are finished managing the aggregations, select **Apply All**.
 
-For more detailed information on how to create and manage aggregations, see [Use aggregations in Power BI Desktop](https://docs.microsoft.com/power-bi/transform-model/desktop-aggregations/?azure-portal=true).
+For more detailed information on how to create and manage aggregations, see [Use aggregations in Power BI Desktop](/power-bi/transform-model/desktop-aggregations/?azure-portal=true).

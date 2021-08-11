@@ -61,4 +61,4 @@ When you view a published report in the Power BI service, you can choose the **P
 
 You can choose whether to pin the visual to an existing dashboard or to create a new dashboard. 
 
-For more information, see [Report View in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-report-view/?azure-portal=true).
+For more information, see [Report View in Power BI Desktop](/power-bi/desktop-report-view/?azure-portal=true).

@@ -5,13 +5,13 @@ The Health tab lets you view usage statistics for CPU and memory of your capacit
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Power BI Premium Resource Management dashboard with Health tab selected.](../media/dashboard-health-tab.png)](../media/dashboard-health-tab.png#lightbox)
 
-You can monitor capacities in the Admin portal or with the **Power BI Premium Capacity Metrics** app. To learn more about monitoring in the portal, see [Monitor Premium capacities](https://docs.microsoft.com/power-bi/admin/service-admin-premium-monitor-portal/?azure-portal=true) in the Admin portal.
+You can monitor capacities in the Admin portal or with the **Power BI Premium Capacity Metrics** app. To learn more about monitoring in the portal, see [Monitor Premium capacities](/power-bi/admin/service-admin-premium-monitor-portal/?azure-portal=true) in the Admin portal.
 
 ## Premium resource management eviction
 
 **Eviction** is a normal process within Power BI where datasets that are not in use are removed from memory so that new datasets can be loaded for queries or refreshes.
 
-Power BI uses dynamic memory management to evict inactive datasets from memory. Dynamic memory management allows the sum of dataset sizes to be greater than the memory available on the capacity, but a single dataset must fit into memory. For more info on dynamic memory management, see [How capacities function](https://docs.microsoft.com/power-bi/admin/service-premium-what-is?azure-portal=true#how-capacities-function).
+Power BI uses dynamic memory management to evict inactive datasets from memory. Dynamic memory management allows the sum of dataset sizes to be greater than the memory available on the capacity, but a single dataset must fit into memory. For more info on dynamic memory management, see [How capacities function](/power-bi/admin/service-premium-what-is?azure-portal=true#how-capacities-function).
 
 ## Dataset eviction example
 
@@ -172,5 +172,5 @@ A tool is available that lets you test scenarios that would be typical for your 
 
 -   If the testing indicates a single SKU cannot handle the workloads, consider scaling out with another SKU
 
-For more information and links to the load testing tool, [visit this link](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/?azure-portal=true). For more information about troubleshooting and optimizing Power BI Premium capacities, [visit this link](https://docs.microsoft.com/power-bi/admin/service-premium-capacity-optimize/?azure-portal=true).
+For more information and links to the load testing tool, [visit this link](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/?azure-portal=true). For more information about troubleshooting and optimizing Power BI Premium capacities, [visit this link](/power-bi/admin/service-premium-capacity-optimize/?azure-portal=true).
 

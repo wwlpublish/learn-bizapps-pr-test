@@ -42,7 +42,7 @@ Settings** pane, along with the query's properties. 
 
 The Power Query Editor ribbon contains many buttons you can use to select, view, and shape your data.
 
-To learn more about the available features and functions, see [The query ribbon](https://docs.microsoft.com/power-query/power-query-quickstart-using-power-bi#the-query-ribbon). 
+To learn more about the available features and functions, see [The query ribbon](/power-query/power-query-quickstart-using-power-bi#the-query-ribbon). 
 
 > [!NOTE]
 > In Power Query Editor, the right-click context menus and **Transform** tab in the ribbon provide many of the same options.

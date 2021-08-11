@@ -68,4 +68,4 @@ Other ways to optimize query performance in Power BI include:
 
 - **Separate date and time, if bound together.** If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. This approach will increase compression abilities.
 
-For more information, refer to [Query Folding Guidance](https://docs.microsoft.com/power-bi/guidance/power-query-folding/?azure-portal=true) and [Query Folding](https://docs.microsoft.com/power-query/power-query-folding/?azure-portal=true).
+For more information, refer to [Query Folding Guidance](/power-bi/guidance/power-query-folding/?azure-portal=true) and [Query Folding](/power-query/power-query-folding/?azure-portal=true).

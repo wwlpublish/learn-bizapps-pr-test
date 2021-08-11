@@ -55,4 +55,4 @@ If you examine the pattern, you might see a star shape.
 > [!div class="mx-imgBorder"]
 > [![An image shows a star superimposed over the seven model tables. The star assists understanding the star schema design.](../media/dax-star-schema-2-ssm.png)](../media/dax-star-schema-2-ssm.png#lightbox)
 
-For more information on star schemas, see [Understand star schema and the importance for Power BI](https://docs.microsoft.com/power-bi/guidance/star-schema/?azure-portal=true).
+For more information on star schemas, see [Understand star schema and the importance for Power BI](/power-bi/guidance/star-schema/?azure-portal=true).

@@ -28,7 +28,7 @@ There are several recommendations regarding gateway installation, however, the o
 
 -   You can install up to two gateways on a single computer: one running in personal mode and the other running in standard mode. You can't have more than one gateway running in the same mode on the same computer.
 
-For more information regarding on-premises data gateway installation, see this [article](https://docs.microsoft.com/data-integration/gateway/service-gateway-install/?azure-portal=true).
+For more information regarding on-premises data gateway installation, see this [article](/data-integration/gateway/service-gateway-install/?azure-portal=true).
 
 ## Keep an eye on your performance counters
 
@@ -40,4 +40,4 @@ Properly scaling your gateway depends on several factors; however, two that are 
 
 -   The volume of direct queries, including the number of concurrent users, types of visualizations for interactive querying, whether row level security (RLS) is used, and the number of pinned dashboard tiles over direct query and live connect updating in the background
 
-For information on troubleshooting Power BI gateways, refer to this [article](https://docs.microsoft.com/power-bi/connect-data/service-gateway-onprem-tshoot#performance/?azure-portal=true).
+For information on troubleshooting Power BI gateways, refer to this [article](/power-bi/connect-data/service-gateway-onprem-tshoot#performance/?azure-portal=true).
