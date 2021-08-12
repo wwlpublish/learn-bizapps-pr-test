@@ -11,7 +11,7 @@ entities that is available in your Microsoft Power Apps environment.
 
 3.  On the **Home** page, select **Model-driven app from blank**.
 
-4.  Click **Create**.
+4.  Select **Classic App Designer** and click **Create**.
 
     ![Model-driven](../media/model-driven-app-from-blank.png)
 
