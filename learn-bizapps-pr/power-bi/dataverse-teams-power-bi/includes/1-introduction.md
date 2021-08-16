@@ -36,18 +36,20 @@ In order to show how to import data from Dataverse for Teams into Power BI, we n
 
 After creating the column names and data types in **Columns**, there are two ways to enter the sample data into the table. One way is to enter it directly in the table, or you can open Excel and edit the sample data. 
 
-To enter the sample data into the table, select **Tables** and then select the ellipsis(...) for the table. Select **Edit data** for the visual table editor experience. 
+To enter the sample data into the table, select **Tables** and then select the ellipsis(...) for the table. Select **Edit data** for the visual table editor experience.
 
+ ![Screenshot of the Power Apps Tables dialog box with rectangle around Tables and Edit Data.](../media/powerapps-tables-edit-data.png)
 
 You will need to manually input the data. Copy and paste is not currently an option. Save the table.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Cost Trends dialog box with seven rows of data added.](../media/image-1.png)](../media/image-1.png#lightbox)
 
-
 To enter the sample data in Excel, follow the next few steps.
-  1. Select **Tables**, select the ellipses (...) and select **Edit data in Excel**.
-  2. A successful Excel notification will appear at the top of the screen. Open the downloaded file in **Excel**.
-  3. There will be additional columns listed in the spreadsheet, do not delete them. Reorder the columns to matach the first 8 columns on the CostTrends spreadsheet. 
-  4. Enter the sample data into the table, and save the table.
-  5. To push the data back to Dataverse, navigate to the **Data Connector** section in the lower right, and select **Publish**.
 
+  1. Select **Tables**, select the ellipses (...) and select **Edit data in Excel**.
+  ![Screenshot of the Power Apps Tables dialog box with rectangle around Tables and Edit data in Excel.](../media/powerapps-tables-edit-data-excel.png)
+  1. A successful Excel notification will appear at the top of the screen. Open the downloaded file in **Excel**.
+  1. There will be additional columns listed in the spreadsheet, do not delete them. Reorder the columns to matach the first 8 columns on the CostTrends spreadsheet.
+  1. Enter the sample data into the table, and save the table.
+  1. To push the data back to Dataverse, navigate to the **Data Connector** section in the lower right, and select **Publish**.
+  ![Screenshot of the Power Apps Data Connector dialog box with rectangle around Publish.](../media/powerapps-data-connector.png)
