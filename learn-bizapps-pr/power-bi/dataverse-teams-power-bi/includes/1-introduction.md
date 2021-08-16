@@ -52,4 +52,5 @@ To enter the sample data in Excel, follow the next few steps.
   1. There will be additional columns listed in the spreadsheet. Do not delete those columns. Reorder the columns to match the first eight columns on the CostTrends spreadsheet.
   1. Enter the sample data into the table, and save the table.
   1. To push the data back to Dataverse, navigate to the **Data Connector** section in the lower right, and select **Publish**.
-  ![Screenshot of the Power Apps Data Connector dialog box with rectangle around Publish.](../media/powerapps-data-connector.png)
+  
+![Screenshot of the Power Apps Data Connector dialog box with rectangle around Publish.](../media/powerapps-data-connector.png)
