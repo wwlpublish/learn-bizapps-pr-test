@@ -11,13 +11,13 @@ Notice how the measure is named **Total Sales for 2015**. When you use the CALCU
 When both measures are added to the previous visual they will resemble the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> [![Two measures on a visual](../media/02-two-measures-ss.png)](../media/02-two-measures-ss.png#lightbox)
+> [![Screenshot of two measures on a visual.](../media/02-two-measures-ss.png)](../media/02-two-measures-ss.png#lightbox)
 
 As shown in the preceding screenshot, Total Sales is still USD1.35 million, while the 2015 Total Sales is USD0.66 million.
 
 When you add the other visual onto the report, as you did previously, and then select 2015, the results will look like the following image.  If you select 2016, Total Sales for 2015 will remain at USD0.66 million.
 
 > [!div class="mx-imgBorder"]
-> [![Two visuals with the CALCULATE function](../media/02-two-visuals-with-calculate-ss.png)](../media/02-two-visuals-with-calculate-ss.png#lightbox)
+> [![Screenshot of two visuals with the CALCULATE function.](../media/02-two-visuals-with-calculate-ss.png)](../media/02-two-visuals-with-calculate-ss.png#lightbox)
 
 Notice how both measures are now equally the same amount. If you were to filter by any other criteria, including region, employee, or product, the filter context would still be applied to both measures. It's only the year filter that does not apply to that measure.
