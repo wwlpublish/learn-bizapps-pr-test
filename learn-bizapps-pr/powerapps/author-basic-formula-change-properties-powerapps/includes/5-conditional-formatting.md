@@ -10,10 +10,10 @@ formatting can greatly enhance the user experience with visual
 indicators and modified functionality based on the condition.
 
 Continuing with the previous example, the following formula shows how to apply
-conditional formatting to the **Label1 Color** property.
+conditional formatting to the **Label6 Color** property.
 
 ```powerappsfl
-If(Sum(Value(TextInput1_1.Text),Value(TextInput1_2.Text)) >50,Color.DarkGreen,Color.DarkRed)
+If(Sum(Value(TextInput2.Text),Value(TextInput3.Text)) >50,Color.DarkGreen,Color.DarkRed)
 ```
 
 The **Color** property defines the color of the text in the **Label**
@@ -34,7 +34,7 @@ properties you can reference one property in another. Try replacing the
 formula in the **Color** property.
 
 ```
-If(Label1.Text = "PASS", Color.DarkGreen,Color.DarkRed)
+If(Label6.Text = "PASS", Color.DarkGreen,Color.DarkRed)
 ```
 
 This will get you the same result as before but now if you change your
