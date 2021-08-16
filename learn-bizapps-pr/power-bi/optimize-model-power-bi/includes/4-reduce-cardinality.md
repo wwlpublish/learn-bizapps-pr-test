@@ -9,7 +9,7 @@ Previously, when you used Power Query Editor to analyze the metadata, the **Colu
 -   **Unique values count** - The total number of values that only appear once in a given column.
 
 > [!div class="mx-imgBorder"]
-> [![View column distribution statistics](../media/4-column-distribution-statistics-ssm.png)](../media/4-column-distribution-statistics-ssm.png#lightbox)
+> [![Screenshot of column distribution statistics.](../media/4-column-distribution-statistics-ssm.png)](../media/4-column-distribution-statistics-ssm.png#lightbox)
 
 A column that has a lot of repeated values in its range (distinct count is high) will have a low level of cardinality. Conversely, a column that has a lot of unique values in its range (unique count is high) will have a high level of cardinality.
 
@@ -36,7 +36,7 @@ During development, you will be creating and editing relationships in your model
 In the following example, the **ProductID** field has the data type **Whole number** in the Product and Sales tables. The columns with data type **Integer** perform better than columns with data type **Text**.
 
 > [!div class="mx-imgBorder"]
-> [![ProductID type whole number](../media/4-product-id-type-whole-number-ssm.png)](../media/4-product-id-type-whole-number-ssm.png#lightbox)
+> [![Screenshot shows how to check data type of ProductID.](../media/4-product-id-type-whole-number-ssm.png)](../media/4-product-id-type-whole-number-ssm.png#lightbox)
 
 ## Improve performance by reducing cardinality levels
 

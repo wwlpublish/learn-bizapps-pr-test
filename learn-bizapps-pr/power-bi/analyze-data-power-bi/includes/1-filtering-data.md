@@ -30,7 +30,7 @@ The four types of filters are:
 -   **Drillthrough** – Allows you to explore successively more detailed views within a single visual.
 
 
-![Image of the different types of filters in Power BI.](../media/2-1/power-bi-filter-types.png)
+![Screenshot of the different types of filters in Power BI.](../media/2-1/power-bi-filter-types.png)
 
 
 For example, in the following screenshot, the designer added three page-level filters: **Segment**, **Year**, and **Region**. Notice that **Year** is currently set to filter to the year 2014. 

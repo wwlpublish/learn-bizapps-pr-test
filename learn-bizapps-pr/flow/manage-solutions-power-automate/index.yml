@@ -3,7 +3,7 @@ uid: learn-bizapps.manage-solutions-power-automate
 metadata: 
  title: Manage solutions in Power Apps and Power Automate
  description: Learn how to manage solutions in Microsoft Power Apps and Power Automate. 
- ms.date: 06/29/2021
+ ms.date: 08/16/2021
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -38,6 +38,7 @@ units:
 - learn-bizapps.manage-solutions-power-automate.3-edit-solution-aware-flow 
 - learn-bizapps.manage-solutions-power-automate.4-import-export-solutions 
 - learn-bizapps.manage-solutions-power-automate.6-build-deploy-complex-solution 
+- learn-bizapps.manage-solutions-power-automate.6b-automate-solution-management
 - learn-bizapps.manage-solutions-power-automate.7-check 
 - learn-bizapps.manage-solutions-power-automate.8-summary 
 badge: 
