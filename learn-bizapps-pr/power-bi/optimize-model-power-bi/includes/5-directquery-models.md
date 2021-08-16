@@ -1,7 +1,7 @@
 DirectQuery is one way to get data into Power BI Desktop. The DirectQuery method involves connecting directly to data in its source repository from within Power BI Desktop. It is an alternative to importing data into Power BI Desktop.
 
 > [!div class="mx-imgBorder"]
-> [![Get data DirectQuery option](../media/5-direct-query-option-getting-data-ssm.png)](../media/5-direct-query-option-getting-data-ssm.png#lightbox)
+> [![Screenshot that shows how to use DirectQuery option to get data.](../media/5-direct-query-option-getting-data-ssm.png)](../media/5-direct-query-option-getting-data-ssm.png#lightbox)
 
 When you use the DirectQuery method, the overall user experience depends heavily on the performance of the underlying data source. Slow query response times will lead to a negative user experience and, in the worst-case scenarios, queries might time out. Also, the number of users who are opening the reports at any one time will impact the load that is placed on the data source. For example, if your report has 20 visuals in it and 10 people are using the report, 200 queries or more will exist on the data source because each visual will issue one or more queries.
 
