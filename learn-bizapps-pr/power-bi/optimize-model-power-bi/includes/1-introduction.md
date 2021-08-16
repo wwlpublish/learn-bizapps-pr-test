@@ -23,7 +23,7 @@ A smaller sized data model uses less resources (memory) and achieves faster data
 -   Summarizing data where possible.
 
 > [!div class="mx-imgBorder"]
-> [![Conceptual graphic of the tasks in this module](../media/1-conceptual-graphic-of-tasks-c.png)](../media/1-conceptual-graphic-of-tasks-c.png#lightbox)
+> [![Screenshot that demostrates the tasks in this module.](../media/1-conceptual-graphic-of-tasks-c.png)](../media/1-conceptual-graphic-of-tasks-c.png#lightbox)
 
 In this module, you will be introduced to the steps, processes, and concepts that are necessary to optimize a data model for enterprise-level performance. However, keep in mind that, while the basic performance and best practices guidance in Power BI will lead you a long way, to optimize a data model for query performance, you will likely have to partner with a data engineer to drive data model optimizing in the source data sources.
 

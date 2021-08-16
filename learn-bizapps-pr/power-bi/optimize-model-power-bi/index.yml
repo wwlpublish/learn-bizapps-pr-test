@@ -3,7 +3,7 @@ uid: learn-bizapps.optimize-model-power-bi
 metadata: 
  title: Optimize a model for performance in Power BI 
  description:  Performance optimization, also known as performance tuning, involves making changes to the current state of the data model so that it runs more efficiently. Essentially, when your data model is optimized, it performs better. 
- ms.date: 06/10/2021
+ ms.date: 08/12/2021
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
