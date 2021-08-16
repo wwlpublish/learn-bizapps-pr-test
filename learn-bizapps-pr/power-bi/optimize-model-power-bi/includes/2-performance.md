@@ -1,7 +1,7 @@
 If your data model has multiple tables, complex relationships, intricate calculations, multiple visuals, and redundant data, a potential exists for poor report performance. The poor performance of a report leads to a negative user experience.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of factors impacting report performance](../media/2-graphic-factors-impacting-performance-c.png)](../media/2-graphic-factors-impacting-performance-c.png#lightbox)
+> [![Screenshot of factors impacting report performance.](../media/2-graphic-factors-impacting-performance-c.png)](../media/2-graphic-factors-impacting-performance-c.png#lightbox)
 
 To optimize performance, you must first identify where the problem is coming from; in other words, find out which elements of your report and data model are causing the performance issues. Afterward, you can take action to resolve those issues and, therefore, improve performance.
 
