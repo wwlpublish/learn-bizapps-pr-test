@@ -35,6 +35,7 @@ information is displayed and consumed by users.
     ```
     If(Dropdown1.Selected.Position ="Top",150,Dropdown1.Selected.Position = "Bottom",650,400)
     ```
+    ![Screenshot of the Y Property in Power Apps.](../media/powerapps-y-property.png)
 
 1.  Test the formula. Select each position from the drop-down menu.
     Notice that the **Check** icon changes its Y position.

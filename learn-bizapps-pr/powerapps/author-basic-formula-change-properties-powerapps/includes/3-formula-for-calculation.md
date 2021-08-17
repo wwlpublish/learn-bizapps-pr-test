@@ -37,7 +37,7 @@ The following example shows how to calculate the sum of goods and services.
 
    ![Screenshot of Power Apps Treeview Screen1 text inputs.](../media/calculation-update.png)
 
-1. Insert another **Label** to the right of *Total*.
+1. Insert another **Label** to the right of *Total*. Name it **Label6**.
 
 1. Change the **Text** property to the following.
 
