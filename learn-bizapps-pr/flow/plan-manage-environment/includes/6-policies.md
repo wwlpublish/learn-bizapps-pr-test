@@ -78,7 +78,7 @@ and **SharePoint** connectors to be included in the same flow or app.
 
 You can create a third DLP policy that does include **Office 365
 Outlook** and **SharePoint** connectors in the **Business**
-data group. All of the connectors are placed in the **Non-business** data group environment.
+data group. All of the other connectors are placed in the **Non-business** data group environment.
 
 ![Screenshot of the Power Automate data policies page.](../media/12-dlp-update.png)
 
