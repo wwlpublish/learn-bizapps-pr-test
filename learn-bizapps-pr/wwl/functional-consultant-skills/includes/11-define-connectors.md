@@ -8,7 +8,7 @@ It's important to look at the connector details when you're looking at using it 
 
 Model-driven apps have their own data source, Dataverse. But they can also integrate with other apps and services depending on the need. Canvas apps, Power Automate, Power BI, and Power Virtual Agents all need a data source and rely heavily on connectors.
 
-:::image type="content" source="../media/connectors-0d0726c0.png":::
+:::image type="content" source="../media/connectors-0d0726c0.png" alt-text="List of connectors":::
 
 
 There are hundreds of connectors available. For a full list of them visit [this page](/connectors/connector-reference/connector-reference-powerapps-connectors).

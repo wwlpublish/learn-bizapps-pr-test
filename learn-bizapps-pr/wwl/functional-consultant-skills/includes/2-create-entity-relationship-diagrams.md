@@ -28,14 +28,14 @@ Data models for Microsoft Power Platform data structures typically fall into two
 
 Logical data models are high-level diagrams that show the way that data flows through the system. These are frequently put together at the beginning of the project during discovery and before all of the columns have been defined. Generally, the logical data model diagram uses the business names of the tables, not the schema/database name.
 
-:::image type="content" source="../media/logical-data-model-7c9cdc6e.png":::
+:::image type="content" source="../media/logical-data-model-7c9cdc6e.png" alt-text="Logical data model":::
 
 
 ### Physical data models
 
 Physical data models are lower level than logical data models. They generally include column-level detail and more precisely designed relationships. The physical data model is created when the high-level logical design is translated to physical tables. A common type of physical data model is an Entity Relationship Diagram (ERD), or table relationship diagram.
 
-:::image type="content" source="../media/physical-data-model-9edae738.png":::
+:::image type="content" source="../media/physical-data-model-9edae738.png" alt-text="Physical data model":::
 
 
 Data modeling is a science, and there are data modeling professionals and established standards for data modeling. To be effective with Microsoft Power Platform data modeling, you don’t have to be a professional data modeler or use any special tools. Popular tools like Microsoft Visio can be used to quickly create a basic diagram that visualizes the relationships and flow of data between tables and so can casual planning with whiteboard drawings. In this section we discuss some general best practices for data modeling for deployments.

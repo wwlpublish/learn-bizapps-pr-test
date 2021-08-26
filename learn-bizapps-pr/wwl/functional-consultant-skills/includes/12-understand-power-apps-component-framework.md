@@ -2,12 +2,12 @@ Microsoft Power Apps component framework helps you create reusable components th
 
 For example, the existing screen might render similar to the following image.
 
-:::image type="content" source="../media/existing-screen-c150c171.png":::
+:::image type="content" source="../media/existing-screen-c150c171.png" alt-text="Existing screen":::
 
 
 However, if you reconfigured your app to use custom Power Apps components, your app might look something like the following image.
 
-:::image type="content" source="../media/reconfigured-view-b58cde0b.png":::
+:::image type="content" source="../media/reconfigured-view-b58cde0b.png" alt-text="Reconfigured screen":::
 
 
 The Power Apps component framework (PCF) helps teams develop together by supporting the making and use of custom components. Both model-driven and canvas apps have PCF control options. While the making of a fully custom control requires a professional developer, makers of all skill levels can consume them and include them as part of an overall solution.

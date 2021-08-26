@@ -34,14 +34,6 @@ Currently available industry accelerators include:
 :::row-end:::
 :::row:::
   :::column:::
-    Health Accelerator
-  :::column-end:::
-  :::column:::
-    Rapidly develop healthcare solutions using FHIR tables such as patient, condition, and care plan. The Microsoft Health Accelerator enables partners and customers to create new use cases and workflows using a FHIR-based data model.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
     [Education Accelerator](https://github.com/Microsoft/Industry-Accelerator-Education)
   :::column-end:::
   :::column:::
