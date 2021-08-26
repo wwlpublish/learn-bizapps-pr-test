@@ -10,8 +10,8 @@ Considerations when designing the journey:
 
 As you design the user experience, keep in mind the ultimate goal, create an experience that is both useful and a joy to use. Many aspects of a solution drive user adoption. Not each of these is easily measured. Sadly, sometimes the best indication of user adoption is the failure to gain user adoption. Key areas that can determine the effectiveness of user adoption include:
 
- -  **Buisness value:** Business goals and strategy clearly defined along with the processes, success KPIs and business outcome for the project
- -  **Data and functionality:** Business process implementation within the platform meets (or exceeds) user expectaiton with respect to data, integration, security, reporting, etc.
+ -  **Business value:** Business goals and strategy clearly defined along with the processes, success KPIs and business outcome for the project
+ -  **Data and functionality:** Business process implementation within the platform meets (or exceeds) user expectation with respect to data, integration, security, reporting, etc.
  -  **Usability:** Application useability and client support user experience on web, Outlook, and mobile clients
  -  **Performance:** Overall application performance and reliability from end user perspective to include page load time, time to save, errors, automation, etc.
 
@@ -38,7 +38,7 @@ Users also need to be able to use the data in the system and need to understand 
 
 You must be aware of the effects that the data model will have on the usability of the system and the end-user experience. Inconsistent design can provide a jarring user experience. Use the tools provided in the system to provide a consistent user experience.
 
-Navigation should be logical and consistent so that users are comfor table with the system. If different forms have significantly different navigation experiences or related navigation links are not grouped, the users will be frustrated trying to use and navigate through the system. Everything users need for related system tasks should be grouped in the sitemap and form navigation areas. Form layout should be consistent and predic table . When possible always group similar columns, and tasks, in the same place for the user’s entire experience.
+Navigation should be logical and consistent so that users are comfortable with the system. If different forms have significantly different navigation experiences or related navigation links are not grouped, the users will be frustrated trying to use and navigate through the system. Everything users need for related system tasks should be grouped in the sitemap and form navigation areas. Form layout should be consistent and predictable . When possible always group similar columns, and tasks, in the same place for the user’s entire experience.
 
 When building apps, they should be appropriately sized. You should not have a monolithic application with many unrelated business groups combined. Model-driven apps should generally address a single group or multiple groups that are directly related (such as a related sales and customer service process). Canvas apps should be used for simpler task-focused scenarios. If a user has to switch between multiple apps to complete a task the user will likely be frustrated, but if you try to use a large model driven app when the user needs to complete task focused activities on a mobile device, the user may also be frustrated. Make sure that your apps are properly sized and that they provide the best user experience for the way that your users will be working.
 
