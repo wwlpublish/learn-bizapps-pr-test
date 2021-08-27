@@ -1,4 +1,4 @@
-Documentation can take many forms from requirements gathering and validation to test plans, training plans and user manuals. In this lesson we will learn about creating entity relationship diagrams (also known ERDs), wireframes and mockups for apps, documenting requirements and solution artifacts, and documenting details of data for migration and integration. In Power Platform the data is represented as a table. For the purposes of this lesson, consider the terms interchangeable.
+Documentation can take many forms from requirements gathering and validation to test plans, training plans and user manuals. In this lesson we will learn about creating entity relationship diagrams (also known ERDs), wireframes and mockups for apps, documenting requirements and solution artifacts, and documenting details of data for migration and integration. In Power Platform, the data is represented as a table. For the purposes of this lesson, consider the terms interchangeable.
 
 ## The entity relationship diagram
 
@@ -26,7 +26,7 @@ Data models for Microsoft Power Platform data structures typically fall into two
 
 ### Logical data models
 
-Logical data models are high-level diagrams that show the way that data flows through the system. These are frequently put together at the beginning of the project during discovery and before all of the columns have been defined. Generally, the logical data model diagram uses the business names of the tables, not the schema/database name.
+Logical data models are high-level diagrams that show the way that data flows through the system. These diagrams are frequently put together at the beginning of the project during discovery and before all of the columns have been defined. Generally, the logical data model diagram uses the business names of the tables, not the schema/database name.
 
 :::image type="content" source="../media/logical-data-model-7c9cdc6e.png" alt-text="Logical data model":::
 
@@ -38,7 +38,7 @@ Physical data models are lower level than logical data models. They generally in
 :::image type="content" source="../media/physical-data-model-9edae738.png" alt-text="Physical data model":::
 
 
-Data modeling is a science, and there are data modeling professionals and established standards for data modeling. To be effective with Microsoft Power Platform data modeling, you don’t have to be a professional data modeler or use any special tools. Popular tools like Microsoft Visio can be used to quickly create a basic diagram that visualizes the relationships and flow of data between tables and so can casual planning with whiteboard drawings. In this section we discuss some general best practices for data modeling for deployments.
+Data modeling is a science, and there are data modeling professionals and established standards for data modeling. To be effective with Microsoft Power Platform data modeling, you don’t have to be a professional data modeler or use any special tools. Popular tools like Microsoft Visio can be used to quickly create a basic diagram that visualizes the relationships and flow of data between tables and so can casual planning with whiteboard drawings. In this section, we discuss some general best practices for data modeling for deployments.
 
 • Data models should be updated continuously during a deployment. It’s common for a data model to be designed at the beginning of a project, but it is very important that it doesn’t stop there. As you go through the deployment, new columns and tables will be added - it’s important to capture these in the data model and make it a “living” data model. Recommend to customers that they continue to update it as they enhance the system.
 

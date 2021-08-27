@@ -4,7 +4,7 @@ Not every aspect of a project is technical in nature, and often these non-techni
 
 ### Create and validate documentation
 
-Documentation can take many forms from requirements gathering and validation to test plans, training plans and user manuals. In this course we will learn about creating entity relationship diagrams (ERD), wireframes and mockups for apps, documenting data for migration, requirements and solution artifacts.
+Documentation can take many forms from requirements gathering and validation to test plans, training plans and user manuals. In this course we will learn about creating entity relationship diagrams (ERD), wireframes and mockups for apps, documenting data for migration, requirements, and solution artifacts.
 
 ### Engage stakeholders
 

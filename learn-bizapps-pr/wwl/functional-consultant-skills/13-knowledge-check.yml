@@ -4,12 +4,55 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/26/2021
+  ms.date: 08/27/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 azureSandbox: false
 durationInMinutes: 3
-content: |
-  [!include[](includes/13-knowledge-check.md)]
+quiz:
+  title: "Check your knowledgeChoose the best response for each question. Then select **Check your answers**."
+  questions:
+  - content: "Which of the following would be the functional consultant’s role?"
+    choices:
+    - content: "Be the voice between business and tech"
+      isCorrect: true
+      explanation: "The functional consultant plays a unique role that enables them to be able to communicate and translate between these two sets of stakeholders."
+    - content: "Design the data model"
+      isCorrect: false
+      explanation: "A solution architect would do this."
+    - content: "Author plugins"
+      isCorrect: false
+      explanation: "A professional developer would do this."
+    - content: "Build a custom connector"
+      isCorrect: false
+      explanation: "A professional developer would do this."
+  - content: "Which of the following are characteristics of logical data models?"
+    choices:
+    - content: "It includes precisely defined relationships"
+      isCorrect: false
+      explanation: "This is a characteristic of a physical data model."
+    - content: "It includes precisely defined relationship behaviors."
+      isCorrect: false
+      explanation: "This is a characteristic of a physical data model."
+    - content: "It includes the way data flows through the system."
+      isCorrect: true
+      explanation: "Logical data models are high-level diagrams that show the way that data flows through the system."
+    - content: "It includes column-level information about the tables."
+      isCorrect: false
+      explanation: "This is a characteristic of a physical data model."
+  - content: "Which of the following is not a type of integration found on Microsoft Power Platform projects?"
+    choices:
+    - content: "Process integration"
+      isCorrect: false
+      explanation: "Integrating multiple disparate systems with each of those systems serving a part of an overall business function is common on Microsoft Power Platform projects."
+    - content: "Hardware compatibility integration"
+      isCorrect: true
+      explanation: "While hardware considerations might need to be addressed, it is not typically part of a Microsoft Power Platform project."
+    - content: "Data integration"
+      isCorrect: false
+      explanation: "Combining data from different sources and presenting the user a unified view is common on Microsoft Power Platform projects."
+    - content: "User interface integration"
+      isCorrect: false
+      explanation: "Providing visibility to data from one or more systems without bringing rows of data into the system is common on Microsoft Power Platform projects."

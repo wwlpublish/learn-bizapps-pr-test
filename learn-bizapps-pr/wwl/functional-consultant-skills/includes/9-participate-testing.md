@@ -5,7 +5,7 @@ A testing process usually follows the flow below:
 1.  **Plan.** Review the overall test strategy. Develop the test plan. Perform needed analysis for baseline metrics. Identify key business scenarios that are in, and out of scope. Document the requirements if not already completed.
 2.  **Prepare.** Set up needed environments, performance testing, user adoption testing, etc. Review data received for migration, both before and after the migration testing. Validate high-level system requirements. Develop needed scripts.
 3.  **Execute.** Execute test scripts. Analyze results, identify potential bottlenecks. Review failures and behaviors.
-4.  **Report.** Prepare a detailed assessment of the reporting plan, results and plan of action.
+4.  **Report.** Prepare a detailed assessment of the reporting plan, results, and plan of action.
 
 ## Types of testing
 
@@ -24,7 +24,7 @@ The functional consultant will likely be involved in some capacity in each of th
     Unit tests
   :::column-end:::
   :::column:::
-    These tests are performed by the app builder or code developer as an asset is built throughout the implementation process. These unit tests should be performed by whomever is actively building the functionality, this could be a developer, a functional consultant, a business analyst, and so on.
+    These tests are performed by the app builder or code developer as an asset is built throughout the implementation process. These unit tests should be performed by whomever is actively building the functionality, which could be a developer, a functional consultant, a business analyst, and so on.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -40,7 +40,7 @@ The functional consultant will likely be involved in some capacity in each of th
     Acceptance tests
   :::column-end:::
   :::column:::
-    These tests are performed by end users to give formal approval, and they test the usability of the system. Acceptance testing is typically performed as a final check before rolling out functionality. In an initial deployment, this is at the end of the project, but in an agile iterative deployment, functionality may be released each sprint, so you will need to conduct acceptance testing throughout the project. This is often called UAT, user acceptance testing.
+    These tests are performed by end users to give formal approval, and they test the usability of the system. Acceptance testing is typically performed as a final check before rolling out functionality. In an initial deployment, this testing is at the end of the project, but in an agile iterative deployment, functionality may be released each sprint, so you will need to conduct acceptance testing throughout the project. This testing is often called UAT, user acceptance testing.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -56,7 +56,7 @@ The functional consultant will likely be involved in some capacity in each of th
     Integration tests
   :::column-end:::
   :::column:::
-    The goal is for all integrated systems to work in harmony. Integration testing verifies that everything works together including integrated 3rd party services and data. This testing takes place following initial development of integrations.
+    The goal is for all integrated systems to work in harmony. Integration testing verifies that everything works together including integrated third party services and data. This testing takes place following initial development of integrations.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -115,6 +115,6 @@ A key aspect of integration testing should be focused on the data that flows in 
 
 ### User acceptance testing
 
-User acceptance testing is critical to ensure go-live sign off as well as acceptance of the new system post-go-live. It could also provide a backlog of feature requests that can be planned as part of post go-live enhancements.
+User acceptance testing is critical to ensure go-live sign off, as well as acceptance of the new system post-go-live. It could also provide a backlog of feature requests that can be planned as part of post go-live enhancements.
 
 Customers must ensure that user champions or key users have been identified early on and should be kept engaged throughout the project lifecycle. They should engage this group along with an additional user community to test the application. There should be a clear definition of the successful user acceptance criteria as this will also roll up into go/no go live decision

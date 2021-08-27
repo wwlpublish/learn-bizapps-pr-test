@@ -1,4 +1,4 @@
-As you collect requirements they are commonly referred to as either functional or non-functional. Functional requirements describe what the solution needs to do or its behaviors, and non-functional are commonly used to describe non-behavior aspects of the solution such as performance requirements. In this lesson we will cover some things to consider for functional requirements.
+As you collect requirements, they are commonly referred to as either functional or non-functional. Functional requirements describe what the solution needs to do or its behaviors, and non-functional are commonly used to describe non-behavior aspects of the solution such as performance requirements. In this lesson, we will cover some things to consider for functional requirements.
 
 Each functional requirement should clearly capture the who, what and why of the requirement. If the requirement is too large, it should be broken down into smaller parts.
 
@@ -6,23 +6,23 @@ Each functional requirement should clearly capture the who, what and why of the 
 
 The following are a few simple examples of functional requirements:
 
- -  As a sales user I need to be able to close an opportunity as lost and capture why it was lost so that we can improve our sales tactics in the future.
- -  As a sales manager I need to be able to approve a discount on a quote so I can reduce the total price and give a discount to the customer.
- -  As a staff accountant I want to be prevented from closing a batch that has pending items, so I do not have to re-open it later.
+ -  As a sales user, I need to be able to close an opportunity as lost, and capture why it was lost so that we can improve our sales tactics in the future.
+ -  As a sales manager, I need to be able to approve a discount on a quote, so I can reduce the total price and give a discount to the customer.
+ -  As a staff accountant, I want to be prevented from closing a batch that has pending items, so I do not have to re-open it later.
 
-These communicate who, what, and why.
+These examples communicate who, what, and why.
 
 The following are a few examples of poorly worded requirements:
 
  -  Opportunities can be won or lost.
  -  Price should reflect discounts.
- -  From the Batch Item List, clicking the Close Batch button which is the third button from the left should close the batch if there are no items that would stop it from happening.
+ -  From the Batch Item List, clicking the Close Batch button, which is the third button from the left, should close the batch if there are no items that would stop it from happening.
 
 When gathering requirements of any variety, it is very helpful to map toward process or user journey, not just a list of features and functions. Build a story for a user and how they will successfully use the system you are designing. You can scribble on a whiteboard, use a tool to diagram a process, whatever works for your team at the planning stage you are in. Your team will dissect the pieces into smaller actionable items later.
 
 ### Acceptance criteria
 
-Having a clear understanding of how a requirement is considered satisfied is important. Often documenting this will help determine if the requirement is detailed enough and right sized. This is also helpful for the testing teams to evaluate the implementation of the requirement. And finally, it should be reviewed with the stakeholder to ensure it is accurate as it can be used to help prevent scope creep. It’s important to look for acceptance criteria that can’t possibly be met and negotiate to reach a compromise that is achievable.
+Having a clear understanding of how a requirement is considered satisfied is important. Often, documenting this requirement will help determine if the requirement is detailed enough and right sized. This documentation is also helpful for the testing teams to evaluate the implementation of the requirement. And finally, it should be reviewed with the stakeholder to ensure it is accurate as it can be used to help prevent scope creep. It’s important to look for acceptance criteria that can’t possibly be met, and negotiate to reach a compromise that is achievable.
 
 ### Capturing exceptions
 
@@ -34,13 +34,13 @@ Left unchecked every project would add scope from what was envisioned and budget
 
 ## Internationalization
 
-Microsoft Power Platform offers makers many options to internationalize the apps. Model-driven apps and portal apps both come with internationalization options including language packs and multi-currency. Accurately documenting these requirements is essential for user adoption. Documenting the internationalization should begin with requirements and be included in quality assurance test plans, user adoption testing, and system documentation. Make sure to follow the best practices listed here for documenting actionable, tes table requirements for internationalization needs as well.
+Microsoft Power Platform offers makers many options to internationalize the apps. Model-driven apps and portal apps both come with internationalization options including language packs and multi-currency. Accurately documenting these requirements is essential for user adoption. Documenting the internationalization should begin with requirements and be included in quality assurance test plans, user adoption testing, and system documentation. Make sure to follow the best practices listed here for documenting actionable, testable requirements for internationalization needs as well.
 
 ## Solution artifacts
 
 It is considered a best practice to give solution components logical names, and as you are preparing the documentation of such logical names, you will certainly see the value. Each project’s documentation of these items may be a little bit different than one another.
 
-The goal of this documentation should be to ensure consistent continuation of the solutions as they evolve over time as well as keeping the project team informed. This is particularly helpful when you are participating in a team of makers and each team member is working on a different set of functionalities. Documenting the things that matter will be much easier if there are predic table names and consistent documentation of names and expected behaviors.
+The goal of this documentation should be to ensure consistent continuation of the solutions as they evolve over time as well as keeping the project team informed. This is particularly helpful when you are participating in a team of makers and each team member is working on a different set of functionalities. Documenting the things that matter will be much easier if there are predictable names and consistent documentation of names and expected behaviors.
 
 Project planning items such as user stories or backlog items can be good resources to help jumpstart your documentation. As tempting as it might be to wait to do this documentation until project completion, it will be a more helpful on-going resource if it is completed at least every project milestone. You will be able to notice and remedy inconsistencies and errors before they become bigger problems.
 
@@ -54,7 +54,7 @@ When documenting Power Virtual Agents, include topic level conversation flow, ta
 
 In addition to specific technical details, you may find it helpful to write narratives of the user journey. This is more than the “user clicks here”, and more of the expected experience in its entirety. Think of it as the story of that user’s day-to-day interaction with the solution. Considering the audience of this documentation, be mindful of considerations like accessibility in documentation and offering both words and graphical explanations. This documentation could be helpful for on-boarding new team members, creating user acceptance criteria and handing off the project to the customer at completion.
 
-## Doucment data for migration and integration
+## Document data for migration and integration
 
 Seldom do you start a project with no legacy considerations. Users have inefficient apps they are already using full of business data that they already understand. Depending on the exact circumstances, you can connect with the data, or migrate it. Either of these paths require planning and documentation.
 

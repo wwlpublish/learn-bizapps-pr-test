@@ -2,19 +2,19 @@ Microsoft Power Apps component framework helps you create reusable components th
 
 For example, the existing screen might render similar to the following image.
 
-:::image type="content" source="../media/existing-screen-c150c171.png" alt-text="Existing screen.":::
+:::image type="content" source="../media/existing-screen-c150c171.png" alt-text="Existing screen":::
 
 
 However, if you reconfigured your app to use custom Power Apps components, your app might look something like the following image.
 
-:::image type="content" source="../media/reconfigured-view-b58cde0b.png" alt-text="Reconfigured screen.":::
+:::image type="content" source="../media/reconfigured-view-b58cde0b.png" alt-text="Reconfigured screen":::
 
 
 The Power Apps component framework (PCF) helps teams develop together by supporting the making and use of custom components. Both model-driven and canvas apps have PCF control options. While the making of a fully custom control requires a professional developer, makers of all skill levels can consume them and include them as part of an overall solution.
 
 Canvas app PCF controls is currently in public preview. You can find samples for use in your nonproduction solution, or to inspire ideas, at the Power Apps Community [gallery of canvas app](https://powerusers.microsoft.com/t5/Canvas-Apps-Components-Samples/bd-p/ComponentsGallery) components.
 
-Model-driven PCF components allow makers to take a column such as a yes/no column and present it to users with a different visualization. You might do this to help users have a better mobile experience (think about ease of use for touchscreen controls instead of a radio button). You might also do this to break up the appearance of standard controls on a form.
+Model-driven PCF components allow makers to take a column such as a yes/no column and present it to users with a different visualization. You might present a different visualization to help users have a better mobile experience (think about ease of use for touchscreen controls instead of a radio button). You might also present a different visualization to break up the appearance of standard controls on a form.
 
 ## Power Apps component framework advantages
 
@@ -30,7 +30,7 @@ Microsoft has significant investment in ensuring that Power Apps components are 
 
 Model-driven apps have a full ecosystem of third-party offerings. Many of them can be found at Microsoft’s [AppSource](https://appsource.microsoft.com/). AppSource offers not only products made, and maintained by independent software vendors (ISVs) but also add-ons built by Microsoft. AppSource has thousands of apps available for trial and evaluation.
 
-:::image type="content" source="../media/appsource-search-80b84093.png" alt-text="Screenshot showing Microsoft AppSource page.":::
+:::image type="content" source="../media/appsource-search-80b84093.png":::
 
 
 The Microsoft Power Platform and Dynamics 365 communities have a long history of providing tools to help makers. These tools are often free and open source and actively seek additional contributors. These community tools offer utilities to help ease the level of difficulty for common use cases within a solution. Remember, although these tools are respected in the community, they are independently maintained, so it’s a good idea to do your due diligence for the appropriateness of their inclusion in your overall strategy.
