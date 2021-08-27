@@ -72,7 +72,7 @@ The functional consultant will likely be involved in some capacity in each of th
     Data Validation tests
   :::column-end:::
   :::column:::
-    These tests verify data migration to ensure data quality and are typically performed by the person who wrote the integration or customer resources in close consultation with subject matter experts that know the customer data. These experts should understand the data transition and transformation and can confirm the migrated data is valid with proper context. This can involve standard checks like row counts or spot-checking a subset of data migrated to verify columns were correctly mapped. This is also sometimes called data migration testing.
+    These tests verify data migration to ensure data quality and are typically performed by the person who wrote the integration or customer resources in close consultation with subject matter experts that know the customer data. These experts should understand the data transition and transformation and can confirm the migrated data is valid with proper context. This process can involve standard checks like row counts or spot-checking a subset of data migrated to verify columns were correctly mapped. This process is also sometimes called data migration testing.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -80,7 +80,7 @@ The functional consultant will likely be involved in some capacity in each of th
     Disaster recovery tests
   :::column-end:::
   :::column:::
-    These tests involve testing what happens if a disaster brings down your system. While Microsoft handles major disaster recovery for you, you need to ensure that you have a plan to resume operations after a disaster. For example, verifying that your source code is up to date and you can recreate your dev environments successfully in case of a disaster.
+    These tests involve testing what happens if a disaster brings down your system. While Microsoft handles major disaster recovery for you, you need to ensure that you have a plan to resume operations after a disaster. For example, verifying that your source code is up to date so that you can recreate your dev environments successfully in case of a disaster.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -95,7 +95,7 @@ The functional consultant will likely be involved in some capacity in each of th
 
 ## The functional consultant's role in testing
 
-In addition to participating in the actual testing process, you should be prepared to help in authoring test plans, or at least reviewing them. This will help you do your job better by making sure expectations are aligned from beginning to end of the project lifecycle. It also helps the quality team by validating their test plans with your actions building and configuring the system.
+In addition to participating in the actual testing process, you should be prepared to help in authoring test plans, or at least reviewing them. This process will help you do your job better by making sure expectations are aligned from beginning to end of the project lifecycle. It also helps the quality team by validating their test plans with your actions building and configuring the system.
 
 While you may be involved in any of the testing listed, the functional consultant will likely be more involved in the following:
 
@@ -107,14 +107,14 @@ An important part of functional testing is ensuring a regression doesn't get int
 
 ### Integration testing
 
-the most important aspects of the business process implementation to function correctly and has a strong impact on overall adoption. The customer must ensure that they plan to engage owners from other applications that are integrated with the system. This will also require them to define clear roles and responsibilities to fix any issues or make changes as required.
+the most important aspects of the business process implementation to function correctly and has a strong impact on overall adoption. The customer must ensure that they plan to engage owners from other applications that are integrated with the system. This testing will also require them to define clear roles and responsibilities to fix any issues or make changes as required.
 
-Each integration will likely have its own test approach and it needs to be defined. The testing team should be involved early to look at how they will test each integration scenario. The teams need to ensure as that the necessary integrations have the ability to be configured to support testing.
+Each integration will likely have its own test approach that needs to be defined. The testing team should be involved early to look at how they will test each integration scenario. The teams need to ensure as that the necessary integrations have the ability to be configured to support testing.
 
 A key aspect of integration testing should be focused on the data that flows in and out of the integration. Much of the discussion in the data validation testing section can also apply to the data involved in integrations.
 
 ### User acceptance testing
 
-User acceptance testing is critical to ensure go-live sign off, as well as acceptance of the new system post-go-live. It could also provide a backlog of feature requests that can be planned as part of post go-live enhancements.
+User acceptance testing is critical to ensure go-live approval, as is acceptance of the new system post-go-live. It could also provide a backlog of feature requests that can be planned as part of post go-live enhancements.
 
-Customers must ensure that user champions or key users have been identified early on and should be kept engaged throughout the project lifecycle. They should engage this group along with an additional user community to test the application. There should be a clear definition of the successful user acceptance criteria as this will also roll up into go/no go live decision
+Customers must ensure that user champions or key users have been identified early on and should be kept engaged throughout the project lifecycle. They should engage this group along with an additional user community to test the application. There should be a clear definition of the successful user acceptance criteria as this definition will also roll up into go/no go live decision

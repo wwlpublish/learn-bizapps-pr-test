@@ -30,7 +30,7 @@ Microsoft has significant investment in ensuring that Power Apps components are 
 
 Model-driven apps have a full ecosystem of third-party offerings. Many of them can be found at Microsoft’s [AppSource](https://appsource.microsoft.com/). AppSource offers not only products made, and maintained by independent software vendors (ISVs) but also add-ons built by Microsoft. AppSource has thousands of apps available for trial and evaluation.
 
-:::image type="content" source="../media/appsource-search-80b84093.png":::
+:::image type="content" source="../media/appsource-search-80b84093.png" alt-text="Screenshot showing Microsoft AppSource page.":::
 
 
 The Microsoft Power Platform and Dynamics 365 communities have a long history of providing tools to help makers. These tools are often free and open source and actively seek additional contributors. These community tools offer utilities to help ease the level of difficulty for common use cases within a solution. Remember, although these tools are respected in the community, they are independently maintained, so it’s a good idea to do your due diligence for the appropriateness of their inclusion in your overall strategy.

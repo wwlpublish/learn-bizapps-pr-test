@@ -1,4 +1,4 @@
-As the functional consultant you are well-equipped to be the voice between business and tech. Functional consultants play a vital role on a Microsoft Power Platform project. With the low code/no code choices available, it’s often the functional consultant who becomes the go-to expert on the implementation team. The functional consultant works closely with not only the implementation team, but also works closely with the customer’s stakeholders. Keep in mind, that even for an internal facing consultant, you still have a customer even if you’re in the same company.
+As the functional consultant, you are well equipped to be the voice between business and tech. Functional consultants play a vital role on a Microsoft Power Platform project. With the low code/no code choices available, it’s often the functional consultant who becomes the go-to expert on the implementation team. The functional consultant works closely with not only the implementation team, but also works closely with the customer’s stakeholders. Keep in mind, that even for an internal facing consultant, you still have a customer even if you’re in the same company.
 
 Not every aspect of a project is technical in nature, and often these non-technical portions have a greater impact than we expect. Each Microsoft Power Platform project has similar components and requires similar planning and managing, even if some of it is not directly part of the project solution. In this module we will cover some of these consulting skills to include:
 
@@ -12,7 +12,7 @@ Even the smallest of projects have stakeholders, enterprise projects likely have
 
 ### Perform quality assurance
 
-While the functional consultant is not likely a formal “tester” on a project, they should be performing unit tests of their individual work, communicating with the quality assurance leadership, assisting in user acceptance testing, and evaluating test plans and functionality meet expectations. Additionally, it is the responsibility of every project team member to follow established procedures and expectations for application lifecycle management (ALM).
+While the functional consultant is not likely a formal “tester” on a project, they should be performing unit tests of their individual work, communicating with the quality assurance leadership, helping with user acceptance testing, and evaluating test plans and functionality meet expectations. Additionally, it is the responsibility of every project team member to follow established procedures and expectations for application lifecycle management (ALM).
 
 ### Configure integrations
 

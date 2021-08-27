@@ -1,4 +1,4 @@
-Most projects will have a full quality assurance plan and team. However, each member of the maker team needs to participate in some capacity to ensure quality solutions. From unit testing as you configure to assisting in release pipelines with Azure DevOps, there are plenty of points in a project that you can influence and guide to success.
+Most projects will have a full quality assurance plan and team. However, each member of the maker team needs to participate in some capacity to ensure quality solutions. From unit testing, as you configure to assist in release pipelines with Azure DevOps, there are plenty of points in a project that you can influence and guide to success.
 
 ## Application Lifecycle Management (ALM)
 
@@ -10,11 +10,13 @@ All of your work will be happening in the context of a solution and you should u
 
 ### Solution packager
 
-Solution packager should be used to take the unmanaged solution from development and prepare it for storing in a source control repository. Solution packager takes the single solution file and breaks it into individual files representing each solution component. This solution packager process is referred to as unpacking the solution. The output from solution packager is then checked in to the source control repository. This checked in version now represents the source of truth for the project.<br>Solution packager can also pack the folder from source control, re-creating the single solution file. This is how the files that are checked into source control are then used to create the solutions that will be imported into the other environments. While Solution Packager can be run manually, it is more commonly run using Microsoft Power Platform Build Tools as part of an automated pipeline.
+Solution packager should be used to take the unmanaged solution from development and prepare it for storing in a source control repository. Solution packager takes the single solution file and breaks it into individual files representing each solution component. This solution packager process is referred to as unpacking the solution. The output from solution packager is then checked in to the source control repository. This output version that is checked in, now represents the source of truth for the project.
+
+Solution packager can also pack the folder from source control, re-creating the single solution file. The files that are checked into source control are then used to create the solutions that will be imported into the other environments. While Solution Packager can be run manually, it is more commonly run using Microsoft Power Platform Build Tools as part of an automated pipeline.
 
 ### Package deployer
 
-Package deployer allows you to create a package that includes multiple solutions, data from configuration migration tool and developer code logic that runs before and after the import of the package is completed. In many ways you could think of package deployer as an install wizard for Microsoft Power Platform. Package deployer can be run interactively to manually import packages and data into an environment. Package deployer also supports running via PowerShell, which would allow automation and integration into Azure DevOps pipeline.
+Package deployer allows you to create a package that includes multiple solutions, data from configuration migration tool and developer code logic that runs before and after the import of the package is completed. In many ways, you could think of package deployer as an install wizard for Microsoft Power Platform. Package deployer can be run interactively to manually import packages and data into an environment. Package deployer also supports running via PowerShell, which would allow automation and integration into Azure DevOps pipeline.
 
 ### Solution checker
 
