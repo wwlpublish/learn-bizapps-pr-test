@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.pad-power-automate-desktop-recording-features.4-exercise-desktop-recorder
-title: Exercise - Use the desktop recorder to record desktop actions
+title: Exercise - Use the recorder to record desktop actions
 metadata: 
-  title: Exercise - Use the desktop recorder to record desktop actions
-  description: An exercise based on the desktop recorder.
+  title: Exercise - Use the recorder to record desktop actions
+  description: An exercise that automates desktop tasks using the recorder.
   ms.date: 11/03/2020 
   author: mariosleon
   ms.author: marleon
