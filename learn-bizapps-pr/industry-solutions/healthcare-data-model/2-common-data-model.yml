@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.healthcare-data-model.2-common-data-model 
+title: 
+metadata: 
+  title: 
+  description: 
+  ms.date: 09/07/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-healthcare-vaccination 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-common-data-model.md)] 
