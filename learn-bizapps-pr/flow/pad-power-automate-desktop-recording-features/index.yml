@@ -11,14 +11,14 @@ metadata:
 title: Generate Power Automate Desktop flows by recording
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The Desktop and Web Recorders can be used to automatically generate blocks of actions, based on the user's interaction with the workstation.
+  The recorder can be used to automatically generate blocks of actions, based on the user's interaction with the workstation.
 abstract: |  
     In this module, you will: 
-    - Use the Desktop Recorder to generate actions automating local Windows UI-based tasks
-    - Deploy the Web Recorder to automate interactions with a web browser
+    - Use the recorder to generate actions automating local Windows UI-based tasks
+    - Deploy the recorder to automate interactions with a web browser
     - Preview and edit the automatically generated actions during and after the recording
 prerequisites: |
-    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
+    A basic understanding of [how to use Power Automate Desktop console and flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-power-automate-desktop-recording-features.svg  
 levels:  
 - beginner   

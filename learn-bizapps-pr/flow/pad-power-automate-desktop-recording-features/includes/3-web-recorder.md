@@ -1,8 +1,10 @@
-To become familiar with the web recorder, follow the presented instructions to develop a web-based flow. The flow will convert a set amount of USA dollars to euros using the MSN currency converter tool.
+To become familiar with automating web tasks using the recorder, follow the presented instructions to develop a web-based flow. The flow will convert a set amount of USA dollars to euros using the MSN currency converter tool.
 
 To record the flow:
 
-1. Create a new desktop flow, select **Web recorder** in the flow designer, and select the web browser to use for the recording.
+1. Create a new desktop flow, select **Recorder** in the flow designer. 
+
+1. When the recorder dialog is launched, select the dots icon of the right side of it and choose the browser you want to use for the automation.
 
     ![The Specify web browser instance to use dialog.](..\media\web-recorder-instance-selection-dialog.png)
 
