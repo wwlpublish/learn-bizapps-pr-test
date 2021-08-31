@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.healthcare-data-model 
 metadata: 
- title: Microsoft Cloud for healthcare data model
+ title: Microsoft Cloud for Healthcare data model
  description: This module describes the healthcare data model included in the Microsoft Cloud for Healthcare solutions.  The healthcare data model for Dynamics 365 is based on the Fast Healthcare Interoperability Resources (FHIR) standards framework. 
  ms.date: 09/07/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-healthcare-vaccination  
-title: Microsoft Cloud for healthcare data model
+title: Microsoft Cloud for Healthcare data model
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module describes the healthcare data model included in the Microsoft Cloud for Healthcare solutions.  The healthcare data model for Dynamics 365 is based on the Fast Healthcare Interoperability Resources (FHIR) standards framework. 
