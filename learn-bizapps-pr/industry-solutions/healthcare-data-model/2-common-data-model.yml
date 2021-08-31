@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.healthcare-data-model.2-common-data-model 
-title: 
+title: Common Data Model
 metadata: 
-  title: 
-  description: 
+  title: Common Data Model 
+  description: Learn how to simplify the data sharing process by providing a shared data language for business and analytical applications to use.
   ms.date: 09/07/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
