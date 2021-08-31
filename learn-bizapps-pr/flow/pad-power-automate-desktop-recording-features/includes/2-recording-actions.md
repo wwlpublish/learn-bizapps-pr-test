@@ -21,4 +21,4 @@ This dialog is where a preview of the recorded actions will appear during the re
 
 ![Screenshot of the recorded actions in the Desktop recorder window.](..\media\recorded-actions.png)
 
-To suspend the recording, select **Pause**. When the recording is completed, select **Finish** to convert the recorded steps to Power Automate Desktop action.
+To suspend the recording, select **Pause**. When the recording is completed, select **Finish** to convert the recorded steps to Power Automate Desktop actions.
