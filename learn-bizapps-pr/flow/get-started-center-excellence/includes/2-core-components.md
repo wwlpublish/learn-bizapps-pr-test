@@ -153,8 +153,8 @@ Importing the solution is a required installation process that helps ensure that
 
 		-   HTTP with Azure AD (use **https://graph.microsoft.com/** for the Base Resource URL and the Azure AD Resource URI)
 
-			-> [!div class="mx-imgBorder"]
-			-> [![Screenshot of HTTP with Azure AD.](../media/http-azure-active-directory.png)](../media/http-azure-active-directory.png)
+			> [!div class="mx-imgBorder"]
+			> [![Screenshot of HTTP with Azure AD.](../media/http-azure-active-directory.png)](../media/http-azure-active-directory.png#lightbox)
 
 1.  On the left pane, select **Solutions**.
 
