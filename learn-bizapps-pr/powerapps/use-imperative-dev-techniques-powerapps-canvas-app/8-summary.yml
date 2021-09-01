@@ -3,13 +3,12 @@ uid: learn-bizapps.use-imperative-dev-techniques.8-summary
 title: Summary
 metadata: 
   title: Summary 
-  description: Summary 
-  ms.date: 06/29/2021 
+  description: Summary of using imperative development techniques for canvas apps in Power Apps.
+  ms.date: 09/01/2021 
   author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
-  ms.prod: learning-powerapps 
-   
+  ms.prod: learning-powerapps    
 durationInMinutes: 3 
 content: |
   [!include[](../includes/unit-banner.md)]

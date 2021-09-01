@@ -14,10 +14,11 @@ of a button to set up a counter.
 Set(varCounter, varCounter + 1)
 ```
 
-The first time that you select the button the value will be 1. If you
+Next to the button put a **Label**, and in the **Text** property, put **varCounter**. The first time that you select the button your value will be 1. If you
 select the button a second time the value will be 2. Use the following table to 
 see the literal translation.
 
+![Animation of varCounter functionality.](../media/6-varcounter.gif)
 
  | Value of varCounter before the button press   | Button press   | Formula                           | Values                   | Value of varCounter after button press |
  | :---------------------------------------------| :--------------| :---------------------------------| :------------------------| :----------------------------------------|
@@ -49,7 +50,7 @@ In this example, you will store the entire user record in a global variable name
 Set(varUser, User())
 ```
 
-This will store the entire user record in the variable. The user record has 3 columns Email, FullName, and Image. You can retrieve the values of the individual columns using the dot (.) notation. To display the user's email address, add a Label control to the screen and set the text property to:
+This will store the entire user record in the variable. The user record has three columns Email, FullName, and Image. You can retrieve the values of the individual columns using the dot (.) notation. To display the user's email address, add a Label control to the screen and set the text property to:
 
 ```
 varUser.Email
