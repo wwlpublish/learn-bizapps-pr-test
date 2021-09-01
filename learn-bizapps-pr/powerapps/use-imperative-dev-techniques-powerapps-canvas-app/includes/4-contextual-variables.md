@@ -17,6 +17,8 @@ One unique behavior of the **UpdateContext** function is that you can declare mo
 ```
 UpdateContext({varCount: 1, varActive: true, varName: User().FullName})
 ```
+> [!NOTE]
+> In the previous module, we mentioned that using the User() function inline will unnecessarily slow down your app and for that reason a global variable should be used **OnStart**. While using a contextual variable to store User information will improve performance over inline use of the User() function, it is ultimately less performative than a global variable, as you will still be calling on the data source each time that page opens. As such, it is recommended to store User information in a global variable.
 
 To do the same thing with Global variables, you would use the following.
 
