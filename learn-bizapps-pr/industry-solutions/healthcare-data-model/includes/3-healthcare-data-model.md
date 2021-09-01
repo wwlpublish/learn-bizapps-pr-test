@@ -6,7 +6,7 @@ The healthcare data model defines a common language for healthcare business enti
 
 - Dynamics 365 Marketing
 
-The entity reference for the Dynamics 365 solutions in Microsoft Cloud for Healthcare is available in the following Common Data Model documentation: [Overview of Microsoft Cloud for Healthcare entities](https://docs.microsoft.com/common-data-model/schema/core/industrycommon/healthcare/healthcare-overview).
+The entity reference for the Dynamics 365 solutions in Microsoft Cloud for Healthcare is available in the following Common Data Model documentation: [Overview of Microsoft Cloud for Healthcare entities](/common-data-model/schema/core/industrycommon/healthcare/healthcare-overview/?azure-portal=true).
 
 ## Common Data Model in healthcare cloud
 
@@ -32,7 +32,7 @@ On top of these three layers, we have the final package, which is based on your 
 
 The Microsoft healthcare data model is available for preview on the Microsoft Cloud Solution Center at solutions.microsoft.com. The solution does not have any dependencies. It contains the entities, relationships, resources, and other processes to manage your healthcare data, including clinical communication, appointments, encounters, care teams, procedures, medications, and more.
 
-You can learn more about the entities included in the healthcare data model [here](https://docs.microsoft.com/common-data-model/schema/core/industrycommon/healthcare/healthcare-overview/?azure-portal=true
+You can learn more about the entities included in the healthcare data model [here](/common-data-model/schema/core/industrycommon/healthcare/healthcare-overview/?azure-portal=true
 ) on Microsoft Docs.
 
 > [!div class="mx-imgBorder"]
@@ -40,5 +40,5 @@ You can learn more about the entities included in the healthcare data model [her
 
 ## Deprecation of the Dynamics 365 Healthcare Accelerator
 
-The Microsoft healthcare data model originated as part of the Dynamics 365 Healthcare Accelerator, which was deprecated on November 13, 2020, and is no longer available. The healthcare data model has since been updated and is available through the Microsoft Cloud for Healthcare. If you need to migrate from the Dynamics 365 Healthcare Accelerator to the Microsoft Cloud for Healthcare, reference this [article](https://docs.microsoft.com/dynamics365/industry/healthcare/accelerator-deprecation/?azure-portal=true
+The Microsoft healthcare data model originated as part of the Dynamics 365 Healthcare Accelerator, which was deprecated on November 13, 2020, and is no longer available. The healthcare data model has since been updated and is available through the Microsoft Cloud for Healthcare. If you need to migrate from the Dynamics 365 Healthcare Accelerator to the Microsoft Cloud for Healthcare, reference this [article](/dynamics365/industry/healthcare/accelerator-deprecation/?azure-portal=true
 ) on Microsoft Docs.
