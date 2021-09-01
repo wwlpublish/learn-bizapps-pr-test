@@ -1,4 +1,4 @@
-Microsoft Dataverse allows for a number of different connections to external data sources. Dual-write and virtual tables (or virtual entities) allow Dataverse to access this data and write back to the original data source.
+Microsoft Dataverse allows for many different connections to external data sources. Dual-write and virtual tables (or virtual entities) allow Dataverse to access this data and write back to the original data source.
 
 ## Dual-write
 
@@ -22,4 +22,3 @@ Both Dual-write and virtual tables offer useful data integration functionality. 
 Dual-write should be used when you are working with Dynamics 365 apps and need near real-time integration. Dual-write will duplicate the data in both directions (to and from Dataverse).
 
 Virtual tables should be used when you are connecting to data sources outside of Dynamics 365. There may be built-in connectors for these data sources, or you may have to use a custom connector. 
-
