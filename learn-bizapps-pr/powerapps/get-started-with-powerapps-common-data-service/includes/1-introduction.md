@@ -10,7 +10,7 @@ Dataverse includes a base set of standard tables that support common business sc
 Dynamics 365 applications, such as Dynamics 365 Sales, Service, and Marketing, use Dataverse to store and secure data used by the applications. This means you can build apps using Power Apps and Dataverse directly against your core business data already used within Dynamics 365 without the need for manual integration.
 
  > [!NOTE]
- > Dynamics 365 Finance, Dynamic 365 Supply Chain Management, and Dynamics 365 Retail  currently require the configuration of the Data Integrator to make your business data available within Dataverse.
+ > Dynamics 365 Finance, Dynamic 365 Supply Chain Management, and Dynamics 365 Retail  currently require the configuration of Dual-Write to make your business data available within Dataverse. 
 
 ![Screenshot of Power Apps showing a list of entities.](../media/updated-entitylist.png "table list")
 
