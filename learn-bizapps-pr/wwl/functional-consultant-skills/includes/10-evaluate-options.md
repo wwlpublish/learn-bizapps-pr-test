@@ -14,7 +14,7 @@ As a functional consultant you will frequently be involved in the evaluation or 
 
 Your app(s) can be at the center of the overall solution. In order for that to be seamless for your users, proper integration is key.
 
-:::image type="content" source="../media/integrations-diagram-c2e295ef.png" alt-text="Your app integrations diagram":::
+:::image type="content" source="../media/integrations-diagram-c2e295ef.png" alt-text="Diagram showing Your App integrations.":::
 
 
 The solution architect of the project will decide what integrations the project needs, but the functional consultant will not only support the integrations, but will likely configure it. In order to be successful at the integrations, there are some key features that you should know.

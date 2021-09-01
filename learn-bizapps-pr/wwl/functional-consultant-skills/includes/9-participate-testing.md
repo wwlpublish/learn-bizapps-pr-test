@@ -117,4 +117,4 @@ A key aspect of integration testing should be focused on the data that flows in 
 
 User acceptance testing is critical to ensure go-live approval, as is acceptance of the new system post-go-live. It could also provide a backlog of feature requests that can be planned as part of post go-live enhancements.
 
-Customers must ensure that user champions or key users have been identified early on and should be kept engaged throughout the project lifecycle. They should engage this group along with an additional user community to test the application. There should be a clear definition of the successful user acceptance criteria as this definition will also roll up into go/no go live decision
+Customers must ensure that user champions or key users have been identified early on and should be kept engaged throughout the project lifecycle. They should engage this group along with an additional user community to test the application. There should be a clear definition of the successful user acceptance criteria as this definition will also roll up into go/no go live decision.
