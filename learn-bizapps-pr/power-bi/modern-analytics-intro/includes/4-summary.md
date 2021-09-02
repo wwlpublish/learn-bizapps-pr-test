@@ -2,14 +2,14 @@ Today's Modern Analytics technology landscape offers a full suite of Microsoft p
 
 ## Reference links
 
-[What's new for Office 365/Excel](https://support.microsoft.com/office/what-s-new-in-excel-for-microsoft-365-5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73/?azure-portal=true)
+[What's new for Office 365/Excel](https://support.microsoft.com/office/what-s-new-in-excel-for-microsoft-365-5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73)
 
-[Office updates](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5/?azure-portal=true)
+[Office updates](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
 [Microsoft Power Query](https://powerquery.microsoft.com/?azure-portal=true)
 
 [What is Power BI \| Microsoft Power BI](https://powerbi.microsoft.com/what-is-power-bi/?azure-portal=true)
 
-[Get Power BI Desktop](https://docs.microsoft.com/power-bi/fundamentals/desktop-get-the-desktop/?azure-portal=true)
+[Get Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop/?azure-portal=true)
 
 [Power BI service pricing and licensing](https://powerbi.microsoft.com/pricing/?azure-portal=true)
