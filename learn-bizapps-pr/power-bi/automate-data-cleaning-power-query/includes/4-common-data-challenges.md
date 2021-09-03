@@ -48,9 +48,8 @@ To split columns, follow these steps:
 
 1. Select **OK**.
 
-:::image type="complex" source="../media/4-6-split.png" alt-text="Before and after splitting column by delimiter operation.":::
-   From Left to Right and Top to Bottom Excel worksheet column with sample data containing combination of County, State Abbreviation, Territory, Region, and District - each separated by a backslash Power Query Editor Transform tab with Split Column By Delimiter button selected Split Column by Delimiter window Power Query Editor window with Preview area displaying results after Split Column by Delimiter operation.
-:::image-end:::
+> [!div class="mx-imgBorder"]
+> [![Excel data separated by backslashes. Power Query Editor Transform tab. Split Column by Delimiter window. Power Query Editor window with Preview.](../media/4-6-split.png)](../media/4-6-split.png#lightbox)
 
 ## Enrich your data
 
