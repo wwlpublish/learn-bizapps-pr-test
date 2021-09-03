@@ -2,21 +2,21 @@ In this exercise, you will learn how to create a **Bookable Resource** to be use
 
 Each resource can have different attributes that distinguish it from others, including but not limited to the following:
 
--   Characteristics (for example: Accounting)
-
--   Categories (for example: Manager)
-
--   Territories (for example: Washington State)
-
--   Organizational Unit (for example: Seattle Service Delivery)
-
--   Location (for example: Location Agnostic)
-
--   Resource Type (for example: User)
+- Characteristics (for example: Accounting)
+	
+- Categories (for example: Manager)
+	
+- Territories (for example: Washington State)
+	
+- Organizational Unit (for example: Seattle Service Delivery)
+	
+- Location (for example: Location Agnostic)
+	
+- Resource Type (for example: User)
 
 1.  Navigate to [https://make.powerapps.com](https://make.powerapps.com/?azure-portal=true).
 
-1.  Open the **Field Service** app**.**
+1.  Open the **Field Service** app.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the field service app.](../media/field-service.png)](../media/field-service.png#lightbox)
@@ -109,8 +109,8 @@ Each resource can have different attributes that distinguish it from others, inc
 	> [!div class="mx-imgBorder"]
 	> [![Sreenshot of Spanish fluency displayed in the characteristic search results.](../media/search-characteristic.png)](../media/search-characteristic.png#lightbox)
 
-> [!NOTE]
-> Characteristics represent a resource's skills and certifications. This could be concrete, like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building or fluency in the Spanish language.
+	> [!NOTE]
+	> Characteristics represent a resource's skills and certifications. This could be concrete, like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building or fluency in the Spanish language.
 
 1. In order to have more data in the system, create **two** more **Bookable Resources** following the same process. For each of them, select **Contact** as the **Resource Type** and choose any **Contact** in the system. Choose **Location Agnostic** as before and click **Save**. Configure the **Work Hours** the same as the previous Bookable Resource and click **Save & Close**.
 
