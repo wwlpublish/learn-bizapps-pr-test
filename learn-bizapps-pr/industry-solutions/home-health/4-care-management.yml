@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.home-health.4-care-management 
+title: Exercise - Use care management components with Field Service Mobile App
+metadata: 
+  title: Exercise - Use care management components with Field Service Mobile App
+  description: Learn how to use care management components.
+  ms.date: 09/03/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-care-management.md)] 

@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.home-health 
+metadata: 
+ title: Home health
+ description: In this module, you will learn how to empower health team collaboration within a healthcare organization by using the Home Health application in the Microsoft Cloud for Healthcare.  With the Home Health application, provider personnel can schedule appointments for the patient based on various factors. You can view patient information directly in context, and a guided business process flow ensures each measure is taken prior to and after booking the appointment. 
+ ms.date: 09/03/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-industry-solutions  
+title: Home health
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  With the Home Health application, provider personnel can schedule appointments for the patient based on various factors. You can view patient information directly in context, and a guided business process flow ensures each measure is taken prior to and after booking the appointment.
+abstract: |  
+    In this module, you will: 
+    - Create a Bookable Resource
+    - Configure the Schedule Board
+    - Use Care Management Components with the Field Service Mobile App
+prerequisites: |  
+    - Training environment preparation module
+    - Care management module 
+iconUrl: /learn/achievements/home-health.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products: 
+- industry-solutions 
+units: 
+- learn-bizapps.home-health.1-introduction 
+- learn-bizapps.home-health.2-bookable-resource 
+- learn-bizapps.home-health.3-schedule-board 
+- learn-bizapps.home-health.4-care-management 
+- learn-bizapps.home-health.5-check 
+- learn-bizapps.home-health.6-summary 
+badge: 
+  uid: learn-bizapps.home-health.badge 
