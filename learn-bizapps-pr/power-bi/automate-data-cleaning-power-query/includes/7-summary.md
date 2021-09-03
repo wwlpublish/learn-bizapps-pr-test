@@ -2,6 +2,6 @@ Power Query empowers the modern Excel analyst to create a set of reusable instru
 
 ## Reference links
 
-- [Microsoft Power Query](https://powerquery.microsoft.com/)
+- [Microsoft Power Query](https://powerquery.microsoft.com/?azure-portal=true)
 
-- [M language function reference](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference)
+- [M language function reference](/powerquery-m/power-query-m-function-reference/?azure-portal=true)
