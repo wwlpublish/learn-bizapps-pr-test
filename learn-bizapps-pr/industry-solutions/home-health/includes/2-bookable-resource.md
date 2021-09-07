@@ -12,7 +12,9 @@ Each resource can have different attributes that distinguish it from others, inc
 	
 - Location (for example: Location Agnostic)
 	
-- Resource Type (for example: User)
+- Resource Type (for example: User).
+
+Now, we're ready to create a **Bookable Resource** in the Home Health application.
 
 1.  Navigate to [https://make.powerapps.com](https://make.powerapps.com/?azure-portal=true).
 
