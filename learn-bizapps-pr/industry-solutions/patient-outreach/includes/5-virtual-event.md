@@ -1,4 +1,4 @@
-In this exercise, you will create a healthcare-focused, virtual Marketing **Event** that corresponds to the patient journey you created in the previous exercise that sends the Healthy Eye Seminar event invite to the everyone in the patient segment. The **Marketing Event Management** feature helps you every step of the way, from initial planning and budgeting through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
+In this exercise, you will create a healthcare-focused, virtual Marketing **Event** corresponding to the patient journey you created in the previous exercise that sends the Healthy Eye Seminar event invite to everyone in the patient segment. The **Marketing Event Management** feature helps you every step of the way, from initial planning and budgeting through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
 
 1.  In the Patient Outreach application, click **Events** on the Site Map under Event Management.
 
