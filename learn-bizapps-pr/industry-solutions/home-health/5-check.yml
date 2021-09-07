@@ -13,7 +13,7 @@ durationInMinutes: 8
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which of the following is not a key capability of Home Health?
+  - content: Which of the following is NOT a key capability of Home Health?
     choices: 
     - content: Schedule home visits
       isCorrect: false
