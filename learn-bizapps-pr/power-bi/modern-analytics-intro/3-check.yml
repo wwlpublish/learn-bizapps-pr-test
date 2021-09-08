@@ -13,7 +13,7 @@ durationInMinutes: 6
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which two key concepts form the basis of Modern Analytics?
+  - content: Which two key concepts form the basis of modern analytics?
     choices: 
     - content: Power BI Desktop and Power BI service
       isCorrect: false
@@ -27,7 +27,7 @@ quiz:
     - content: Original Author and Report Authors
       isCorrect: false 
       explanation: Power Query and Data Model are the two key concepts that form the basis of Modern Analytics.
-  - content: Which Modern Analytics technology is used to connect to disparate data sources?
+  - content: Which modern analytics technology is used to connect to disparate data sources?
     choices: 
     - content: Office 365
       isCorrect: false
@@ -41,7 +41,7 @@ quiz:
     - content: Power Query
       isCorrect: true 
       explanation: Power Query is used to connect to disparate data sources.
-  - content: Who can use, reference, and benefit from a data model that is constructed by using Modern Analytics technology and deployed to Power BI service?
+  - content: Who can use, reference, and benefit from a data model that is constructed by using modern analytics technology and deployed to Power BI service?
     choices: 
     - content: Original data model author
       isCorrect: false

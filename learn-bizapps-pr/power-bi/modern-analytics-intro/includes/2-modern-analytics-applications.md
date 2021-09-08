@@ -1,4 +1,4 @@
-It is best to keep your Microsoft Modern Analytics applications current and up to date. We recommend that you use the 64-bit version of Office 365/Excel 2016+, which will provide the best experience.
+It is best to keep your Microsoft modern analytics applications current and up to date. It is also recommneded that you use the 64-bit version of Office 365/Excel 2016+, to provide the best experience.
 
 Additionally, Microsoft Power BI Desktop has new features and capabilities that are released monthly. Therefore, we also recommend that you use a 64-bit version of Power BI Desktop, which you can download from the Microsoft Store, and to always use the most recent monthly version release of the application.
 
