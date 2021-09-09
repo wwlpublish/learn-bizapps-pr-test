@@ -29,7 +29,7 @@ quiz:
     - content: "Windows services"
       isCorrect: false 
       explanation: The Pause service action can pause Windows services as well as services from other software.
-    - content: "All types of services"
+    - content: "All types of services installed on the computer"
       isCorrect: true 
       explanation: The Pause service action can pause Windows services as well as services from other software.
   - content: Which one of the following actions sets a value to an environment variable?
