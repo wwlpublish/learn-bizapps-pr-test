@@ -2,7 +2,7 @@ To become familiar with automating web tasks using the recorder, follow the pres
 
 To record the flow:
 
-1. Create a new desktop flow and select **Recorder** in the flow designer. 
+1. Create a new desktop flow, select **Recorder** in the flow designer. 
 
 1. When the recorder dialog is launched, select the dots icon of the right side of it and choose the browser you want to use for the automation.
 
