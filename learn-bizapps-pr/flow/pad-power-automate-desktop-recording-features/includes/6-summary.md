@@ -1,1 +1,3 @@
-The recorder automatically interprets users' actions and generates blocks of actions that achieve the same result. The recording of desktop applications generates UI automation, mouse, and keyboard actions. Likewise, the recording of web applications generates web browser-related actions. Automatically generated actions may be viewed and edited, both during and after the recording.
+The desktop and web recorders automatically interpret a user’s actions and generate blocks of Power Automate Desktop actions that achieve the same result. The desktop recorder generates UI and Windows-related actions, while the web recorder automates interaction with a variety of web browsers.
+
+Automatically generated actions may be viewed and edited, both during, and after the recording.
