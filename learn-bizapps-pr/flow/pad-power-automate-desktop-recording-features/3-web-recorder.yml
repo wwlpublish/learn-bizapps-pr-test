@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.pad-power-automate-desktop-recording-features.3-web-recorder 
-title: Use the recorder for web automation
+title: Web recorder
 metadata: 
-  title: Using the recorder for web automation
-  description: Recording web actions with the recorder.
+  title: Web recorder
+  description: Recording web actions with the web recorder.
   ms.date: 11/03/2020 
   author: mariosleon
   ms.author: marleon
