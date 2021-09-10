@@ -3,7 +3,7 @@ uid: learn-bizapps.row-level-security-power-bi
 metadata: 
  title: Implement row-level security
  description: Row-level security (RLS) allows you to create a single or a set of reports that targets data for a specific user. In this module, you will learn how to implement RLS by using either a static or dynamic method and how Microsoft Power BI simplifies testing RLS in Power BI Desktop and Power BI service.
- ms.date: 06/30/2020  
+ ms.date: 08/31/2021
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
