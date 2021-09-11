@@ -37,7 +37,7 @@ When you use DirectQuery to connect to data in Power BI Desktop, that connection
 
 -   When you load the data, no data is imported into the Power BI Desktop, only the schema is loaded. When you build a visual within Power BI Desktop, queries are sent to the underlying source to retrieve the necessary data. The time it takes to refresh the visual depends on the performance of the underlying data source.
 
--   If changes are made to the underlying data, they won't be immediately reflected in the existing visuals in Power BI due to caching. You need to carry out a refresh to see those changes. The necessary queries are resent for each visual, and the visuals are updated accordingly.
+-   If changes are made to the underlying data, they won't be immediately reflected in the existing visuals in Power BI due to caching. You need to carry out a refresh to see those changes. The necessary queries are present for each visual, and the visuals are updated accordingly.
 
 -   When you publish the report to the Power BI service, it will result in a dataset in Power BI service, the same as for import. However, no data is included with that dataset.
 
