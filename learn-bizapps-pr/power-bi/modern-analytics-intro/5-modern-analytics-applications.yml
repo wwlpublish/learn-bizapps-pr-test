@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.modern-analytics-intro.2-modern-analytics-applications 
-title: Install and update Modern Analytics applications
+uid: learn-bizapps.modern-analytics-intro.5-modern-analytics-applications 
+title: Install and update modern analytics applications
 metadata: 
-  title: Install and update Modern Analytics applications
-  description: Learn how to install and update Modern Analytics applications.
+  title: Install and update modern analytics applications
+  description: Learn how to install and update modern analytics applications.
   ms.date: 09/13/2021 
   author: heyrob 
   ms.author: robde 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 2 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/2-modern-analytics-applications.md)] 
+ [!include[](includes/5-modern-analytics-applications.md)] 
