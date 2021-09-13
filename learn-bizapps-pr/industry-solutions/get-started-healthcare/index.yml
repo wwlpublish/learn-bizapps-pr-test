@@ -7,7 +7,8 @@ metadata:
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
- ms.prod: learning-d365-healthcare  
+ ms.prod: learning-d365-healthcare
+ ms.custom: intro-internal
 title: Get started with Microsoft Cloud for Healthcare solutions powered by Dynamics 365
 summary: |  
   [!include[](../includes/module-banner.md)] 
