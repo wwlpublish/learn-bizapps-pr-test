@@ -2,7 +2,7 @@ Microsoft Excel is an application that has been used since 1985 by over 750 mill
 
 Excel offers more functionality than you might have realized. In 2009, a new version of Excel was created to enable more modern analysis, provide interactive business intelligence, and build a data culture within organizations.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWKC80]
 
 Excel has received two major upgrades:
 
