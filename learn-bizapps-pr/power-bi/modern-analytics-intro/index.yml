@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.modern-analytics-intro 
 metadata: 
- title: Introduction to Modern Analytics using Excel and Power BI
- description: This module introduces the Microsoft Modern Analytics core suite of tools, including Office 365/Excel 2016+, Power Query, Data Models, Power BI Desktop, and Power BI service. You'll learn how you and your organization can work faster, more efficiently, and smarter by using Excel together with Power BI by using Modern Analytics technologies.
+ title: Introduction to modern analytics using Excel and Power BI
+ description: This module introduces the Microsoft modern analytics core suite of tools, including Office 365/Excel 2016+, Power Query, Data Models, Power BI Desktop, and Power BI service. You'll learn how you and your organization can work faster, more efficiently, and smarter by using Excel together with Power BI by using Modern Analytics technologies.
  ms.date: 09/13/2021  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
-title: Introduction to Modern Analytics using Excel and Power BI
+title: Introduction to modern analytics using Excel and Power BI
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Learn how Microsoft Office 365/Microsoft Excel 2016+ combined with Microsoft Power Query, Data Model, Power BI Desktop, and Power BI service come together to provide Microsoft Modern Analytics capabilities.
 abstract: |  
-    In this module, you will: 
-    - Learn about Modern Analytics.
-    - Discover the benefits of the Microsoft Modern Analytics technology suite of tools, such as Office 365/Excel 2016+, Power Query, Data Models, Power BI Desktop, and Power BI service.
-    - Learn about the ecosystem of Modern Analytics and the roles of people in your organization who use the technologies.
-    - Install and update Modern Analytics applications.
+    By the end of this module, you’ll be able to: 
+    - Describe modern analytics.
+    - Discover the benefits of the Microsoft modern analytics technology suite of tools, such as Office 365/Excel 2016+, Power Query, Data Models, Power BI Desktop, and Power BI service.
+    - Descrsibe the ecosystem of modern analytics and the roles of people in your organization who use the technologies.
+    - Install and update modern analytics applications.
 prerequisites: Office 365/Excel 2016+
 iconUrl: /learn/achievements/modern-analytics-intro.svg  
 levels:  
@@ -31,7 +31,10 @@ products:
 units: 
 - learn-bizapps.modern-analytics-intro.1-introduction 
 - learn-bizapps.modern-analytics-intro.2-modern-analytics-applications 
-- learn-bizapps.modern-analytics-intro.3-check 
-- learn-bizapps.modern-analytics-intro.4-summary 
+- learn-bizapps.modern-analytics-intro.3-ecosystem 
+- learn-bizapps.modern-analytics-intro.4-roles 
+- learn-bizapps.modern-analytics-intro.5-modern-analytics-applications 
+- learn-bizapps.modern-analytics-intro.6-check 
+- learn-bizapps.modern-analytics-intro.7-summary
 badge: 
   uid: learn-bizapps.modern-analytics-intro.badge 
