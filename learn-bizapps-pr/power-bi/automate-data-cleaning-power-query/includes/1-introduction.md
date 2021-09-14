@@ -1,7 +1,7 @@
 Power Query is a modern Excel technology that answers that question by allowing you to design a series of steps or instructions to convert one or more raw data sources into functional data tables that are usable in reporting and analysis. You can use Power Query to extract, transform, and load data to create a data model. While Power Query is a valuable tool in Excel, it's more seamlessly integrated and works best within Microsoft Power BI Desktop.
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWKKPD]
 
 Analytics doesn't exist without data. Within the modern analytics ecosystem, Power Query is the tool to use for the extract, transform, and load (ETL) data integration process. Power Query extracts data from multiple sources, transforms it to suit your needs, and loads it into your data model.
 
