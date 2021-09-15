@@ -39,9 +39,9 @@ You will notice in our example, the new table and primary column begins with **c
 
 4. Create the choice set:
 
-    1. Replace *New choice* with *Dog*.
+    1. Replace *New option* with *Dog*.
     2. Select **Add new item**.
-    3. Replace *New choice* with *Cat*.
+    3. Replace *New option* with *Cat*.
     4. Select **Save**.
 
     > [!div class="mx-imgBorder"]
