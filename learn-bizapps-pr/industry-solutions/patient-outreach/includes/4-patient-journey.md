@@ -1,4 +1,4 @@
-In this exercise, you will create a patient journey for the patient segment that you created in the first exercise. A patient journey can expand your organization's patient outreach marketing capabilities by helping healthcare organizations guide the members of a selected segment through the communication process. It does this by using automated messaging, activity generation, interactive decision points, and more.
+In this exercise, you will create a patient journey for the patient segment that you created in the first exercise. A patient journey can expand your organization's patient outreach marketing capabilities by helping healthcare organizations guide the members of a selected segment through the communication process. It completes this action by using automated messaging, activity generation, interactive decision points, and more.
 
 The following screenshot shows an example of a configured patient journey that focuses on the Patient Activation Measure segment group and sends them a marketing email after a three-month waiting period.
 
@@ -80,7 +80,7 @@ The following screenshot shows an example of a configured patient journey that f
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Status reason progress.](../media/status.png)](../media/status.png#lightbox)
 
-1. After your patient journey has started, you will be able to gather key metrics and insights from the record. When this information will become available depends on the date and time that you chose for the start of the customer journey. You can return to view the results later if they aren't yet available.
+1. After your patient journey has started, you will be able to gather key metrics and insights from the record. This information will become available at a time that is based on the date and time that you chose for the start of the customer journey. You can return to view the results later if they aren't yet available.
 
 Congratulations, you have created a patient journey by using the patient segment and marketing email that you created in the previous exercise.
 
