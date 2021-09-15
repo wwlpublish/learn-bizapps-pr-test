@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.home-health 
 metadata: 
- title: Home health
+ title: Home health in Microsoft Cloud for Healthcare
  description: Learn how to empower health team collaboration within a healthcare organization by using the Home Health application in Microsoft Cloud for Healthcare. With the Home Health application, provider personnel can schedule appointments for the patient based on various factors. You can view patient information directly in context, and a guided business process flow ensures that each measure is taken prior to and after booking the appointment.
  ms.date: 09/03/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-industry-solutions  
-title: Home health
+title: Home health in Microsoft Cloud for Healthcare
 summary: |  
   [!include[](../includes/module-banner.md)] 
   With the Home Health application in Microsoft Cloud for Healthcare, provider personnel can schedule appointments for the patient based on various factors. You can view patient information directly in context, and a guided business process flow ensures that each measure is taken prior to and after booking the appointment.
