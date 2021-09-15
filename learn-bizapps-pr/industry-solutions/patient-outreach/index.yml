@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.patient-outreach 
 metadata: 
- title: Patient outreach
+ title: Patient outreach in Microsoft Cloud for Healthcare
  description: Learn how to enhance patient engagement within a healthcare organization by using patient outreach tools. The Patient Outreach application is part of Microsoft Cloud for Healthcare, and it focuses on patient campaign management, which helps you organize and automate marketing and communicate with patients. The app helps healthcare providers reach out to their communities and patients in a targeted, efficient way. Providers can choose email, text, regular mail, or a combination, to provide healthcare information to specific groups of patients and community members.
  ms.date: 09/03/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-industry-solutions  
-title: Patient outreach
+title: Patient outreach in Microsoft Cloud for Healthcar
 summary: |  
   [!include[](../includes/module-banner.md)] 
   The Patient Outreach application in Microsoft Cloud for Healthcare focuses on patient campaign management, which helps you organize and automate marketing and communicate with patients. It helps healthcare providers reach out to their communities and patients in a targeted, efficient way. Providers can choose email, text, regular mail, or a combination, to provide healthcare information to specific groups of patients and community members. 
