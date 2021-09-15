@@ -13,20 +13,20 @@ durationInMinutes: 8
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which of the following is NOT a key capability of Patient Outreach?
+  - content: Which of the following options is not a key capability of Patient Outreach?
     choices: 
-    - content: Patient Segmentation
+    - content: Patient segmentation
       isCorrect: false
-      explanation: Patient Dynamics is not a key capability of Patient Outreach.
-    - content: Patient Journey
+      explanation: Patient dynamics is not a key capability of Patient Outreach.
+    - content: Patient journey
       isCorrect: false 
-      explanation: Patient Dynamics is not a key capability of Patient Outreach.
-    - content: Patient Dynamics
+      explanation: Patient dynamics is not a key capability of Patient Outreach.
+    - content: Patient dynamics
       isCorrect: true 
-      explanation: Patient Dynamics is not a key capability of Patient Outreach.
-    - content: Event Management
+      explanation: Patient dynamics is not a key capability of Patient Outreach.
+    - content: Event management
       isCorrect: false 
-      explanation: Patient Dynamics is not a key capability of Patient Outreach.
+      explanation: Patient dynamics is not a key capability of Patient Outreach.
   - content: Patient Outreach focuses on which of the following priority scenarios?
     choices: 
     - content: Enhance patient engagement
@@ -41,21 +41,21 @@ quiz:
     - content: Improve clinical and operational insights
       isCorrect: false 
       explanation: Patient Outreach focuses on enhancing patient engagement.
-  - content: How are Patient Segments used to group patients?
+  - content: How are patient segments used to group patients?
     choices: 
     - content: Last name
       isCorrect: false
-      explanation: Patient Segments group patients by similar characteristics.
+      explanation: Patient segments group patients by similar characteristics.
     - content: Similar characteristics
       isCorrect: true 
-      explanation: Patient Segments group patients by similar characteristics.
+      explanation: Patient segments group patients by similar characteristics.
     - content: Zip code
       isCorrect: false 
-      explanation: Patient Segments group patients by similar characteristics.
-    - content: Patient Segments do not group patients
+      explanation: Patient segments group patients by similar characteristics.
+    - content: Patient segments do not group patients
       isCorrect: false 
-      explanation: Patient Segments group patients by similar characteristics.
-  - content: Which of the following allow you to define a patient segment by using a set of rules and conditions that automatically change based on information in the database?
+      explanation: Patient segments group patients by similar characteristics.
+  - content: Which one of the following options allows you to define a patient segment by using a set of rules and conditions that automatically change based on information in the database?
     choices: 
     - content: Static segments
       isCorrect: false
@@ -63,7 +63,7 @@ quiz:
     - content: Dynamic segments
       isCorrect: true 
       explanation: Dynamic segments allow you to define a patient segment by using a set of rules and conditions that automatically change based on information in the database.
-    - content: Dynamics cohorts
+    - content: Dynamic cohorts
       isCorrect: false 
       explanation: Dynamic segments allow you to define a patient segment by using a set of rules and conditions that automatically change based on information in the database.
     - content: Static journey
