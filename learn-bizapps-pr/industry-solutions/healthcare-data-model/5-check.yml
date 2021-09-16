@@ -13,59 +13,59 @@ durationInMinutes: 8
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which of the following was deprecated back in November 2020?
+  - content: Which of the following solutions was deprecated in November 2020?
     choices: 
     - content: Microsoft Cloud for Healthcare 
       isCorrect: false 
-      explanation: Dynamics 365 Healthcare Accelerator
-    - content: Microsoft Cloud for Healthcare Data Model
+      explanation: Dynamics 365 Healthcare Accelerator was deprecated in November 2020.
+    - content: Microsoft Cloud for Healthcare data model
       isCorrect: false 
-      explanation: Dynamics 365 Healthcare Accelerator
+      explanation: Dynamics 365 Healthcare Accelerator was deprecated in November 2020.
     - content: Dynamics 365 Healthcare Accelerator
       isCorrect: true 
-      explanation: Dynamics 365 Healthcare Accelerator
+      explanation: Dynamics 365 Healthcare Accelerator was deprecated in November 2020.
     - content: Dynamics 365 Field Service
       isCorrect: false 
-      explanation: Dynamics 365 Healthcare Accelerator
-  - content: Which of the following apps is not utilized by the Microsoft Cloud for Healthcare Data Model?
+      explanation: Dynamics 365 Healthcare Accelerator was deprecated in November 2020.
+  - content: Which one of the following apps is not used by the Microsoft Cloud for Healthcare data model?
     choices: 
     - content: Dynamics 365 Sales
       isCorrect: true 
-      explanation: Dynamics 365 Sales
+      explanation: Dynamics 365 Sales is not used by the Microsoft Cloud for Healthcare data model.
     - content: Dynamics 365 Field Service
       isCorrect: false 
-      explanation: Dynamics 365 Sales
+      explanation: Dynamics 365 Sales is not used by the Microsoft Cloud for Healthcare data model.
     - content: Dynamics 365 for Marketing
       isCorrect: false 
-      explanation: Dynamics 365 Sales
+      explanation: Dynamics 365 Sales is not used by the Microsoft Cloud for Healthcare data model.
     - content: Dynamics 365 Customer Service
       isCorrect: false 
-      explanation: Dynamics 365 Sales
-  - content: The healthcare data model for Dynamics 365 is based on
+      explanation: Dynamics 365 Sales is not used by the Microsoft Cloud for Healthcare data model.
+  - content: The healthcare data model for Dynamics 365 is based on which of the following entities?
     choices: 
-    - content: The Common Data Model
+    - content: Common Data Model
       isCorrect: false 
-      explanation: The Fast Healthcare Interoperability Resources (FHIR) standards framework
-    - content: The Fast Healthcare Interoperability Resources (FHIR) standards framework
+      explanation: The healthcare data model for Dynamics 365 is based on the Fast Healthcare Interoperability Resources (FHIR) standards framework.
+    - content: Fast Healthcare Interoperability Resources (FHIR) standards framework
       isCorrect: true 
-      explanation: The Fast Healthcare Interoperability Resources (FHIR) standards framework
+      explanation: The healthcare data model for Dynamics 365 is based on the Fast Healthcare Interoperability Resources (FHIR) standards framework.
     - content: Dynamics 365 Customer Service
       isCorrect: false 
-      explanation: The Fast Healthcare Interoperability Resources (FHIR) standards framework
+      explanation: The healthcare data model for Dynamics 365 is based on the Fast Healthcare Interoperability Resources (FHIR) standards framework.
     - content: Azure Synapse
       isCorrect: false 
-      explanation: The Fast Healthcare Interoperability Resources (FHIR) standards framework
-  - content: The Common Data Model in the Healthcare Cloud sits right on top of 
+      explanation: The healthcare data model for Dynamics 365 is based on the Fast Healthcare Interoperability Resources (FHIR) standards framework.
+  - content: Common Data Model in Microsoft Cloud for Healthcare sits on top of which application?
     choices: 
     - content: Microsoft Dataverse
       isCorrect: false 
-      explanation: Microsoft Azure
+      explanation: Common Data Model sits on top of Microsoft Azure.
     - content: Microsoft Azure
       isCorrect: true 
-      explanation: Microsoft Azure
+      explanation: Common Data Model sits on top of Microsoft Azure.
     - content: Microsoft Teams
       isCorrect: false 
-      explanation: Microsoft Azure
+      explanation: Common Data Model sits on top of Microsoft Azure.
     - content: Microsoft Word
       isCorrect: false 
-      explanation: Microsoft Azure
+      explanation: Common Data Model sits on top of Microsoft Azure.
