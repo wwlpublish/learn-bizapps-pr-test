@@ -100,7 +100,7 @@ The following steps explain how to open and add a view in the app designer.
     > [!NOTE]
     > Views are displayed based on the table that you have selected. For example, when you select Account, views that are related to the Account table are displayed.
 
-For more information about the app designer visit [Design custom business apps by using the app designer](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-custom-business-apps-using-app-designer)
+For more information about the app designer visit [Design custom business apps by using the app designer](/powerapps/maker/model-driven-apps/design-custom-business-apps-using-app-designer)
 
 ## Add a column to your view in app designer
 
