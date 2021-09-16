@@ -8,12 +8,12 @@ Excel has received two major upgrades:
 
 -   **Power Query**, which is occasionally referred to as **Get & Transform** due to its home on the Excel data ribbon.
 
--   **Power Pivot**, which is also known as **Data model**.
+-   **Power Pivot**, which is also known as **Data Model**.
 
 > [!div class="mx-imgBorder"]
-> ![Two major upgrades for Excel are Power Query and data Mmodel.](../media/upgrades.png)
+> ![Screenshot of two major upgrades for Excel - Power Query and Data Model.](../media/upgrades.png)
 
-Power Query and data model are two Excel technologies that have been offered since 2009, and they have evolved into Microsoft Power BI, which includes these two Excel technologies. However, Power BI differs in that it also offers you the ability to publish data models to the Power BI service cloud for creating and sharing reports and dashboards.
+Power Query and Data Model are two Excel technologies that have been offered since 2009, and they have evolved into Microsoft Power BI, which includes these two Excel technologies. However, Power BI differs in that it also offers you the ability to publish data models to Microsoft Power BI service cloud for creating and sharing reports and dashboards.
 
 Collectively, Excel plus these two new technologies and Power BI are referred to as modern analytics. Adoption of these modern tools will save you time and generate smarter, more valuable results, providing real benefit to your company and your career.
 

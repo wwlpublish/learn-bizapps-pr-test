@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: Power BI Desktop and Power BI service
       isCorrect: false
-      explanation: Power Query and Data Model are the two key concepts that form the basis of Modern Analytics.
+      explanation: Power Query and Data Model are the two key concepts that form the basis of modern analytics.
     - content: Power Query and Data Model
       isCorrect: true 
-      explanation: Power Query and Data Model are the two key concepts that form the basis of Modern Analytics.
+      explanation: Power Query and Data Model are the two key concepts that form the basis of modern analytics.
     - content: Excel and Power BI 
       isCorrect: false 
-      explanation: Power Query and Data Model are the two key concepts that form the basis of Modern Analytics.
-    - content: Original Author and Report Authors
+      explanation: Power Query and Data Model are the two key concepts that form the basis of modern analytics.
+    - content: Original author and report authors
       isCorrect: false 
-      explanation: Power Query and Data Model are the two key concepts that form the basis of Modern Analytics.
+      explanation: Power Query and Data Model are the two key concepts that form the basis of modern analytics.
   - content: Which modern analytics technology is used to connect to disparate data sources?
     choices: 
     - content: Office 365
@@ -45,13 +45,13 @@ quiz:
     choices: 
     - content: Original data model author
       isCorrect: false
-      explanation: The original data model author, other business users, and a non-original report author can all use, reference, and benefit from a data model that is constructed by using Modern Analytics technology and deployed to Power BI service.
+      explanation: The original data model author, other business users, and a non-original report author can all use, reference, and benefit from a data model that is constructed by using modern analytics technology and deployed to Power BI service.
     - content: Other business users
       isCorrect: false 
-      explanation: The original data model author, other business users, and a non-original report author can all use, reference, and benefit from a data model that is constructed by using Modern Analytics technology and deployed to Power BI service.
+      explanation: The original data model author, other business users, and a non-original report author can all use, reference, and benefit from a data model that is constructed by using modern analytics technology and deployed to Power BI service.
     - content: A non-original report author
       isCorrect: false 
-      explanation: The original data model author, other business users, and a non-original report author can all use, reference, and benefit from a data model that is constructed by using Modern Analytics technology and deployed to Power BI service.
+      explanation: The original data model author, other business users, and a non-original report author can all use, reference, and benefit from a data model that is constructed by using modern analytics technology and deployed to Power BI service.
     - content: All of the above
       isCorrect: true 
-      explanation: The original data model author, other business users, and a non-original report author can all use, reference, and benefit from a data model that is constructed by using Modern Analytics technology and deployed to Power BI service.
+      explanation: The original data model author, other business users, and a non-original report author can all use, reference, and benefit from a data model that is constructed by using modern analytics technology and deployed to Power BI service.
