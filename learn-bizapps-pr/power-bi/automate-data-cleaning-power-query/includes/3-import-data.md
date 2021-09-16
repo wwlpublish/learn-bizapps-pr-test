@@ -13,7 +13,7 @@ To import a single file, follow these steps:
 This process will launch a Windows Explorer window, where you can navigate to the folder where the source data is stored and then select the workbook.
 
 > [!div class="mx-imgBorder"]
-> [![Excel Ribbon > Data > Get Data > Form File > From Workbook.](../media/3-1-workbook.png)](../media/3-1-workbook.png#lightbox)
+> [![Screenshot of importing a single file from the Excel ribbon.](../media/3-1-workbook.png)](../media/3-1-workbook.png#lightbox)
 
 > [!NOTE]
 > You can also select the **From Text/CSV** button to import text or CSV files.
@@ -21,48 +21,48 @@ This process will launch a Windows Explorer window, where you can navigate to th
 The **Navigator** window will launch, showing the selected file's contents. Most data sources follow this general layout, with different types of objects represented by different icons. For an Excel workbook, the object types include worksheets and tables.
 
 > [!div class="mx-imgBorder"]
-> [![Power Query Navigator Window displaying FactSales.](../media/3-2-navigator.png)](../media/3-2-navigator.png#lightbox)
+> [![Screenshot of the Navigator window displaying FactSales.](../media/3-2-navigator.png)](../media/3-2-navigator.png#lightbox)
 
-Selecting an object will trigger a preview in the data pane on the right side of the screen. You can import multiple objects simultaneously by selecting the **Select multiple items** checkbox in the upper-left corner or by searching for specific objects using the search box.
+Selecting an object will trigger a preview in the data pane on the right side of the screen. You can import multiple objects simultaneously by selecting the **Select multiple items** checkbox in the upper-left corner or by searching for specific objects by using the search box.
 
-After you've selected the data objects that you want, select the **Load** button to create a query that sends the data directly into Excel. Or you can select the **Transform Data** button to launch Power Query Editor, which will show one or more new queries that reference those data sources.
+After you've selected the data objects that you want, select the **Load** button to create a query that sends the data directly into Excel. Alternatively, you can select the **Transform Data** button to launch Power Query Editor, which will show one or more new queries that reference those data sources.
 
 ## Combine multiple files
 
-Power Query can help you combine multiple files of the same file type in the same folder. You can complete this action directly within Excel by going to the **Data** ribbon and then selecting **Get Data > From File > From Folder**, as explained in the previous section. Or the **Home** tab of the Power Query ribbon includes a **New Source** dropdown list in the upper-right corner that includes the same series of cascading menus.
+Power Query can help you combine multiple files of the same file type in the same folder. You can complete this action directly within Excel by going to the **Data** ribbon and then selecting **Get Data > From File > From Folder**, as explained in the previous section. Alternatively, the **Home** tab of the Power Query ribbon includes a **New Source** dropdown list in the upper-right corner that includes the same series of cascading menus.
 
 > [!div class="mx-imgBorder"]
-> [![Power Query Editor Window with Home > New Sources window displayed.](../media/3-3-new-source.png)](../media/3-3-new-source.png#lightbox)
+> [![Screenshot of the Power Query Editor window with Home > New Sources window displayed.](../media/3-3-new-source.png)](../media/3-3-new-source.png#lightbox)
 
-Go to the corresponding file path and select the folder you want. Power Query will launch a navigation window that lists the objects within the folder and will offer four button options: **Combine**, **Load** **Transform Data**, or **Cancel**.
+Go to the corresponding file path and select the folder that you want. Power Query will launch a navigation window that lists the objects within the folder and will offer four button options: **Combine**, **Load**, **Transform Data**, or **Cancel**.
 
 > [!div class="mx-imgBorder"]
-> [![Power Query Combine User Interface window with files in folder.](../media/3-4-files.png)](../media/3-4-files.png#lightbox)
+> [![Screenshot of the Combine User Interface window with files in the folder.](../media/3-4-files.png)](../media/3-4-files.png#lightbox)
 
 > [!NOTE]
 > Selecting the **Transform Data** button creates a single query that contains only the file system contents that are discovered in the folder.
 
-After you've selected the **Combine & Transform Data** button, **Power Query** launches a **Combine Files** navigation window. This wizard asks you to identify and select a sample file and then select a common feature among your files to combine together.
+After you've selected the **Combine & Transform Data** button, Power Query will launch a **Combine Files** navigation window. This wizard will ask you to identify and select a sample file and then select a common feature among your files to combine together.
 
 > [!div class="mx-imgBorder"]
-> [![Combine Files User Interface sample file navigation window.](../media/3-5-sample.png)](../media/3-5-sample.png#lightbox)
+> [![Screenshot example of the Combine Files navigation window.](../media/3-5-sample.png)](../media/3-5-sample.png#lightbox)
 
 > [!NOTE]
-> The Transform & Combine option works best with a folder that contains numerous files with different data in an identical format across commonly named objects, such as a Sales worksheet.
+> The **Transform & Combine** option works best with a folder that contains numerous files with different data in an identical format across commonly named objects, such as a Sales worksheet.
 
-After you've selected a feature, such as a common table or sheet name, Power Query will create multiple queries, functions, and parameters in the Query pane. These helper queries are referenced behind the scenes to help perform the steps for combining the files. Among these queries will be a **Transform Sample File** query.
-
-> [!div class="mx-imgBorder"]
-> [![Power Query > Query Pane with Helper Query Folders containing parameter, functions, and queries.](../media/3-6-query-pane.png)](../media/3-6-query-pane.png#lightbox)
-
-The **Transform Sample File** query allows you to define operations that should be applied to each file before appending them together in the final results query. Some examples might include unpivoting date fields, filtering subtotals, or creating common column names.
-
-The final results query will be named after the folder that you selected and grouped into the **Other Queries** folder. This query appends the results of applying those steps that are defined within the **Transform Sample File** option against each file from the folder. Besides this append action, Power Query adds a column called Source Name, which will contain the name of the original source file.
-
-You can now complete tasks that previously required multiple find and replace actions, copy and paste actions, and any number of other manual adjustments in fewer steps, and enhance them with transformations that repeat against new files when the data is refreshed.
+After you've selected a feature, such as a common table or sheet name, Power Query will create multiple queries, functions, and parameters in the **Query** pane. These helper queries are referenced behind the scenes to help perform the steps for combining the files. Among these queries will be a **Transform Sample File** query.
 
 > [!div class="mx-imgBorder"]
-> [![Power Query Editor window with all five office location CSV files combined into one Office query or table.](../media/3-7-office-query.png)](../media/3-7-office-query.png#lightbox)
+> [![Screenshot of the Query Pane with the Helper Queries folder containing parameters, functions, and queries.](../media/3-6-query-pane.png)](../media/3-6-query-pane.png#lightbox)
+
+The **Transform Sample File** query allows you to define operations that should be applied to each file before you append them together in the final results query. Some examples might include unpivoting date fields, filtering subtotals, or creating common column names.
+
+The final results query will be named after the folder that you selected and grouped into the **Other Queries** folder. This query appends the results of applying those steps that are defined within the **Transform Sample File** option against each file from the folder. Other than this append action, Power Query adds a column called Source Name, which will contain the name of the original source file.
+
+Now, you can complete tasks that previously required multiple find and replace actions, copy and paste actions, and any number of other manual adjustments in fewer steps, and you can enhance them with transformations that repeat against new files when the data is refreshed.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Power Query Editor window with all five office location CSV files combined into one Office query or table.](../media/3-7-office-query.png)](../media/3-7-office-query.png#lightbox)
 
 > [!NOTE]
 > The amount of customization that can be applied to a folder import is near limitless, making folders with multiple file types and formats consumable with the correct Power Query mashup.

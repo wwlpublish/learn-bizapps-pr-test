@@ -11,7 +11,7 @@ metadata:
 title: Automate data cleaning with Power Query 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module introduces Power Query in Microsoft Excel, a powerful data connection, cleaning, and shaping technology that is a core part of the Microsoft modern analytics suite of business intelligence tools. Achieving clean data for analysis consumes countless hours for professionals across all industries. With Power Query, your data preparation and cleaning will be transformed, automated, and improved, giving you time for analysis and driving business impact.
+  Power Query in Microsoft Excel is a powerful data connection, cleaning, and shaping technology that is a core part of the Microsoft modern analytics suite of business intelligence tools. Achieving clean data for analysis consumes countless hours for professionals across all industries. With Power Query, your data preparation and cleaning will be transformed, automated, and improved, giving you time for analysis and for driving business impact.
 abstract: |  
     In this module, you will: 
     - Learn about the role of Power Query in the modern analytics ecosystem.
