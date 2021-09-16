@@ -12,7 +12,7 @@ The tutorial follows the Contoso company, which is a pet grooming business that 
 
 Sign in to [Power Apps](https://make.powerapps.com) and follow these steps to create a new custom table.
 
-1. In the left navigation pane, expand **Data**, select **Tables**, and then select **+ New table**.
+1. In the left navigation pane, expand **Data**/**Dataverse**, select **Tables**, and then select **+ New table**.
 
 2. Under New table, enter the following:
 
