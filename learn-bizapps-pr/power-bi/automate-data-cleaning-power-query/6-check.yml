@@ -31,30 +31,30 @@ quiz:
     choices: 
     - content: Excel
       isCorrect: false 
-      explanation: All of the above
+      explanation: Power Query can connect to Excel, CSV, and folder data sources. 
     - content: CSV
       isCorrect: false 
-      explanation: All of the above
+      explanation: Power Query can connect to Excel, CSV, and folder data sources.
     - content: Folders
       isCorrect: false 
-      explanation: All of the above
+      explanation: Power Query can connect to Excel, CSV, and folder data sources.
     - content: All of the above
       isCorrect: true 
-      explanation: All of the above
+      explanation: Power Query can connect to Excel, CSV, and folder data sources.
   - content: Which of the following selections isn't one of the five key areas of the Power Query Editor window?
     choices: 
     - content: Queries pane
       isCorrect: false 
-      explanation: Conditional Column isn't one of the five key areas of the Power Query Editor window.
+      explanation: Conditional column isn't one of the five key areas of the Power Query Editor window.
     - content: Preview
       isCorrect: false 
-      explanation: Conditional Column isn't one of the five key areas of the Power Query Editor window.
-    - content: Conditional Column
+      explanation: Conditional column isn't one of the five key areas of the Power Query Editor window.
+    - content: Conditional column
       isCorrect: true 
-      explanation: Conditional Column isn't one of the five key areas of the Power Query Editor window.
-    - content: Query Settings
+      explanation: Conditional column isn't one of the five key areas of the Power Query Editor window.
+    - content: Query settings
       isCorrect: false 
-      explanation: Conditional Column isn't one of the five key areas of the Power Query Editor window.
+      explanation: Conditional column isn't one of the five key areas of the Power Query Editor window.
   - content: What language is used within the Power Query formula bar and is used to create custom columns?
     choices: 
     - content: MDX
