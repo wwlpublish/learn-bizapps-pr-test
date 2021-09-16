@@ -1,6 +1,8 @@
-The healthcare data model for Dynamics 365 is built on the Microsoft Common Data Model. In this module, we'll review the following:
+Microsoft Cloud for Healthcare data model for Microsoft Dynamics 365 is built on Common Data Model. 
 
-- Microsoft Common Data Model
+This module reviews the following concepts:
+
+- Common Data Model
 
 - Healthcare data model components
 
