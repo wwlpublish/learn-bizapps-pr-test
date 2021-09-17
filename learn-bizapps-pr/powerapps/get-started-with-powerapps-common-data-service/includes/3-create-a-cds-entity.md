@@ -35,7 +35,6 @@ You will notice in our example, the new table and primary column begins with **c
     - **Display name**: *Species*
     - **Data type**: *Choice*
     - **Choice set**: *+ New choice*
-    - **Searchable**: *Yes*
 
 4. Create the choice set:
 
@@ -98,12 +97,12 @@ You will notice in our example, the new table and primary column begins with **c
 ## Customize the main form
 
 1. In the left navigation pane, expand **Data**, select **Tables**, and then select **Pet**.
-1. On the **Forms** tab, select **Information** next to the **Main** form type to open the form editor.
+1. On the **Forms** tab, select the row that includes **Main** as the form type. In that row, select **Information** to open the form editor.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Form tab with Information highlighted.](../media/updated-main-form-edit.png)
 
-1. In the form editor, drag the **Species**, **Breed**, **Appointment date**, and **Account** columns from the **Column Explorer** pane to the **General** section of the form canvas, so that the form looks like this.
+1. In the left pane, select **Table columns**. Drag the **Species**, **Breed**, **Appointment date**, and **Account** columns from the **Column Explorer** pane to the **General** section of the form canvas, so that the form looks like this.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of General section of the form canvas.](../media/updated-main-form-edit2.png)
