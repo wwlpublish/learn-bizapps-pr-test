@@ -1,8 +1,8 @@
 In this exercise, you will create a process that prompts users to enter information about new clients and then register them into an Excel file.
 
-1. Launch Power Automate Desktop and create a new flow named **Client registration**.
+1. Launch Power Automate for desktop and create a new flow named **Client registration**.
 
-    ![Screenshot of the Power Automate Build a flow dialog.](..\media\exercise-create-flow.png)
+    ![Screenshot of the Build a flow dialog.](..\media\exercise-create-flow.png)
 
 1. Deploy a **Display input dialog** action and populate the **Input dialog message** field with a message asking for the client's name.
 
