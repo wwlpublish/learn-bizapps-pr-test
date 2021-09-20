@@ -1,12 +1,12 @@
-By the end of this exercise, you will be able to create a Power Automate cloud flow which runs a Power Automate Desktop flow. The flow is designed to approve or deny an employee's request for time off.
+By the end of this exercise, you will be able to create a Power Automate cloud flow which runs a Power Automate desktop flow. The flow is designed to approve or deny an employee's request for time off.
 
 The flow works as follows:
 
 1. Power Automate requests 3 inputs from the user. A first name, a last name, and the amount of days off an employee is requesting
-1. Power Automate passes all three inputs to Power Automate Desktop as input variables.
-1. The Power Automate Desktop flow writes the values of these variables to a new row in an open Excel sheet
+1. Power Automate passes all three inputs to Power Automate for desktop as input variables.
+1. The Power Automate desktop flow writes the values of these variables to a new row in an open Excel sheet
 1. A message box prompts the user to approve or deny the time off
-1. Power Automate Desktop writes the result of the approval request to the Excel sheet and passes it back to Power Automate as an output variable
+1. Power Automate for desktop writes the result of the approval request to the Excel sheet and passes it back to Power Automate as an output variable
 1. Power Automate uses the result of the approval request as a variable and sends an e-mail containing the value of the variable
 
 # Exercise
@@ -15,7 +15,7 @@ The flow works as follows:
 
    ![Screenshot of Excel spreadsheet with headers added.](..\media\spreadsheet.png)
 
-1. In Power Automate Desktop, select **New Flow** and specify a flow name.
+1. In Power Automate for desktop, select **New Flow** and specify a flow name.
 
    ![Screenshot of the Build a flow dialog with the flow name set to Update time off spreadsheet.](..\media\pad-create-flow.png)
 
@@ -65,7 +65,7 @@ The flow works as follows:
 
    ![Screenshot of the Write to Excel worksheet action dialog.](..\media\write-to-excel-action-properties.png)
 
-1. The completed flow should look like the following figure:
+1. The completed desktop flow should look like the following figure:
 
 ![Screenshot of the completed desktop flow.](..\media\completed-pad-flow.png)
 
@@ -89,7 +89,7 @@ The flow works as follows:
 
    ![Screenshot of the Choose an action search results.](..\media\choose-an-action.png)
 
-1. Select the **Update time off spreadsheet** flow made previously and set Run mode to **Attended**. Set the three variables to their corresponding values from the text inputs of the first action, using dynamic content.
+1. Select the **Update time off spreadsheet** flow made previously and set **Run Mode** to **Attended**. Set the three variables to their corresponding values from the text inputs of the first action, using dynamic content.
 
    ![Screenshot of the Run a flow built with Power Automate Desktop action.](..\media\run-a-flow-built-by-pad-action-properties.png)
 

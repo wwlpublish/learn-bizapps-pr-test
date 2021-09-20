@@ -1,6 +1,6 @@
-After you have created your desktop flow in Power Automate Desktop, you can run it from a cloud flow in Power Automate through desktop flows, in either attended or unattended mode.
+After creating your desktop flow in Power Automate for desktop, you can run it from a cloud flow in Power Automate, in either attended or unattended mode.
 
-Create a desktop flow in Power Automate Desktop, and add input and output variables.
+Create a desktop flow in Power Automate for desktop, and add input and output variables.
 
 ![Screenshot of the input output variables.](..\media\input-output-variables.png)
 
@@ -32,7 +32,7 @@ You can call this desktop flow to run from Power Automate.
 
 1. Choose an existing desktop flow or create a new one, and select the run mode.
 
-   Choosing a desktop flow with input variables will display fields where values for these variables can be entered. When the Power Automate Desktop flow runs, it will use the values provided here.
+   Choosing a desktop flow with input variables will display fields where values for these variables can be entered. When the Power Automate desktop flow runs, it will use the values provided here.
 
    ![Screenshot of the Run a flow built with Power Automate Desktop action properties.](..\media\run-flow-pad-action-properties.png)
 
@@ -40,11 +40,11 @@ You can call this desktop flow to run from Power Automate.
 
    ![Screenshot of the run Power Automate Desktop.](..\media\run-pad.png)
 
-1. Your browser may prompt you to allow the launch of Power Automate Desktop. Select **Open** to continue.
+1. Your browser may prompt you to allow the launch of Power Automate for desktop. Select **Open** to continue.
 
    ![Screenshot of the browser launching Power Automate Desktop.](..\media\browser-launch-pad.png)
 
-1. When the flow in Power Automate Desktop process designer is complete, save it, and select **Keep Working** in this dialog.
+1. When the flow in the Power Automate for desktop flow designer is complete, save it, and select **Keep Working** in this dialog.
 
    ![Screenshot of the Launching Power Automate Desktop dialog.](..\media\pad-launched-dialog.png)
 

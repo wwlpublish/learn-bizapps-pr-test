@@ -1,1 +1,1 @@
-This module shows how to use the Power Automate Desktop action in a Power Automate cloud flow. It shows how to create a cloud flow in Power Automate that passes variables to Power Automate Desktop, and how to pass variables back to Power Automate.
+This module presented how to run Power Automate desktop flows from Power Automate cloud flows to automate demanding tasks. More precisely, it showed how to create a cloud flow in Power Automate that passes variables to Power Automate for desktop, and how to pass variables back to Power Automate.
