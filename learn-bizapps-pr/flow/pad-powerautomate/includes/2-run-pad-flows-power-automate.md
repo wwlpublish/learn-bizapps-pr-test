@@ -26,15 +26,15 @@ You can call this desktop flow to run from Power Automate.
 
    ![Screenshot of the new step button below Manually trigger a flow.](..\media\new-step.png)
 
-1. Search for and select the **Run a flow built with Power Automate Desktop** action.
+1. Search for and select the **Run a flow built with Power Automate for desktop** action.
 
-   ![Screenshot of the Run a flow built with Power Automate Desktop action.](..\media\run-flow-built-by-pad.png)
+   ![Screenshot of the Run a flow built with Power Automate for desktop action.](..\media\run-flow-built-by-pad.png)
 
 1. Choose an existing desktop flow or create a new one, and select the run mode.
 
    Choosing a desktop flow with input variables will display fields where values for these variables can be entered. When the Power Automate desktop flow runs, it will use the values provided here.
 
-   ![Screenshot of the Run a flow built with Power Automate Desktop action properties.](..\media\run-flow-pad-action-properties.png)
+   ![Screenshot of the Run a flow built with Power Automate for desktop action properties.](..\media\run-flow-pad-action-properties.png)
 
 1. Edit the desktop flow by selecting **Edit**. Select **Launch app** in the confirmation dialog.
 

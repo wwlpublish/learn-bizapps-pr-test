@@ -85,20 +85,20 @@ The flow works as follows:
 
    ![Screenshot of the Manually trigger a flow dialog with the parameters set.](..\media\manually-trigger-a-flow-action-properties.png)
 
-1. Add a new action and search for the **Run a flow built with Power Automate Desktop** action.
+1. Add a new action and search for the **Run a flow built with Power Automate for desktop** action.
 
    ![Screenshot of the Choose an action search results.](..\media\choose-an-action.png)
 
 1. Select the **Update time off spreadsheet** flow made previously and set **Run Mode** to **Attended**. Set the three variables to their corresponding values from the text inputs of the first action, using dynamic content.
 
-   ![Screenshot of the Run a flow built with Power Automate Desktop action.](..\media\run-a-flow-built-by-pad-action-properties.png)
+   ![Screenshot of the Run a flow built with Power Automate for desktop action.](..\media\run-a-flow-built-by-pad-action-properties.png)
 
 1. Add a **Send an e-mail (V2)** action. For the purpose of the exercise, send an e-mail to your address. Set Subject to **Days Off Request** and use dynamic content to set the body as in the figure below:
 
    ![Screenshot of the Send an email v2 action dialog.](..\media\send-an-email-v2-action-properties.png)
 
 > [!NOTE]
-> The **Approval** variable originates from the **Run a flow built with Power Automate Desktop** action.
+> The **Approval** variable originates from the **Run a flow built with Power Automate for desktop** action.
 
 Save and test the flow. Enter the inputs as requested.
 
