@@ -6,7 +6,7 @@ Using Power Automate for desktop combined with Power Automate portal enables you
 - Leverage existing desktop flows gateway connections
 - Leverage existing experience of running desktop flows in both attended and unattended modes.
 
-The connector combines the functionality of Power Automate for desktop and Power Automate, to further boost the benefits of both platforms.
+The connector combines the functionality of Power Automate for desktop and Power Automate to further boost the benefits of both platforms.
 
 ## Learning objectives
 

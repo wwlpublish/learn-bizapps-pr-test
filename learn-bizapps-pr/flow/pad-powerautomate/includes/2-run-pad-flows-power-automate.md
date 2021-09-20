@@ -20,7 +20,7 @@ When running the desktop flow from the console, a dialog prompts the user for th
 
 You can call this desktop flow to run from Power Automate.
 
-## Run a Power Automate Desktop flow in Power Automate
+## Run a Power Automate desktop flow from the Power Automate portal
 
 1. Open a cloud flow in Power Automate and select **New step**
 
