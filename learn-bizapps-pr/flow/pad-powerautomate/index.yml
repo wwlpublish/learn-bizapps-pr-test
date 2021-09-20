@@ -1,17 +1,17 @@
 ### YamlMime:Module 
 uid: learn-bizapps.pad-power-automate
 metadata: 
- title: Combine Power Automate for desktop and Power Automate portal
- description: This module describes how to combine a Power Automate desktop flow with a Power Automate flow.
+ title: Combine Power Automate desktop and cloud flows
+ description: This module describes how to combine a Power Automate desktop flow with a Power Automate cloud flow.
  ms.date: 09/20/2021 
  author: mariosleon  
  ms.author: marleon
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Combine Power Automate for desktop and Power Automate portal
+title: Combine Power Automate desktop and cloud flows
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module describes how to combine a Power Automate desktop flow with a Power Automate cloud flow. It demonstrates how to call an existing Power Automate desktop flow from a Power Automate cloud flow to enhance its functionality and save time when designing large, complex flows.
+  This module describes how to combine a Power Automate desktop flow with a Power Automate cloud flow. It demonstrates how to call an existing Power Automate desktop flow from a cloud flow to enhance its functionality and save time when designing large, complex flows.
 abstract: |  
     In this module, you will: 
     - Create a cloud flow in Power Automate that calls a Power Automate desktop flow.
