@@ -19,7 +19,7 @@ abstract: |
     - Iterate through the items of a list using for each loops
     - Explicitly end loops when required
 prerequisites: |
-    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml), and [how to handle list and data table variables](../pad-variables/index.yml).
+    A basic understanding of [how to use the Power Automate Desktop console and flow designer](../pad-first-steps/index.yml), and [how to handle list and data table variables](../pad-variables/index.yml).
 iconUrl: /learn/achievements/pad-loops.svg  
 levels:  
 - beginner   
