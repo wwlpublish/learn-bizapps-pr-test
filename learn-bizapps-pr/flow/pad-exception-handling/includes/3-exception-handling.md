@@ -15,7 +15,7 @@ In this view, you will be able to configure the action’s exception handling be
 > [!NOTE]
 > You can drag and drop any user-created rules to rearrange them.
 
-In the above case, for example, when this action fails, it will retry one more time after 2 seconds, and then run a subflow that will send an email to notify the administrator about the database status.
+In the above case, for example, when this action fails, it will retry one more time after 2 seconds, and then run a subflow that will send an email to notify the administrator about the database status. Additionally, the action it will change the value of a variable that indicates that the database is down.
 
 By default, exception handling takes effect when any exception occurs while this action is running - however, you can configure it so that exception handling occurs only on a specific type of exception. Each action has specific exception types that it may produce:
 
