@@ -1,6 +1,6 @@
 In this exercise, you'll create a flow that extracts invoice data from scanned documents and saves it to a text file. The wanted functionality can be implemented with both **MODI** and **Tesseract** OCR engines.
 
-1. Launch Power Automate Desktop console and create a new flow named **Invoice extraction**.
+1. Launch the Power Automate for desktop console and create a new flow named **Invoice extraction**.
 
     ![Screenshot of the Build a flow dialog with Flow name set to Invoice extraction.](..\media\exercise-new-flow.png)
 
