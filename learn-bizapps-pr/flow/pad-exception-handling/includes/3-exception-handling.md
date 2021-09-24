@@ -27,7 +27,7 @@ In this example, the exception handling rules will only apply when the **Can't c
 
 There are cases where one cannot be certain which action is at risk of failing, and it is not practical to apply the same exception handling rules to every single action.
 
-For example, consider a flow in which Power Automate Desktop interacts with the web portal. If at any point during this task the portal or browser becomes unresponsive, the preferred action is to close the browser, launch it again, and restart the entire web portal interaction from the beginning. However, a web portal interaction can span tens, or even hundreds of actions; so assigning the same exception handling rules to each action individually is impractical.
+For example, consider a flow in which Power Automate for desktop interacts with the web portal. If at any point during this task the portal or browser becomes unresponsive, the preferred action is to close the browser, launch it again, and restart the entire web portal interaction from the beginning. However, a web portal interaction can span tens, or even hundreds of actions; so assigning the same exception handling rules to each action individually is impractical.
 
 The **On block error** action allows you to apply one set of exception handling rules to an entire block of actions:
 

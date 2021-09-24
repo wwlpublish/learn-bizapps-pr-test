@@ -21,7 +21,7 @@ quiz:
     - content: "Only critical actions that create instances and connections"
       isCorrect: false
       explanation: "Most actions have configurable exception handling."
-  - content: "Which one of the following is an exception handling option in Power Automate Desktop?"
+  - content: "Which one of the following is an exception handling option in Power Automate for desktop?"
     choices: 
     - content: "Email supervisor"
       isCorrect: false
