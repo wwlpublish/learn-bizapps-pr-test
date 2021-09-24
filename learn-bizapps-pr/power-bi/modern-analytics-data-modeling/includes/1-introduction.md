@@ -12,7 +12,7 @@ In Power BI service, your reports exist within workspaces. Initially, when you c
 
 For more information, see the workspace roles documentation link provided in the Summary unit of this module.
 
-Introduction to Power BI Goals
+## Introduction to Power BI Goals
 
 A unique feature of Power BI service is that users can create and share scorecards within a workspace to host goals. Goals connect to a specific datapoint within a report and track the value of that datapoint at each refresh. The user specifies a target value for comparison, and a scorecard allows the user to view many goals at once and observe where they currently stand and how they have progressed.
 
