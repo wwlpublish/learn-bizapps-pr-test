@@ -38,15 +38,15 @@ You can call this desktop flow to run from Power Automate.
 
 1. Edit the desktop flow by selecting **Edit**. Select **Launch app** in the confirmation dialog.
 
-   ![Screenshot of the run Power Automate Desktop.](..\media\run-pad.png)
+   ![Screenshot of the run Power Automate for desktop.](..\media\run-pad.png)
 
 1. Your browser may prompt you to allow the launch of Power Automate for desktop. Select **Open** to continue.
 
-   ![Screenshot of the browser launching Power Automate Desktop.](..\media\browser-launch-pad.png)
+   ![Screenshot of the browser launching Power Automate for desktop.](..\media\browser-launch-pad.png)
 
 1. When the flow in the Power Automate for desktop flow designer is complete, save it, and select **Keep Working** in this dialog.
 
-   ![Screenshot of the Launching Power Automate Desktop dialog.](..\media\pad-launched-dialog.png)
+   ![Screenshot of the Launching Power Automate for desktop dialog.](..\media\pad-launched-dialog.png)
 
 1. Actions in the Power Automate cloud flow can retrieve the values of output variables.
 
