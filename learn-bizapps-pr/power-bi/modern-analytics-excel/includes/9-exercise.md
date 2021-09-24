@@ -236,7 +236,7 @@ In this task, you will save the Excel file.
 
 1. From the main ribbon menu, select **File** > **Save**.
 
-1. Navigate to the file <CourseFolder>\Attendee\Lab Materials\Lab 03B\  folder.
+1. Navigate to the file \<CourseFolder\>\Attendee\Lab Materials\Lab 03B\  folder.
 
 1. Save the file as **MAIAD Lab 03B - Solution.xlsx**.
 
