@@ -31,8 +31,8 @@ In this task, you will launch Power BI Desktop and save the new PBIX file.
 
 1.  In the **Global** section, select **Data Load** and in the **Type Detection** section, validate the radio button option for **Detect column type and headers for unstructured sources according to each file's settings** is selected.
 
-> [!div class="mx-imgBorder"]
-> [![Options window with Data Load and Type Detection setting displayed.](../media/options.png)](../media/options.png#lightbox)
+	> [!div class="mx-imgBorder"]
+	> [![Options window with Data Load and Type Detection setting displayed.](../media/options.png)](../media/options.png#lightbox)
 
 ### Task 3: Import Power Query, Power Pivot, Power View
 
@@ -43,7 +43,7 @@ In this task, you will navigate and open the starting XLSX file then start the i
 	> [!div class="mx-imgBorder"]
 	> [![Power BI Desktop > Import > Power Query, Power Pivot, Power View displayed.](../media/import-menu.png)](../media/import-menu.png#lightbox)
 
-1.  Navigate to the **\<CourseFolder\>\Attendee\Lab Materials\Lab 02A\** folder.
+1.  Navigate to the **<CourseFolder>\Attendee\Lab Materials\Lab 02A\** folder.
 
 1.  Select the file **MAIAD Lab 02A - Start.xlsx** and choose **Open**.
 
@@ -109,7 +109,7 @@ In this task, you will add a Dates table to the existing Queries and Load the ne
 	> [!div class="mx-imgBorder"]
 	> [![Power Query Editor displaying Home > New Source > Text/CVS option.](../media/text-cvs-option.png)](../media/text-cvs-option.png#lightbox)
 
-1. Navigate to the **\<CourseFolder\>\Attendee\Lab Materials\Lab 02A\** folder.
+1. Navigate to the **<CourseFolder>\Attendee\Lab Materials\Lab 02A\** folder.
 
 1. Select the file **MAIAD Lab 02A - Data Source - Dates.csv** and choose **Open**.
 

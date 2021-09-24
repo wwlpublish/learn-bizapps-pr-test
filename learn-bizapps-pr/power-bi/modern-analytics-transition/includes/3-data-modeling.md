@@ -7,7 +7,7 @@ Modern analytics solutions that connect to data using Power Query do not require
 In this demo, Power Query retrieves customer data from an Excel file, promotions data from a SQL server, and installation data from a SharePoint list.
 
 > [!div class="mx-imgBorder"]
-> [![Demonstration of connecting to a different data source.](../media/data-source.gif)]
+> ![Demonstration of connecting to a different data source.](../media/data-source.gif)
 
 1.  Connect to an Excel file to get customers data. Select the **Excel workbook** button on the **Home** tab of the ribbon. Browse to the desired workbook, select it, and select open. In the Navigator window, select the sheet and then select **Transform Data**.
 
