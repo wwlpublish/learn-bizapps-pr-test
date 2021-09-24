@@ -1,4 +1,4 @@
-In this exercise, you will create a process that prompts users to enter information about new clients and then register them into an Excel file.
+In this exercise, you will create a flow that prompts users to enter information about new clients and then register them into an Excel file.
 
 1. Launch Power Automate for desktop and create a new flow named **Client registration**.
 
