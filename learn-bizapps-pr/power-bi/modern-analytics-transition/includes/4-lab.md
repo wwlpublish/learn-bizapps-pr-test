@@ -43,7 +43,7 @@ In this task, you will navigate and open the starting XLSX file then start the i
 	> [!div class="mx-imgBorder"]
 	> [![Power BI Desktop > Import > Power Query, Power Pivot, Power View displayed.](../media/import-menu.png)](../media/import-menu.png#lightbox)
 
-1.  Navigate to the *\<CourseFolder\>\Attendee\Lab Materials\Lab 02A\* folder.
+1.  Navigate to the \<CourseFolder\>\Attendee\Lab Materials\Lab 02A\ folder.
 
 1.  Select the file **MAIAD Lab 02A - Start.xlsx** and choose **Open**.
 
@@ -109,7 +109,7 @@ In this task, you will add a Dates table to the existing Queries and Load the ne
 	> [!div class="mx-imgBorder"]
 	> [![Power Query Editor displaying Home > New Source > Text/CVS option.](../media/text-cvs-option.png)](../media/text-cvs-option.png#lightbox)
 
-1. Navigate to the *\<CourseFolder\>\Attendee\Lab Materials\Lab 02A\* folder.
+1. Navigate to the \<CourseFolder\>\Attendee\Lab Materials\Lab 02A\ folder.
 
 1. Select the file **MAIAD Lab 02A - Data Source - Dates.csv** and choose **Open**.
 
