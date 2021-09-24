@@ -1,4 +1,4 @@
-Power Automate Desktop enables the automation of webmail services through the email actions. You can use these actions to retrieve email messages from IMAP servers and send messages through SMTP servers.
+Power Automate for desktop enables the automation of webmail services through the email actions. You can use these actions to retrieve email messages from IMAP servers and send messages through SMTP servers.
 
 Virtually all major webmail services support IMAP and SMTP, while they usually require you to activate the respective options.
 
@@ -33,7 +33,7 @@ If the retrieved emails contain attachments, the action allows you to save the f
 
 ## Process email messages
 
-After retrieving messages from your mailbox, Power Automate Desktop enables you to manipulate them using the **Process email messages** action.
+After retrieving messages from your mailbox, Power Automate for desktop enables you to manipulate them using the **Process email messages** action.
 
 This action runs a series of essential email handling operations, such as deleting, marking as unread, and moving messages to other folders.
 
