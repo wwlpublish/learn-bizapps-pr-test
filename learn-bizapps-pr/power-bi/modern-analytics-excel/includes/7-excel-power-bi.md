@@ -25,6 +25,7 @@ Power BI is more modern. It offers custom visuals, is interactive, provides data
 
 > [!div class="mx-imgBorder"]
 > [![Diagram for Power BI strengths.](../media/power-bi-strengths.png)](../media/power-bi-strengths.png#lightbox)
+
 Compelling reasons to use Power BI include the ability to:
 
 -   Create data models.
