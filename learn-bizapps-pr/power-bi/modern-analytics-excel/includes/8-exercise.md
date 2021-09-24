@@ -34,7 +34,7 @@ In this task, you will navigate and open the starting PBIX file with the Dataset
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of open report window with the Browse reports button.](../media/browse-reports.png)](../media/browse-reports.png#lightbox)
 
-1.  Navigate to the <CourseFolder>\Attendee\Lab Materials\Lab 03A\  folder.
+1.  Navigate to the \<CourseFolder\>\Attendee\Lab Materials\Lab 03A\  folder.
 
 1.  Select the file **MAIAD Lab 03A - Power BI Model.pbix** and choose **Open**.
 
@@ -251,7 +251,7 @@ In this task, you will format the PivotChart using some of the familiar formatti
 1. From the **Design** tab in the main menu, select **Style 4**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of Design tab on the main menu with Style 4 selected.](../media/image.png)](../media/image.png#lightbox)
+	> [![Screenshot of Design tab on the main menu with Style 4 selected.](../media/design.png)](../media/design.png#lightbox)
 
 1. Double-click into the Chart Title and change the default Title text to **MMR Won % by Region**.
 
@@ -286,7 +286,7 @@ In this task, you will use CUBE formulas to create high-level KPIs for the repor
     =CUBEVALUE("Power BI - MAIAD Lab 03A – Power BI Model","[Measures].[Potential MRR]")
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of Formula bar with CUBEVALUE formula for measure access.](../media/measure-access.png)](../media/measure-access.png#lightbox)
+	> [![Screenshot of Formula bar with measure access.](../media/measure-access.png)](../media/measure-access.png#lightbox)
 
 	> [!TIP]
 	> As you type the CUBEVALUE formula, you will notice that Intellisense displays to guide you as to the syntax needed to complete the formula. A CUBEVALUE formula can be combined for use with Slicers.
@@ -316,7 +316,7 @@ In this task, you will use CUBE formulas to create high-level KPIs for the repor
 
 1. Select **File** from the Main Excel Ribbon Menu, then **Save As**.
 
-1. Navigate to the <CourseFolder>\Attendee\Lab Materials\Lab 03A\ folder.
+1. Navigate to the \<CourseFolder\>\Attendee\Lab Materials\Lab 03A\ folder.
 
 1. Save the file as **MAIAD Lab 03A - Power BI Model - My Solution.pbix**.
 
