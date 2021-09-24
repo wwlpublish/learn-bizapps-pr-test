@@ -50,7 +50,7 @@ Specify a string of text on the screen to move the cursor to with the **Move Mou
 
    ![Screenshot of the Move Mouse to Text on Screen action advanced properties dialog.](..\media\move-mouse-text-screen-action-properties-advanced.png)  
 
-To simulate mouse click(s), use the **Send Mouse Click**. Choose whether the action should wait a number of milliseconds before sending the click. Unless otherwise configured, the action sends the mouse click at whatever position on screen the cursor happens to be when the process runs this action. Check Move mouse before sending mouse event to show the options of the Move Mouse action. A variable can be used for entering the coordinates. Set the coordinates relative to the entire screen, the active window or the current mouse position. To enter the cursor's current position into the coordinates, press CTRL+SHIFT. As with all mouse actions, determine the speed and animation type.
+To simulate mouse click(s), use the **Send Mouse Click**. Choose whether the action should wait a number of milliseconds before sending the click. Unless otherwise configured, the action sends the mouse click at whatever position on screen the cursor happens to be when the flow runs this action. Check Move mouse before sending mouse event to show the options of the Move Mouse action. A variable can be used for entering the coordinates. Set the coordinates relative to the entire screen, the active window or the current mouse position. To enter the cursor's current position into the coordinates, press CTRL+SHIFT. As with all mouse actions, determine the speed and animation type.
 
 ![Screenshot of the Send Mouse Click action properties dialog.](..\media\send-mouse-click-action.png)
 
@@ -68,15 +68,15 @@ Combine mouse and keyboard actions to perform more advanced gestures, such as Co
 ![Screenshot of the Press Release Key action properties dialog.](..\media\press-release-key-properties.png)
 
 > [!WARNING]
-> The pressed key state persists after the process has finished and the computer will behave as if the key is still pressed. You must use another Press/Release Key action must be used to revert the key to its default state.
+> The pressed key state persists after the flow has finished and the computer will behave as if the key is still pressed. You must use another Press/Release Key action must be used to revert the key to its default state.
 
 To enable or disable Caps Lock, Num Lock and Scroll Lock, use the **Set Key State** action.
 
 ![Screenshot of the Set Key State action properties dialog.](..\media\set-key-state-action.png)
 
-To ignore mouse or keyboard input from the user while the process is running, use the **Block Input** action.
+To ignore mouse or keyboard input from the user while the flow is running, use the **Block Input** action.
 
 ![Screenshot of the Block Input action properties dialog.](..\media\block-input-action.png)
 
 > [!WARNING]
-> To re-enable user input, add another Block Input action to the process, and set it to Unblock Input. For this to take effect, run Power Automate Desktop with Administrator rights.
+> To re-enable user input, add another Block Input action to the flow, and set it to Unblock Input. For this to take effect, run Power Automate for desktop with Administrator rights.
