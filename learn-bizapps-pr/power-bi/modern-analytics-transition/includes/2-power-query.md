@@ -33,6 +33,6 @@ There are two options to launch the Power Query editor in Excel
 To launch the Power Query editor in Power BI Desktop, select the **Transform data** button on the **Home** tab on the ribbon.
 
 > [!div class="mx-imgBorder"]
-> [![Excel Power Query Editor on the left and Power BI Desktop Power Query Editor on the right.](../media/power-query-editors.png)](../media/power-query-editors.png#lightbox)
+> [![Screenshot of Excel Power Query Editor on the left and Power BI Desktop Power Query Editor on the right.](../media/power-query-editors.png)](../media/power-query-editors.png#lightbox)
 
 The Power Query editors are nearly identical. You still have all the same functionality regardless of which application launched the editor.

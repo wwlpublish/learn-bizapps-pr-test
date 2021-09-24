@@ -1,6 +1,6 @@
 Power Query can connect to files, relational databases, data warehouses, line-of-business applications, SaaS providers, OLAP systems, cloud storage systems, web sources, social networks, and "big" data. In Power BI, click **Get Data** > **Search** > **Connect to your data**. Best practice is to create your data model in Power BI.
 > [!div class="mx-imgBorder"]
-> [![Power BI Get Data window with common data sources CSV, XLSX, Folders, SQL, Azure, and SharePoint.](../media/get-data.png)](../media/get-data.png#lightbox)
+> [![Screenshot of Power BI Get Data window with common data sources CSV, XLSX, Folders, SQL, Azure, and SharePoint.](../media/get-data.png)](../media/get-data.png#lightbox)
 
 Modern analytics solutions that connect to data using Power Query do not require the data sources to exist in a single place. Connect directly to source systems (such as Microsoft Dynamics 365) or to database sources (like Microsoft SQL Server) or to individual Microsoft Excel files hosted on SharePoint. Power Query attempts to eliminate the repetitive and manual steps when connecting to and refreshing data sources.
 
