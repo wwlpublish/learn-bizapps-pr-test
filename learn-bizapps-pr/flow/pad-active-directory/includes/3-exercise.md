@@ -1,4 +1,4 @@
-In this exercise, you will develop a process that connects to an Active Directory server, creates a new user and object, and then adds the user to a group.
+In this exercise, you will develop a flow that connects to an Active Directory server, creates a new user and object, and then adds the user to a group.
 
 You will complete the following tasks:
 
@@ -9,7 +9,7 @@ You will complete the following tasks:
 
 ## Connect to an Active Directory server
 
-Create a new process and then add the **Connect to server** action. Enter information in the **LDAP path** field, specifying the domain controllers.
+Create a new flow and then add the **Connect to server** action. Enter information in the **LDAP path** field, specifying the domain controllers.
 
 If authentication is required, select the **Use authentication** check box, and then provide your **Authentication type** and credentials.
   
@@ -45,13 +45,13 @@ Next, you will add the **Create object** action. Set the **Object name** field t
 
 ## Close connection
 
-The last step in the process, **Close connection**, will disconnect from the Active Directory server.
+The last step in the flow, **Close connection**, will disconnect from the Active Directory server.
   
 ![Screenshot of Close connection action properties.](..\media\close-ad-connection-properties-exercise.png)
 
-## Run the process
+## Run the flow
 
-Run the process, and an Active Directory connection will be established. To determine if the process was successful, you should notice that a user was created based on your input, the user was added to a group, a computer was created, and then the connection was closed.
+Run the flow, and an Active Directory connection will be established. To determine if the flow was successful, you should notice that a user was created based on your input, the user was added to a group, a computer was created, and then the connection was closed.
 
 ## Active Directory check
 
