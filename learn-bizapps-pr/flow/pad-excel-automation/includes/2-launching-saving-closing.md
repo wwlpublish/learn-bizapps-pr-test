@@ -2,7 +2,7 @@
 
 The first task in automating any Excel-related task is to create an Excel instance.
 
-An instance determines which application session Power Automate Desktop will interact with. Create instances by opening a locally stored or new Excel file or by attaching the process to an already opened file. These operations are achieved by the **Launch Excel** action or the **Attach to running Excel** action.
+An instance determines which application session Power Automate for desktop will interact with. Create instances by opening a locally stored or new Excel file or by attaching the flow to an already opened file. These operations are achieved by the **Launch Excel** action or the **Attach to running Excel** action.
 
 To open a new Excel file, under **Launch Excel**, select **with a blank document**.
 
