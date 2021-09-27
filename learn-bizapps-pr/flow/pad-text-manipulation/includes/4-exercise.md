@@ -1,8 +1,8 @@
-In this exercise, you will develop a process that prompts the user for their first and last name. The process will then generate a username by using the first letter of the user’s first name, appended to their last name in lowercase. Then, the system will randomly generate a temporary password and display the output to the user.
+In this exercise, you will develop a flow that prompts the user for their first and last name. The flow will then generate a username by using the first letter of the user’s first name, appended to their last name in lowercase. Then, the system will randomly generate a temporary password and display the output to the user.
 
 ## Tasks
 
-For this exercise, you'll create a process that will:
+For this exercise, you'll create a flow that will:
 
 - Prompt a user to enter their first and last name.
 - Split the two names into separate strings of text.
@@ -63,6 +63,6 @@ The username (first letter of first name, combined with last name) will be displ
 
 ![Screenshot of the display message action properties dialog.](..\media\display-message-exercise.png)
 
-The completed process should look like the following figure.
+The completed flow should look like the following figure.
 
-![Screenshot of the completed process workspace action properties dialog.](..\media\completed-process-workspace-exercise.png)
+![Screenshot of the completed flow.](..\media\completed-flow-workspace-exercise.png)
