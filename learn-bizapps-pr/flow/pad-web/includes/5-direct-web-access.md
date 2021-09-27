@@ -1,4 +1,4 @@
-Power Automate Desktop provides three actions that enable you to interact with APIs and run scripts on web pages. You can use these actions to implement custom behavior on web pages and communicate with APIs without creating complex flows to automate web pages.
+Power Automate for desktop provides three actions that enable you to interact with APIs and run scripts on web pages. You can use these actions to implement custom behavior on web pages and communicate with APIs without creating complex flows to automate web pages.
 
 ## Download from web
 
