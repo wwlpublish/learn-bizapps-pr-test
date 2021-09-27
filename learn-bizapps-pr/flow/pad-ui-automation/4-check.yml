@@ -13,21 +13,21 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: UI elements can be added in which of the following Power Automate Desktop entities?
+  - content: UI elements can be added in which of the following Power Automate for desktop entities?
     choices: 
-    - content: Power Automate Desktop Console
+    - content: Power Automate for desktop console
       isCorrect: false
-      explanation: UI elements are added in the Flow Designer.
-    - content: Flow Designer
+      explanation: UI elements are added in the flow designer.
+    - content: Flow designer
       isCorrect: true 
-      explanation: UI elements are added in the Flow Designer.
+      explanation: UI elements are added in the flow designer.
     - content: All of the above
       isCorrect: false 
-      explanation: UI elements are added in the Flow Designer.
+      explanation: UI elements are added in the flow designer.
     - content: None of the above
       isCorrect: false 
-      explanation: UI elements are added in the Flow Designer.
-  - content: The optimal way for Power Automate Desktop to interact with application UIs is through which of the following elements?
+      explanation: UI elements are added in the flow designer.
+  - content: The optimal way for Power Automate for desktop to interact with application UIs is through which of the following elements?
     choices: 
     - content: UI elements
       isCorrect: true
