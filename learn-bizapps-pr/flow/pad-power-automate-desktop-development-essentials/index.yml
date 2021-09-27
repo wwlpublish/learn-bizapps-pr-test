@@ -1,17 +1,17 @@
 ### YamlMime:Module 
 uid: learn-bizapps.pad-power-automate-desktop-development-essentials 
 metadata: 
- title: Power Automate Desktop development essentials
- description: This module covers the basic development features available in Power Automate Desktop.
+ title: Power Automate for desktop development essentials
+ description: This module covers the basic development features available in Power Automate for desktop.
  ms.date: 11/03/2020  
  author: mariosleon 
  ms.author: marleon 
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Power Automate Desktop development essentials
+title: Power Automate for desktop development essentials
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn how Power Automate Desktop handles common development concepts and tasks, such as actions, variables, conditionals, and loops.
+  Learn how Power Automate for desktop handles common development concepts and tasks, such as actions, variables, conditionals, and loops.
 abstract: |  
     In this module, you will:
     - Create a flow from scratch using the flow designer
@@ -21,7 +21,7 @@ abstract: |
     - Comprehend the use of UI elements and images
     - Use subflows to compartmentalize and reuse parts of a flow
 prerequisites: |
-    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
+    A basic understanding of [how to use the Power Automate for desktop console and flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-power-automate-desktop-development-essentials.svg  
 levels:  
 - beginner   
