@@ -107,7 +107,7 @@ The details screen is named **DetailScreen1** by default. Some of its controls a
 
 - **DetailForm1** - This control contains other controls and contains a data card for each column of the row that is being displayed.
 
-- **Title_DataCard1** - This is a card control. Each card represents a single column of the row. In this case, it shows the Title from the Site Inspector table, as shown in the previous unit.
+- **Address_DataCard1** - This is a card control. Each card represents a single column of the row. In this case, it shows the Address from the Site Inspector table, as shown in the previous unit.
 
 - **IconEdit1** - When this control is selected, it opens the edit/create screen so that the user can edit the current item.
     > [!div class="mx-imgBorder"]
