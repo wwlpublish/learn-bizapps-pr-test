@@ -139,7 +139,7 @@ In this task, you will use the DAX function SUM() to create the business logic n
 > Note: As you type the DAX function SUM, you will see Intellisense with matching options, double-click to the select the SUM() function. As you begin to type "Quotes", you will also see Intellisense with matching Quote table and column names - double-click the field to select.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the new measure Formula bar.](../media/16-check-mark.png)](../media/16-check-mark.png#lightbox)
+> [![Screenshot of the new measure Formula bar containing the DAX function.](../media/16-check-mark.png)](../media/16-check-mark.png#lightbox)
 
 ### Task 3: Format the Measure [Potential MRR]
 

@@ -24,4 +24,4 @@ Power BI includes formatting and canvas layout features from PowerPoint to make 
 You can change the entire theme right from the ribbon similar to PowerPoint. You can use pre-defined themes or import your own custom theme to quickly change the design of the report.
 
 > [!div class="mx-imgBorder"]
-> [![Demonstration of Power BI pre-defined themes.](../media/iPowerPoint_data_theme_demo.gif)](../media/PowerPoint_data_theme_demo.gif#lightbox)
+> [![Demonstration of Power BI pre-defined themes.](../media/PowerPoint_data_theme_demo.gif)](../media/PowerPoint_data_theme_demo.gif#lightbox)

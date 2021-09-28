@@ -58,7 +58,7 @@ The following demo shows how a decomposition tree visual enables exploration of 
 Using Power BI gives you access to over 250 custom visuals. This library of visuals continues to grow because independent developers can publish them to Microsoft's AppSource. Custom visuals are unique visuals developed by the community that can be used by any Power BI user. Some custom visuals might require a purchase to unlock all features.
 
 > [!div class="mx-imgBorder"]
-> [![Image showing Power BI visuals in AppSource](../media/custom-visuals-from-app-source.png)](../media/custom-visuals-from-app-source.png#lightbox)
+> [![Image showing Power BI library of visuals in AppSource.](../media/custom-visuals-from-app-source.png)](../media/custom-visuals-from-app-source.png#lightbox)
 
 Custom visuals allow you to expand the types of visuals beyond the standard table, line charts, bar charts, and pie charts common to Excel. AppSource has a wide variety of options including advanced analytics visuals like ANOVA charts, different types of filters and gauges, Visio flowchart visuals, and the option to import your own custom visuals.
 
@@ -67,4 +67,4 @@ Custom visuals allow you to expand the types of visuals beyond the standard tabl
 End users can use what-if scenarios to toggle specific values and immediately see the impact within the report. The following demo shows an example in which the user changes the what-if scenario slider to see how the results change based upon a percentage multiplier.
 
 > [!div class="mx-imgBorder"]
-> [![Image showing Power BI visuals in AppSource](../media/what_if_scenario_demo.gif)]
+> [![Demonstration showing Power BI what if scenarios.](../media/what_if_scenario_demo.gif)]
