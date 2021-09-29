@@ -11,7 +11,7 @@ Power BI includes formatting and canvas layout features from PowerPoint to make 
 - Visuals can also be distributed horizontally and vertically.
 
 > [!div class="mx-imgBorder"]
-> [![Demonstration of Power BI alignment and grouping.](../media/PowerPoint_data_align_demo.gif)](../media/PowerPoint_data_align_demo.gif#lightbox)
+> [![Demonstration of Power BI alignment and grouping.](../media/power-point-data-align-demo.gif)](../media/PowerPoint_data_align_demo.gif#lightbox)
 
 - Group visuals together.
 
@@ -24,4 +24,4 @@ Power BI includes formatting and canvas layout features from PowerPoint to make 
 You can change the entire theme right from the ribbon similar to PowerPoint. You can use pre-defined themes or import your own custom theme to quickly change the design of the report.
 
 > [!div class="mx-imgBorder"]
-> [![Demonstration of Power BI pre-defined themes.](../media/PowerPoint_data_theme_demo.gif)](../media/PowerPoint_data_theme_demo.gif#lightbox)
+> [![Demonstration of Power BI pre-defined themes.](../media/power-point-data-theme-demo.gif)](../media/PowerPoint_data_theme_demo.gif#lightbox)

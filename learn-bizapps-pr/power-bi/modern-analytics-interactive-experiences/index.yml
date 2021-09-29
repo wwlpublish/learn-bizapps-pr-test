@@ -11,7 +11,7 @@ metadata:
 title: Design interactive data experiences with Power BI Desktop
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Summary text goes here. 
+  Power BI enables report authors to produce interactive reports using visuals, slicers, bookmarks, and more.
 abstract: |  
     In this module, you will: 
     - Identify how Power BI Desktop empowers data exploration.
@@ -25,8 +25,8 @@ roles:
 - business-analyst  
 - business-user  
 products: 
-- dynamics-365 
 - power-bi 
+- power-platform
 units: 
 - learn-bizapps.modern-analytics-interactive-experiences.1-introduction 
 - learn-bizapps.modern-analytics-interactive-experiences.2-use-power-bi 

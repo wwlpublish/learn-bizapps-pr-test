@@ -97,7 +97,7 @@ In this task, you will create the relationship from the Quotes Data table to Off
 1. Select the [CountyID] column from the Quotes Data table and drag to create the relationship line to the [CountyID] column on the Offices Lookup table.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the relationship between the Quotes Data table and the Offices Lookup table.](../media/offices-lookup.png)](../media/offices-lookup.png#lightbox)
+    > [![Screenshot of the relationship between the Quotes Data table and the Offices Lookup table.](../media/offices-look-up.png)](../media/offices-look-up.png#lightbox)
 
     > [!NOTE]
     > By adopting the best practice of arranging the Lookup tables above the Data tables in the Model view, you will be able to visualize the filters from Lookup tables "flowing down through those relationship lines" to the Data tables -- this will be very helpful when learn how the DAX engine calculates measures.
@@ -113,7 +113,7 @@ In this task, you will create a New measure on the Quotes table using the Ellips
 1. Select the Report view.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Report View menu.](../media/report-view.png)](../media/report-view.png#lightbox)
+    > [![Screenshot of the Report View menu.](../media/report-views.png)](../media/report-views.png#lightbox)
 
 1. From the Fields pane, select the Ellipse menu (...) on the Quotes table.
 

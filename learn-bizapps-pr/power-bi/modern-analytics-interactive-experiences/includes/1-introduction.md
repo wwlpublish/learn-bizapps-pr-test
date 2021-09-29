@@ -5,7 +5,7 @@ Power BI's interactive visuals sets Power BI apart from Excel when creating and 
 You will see several ways in which Power BI is dynamic and interactive in the following demo.
 
 > [!div class="mx-imgBorder"]
-> [![Demonstration of Power BI interactivity demo.](../media/interactive _visuals_demo.gif)]
+> [![Demonstration of Power BI interactivity demo. ](../media/interactive-visuals-demo.gif)]
 
 The previous demo demonstrates how each of the visuals interact. The scatter chart animates changes over time. The slicers for region impact the output for the scatter chart as well as the line chart and card visuals. Additionally, selecting cells within the matrix impacts the other visualizations on the page too. These interactive experiences are only available in Power BI.
 
@@ -32,7 +32,7 @@ Many Power BI visuals incorporate conditional formatting features. Conditional f
 The following demo shows you how to apply conditional formatting. You can add icons to a matrix to make it easier to identify trends and outliers, create color scales to generate a heatmap of good or bad outcomes, or apply specific colors for identification purposes. Power BI offers a wide variety of options to apply and modify the formatting within a report.
 
 > [!div class="mx-imgBorder"]
-> [![Demonstration showing how to apply conditional formatting.](../media/animated_conditional_formatting_demo.gif)](../media/animated_conditional_formatting_demo.gif#lightbox)
+> [![Demonstration showing how to apply conditional formatting.](../media/animated-conditional-formatting-demo.gif)](../media/animated-conditional-formatting-demo.gif#lightbox)
 
 ## Power BI visuals -- AI/decomposition tree
 
@@ -67,4 +67,4 @@ Custom visuals allow you to expand the types of visuals beyond the standard tabl
 End users can use what-if scenarios to toggle specific values and immediately see the impact within the report. The following demo shows an example in which the user changes the what-if scenario slider to see how the results change based upon a percentage multiplier.
 
 > [!div class="mx-imgBorder"]
-> [![Demonstration showing Power BI what if scenarios.](../media/what_if_scenario_demo.gif)]
+> [![Demonstration showing Power BI what if scenarios.](../media/what-if-scenario-demo.gif)]
