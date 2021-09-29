@@ -12,8 +12,8 @@ In this exercise, you will complete the following tasks:
 
 1. Add Conditional Formatting Icons to Matrix Visual
 
-> [!NOTE]
-> This lab has been created based on the sales activities of the *fictitious* Wi-Fi company called SureWi which has been provided by P3 Adaptive <https://p3adaptive.com/>. The data is property of P3 Adaptive and has been shared with the purpose of demonstrating Excel and Power BI functionality with industry sample data. Any use of this data must include this attribution to P3 Adaptive.
+    > [!NOTE]
+    > This exercise has been created based on the sales activities of the *fictitious* Wi-Fi company called SureWi which has been provided by P3 Adaptive <https://p3adaptive.com/>. The data is property of P3 Adaptive and has been shared with the purpose of demonstrating Excel and Power BI functionality with industry sample data. Any use of this data must include this attribution to P3 Adaptive.
 
 ## Exercise 1: Start with a pre-loaded PBIX
 
@@ -26,7 +26,7 @@ In this task, you will launch Power BI Desktop and save the new PBIX file.
 1. Launch Power BI Desktop.
 
     > [!div class="mx-imgBorder"]
-    > [![Power BI Desktop Logo 2020.](../media/power-bi-icon.png)](../media/power-bi-icon.png#lightbox)
+    > [![Image of the Power BI Desktop Logo 2020.](../media/power-bi-icon.png)](../media/power-bi-icon.png#lightbox)
 
 1. If applicable, use the "x" in the upper right-hand corner to close the Welcome window.
 
@@ -78,8 +78,8 @@ In this task, you will create the relationship from the Quotes Data table to Cus
     > [!div class="mx-imgBorder"]
     > [![Image of model view with relationship from Quotes Data Customer ID field to Customers ID field.](../media/9-cust-id.png)](../media/9-cust-id.png#lightbox)
 
-> [!NOTE]
-> Note: When creating relationships, the name of the column is not important; however, the data type and values in the columns should match.
+    > [!NOTE]
+    > When creating relationships, the name of the column is not important; however, the data type and values in the columns should match.
 
 ### Task 2: Create relationship from Quotes to Dates
 
@@ -99,8 +99,8 @@ In this task, you will create the relationship from the Quotes Data table to Off
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the relationship between the Quotes Data table and the Offices Lookup table.](../media/offices-lookup.png)](../media/offices-lookup.png#lightbox)
 
-> [!NOTE]
-> By adopting the best practice of arranging the Lookup tables above the Data tables in the Model view, you will be able to visualize the filters from Lookup tables "flowing down through those relationship lines" to the Data tables -- this will be very helpful when learn how the DAX engine calculates measures.
+    > [!NOTE]
+    > By adopting the best practice of arranging the Lookup tables above the Data tables in the Model view, you will be able to visualize the filters from Lookup tables "flowing down through those relationship lines" to the Data tables -- this will be very helpful when learn how the DAX engine calculates measures.
 
 ## Exercise 3: Create Measures in Power BI Desktop
 
@@ -123,7 +123,7 @@ In this task, you will create a New measure on the Quotes table using the Ellips
 1. Choose New measure.
 
     > [!div class="mx-imgBorder"]
-    > [![New measure menu from the Fields pane and Quotes table.](../media/14-new-measure.png)](../media/14-new-measure.png#lightbox)
+    > [![Screenshot of New measure menu from the Fields pane with Quotes selected.](../media/14-new-measure.png)](../media/14-new-measure.png#lightbox)
 
 ### Task 2: Create the Measure [Potential MRR]
 
@@ -135,11 +135,11 @@ In this task, you will use the DAX function SUM() to create the business logic n
 
     Potential MRR = SUM( Quotes [QuoteAmt] )
 
-> [!NOTE]
-> Note: As you type the DAX function SUM, you will see Intellisense with matching options, double-click to the select the SUM() function. As you begin to type "Quotes", you will also see Intellisense with matching Quote table and column names - double-click the field to select.
+    > [!NOTE]
+    > As you type the DAX function SUM, you will see Intellisense with matching options, double-click to the select the SUM() function. As you begin to type "Quotes", you will also see Intellisense with matching Quote table and column names - double-click the field to select.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the new measure Formula bar containing the DAX function.](../media/16-check-mark.png)](../media/16-check-mark.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the new measure Formula bar containing the DAX function.](../media/16-check-mark.png)](../media/16-check-mark.png#lightbox)
 
 ### Task 3: Format the Measure [Potential MRR]
 
@@ -150,8 +150,8 @@ In this task, you will use the Measure Formatting Tools to format the Measure [P
     > [!div class="mx-imgBorder"]
     > [![Fields pane with new measure \[Potential MRR\] showing the calculator icon.](../media/17-potential-mrr.png)](../media/17-potential-mrr.png#lightbox)
 
-> [!NOTE]
-> Measures can be identified in the Fields pane by the Calculator icon.
+    > [!NOTE]
+    > Measures can be identified in the Fields pane by the Calculator icon.
 
 1. Use the Measure tools menu options to format the measure as Currency.
 
@@ -178,8 +178,8 @@ In this task, you will use the DAX function DIVIDE() to create the business logi
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the new measure Formula bar.](../media/22-dax-formula.png)](../media/22-dax-formula.png#lightbox)
 
-> [!NOTE]
-> When entering the DAX formula, and as you type the open square bracket, you will notice intellisense displays a list of the available measures that have been created.
+    > [!NOTE]
+    > When entering the DAX formula, and as you type the open square bracket, you will notice intellisense displays a list of the available measures that have been created.
 
 ### Task 5: Format the Measure [Won vs Potential MRR]
 
@@ -225,8 +225,8 @@ In this task, you will resize a Card visual.
 
 1. Click and drag on the visual border to resize the Card visual OR you can select the [Format/Paint Roller] icon navigation to change the [Width] and [Height] values located in the General Properties.
 
-> [!div class="mx-imgBorder"]
-> [![Report page with Card visual and the Format paint Roller icon highlighted and width and height menu expanded.](../media/card-visual-resize.png)](../media/card-visual-resize.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Report page with Card visual and the Format paint Roller icon highlighted and width and height menu expanded.](../media/card-visual-resize.png)](../media/card-visual-resize.png#lightbox)
 
 ### Task 3: Format the Card visual
 
@@ -235,7 +235,7 @@ In this task, you will apply formatting to the Card visual -- you will add Condi
 1. From the Format/Paint Roller properties, expand the [Data label] properties and click the "[Fx]" symbol next to the [Color] property -- to apply Conditional Formatting based on the Data label value.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Visualization pane with the Format/Paint Roller icon selected and the Data label property expanded to show the Conditional Formatting formula fx icon option.](../media/paint-roller-properties.png)](../media/paint-roller-properties.png#lightbox)
+    > [![Image of the Visualization pane with Paint Roller icon selected and the Data label property expanded.](../media/paint-roller-properties.png)](../media/paint-roller-properties.png#lightbox)
 
 1. In the [Color] window, change the [Format by] drop down to [Rules].
 
@@ -248,20 +248,20 @@ In this task, you will apply formatting to the Card visual -- you will add Condi
     > [!div class="mx-imgBorder"]
     > [![Color window with Format by Rules selected and the Rules logic displayed.](../media/color-rules.png)](../media/color-rules.png#lightbox)
 
-> [!TIP]
-> By removing the ending low & high range values in the rules, you will get a Minimum and Maximum range that adjusts dynamically.
+    > [!TIP]
+    > By removing the ending low & high range values in the rules, you will get a Minimum and Maximum range that adjusts dynamically.
 
 1. Click [OK]
 
 1. From the Format/Paint Roller properties, expand the [Background] property. Set toggle to [On].
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the visualization pane with the Format/Paint Roller icon selected and background property expanded to show color and Conditional Formatting formula fx icon option.](../media/background-property.png)](../media/background-property.png#lightbox)
+    > [![Screenshot of the visualization pane with the Paint Roller icon selected and the color and Conditional Formatting expanded.](../media/background-property.png)](../media/background-property.png#lightbox)
 
 1. Validate the [Color] is set to [White]. And set [Transparency] to [0%].
 
-> [!NOTE]
-> You can also use the "Fx" icon to use Conditional Formatting for Background color.
+    > [!NOTE]
+    > You can also use the "Fx" icon to use Conditional Formatting for Background color.
 
 1. From the Format/Paint Roller properties, use the right-side scroll bar to navigate down to the [Border] property and set the toggle to [On].
 
@@ -281,24 +281,24 @@ In this task, you will create a Slicer using the Dates [Date Hierarchy] column.
 
 1. Select the [Dates[Date Hierarchy]] column from the Dates table and [drag] the measure to an empty white space on the report page.
 
-> [!NOTE]
-> Hierarchy columns are displayed with a grouping image icon -- indicating that there are navigation levels for the column. For example, Date contains the levels Year, Quarter, Month, and Day.
+    > [!NOTE]
+    > Hierarchy columns are displayed with a grouping image icon -- indicating that there are navigation levels for the column. For example, Date contains the levels Year, Quarter, Month, and Day.
 
 1. Select the default [Clustered column chart visual] to make it active and then select the [Slicer visual] icon from the Visualization pane.
 
-> [!NOTE]
-> The default visual that is created is dependent on the data type of the field.
+    > [!NOTE]
+    > The default visual that is created is dependent on the data type of the field.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of Fields pane with the Dates, Date Hierarchy selected, visualization pane with slicer highlighted.](../media/clustered-column-chart.png)](../media/clustered-column-chart.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of Fields pane with the Dates, Date Hierarchy selected, visualization pane with slicer highlighted.](../media/clustered-column-chart.png)](../media/clustered-column-chart.png#lightbox)
 
 1. Click the [down] arrow to the left of Year values to expand to the Quarter values and explore the functionality on the Slicer visual.
 
-> [!NOTE]
-> Note: The Slicer has this behavior because the Dates [Date Hierarchy] column has been created as a Hierarchy field in the data model -- we can navigate from Year to Quarter, Month, and day.
+    > [!NOTE]
+    > The Slicer has this behavior because the Dates [Date Hierarchy] column has been created as a Hierarchy field in the data model -- we can navigate from Year to Quarter, Month, and day.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of report page with Dates, Date Hierarchy Slicer visual displayed.](../media/quarter-values.png)](../media/quarter-values.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of report page with Dates, Date Hierarchy Slicer visual displayed.](../media/quarter-values.png)](../media/quarter-values.png#lightbox)
 
 1. Click on the [Slicer] and drag the visual all the way over to the left side of the report page. And [expand all the year values down to display the year and quarter levels].
 
@@ -310,8 +310,8 @@ In this task, you will resize the Slicer header and Items on the Slicer visual.
 
 1. Select the [Format/Paint Roller icon] navigation in the Visualizations pane. Type the word "[size]" into the search box to filter the properties to quickly find and change the [Slicer header] and [Items] to size [12].
 
-> [!div class="mx-imgBorder"]
-> [![Visualization pane with the Format/Paint Roller icon highlighted and the Slicer header properties set to 12 and the Items properties text size set to 12](../media/format-paint-roller.png)](../media/format-paint-roller.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Visualization pane with the Paint Roller icon highlighted, the Slicer header properties on and text size set to 12.](../media/format-paint-roller.png)](../media/format-paint-roller.png#lightbox)
 
 ### Task 6: Create a Matrix visual
 
@@ -321,13 +321,13 @@ In this task, you will create a Matrix visual with columns from the Offices tabl
 
 1. [Drag the [Potential MRR] measure] into an empty white space on the report page.
 
-> [!NOTE]
-> Note: By default, you will get the Clustered column chart.
+    > [!NOTE]
+    > Note: By default, you will get the Clustered column chart.
 
 1. Select the [Clustered column chart visual] to make it active and then select the [Matrix visual] icon from the Visualization pane to change to the Matrix visual.
 
-> [!div class="mx-imgBorder"]
-> [![Visualization pane with the Matrix visual selected.](../media/matrix-visual-icon.png)](../media/matrix-visual-icon.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Visualization pane with the Matrix visual selected.](../media/matrix-visual-icon.png)](../media/matrix-visual-icon.png#lightbox)
 
 ### Task 7: Resize the Matrix visual
 
@@ -335,10 +335,11 @@ In this task, you will resize the Matrix visual.
 
 1. Click and drag on the visual border to [resize] the Matrix visual.
 
-    Note: As you drag to resize visuals, you will notice red lines to help with alignment.
+    > [!NOTE]
+    > As you drag to resize visuals, you will notice red lines to help with alignment.
 
-> [!div class="mx-imgBorder"]
-> [![Report page with the new Matrix visual and the Quote \[Potential MRR\] measure on the Matrix visual.](../media/resize-matrix.png)](../media/resize-matrix.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Report page with the new Matrix visual and the Quote Potential MRR measure on the Matrix visual.](../media/resize-matrix.png)](../media/resize-matrix.png#lightbox)
 
 ### Task 8: Add more measures and columns to the Matrix visual
 
@@ -346,31 +347,29 @@ In this task, you will add two more measures and two columns to the Matrix visua
 
 1. Select the [Matrix visual] to make it active.
 
-1. From the [Fields pane], select the [checkbox] next to the [Contracts\[MRR Won -- Contracts\]] measure -- this will add the measure to the Matrix visual.
+1. From the [Fields pane], select the [checkbox] next to the [Contracts [MRR Won -- Contracts] measure -- this will add the measure to the Matrix visual.
 
- > [!div class="mx-imgBorder"]
-> [![Fields pane with the Contracts\[MRR Won - Contracts.](../media/mrr-won-contracts.png)](../media/mrr-won-contracts.png#lightbox)
+     > [!div class="mx-imgBorder"]
+    > [![Image of the Fields pane with the Contracts MRR Won Contracts selected.](../media/mrr-won-contracts.png)](../media/mrr-won-contracts.png#lightbox)
 
-> [!NOTE]
-> Note: Since the field is a measure, Power BI knows to add the field into the values section of the Fields.
+    > [!NOTE]
+    > Since the field is a measure, Power BI knows to add the field into the values section of the Fields.
 
-    ![Matrix visual Field with \[Potential MRR\] and \[MRR Won - Contracts\] measures](media/image35.png){width="2.5107666229221346in" height="3.3025437445319334in"}
-
-> [!div class="mx-imgBorder"]
-> [![Matrix visual Field with \[Potential MRR\] and \[MRR Won - Contracts\](../media/add-rows-mrr-won.png)](../media/add-rows-mrr-won.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Matrix visual Field with Potential MRR and MRR Won Contracts.](../media/add-rows-mrr-won.png)](../media/add-rows-mrr-won.png#lightbox)
 
 1. From the [Fields pane], select the [checkbox] next to the Quotes [Won vs Potential MRR] measure -- this will add the measure to the Matrix visual.
 
 1. Now, we will add the [Region] and [District] columns from the Office table into the [Rows] section of the Matrix Fields -- just [drag from the Fields pane and drop into the Rows].
 
-> [!div class="mx-imgBorder"]
-> [![Matrix visual Field with Offices\[Region\] and Offices\[District\] on Rows](../media/region-district.png)](../media/region-district.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Matrix visual Field with Offices Region and Offices District on Rows.](../media/region-district.png)](../media/region-district.png#lightbox)
 
-> [!NOTE]
-> Each visual has different options listed in the Fields. For example, the Matrix visual contains Field sections for Row, Columns, and Values.
+    > [!NOTE]
+    > Each visual has different options listed in the Fields. For example, the Matrix visual contains Field sections for Row, Columns, and Values.
 
-> [!NOTE]
-> The Matrix visual in Power BI Desktop is most like the PivotTable in Excel.
+    > [!NOTE]
+    > The Matrix visual in Power BI Desktop is most like the PivotTable in Excel.
 
 ### Task 9: Resize the Matrix visual
 
@@ -378,8 +377,8 @@ In this task, you will resize the Text size of the Matrix visual.
 
 1. Select the [Format/Paint Roller icon], then type "[size]" in the search box and change the Text size to [12] in the Grid property.
 
-> [!div class="mx-imgBorder"]
-> [![Matrix Format/Paint Roller Grid properties with Text size set to 12](../media/grid-text-size.png)](../media/grid-text-size.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Matrix Format Paint Roller Grid properties with Text size set to 12.](../media/grid-text-size.png)](../media/grid-text-size.png#lightbox)
 
 ### Task 10: Use Matrix buttons
 
@@ -389,8 +388,8 @@ In this task, you will use the Matrix buttons to display the values for District
 
 1. Select the [Expand all down one level in the hierarchy button].
 
-> [!div class="mx-imgBorder"]
-> [![Matrix visual on the Report page displaying the Matrix visual buttons.](../media/matrix-hierarchy.png)](../media/matrix-hierarchy.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Matrix visual on the Report page displaying the Matrix visual buttons.](../media/matrix-hierarchy.png)](../media/matrix-hierarchy.png#lightbox)
 
 ### Task 11: Import a Custom Visual -- From AppSource
 
@@ -398,43 +397,43 @@ In this task, you will import the Bullet Chart Custom visual.
 
 1. Select the [Ellipse menu] option from the Visualization pane to display the Custom visuals menu options.
 
-> [!div class="mx-imgBorder"]
-> [![Visualization pane Ellipse menu displaying the Get more visuals option](../media/get-more-visuals.png)](../media/get-more-visuals.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Visualization pane Ellipse menu displaying the Get more visuals option.](../media/get-more-visuals.png)](../media/get-more-visuals.png#lightbox)
 
 1. Select the [Get more visuals] option.
 
-> [!NOTE]
-> Note: If you are already signed into Power BI, you do not need to sign in again. The next steps are [only] needed if you are not signed in to Power BI.
+    > [!NOTE]
+    > Note: If you are already signed into Power BI, you do not need to sign in again. The next steps are [only] needed if you are not signed in to Power BI.
 
-> [!NOTE]
-> Note: If you do not have a Power BI sign in, you can use the [Import visual from a file] option on the [Ellipse menu]. Then navigate to the Lab 02B folder and select the "[BulletChart.BulletChart1443347686880.2.0.1.0.pbviz]" file.
+    > [!NOTE]
+    > Note: If you do not have a Power BI sign in, you can use the [Import visual from a file] option on the [Ellipse menu]. Then navigate to the Lab 02B folder and select the "[BulletChart.BulletChart1443347686880.2.0.1.0.pbviz]" file.
 
 1. Sign into Power BI by entering your [username].
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of Power BI user name window.](../media/power-bi-sign-in.png)](../media/power-bi-sign-in.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of Power BI user name window.](../media/power-bi-sign-in.png)](../media/power-bi-sign-in.png#lightbox)
 
 1. Enter your Power BI [password].
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of Power BI password window and Sign In button.](../media/power-bi-password.png)](../media/power-bi-password.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of Power BI password window and Sign In button.](../media/power-bi-password.png)](../media/power-bi-password.png#lightbox)
 
 1. From the App store, type "[bullet]" in the search bar.
 
 1. Select the [Add] button next to the [Bullet Chart] visual.
 
-> [!div class="mx-imgBorder"]
-> [![Power BI Visuals with \"bullet\" in the search box and the Bullet Chart displayed](../media/add-bullet-chart.png)](../media/add-bullet-chart.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Power BI Visuals with bullet in the search box and the Bullet Chart displayed.](../media/add-bullet-chart.png)](../media/add-bullet-chart.png#lightbox)
 
 1. Select the [OK] button once imported.
 
 1. You will now see the [Bullet Chart as a new visual] icon in the Visualization pane.
 
-> [!div class="mx-imgBorder"]
-> [![Visualization pane with the Bullet Chart custom visual added to the Custom visual section.](../media/bullet-chart-visual.png)](../media/bullet-chart-visual.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Visualization pane with the Bullet Chart custom visual added to the Custom visual section.](../media/bullet-chart-visual.png)](../media/bullet-chart-visual.png#lightbox)
 
-> [!NOTE]
-> Note: If you do not have a Power BI sign in, you can use any browser and navigate to AppSource.com and download a Custom visual to use with the [Import visual from a file] option on the Visualization pane Ellipse menu.
+    > [!NOTE]
+    > If you do not have a Power BI sign in, you can use any browser and navigate to AppSource.com and download a Custom visual to use with the [Import visual from a file] option on the Visualization pane Ellipse menu.
 
 ### Task 12: Use the Bullet Chart Custom Visual
 
@@ -446,8 +445,8 @@ In this task, you will add the Bullet Chart Custom visual to the report page and
 
 1. Select and [drag] the new Bullet Chart Custom visual above the Matrix visual and [resize] to fit.
 
-> [!div class="mx-imgBorder"]
-> [![Report page with new Bullet Chart Custom visual workspace.](../media/drag-bullet-chart.png)](../media/drag-bullet-chart.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Report page with new Bullet Chart Custom visual workspace.](../media/drag-bullet-chart.png)](../media/drag-bullet-chart.png#lightbox)
 
 1. Select the [Dates] table from the Fields pane and expand the fields to select the [\[YYYY-QQ\]] column from the Dates table and drag into the [Category] section.
 
@@ -455,11 +454,11 @@ In this task, you will add the Bullet Chart Custom visual to the report page and
 
 1. Select the [Potential MRR] measure from the [Quotes] table and drag into the [Target] section.
 
-> [!NOTE]
-> Note: You can also use the Field pane search bar to enter the name of a column or measure to quickly limit the Fields pane to find a column or measure.
+    > [!NOTE]
+    > You can also use the Field pane search bar to enter the name of a column or measure to quickly limit the Fields pane to find a column or measure.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the Potential MRR measure from the Quotes table.](../media/field-pane-search-bar.png)](../media/field-pane-search-bar.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the Potential MRR measure from the Quotes table.](../media/field-pane-search-bar.png)](../media/field-pane-search-bar.png#lightbox)
 
 ### Task 13: Format the Bullet Chart Custom Visual
 
@@ -467,42 +466,42 @@ In this task, you will update the Format/Paint Roller properties on the Bullet C
 
 1. Select the [Format/Paint Roller icon] and expand the [Data values] properties.
 
-> [!div class="mx-imgBorder"]
-> [![Format/Paint Roller icon showing the Data value properties for the Bullet Chart Custom visual.](../media/data-values.png)](../media/data-values.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Format Paint Roller icon showing the Data value properties for the Bullet Chart Custom visual.](../media/data-values.png)](../media/data-values.png#lightbox)
 
 1. Change the [Satisfaction %] to [60].
 
 1. Change the [Good %] to [65].
 
-> [!div class="mx-imgBorder"]
-> [![Satisfactory % set to 60 and Good % set to 65.](../media/good-percentage.png)](../media/good-percentage.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Satisfactory % set to 60 and Good % set to 65.](../media/good-percentage.png)](../media/good-percentage.png#lightbox)
 
 1. Expand the [Axis properties] and turn it [off].
 
-> [!div class="mx-imgBorder"]
-> [![Axis properties toggle set to Off](../media/axis-off.png)](../media/axis-off.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Axis properties toggle set to Off](../media/axis-off.png)](../media/axis-off.png#lightbox)
 
 1. Expand the [Title properties] and change the Title [Font color] to [Black]. This will make the Title more noticeable.
 
-> [!div class="mx-imgBorder"]
-> [![Format/Paint Roller Title properties with Font set to black](../media/font-color-black.png)](../media/font-color-black.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Format/Paint Roller Title properties with Font set to black.](../media/font-color-black.png)](../media/font-color-black.png#lightbox)
 
 1. Select the [Year value equal to 2017] on the [Slicer] visual to see the Bullet Chart Custom visual change and come to life!
 
-> [!div class="mx-imgBorder"]
-> [![Report page with the Slicer Year 2017 selected](../media/summary-visuals.png)](../media/summary-visuals.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Report page with the Slicer Year 2017 selected.](../media/summary-visuals.png)](../media/summary-visuals.png#lightbox)
 
-> [!NOTE]
-> The Bullet Chart is a great Custom visual to show progress towards goals.
+    > [!NOTE]
+    > The Bullet Chart is a great Custom visual to show progress towards goals.
 
 ### Task 14: Change the Bullet Chart Custom Visual Sort
 
-In this task, you will change the Bullet Chart Custom visual to sort ascending by \[YYYY QQ\].
+In this task, you will change the Bullet Chart Custom visual to sort ascending by [YYYY-QQ].
 
 1. Click on [Ellipse menu] on the Bullet Chart Custom visual.
 
-> [!div class="mx-imgBorder"]
-> [![Close up of the Bullet Chart Custom visual displaying the Ellipse menu.](../media/ellipse-menu.png)](../media/ellipse-menu.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Close up of the Bullet Chart Custom visual displaying the Ellipse menu.](../media/ellipse-menu.png)](../media/ellipse-menu.png#lightbox)
 
 1. Select [Sort By] then choose the [YYYY-QQ] column value[.]
 
@@ -511,10 +510,10 @@ In this task, you will change the Bullet Chart Custom visual to sort ascending b
 Now, select the [Sort ascending] option.
 
 > [!div class="mx-imgBorder"]
-> [![Bullet Chart Custom visual with Sort by menu displayed with \[YYYY-QQ\] field selected and Sort ascending selected.](../media/sort-ascending.png)](../media/sort-ascending.png#lightbox)
+> [![Bullet Chart Custom visual with Sort by menu displayed with YYYY-QQ field selected and Sort ascending selected.](../media/sort-ascending.png)](../media/sort-ascending.png#lightbox)
 
 > [!NOTE]
-> Note: When changing the sort on a visual using the Ellipse menu, you first need to choose the column or measure to sort by. Then you need to select whether to Sort descending or Sort ascending. The final sort by selections are indicated by the yellow vertical bar.
+> When changing the sort on a visual using the Ellipse menu, you first need to choose the column or measure to sort by. Then you need to select whether to Sort descending or Sort ascending. The final sort by selections are indicated by the yellow vertical bar.
 
 ## Exercise 5: Add Conditional Formatting to Matrix Visual (Icon)
 
@@ -530,13 +529,12 @@ In this task, you will apply conditional formatting to the Matrix visual.
 
 1. In the [Values] section, select the [drop down on the [Won vs Potential MRR] measure].
 
-> [!div class="mx-imgBorder"]
-> [![Fields icon selected to display drop down menu in the Values section for the \[Won vs Potential MRR\] measure](../media/values-drop-down.png)](../media/values-drop-down.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Fields icon selected to display drop down menu in the Values section for the Won vs Potential MRR measure.](../media/values-drop-down.png)](../media/values-drop-down.png#lightbox)
 
 1. From the menu, select [Conditional Formatting] > [Icons].
-
-> [!div class="mx-imgBorder"]
-> [![Conditional formatting and Icon menu](../media/conditional-formatting.png)](../media/conditional-formatting.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Conditional formatting and Icon menu](../media/conditional-formatting.png)](../media/conditional-formatting.png#lightbox)
 
 1. Choose the [icons] option.
 
@@ -544,8 +542,8 @@ In this task, you will apply conditional formatting to the Matrix visual.
 
 1. Then change the [Icon Style] to solid circles.
 
-> [!div class="mx-imgBorder"]
-> [![Icons - Won vs Potential MRR window with Icon layout set to Right of data and Style set to red, yellow, and green circle icons.](../media/icon-layout.png)](../media/icon-layout.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Icons - Won vs Potential MRR window with Icon layout set to Right of data and Style set to red, yellow, and green circle icons.](../media/icon-layout.png)](../media/icon-layout.png#lightbox)
 
 1. Enter the Rules: [Is greater than or equal to 0 Number] and [is less than or equal to 0.7 Number].
 
@@ -555,12 +553,12 @@ In this task, you will apply conditional formatting to the Matrix visual.
 
 1. Press [OK]
 
-> [!div class="mx-imgBorder"]
-> [![Icons - Won vs Potential MRR window with Rules settings](../media/rules-ok.png)](../media/rules-ok.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Icons - Won vs Potential MRR window with Rules settings](../media/rules-ok.png)](../media/rules-ok.png#lightbox)
 
 ## Summary
 
-In this lab, you started with an existing Power BI Desktop file that contained a partially completed data model, background, and theme. You completed the data model by creating MANY to ONE relationships from the Quotes Data table to the Customers, Dates, and Offices Lookup tables. Then you created measures on the Quotes table so that you could create a report page with Card, Slicer, Matrix, and a Bullet Chart Custom Visuals. You applied Conditional Formatting to the Matrix visual using Icons and Rules to show within progress towards revenue goal of each District with Office Regions.
+In this exercise, you started with an existing Power BI Desktop file that contained a partially completed data model, background, and theme. You completed the data model by creating MANY to ONE relationships from the Quotes Data table to the Customers, Dates, and Offices Lookup tables. Then you created measures on the Quotes table so that you could create a report page with Card, Slicer, Matrix, and a Bullet Chart Custom Visuals. You applied Conditional Formatting to the Matrix visual using Icons and Rules to show within progress towards revenue goal of each District with Office Regions.
 
 > [!div class="mx-imgBorder"]
 > [![Final Report page with Card, Slicer, Matrix, and Bullet Chart Custom visuals.](../media/summary-visuals.png)](../media/summary-visuals.png#lightbox)
@@ -579,22 +577,3 @@ In this lab, you started with an existing Power BI Desktop file that contained a
 | Create PivotTable             | Visualizations pane > Matrix                           | Insert > PivotTable > Use this workbook’s Data Model         |
 | Apply Conditional Formatting  | Right-click > Conditional Formatting                   | Home > Conditional Formatting                                |
 | Create Custom Visuals         | Visualizations pane > Ellipse menu > Get more visuals  | Not available in Excel                                       |
-
-## Terms of Use
-
-© 2021 Microsoft. All rights reserved.
-
-By using this hands-on lab, you agree to the following terms:
-
-The technology/functionality described in this hands-on lab is provided by Microsoft Corporation in a "sandbox" testing environment for purposes of obtaining your feedback and to provide you with a learning experience. You may only use the hands-on lab to evaluate such technology features and functionality and provide feedback to Microsoft. You may not use it for any other purpose. Without written permission, you may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell this hands-on lab or any portion thereof.
-
-COPYING OR REPRODUCTION OF THE HANDS-ON LAB (OR ANY PORTION OF IT) TO ANY OTHER SERVER OR LOCATION FOR FURTHER REPRODUCTION OR REDISTRIBUTION WITHOUT WRITTEN PERMISSION IS EXPRESSLY PROHIBITED.
-
-THIS HANDS-ON LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTIONALITY, INCLUDING POTENTIAL NEW FEATURES AND CONCEPTS, IN A SIMULATED ENVIRONMENT WITHOUT COMPLEX SET-UP OR INSTALLATION FOR THE PURPOSE DESCRIBED ABOVE. THE TECHNOLOGY/CONCEPTS REPRESENTED IN THIS HANDS-ON LAB MAY NOT REPRESENT FULL FEATURE FUNCTIONALITY AND MAY NOT WORK THE WAY A FINAL VERSION MAY WORK. WE ALSO MAY NOT RELEASE A FINAL VERSION OF SUCH FEATURES OR CONCEPTS. YOUR EXPERIENCE WITH USING SUCH FEATURES AND FUNCITONALITY IN A PHYSICAL ENVIRONMENT MAY ALSO BE DIFFERENT.
-
-**FEEDBACK** If you give feedback about the technology features, functionality and/or concepts described in this hands-on lab to Microsoft, you give to Microsoft, without charge, the right to use, share and commercialize your feedback in any way and for any purpose. You also give to third parties, without charge, any patent rights needed for their products, technologies and services to use or interface with any specific parts of a Microsoft software or service that includes the feedback. You will not give feedback that is subject to a license that requires Microsoft to license its software or documentation to third parties because we include your feedback in them. These rights survive this agreement.
-
-MICROSOFT CORPORATION HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE HANDS-ON LAB, INCLUDING ALL WARRANTIES AND CONDITIONS OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. MICROSOFT DOES NOT MAKE ANY ASSURANCES OR REPRESENTATIONS WITH REGARD TO THE ACCURACY OF THE RESULTS, OUTPUT THAT DERIVES FROM USE OF THE VIRTUAL LAB, OR SUITABILITY OF THE INFORMATION CONTAINED IN THE VIRTUAL LAB FOR ANY PURPOSE.
-
-**DISCLAIMER** This lab contains only a portion of new features and enhancements in Microsoft Power BI. Some of the features might change in future releases of the product.
-Insert instructional text here
