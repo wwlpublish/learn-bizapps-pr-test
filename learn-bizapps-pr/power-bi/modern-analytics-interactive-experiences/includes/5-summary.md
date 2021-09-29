@@ -2,10 +2,10 @@ This module introduced you to some concepts that explain why Power BI is a marke
 
 ## Reference links
 
-[Custom visuals](https://powerbi.microsoft.com/en-us/developers/custom-visualization//?azure-portal=true#)
+[Custom visuals](https://powerbi.microsoft.com/developers/custom-visualization//?azure-portal=true#)
 
-[Decomposition tree](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-decomposition-tree/?azure-portal=true#)
+[Decomposition tree](/power-bi/visuals/power-bi-visualization-decomposition-tree/?azure-portal=true#)
 
-[What if](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-what-if/?azure-portal=true#)
+[What if](/power-bi/transform-model/desktop-what-if/?azure-portal=true#)
 
-[Themes](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes/?azure-portal=true#)
+[Themes](/power-bi/create-reports/desktop-report-themes/?azure-portal=true#)
