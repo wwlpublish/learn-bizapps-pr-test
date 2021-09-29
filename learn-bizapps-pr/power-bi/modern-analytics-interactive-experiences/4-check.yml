@@ -17,27 +17,27 @@ quiz:
     choices: 
     - content: Card visual 
       isCorrect: false 
-      explanation: Matrix visual
+      explanation: Matrix visual is the most like a Pivot Table in Excel. 
     - content: Slicer visual
       isCorrect: false 
-      explanation: Matrix visual
+      explanation: Matrix visual is the most like a Pivot Table in Excel.
     - content: Matrix visual 
       isCorrect: true 
-      explanation: Matrix visual
+      explanation: Matrix visual is the most like a Pivot Table in Excel.
     - content: Custom visual
       isCorrect: false 
-      explanation: Matrix visual
+      explanation: Matrix visual is the most like a Pivot Table in Excel.
   - content: The decomposition tree is what kind of visual?
     choices: 
     - content: Custom visual 
       isCorrect: false 
-      explanation: Artificial intelligence (AI visual)
+      explanation: The decomposition tree is an Artificial intelligence visual. 
     - content: Artificial intelligence (AI visual)
       isCorrect: true 
-      explanation: Artificial intelligence (AI visual)
+      explanation: The decomposition tree is an Artificial intelligence visual. 
     - content: What-if scenario 
       isCorrect: false 
-      explanation: Artificial intelligence (AI visual)
+      explanation: The decomposition tree is an Artificial intelligence visual. 
     - content: Matrix visual
       isCorrect: false 
-      explanation: Artificial intelligence (AI visual)
+      explanation: The decomposition tree is an Artificial intelligence visual. 
