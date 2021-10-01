@@ -12,7 +12,7 @@ The tutorial follows the Contoso company, which is a pet grooming business that 
 
 Sign in to [Power Apps](https://make.powerapps.com) and follow these steps to create a new custom table.
 
-1. In the left navigation pane, expand **Data**, select **Tables**, and then select **+ New table**.
+1. In the left navigation pane, expand **Dataverse/Data**, select **Tables**, and then select **+ New table**.
 
 1. Under New table, enter the following:
 
@@ -22,7 +22,7 @@ Sign in to [Power Apps](https://make.powerapps.com) and follow these steps to cr
 
     - **Display name**: *Pet Name*
 
-1. At the bottom, click **Create**.
+1. At the bottom, select **Create**.
 
 You will notice in our example, the new table and primary column begins with **cree0_**. More columns created for this table will also begin with **cree0**, this is specific to our demo environment. When testing in your own environment this may look different.
 
@@ -110,4 +110,4 @@ You will notice in our example, the new table and primary column begins with **c
 
 1. Select **Save**.
 1. Select **Publish**.
-1. Click the back arrow in your browser to close the form designer.
+1. Select the back arrow in your browser to close the form designer.
