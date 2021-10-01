@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "learn-bizapps-pr/flow/get-started-flows/8-flow-team-flows.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/",
+      "redirect_document_id⁯": false
+    }
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-flows/5-flow-copy-files.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/",
+      "redirect_document_id⁯": false
+    }
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-flows/4-flow-get-notifications.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/",
+      "redirect_document_id⁯": false
+    }
+    {
       "source_path": "learn-bizapps-pr/flow/button-user-input/4-calendar.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/button-user-input/",
       "redirect_document_id⁯": false

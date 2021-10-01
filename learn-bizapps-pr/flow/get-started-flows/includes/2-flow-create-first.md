@@ -1,54 +1,64 @@
-In this unit, you'll see more of Power Automate as you build your first flow.
+In this unit, you'll learn more about Power Automate as you build your first flow.
 
-It can be time consuming to search for attachments through email. The flow that you'll build saves time by storing all your email attachments in a folder on your Microsoft OneDrive for Business account.
+Since it can be time consuming to search for attachments in your emails, creating a flow can save you time by storing all your email attachments in a folder in your Microsoft OneDrive for Business account.
 
-If you'd like to see the process of creating flows, see the following video. The steps that follow guide you through the process of creating flows.
+If you would like to see the process of creating flows, watch the following video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWGzyZ] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWGzyZ]
 
-## Choose a template
+The following steps will guide you through the process of creating flows.
 
-Our many templates will get your flows flowing quickly. They'll help you connect the services you're already using in more meaningful ways.
+## Create a flow
 
-Sign in to [Power Automate](https://ms.flow.microsoft.com), and select the **Templates** menu. You can sign up for Power Automate with a Microsoft account.
+For your first flow, you'll create a flow by using a template.
 
-Select the **Save Office 365 email attachments to OneDrive for Business** template.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com), and select the **Templates** on the left menu.
 
-![Screenshot of the SaveOffice 365 email attachments to OneDrive for Business template tile.](../media/office-365-email.png)
+1. Search for and select the **Save Office 365 email attachments to OneDrive for Business** template.
 
-## Create the flow
+    ![Screenshot of the SaveOffice 365 email attachments to OneDrive for Business template tile.](../media/office-365-email.png)
 
-**Save Office 365 email attachments to OneDrive for Business** is one of our one-click templates, in which you can answer questions that are necessary to build the flow, so that you don't have to write a line of code.
+1. Once the connections to the **Office 365 Outlook** and **OneDrive for Business** connectors are created, select **Create flow**. The page will navigate to the **Details** of the new flow.
 
-On the template graphic, there's a description of what the template does and what it needs to succeed.
+    If you regularly use both the **Office 365 Outlook** and **OneDrive for Business** connectors, flow will connect to them automatically. If you don't, you will be prompted to provide your credentials.
 
-You'll be asked to provide credentials for the Microsoft Office 365 Outlook and Microsoft OneDrive for Business services. If you regularly use both services, you'll already be signed in.
+1. In the next page, Power Automate will display the new flow with the following information:
+    - **Details** displays information such as Flow Name, Description, Owner, Status, and Created and Modified dates.
+    - **Connections** displays information about the connectors used in the flow.
+    - **Owners** displays information about the flow owners.
+    - **28-day run history** displays all the flow runs for the last 28 days.
 
-1. Click on the template and select **Create Flow**.
+        ![Screenshot of a successfully created flow.](../media/create-successful.png)
 
-2. On the next page, Power Automate creates the flow for you.
-    - It will connect to your work email to get any attachments.
-    - It will then create a folder on your OneDrive for Business account to automatically put every attachment that's sent to your work email address in that folder.
-
-    ![Screenshot of a successfully created flow.](../media/create-successful.png)
-
-3. Select the **My flows** menu.
-
-4. Select the flow you just created and click **Edit** to see how it works.
+1. Select **Edit** to see how the flow works.
 
     ![Screenshot of the flow selected and the Edit button highlighted.](../media/click-the-flow.png)
 
-5. Send an email with an attachment, or have another user send an email with an attachment. You then should see a green check mark, which indicates that the flow succeeded.
+    1. The flow uses the **Outlook - On new email** trigger. Select **Show advanced options** to view more parameters. You will see the **Include Attachments** and the **Only with Attachments** parameters are set to **Yes**.
 
-6. Select the arrow towards the top to go back to the flow definition page.
+        ![Screenshot of the flow selected and the Edit button highlighted.](../media/flow-trigger.png)
 
-7. The run history and the results are listed below.
+    1. The next action is an **Apply to each** loop and it has been renamed to **Apply to each Attachment on the email**. This loop contains the rest of the actions because each one will be executed for each of the attachments.
 
-     ![Screenshot of the message Your flow ran successfully.](../media/run-history.png)
+    1. The next action is the **OneDrive for Business - Create file**. It creates a file in the specified location with the provided **File Name** and **File Content**.
 
-    In this case, all parts of the flow were successful.
+        ![Screenshot of the flow selected and the Edit button highlighted.](../media/apply-to-each-create-file.png)
 
-    ![Screenshot of the run history and with all runs showing the Status Succeeded.](../media/flow-successful.png)
+    1. The next action is a **Condition**. It checks if the **statusCode** of the **Create file** action is equals to **409**.
+
+        This action is only executed if the **Create file** action is skipped.
+
+    1. If the **Condition** is true, the **Delay** action is executed to delay the flow for 30 seconds. After the 30 seconds are complete, the **Create file retry** action is executed.
+
+        The **Create file retry** action is the same **OneDrive for Business - Create file** action. It has been renamed to distinguish it from the **Create file** action above the **Condition**.
+
+        ![Screenshot of the flow selected and the Edit button highlighted.](../media/first-flow-condition.png)
+
+## Test the flow
+
+1. Send yourself an email with an attachment, or have another user send an email with an attachment. Wait until the flow is done running and select the first run history to see the results.
+
+    ![Screenshot of the message Your flow ran successfully.](../media/run-history.png)
 
 ## Important concepts in Power Automate
 
