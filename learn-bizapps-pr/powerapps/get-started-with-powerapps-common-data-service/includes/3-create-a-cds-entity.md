@@ -6,7 +6,7 @@ In this unit, you'll create a table and then customize key components, like colu
 - Customize a view.
 - Customize a form.
 
-The tutorial follows the Contoso company, which is a pet grooming business that grooms dogs and cats. Contoso needs an app for client and pet tracking that can be used by employees on a variety of devices.
+The tutorial follows the Contoso company, which is a pet grooming business that grooms dogs and cats. Contoso needs an app for client and pet tracking that can be used by employees on various devices.
 
 ## Create a custom table
 
@@ -24,7 +24,7 @@ Sign in to [Power Apps](https://make.powerapps.com) and follow these steps to cr
 
 4. At the bottom, click **Create**.
 
-You will notice in our example, the new table and primary column begins with **cree0_**. Additional columns created for this table will also begin with **cree0**, this is specific to our demo environment. When testing in your own environment this may look different.
+You will notice in our example, the new table and primary column begins with **cree0_**. More columns created for this table will also begin with **cree0**, this is specific to our demo environment. When testing in your own environment this may look different.
 
 ## Add and customize columns
 
@@ -87,7 +87,7 @@ You will notice in our example, the new table and primary column begins with **c
     - Species
 
 3. Select the **Created On** column, select **Remove**.
-4. To arrange the columns, select the column to move, and then select **Move Left** or **Move Right** until your view looks like this. You could also simply drag and drop the columns to arrange the order as well.
+4. To arrange the columns, select the column to move, and then select **Move Left** or **Move Right** until your view looks like this. You could also drag and drop the columns to arrange the order as well.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Account drop-down with Move Left and Move Right options highlighted.](../media/updated-active-pets-view.png)

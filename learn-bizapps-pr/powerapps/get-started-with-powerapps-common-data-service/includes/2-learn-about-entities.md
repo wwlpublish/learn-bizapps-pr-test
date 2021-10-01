@@ -7,7 +7,7 @@ In Dataverse, metadata (data about data), is a collection of tables. Table metad
 The apps that your customers use to interact with the data in your environment depend on the table metadata, and they adapt as you customize the metadata. 
 
 ## When to use standard tables, and when to create new tables
-Dataverse comes with a number of standard tables that support core business application capabilities. Each table also contains a number of metadata columns that represent common data that the system needs to store for that table. We recommend that you become very familiar with the catalog of standard tables, and use them where possible, because any applications written with standard tables will work as you expect in your environment without additional effort.
+Dataverse comes with many standard tables that support core business application capabilities. Each table also contains many metadata columns that represent common data that the system needs to store for that table. We recommend that you become familiar with the catalog of standard tables, and use them where possible, because any applications written with standard tables will work as you expect in your environment without extra effort.
 
 For minor changes, you might not have to create a custom table: 
 
@@ -17,7 +17,7 @@ For minor changes, you might not have to create a custom table:
 If standard tables don't work for your business needs, and if they can't be edited to meet those needs, consider creating a new table, column, or table relationship. If a standard table almost meets your business needs, you can use it as the basis for a new table.
 
 ## Table relationships
-Table relationships define the different ways table rows can be associated with rows from other tables or the same table. Table relationships are metadata. They let queries retrieve related data very efficiently. Use table relationships to define the formal relationships between tables. 
+Table relationships define the different ways table rows can be associated with rows from other tables or the same table. Table relationships are metadata. They let queries retrieve related data efficiently. Use table relationships to define the formal relationships between tables. 
 
 When you look at the solution explorer you might think that there are three types of table relationships but actually there are only two, see below:
 
@@ -29,7 +29,7 @@ The N:1 (many-to-one) relationship type exists in the user interface because the
 Besides defining how rows can be related to other rows, 1:N table relationships also provide data to address the following questions:
 
 - When I delete a row, should any rows that are related to that row also be deleted?
-- When I assign a rows to a new owner, do I also have to assign all related rows to the new owner?
+- When I assign a row to a new owner, do I also have to assign all related rows to the new owner?
 - How can I streamline the data entry process when I create a new related row in the context of an existing row?
 - How should people who view a row be able to view the related rows?
 
@@ -47,7 +47,7 @@ An *activity* is an action that a calendar entry can be made for. Activities hav
 
 - They have time dimensions (start time, stop time, due date, and duration) that help define when the action occurred or will occur.
 - They have data (like a subject and description) that helps define the action that the activity represents. 
-- They can be opened, canceled, or completed. Several sub-status values will be associated with the *Completed* status of an activity to clarify how the activity was completed. 
+- They can be opened, canceled, or completed. Several substatus values will be associated with the *Completed* status of an activity to clarify how the activity was completed. 
  
 Activity tables can be owned only by a user or team. They can't be owned by an organization.
 
