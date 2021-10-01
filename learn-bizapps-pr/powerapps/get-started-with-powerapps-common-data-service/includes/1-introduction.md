@@ -12,7 +12,7 @@ Dynamics 365 applications, such as Dynamics 365 Sales, Service, and Marketing, u
  > [!NOTE]
  > Dynamics 365 Finance, Dynamic 365 Supply Chain Management, and Dynamics 365 Retail  currently require the configuration of Dual-Write to make your business data available within Dataverse. 
 
-![Screenshot of Power Apps showing a list of tables.](../media/updated-entitylist.png "table list")
+[![Screenshot of Power Apps showing a list of tables.](../media/updated-entity-list.png)](../media/updated-entity-list.png#lightbox)
 
 For most organizations, it's a good idea to use the standard tables and columns as they were intended. But to meet your business needs, you can extend the functionality of standard tables by creating one or more custom tables to store information that's unique to your organization. 
 
