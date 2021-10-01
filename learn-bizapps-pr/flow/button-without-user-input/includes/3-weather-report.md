@@ -113,16 +113,14 @@ Now, let's take this example one step further and send an email notification to 
 1. Under Actions, select **Send an email (V2) - Office 365 Outlook**.
 1. In the **To** field, I am going to send this to the Operations group.
 
-![Screenshot of the email to operations group](../media/email-operations-group.png)
+    ![Screenshot of the email to operations group](../media/email-operations-group.png)
 
 1. In the **Subject**, enter a combination of free text and dynamic content to create a brief Subject for the email.
 
-![Screenshot of the email to operations subject](../media/email-operations-subject.png)
+    ![Screenshot of the email to operations subject](../media/email-operations-subject.png)
 
 1. In the **Body**, you can use a combination or free text and dynamic content to create a different message than the Mobile notification. Or you can copy the details and use them in the email today as well, that's what we will do in this example.
 
-![Screenshot of the email to operations body](../media/email-operations-body.png)
+    ![Screenshot of the email to operations body](../media/email-operations-body.png)
 
 1. Save the flow and now the Operations Group will receive an email each time you press the button.
-  
- 
