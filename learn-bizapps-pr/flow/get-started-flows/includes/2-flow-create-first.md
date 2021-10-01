@@ -32,17 +32,17 @@ For your first flow, you'll create a flow by using a template.
 
 1. Select **Edit** to see how the flow works.
 
-    ![Screenshot of the flow selected and the Edit button highlighted.](../media/click-the-flow.png)
+    ![Screenshot of the Edit button highlighted.](../media/click-the-flow.png)
 
     1. The flow uses the **Outlook - On new email** trigger. Select **Show advanced options** to view more parameters. You will see the **Include Attachments** and the **Only with Attachments** parameters are set to **Yes**.
 
-        ![Screenshot of the flow selected and the Edit button highlighted.](../media/flow-trigger.png)
+        ![Screenshot of the include attachments and only with attachments fields marked as yes.](../media/flow-trigger.png)
 
     1. The next action is an **Apply to each** loop and it has been renamed to **Apply to each Attachment on the email**. This loop contains the rest of the actions because each one will be executed for each of the attachments.
 
     1. The next action is the **OneDrive for Business - Create file**. It creates a file in the specified location with the provided **File Name** and **File Content**.
 
-        ![Screenshot of the flow selected and the Edit button highlighted.](../media/apply-to-each-create-file.png)
+        ![Screenshot of the apply to each attachment on the email window..](../media/apply-each-create-file.png)
 
     1. The next action is a **Condition**. It checks if the **statusCode** of the **Create file** action is equals to **409**.
 
@@ -52,7 +52,7 @@ For your first flow, you'll create a flow by using a template.
 
         The **Create file retry** action is the same **OneDrive for Business - Create file** action. It has been renamed to distinguish it from the **Create file** action above the **Condition**.
 
-        ![Screenshot of the flow selected and the Edit button highlighted.](../media/first-flow-condition.png)
+        ![Screenshot of the flow condition.](../media/first-flow-condition.png)
 
 ## Test the flow
 
