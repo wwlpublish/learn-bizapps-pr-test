@@ -85,7 +85,7 @@ As stated previously though, in this example you will see how to create a button
     Make sure that the
     dynamic content comes from **Get the forecast for tomorrow**.
 
-  > [!div class="mx-imgBorder"]
+    > [!div class="mx-imgBorder"]
     > [![Screenshot of the same action, but with tomorrow's forecast dynamic content added.](../media/notification-action-tomorrows-forecast.png)](../media/notification-action-tomorrows-forecast.png#lightbox)
 
 1. Select **Flow check**, which is available on the upper right of the page, and confirm that you have zero errors and warnings. Select **Save**.
