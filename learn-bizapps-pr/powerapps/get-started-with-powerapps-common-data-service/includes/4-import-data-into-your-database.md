@@ -5,7 +5,7 @@ Every table has required columns that must exist in your input file. We recommen
 ## Create a file template
 You can do a one-time data export from a standard table or a custom table, and you can export data from more than one table at a time. If you export data from more than one table, each table is exported into its own Microsoft CSV file. In this example, you'll see how to export the **Pet** table but remember you could select several tables to export if you would like.
 
-1. On [powerapps.com](https://make.powerapps.com/), in the left navigation pane, expand **Data**, select **tables**, and then select **Export data**.
+1. On [powerapps.com](https://make.powerapps.com/), in the left navigation pane, expand **Data**, select **tables**, select **Data** at the top, and then select **Export data**.
 2. Select the **Pet** table, and then select **Export data**.
 3. After the export is finished, select **Download exported data**, and save the file.
 
@@ -22,7 +22,7 @@ When you add data to a template file, you must make sure the data is unique. You
 
     ![Example of adding new row of data](../media/add-new-row.png)
 
-3. Save the file.
+3. Save the file. 
 
 ## Import the file
 1. In the left navigation pane, expand **Data**, and then select **tables**.

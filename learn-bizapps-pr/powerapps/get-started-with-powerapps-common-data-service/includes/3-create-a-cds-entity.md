@@ -12,7 +12,7 @@ The tutorial follows the Contoso company, which is a pet grooming business that 
 
 Sign in to [Power Apps](https://make.powerapps.com) and follow these steps to create a new custom table.
 
-1. In the left navigation pane, expand **Data**/**Dataverse**, select **Tables**, and then select **+ New table**.
+1. In the left navigation pane, expand **Data**, select **Tables**, and then select **+ New table**.
 
 2. Under New table, enter the following:
 
@@ -35,12 +35,13 @@ You will notice in our example, the new table and primary column begins with **c
     - **Display name**: *Species*
     - **Data type**: *Choice*
     - **Choice set**: *+ New choice*
+    - **Searchable**: *Yes*
 
 4. Create the choice set:
 
-    1. Replace *New option* with *Dog*.
+    1. Replace *New choice* with *Dog*.
     2. Select **Add new item**.
-    3. Replace *New option* with *Cat*.
+    3. Replace *New choice* with *Cat*.
     4. Select **Save**.
 
     > [!div class="mx-imgBorder"]
@@ -97,12 +98,12 @@ You will notice in our example, the new table and primary column begins with **c
 ## Customize the main form
 
 1. In the left navigation pane, expand **Data**, select **Tables**, and then select **Pet**.
-1. On the **Forms** tab, select the row that includes **Main** as the form type. In that row, select **Information** to open the form editor.
+1. On the **Forms** tab, select **Information** next to the **Main** form type to open the form editor.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Form tab with Information highlighted.](../media/updated-main-form-edit.png)
 
-1. In the left pane, select **Table columns**. Drag the **Species**, **Breed**, **Appointment date**, and **Account** columns from the **Column Explorer** pane to the **General** section of the form canvas, so that the form looks like this.
+1. In the form editor, drag the **Species**, **Breed**, **Appointment date**, and **Account** columns from the **Column Explorer** pane to the **General** section of the form canvas, so that the form looks like this.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of General section of the form canvas.](../media/updated-main-form-edit2.png)
