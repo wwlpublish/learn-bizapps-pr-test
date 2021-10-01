@@ -49,7 +49,7 @@ materials that will accelerate their learning journey.
 
 1. For the next action, select **+New step**, search for and select the **Power Automate Management** connector and then select the **List Flow as Admin** action.
 
-    1. To set the Environment, click on the drop-down and select **Enter custom value**. Select **Name** value in the **Dynamic content** window. This will wrap the action in an **Apply to each** loop automatically to iterate through each environment.
+    1. To set the Environment, select the drop-down and select **Enter custom value**. Select **Name** value in the **Dynamic content** window. This will wrap the action in an **Apply to each** loop automatically to iterate through each environment.
 
         ![Screenshot of the Power Automate Create page showing the list environments action added.](../media/20-list-environments.png)
 
@@ -59,13 +59,13 @@ materials that will accelerate their learning journey.
 
     1. In the **Condition**, set the left value to the following expression ```ticks(items('Apply_to_each_2')?['properties/createdTime'])```. Set the logical operator to **is greater than** and then set the right value to the reportingPeriodTicks variable.
 
-        If any flows were created before the reporting period, no additional actions will be executed. If any flows were created after the reporting period, the actions outlined below will be executed in the **If yes** branch of the **Condition**.
+        If any flows were created before the reporting period, no other actions will be executed. If any flows were created after the reporting period, the actions outlined below will be executed in the **If yes** branch of the **Condition**.
 
         ![Screenshot of the Power Automate Create page showing the list flows Apply to each 2 action.](../media/21-list-flows.png)
 
 1. Add the following actions to the **If yes** branch of the **Condition**:
 
-    1. Select **Add an action**, search for and select the **Office 365 Groups** connector and then select the **List group members** action. To set the **Group Id**, click on the drop-down and select the **Flow Users**, the group you previously created.
+    1. Select **Add an action**, search for and select the **Office 365 Groups** connector and then select the **List group members** action. To set the **Group Id**, select the drop-down and select the **Flow Users**, the group you previously created.
 
         ![Screenshot of the Power Automate Create page showing the list group members action.](../media/30-list-group-member.png)
 
@@ -97,11 +97,11 @@ materials that will accelerate their learning journey.
 
     ![Screenshot of the Power Automate My flows page showing the approval outcome.](../media/28-outcome.png)
 
-1. You are now ready to add the user to the **Flow Users** group you previously created. To achieve this, select **Add an action** in the **If yes** branch of the **Condition**, search for and select the **Office 365 Groups** connector and then select the **Add member to group** action. To set the **Group Id**, click on the drop-down and select the **Flow Users**, the group you previously created. Set the **User Principal Name** value to the **User Principal Name** value from the **Get user profile (V2)** action in the **Dynamic content** window.
+1. You are now ready to add the user to the **Flow Users** group you previously created. To achieve this, select **Add an action** in the **If yes** branch of the **Condition**, search for and select the **Office 365 Groups** connector and then select the **Add member to group** action. To set the **Group Id**, select the drop-down and select the **Flow Users**, the group you previously created. Set the **User Principal Name** value to the **User Principal Name** value from the **Get user profile (V2)** action in the **Dynamic content** window.
 
     ![Screenshot of the Power Automate My flows page showing the add member to group action added.](../media/29-add-member.png)
 
-1. Click on the Save button on the upper-right corner and the flow is now complete. It should resemble the example below.
+1. Select the Save button on the upper-right corner and the flow is now complete. It should resemble the example below.
 
     ![Screenshot of the Power Automate My flows page showing the completed flow.](../media/24-complete-flow.png)
 

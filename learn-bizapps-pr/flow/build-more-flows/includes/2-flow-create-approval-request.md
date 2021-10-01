@@ -8,7 +8,7 @@ In this scenario, anyone who has access to the Microsoft SharePoint list can con
 * A Microsoft Office 365 account with access to SharePoint. 
 * A Twitter account.
 
-## Step one: Create a SharePoint list for tweets
+## Step 1: Create a SharePoint list for tweets
 
 You'll use a template that starts an approval process whenever a new item is created in a specific list. If the item is approved, a tweet is posted to Twitter. For this unit, you'll change the process by adding steps that update a SharePoint list with the approval response, indicate whether the item was approved, and add any comments that the approver added to the proposed tweet.
 
@@ -25,14 +25,14 @@ First, let's create the SharePoint list.
 
 1. Copy the URL of the SharePoint list. You'll use it when you create the flow.
 
-## Step two: Create an approval request flow
+## Step 2: Create an approval request flow
 
 1. Sign in to [Power Automate](https://ms.flow.microsoft.com/?azure-portal=true), and then select **Templates**.
 1. Search **Post list items to Twitter** under **Approval** and select the appropriate template.
 
     ![Screenshot of the Templates page on the Approval tab with search results for "Post list items to twitter after approval" highlighted.](../media/create-approval.png)
 
-1. Make sure your account credentials for **SharePoint**, **Approvals**, and **Twitter** are entered and are correct. If any of these connections are not entered, click the **+** icon next the connection and enter your credentials accordingly.
+1. Make sure your account credentials for **SharePoint**, **Approvals**, and **Twitter** are entered and are correct. If any of these connections are not entered, select the **+** icon next the connection and enter your credentials accordingly.
 
 1. Once all of these connections are set up properly, select **Continue** to proceed.
 

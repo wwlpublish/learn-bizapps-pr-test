@@ -35,4 +35,4 @@ After a flow has been exported, anyone that you send the zip file to can import 
     - You must also select the connections that are required to set up the flow as part of the import process.
     - The **Import** button should become available after you've configured all the required settings.
 
-1. After the flow is completely imported, you will have a link to open it and see the flow in **My Flows**, under the **Cloud flows** heading.
+1. After the flow is imported, you will have a link to open it and see the flow in **My Flows**, under the **Cloud flows** heading.
