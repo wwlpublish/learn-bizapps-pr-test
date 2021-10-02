@@ -3,9 +3,9 @@ uid: learn-bizapps.powerapps-common-data-service.3-create-a-cds-entity
 title: Lab - Create a Microsoft Dataverse table
 labId: 105471
 metadata: 
-  title: Create a Dataverse table
+  title: Lab - Create a Microsoft Dataverse table
   description: Create a Dataverse table
-  ms.date: 09/15/2021  
+  ms.date: 10/01/2021  
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
