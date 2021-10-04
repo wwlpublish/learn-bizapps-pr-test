@@ -7,7 +7,7 @@ For more information, see [Visual interactions in Power BI visuals](/power-bi/de
 For more information, see [Sync slicers across pages in Power BI reports](/power-bi/developer/visuals/enable-sync-slicers/?azure-portal=true).
 
 > [!IMPORTANT]
-> It might be tempting to think that slicers apply page-level filters because that's the default result. However, it's important to understand that a slicer is a visual that propagates filters to other visuals on the same page or (when synced) across other pages*.*
+> It might be tempting to think that slicers apply page-level filters because that's the default result. However, it's important to understand that a slicer is a visual that propagates filters to other visuals on the same page or (when synced) across other pages.
 
 You can configure a slicer by using one or more fields from the same table or a hierarchy. When configured to use multiple fields or a hierarchy, the slicer presents an expandable tree structure of items.
 

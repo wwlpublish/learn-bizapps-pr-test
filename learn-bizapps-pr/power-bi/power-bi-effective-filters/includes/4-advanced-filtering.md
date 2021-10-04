@@ -37,7 +37,7 @@ For more information, see [Set up drillthrough in Power BI reports](/power-bi/cr
 
 Add report tooltips that will appear when report consumers hover the cursor over visuals. By default, the report tooltip receives all filters that apply to the visual.
 
-For more information, see [Create tooltips based on report pages in Power BI Desktop](m/power-bi/create-reports/desktop-tooltips/?azure-portal=true).
+For more information, see [Create tooltips based on report pages in Power BI Desktop](/power-bi/create-reports/desktop-tooltips/?azure-portal=true).
 
 ## Bookmarks
 
