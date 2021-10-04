@@ -4,9 +4,9 @@ title: Check your knowledge
 metadata: 
   title: "Knowledge check: Get started with Power Automate" 
   description: This knowledge check tests your knowledge of how to use Power Automate. 
-  ms.date: 03/06/2020
-  author: KevSch
-  ms.author: kschimke
+  ms.date: 10/1/2021
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-power-automate
 durationInMinutes: 6 
@@ -46,11 +46,11 @@ quiz:
     - content:  Power Automate can send up a flare near you to alert you of changes.
       explanation: No, but that would be cool.
       isCorrect:  false
-    - content: You can write a flow with Power Automate to send push notifications, texts or emails for a variety of triggers.
+    - content: You can write a flow with Power Automate to send push notifications, texts, or emails for various triggers.
       explanation: Correct! Power Automate is good that way.
       isCorrect:  true
     - content: Sorry, Power Automate can't help with that.
-      explanation: Try again! Power Automate is very good at this sort of task.
+      explanation: Try again! Power Automate is good at this sort of task.
       isCorrect: false
     - content: Power Automate can send out a tweet whenever a list item is changed.
       explanation: It could, but that doesn't seem like the most helpful type of alert.
