@@ -1,46 +1,40 @@
 ### YamlMime:Module 
-uid: learn-bizapps.modern-analytics-data-modeling 
+uid: learn-bizapps.foundations-data-modeling 
 metadata: 
- title: Secure, publish, and share data in Power BI
- description: This module reviews securing, sharing, and publishing Microsoft Power BI reports as part of Power BI service.
- ms.date: 09/28/2021  
+ title: Introduction to foundations in data modeling 
+ description: This module introduces the key concepts that are related to developing a well-organized data model.
+ ms.date: 09/13/2021  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
-title: Secure, publish, and share data in Power BI
+title: Introduction to foundations in data modeling
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Secure, share, publish, and keep data up to date using workspaces in the Power BI service, empowering teams to discover limitless data insights.  
+  This module introduces data modeling concepts and the recommended best practices for creating a data model. You will learn about data model relationships, table types, measures, and calculated columns.
 abstract: |  
     In this module, you will: 
-    - Share reports in Power BI.
-    - Create scorecards with goals in Power BI.
-    - Configure row-level security for a Power BI report.
-    -  Publish a Power BI data model to a workspace.
-    -  Control access to a workspace.
-    - Create comments and personal bookmarks in a report.
-    - Use endorsements to certify or promote datasets.
-    - Protect data with Microsoft Information Protection (MIP).
-    - Apply refresh and alert schedules for a Power BI report.
-prerequisites: None
-iconUrl: /learn/achievements/modern-analytics-data-modeling.svg  
-levels:  
-- intermediate   
+    - Learn about the role and benefits of a data model in the Microsoft Modern Analytics ecosystem.
+    - Learn how Power Query feeds a data model.
+    - Discover the four foundational data modeling concepts.
+prerequisites: Microsoft Excel
+iconUrl: /learn/achievements/foundations-data-modeling.svg  
+levels: 
+- beginner   
 roles:  
 - business-user   
 - business-analyst 
 products: 
-- power-platform
+- power-platform 
 - power-bi 
 units: 
-- learn-bizapps.modern-analytics-data-modeling.1-introduction 
-- learn-bizapps.modern-analytics-data-modeling.2-security 
-- learn-bizapps.modern-analytics-data-modeling.3-publish 
-- learn-bizapps.modern-analytics-data-modeling.4-share 
-- learn-bizapps.modern-analytics-data-modeling.5-protect-data 
-- learn-bizapps.modern-analytics-data-modeling.6-refresh-alerts 
-- learn-bizapps.modern-analytics-data-modeling.7-check 
-- learn-bizapps.modern-analytics-data-modeling.8-summary 
+- learn-bizapps.foundations-data-modeling.1-introduction 
+- learn-bizapps.foundations-data-modeling.2-data-model-relationships 
+- learn-bizapps.foundations-data-modeling.3-data-model-table-types 
+- learn-bizapps.foundations-data-modeling.4-data-model-measures 
+- learn-bizapps.foundations-data-modeling.5-data-model-calculated-columns 
+- learn-bizapps.foundations-data-modeling.6-benefits-data-models 
+- learn-bizapps.foundations-data-modeling.7-check 
+- learn-bizapps.foundations-data-modeling.8-summary 
 badge: 
-  uid: learn-bizapps.modern-analytics-data-modeling.badge 
+  uid: learn-bizapps.foundations-data-modeling.badge 

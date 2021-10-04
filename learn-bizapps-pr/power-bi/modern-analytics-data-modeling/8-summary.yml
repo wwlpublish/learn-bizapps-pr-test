@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.modern-analytics-data-modeling.8-summary 
-title: Summary
+uid: learn-bizapps.foundations-data-modeling.8-summary 
+title: Summary 
 metadata: 
-  title: Summary
-  description: Summary of securing, publishing, and sharing data in Power BI.
-  ms.date: 09/28/2021 
+  title: Summary 
+  description: Summary of foundations in data modeling.
+  ms.date: 09/13/2021 
   author: heyrob 
   ms.author: robde 
   ms.topic: interactive-tutorial 

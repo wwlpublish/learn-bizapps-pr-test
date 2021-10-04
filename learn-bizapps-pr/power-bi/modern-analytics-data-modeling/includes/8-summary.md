@@ -1,19 +1,9 @@
-Comments and bookmarks allow report consumers more flexibility in terms of self-service business intelligence and collaboration. Row-level security (RLS) adds the flexibility to share a single report with multiple audiences. Promoted and certified datasets ensure that the target audience is locating and using a single version of truth. Endorsements protect and persist data that is exported from Power BI. Automated refreshes eliminate repetitive tasks for the data modeler. These features empower you to set up governance structures quickly and help you save time for developing data models that lead to additional business insights.
+Relationship structure is an important component of a data modeler's process when creating a report. The structure will impact the size of the overall model and refresh speeds. After the structure has been set up by using best practices, you'll be set up for successful measure creation. Measures give the data modeler access to the important references that are needed to build visuals within Power BI or pivot tables within Excel to tell the story and provide insights.
 
 ## Reference links
 
-[Row-level security (RLS)](/power-bi/admin/service-admin-rls/?azure-portal=true)
+- [Best practice rules to improve your model's performance](/blog/best-practice-rules-to-improve-your-models-performance/?azure-portal=true)
 
-[Publish Excel workbooks to Power BI](/power-bi/connect-data/service-publish-from-excel/?azure-portal=true)
+- [Create and manage relationships in Power BI Desktop - Power BI \| Microsoft Docs](/power-bi/transform-model/desktop-create-and-manage-relationships/?azure-portal=true)
 
-[Analyze in Excel](/power-bi/collaborate-share/service-analyze-in-excel/?azure-portal=true)
-
-[Data refresh](/power-bi/connect-data/refresh-data/?azure-portal=true)
-
-[Workspace roles](/power-bi/collaborate-share/service-roles-new-workspaces/?azure-portal=true)
-
-[Licensing details](https://www.linkedin.com/pulse/power-bi-licensing-pictures-greg-deckler-microsoft-mvp-/)
-
-[Endorsements](/power-bi/collaborate-share/service-endorsement-overview/?azure-portal=true)
-
-[Sensitivity labels](/power-bi/admin/service-security-apply-data-sensitivity-labels/?azure-portal=true)
+- [DAX function reference - DAX \| Microsoft Docs](/dax/dax-function-reference/?azure-portal=true)
