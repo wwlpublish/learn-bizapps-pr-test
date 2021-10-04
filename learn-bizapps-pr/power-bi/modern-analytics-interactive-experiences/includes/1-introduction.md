@@ -1,5 +1,7 @@
 Power BI's interactive visuals sets Power BI apart from Excel when creating and consuming reports. Most visuals in a Power BI report are interactive and connected to each other. The communication across visuals allows you to present a complete story of your data while also allowing report users to explore and discover new insights dynamically. You'll learn about several of the most utilized visuals in Power BI throughout this unit.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWMjLS]
+
 ## Power BI interactivity demo
 
 You will see several ways in which Power BI is dynamic and interactive in the following demo.
