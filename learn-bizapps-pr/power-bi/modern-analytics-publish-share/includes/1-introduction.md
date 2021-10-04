@@ -1,5 +1,7 @@
 Microsoft Power BI offers more flexibility with security when you are sharing data across an organization. You can set up roles for specific individuals or groups to limit access to reports or specific data within a data model. Workspaces allow incremental refresh schedules with alerts to notify users when the dataset refreshes. Additionally, users can save specific views of the report by using bookmarks without having to reconfigure all filters when revisiting the report.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWMjLT]
+
 In Power BI service, your reports exist within workspaces. Initially, when you create a workspace, only you will have access. Each workspace has access restrictions that are manageable through the **Access** button within the workspace view. Workspaces have four roles:
 
 -   **Viewer** - Can only view and read reports.
