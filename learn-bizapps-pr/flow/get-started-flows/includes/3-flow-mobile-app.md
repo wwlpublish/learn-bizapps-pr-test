@@ -1,4 +1,4 @@
-Of course we have an app -- the Power Automate mobile app! From this app, you can access these features:
+Of course, we have an app, the Power Automate mobile app! From this app, you can access these features:
 
 - Activity Feed
 - Browsing
@@ -65,4 +65,4 @@ If you want to change or delete one of your flows, it's easy.
 
     ![Screenshot of flow details with the Enable flow option and the Delete flow button highlighted.](../media/disable-delete.png)
 
-The next unit shows how to receive text and email notifications from flows.
+The next unit shows how to create recurring flows.

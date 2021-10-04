@@ -33,74 +33,84 @@ materials that will accelerate their learning journey.
 
     ![Screenshot of the flow in Power Automate with the initialize variable action highlighted.](../media/28-initialize-variable.png)
 
-    Name your variables in the following manner and include the appropriate **Value** as outlined:
+    Name your variables and include the appropriate **Value** as outlined below:
 
-    1. **reportingPeriod** - Is an Integer type and has an initial value of **-1**. This variable will be your window that you will look back on to determine if you have any new flows created. If you want to run this process weekly, then a value of **-7** would be appropriate.
+    1. **reportingPeriod** - Set the Type to Integer and the Value to **-1**. This variable will be your window that you will look back on to determine if you have any new flows created. If you want to run this process weekly, then a value of **-7** would be appropriate.
 
-    1. **reportingPeriodTicks** - Is also an Integer type and represents the number of ticks that exist for your reporting period. The value of this integer is achieved through an expression of ```ticks(addDays(utcNow(),variables('reportingPeriod')))```.
+    1. **reportingPeriodTicks** - Set the Type to Integer and the Value to the following expression ```ticks(addDays(utcNow(),variables('reportingPeriod')))```. This variable represents the number of ticks that exist for your reporting period.
 
         ![Screenshot of the Power Automate Create page showing the variables added.](../media/19-variables.png)
 
-1. Add a **List Environments As Admin** action by using the PowerPlatform for Admin connector. Add this action by selecting **+ New Step**, followed by searching for **PowerPlatform** and then selecting **List Environments as Admin**.
+1. For the next action, select **+New step**, search for and select the **Power Platform for Admins** connector and then select the **List Environments as Admin** action.
 
     ![Screenshot of the Power Automate Create page with the list environments as admin action highlighted.](../media/29-list-environments.png)
 
-1. The environment listing call will return a list of environments and will subsequently add an **Apply to each** loop to your flow when you try to use data that is returned from your list.
+    This action will return a list of environments that can be selected in the next action.
 
-    Next, add the **List Flows as Admin** action from the Flow Management connector and pass in the **Name** value of the current environment that you are iterating through, in your environments loop.
+1. For the next action, select **+New step**, search for and select the **Power Automate Management** connector and then select the **List Flow as Admin** action.
 
-    ![Screenshot of the Power Automate Create page showing the list environments action added.](../media/20-list-environments.png)
+    1. To set the Environment, select the drop-down and select **Enter custom value**. Select **Name** value in the **Dynamic content** window. This will wrap the action in an **Apply to each** loop automatically to iterate through each environment.
 
-1. Listing all flows within an environment will naturally return an array of flows. To address iterating through this array of flows, you will add an **Apply to each** loop. Within this loop, you want to check if you have any new flows in this environment. To complete this task, use the **Condition** action to verify if the ticks of the current flow create date are greater than the ticks value of your reporting period variable that you established earlier. As a result, verify by using an expression of **```ticks(item()?\['properties'\]?\['createdTime'\]) is greater than our reportingPeriodTicks variable```**.
+        ![Screenshot of the Power Automate Create page showing the list environments action added.](../media/20-list-environments.png)
 
-    ![Screenshot of the Power Automate Create page showing the list flows Apply to each 2 action.](../media/21-list-flows.png)
+        Listing all the flows within an environment will return an array of flows.
 
-   If your flow was created before your reporting period, that is acceptable; you won't perform additional actions. If your flow was created after your reporting period, then your logic will travel down the **If yes** *green* path.
+1. To iterate though this array of flows, add an **Apply to each** loop action. This loop will automatically be named **Apply to each 2**. Within this loop, select **Add an action** and then select **Condition** to check if there are new flows in each environment by verifying if the ticks of the current flow's created date are greater than the ticks value of the reportingPeriodTicks variable.
 
-1. Perform the next steps in the process:
+    1. In the **Condition**, set the left value to the following expression ```ticks(items('Apply_to_each_2')?['properties/createdTime'])```. Set the logical operator to **is greater than** and then set the right value to the reportingPeriodTicks variable.
 
-    1. List Office 365 group members (for the group previously created) by selecting **+New step**, searching for the Office 365 Groups connector, and then selecting the **List group members** action. When this action has been added to your designer, provide a **Group ID** of **Flow Users**, the group that you created previously.
+        If any flows were created before the reporting period, no other actions will be executed. If any flows were created after the reporting period, the actions outlined below will be executed in the **If yes** branch of the **Condition**.
+
+        ![Screenshot of the Power Automate Create page showing the list flows Apply to each 2 action.](../media/21-list-flows.png)
+
+1. Add the following actions to the **If yes** branch of the **Condition**:
+
+    1. Select **Add an action**, search for and select the **Office 365 Groups** connector and then select the **List group members** action. To set the **Group Id**, select the drop-down and select the **Flow Users**, the group you previously created.
 
         ![Screenshot of the Power Automate Create page showing the list group members action.](../media/30-list-group-member.png)
 
-    1. Get the UPN for your flow creator by passing in the **Creator object ID** that is returned from your Flow Management connector into the Office 365 Users connector. After you have searched for this connector, select the **Get user profile (V2)** action and specify your **Creator object ID** value from the **List Flows as Admin** action.
+        This action will return a list of all the members of the selected Office 365 group.
+
+    1. For the next action, select **Add an action**, search for and select the **Office 365 Users** connector and then select the **Get user profile (V2)** action. Set the **User (UPN)** value by selecting the **Creator Object ID** value from the **List Flows as Admin** action in the **Dynamic content** window.
 
         ![Screenshot of the Power Automate Create page showing the list group members action added.](../media/22-list-group.png)
 
-1. At this point, you have a flow that has been recently created and the owner and related metadata for that flow. However, you don't know if your user exists in your Office 365 group. To verify the user's status, use a condition that will turn your Office 365 group membership into a string by using the following expression: **```string(body(‘List_group_members’))```**. Next, verify if your group contains the name of your User Principal Name (UPN). If your UPN is not in your group, you need to add them by using the Office 365 Group connector and the **Add member to group** action, after they have completed the orientation material.
+        This action will retrieve the UPN (User Principal Name) of the flow creator.
 
-1. If your user is not found in your list of users, start an approval process by using the Approvals connector and the **Start and wait for an approval** action in the **If no** branch of your condition.
+1. At this point, you have a flow that has been created, and the owner and related metadata for that flow. However, it is unknown whether the use that owns the flow exists in the **Flow Users** group you previously created. The flow now needs to check if the user exists in the group.
+
+1. Select **Add an action** and then select **Condition**. In the **Condition**, set the left value to the following expression ```string(outputs('List_group_members)?['body'])```. Set the logical operator to **contains** and then set the right value to the **User Principal Name** value from the **Get user profile (V2)** action in the **Dynamic content** window.
+
+    The purpose of the expression ```string(outputs('List_group_members)?['body'])``` is to convert the output of the **List group members** from array to string. This way, the **Condition** can check if the output contains the value of the **User Principal Name**.
+
+1. If the **User Principal Name** is not found, it needs to be added to the **Flow Users** group you previously created. To achieve this, select **Add an action** in the **If no** branch of the **Condition**, search for and select the **Approvals** connector and then select the **Start and wait for an approval** action.
 
     ![Screenshot of the Power Automate My flows page showing the approval action.](../media/25-approval.png)
 
-1. Set the **Approval type** to **Approve/Reject - Everyone must approve** and set the **Assigned to** value to your **Mail** property from the Office 365 Users output. In addition, provide appropriate **Title**, **Details**, and **Item link** information that reflect the actions that you want the user to take.
+1. Set the **Approval type** value to **Approve/Reject - Everyone must approve** and then set the **Assigned to** value to the **Mail** value from the **Get user profile (V2)** action in the **Dynamic content** window. Additionally, provide the appropriate **Title**, **Details**, and **Item link** information that reflects the actions you want the user to take.
 
     ![Screenshot of the Power Automate My flows page showing the approval details.](../media/26-approval-details.png)
 
-1. Respond to the outcome of the approval. To complete this task, add another condition by adding a new Control and then selecting the **Condition** action.
+1. To determine the outcome of the approval, select **Add an action** and then select **Condition**. In the **Condition**, set the left value to the **Outcome** value from the **Start and wait for an approval** action in the **Dynamic content** window. Set the logical operator to **is equals to** and then set the right value to **Approve**.
 
     ![Screenshot of the Power Automate My flows page showing the condition control action.](../media/27-condition.png)
 
-1. To determine if your user has acknowledged their orientation, check the **Outcome** attribute from the **Approvals** output to see if it is equal to **Approve**.
-
     ![Screenshot of the Power Automate My flows page showing the approval outcome.](../media/28-outcome.png)
 
-1. You are now ready to add this user to your security group by using the Office 365 Groups connector and the **Add member to group** action. Within this action are a couple inputs that you need to provide, including a **Group ID** of **Flow Users** and your User Principal Name (UPN) that was returned from your Office 365 Users connector.
+1. You are now ready to add the user to the **Flow Users** group you previously created. To achieve this, select **Add an action** in the **If yes** branch of the **Condition**, search for and select the **Office 365 Groups** connector and then select the **Add member to group** action. To set the **Group Id**, select the drop-down and select the **Flow Users**, the group you previously created. Set the **User Principal Name** value to the **User Principal Name** value from the **Get user profile (V2)** action in the **Dynamic content** window.
 
     ![Screenshot of the Power Automate My flows page showing the add member to group action added.](../media/29-add-member.png)
 
-   Your complete flow should now resemble the following example.
+1. Select the Save button on the upper-right corner and the flow is now complete. It should resemble the example below.
 
     ![Screenshot of the Power Automate My flows page showing the completed flow.](../media/24-complete-flow.png)
 
-1. Test your flow. This step will help you validate your solution because your logic is going to look for any flows that have been created in the past day. You can create a flow manually or use a template. To keep things simple, provision the **Send myself a reminder in 10 minutes** template.
+1. Test your flow. This step will help you validate your solution because your logic is going to look for any flows that have been created in the past day. You can create a flow manually or use a template. To keep things simple, create a new flow using the **Send myself a reminder in 10 minutes** template.
 
-1. You can test your **Populate Flow Group** flow by using the Test feature that is found in the upper-right corner of the Power Automate maker portal.
+1. You can test your **Populate Flow Group** flow by clicking on the Test button found in the upper-right corner of the flow editor.
 
    Depending on the number of flows in your tenant, this flow might take a few minutes to run. It should detect any new flows that have been created in the past day, and check to see if the creator of that flow is part of your Office 365 Group.
 
-   If the creator of this flow is not a member of your Flow Users security group, an approval will be sent to your user who created a new flow. They will have the opportunity to review the orientation information and approve (attest) that they have reviewed the orientation information. After they have done so, their account will be added to your Flow Users group. The way that approvals work, expect that the approval response is required before the flow can continue.
-
-    ![Screenshot of the test email showing that it's pending approval.](../media/30-test-email.png)
+   If the creator of this flow is not a member of the **Flow Users** group, an approval will be sent to your user who created a new flow. They will have the opportunity to review the orientation information and approve (attest) that they have reviewed the orientation information. After they have done so, their account will be added to the **Flow Users** group. The way that approvals work, expect that the approval response is required before the flow can continue.
 
 You now have a flow that will continue to run and will look for new users who have completed their orientation and add users to your Office 365 group. In the future, if you need to communicate with these users, you can send an email to this group.
