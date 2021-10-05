@@ -7,7 +7,7 @@ Power BI's interactive visuals sets Power BI apart from Excel when creating and 
 You will see several ways in which Power BI is dynamic and interactive in the following demo.
 
 > [!div class="mx-imgBorder"]
-> [![Demonstration of Power BI interactivity demo. ](../media/interactive-visuals-demo.gif)]
+> ![Demonstration of Power BI interactivity demo. ](../media/interactive-visuals-demo.gif)
 
 The previous demo demonstrates how each of the visuals interact. The scatter chart animates changes over time. The slicers for region impact the output for the scatter chart as well as the line chart and card visuals. Additionally, selecting cells within the matrix impacts the other visualizations on the page too. These interactive experiences are only available in Power BI.
 
@@ -16,7 +16,7 @@ The previous demo demonstrates how each of the visuals interact. The scatter cha
 When using Power BI, you'll find that the matrix visual is most like PivotTables in Excel. The matrix visual takes **Rows**, **Columns**, and **Values** entries to produce a tabular matrix of outputs. In the following screenshot, the **Rows** entry contains the district and state fields. The **Values** entry contains the measures "Retention Composite Score", "On Time Installs Quintile", "Attrition Composite Score", and "NPR Quintile". Power BI presents the matrix visual like a PivotTable, with the row values along the left, the column values along the top, and the data to the right. The matrix visual includes conditional formatting options which can help users quickly identify key insights from the data.
 
 > [!div class="mx-imgBorder"]
-> [![Image of a Matrix in Power BI showing a conditionally formatted Matrix scorecard.](../media/matrix-conditional-formatting.png)](../media/matrix-conditional-formatting.png#lightbox)
+> ![Image of a Matrix in Power BI showing a conditionally formatted Matrix scorecard.](../media/matrix-conditional-formatting.png)(../media/matrix-conditional-formatting.png#lightbox)
 
 ## Power BI visuals -- conditional formatting
 
@@ -69,4 +69,4 @@ Custom visuals allow you to expand the types of visuals beyond the standard tabl
 End users can use what-if scenarios to toggle specific values and immediately see the impact within the report. The following demo shows an example in which the user changes the what-if scenario slider to see how the results change based upon a percentage multiplier.
 
 > [!div class="mx-imgBorder"]
-> [![Demonstration showing Power BI what if scenarios.](../media/what-if-scenario-demo.gif)]
+> ![Demonstration showing Power BI what if scenarios.](../media/what-if-scenario-demo.gif)

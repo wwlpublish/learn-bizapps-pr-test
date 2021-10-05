@@ -209,10 +209,10 @@ In this task, you will create a Card visual using measure [Potential MRR].
 From the Fields pane, select the [Potential MRR] measure from the Quotes table and drag the measure to an empty white space on the report page.
 
 > [!NOTE]
-> Depending on the field type and the data type of the field, you will get a default visual once you drag and drop a new field onto the report page. Since we have a measure, by default we get a Clustered column chart visual -- you can see the chart name by hovering over the icon on the Visualization pane.
+    > Depending on the field type and the data type of the field, you will get a default visual once you drag and drop a new field onto the report page. Since we have a measure, by default we get a Clustered column chart visual -- you can see the chart name by hovering over the icon on the Visualization pane.
 
-> [!div class="mx-imgBorder"]
-> [![Report page with the Clustered column chart and the Visualization pane with the Clustered column chart highlighted.](../media/card-visual.png)](../media/card-visual.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Report page with the Clustered column chart and the Visualization pane with the Clustered column chart highlighted.](../media/card-visual.png)](../media/card-visual.png#lightbox)
 
 1. Select the [Clustered column chart visual] to make it active and then select the [Card visual} icon from the Visualization pane.
 
