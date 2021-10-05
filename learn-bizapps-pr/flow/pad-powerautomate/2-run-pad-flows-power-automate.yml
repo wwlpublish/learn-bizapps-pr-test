@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.pad-power-automate.2-run-pad-flows-power-automate 
-title: Run a Power Automate Desktop process from Power Automate
+title: Run a Power Automate desktop flow from a cloud flow
 metadata: 
-  title: Run a Power Automate Desktop process from Power Automate
-  description: Learn how to run a Power Automate Desktop process from Power Automate.
-  ms.date: 12/10/2020 
+  title: Run a Power Automate desktop flow from a cloud flow
+  description: Run a Power Automate desktop flow from a cloud flow
+  ms.date: 09/20/2021 
   author: mariosleon  
   ms.author: marleon  
   ms.topic: interactive-tutorial 

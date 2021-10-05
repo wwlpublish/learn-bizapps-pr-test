@@ -1,4 +1,4 @@
-If your organization uses an Exchange server, Power Automate Desktop enables the automation of it through the Exchange actions. You can use the Exchange actions to connect to an Exchange server and retrieve, send, or process emails from it.
+If your organization uses an Exchange server, Power Automate for desktop enables the automation of it through the Exchange actions. You can use the Exchange actions to connect to an Exchange server and retrieve, send, or process emails from it.
 
 ## Connect to an Exchange server
 
@@ -36,7 +36,7 @@ Optionally, you can write the email body in HTML and attach files to the message
 
 ## Process Exchange email messages
 
-After retrieving messages from an Exchange folder, Power Automate Desktop enables you to manipulate them through the **Process Exchange email messages** action.
+After retrieving messages from an Exchange folder, Power Automate for desktop enables you to manipulate them through the **Process Exchange email messages** action.
 
 This action runs a series of essential email handling operations, such as deleting, marking as unread, and moving messages to other folders.
 

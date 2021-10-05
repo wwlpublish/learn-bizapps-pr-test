@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.modern-analytics-data-modeling.2-data-model-relationships 
+title:  Data model relationships
+metadata: 
+  title: Data model relationships
+  description: Data model relationships allow modern analysts to perform analysis over multiple tables and across larger volumes of data.
+  ms.date: 09/13/2021 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-data-model-relationships.md)] 

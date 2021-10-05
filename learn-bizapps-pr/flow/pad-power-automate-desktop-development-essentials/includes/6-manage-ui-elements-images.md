@@ -10,7 +10,7 @@ UI elements are used to identify windows and their contents.
 
 For example, to interact with the UI of Excel in order to change a cell’s color, we will have to extract that button’s UI element.
 
-In the UI elements tab, selecting **Add UI element** launches the tool Power Automate Desktop uses to extract UI elements. Navigating to the Excel interface, elements are automatically highlighted when the cursor hovers over them:
+In the UI elements tab, selecting **Add UI element** launches the tool Power Automate for desktop uses to extract UI elements. Navigating to the Excel interface, elements are automatically highlighted when the cursor hovers over them:
 
 ![Screenshot of a group of Font controls in Excel highlighted by U I spy.](..\media\controls-ui-spy.png)
 

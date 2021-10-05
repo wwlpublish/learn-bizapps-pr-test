@@ -15,15 +15,15 @@ quiz:
   questions: 
   - content: "What is the role of the Message boxes?"
     choices: 
-    - content: "They provide input to a process."
+    - content: "They provide input to a flow."
       isCorrect: false 
-      explanation: "Message boxes can be used to provide input to a process, and output to the user."
+      explanation: "Message boxes can be used to provide input to a flow, and output to the user."
     - content: "They provide output to the user."
       isCorrect: false 
-      explanation: "Message boxes can be used to provide input to a process, and output to the user."
+      explanation: "Message boxes can be used to provide input to a flow, and output to the user."
     - content: "Both of the above"
       isCorrect: true 
-      explanation: "Message boxes can be used to provide input to a process, and output to the user."
+      explanation: "Message boxes can be used to provide input to a flow, and output to the user."
   - content: "Which one of the following statements about the Display Message Box action is true?"
     choices: 
     - content: "The buttons OK and Cancel cannot be changed."

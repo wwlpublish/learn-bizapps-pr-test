@@ -1,4 +1,4 @@
-Exception handling is the mechanism that allows Power Automate Desktop to handle and recover from unexpected circumstances and issues that might occur while a flow is running.
+Exception handling is the mechanism that allows Power Automate for desktop to handle and recover from unexpected circumstances and issues that might occur while a flow is running.
 
 In the example we explored in the introduction of this module, consider the scenario where the client database cannot be accessed because of a network issue. Attempting to connect to the database would then cause an exception, and the flow would then stop running, producing an error.
 

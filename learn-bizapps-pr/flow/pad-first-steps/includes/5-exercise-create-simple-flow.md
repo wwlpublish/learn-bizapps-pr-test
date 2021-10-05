@@ -2,7 +2,7 @@ In this exercise, you'll create a flow that copies a selected folder and then ad
 
 To create the flow:
 
-1. Launch Power Automate Desktop and then select the **New flow** button in the console.
+1. Launch Power Automate for desktop and then select the **New flow** button in the console.
 
     ![Screenshot of the New flow button in the console.](..\media\exercise-new-flow-button.png)
 
