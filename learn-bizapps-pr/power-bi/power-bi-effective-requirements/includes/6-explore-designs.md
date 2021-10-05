@@ -5,13 +5,13 @@ The following report allows you to explore different report design outcomes for 
 
 Possible design recommendations that you can explore include:
 
-- Executive ► Browser ► None
+- Executive > Browser > None
 
-- Executive ► Browser ► Print-friendly
+- Executive > Browser > Print-friendly
 
-- Executive ► Phone ► None
+- Executive > Phone > None
 
-- Executive ► Tablet ► None, and others
+- Executive > Tablet > None, and others
 
 Embedded report allows you to explore design recommendations:
 
