@@ -31,7 +31,7 @@ In the following example, a line chart shows historical sales. The line chart sh
 > [!div class="mx-imgBorder"]
 > [![Image shows a line chart of historic sales over the month of April.](../media/3-3-select-visual-time-series-historic-sales.png)](../media/3-3-select-visual-time-series-historic-sales.png#lightbox)
 
-You can bring the line chart to the next level by adding an analytics option. In this case, it [applies a forecast](/power-bi/transform-model/desktop-analytics-pane#apply-forecasting/?azure-portal=true) to extend historical sales with projected sales.
+You can bring the line chart to the next level by adding an analytics option. In this case, it [applies a forecast](/power-bi/transform-model/desktop-analytics-pane?azure-portal=true#apply-forecasting/) to extend historical sales with projected sales.
 
 > [!div class="mx-imgBorder"]
 > [![Image shows a line chart of sales in April extended with projected sales into May.](../media/3-4-select-visual-time-series-projected-sales.png)](../media/3-4-select-visual-time-series-projected-sales.png#lightbox)
