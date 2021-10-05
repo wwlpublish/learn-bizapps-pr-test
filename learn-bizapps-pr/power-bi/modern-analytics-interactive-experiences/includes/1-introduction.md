@@ -4,10 +4,9 @@ Power BI's interactive visuals sets Power BI apart from Excel when creating and 
 
 ## Power BI interactivity demo
 
-You will see several ways in which Power BI is dynamic and interactive in the following demo.
+You will see several ways in which Power BI is dynamic and interactive in the following demo (no audio).
 
-> [!div class="mx-imgBorder"]
-> ![Demonstration of Power BI interactivity demo. ](../media/interactive-visuals-demo.gif)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWMIps]
 
 The previous demo demonstrates how each of the visuals interact. The scatter chart animates changes over time. The slicers for region impact the output for the scatter chart as well as the line chart and card visuals. Additionally, selecting cells within the matrix impacts the other visualizations on the page too. These interactive experiences are only available in Power BI.
 
@@ -40,10 +39,10 @@ The following demo shows you how to apply conditional formatting. You can add ic
 
 Power BI includes AI functionality and enhancements. The decomposition tree visual in Power BI enables you to visualize data across multiple dimensions. It automatically aggregates data and enables drilling down into dimensions in any order. As an artificial intelligence (AI) visualization, you can ask it to find the next dimension to drill down into based on certain criteria. This feature makes it a valuable tool for data exploration and root cause analysis. The Q&A feature in Power BI enables you to explore your data in your own words.
 
-The following demo shows how a decomposition tree visual enables exploration of Monthly Recurring Revenue (MRR Won) metric across several dimensions. This visual works well with the drill through functionality for navigating to another page of the report. Using the natural language Q&A functionality, you can ask questions about the data and get answers.
+The following demo (no audio) shows how a decomposition tree visual enables exploration of Monthly Recurring Revenue (MRR Won) metric across several dimensions. This visual works well with the drill through functionality for navigating to another page of the report. Using the natural language Q&A functionality, you can ask questions about the data and get answers.
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWMFRH]
 
 1. First, you add the decomposition tree visual to the report canvas and drag the [MRR Won -- Contracts] metric into the **Analyze** input. For the dimensions, the [Segment], [Support Level], and [Region] are added to the **Explain By** inputs. Note that the order of the dimensions does not affect the functionality of the decomposition tree visual.
 
