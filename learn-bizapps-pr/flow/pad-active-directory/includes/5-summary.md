@@ -1,1 +1,1 @@
-Power Automate Desktop provides users with the ability to perform all essential operations in Active Directory servers through the Active Directory actions. With these actions, users can create, modify, and manage Active Directory users, groups, and objects.
+Power Automate for desktop provides users with the ability to perform all essential operations in Active Directory servers through the Active Directory actions. With these actions, users can create, modify, and manage Active Directory users, groups, and objects.

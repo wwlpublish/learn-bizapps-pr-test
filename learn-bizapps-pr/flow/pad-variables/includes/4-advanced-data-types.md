@@ -1,4 +1,4 @@
-Although you can handle most of the Power Automate Desktop data types similarly, some data types need distinctive treatment. In this unit, we'll examine these advanced data types that need special handling.
+Although you can handle most of the Power Automate for desktop data types similarly, some data types need distinctive treatment. In this unit, we'll examine these advanced data types that need special handling.
 
 ## Lists
 
@@ -27,7 +27,7 @@ For example, you can rename the first folder of the previously displayed folder 
 
 ## Data tables
 
-If you want to store data structured in a tabular form, Power Automate Desktop provides the data tables.
+If you want to store data structured in a tabular form, Power Automate for desktop provides the data tables.
 
 A data table contains rows and columns, and each item stored in it can be retrieved through its unique row and column number. Consider data tables as lists that have other lists as items.
 
@@ -48,7 +48,7 @@ For example, you can save the first product's price inside a new variable using 
 
 ## JSON format - custom objects
 
-If you want to use data in JSON format in your flows, Power Automate Desktop provides the custom objects.
+If you want to use data in JSON format in your flows, Power Automate for desktop provides the custom objects.
 
 Custom objects have a similar structure to JSON, and they are made up of objects and arrays.
 

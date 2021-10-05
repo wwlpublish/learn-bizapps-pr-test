@@ -1,4 +1,4 @@
-In Power Automate Desktop, use flows to launch any of your installed applications with the **Run application** action. In addition to running applications, open any document or file with this action. The action requires the application path and command-line arguments. Optionally, also set a working folder. Set the window state of the application to **Maximized**, **Normal**, **Minimized**, or **Hidden**, and configure the action to wait for the launched application to load or complete.
+In Power Automate for desktop, use flows to launch any of your installed applications with the **Run application** action. In addition to running applications, open any document or file with this action. The action requires the application path and command-line arguments. Optionally, also set a working folder. Set the window state of the application to **Maximized**, **Normal**, **Minimized**, or **Hidden**, and configure the action to wait for the launched application to load or complete.
 
 ![Screenshot of the run application action properties.](..\media\run-application-action-properties.png)
 

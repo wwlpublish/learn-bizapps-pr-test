@@ -1,10 +1,10 @@
-Power Automate Desktop automatically produces all the necessary variables that actions need, while it also enables you to create variables manually.
+Power Automate for desktop automatically produces all the necessary variables that actions need, while it also enables you to create variables manually.
 
 In this unit, we'll present how to create variables and use them as input parameters in deployed actions.
 
 ## Creating and using variables
 
-To prevent the declaration of unnecessary variables, Power Automate Desktop produces variables automatically for the deployed actions.
+To prevent the declaration of unnecessary variables, Power Automate for desktop produces variables automatically for the deployed actions.
 
 Every time you add a new action in the workspace, the platform automatically produces some variables that hold the results. If you want to change the default name of a produced variable, you can select it and populate the new name.  
 
@@ -25,7 +25,7 @@ You can also use existing variables as outputs in actions, but the platform will
 
 ## Variables pane
 
-Power Automate Desktop displays all the necessary information about the created variables in the variables pane.
+Power Automate for desktop displays all the necessary information about the created variables in the variables pane.
 
 The variables pane is located next to the workspace and enables you to review and manage variables. Through the variables pane, you can create and handle two different kinds of variables: input/output variables and flow variables.
 
@@ -36,7 +36,7 @@ As you can assume by their name, input/output variables enable you to pass data 
 
 All the variables you use locally in your flows are called flow variables, and you can access them only through this particular flow.
 
-![Screenshot of the Power Automate variables pane.](..\media\variables-pane.png)
+![Screenshot of the Power Automate for desktop variables pane.](..\media\variables-pane.png)
 
 Regardless of the type of the used variables, you can display additional information about them by clicking on their name.
 

@@ -1,10 +1,10 @@
-Power Automate Desktop provides a wide variety of optical character recognition (OCR) actions that you can use to locate or extract text from any application or file.
+Power Automate for desktop provides a wide variety of optical character recognition (OCR) actions that you can use to locate or extract text from any application or file.
 
 ## Create an OCR engine
 
 To perform any OCR operation, you have to initialize an OCR engine. OCR engines are software tools used to convert typed or handwritten content into a machine-readable and editable format.
 
-Power Automate Desktop supports thr Google Tesseract engine through the **Create Tesseract OCR engine** action.
+Power Automate for desktop supports thr Google Tesseract engine through the **Create Tesseract OCR engine** action.
 
 ![Screenshot of the Create Tesseract O C R engine action.](..\media\create-tesseract-ocr-engine-action.png)
 
@@ -65,7 +65,7 @@ As an output, the action produces two variables that describe the exact position
 
 ## Move the cursor to a defined text on the screen
 
-Power Automate Desktop provides the mouse and keyboard actions to automate applications that aren't compatible with the UI actions. These actions can be helpful to automate legacy applications or applications that apply strict security restrictions.
+Power Automate for desktop provides the mouse and keyboard actions to automate applications that aren't compatible with the UI actions. These actions can be helpful to automate legacy applications or applications that apply strict security restrictions.
 
 In these circumstances, you can use the **Move mouse to text on screen** action to move the cursor on the screen.
 

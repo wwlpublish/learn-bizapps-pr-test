@@ -1,4 +1,4 @@
-Power Automate Desktop provides Active Directory actions allowing users to add, remove, or update users, user roles and objects in the Active Directory server.
+Power Automate for desktop provides Active Directory actions allowing users to add, remove, or update users, user roles and objects in the Active Directory server.
 
 ## Connect to an Active Directory server
 
