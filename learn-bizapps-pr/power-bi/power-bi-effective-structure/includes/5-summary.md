@@ -1,0 +1,1 @@
+Report consumers appreciate clear and intuitive report layouts, especially when a guided analytical experience provides them with a clear pathway to explore from high-level metrics through to granular details. Thinking in terms of how the report consumer will use and interact with your report designs will help you produce useful, effective, and visually appealing reports.
