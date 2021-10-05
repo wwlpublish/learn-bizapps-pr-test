@@ -23,10 +23,10 @@ The following screenshot shows that the endorsements are visible to users in Pow
 
 Critical business data needs to be protected, especially when Power BI is used with other applications. Microsoft Information Protection (MIP) provides warning and banners when data is exported by using Analyze in Excel, Power BI Embedded, and Power BI Mobile.
 
-The following demonstration shows that the **Sensitivity** label for the dataset is set to **Highly Confidential**.
+The following demonstration (no audio) shows that the **Sensitivity** label for the dataset is set to **Highly Confidential**.
 
-> [!div class="mx-imgBorder"]
-> ![Demonstration of the sensitivity label set to highly confidential.](../media/sensitivity-demo.gif)
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWMIpt]
 
 The next video shows that the **Highly Confidential** sensitivity label for the dataset persists through when data from the Power BI visual is exported to Excel.
 
