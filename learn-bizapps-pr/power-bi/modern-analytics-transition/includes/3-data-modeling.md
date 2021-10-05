@@ -4,10 +4,9 @@ Power Query can connect to files, relational databases, data warehouses, line-of
 
 Modern analytics solutions that connect to data using Power Query do not require the data sources to exist in a single place. Connect directly to source systems (such as Microsoft Dynamics 365) or to database sources (like Microsoft SQL Server) or to individual Microsoft Excel files hosted on SharePoint. Power Query attempts to eliminate the repetitive and manual steps when connecting to and refreshing data sources.
 
-In this demo, Power Query retrieves customer data from an Excel file, promotions data from a SQL server, and installation data from a SharePoint list.
+In this demo (no audio), Power Query retrieves customer data from an Excel file, promotions data from a SQL server, and installation data from a SharePoint list.
 
-> [!div class="mx-imgBorder"]
-> ![Demonstration of connecting to a different data source.](../media/data-source.gif)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWMFRN]
 
 1.  Connect to an Excel file to get customers data. Select the **Excel workbook** button on the **Home** tab of the ribbon. Browse to the desired workbook, select it, and select open. In the Navigator window, select the sheet and then select **Transform Data**.
 
