@@ -15,7 +15,7 @@ Each data visual on a report page condenses data by using an *analytic query*. A
 1. **Summarize** - Produces a single value result. Typically, numeric columns are summarized by using summarization methods (sum, count, and many others).
 
     > [!div class="mx-imgBorder"]
-    > [![An animation shows the sequence of the filter, group and summarize query phases.](../media/1-filter-group-summarize.gif)](../media/image.png#lightbox)
+    > [![An animation shows the sequence of the filter, group and summarize query phases.](../media/1-filter-group-summarize.gif)](../media/1-filter-group-summarize.gif#lightbox)
 
 Not all analytic queries need to filter, group, and summarize:
 
@@ -33,5 +33,4 @@ In this case, the column chart visual can submit an analytic query to filter by 
 
 To better understand analytical reports, watch the following video that describes the key concepts that are presented in this unit.
 
-&nbsp;
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/]

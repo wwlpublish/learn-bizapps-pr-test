@@ -16,7 +16,6 @@ When invoked, the report consumer can *drill to **details***. By drilling to det
 
 For an example of a guided experience, watch the following video that explores the sales report for the Contoso Skateboard Store.
 
-&nbsp;
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/]
 
 This report is available for you to explore. In the ensuing report, you can follow the recorded demonstration to complete these tasks:
@@ -34,4 +33,4 @@ This report is available for you to explore. In the ensuing report, you can foll
 > [!TIP]
 > You can maximize the report by selecting the double-headed arrow that is located in the lower-right corner. When you're ready to return to the module, press the **Esc** key.
 
-<iframe width="1140" height="540" src="<https://msit.powerbi.com/view?r=eyJrIjoiNTEyY2M3M2UtNmMxMy00NTdhLWI2NmItMjIwNWM3ZGIxYjQ3IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&pageName=ReportSection91fba351496ead734ab1>" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="1140" height="540" src="https://msit.powerbi.com/view?r=eyJrIjoiNTEyY2M3M2UtNmMxMy00NTdhLWI2NmItMjIwNWM3ZGIxYjQ3IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&pageName=ReportSection91fba351496ead734ab1" frameborder="0" allowFullScreen="true"></iframe>
