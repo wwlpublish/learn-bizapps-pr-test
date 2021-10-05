@@ -1,5 +1,5 @@
 ### YamlMime:Module 
-uid: learn-bizapps.modern-analytics-data-modeling 
+uid: learn-bizapps.modern-analytics-publish-share 
 metadata: 
  title: Secure, publish, and share data in Power BI
  description: This module reviews securing, sharing, and publishing Microsoft Power BI reports as part of Power BI service.
@@ -24,7 +24,7 @@ abstract: |
     - Protect data with Microsoft Information Protection (MIP).
     - Apply refresh and alert schedules for a Power BI report.
 prerequisites: None
-iconUrl: /learn/achievements/modern-analytics-data-modeling.svg  
+iconUrl: /learn/achievements/modern-analytics-publish-share.svg  
 levels:  
 - intermediate   
 roles:  
@@ -34,13 +34,13 @@ products:
 - power-platform
 - power-bi 
 units: 
-- learn-bizapps.modern-analytics-data-modeling.1-introduction 
-- learn-bizapps.modern-analytics-data-modeling.2-security 
-- learn-bizapps.modern-analytics-data-modeling.3-publish 
-- learn-bizapps.modern-analytics-data-modeling.4-share 
-- learn-bizapps.modern-analytics-data-modeling.5-protect-data 
-- learn-bizapps.modern-analytics-data-modeling.6-refresh-alerts 
-- learn-bizapps.modern-analytics-data-modeling.7-check 
-- learn-bizapps.modern-analytics-data-modeling.8-summary 
+- learn-bizapps.modern-analytics-publish-share.1-introduction 
+- learn-bizapps.modern-analytics-publish-share.2-security 
+- learn-bizapps.modern-analytics-publish-share.3-publish 
+- learn-bizapps.modern-analytics-publish-share.4-share 
+- learn-bizapps.modern-analytics-publish-share.5-protect-data 
+- learn-bizapps.modern-analytics-publish-share.6-refresh-alerts 
+- learn-bizapps.modern-analytics-publish-share.7-check 
+- learn-bizapps.modern-analytics-publish-share.8-summary 
 badge: 
-  uid: learn-bizapps.modern-analytics-data-modeling.badge 
+  uid: learn-bizapps.modern-analytics-publish-share.badge 
