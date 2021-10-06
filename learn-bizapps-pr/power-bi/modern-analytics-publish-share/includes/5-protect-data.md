@@ -25,9 +25,10 @@ Critical business data needs to be protected, especially when Power BI is used w
 
 The following demonstration (no audio) shows that the **Sensitivity** label for the dataset is set to **Highly Confidential**.
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWMIpt]
 
+<!---
 The next video shows that the **Highly Confidential** sensitivity label for the dataset persists through when data from the Power BI visual is exported to Excel.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+--->
