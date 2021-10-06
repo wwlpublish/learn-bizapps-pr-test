@@ -8,4 +8,4 @@ Power BI Desktop is a free application that includes:
 
 In these units, you will learn how modern Excel's Power Query and DAX data models translate to Power BI and what benefits Power BI offers.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWKDMB]
