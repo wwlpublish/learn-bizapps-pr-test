@@ -41,3 +41,17 @@ quiz:
     - content: Scatter chart
       isCorrect: false 
       explanation: A scatter chart shows a distribution of values. It can't easily allow report consumers to explore and discover detailed values across multiple dimensions, like date and store.
+  - content: At the Contoso Skateboard Company, James is designing a dashboard report. It must prominently show values of sales revenue, units sold, cost of goods sold, and profit, and each value should be compared to a target value. What type of report visual should James choose to support the report consumer requirement?
+    choices: 
+    - content: Card
+      isCorrect: false 
+      explanation: The answer is incorrect. A card visual displays only a single value. It cannot show a target value.
+    - content: KPI
+      isCorrect: true 
+      explanation: The answer is correct. A KPI visual can show and compare actual and target values.
+    - content: Ribbon chart
+      isCorrect: false 
+      explanation: The answer is incorrect. A ribbon chart is effective at showing rank change, with the highest range (value) always displayed on top for each time period. It cannot show and compare actual and target values.
+    - content: Stacked bar chart
+      isCorrect: false 
+      explanation: The answer is incorrect. A stacked bar chart shows bars of values. It cannot show and compare actual and target values.
