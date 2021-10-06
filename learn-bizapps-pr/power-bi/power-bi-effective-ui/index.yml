@@ -2,7 +2,7 @@
 uid: learn-bizapps.power-bi-effective-ui 
 metadata: 
  title: Enhance Power BI report designs for user interface
- description: Designing the user interface (UI) is all about how reports are consumed, including the look and feel of them. It's the final report development stage. You've already made decisions about the right data and visual selection, so now's the time to apply formatting and styling. The aim is to produce a visually appealing report, so, your efforts on configuring the right space, size, alignment, color, and to do so consistently. It's a bit of a balancing act because you should also ensure that it works for the intended form factors and is accessible. This way, it can be consumed by the widest possible audience.
+ description: Designing the user interface (UI) is all about how reports are consumed, including the look and feel of them. It's the final report development stage. 
  ms.date: 10/11/2021  
  author: heyrob  
  ms.author: robde  
@@ -11,7 +11,7 @@ metadata:
 title: Enhance Power BI report designs for user interface
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Designing the user interface (UI) is all about how reports are consumed, including the look and feel of them. It's the final report development stage.  
+  Designing the user interface (UI) is all about how reports are consumed, including the look and feel of them. It's the final report development stage. You've already made decisions about the right data and visual selection, so now's the time to apply formatting and styling. The aim is to produce a visually appealing report, so, your efforts on configuring the right space, size, alignment, color, and to do so consistently. It's a bit of a balancing act because you should also ensure that it works for the intended form factors and is accessible. This way, it can be consumed by the widest possible audience.  
 abstract: |  
     In this module, you will: 
     - Use report design aids.
