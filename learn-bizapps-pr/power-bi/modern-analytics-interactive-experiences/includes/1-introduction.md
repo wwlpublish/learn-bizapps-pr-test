@@ -41,7 +41,6 @@ Power BI includes AI functionality and enhancements. The decomposition tree visu
 
 The following demo (no audio) shows how a decomposition tree visual enables exploration of Monthly Recurring Revenue (MRR Won) metric across several dimensions. This visual works well with the drill through functionality for navigating to another page of the report. Using the natural language Q&A functionality, you can ask questions about the data and get answers.
 
-&nbsp;
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWMFRH]
 
 1. First, you add the decomposition tree visual to the report canvas and drag the [MRR Won -- Contracts] metric into the **Analyze** input. For the dimensions, the [Segment], [Support Level], and [Region] are added to the **Explain By** inputs. Note that the order of the dimensions does not affect the functionality of the decomposition tree visual.

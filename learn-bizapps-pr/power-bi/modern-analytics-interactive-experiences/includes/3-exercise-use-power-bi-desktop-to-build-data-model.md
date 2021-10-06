@@ -206,10 +206,10 @@ In this exercise, you will create a report page with a Card, Slicer, Matrix and 
 
 In this task, you will create a Card visual using measure [Potential MRR].
 
-From the Fields pane, select the [Potential MRR] measure from the Quotes table and drag the measure to an empty white space on the report page.
+1. From the Fields pane, select the [Potential MRR] measure from the Quotes table and drag the measure to an empty white space on the report page.
 
-> [!NOTE]
-    > Depending on the field type and the data type of the field, you will get a default visual once you drag and drop a new field onto the report page. Since we have a measure, by default we get a Clustered column chart visual -- you can see the chart name by hovering over the icon on the Visualization pane.
+   > [!NOTE]
+   > Depending on the field type and the data type of the field, you will get a default visual once you drag and drop a new field onto the report page. Since we have a measure, by default we get a Clustered column chart visual -- you can see the chart name by hovering over the icon on the Visualization pane.
 
     > [!div class="mx-imgBorder"]
     > [![Report page with the Clustered column chart and the Visualization pane with the Clustered column chart highlighted.](../media/card-visual.png)](../media/card-visual.png#lightbox)
@@ -322,7 +322,7 @@ In this task, you will create a Matrix visual with columns from the Offices tabl
 1. [Drag the [Potential MRR] measure] into an empty white space on the report page.
 
     > [!NOTE]
-    > Note: By default, you will get the Clustered column chart.
+    > By default, you will get the Clustered column chart.
 
 1. Select the [Clustered column chart visual] to make it active and then select the [Matrix visual] icon from the Visualization pane to change to the Matrix visual.
 
@@ -403,10 +403,10 @@ In this task, you will import the Bullet Chart Custom visual.
 1. Select the [Get more visuals] option.
 
     > [!NOTE]
-    > Note: If you are already signed into Power BI, you do not need to sign in again. The next steps are [only] needed if you are not signed in to Power BI.
+    > If you are already signed into Power BI, you do not need to sign in again. The next steps are [only] needed if you are not signed in to Power BI.
 
     > [!NOTE]
-    > Note: If you do not have a Power BI sign in, you can use the [Import visual from a file] option on the [Ellipse menu]. Then navigate to the Lab 02B folder and select the "[BulletChart.BulletChart1443347686880.2.0.1.0.pbviz]" file.
+    > If you do not have a Power BI sign in, you can use the [Import visual from a file] option on the [Ellipse menu]. Then navigate to the Lab 02B folder and select the "[BulletChart.BulletChart1443347686880.2.0.1.0.pbviz]" file.
 
 1. Sign into Power BI by entering your [username].
 
