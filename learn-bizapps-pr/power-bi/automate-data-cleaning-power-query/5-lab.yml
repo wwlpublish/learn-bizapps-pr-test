@@ -10,8 +10,6 @@ metadata:
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-bi 
 durationInMinutes: 30
-labId: 1234
-labModal: true 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/5-lab.md)] 
