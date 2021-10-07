@@ -1,0 +1,47 @@
+### YamlMime:Module 
+uid: learn-bizapps.power-bi-effective-use 
+metadata: 
+ title: 
+ description: 
+ ms.date: 10/11/2021  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: power-bi-learning  
+title: 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Summary text goes here. 
+abstract: |  
+    In this module, you will: 
+    - 	Design reports to show details.
+    -   Design reports to highlight values.
+    -   Design reports that behave like apps.
+    -   Work with bookmarks.
+    -   Design reports for navigation.
+    -   Work with visual headers.
+    -   Design reports with built-in assistance.
+    -   Use specialized visuals.
+prerequisites: An experience creating reports and an understanding of the audience and purpose of an analytical report
+iconUrl: /learn/achievements/power-bi-effective-use.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- business-analyst 
+products: 
+- dynamics-365 
+- power-bi 
+units: 
+- learn-bizapps.power-bi-effective-use.1-introduction 
+- learn-bizapps.power-bi-effective-use.2-design-reports 
+- learn-bizapps.power-bi-effective-use.3-design-app-reports.md 
+- learn-bizapps.power-bi-effective-use.4-bookmarks 
+- learn-bizapps.power-bi-effective-use.5-design-navigation-reports 
+- learn-bizapps.power-bi-effective-use.6-visual-headers 
+- learn-bizapps.power-bi-effective-use.7-design-built-in-assistance-reports 
+- learn-bizapps.power-bi-effective-use.8-use-specialized-visuals 
+- learn-bizapps.power-bi-effective-use.check 
+- learn-bizapps.power-bi-effective-use.9-summary 
+badge: 
+  uid: learn-bizapps.power-bi-effective-use.badge 
