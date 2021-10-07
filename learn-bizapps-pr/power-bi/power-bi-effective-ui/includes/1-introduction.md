@@ -21,7 +21,7 @@ The **Format** contextual ribbon tab, which is available when you select one or 
 
 You can use this tab to manage the layer order for one or more objects, with options to move objects forward or backward or directly to the upper or lower layer. You might overlap visuals when switching visibility state with bookmarks or when superimposing objects, like text boxes or visuals, on background shapes.
 
-Various options are available to help you align objects horizontally or vertically. Well-aligned objects result in a balanced and visually appealing page layout. When you select a single object, you can align it with the report page. When selecting multiple objects, you can align them among one another. You can also distribute a multiple selection of objects horizontally or vertically, ensuring that equal spacing separates the objects. The distribution options require that at least three objects are selected.
+Various options are available to help you align objects horizontally or vertically. Well-aligned objects result in a balanced and visually appealing page layout. When you select a single object, you can align it with the report page. When selecting multiple objects, you can align them among one another. You can also distribute multiple selections of objects horizontally or vertically, ensuring that equal spacing separates the objects. The distribution options require that at least three objects are selected.
 
 Grouping options lets you treat the group like a single object, making the process of moving, resizing, and working with layers in your report simpler, faster, and more intuitive. Additionally, you can group, ungroup, or merge other objects into an existing group.
 
@@ -42,7 +42,7 @@ You can complete several tasks in the **Layer order** tab. You can use the tab t
 
 You can set the visibility state to hide or unhide individual objects or groups. Hiding objects can help unclutter a report page at design time. Bookmarks can capture the visibility state, allowing report consumers to control visibility with buttons.
 
-You can also modify the layer order, often referred to as *z-order*. Because you can overlap objects (or groups) on the page, the higher an object appears on the list, the closer it is to the front. Consequently, when you have overlapping objects, the one that is listed first is on top. To change order, drag an object or group to a new position.
+You can also modify the layer order, often referred to as *z-order*. Because you can overlap objects (or groups) on the page, the higher an object appears on the list, the closer it is to the front. Therefore, when you have overlapping objects, the one that is listed first is on top. To change order, drag an object or group to a new position.
 
 Similar to how you would summarize a smart narrative visual, you can summarize an object, which adds a text box that contains a text description of the visual to the report page.
 
