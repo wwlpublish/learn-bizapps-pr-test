@@ -12,7 +12,7 @@ In the following example, buttons that are located along the left side of the re
 
 When a button only impacts one section of a report, you can place it within that section so that it's clear to report consumers that the action applies only to that section.
 
-In the following image, two buttons are located in the upper-right corner of a section that allow the report consumer to switch between visual types.
+In the following image, two buttons are located in the upper-right corner of a section that allows the report consumer to switch between visual types.
 
 > [!div class="mx-imgBorder"]
 > [![Image shows a bar chart visual. At the top-right, there are two buttons: Chart and Tabular. The buttons allowing toggling the visual type.](../media/buttons-in-sections.png)](../media/buttons-in-sections.png#lightbox)

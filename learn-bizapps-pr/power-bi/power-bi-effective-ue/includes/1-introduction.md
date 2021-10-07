@@ -20,7 +20,7 @@ You can show details by using four different techniques:
 
 For a demonstration of the four different techniques, watch the following video.
 
-(RD-05-video-show-details.mp4 -- alt text: Video showing a demonstration of four different techniques.)
+(RD-05-video-show-details.mp4--alt text: Video showing a demonstration of four different techniques.)
 
 ### Use drillable visuals
 
@@ -40,7 +40,7 @@ Power BI reports support two types of tooltips: visual and page.
 
 #### Visual tooltips
 
-Many Power BI visuals include a **Tooltips** well. Fields that are added to this well are summarized in a tooltip. For example, a column chart visual that shows sales revenue by month could include order quantity as a tooltip. While the height of the column reveals the monthly revenue amount, when a report consumer hovers over the column, a tooltip describes the order quantity for that month.
+Many Power BI visuals include a **Tooltips** well. Fields that are added to this well is summarized in a tooltip. For example, a column chart visual that shows sales revenue by month could include order quantity as a tooltip. While the height of the column reveals the monthly revenue amount, when a report consumer hovers over the column, a tooltip describes the order quantity for that month.
 
 > [!div class="mx-imgBorder"]
 > [![Image shows the cursor hovering over a bar chart visual. A visual tooltip describes sales and units sold for the bar.](../media/visual-tooltip.png)](../media/visual-tooltip.png#lightbox)

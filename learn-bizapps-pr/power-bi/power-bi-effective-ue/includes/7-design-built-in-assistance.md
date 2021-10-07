@@ -1,4 +1,4 @@
-Training report consumers on how to use and navigate your reports can be difficult because every report that you create will be different. Features and functionality that are present in one report might not be present in another. Consequently, creating intuitive and simple-to-navigate reports is even more important. When approaching a report design project, you should always aim to provide "no training required" experiences. Strive to add built-in assistance whenever possible.
+Training report consumers on how to use and navigate your reports can be difficult because every report that you create will be different. Features and functionality that are present in one report might not be present in another. Creating intuitive and simple-to-navigate reports is important. When approaching a report design project, you should always aim to provide "no training required" experiences. Strive to add built-in assistance whenever possible.
 
 Several design techniques that can provide built-in assistance include:
 
@@ -20,7 +20,7 @@ Adding an **information page** is the most simplistic technique. Dedicate an ent
 
 ### Visual header tooltip icon
 
-Within the visual header options, you can enable the visual header tooltip. It adds the **Help** (**?**) icon to the visual header. Then, you can assign a page tooltip or text. This technique is beneficial for providing visual-specific guidance, such as additional detail that describes definitions, calculation logic, or the source of data.
+Within the visual header options, you can enable the visual header tooltip. It adds the **Help** (**?**) icon to the visual header. Then, you can assign a page tooltip or text. This technique is beneficial for providing visual-specific guidance, such as more detail that describes definitions, calculation logic, or the source of data.
 
 > [!div class="mx-imgBorder"]
 > [![Image shows a KPI visual with the cursor hovering over the Help icon. A tooltip is reads \Turnover ratio = COGS/Avg inventory.](../media/visual-header-help-icon.png)](../media/image.png#lightbox)
