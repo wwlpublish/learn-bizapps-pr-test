@@ -58,8 +58,3 @@ For this example, you select the **Load** option.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Navigator window view with available tables.](../media/5-navigator-window-view-tables-ss.png)](../media/5-navigator-window-view-tables-ss.png#lightbox)
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the Close and Apply step to apply changes.](../media/5-close-apply-step-changes-ssm.png)](../media/5-close-apply-step-changes-ssm.png#lightbox)
-
-When you are satisfied with your data, select the **Close & Apply** button
-to apply your changes and load your data into Power BI Desktop.

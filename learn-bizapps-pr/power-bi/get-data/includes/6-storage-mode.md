@@ -19,7 +19,7 @@ Let’s take a closer look at the different types of Storage Modes.
 
 ### Import mode
 
-The Import mode allows you to create a local Power BI copy of your datasets from your data source. You can use all Power BI service features with this storage mode, including Q&A and Quick Insights. However, data refreshes must be done manually. Import mode is the default for creating new Power BI reports.
+The Import mode allows you to create a local Power BI copy of your datasets from your data source. You can use all Power BI service features with this storage mode, including Q&A and Quick Insights. Data refreshes can be scheduled or on-demand. Import mode is the default for creating new Power BI reports.
 
 ### DirectQuery mode
 
