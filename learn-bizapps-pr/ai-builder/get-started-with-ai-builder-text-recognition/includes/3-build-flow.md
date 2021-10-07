@@ -5,7 +5,7 @@ Your task for this exercise is to build a Power Automate flow, check when an ima
 To create a Dataverse entity to store the recognized text, follow these steps:
 
 1. Go to [Power Apps](https://make.powerapps.com).
-2. Open the **Data** menu and then the **Entities** sub-menu.
+2. Open the **Data** menu and then the **Tables** sub-menu.
 3. Select the **+New Entity** button, which opens a side panel where you can enter information about the entity. For this example, use **Text Recognizer Results** as the display name.
 4. When you are finished, select **Create**. A **Name** field is automatically created, which you will use to store the recognized text.
 
