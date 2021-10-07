@@ -41,3 +41,18 @@ quiz:
     - content: Set the page view state.
       isCorrect: false 
       explanation: Scaling the report canvas to fit to page, fit to width, or show actual size supports report authoring and doesn’t affect how the report is rendered.
+  - content: At the Contoso Skateboard Company, Marie is developing a Power BI report. She wants to ensure screen readers will read report objects in a specific order. She also wants to ensure that some objects, like decorative shapes and images, will not be read by screen readers.
+In Power BI Desktop, which pane should Marie use to configure the requirements?
+    choices: 
+    - content: Fields pane
+      isCorrect: false 
+      explanation: The answer is incorrect. The Fields pane presents a list of dataset tables and fields. It cannot be used to configured report object order.
+    - content: Filters pane
+      isCorrect: false 
+      explanation: The answer is incorrect. The Filters pane allows adding or interacting with report, page, or visual filters. It cannot be used to configured report object order.
+    - content: Selection pane
+      isCorrect: true 
+      explanation: The answer is correct. The Tab order section of the Selection pane allows configuring the order of report options and hiding objects from tab (screen reader) selection.
+    - content: Visualizations pane
+      isCorrect: false 
+      explanation: The answer is incorrect. The Visualizations pane allows the selection of a visual type and the configuration of visual fields and format options. It cannot be used to configured report object order.
