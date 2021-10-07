@@ -15,4 +15,4 @@ Possible design recommendations that you can explore include:
 
 Embedded report allows you to explore design recommendations:
 
-<iframe width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiNTRjNGVlYTYtYTIxNC00MGQyLTlhODItNjE5NzQwZmYxMzEyIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="1140" height="540" src="https://msit.powerbi.com/view?r=eyJrIjoiNTRjNGVlYTYtYTIxNC00MGQyLTlhODItNjE5NzQwZmYxMzEyIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
