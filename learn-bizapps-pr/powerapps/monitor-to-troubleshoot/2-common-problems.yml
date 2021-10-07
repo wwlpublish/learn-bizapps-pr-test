@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.monitor-to-troubleshoot.2-common-problems 
+title: Identifying and resolving common problems
+metadata: 
+  title: Identifying and resolving common problems
+  description: Learn to identify and resolve common problems.
+  ms.date: 10/29/2021 
+  author: jadaphillips 
+  ms.author: jadaphillips 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+durationInMinutes: 9 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-common-problems.md)]

@@ -1,0 +1,37 @@
+### YamlMime:Module 
+uid: learn-bizapps.monitor-to-troubleshoot 
+metadata: 
+ title: Using Monitor to troubleshoot Power Apps
+ description: Learn to use Monitor to troubleshoot Power Apps.
+ ms.date: 10/29/2021  
+ author: jadaphillips  
+ ms.author: jadaphillips  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-powerapps
+title: Using Monitor to troubleshoot Power Apps
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Need to add summary here. 
+abstract: |  
+    In this module, you will: 
+    - Learn common problems and how to troubleshoot using Monitor.
+    - Learn how to remote collaborate.
+    - Practice troubleshooting Monitor.
+prerequisites: 
+iconUrl: /learn/achievements/learn-bizapps.monitor-to-troubleshoot.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+products: 
+- power-platform
+- power-apps
+units: 
+- learn-bizapps.monitor-to-troubleshoot.1-introduction 
+- learn-bizapps.monitor-to-troubleshoot.2-common-problems 
+- learn-bizapps.monitor-to-troubleshoot.3-remote-collaboration 
+- learn-bizapps.monitor-to-troubleshoot.4-monitor-exercise 
+- learn-bizapps.monitor-to-troubleshoot.5-knowledge-check 
+- learn-bizapps.monitor-to-troubleshoot.6-summary 
+badge: 
+  uid: learn-bizapps.generic-badge.badge
