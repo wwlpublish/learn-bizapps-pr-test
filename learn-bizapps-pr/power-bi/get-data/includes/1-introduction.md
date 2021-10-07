@@ -2,7 +2,8 @@ Like most of us, you work for a company where you are required to build Microsof
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFSPW]
 
-PLEASE NOTE: the module sections prior to the lab are purely informational.  You will be given the opportunity to work with real data during the lab.
+> [!NOTE] 
+> The module sections prior to the lab are purely informational.  You will be given the opportunity to work with real data during the lab.
 
 In this module’s scenario you work for Tailwind Traders. You’ve been tasked by senior leadership to create a suite of reports that are dependent on data in several different locations. The database that tracks sales transactions is in SQL Server, a relational database that contains what items each customer bought and when. It also tracks which employee made the sale, along with the employee name and employee ID. However, that database doesn’t contain the employee’s hire date, their title, or who their manager is. For that information, you need to access files that Human Resources keeps in Excel. You've been consistently requesting that they use a SQL database, but they haven't yet had the chance to implement it.
 

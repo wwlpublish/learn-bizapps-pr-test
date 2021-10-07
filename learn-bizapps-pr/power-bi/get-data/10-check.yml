@@ -34,7 +34,7 @@ quiz:
       explanation: This option doesn't exist when connecting to AAS cubes.  
     - content: Direct Query
       isCorrect: true 
-      explanation: This will reflect cube changes immedieately. 
+      explanation: This will reflect cube changes immediately. 
   - content: What can you do to improve performance when you're getting data in Power BI? 
     choices: 
     - content: Perform some calculations in the original data source 
