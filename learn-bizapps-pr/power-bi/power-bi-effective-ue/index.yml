@@ -1,17 +1,17 @@
 ### YamlMime:Module 
 uid: learn-bizapps.power-bi-effective-ue 
 metadata: 
- title: 
- description: 
+ title: Enhance Power BI report designs for the user experience
+ description: Enhance Power BI report designs for the user experience
  ms.date: 10/11/2021  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi 
-title: 
+title: Enhance Power BI report designs for the user experience
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Summary text goes here. 
+  The features and capabilities that are covered in this module will help you enhance your reports to make them more refined. 
 abstract: |  
     In this module, you will: 
     - 	Design reports to show details.
@@ -39,7 +39,7 @@ units:
 - learn-bizapps.power-bi-effective-ue.4-bookmarks 
 - learn-bizapps.power-bi-effective-ue.5-design-navigation-reports 
 - learn-bizapps.power-bi-effective-ue.6-visual-headers 
-- learn-bizapps.power-bi-effective-ue.7-design-built-in-assistance-reports 
+- learn-bizapps.power-bi-effective-ue.7-design-built-in-assistance 
 - learn-bizapps.power-bi-effective-ue.8-use-specialized-visuals 
 - learn-bizapps.power-bi-effective-ue.check 
 - learn-bizapps.power-bi-effective-ue.9-summary 
