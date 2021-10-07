@@ -3,7 +3,7 @@ uid: learn-bizapps.monitor-to-troubleshoot
 metadata: 
  title: Using Monitor to troubleshoot Power Apps
  description: Learn to use Monitor to troubleshoot Power Apps.
- ms.date: 10/29/2021  
+ ms.date: 10/07/2021  
  author: jadaphillips  
  ms.author: jadaphillips  
  ms.topic: interactive-tutorial  
@@ -17,7 +17,7 @@ abstract: |
     - Learn common problems and how to troubleshoot using Monitor.
     - Learn how to remote collaborate.
     - Practice troubleshooting Monitor.
-prerequisites: 
+prerequisites: Need to input prerequisites here.
 iconUrl: /learn/achievements/learn-bizapps.monitor-to-troubleshoot.svg  
 levels:  
 - intermediate   
