@@ -13,8 +13,7 @@ durationInMinutes: 6
 quiz: 
   title: Answer the following questions to see what you've learned.
   questions:
-  - content: At the Contoso Skateboard Company, Sally is creating a report to show sales over time. Sally is aware that occasional spikes occur in sales revenue that could be attributed to many different reasons, such as a marketing campaign. Sally needs to ensure that supporting visuals provide explanation for the spikes.
-What type of visual should Sally use?
+  - content: At the Contoso Skateboard Company, Sally is creating a report to show sales over time. Sally is aware that occasional spikes occur in sales revenue that could be attributed to many different reasons, such as a marketing campaign. Sally needs to ensure that supporting visuals provide explanation for the spikes. What type of visual should Sally use? 
    choices:
     - content: Line chart visual with a trend line
       isCorrect: false
@@ -28,8 +27,7 @@ What type of visual should Sally use?
     - content: Q&A visual
       isCorrect: false
       explanation: The answer is incorrect. The Q&A visual allows for the entry of natural language questions that are answered by data visuals. It can’t provide explanation for spikes in data.
-    - content: At the Contoso Skateboard Company, Sanjay is authoring a report that will be distributed to sales managers. The report contains some sensitive data that shouldn’t be exported.
-Which report design feature can Sanjay configure to ensure that data isn’t exported?
+    - content: At the Contoso Skateboard Company, Sanjay is authoring a report that will be distributed to sales managers.The report contains some sensitive data that shouldn’t be exported. Which report design feature can Sanjay configure to ensure that data isn’t exported?
    choices:
     - content: Bookmark
       isCorrect: false
@@ -42,8 +40,7 @@ Which report design feature can Sanjay configure to ensure that data isn’t exp
       explanation: The answer is incorrect. Page tooltips allow your report consumers to gain deeper insights quickly and efficiently from a visual. It can’t restrict the exporting of data.
     - content: Visual header
       isCorrect: true
-      explanation: The answer is correct. By disabling the More options (…) icon, report consumers can’t export data. - content: At the Contoso Skateboard Company, Arun is building a report that will help sales managers explore sales revenue by different dimensions. Dimensions include Date, Product, Customer, Territory, and Marketing Campaign. The experience should involve a single data visual and provide guidance on which dimensions to explore.
-Which visual should Arun use?
+      explanation: The answer is correct. By disabling the More options (…) icon, report consumers can’t export data. - content: At the Contoso Skateboard Company, Arun is building a report that will help sales managers explore sales revenue by different dimensions. Dimensions include Date, Product, Customer, Territory, and Marketing Campaign. The experience should involve a single data visual and provide guidance on which dimensions to explore.Which visual should Arun use?
     choices:
     - content: Decomposition tree
       isCorrect: true

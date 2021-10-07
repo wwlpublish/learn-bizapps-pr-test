@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.power-bi-effective-ue.3-design-reports-like-apps 
+uid: learn-bizapps.power-bi-effective-ue.3-design-reports-apps 
 title: Design reports that behave like apps
 metadata: 
   title: Design reports that behave like apps
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 4 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/3-design-reports-like-apps.md)] 
+ [!include[](includes/3-design-reports-apps.md)] 

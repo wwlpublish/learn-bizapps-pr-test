@@ -40,7 +40,7 @@ You can also overlay analytics to highlight values. Certain visuals, like the li
 The following image is an example of a trend line. The upward gradient of the trend line clearly indicates that returns are increasing over time.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows a line chart titled \"Returns over time\". The time series is for returns made during the month of June . An overlaid trend line that is a dashed line indicates that returns are increasing over time.](../media/overlaid-analytics-trend.png)](../media/overlaid-analytics-trend.png#lightbox)
+> [![Image shows a line chart titled Returns over time. The time series is for returns made during the month of June . An overlaid trend line that is a dashed line indicates that returns are increasing over time.](../media/overlaid-analytics-trend.png)](../media/overlaid-analytics-trend.png#lightbox)
 
 For more information, see [Use the Analytics pane in Power BI Desktop](https://docs.microsoft.com/power-bi/transform-model/desktop-analytics-pane).
 
