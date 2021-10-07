@@ -1,4 +1,4 @@
-Currently, over one billion people in the world live with a disability. Accessibility is about ensuring that all people, regardless of ability, have equal access to physical and electronic environments and resources.
+Currently, over 1 billion people in the world live with a disability. Accessibility is about ensuring that all people, regardless of ability, have equal access to physical and electronic environments and resources.
 
 Some people with disabilities use assistive technology such as screen readers, screen magnifiers, and speech recognition tools. Microsoft ensures that its products, apps, and services offer exceptional experiences to people who are using assistive technology.
 
