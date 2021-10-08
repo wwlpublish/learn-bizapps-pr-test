@@ -40,9 +40,8 @@ quiz:
       explanation: It’s too early to record a video because UAT might result in changes.
     - content: Set the page view state.
       isCorrect: false 
-      explanation: Scaling the report canvas to fit to page, fit to width, or show actual size supports report creation and doesn’t affect how the report is rendered.
-  - content: At the Contoso Skateboard Company, Marie is developing a Power BI report. She wants to ensure that screen readers will read report objects in a specific order. She also wants to ensure that some objects, like decorative shapes and images, will not be read by screen readers.
-In Power BI Desktop, which pane should Marie use to configure the requirements?
+      explanation: Scaling the report canvas to fit to page, fit to width, or show actual size supports report authoring and doesn’t affect how the report is rendered.
+  - content: At the Contoso Skateboard Company, Marie is developing a Power BI report. She wants to ensure screen readers will read report objects in a specific order. She also wants to ensure that some objects, like decorative shapes and images, will not be read by screen readers. In Power BI Desktop, which pane should Marie use to configure the requirements?
     choices: 
     - content: Fields pane
       isCorrect: false 
