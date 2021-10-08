@@ -61,7 +61,7 @@ You can associate page tooltips with different report objects, such as:
 > [!NOTE]
 > Page tooltips don\'t support interactivity. If you want your report consumers to interact with the visuals, create a drillthrough page instead.
 >
-> For more information, see [Extend visuals with report page tooltips.](https://docs.microsoft.com/power-bi/guidance/report-page-tooltips)
+> For more information, see [Extend visuals with report page tooltips.](/power-bi/guidance/report-page-tooltips)
 
 ### Add drillthrough
 
@@ -84,7 +84,7 @@ To enable drillthrough, you can create a report page that provides details. This
 > [!NOTE]
 > Report consumers might not be aware that drillthrough is supported by a visual. To promote visibility, you can add a button that performs drillthrough. This topic is covered in Unit 3.
 
-For more information, see [Set up drillthrough in Power BI reports](https://docs.microsoft.com/power-bi/create-reports/desktop-drillthrough).
+For more information, see [Set up drillthrough in Power BI reports](/power-bi/create-reports/desktop-drillthrough).
 
 ### Embed paginated reports
 

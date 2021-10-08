@@ -45,7 +45,7 @@ The capabilities of the **Decomposition Tree** visual are best described by foll
 &nbsp;
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/]
 
-For more information, see [Create and view decomposition tree visuals in Power BI](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-decomposition-tree).
+For more information, see [Create and view decomposition tree visuals in Power BI](/power-bi/visuals/power-bi-visualization-decomposition-tree).
 
 ### Q&A
 

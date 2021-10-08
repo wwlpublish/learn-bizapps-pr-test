@@ -28,7 +28,7 @@ The following image shows an example of a matrix visual with icons. The icons hi
 > [!NOTE]
 > Consider that report consumers might be blind or have low vision. Take care not to highlight by using only color. Instead, consider using icons that can use shape and color to communicate status.
 
-For more information, see [Use conditional formatting in tables](https://docs.microsoft.com/power-bi/create-reports/desktop-conditional-table-formatting).
+For more information, see [Use conditional formatting in tables](/power-bi/create-reports/desktop-conditional-table-formatting).
 
 ### Overlaid analytics
 
@@ -42,7 +42,7 @@ The following image is an example of a trend line. The upward gradient of the tr
 > [!div class="mx-imgBorder"]
 > [![Image shows a line chart titled Returns over time. The time series is for returns made during the month of June . An overlaid trend line that is a dashed line indicates that returns are increasing over time.](../media/overlaid-analytics-trend.png)](../media/overlaid-analytics-trend.png#lightbox)
 
-For more information, see [Use the Analytics pane in Power BI Desktop](https://docs.microsoft.com/power-bi/transform-model/desktop-analytics-pane).
+For more information, see [Use the Analytics pane in Power BI Desktop](/power-bi/transform-model/desktop-analytics-pane).
 
 ### Anomaly detection
 
@@ -55,7 +55,7 @@ The following example shows a line chart visual. Power BI detected an anomaly on
 
 Select the anomaly shape to open the **Anomalies** pane, which lists a series of visuals that provide further possible explanations.
 
-For more information, see [Anomaly detection](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-anomaly-detection).
+For more information, see [Anomaly detection](/power-bi/visuals/power-bi-visualization-anomaly-detection).
 
 ### Specialized visuals
 

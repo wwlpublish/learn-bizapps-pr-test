@@ -23,7 +23,7 @@ Adding an **information page** is the most simplistic technique. Dedicate an ent
 Within the visual header options, you can enable the visual header tooltip. It adds the **Help** (**?**) icon to the visual header. Then, you can assign a page tooltip or text. This technique is beneficial for providing visual-specific guidance, such as more detail that describes definitions, calculation logic, or the source of data.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows a KPI visual with the cursor hovering over the Help icon. A tooltip is reads \Turnover ratio = COGS/Avg inventory.](../media/visual-header-help-icon.png)](../media/image.png#lightbox)
+> [![Image shows a KPI visual with the cursor hovering over the Help icon. A tooltip is reads Turnover ratio = COGS/Avg inventory.](../media/visual-header-help-icon.png)](../media/visual-header-help-icon.png#lightbox)
 
 ### Button with overlay
 
