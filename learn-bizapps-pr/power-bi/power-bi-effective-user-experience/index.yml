@@ -1,5 +1,5 @@
 ### YamlMime:Module 
-uid: learn-bizapps.power-bi-effective-ue 
+uid: learn-bizapps.power-bi-effective-user-experience 
 metadata: 
  title: Enhance Power BI report designs for the user experience
  description: Enhance Power BI report designs for the user experience
@@ -23,7 +23,7 @@ abstract: |
     -   Design reports with built-in assistance.
     -   Use specialized visuals.
 prerequisites: An experience creating reports and an understanding of the audience and purpose of an analytical report
-iconUrl: /learn/achievements/power-bi-effective-ue.svg  
+iconUrl: /learn/achievements/power-bi-effective-user-experience.svg  
 levels:  
 - intermediate   
 roles:  
@@ -33,15 +33,15 @@ products:
 - dynamics-365 
 - power-bi 
 units: 
-- learn-bizapps.power-bi-effective-ue.1-introduction 
-- learn-bizapps.power-bi-effective-ue.2-design-reports 
-- learn-bizapps.power-bi-effective-ue.3-design-app-reports 
-- learn-bizapps.power-bi-effective-ue.4-bookmarks 
-- learn-bizapps.power-bi-effective-ue.5-design-navigation-reports 
-- learn-bizapps.power-bi-effective-ue.6-visual-headers 
-- learn-bizapps.power-bi-effective-ue.7-design-built-in-assistance 
-- learn-bizapps.power-bi-effective-ue.8-use-specialized-visuals 
-- learn-bizapps.power-bi-effective-ue.9-check 
-- learn-bizapps.power-bi-effective-ue.10-summary 
+- learn-bizapps.power-bi-effective-user-experience.1-introduction 
+- learn-bizapps.power-bi-effective-user-experience.2-design-reports 
+- learn-bizapps.power-bi-effective-user-experience.3-design-app-reports 
+- learn-bizapps.power-bi-effective-user-experience.4-bookmarks 
+- learn-bizapps.power-bi-effective-user-experience.5-design-navigation-reports 
+- learn-bizapps.power-bi-effective-user-experience.6-visual-headers 
+- learn-bizapps.power-bi-effective-user-experience.7-design-built-in-assistance 
+- learn-bizapps.power-bi-effective-user-experience.8-use-specialized-visuals 
+- learn-bizapps.power-bi-effective-user-experience.9-check 
+- learn-bizapps.power-bi-effective-user-experience.10-summary 
 badge: 
-  uid: learn-bizapps.power-bi-effective-ue.badge 
+  uid: learn-bizapps.power-bi-effective-user-experience.badge 
