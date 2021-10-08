@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-effective-user-experience.4-bookmarks 
+title: Work with bookmarks
+metadata: 
+  title: Work with Bookmarks
+  description: Use bookmarks to turn a Power BI report into a guided analytical experience.
+  ms.date: 10/11/2021 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi
+durationInMinutes: 7 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-bookmarks.md)] 
