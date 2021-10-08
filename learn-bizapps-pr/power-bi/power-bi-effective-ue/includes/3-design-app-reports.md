@@ -29,5 +29,5 @@ For more information, see [Q&A for Power BI business users](/power-bi/consumer/e
 The **Web URL** action opens the URL by using the default web browser. Like the **Page navigation** action, this action can be a specific URL or one that is returned by a measure. The measure can produce a URL that appends filter context to the query string. For example, if the report consumer filters the page by a single customer, the measure can return a URL to an external system that includes the customer key in the query string.
 
 > [!TIP]
-> Consider using the **Web URL** action to create a bridge to resources that are commonly referenced in tandem. **Web URL** actions can be highly effective in prompting direct action in external systems.Insert instructional text here
+> Consider using the **Web URL** action to create a bridge to resources that are commonly referenced in tandem. **Web URL** actions can be highly effective in prompting direct action in external systems.
 >

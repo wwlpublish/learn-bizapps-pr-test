@@ -132,4 +132,4 @@ Two bookmarks are required for creating a pop-up overlay:
 
 1. Ensure that the overlay object is hidden, and then update the bookmark.
 
-1. Assign the bookmark to the overlay object. Insert instructional text here
+1. Assign the bookmark to the overlay object.

@@ -20,7 +20,8 @@ You can show details by using four different techniques:
 
 For a demonstration of the four different techniques, watch the following video.
 
-(RD-05-video-show-details.mp4--alt text: Video showing a demonstration of four different techniques.)
+&nbsp;
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
 
 ### Use drillable visuals
 
