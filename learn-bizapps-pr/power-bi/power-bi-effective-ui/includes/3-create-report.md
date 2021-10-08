@@ -1,11 +1,11 @@
-Let's explore how a sales report design for The Contoso Skateboard Company evolves from a basic layout to a visually appealing report.
+In this unit, you will explore how a sales report design for the Contoso Skateboard Company evolves from a basic layout to a visually appealing report.
 
-In the report below, read the accompanying text, and then click the icons along the bottom-left to navigate through seven steps. These steps allow you to witness the transformation of a basic layout into a visually appealing report. After navigating through the seven steps, click the final icon to check out the before/after views to fully appreciate the final result.
+In the following report, read the accompanying text and then select the icons along the lower-left corner to go through the seven steps. These steps will allow you to observe the transformation of a basic layout into a visually appealing report. After going through the seven steps, select the final icon to review the before/after views to fully appreciate the final result.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the seven icons located at the bottom-left of the report page. When you open the following report, use the Tab key to navigate to the icons. A screen reader can read aloud a description for each icon.](../media/case-study-seven-steps.png)](../media/case-study-seven-steps.png#lightbox)
+> [![Screenshot of the seven icons that are located in the lower-left corner of the report page. Use the Tab key to navigate to the icons in the report. A screen reader can read aloud a description for each icon.](../media/case-study-seven-steps.png)](../media/case-study-seven-steps.png#lightbox)
 
 > [!TIP]
-> You can maximize the report by clicking the double-headed arrow located at the bottom-right corner. When you're ready to return to the module, simply press **Escape**.
+> You can maximize the report by selecting the double-headed arrow in the lower-right corner. When you're ready to return to the module, press the **Esc** key.
 
 <iframe width="1140" height="540" src="https://msit.powerbi.com/view?r=eyJrIjoiMWI3NjYzMmMtNzZmOS00M2RlLWE0NmYtZjc3MjM1N2U5MjVkIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&pageName=ReportSectionedfc36430c7a93cc07e3" frameborder="0" allowFullScreen="true"></iframe>
