@@ -47,11 +47,11 @@ For example, Power BI Desktop automatically created a map-based visualization be
 
 After creating a report with a few visuals, you're ready to publish to the Power BI service. On the **Home** ribbon on the Power BI Desktop, select **Publish**.
 
-![Screenshot of the Publish button to publish the report online.](../media/02-power-bi-desktop-publish.png)
+![Screenshot of the Publish button.](../media/02-power-bi-desktop-publish.png)
 
 You’ll be prompted to sign in to Power BI. When you've signed in and the publish process is complete, the following dialog box will appear. You can select the link below **Success!**, which will take you to the Power BI service, where you can see the report that you published. 
 
-![Screenshot of the Publishing to Power BI success message.](../media/02-power-bi-publish-success.png)
+![Screenshot of the Publish button.](../media/02-power-bi-publish-success.png)
 
 ## Pin a visual to a dashboard
 
@@ -61,4 +61,4 @@ When you view a published report in the Power BI service, you can choose the **P
 
 You can choose whether to pin the visual to an existing dashboard or to create a new dashboard. 
 
-For more information, see [Report View in Power BI Desktop](/power-bi/desktop-report-view/?azure-portal=true).
+For more information, see [Report View in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-report-view/?azure-portal=true).
