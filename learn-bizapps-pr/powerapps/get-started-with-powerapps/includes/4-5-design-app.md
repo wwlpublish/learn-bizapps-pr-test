@@ -39,7 +39,7 @@ During this process, you will also want to identify any government regulations o
 In the "Power Apps related technologies" module, you learned about some of the common data sources for building apps, but with all these choices how do you actually decide which data source to use for your solution? Maybe you already have a data source implemented that users work with on a day to day basis, like SharePoint. Could you just use this as your data source to build your app? Do I need to connect to multiple data sources? These are all common questions you should ask yourself and there are number of other factors to consider, such as:
 
 - **Business Requirements** – Every data source and it's supported functionality is slightly different. So, depending on your app requirements you need to select the data source that supports your needs or modify your business requirements to comply with the supported functionality for the selected data source.
-- **Licensing/Cost** – Certain data sources like the Microsoft Dataverse or SQL are considered a "premium data source". A premium data source will require each user who uses the app to have a Power Apps Per App Plan or a Power Apps Per User Plan. For more information about licensing, see [Power Apps pricing](https://powerapps.microsoft.com/pricing/?azureportal=true)
+- **Licensing/Cost** – Certain data sources like the Microsoft Dataverse or SQL are considered a "premium data source". A premium data source will require each user who uses the app to have a Power Apps Per App Plan or a Power Apps Per User Plan. For more information about licensing, see [Power Apps pricing](https://powerapps.microsoft.com/pricing/?azure-portal=true)
 
 ### User Experience (UX)
 
