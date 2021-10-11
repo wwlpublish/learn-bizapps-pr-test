@@ -1,9 +1,9 @@
 ### YamlMime:LearningPath
-uid: learn-bizapps.power-bi-design-compelling-reports
+uid: learn-bizapps.modern-analytics
 metadata:
   title: Design compelling reports in Power BI
-  description: This learning path empowers Tableau users to use Microsoft Power BI. We begin with a capstone module that highlights the set of tools that will enable Analysts and Enterprise Business Intelligence professionals to build visualizations and get insights from their data. These tools cover the full spectrum from data connectivity, preparation, modeling, visualization, and collaboration. We then go into detail on the set of tools starting with an introduction to the Microsoft Power BI desktop application, then walk through the process of connecting to data and creating calculations. After creating and adding new fields, we provide best practices around organizing and simplifying those fields. Next, we create visualizations and describe how to perform analytics in Microsoft Power BI. Finally, we provide guidance on how to produce and maintain optimized Microsoft Power BI solutions, models, functions, calculations, and visuals.
-  ms.date: 04/29/2021
+  description: Excel is a Microsoft application that has been in use since 1985. You might be surprised that in addition to simple spreadsheets, Excel can enable modern analytics and business intelligence. In this Learning Path, you will learn how to modernize and empower data conversations within your organization using Excel & Power BI together with MS Teams, and SharePoint. You’ll gain awareness of the business intelligence landscape, technology capabilities, and their roles. 
+  ms.date: 10/11/2021
   author: heyrob
   ms.author: robde
   ms.topic: interactive-tutorial
@@ -11,22 +11,26 @@ metadata:
 title: Design compelling reports in Power BI
 summary: |
   [!include[](../../includes/lp-banner.md)]
-  This learning path empowers Tableau users to use Microsoft Power BI. We begin with a capstone module that highlights the set of tools that will enable Analysts and Enterprise Business Intelligence professionals to build visualizations and get insights from their data. These tools cover the full spectrum from data connectivity, preparation, modeling, visualization, and collaboration. We then go into detail on the set of tools starting with an introduction to the Microsoft Power BI desktop application, then walk through the process of connecting to data and creating calculations. After creating and adding new fields, we provide best practices around organizing and simplifying those fields. Next, we create visualizations and describe how to perform analytics in Microsoft Power BI. Finally, we provide guidance on how to produce and maintain optimized Microsoft Power BI solutions: models, functions, calculations, and visuals.
+  Excel is a Microsoft application that has been in use since 1985. You might be surprised that in addition to simple spreadsheets, Excel can enable modern analytics and business intelligence. In this Learning Path, you will learn how to modernize and empower data conversations within your organization using Excel & Power BI together with MS Teams, and SharePoint. You’ll gain awareness of the business intelligence landscape, technology capabilities, and their roles. 
 prerequisites: None
-iconUrl: /learn/achievements/power-bi-design-compelling-reports.svg
+iconUrl: /learn/achievements/modern-analytics.svg
 levels:
-- intermediate
+- beginner
 roles: 
 - data-analyst
 - business-analyst
 products:
 - power-bi 
+- power-platform
+- excel 
 modules:
-- learn-bizapps.power-bi-effective-requirements
-- learn-bizapps.power-bi-effective-reports
-- learn-bizapps.power-bi-effective-reports
-- learn-bizapps.power-bi-effective-filters
-- learn-bizapps.power-bi-effective-ue
-- learn-bizapps.power-bi-effective-ui
+- learn-bizapps.modern-analytics-intro
+- learn-bizapps.automate-data-cleaning-power-query
+- learn-bizapps.modern-analytics-data-modeling
+- learn-bizapps.modern-analytics-transition
+- learn-bizapps.modern-analytics-interactive-experiences
+- learn-bizapps.modern-analytics-publish-share
+- modern-analytics-excel
+- learn-bizapps.modern-analytics-teams
 trophy: 
-  uid: learn-bizapps.power-bi-design-compelling-reports.trophy
+  uid: learn-bizapps.modern-analytics.trophy
