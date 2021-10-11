@@ -41,7 +41,7 @@ To create a visual, drag a field from the **Fields** list onto the **Report** vi
 
 ![Drag a field onto the Report view canvas to create a visual.](../media/02-power-bi-desktop-drag-field.png)
 
-For example, Power BI Desktop automatically created a map-based visualization because it recognized that the **State** field contained geolocation data. (Note that screenshot examples come from a variey of datasets.)
+For example, Power BI Desktop automatically created a map-based visualization because it recognized that the **State** field contained geolocation data. (Note that screenshot examples come from a variety of datasets.)
 
 ## Publish a report
 
