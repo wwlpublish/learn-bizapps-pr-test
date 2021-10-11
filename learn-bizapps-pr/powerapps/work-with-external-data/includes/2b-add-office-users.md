@@ -27,16 +27,14 @@ Here we'll get the user information we're looking for and save it to a global va
 
 Click on App, select the OnStart property and add the following formula.
 
-```csharp
 Set(varUserInfo, Office365Users.MyProfileV2())
-```
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the OnStart property with the formula displayed.](../media/my-profiler-app-onstart.png)](../media/my-profiler-app-onstart.png#lightbox)
 
 To populate the variable, right-click on **App** and select **RunOnStart.**
 
-With the global variable name **varUserInfo** now populated, you can call that information anywhere in the app. For example, in the **Default** property of a Text control, you can add ```csharp varUserInfo.displayName```.
+With the global variable name **varUserInfo** now populated, you can call that information anywhere in the app. For example, in the **Default** property of a Text control, you can add varUserInfo.displayName.
 
 > [!div class="mx-imgBorder"]
 > [![alt text](../media/text-default-display-name.png)](../media/text-default-display-name.png#lightbox)
