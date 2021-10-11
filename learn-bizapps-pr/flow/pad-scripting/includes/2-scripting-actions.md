@@ -1,4 +1,4 @@
-Power Automate for desktop provides five scripting actions that satisfy almost every automation scenario. Through these actions, you can run complex Microsoft Windows and web operations using short blocks of code.
+Power Automate for desktop provides six scripting actions that satisfy almost every automation scenario. Through these actions, you can run complex Microsoft Windows and web operations using short blocks of code.
 
 ## Run VBScript
 
