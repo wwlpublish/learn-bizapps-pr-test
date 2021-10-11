@@ -2,14 +2,6 @@ In Power Automate for desktop, use flows to launch any of your installed applica
 
 ![Screenshot of the run application action properties.](..\media\run-application-action-properties.png)
 
-To run a DOS command, use the **Run DOS command** action. This action can run a DOS command or a console application in invisible mode. The action waits for the command or application to complete and will then retrieve its output into a text variable. The **DOS command or application** field is required input, whereas the **Working folder** field is optional. The output, error output, and exit code are stored into separate variables.
-
-![Screenshot of the run dos command action properties.](..\media\run-dos-command-action-properties.png)
-
-Flows can run scripts with the **Run script** actions (VBScript/JavaScript/PowerShell/Python). The script is required input, and the action retrieves and stores the output into a variable. Additionally, the action stores the error output in a separate variable.
-
-![Screenshot of the run vb script action properties.](..\media\run-vb-script-action-properties.png)
-
 Stop any currently running processes in Windows with the **Terminate process** action. Specify the process by name or ID. Either choice requires the input of the corresponding identifier.
 
 ![Screenshot of the terminate process action properties.](..\media\terminate-process-action-properties.png)
