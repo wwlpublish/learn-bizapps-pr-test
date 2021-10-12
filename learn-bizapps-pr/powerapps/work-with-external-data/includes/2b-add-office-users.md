@@ -27,14 +27,14 @@ Here we'll get the user information we're looking for and save it to a global va
 
 Click on App, select the OnStart property and add the following formula.
 
-Set(varUserInfo, Office365Users.MyProfileV2())
+`Set(varUserInfo, Office365Users.MyProfileV2())`
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the OnStart property with the formula displayed.](../media/my-profiler-app-onstart.png)](../media/my-profiler-app-onstart.png#lightbox)
 
 To populate the variable, right-click on **App** and select **RunOnStart.**
 
-With the global variable name **varUserInfo** now populated, you can call that information anywhere in the app. For example, in the **Default** property of a Text control, you can add varUserInfo.displayName.
+With the global variable name **varUserInfo** now populated, you can call that information anywhere in the app. For example, in the **Default** property of a Text control, you can add `varUserInfo.displayName`.
 
 > [!div class="mx-imgBorder"]
 > [![alt text](../media/text-default-display-name.png)](../media/text-default-display-name.png#lightbox)
@@ -46,7 +46,7 @@ Below shows the attributes that can be automatically populated in your app savin
 
 ### Control OnSelect
 
-Now, if you need to gather information about another user, then add a **ComboBox** control and set its Items property to Office365Users.SearchUser() and **OnSelect** property to Set(varUserInfo, Office365Users.UserProfileV2(ComboBox1.Selected.Id)).
+Now, if you need to gather information about another user, then add a **ComboBox** control and set its Items property to `Office365Users.SearchUser()` and **OnSelect** property to `Set(varUserInfo, Office365Users.UserProfileV2(ComboBox1.Selected.Id))`.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the search results for user.](../media/test-search-user-2.png)](../media/test-search-user-2.png#lightbox)
@@ -58,7 +58,7 @@ Now, if you need to gather information about another user, then add a **ComboBox
 
 In addition to getting a user information, you can also search for a user's manager information.
 
-For a **ComboBox** control, set the Items property to Office365Users.SearchUser() and OnSelect property to Set(varUserInfo, Office365Users.UserProfileV2(ComboBox1.Selected.Id)).
+For a **ComboBox** control, set the Items property to `Office365Users.SearchUser()` and OnSelect property to `Set(varUserInfo, Office365Users.UserProfileV2(ComboBox1.Selected.Id))`.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the manager information.](../media/manager-information.png)](../media/manager-information.png#lightbox)
@@ -74,11 +74,11 @@ Another feature that comes with Office 365 Users is the ability to find all the 
 
 We will use a combination of a **Collection** and **Gallery** to present the list of users. A **Collection** is a variable that can store a list of information, which can be easily accessible throughout the use of the app. A **Gallery** control can show multiple records from a data source, and each record can contain multiple types of data. In this scenario, our data source is the **Collection**.
 
-Add a **ComboBox** control and set its Items property to Office365Users.SearchUser(). Next, set it's **OnSelect** to ClearCollect(colDirectReports, Office365Users.DirectReportsV2(ComboBox1_1.Selected.Id).value).
+Add a **ComboBox** control and set its Items property to `Office365Users.SearchUser()`. Next, set it's **OnSelect** to `ClearCollect(colDirectReports, Office365Users.DirectReportsV2(ComboBox1_1.Selected.Id).value)`.
 
 We can now present two pieces of information; one is to see how many users directly report to a manager and also list their names.
 
-To get a count of many users' report, add a **Label** control and set it's **Text** property to CountRows(colDirectReports).
+To get a count of many users' report, add a **Label** control and set it's **Text** property to `CountRows(colDirectReports)`.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of a label contrl with text property set.](../media/label-county-direct-reports.png)](../media/label-county-direct-reports.png#lightbox)
