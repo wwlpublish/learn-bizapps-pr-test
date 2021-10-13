@@ -295,7 +295,7 @@ select **Close & Apply** on the **Home** tab.
 After you select **Close & Apply**, Power Query Editor applies the query changes
 and applies them to Power BI Desktop.
 
-For more information, see [Quickstart: Using Power Query in Power BI Desktop](https://docs.microsoft.com/power-query/power-query-quickstart-using-power-bi/).
+For more information, see [Quickstart: Using Power Query in Power BI Desktop](/power-query/power-query-quickstart-using-power-bi/).
 
 ## Clean data
 
