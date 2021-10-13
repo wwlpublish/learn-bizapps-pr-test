@@ -28,11 +28,11 @@ Use these resources to discover more.
 
 ### Security and administration
 
-- [Security Documentation](https://docs.microsoft.com/power-bi/service-admin-power-bi-security)
+- [Security Documentation](/power-bi/service-admin-power-bi-security)
 
-- [Power BI Security Whitepaper](https://docs.microsoft.com/power-bi/whitepaper-powerbi-security)
+- [Power BI Security Whitepaper](/power-bi/whitepaper-powerbi-security)
 
-- [Administration Documentation](https://docs.microsoft.com/power-bi/service-admin-administering-power-bi-in-your-organization)
+- [Administration Documentation](/power-bi/service-admin-administering-power-bi-in-your-organization)
 
 ### Case Study
 
@@ -40,4 +40,4 @@ Use these resources to discover more.
 
 ### More on Power BI
 
-- [Power BI Documentation](https://docs.microsoft.com/power-bi/)
+- [Power BI Documentation](/power-bi/)
