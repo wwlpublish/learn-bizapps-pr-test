@@ -1,6 +1,6 @@
-## Exercise -  Create navigation and back functions
+## Create navigation and back functions
 
- The purpose of this exercise is to provide a more detailed example using the **Back()** and **Navigate** functions with multiple controls in a common real-world scenario. In many of the apps that you
+ The purpose of this tutorial is to provide a more detailed example using the **Back()** and **Navigate** functions with multiple controls in a common real-world scenario. In many of the apps that you
 develop, certain screens may have multiple controls allowing users to
 navigate to different screens depending on the control they select. In
 the following example, you will create a three screen app to
