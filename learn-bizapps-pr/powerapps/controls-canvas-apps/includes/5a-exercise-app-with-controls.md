@@ -28,12 +28,14 @@ In this tutorial you will use multiple controls mentioned in the previous units 
 	```
 
     To copy and paste the text in the  virtual environment, select the **Commands** button on the top left corner of the screen, select **Type text**, then select **Type clipboard text**. Paste the copied text in the window.
+    
     ![Screenshot of commands button selected with the type text and type clipboard text highlighted.](../media/copy-instructions.png)
 
 1.  Press and hold **Alt Key**, and select the **Button** control. (This
     will create your collection and store all the information.).
 
 1.  Select the **Gallery** dropdown at the top and choose **Blank vertical** gallery and choose **CityPopulations** from the data source pop up.
+
     ![Screenshot of the more options highlighted and gallery selected.](../media/gallery.png)
 
 1.  With the gallery selected, in the right pane, change the layout from
