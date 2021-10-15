@@ -7,6 +7,7 @@ In the following report, read the accompanying text and then select the icons al
 
 > [!TIP]
 > You can maximize the report by selecting the double-headed arrow in the lower-right corner. When you're ready to return to the module, press the **Esc** key.
+>   
 
 <iframe width="1140" height="540" src="https://msit.powerbi.com/view?r=eyJrIjoiMTNmNjkwNTgtMjZkNS00Yzc2LWJkYmYtN2ZkZjIzOWU1ZjVjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&pageName=ReportSectionedfc36430c7a93cc07e3" frameborder="0" allowFullScreen="true"></iframe>
 
