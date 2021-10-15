@@ -34,6 +34,7 @@ In this tutorial you will use multiple controls mentioned in the previous units 
     will create your collection and store all the information.).
 
 1.  Select the **Gallery** dropdown at the top and choose **Blank vertical** gallery and choose **CityPopulations** from the data source pop up.
+    ![Screenshot of the more options highlighted and gallery selected.](../media/gallery.png)
 
 1.  With the gallery selected, in the right pane, change the layout from
     blank to **Title, subtitle, and body**.
