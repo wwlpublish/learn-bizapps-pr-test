@@ -10,7 +10,7 @@ Space is essential for an effective report design because it helps reduce clutte
 
 Margins include the border area, or edge, around each page. Having a consistently spaced border area frames the report objects.
 
-Because a report page property isn't set to margins, make sure that you lay out objects in way that results in a consistent border area. Margin sizes should be equal on the left and right, with possible variation on the top and bottom. Space across the top or bottom can show branding, titles, slicers, or other information that needs to be separated from the visuals.
+Because there isn't a report page property to set margins, it's up to you to lay out objects in way that results in a consistent border area. Margin sizes should be equal on the left and right, with possible variation on the top and bottom. Space across the top or bottom can show branding, titles, slicers, or other information that needs to be separated from the visuals.
 
 The following report shows the consistent spacing (highlighted with dashed lines) around the border area of the page.
 
@@ -41,13 +41,13 @@ You can set the page size to predefined or custom dimensions. Additionally, you 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the format options, Page size section, showing Type set to Custom, with specific width and height pixel values.](../media/page-size.png)](../media/page-size.png#lightbox)
 
-A large page size that is filled with visuals might take time to render, and visuals might not render in a top-to-bottom order.
+However, a large page size that is filled with visuals might take time to render, and visuals might not render in a top-to-bottom order.
 
 ### Visual size
 
 Generally, the more important the visual, the larger its size. Report consumers will quickly focus on larger visuals. When similar visuals are on the page, such as a series of card visuals, they should be equally sized.
 
-Many visuals are responsive to size, so the visual will be appealing in either a small or large size. Consider that a line chart visual might appear like a sparkline when it's sized as small. In this case, only a few axis and data labels might appear. When the line chart visual is sized larger, more detail will be revealed, including many more axis and data labels.
+Many visuals are responsive to size, so the visual will look appealing in either a small or large size. Consider that a line chart visual might appear like a sparkline when it's sized as small. In this case, only a few axis and data labels might appear. When the line chart visual is sized larger, more detail will be revealed, including many more axis and data labels.
 
 While report consumers can use focus mode to enlarge a single visual, the visual should still clearly communicate its data when viewed at actual size on the report page. Focus mode can help consumers better interpret the data or more easily interact with the visual, such as expanding into levels of a matrix or decomposition tree visual.
 
@@ -61,7 +61,7 @@ Consider laying out the report page with different sections and aligning visuals
 
 ### Implied sections
 
-Define implied sections by aligning groups of visuals in close proximity. The following example shows how spacing separates the visuals. This example demonstrates how well-applied spacing can guide the report consumer's attention while providing balance and structure to the report page.
+Define implied sections by aligning groups of visuals in close proximity. The following example shows how spacing separates the visuals. This example demonstrates how well-applied spacing (highlighted with dashed lines) can convey association, and guide the report consumer's attention while providing balance and structure to the report page.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of a report page with spacing between the seven visuals to produce an implicit section in the upper-left corner of the page.](../media/alignment-implied-section.png)](../media/alignment-implied-section.png#lightbox)
@@ -74,11 +74,11 @@ You can define explicit sections by using colored shapes and overlaying aligned 
 > [![Screenshot of a report page with margin spacing highlighted in the left, right, top, and bottom, and with spacing and background shapes that separate the visual into three sections.](../media/alignment-explicit-sections.png)](../media/alignment-explicit-sections.png#lightbox)
 
 > [!TIP]
-> Use the alignment commands on the **Format** tab, which will help you align visuals.
+> Use the alignment commands on the **Format** tab, which will help you quickly and accurately align visuals.
 
 ## Color
 
-Use color sparingly and meaningfully because overusing it can be distracting. Stick to a few softer colors as a base, aligned with corporate colors. Softer colors ensure that the data is the focus in your reports. Reserve the use of bolder colors to highlight exceptions.
+Use color sparingly and meaningfully because overusing it can be distracting. Stick to a few softer colors as a base, possibly aligned with corporate colors. Softer colors ensure that the data is the focus in your report. Reserve the use of bolder colors to highlight exceptions.
 
 Ensure that colors are sufficiently contrasting. Color contrast is especially important to create accessible reports for report consumers who have low vision. This topic is described in more detail in Unit 5.
 
@@ -101,12 +101,12 @@ The following example shows many inconsistencies, including mixed fonts, differe
 > [!div class="mx-imgBorder"]
 > [![Screenshot of a report page with the inconsistencies described in the previous section.](../media/consistency-example-bad.png)](../media/consistency-example-bad.png#lightbox)
 
-The quickest way to enforce consistency is to use a *report theme*. A report theme applies design changes to your entire report, ensuring consistent application of colors, fonts, pages, and visual format options, including the **Filters** pane styles.
+The quickest way to enforce consistency is to use a *report theme*. A report theme applies format settings to your entire report, ensuring consistent application of colors, fonts, pages, and visual format options, including the **Filters** pane styles.
 
 Consider using one of the many built-in themes from the theme gallery. You can use one as a starting point and then customize it to better meet your requirements. Alternatively, you can create a new theme, which can be considerable work initially, but will provide you with granular control.
 
 > [!NOTE]
-> Be aware that the theme will be overridden when you are explicitly configuring a format option. For example, you can explicitly set a color by entering a HEX value instead of selecting a color from the palette. Try to limit overriding the report theme to an exception basis because if you switch themes, overridden properties won't update.
+> Be aware that the theme will be overridden when you explicitly configure a format option. For example, you can explicitly set a color by entering a HEX value instead of selecting a color from the palette. Try to limit overriding the report theme to an exception basis because if you switch themes, overridden properties won't update.
 
 Be sure to export the report theme, which is a JSON file, and then apply it to other reports to ensure consistency across all reports.
 

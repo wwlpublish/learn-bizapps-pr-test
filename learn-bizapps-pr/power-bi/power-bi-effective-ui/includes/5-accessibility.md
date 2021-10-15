@@ -32,7 +32,7 @@ Alternative text descriptions, or *alt text*, can describe the appearance and fu
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Alt Text property in the Format options.](../media/accessibility-alt-text.png)](../media/accessibility-alt-text.png#lightbox)
 
-For data visuals, don't describe specific data points in alt text because data values are likely to change. However, it's possible to assign a measure, which uses Data Analytic Expressions (DAX), to the alt text property. That way, the measure could evaluate the filter context and return a text description of the data.
+For data visuals, don't describe specific data points in alt text because data values are likely to change. However, it's possible to assign a measure, which uses Data Analysis Expressions (DAX), to the alt text property. That way, the measure could evaluate the filter context and return a text description of the data.
 
 > [!TIP]
 > To learn more about DAX, see [Use DAX in Power BI Desktop](/learn/paths/dax-power-bi/?azure-portal=true).
@@ -46,7 +46,7 @@ Ensure that the tab order (which is set in the **Selection** pane) for each page
 
 ## Conditional formatting
 
-Several conditional formatting options are available for you to use to highlight values in grid data visuals, such as the table and matrix visuals. The *icon* option helps you convey status with color and icon.
+Several conditional formatting options are available for you to use to highlight values in grid data visuals, such as the table and matrix visuals. The *icon* option is especially useful. It helps you convey status with color and icon.
 
 The following matrix visual shows that the **Days sales of inventory** column communicates zero on-hand stock by using an icon (exclamation mark) and color (red).
 
