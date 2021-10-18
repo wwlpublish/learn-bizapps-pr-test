@@ -32,7 +32,7 @@ This hands-on lab shows you how to use the ForAll function in a gallery.
     > [!div class="mx-imgBorder"]
 	> [![Screenshot of the command button selected and the type text button highlighted.](../media/copy-instructions.png)](../media/copy-instructions.png#lightbox)
 
-1.  Press and hold **Alt Key**, and select the **Button** control, and set its **Text** property to "Collect" 
+1.  Select the **Button** control, and set its **Text** property to "Collect." Hold the **Alt Key** and press the **Button** control.
 (This will create your collection and store all the information).
 
 1.  Select the **Gallery** dropdown at the top and choose **Blank vertical** gallery and choose **CityPopulations** from the data source pop-up.
@@ -56,11 +56,14 @@ This hands-on lab shows you how to use the ForAll function in a gallery.
 	Clear(NewCity);
 	ForAll(Gallery1.AllItems, If(Checkbox1.Value = true, Collect(NewCity, {City: City, Country: Country, Population: Population})))
 	```			
-1. Select the **Insert** tab add a **Blank Vertical Gallery**, set its **Items** property to "NewCity".
+
+1. Select the **Insert** tab add a **Blank Vertical Gallery**, and choose NewCity from the data source pop-up.
 
 1. On the left Navigation Pane change the layout from blank to Title, subtitle, and body.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of properties with layout field and title, subtitle, and body dropdown.](../media/4a-exercise-forall-collection-change-gallery-type.png)](../media/4a-exercise-forall-collection-change-gallery-type.png#lightbox)
+
+1. Select the **Play** button, check the checkbox, and then select the **ForAll Collect** button.
 
 You have now used the For All command to add all checked items to a new gallery.
