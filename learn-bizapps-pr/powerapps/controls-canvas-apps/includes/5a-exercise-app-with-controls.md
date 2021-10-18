@@ -44,7 +44,7 @@ In this tutorial you will use multiple controls mentioned in the previous units 
 1.  Select the last or third Label in the first item of the gallery, and change the **Text** property to
     **ThisItem.Population**.
 
-	![Screenshot of Gallery menu items for the text property.](../media/gallery-image.png)
+	![Screenshot of Gallery menu items for the text property.](../media/text-property.png)
 
 1. Select the **Input** dropdown and choose **Slider**.
 
