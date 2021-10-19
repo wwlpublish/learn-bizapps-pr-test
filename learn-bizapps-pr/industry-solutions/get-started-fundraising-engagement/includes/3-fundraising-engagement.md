@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWNtv2/]
 
 Fundraising and Engagement is a ready-made application for donor relationship and fundraising management. It uses the full capabilities of Dynamics 365 Sales together with capabilities and processes built specifically to enable the following nonprofit scenarios:
 
