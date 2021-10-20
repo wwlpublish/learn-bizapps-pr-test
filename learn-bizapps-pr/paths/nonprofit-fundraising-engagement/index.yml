@@ -3,7 +3,7 @@ uid: learn-bizapps.nonprofit-fundraising-engagement
 metadata:
   title: Manage Nonprofit fundraising and engagement
   description: Learn how to use Microsoft Nonprofit Fundraising and Engagement solution.
-  ms.date: 11/01/2021
+  ms.date: 10/20/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
@@ -25,7 +25,7 @@ products:
 - mscloud-nonprofit
 modules:
 ## temp module
-- learn-bizapps.microsoft-nonprofit-fundraising-engagement-overview
+- learn-bizapps.microsoft-vaccination-management-overview
 trophy:
   uid: learn.nonprofit-fundraising-engagement.trophy
 
