@@ -9,7 +9,7 @@ In this exercise, you will complete the following tasks:
 1.  Add Sparkline Charts
 
 > [!NOTE]
-> This exercise has been created based on the sales activities of the *fictitious* Wi-Fi company called SureWi which has been provided by [P3 Adaptive](https://p3adaptive.com/). The data is property of P3 Adaptive and has been shared with the purpose of demonstrating Excel and Power BI functionality with industry sample data. Any use of this data must include this attribution to P3 Adaptive.
+> This exercise has been created based on the sales activities of the *fictitious* Wi-Fi company called SureWi which has been provided by [P3 Adaptive](https://p3adaptive.com/). The data is property of P3 Adaptive and has been shared with the purpose of demonstrating Excel and Power BI functionality with industry sample data. Any use of this data must include this attribution to P3 Adaptive. If you have not already, download and extract the lab files from https://aka.ms/modern-analytics-labs into your **C:\ANALYST-LABS** folder. 
 
 ## Exercise 1: Use Excel to create a Pivot Table from a Data Set in the Power BI service
 
@@ -236,7 +236,7 @@ In this task, you will save the Excel file.
 
 1. From the main ribbon menu, select **File** > **Save**.
 
-1. Navigate to the file \<CourseFolder\>\Attendee\Lab Materials\Lab 03B\  folder.
+1. Navigate to the **C:\ANALYST-LABS\Lab 03B** folder.
 
 1. Save the file as **MAIAD Lab 03B - Solution.xlsx**.
 
