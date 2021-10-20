@@ -13,7 +13,7 @@ In this exercise, you will complete the following tasks:
 1. Add Conditional Formatting Icons to Matrix Visual
 
     > [!NOTE]
-    > This exercise has been created based on the sales activities of the *fictitious* Wi-Fi company called SureWi which has been provided by P3 Adaptive <https://p3adaptive.com/>. The data is property of P3 Adaptive and has been shared with the purpose of demonstrating Excel and Power BI functionality with industry sample data. Any use of this data must include this attribution to P3 Adaptive.
+    > This exercise has been created based on the sales activities of the *fictitious* Wi-Fi company called SureWi which has been provided by P3 Adaptive <https://p3adaptive.com/>. The data is property of P3 Adaptive and has been shared with the purpose of demonstrating Excel and Power BI functionality with industry sample data. Any use of this data must include this attribution to P3 Adaptive. If you have not already, download and extract the lab files from https://aka.ms/modern-analytics-labs into your **C:\ANALYST-LABS** folder. 
 
 ## Exercise 1: Start with a pre-loaded PBIX
 
@@ -39,7 +39,7 @@ In this task, you will navigate and open the starting PBIX file.
     > [!div class="mx-imgBorder"]
     > [![Open report window with the Browse report button.](../media/open-report.png)](../media/open-report.png#lightbox)
 
-1. Navigate to the **Course Folder > Attendee > Lab Materials > Lab 02B** folder.
+1. Navigate to the **C:\ANALYST-LABS\Lab 02B** folder.
 
 1. Select the file **MAIAD Lab 02B - Power BI Model - Start.pbix** and choose Open.
 
