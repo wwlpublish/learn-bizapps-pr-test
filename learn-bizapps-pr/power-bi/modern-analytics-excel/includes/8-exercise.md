@@ -5,13 +5,11 @@ The estimated time to complete this exercise is 30 minutes.
 In this exercise, you will complete the following tasks:
 
 1.  Publish a Power BI Desktop Dataset & Report to the Power BI service
-
 1.  Download, Install, and Use Analyze in Excel
-
 1.  Build an Excel Report using a Power BI Dataset
 
 > [!NOTE]
-> This exercise has been created based on the sales activities of the *fictitious* Wi-Fi company called SureWi which has been provided by [P3 Adaptive](https://p3adaptive.com/). The data is property of P3 Adaptive and has been shared with the purpose of demonstrating Excel and Power BI functionality with industry sample data. Any use of this data must include this attribution to P3 Adaptive.
+> This exercise has been created based on the sales activities of the *fictitious* Wi-Fi company called SureWi which has been provided by [P3 Adaptive](https://p3adaptive.com/). The data is property of P3 Adaptive and has been shared with the purpose of demonstrating Excel and Power BI functionality with industry sample data. Any use of this data must include this attribution to P3 Adaptive. If you have not already, download and extract the lab files from https://aka.ms/modern-analytics-labs into your **C:\ANALYST-LABS** folder. 
 
 ## Exercise 1: Publish a Power BI Desktop Dataset & Report to the Power BI service
 
@@ -22,7 +20,6 @@ In this exercise, you will use Power BI Desktop to publish your Dataset and Repo
 In this task, you will launch Power BI Desktop and open a PBIX file.
 
 1.  Launch Power BI Desktop.
-
 1.  If applicable, use the "x" in the upper right-hand corner to close the Welcome window.
 
 ### Task 2: Open the PBIX file
@@ -34,8 +31,7 @@ In this task, you will navigate and open the starting PBIX file with the Dataset
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of open report window with the Browse reports button.](../media/browse-reports.png)](../media/browse-reports.png#lightbox)
 
-1.  Navigate to the \<CourseFolder\>\Attendee\Lab Materials\Lab 03A\  folder.
-
+1.  Navigate to the **C:\ANALYST-LABS\Lab 03A**  folder.
 1.  Select the file **MAIAD Lab 03A - Power BI Model.pbix** and choose **Open**.
 
 ### Task 3: Publish the PBIX file to the Service

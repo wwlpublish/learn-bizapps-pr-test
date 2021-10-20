@@ -5,13 +5,11 @@ The estimated time to complete this exercise is 20 minutes.
 In this exercise, you will complete the following tasks:
 
 1.  Import from Excel to Power BI Desktop: Customers & Quotes queries & tables
-
 1.  Edit imported Queries to Include a Dates table
-
 1.  Close Power Query & Load the Dates table to the Data Model
 
 > [!NOTE]
-> This exercise has been created based on the sales activities of the *fictitious* Wi-Fi company called SureWi which has been provided by [P3 Adaptive](https://p3adaptive.com/?azure-portal=true). The data is property of P3 Adaptive and has been shared with the purpose of demonstrating Excel and Power BI functionality with industry sample data. Any use of this data must include this attribution to P3 Adaptive.
+> This exercise has been created based on the sales activities of the *fictitious* Wi-Fi company called SureWi which has been provided by [P3 Adaptive](https://p3adaptive.com/?azure-portal=true). The data is property of P3 Adaptive and has been shared with the purpose of demonstrating Excel and Power BI functionality with industry sample data. Any use of this data must include this attribution to P3 Adaptive. If you have not already, download and extract the lab files from https://aka.ms/modern-analytics-labs into your **C:\ANALYST-LABS** folder. 
 
 ## Exercise 1: Import from Excel to Power BI Desktop: Customers and quotes queries and tables
 
@@ -22,7 +20,6 @@ In this exercise, you will launch Power BI Desktop and import the Customers & Qu
 In this task, you will launch Power BI Desktop and save the new PBIX file.
 
 1.  Launch Power BI Desktop.
-
 1.  If applicable, use the "x" in the upper right-hand corner to close the Welcome window.
 
 ### Task 2: Verify Settings
@@ -43,7 +40,7 @@ In this task, you will navigate and open the starting XLSX file then start the i
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of Power BI Desktop > Import > Power Query, Power Pivot, Power View displayed.](../media/import-menu.png)](../media/import-menu.png#lightbox)
 
-1.  Navigate to the \<CourseFolder\>\Attendee\Lab Materials\Lab 02A\ folder.
+1.  Navigate to the **C:\ANALYST-LABS\Lab 02A** folder.
 
 1.  Select the file **MAIAD Lab 02A - Start.xlsx** and choose **Open**.
 
@@ -109,7 +106,7 @@ In this task, you will add a Dates table to the existing Queries and Load the ne
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of Power Query Editor displaying Home > New Source > Text/CVS option.](../media/text-cvs-option.png)](../media/text-cvs-option.png#lightbox)
 
-1. Navigate to the \<CourseFolder\>\Attendee\Lab Materials\Lab 02A\ folder.
+1. Navigate to the **C:\ANALYST-LABS\Lab 02A** folder.
 
 1. Select the file **MAIAD Lab 02A - Data Source - Dates.csv** and choose **Open**.
 
