@@ -11,7 +11,7 @@ metadata:
 title: Design effective reports in Power BI
 video:
   title: "Design effective reports in Power BI"
-  url: https://www.microsoft.com/en-us/videoplayer/embed/RWNNYw
+  url: https://www.microsoft.com/videoplayer/embed/RWNNYw
 summary: |
   [!include[](../../includes/lp-banner.md)]
   This learning path empowers Tableau users to use Microsoft Power BI. We begin with a capstone module that highlights the set of tools that will enable Analysts and Enterprise Business Intelligence professionals to build visualizations and get insights from their data. These tools cover the full spectrum from data connectivity, preparation, modeling, visualization, and collaboration. We then go into detail on the set of tools starting with an introduction to the Microsoft Power BI desktop application, then walk through the process of connecting to data and creating calculations. After creating and adding new fields, we provide best practices around organizing and simplifying those fields. Next, we create visualizations and describe how to perform analytics in Microsoft Power BI. Finally, we provide guidance on how to produce and maintain optimized Microsoft Power BI solutions: models, functions, calculations, and visuals.
