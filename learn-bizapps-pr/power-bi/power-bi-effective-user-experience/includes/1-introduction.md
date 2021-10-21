@@ -18,10 +18,14 @@ You can show details by using four different techniques:
 
 - Embed paginated reports
 
+
+<!---
 For a demonstration of the four different techniques, watch the following video.
 
 &nbsp;
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+--->
 
 ### Use drillable visuals
 
