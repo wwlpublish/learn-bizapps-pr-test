@@ -39,14 +39,14 @@ Buttons need to be clearly interactive. If a button doesn't appear to be interac
 You can configure buttons to change their state when a hover over is available. When the report consumer hovers the cursor over a button, the cursor icon changes to a pointing finger, which indicates that the button is selectable. In this example, the **Tabular** button text is light gray by default, but when they hover the cursor over, it darkens to black.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows two scenarios. The first scenario shows the \"Tabular\" button without hover, and the button text is light gray. The second scenario shows the \"Tabular\" button on hover, and the button text is black.](../media/on-hover-formatting.png)]
+> ![Image shows two scenarios. The first scenario shows the \"Tabular\" button without hover, and the button text is light gray. The second scenario shows the \"Tabular\" button on hover, and the button text is black.](../media/on-hover-formatting.png)
 
 ### Descriptive tooltips
 
 In addition to on-hover formatting, you can configure tooltips to concisely communicate what the button does.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows the cursor hovering over the \"Tabular\" button. A tooltip that reads \"Tabular view\" is revealed.](../media/descriptive-tooltips.png)]
+> ![Image shows the cursor hovering over the \"Tabular\" button. A tooltip that reads \"Tabular view\" is revealed.](../media/descriptive-tooltips.png)
 
 > [!NOTE]
 > Enable and enter the tooltip text in the **Action** section for the button.

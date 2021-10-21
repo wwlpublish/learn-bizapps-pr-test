@@ -12,7 +12,7 @@ To understand what you can achieve with bookmarks, you need to know how to confi
 Bookmarks capture different state, relating to date, display, and the current page. By default, a new bookmark captures all state types, but you can decide to disable any of them.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows the bookmark context menu, with Data, Display, and Current page enabled.](../media/bookmark-context-menu-state.png)]
+> ![Image shows the bookmark context menu, with Data, Display, and Current page enabled.](../media/bookmark-context-menu-state.png)
 
 The **Data** state captures anything that impacts the queries that Power BI sends to the dataset. For example, if a slicer is included in the scope of the bookmark, the **Data** state retains the applied slicer items when the bookmark was created (or updated). It will also capture sort order and the drill depth of a visual because the query is impacted.
 
@@ -25,7 +25,7 @@ The **Current page** state determines whether the bookmark will direct the repor
 Bookmarks can apply to all page visuals or specific visuals that you select.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows the bookmark context menu with All visuals and Selected visuals.](../media/bookmark-context-menu-scope.png)]
+> ![Image shows the bookmark context menu with All visuals and Selected visuals.](../media/bookmark-context-menu-scope.png)
 
 The **All visuals** scope is turned on by default, meaning that the bookmark applies to all report objects, even if hidden.
 

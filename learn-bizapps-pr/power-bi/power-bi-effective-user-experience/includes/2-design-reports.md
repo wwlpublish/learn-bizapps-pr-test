@@ -29,12 +29,12 @@ For more information, see [Use conditional formatting in tables](/power-bi/creat
 You can also overlay analytics to highlight values. Certain visuals, like the line chart visual, allow you to add analytic options. Options include trend lines, constant lines, minimum or maximum lines, and many others.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows the Analytics pane. Sections include Trend line, and many other line types.](../media/overlaid-analytics-pane.png)]
+> ![Image shows the Analytics pane. Sections include Trend line, and many other line types.](../media/overlaid-analytics-pane.png)
 
 The following image is an example of a trend line. The upward gradient of the trend line clearly indicates that returns are increasing over time.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows a line chart titled Returns over time. The time series is for returns made during the month of June . An overlaid trend line that is a dashed line indicates that returns are increasing over time.](../media/overlaid-analytics-trend.png)]
+> ![Image shows a line chart titled Returns over time. The time series is for returns made during the month of June . An overlaid trend line that is a dashed line indicates that returns are increasing over time.](../media/overlaid-analytics-trend.png)
 
 For more information, see [Use the Analytics pane in Power BI Desktop](/power-bi/transform-model/desktop-analytics-pane).
 
