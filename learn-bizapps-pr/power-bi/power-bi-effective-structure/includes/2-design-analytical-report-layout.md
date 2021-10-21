@@ -52,14 +52,14 @@ In a report layout, proximity is concerned with the nearness of report objects. 
 In the following report design, notice the top-left section labeled key metrics. Related visuals are placed near one another. They are also purposefully and consistently aligned forming a clear section.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows an example of a report layout that has a key metrics section highlighted in a red box.](../media/6-report-design-proximity.png)](../media/6-report-design-proximity.png#lightbox)
+> [![Image shows an example of a report layout that has a key metrics section highlighted in a red box.](../media/6-report-design-proximity.png)]
 
 ## Contrast
 
 Contrast can be used to combine two opposing objects. The use of contrasting colors, fonts, font properties, or lines can emphasize important objects of the report design. Use this principle to direct report consumers to where they should look or which data visual they should interact with first.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows an example of a report layout that has two bar chart visuals. The top selling product bar is highlighted in blue, while the remaining bars are grey.](../media/7-report-design-contrast.png)](../media/7-report-design-contrast.png#lightbox)
+> [![Image shows an example of a report layout that has two bar chart visuals. The top selling product bar is highlighted in blue, while the remaining bars are grey.](../media/7-report-design-contrast.png)]
 
 ## Repetition
 
@@ -68,4 +68,4 @@ Repetition in a report design creates association and consistency. Good use of r
 In the following report design, notice the top-left section labeled **Key metrics**. Many key metrics are presented in single-value cards. This repetitious design allows report consumers to quickly understand and interpret the metrics.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows an example of a report layout that has a key metrics section. Two red boxes highlight five card visuals that display key metric values.](../media/8-report-design-repetition.png)](../media/8-report-design-repetition.png#lightbox)
+> [![Image shows an example of a report layout that has a key metrics section. Two red boxes highlight five card visuals that display key metric values.](../media/8-report-design-repetition.png)]

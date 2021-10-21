@@ -16,7 +16,7 @@ When invoked, the report consumer can *drill to **details***. By drilling to det
 
 For an example of a guided experience, watch the following video that explores the sales report for the Contoso Skateboard Store.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO hhttps://www.microsoft.com/en-us/videoplayer/embed/RWNYEX]
 
 This report is available for you to explore. In the ensuing report, you can follow the recorded demonstration to complete these tasks:
 

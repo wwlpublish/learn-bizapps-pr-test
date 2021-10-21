@@ -33,4 +33,4 @@ In this case, the column chart visual can submit an analytic query to filter by 
 
 To better understand analytical reports, watch the following video that describes the key concepts that are presented in this unit.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO6gW]
