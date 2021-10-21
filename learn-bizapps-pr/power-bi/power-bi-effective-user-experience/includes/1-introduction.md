@@ -30,7 +30,7 @@ For a demonstration of the four different techniques, watch the following video.
 The simplest way to show details is to use drillable visuals. The matrix visual is an excellent choice because it allows drilling on rows and/or columns. Therefore, by assigning hierarchies or multiple fields, report consumers can drill to the level of detail that they want. For example, the matrix rows could show years, and the report consumer could drill down to quarter, month, and date levels.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows a matrix visual of city sales. The city Los Angeles has been drilled down to reveal individual product sales details.](../media/matrix-drill-down.png)](../media/matrix-drill-down.png#lightbox)
+> [![Image shows a matrix visual of city sales. The city Los Angeles has been drilled down to reveal individual product sales details.](../media/matrix-drill-down.png)]
 
 > [!TIP]
 > Ensure that the visual size is sufficient for consumers to view drill-down details, or you can teach your report consumers how to use focus mode to enlarge the visual. Also, you can add buttons to provide a quick way for report consumers to drill to specific levels. This scenario is covered in Unit 4.
