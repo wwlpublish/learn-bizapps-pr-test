@@ -42,7 +42,7 @@ You can use the following general methodology to add and configure a visual:
 
 To gain a better understanding of this general methodology, watch the following video, which demonstrates how to configure a report visual.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO1bQ]
 
 This module doesn't intend to describe each visual in detail. In the next unit, visuals are grouped into visualization requirements together with guidance on when to and when not to use them.
 
