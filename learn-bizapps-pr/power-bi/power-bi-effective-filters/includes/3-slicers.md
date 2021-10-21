@@ -38,4 +38,4 @@ List and dropdown slicers support format options to control the selection of ite
 
 Other configuration options are available for you to modify slicer behavior and its look. To learn more, watch the following video that demonstrates how to configure and style slicers.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWNYEU]
