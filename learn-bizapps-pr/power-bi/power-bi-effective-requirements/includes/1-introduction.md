@@ -11,7 +11,7 @@ As with any project, a good starting point when designing reports is to define c
 This module uses a scenario concerning the Contoso Skateboard Store company, which specializes in direct-to-consumer skateboard sales. To modernize their workflow and gain a deeper understanding of their product sales and inventory management, the company needs to create a set of reports to deliver data to their employees.
 
 > [!div class="mx-imgBorder"]
-> [![Image shows an example Power BI report from the Contoso Skateboard Store.](../media/constoso-skateboard-store-company-report-requirements.png)](../media/constoso-skateboard-store-company-report-requirements.png#lightbox)
+> [![Image shows an example Power BI report from the Contoso Skateboard Store.](../media/contoso-skateboard-store-company-report-requirements.png)](../media/contoso-skateboard-store-company-report-requirements.png#lightbox)
 
 Currently, the finance and supply chain divisions operate in vertical silos. These divisions use data differently, which has resulted in many inconsistencies in how they interpret the data when making decisions. These inconsistencies have often led to disagreements and misalignment at the executive level because the numbers don't match.
 
