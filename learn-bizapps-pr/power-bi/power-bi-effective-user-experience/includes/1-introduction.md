@@ -3,19 +3,14 @@ An analytical report layout can integrate a guided analytical experience. That w
 The guided analytical experience allows navigation between three levels:
 
 - High-level metrics
-
 - Supporting visuals
-
 - Details, when required
 
 You can show details by using four different techniques:
 
 - Use drillable visuals
-
 - Add tooltips
-
 - Add drillthrough
-
 - Embed paginated reports
 
 

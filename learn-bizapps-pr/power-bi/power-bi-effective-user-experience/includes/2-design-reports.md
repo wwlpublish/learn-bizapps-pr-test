@@ -1,11 +1,8 @@
 Highlighting values in reports helps you to quickly communicate important and relevant facts about data. Power BI supports several techniques to highlight values:
 
 - Conditional formatting
-
 - Overlaid analytics
-
 - Anomaly detection
-
 - Specialized visuals
 
 ### Conditional formatting
@@ -13,11 +10,8 @@ Highlighting values in reports helps you to quickly communicate important and re
 You can use conditional formatting to format table and matrix visuals. With this approach, you can apply rules to highlight specific cells by using:
 
 - Background color
-
 - Font color
-
 - Data bars
-
 - Icons
 
 The following image shows an example of a matrix visual with icons. The icons highlight the **On hand** values.
