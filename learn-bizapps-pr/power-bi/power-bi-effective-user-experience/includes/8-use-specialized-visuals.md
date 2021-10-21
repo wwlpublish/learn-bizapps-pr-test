@@ -24,10 +24,8 @@ Essentially, the **Key influencers** visual is many visuals inside one frame. Wh
 
 The capabilities of the **Key influencers** visual are best described by following an example. For a demonstration of the **Key influencers** visual, watch the following video.
 
-<!---
 &nbsp;
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
-<!---
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO1bL]
 
 For more information, see [Create key influencers visualizations](/power-bi/visuals/power-bi-visualization-influencers).
 
@@ -42,12 +40,10 @@ For a demonstration of the **Decomposition Tree** visual, watch the following vi
 > [!div class="mx-imgBorder"]
 > [![Image shows a Decomposition tree visual helping report consumers to analyze sales opportunity revenue across two dimensions: Product category and Region.](../media/ai-visual-decomposition-tree.png)](../media/ai-visual-decomposition-tree.png#lightbox)
 
-<!---
 The capabilities of the **Decomposition Tree** visual are best described by following an example. For a demonstration of the **Decomposition Tree** visual, watch the following video.
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
---->
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO1bM]
 
 For more information, see [Create and view decomposition tree visuals in Power BI](/power-bi/visuals/power-bi-visualization-decomposition-tree).
 
@@ -62,10 +58,8 @@ The **Q&A** visual allows report consumers to ask questions of their data and re
 > To optimize the Q&A experience, ensure that the data field names are user-friendly. You can also enhance the data model with synonyms and terms. Additionally, you can hide fields, such as fields that are used in model relationships, to restrict their use in Q&A. You can also add suggested questions that become prompts in the **Q&A** visual.
 
 For a demonstration of the **Q&A** visual, watch the following video.
-<!---
 
 For more information, see [Use Power BI Q&A to explore your data and create visuals](/power-bi/create-reports/power-bi-tutorial-q-and-a).
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
---->
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWObCf]

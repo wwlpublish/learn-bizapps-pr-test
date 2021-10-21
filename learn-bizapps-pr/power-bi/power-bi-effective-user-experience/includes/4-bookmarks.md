@@ -34,12 +34,10 @@ The **Selected visuals** scope will target only those visuals that are selected 
 > [!TIP]
 > Press the **Ctrl** key to select multiple visuals. The simplest way to select multiple visuals is to use the **Selection** pane. Also, when you are creating a selected visuals bookmark that shows/hides several objects, create a group of those objects and configure visibility for the group. That way, you can add or remove objects from the group without the need to update the bookmark.
 
-<!---
 Setting **Bookmark** scope is best described with an example. For a demonstration on the use of the **Selected visuals** scope, watch the following video.
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
-<!---
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWObCd]
 
 ## Bookmark examples
 
