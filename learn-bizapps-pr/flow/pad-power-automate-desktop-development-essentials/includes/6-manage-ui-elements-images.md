@@ -6,27 +6,27 @@ Both are located on the top-right of the designer window; selecting one of the a
 
 ## UI elements
 
-UI elements are used to identify windows and their contents.
+UI elements are used by Power Automate for desktop to identify application windows and their components.
 
-For example, to interact with the UI of Excel in order to change a cell’s color, we will have to extract that button’s UI element.
+For example, suppose that a flow has to select a cell and make the text inside it bold. To achieve this functionality, you need to extract two UI elements, one for the cell and one for the bold button. 
 
-In the UI elements tab, selecting **Add UI element** launches the tool Power Automate for desktop uses to extract UI elements. Navigating to the Excel interface, elements are automatically highlighted when the cursor hovers over them:
+In the UI elements tab, select **Add UI element** to launch the tool that Power Automate for desktop uses to extract UI elements. When you hover an element with the cursor, it gets automatically highlighted.
 
 ![Screenshot of a group of Font controls in Excel highlighted by U I spy.](..\media\controls-ui-spy.png)
 
-Clicking while pressing down the Ctrl button will capture the highlighted element:
+Clicking while pressing down the Ctrl button will capture the highlighted element. For this example, you need to capture one UI element for the color button and one for the cell.
 
 ![Screenshot of the Tracking session window with the Bold button selected.](..\media\tracking-session-window.png)
 
-When all the required elements are captured, press **Done**. The captured elements will be visible in the UI elements pane:
+When all the required elements are captured, press Done. The captured elements will be visible in the UI elements pane.
 
 ![Screenshot of the U I elements pane with the Bold button open.](..\media\ui-elements-pane.png)
 
-Adding a **Press Button in Window** action, we are prompted to select a UI element that identifies the button to press:
+Add two **Press button in window** actions, and select the UI elements you captured on the previous steps.
 
 ![Screenshot of the Press button in window action properties dialog.](..\media\press-button-in-window-action-properties.png)
 
-After the appropriate UI element is selected, the action is now configured to press the button:
+After selecting the appropriate UI element, the actions are configured to press the cell and the button, respectively.
 
 ![Screenshot of the Press button in window action properties filled in.](..\media\press-button-in-window-action-properties-continued.png)
 
