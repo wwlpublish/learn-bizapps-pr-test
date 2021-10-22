@@ -19,9 +19,9 @@ The screenshot below shows the creation of a new gift batch record in Fundraisin
 > [!div class="mx-imgBorder"]
 > [![Screenshot of a new gift batch record in Fundraising and Engagement.](../media/1-gift-batch-record.png)](../media/1-gift-batch-record.png#lightbox)
 
-The mandatory columns batch type, configuration, and campaign must be completed before saving the gift batch. For this scenario, **Multiple Payments** should be selected as the batch type, because in this case we are processing a batch which contains multiple individual donations received from our campaign.
+The mandatory columns batch type, configuration, and campaign must be completed before saving the gift batch. For this scenario, **Multiple Payments** should be selected as the batch type, because in this case we are processing a batch that contains multiple individual donations received from our campaign.
 
-For more information about campaigns, appeals, packages and designations, go to the Module: Manage Designations and Campaigns in Fundraising and Engagement {hyperlink in MS Learn}
+For more information about campaigns, appeals, packages, and designations, go to the Module: Manage Designations and Campaigns in Fundraising and Engagement {hyperlink in MS Learn}
 
 Once the gift batch is saved, individual donations can be entered in from the **Batch Gifts** tab.
 
@@ -32,12 +32,12 @@ Once the gift batch is saved, individual donations can be entered in from the **
 
 The **Process Gifts** section is where individual gifts can be added to the batch. The payment method can be specified as either cash, check or ext. credit card. The source will be automatically selected based on the value specified earlier on the gift batch record. In this case, it is mail.
 
-With the + and -- buttons, you can either add or remove a gift entry respectively.
+With the + and--buttons, you can either add or remove a gift entry respectively.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the plus and minus buttons used to add or remove a gift entry.](../media/3-plus-minus-buttons.png)](../media/3-plus-minus-buttons.png#lightbox)
 
-For each related gift entry, donor is a lookup column to select the contact or organization responsible for the donation. You can enter in the total amount of the donation and the non-deductible amount if applicable. Gift type, source, receipt preference, campaign, and designation columns are auto-populated based on the settings specified when creating the gift batch.
+For each related gift entry, donor is a lookup column to select the contact or organization responsible for the donation. You can enter in the total amount of the donation and the non-deductible amount if applicable. Gift type, source, receipt preference, campaign, and designation columns are autopopulated based on the settings specified when creating the gift batch.
 
 Once a gift entry is complete, it is important to click on the individual save icon to save the line item. As related gifts are added, the total value will be displayed in the read-only **current amount (total)** column and the number of gifts in the **current number of gifts** column. Until the batch is closed, the status of the gift batch will display as **in progress** in the top right of the screen.
 

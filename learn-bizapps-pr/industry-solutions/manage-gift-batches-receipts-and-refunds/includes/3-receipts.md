@@ -19,7 +19,7 @@ The **generated / printed** column displays the incremental number of times the 
 
 ## Receipt Stacks
 
-Receipt Stacks are an administrative function in Fundraising and Engagement that allow you to group receipts, typically by financial year. Each receipt stack uses a unique prefix to assist in identifying either how, when, or where a receipt is produced. For example, if an organization operates from both California and New York, they may add a prefix of either CA or NY before the receipt number for easy identification. Or to easily identify that a gift was receipted in the financial year of 2022, a prefix of 22 may be added before the receipt number.
+Receipt Stacks are an administrative function in Fundraising and Engagement that allows you to group receipts, typically by financial year. Each receipt stack uses a unique prefix to help identifying either how, when, or where a receipt is produced. For example, if an organization operates from both California and New York, they may add a prefix of either CA or NY before the receipt number for easy identification. Or to easily identify that a gift was receipted in the financial year of 2022, a prefix of 22 may be added before the receipt number.
 
 All receipt stacks can be accessed via Receipt Stacks from the left navigation menu in the Gifts area of Fundraising and Engagement.
 
@@ -30,7 +30,7 @@ You can provide an internal display name, which is the name for the receipt stac
 
 ## Receipt Logs
 
-In Fundraising and Engagement, it is possible to access an audit trail of activities that occurred related to receipts. This can be viewed from the Receipt Log area. Receipt logs are automatically updated based on user activity and allows users to see when a receipt is voided or reissued.
+In Fundraising and Engagement, it is possible to access an audit trail of activities that occurred related to receipts. This can be viewed from the Receipt Log area. Receipt logs are automatically updated based on user activity and allow users to see when a receipt is voided or reissued.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Receipt Log page in Fundraising and Engagement.](../media/17-receipt-logs.png)](../media/17-receipt-logs.png#lightbox)
@@ -42,7 +42,7 @@ If the gift is refunded or voided, the receipt can also be voided or reissued vi
 
 ## Receipt documents
 
-To print out a receipt or a thank-you letter, organizations must first set up their own template in Fundraising and Engagement. This allows you to customize the document and specify where dynamic columns appear. The steps below show how to upload a receipt template, and the same steps can be applied for uploading a thank-you letter.
+To print a receipt or a thank-you letter, organizations must first set up their own template in Fundraising and Engagement. This allows you to customize the document and specify where dynamic columns appear. The steps below show how to upload a receipt template, and the same steps can be applied for uploading a thank-you letter.
 
 Template settings can be found in Fundraising and Engagement Advanced Settings \>Business category \> Templates \> Document Templates.
 
@@ -57,7 +57,7 @@ Within the Document Template settings, specify the type of document you would li
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the relevant entity table with Select Entity option highlighted.](../media/21-word-templates.png)](../media/21-word-templates.png#lightbox)
 
-You can then download the Word Template which contains the exported entity as XML data. The receipt columns can be found by going to Developer \> XML Mapping Pane in Word and selecting the last option in the Custom XML Part drop down list. Here, you can see the receipt columns which can be mapped within the receipt template on Word.
+You can then download the Word Template that contains the exported entity as XML data. The receipt columns can be found by going to Developer \> XML Mapping Pane in Word and selecting the last option in the Custom XML Part drop down list. Here, you can see the receipt columns, which can be mapped within the receipt template on Word.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the XML Mapping Pane drop down list.](../media/22-mapping-pane.png)](../media/22-mapping-pane.png#lightbox)

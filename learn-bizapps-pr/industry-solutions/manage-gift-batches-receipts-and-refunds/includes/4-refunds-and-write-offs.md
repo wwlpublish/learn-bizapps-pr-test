@@ -1,4 +1,4 @@
-Fundraising and Engagement provides the ability to refund a partial or full amount of a gift back to the donor. In the case of unfulfilled donor commitments, the write off process allows you to track the donor's activity and balance the account.
+Fundraising and Engagement provide the ability to refund a partial or full amount of a gift back to the donor. If there are unfulfilled donor commitments, the write-off process allows you to track the donor's activity and balance the account.
 
 ## Refunding a gift
 
@@ -22,18 +22,18 @@ From the refund record, you can access details about the refund including the as
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the transaction status page with the refunds status highlighted.](../media/30-amount-refunded.png)](../media/30-amount-refunded.png#lightbox)
 
-Note that if a gift had an associated receipt and was refunded, the receipt will need to be voided manually.
+If a gift had an associated receipt and was refunded, the receipt will need to be voided manually.
 
 ## Writing off a pledge
 
-If a donor commitment is unfulfilled or the amount of the pledge changes, rather than deactivating the record, you can initiate a write off process. This allows you to track the activity of the change in a pledge. A write off can be for either the full or partial amount of a pledge.
+If a donor commitment is unfulfilled or the amount of the pledge changes, rather than deactivating the record, you can initiate a write-off process. This allows you to track the activity of the change in a pledge. A write-off can be for either the full or partial amount of a pledge.
 
-To initiate a write off, click the **Write Off** button located in the task bar at the top of the donor commitment record.
+To initiate a write-off, click the **Write Off** button located in the task bar at the top of the donor commitment record.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the General details tab with the reoccurring donation and amount of $50 highlighted.](../media/31-write-off.png)](../media/31-write-off.png#lightbox)
 
-This will open a pop-up window where you can specify the amount of the write off. As shown in the screenshot, Gabriella Morales had a donor commitment for \$50,000. If she can now only commit to a pledge of \$10,000, you can enter the difference of \$40,000 in the write off pop-up window.
+This will open a pop-up window where you can specify the amount of the write-off. As shown in the screenshot, Gabriella Morales had a donor commitment for \$50,000. If she can now only commit to a pledge of \$10,000, you can enter the difference of \$40,000 in the write-off pop-up window.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Write Off button highlighted in the task bar at the top of the donor commitment record.](../media/32-write-off-complete.png)](../media/32-write-off-complete.png#lightbox)
