@@ -66,5 +66,4 @@ Custom visuals allow you to expand the types of visuals beyond the standard tabl
 
 End users can use what-if scenarios to toggle specific values and immediately see the impact within the report. The following demo shows an example in which the user changes the what-if scenario slider to see how the results change based upon a percentage multiplier.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWNQy7
- 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWNQy7]
