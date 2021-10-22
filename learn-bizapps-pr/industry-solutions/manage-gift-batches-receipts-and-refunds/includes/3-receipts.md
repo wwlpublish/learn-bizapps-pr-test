@@ -62,7 +62,7 @@ You can then download the Word Template that contains the exported entity as XML
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the XML Mapping Pane drop down list.](../media/22-mapping-pane.png)](../media/22-mapping-pane.png#lightbox)
 
-For more information on XML mapping, [refer](https://docs.microsoft.com/en-us/dynamics365/sales-professional/manage-word-templates) to this learning module.
+For more information on XML mapping, [refer](/dynamics365/sales-professional/manage-word-templates) to this learning module.
 
 The completed template document can be uploaded by clicking **Upload Template** back in the Advanced Settings.
 
