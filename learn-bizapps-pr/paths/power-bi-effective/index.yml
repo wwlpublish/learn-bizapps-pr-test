@@ -2,7 +2,7 @@
 uid: learn-bizapps.power-bi-effective
 metadata:
   title: Design effective reports in Power BI
-  description: This learning path introduces a design process to design and deliver compelling Power BI reports. It commences by describing a proven design process created by leading report design experts. The process encompasses phases to understand the report user audience and their requirements, explore options to layout pleasing report designs, and materialize reports all the way into production. 
+  description: This learning path introduces a design process to design and deliver compelling Power BI reports. It begins by describing a proven design process created by leading report design experts. The process encompasses phases to understand the report users and their requirements, explore pleasing report designs, and develop reports all the way into production. 
   ms.date: 10/21/2021
   author: heyrob
   ms.author: robde
@@ -14,7 +14,7 @@ video:
   url: https://www.microsoft.com/videoplayer/embed/RWNNYw
 summary: |
   [!include[](../../includes/lp-banner.md)]
-  This learning path introduces a design process to design and deliver compelling Power BI reports. It commences by describing a proven design process created by leading report design experts. The process encompasses phases to understand the report user audience and their requirements, explore options to layout pleasing report designs, and materialize reports all the way into production. 
+  This learning path introduces a design process to design and deliver compelling Power BI reports. It begins by describing a proven design process created by leading report design experts. The process encompasses phases to understand the report users and their requirements, explore pleasing report designs, and develop reports all the way into production. 
 prerequisites: None
 iconUrl: /learn/achievements/power-bi-effective.svg
 levels:
