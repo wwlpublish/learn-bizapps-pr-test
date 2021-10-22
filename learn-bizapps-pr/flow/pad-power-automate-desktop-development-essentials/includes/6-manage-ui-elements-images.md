@@ -12,15 +12,13 @@ For example, suppose that a flow has to select a cell and make the text inside i
 
 In the UI elements tab, select **Add UI element** to launch the tool that Power Automate for desktop uses to extract UI elements. When you hover an element with the cursor, it gets automatically highlighted.
 
-![Screenshot of a group of Font controls in Excel highlighted by U I spy.](..\media\controls-ui-spy.png)
-
 Clicking while pressing down the Ctrl button will capture the highlighted element. For this example, you need to capture one UI element for the color button and one for the cell.
 
-![Screenshot of the Tracking session window with the Bold button selected.](..\media\tracking-session-window.png)
+![Screenshot of the Tracking session window with the cell and the bold button selected.](..\media\tracking-session-window.png)
 
 When all the required elements are captured, press Done. The captured elements will be visible in the UI elements pane.
 
-![Screenshot of the U I elements pane with the Bold button open.](..\media\ui-elements-pane.png)
+![Screenshot of the U I elements pane with the UI elements of the cell and bold button.](..\media\ui-elements-pane.png)
 
 Add two **Press button in window** actions, and select the UI elements you captured on the previous steps.
 
