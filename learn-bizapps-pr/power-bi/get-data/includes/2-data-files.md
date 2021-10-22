@@ -50,7 +50,7 @@ Your Excel files might exist in one of the following locations:
 - **SharePoint - Team Sites** - Saving your Power BI Desktop files to SharePoint Team Sites is similar to saving to OneDrive for Business. The main difference is how you connect to the file from Power BI. You can specify a URL or connect to the root folder.
 
   > [!div class="mx-imgBorder"]
-  > [![Image of getting data from files stored locally or from the cloud OneDrive or SharePoint.](../media/2-local-vs-cloud-c.png)](../media/2-local-vs-cloud-c.png#lightbox)
+  > [![Screenshot of getting data from files stored locally or from the cloud OneDrive or SharePoint.](../media/2-local-vs-cloud-c.png)](../media/2-local-vs-cloud-c.png#lightbox)
 
 Using a cloud option such as OneDrive or SharePoint Team Sites is the
 most effective way to keep your file and your dataset, reports, and
@@ -112,4 +112,4 @@ Source**. Update the **File path** or use the **Browse** option to
 locate your file, select **OK**, and then select **Close**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Data Source settings window in Power B I Desktop.](../media/2-excel-data-source-settings-ssm.png)](../media/2-excel-data-source-settings-ssm.png#lightbox)
+> [![Screenshot of the Data Source settings window in Power BI Desktop.](../media/2-excel-data-source-settings-ssm.png)](../media/2-excel-data-source-settings-ssm.png#lightbox)

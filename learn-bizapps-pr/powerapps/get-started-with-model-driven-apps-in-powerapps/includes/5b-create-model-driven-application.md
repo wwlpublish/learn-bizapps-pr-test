@@ -18,8 +18,8 @@ After you have created the *Prospects* table from the previous [exercise](/learn
 1. Select the **Open the Site Map Designer** pencil icon to open the site map designer.
 1. Select **New Subarea**.
 1. On the right, for **Title** enter **Prospects Area**.
-1. Click the drop down for **select a type**, then choose **Table (Table)**.
-1. For Table (Table), select **Prospects**.
+1. Click the drop down for **select a type**, then choose **Entity**.
+1. For Entity, select **Prospects**.
 1. Select **New Group**.
 1. On the right, for **Title** enter **Prospects Group**.
 1. Click **Save**.

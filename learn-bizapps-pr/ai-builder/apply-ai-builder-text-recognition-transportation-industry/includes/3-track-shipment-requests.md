@@ -6,15 +6,15 @@ To create container shipment requests and track containers shipment progress: Us
 
 Enter Contoso Container Tracking as name then click on Done.
 
-## Use entity
+## Use table
 
-To use the entity that we have created in previous unit we need to reference it. Select "Entities" in the Right Pane and check Container Shipment, a new entry will be added in the left view.
+To use the table that we have created in previous unit we need to reference it. Select "Tables" in the Right Pane and check Container Shipment, a new entry will be added in the left view.
 
-![The entity view shows a Container Shipment to the left.](../media/image4.png)
+![The table view shows a Container Shipment to the left.](../media/image4.png)
 
 ## Enter new shipment requests
 
-To enter new container shipment requests, we need to create an entry form (See [Create or edit a model-driven app main form for an entity](/powerapps/maker/model-driven-apps/create-edit-main-forms/?azure-portal=true)). Edit the data entry form by selecting the "Forms" button in the left view and edit button on the "Information" main form in the right pane.
+To enter new container shipment requests, we need to create an entry form (See [Create or edit a model-driven app main form for an table](/powerapps/maker/model-driven-apps/create-edit-main-forms/?azure-portal=true)). Edit the data entry form by selecting the "Forms" button in the left view and edit button on the "Information" main form in the right pane.
 
 ![On the Components tab, under Main Forms, Information is selected.](../media/image5.png)
 
@@ -28,7 +28,7 @@ Save and close the window.
 
 ## Track shipment progress
 
-To track shipment progress, we need a view of all containers with their information and shipping state (See [Customize entity views](/powerapps/developer/model-driven-apps/customize-entity-views/?azure-portal=true)).
+To track shipment progress, we need a view of all containers with their information and shipping state (See [Customize table views](/powerapps/developer/model-driven-apps/customize-entity-views/?azure-portal=true)).
 
 Click on "Views" in the left view and "Create New" button on the left pane.
 
@@ -36,9 +36,9 @@ Click on "Views" in the left view and "Create New" button on the left pane.
 
 ## Define information to display
 
-We will now define which information will be displayed on this view. Click on "Column Attributes" for "Primary Entity" and drag and drop the following column attributes from the right pane to the left view: Origin, Destination, Is Fragile, Price, Weight, Shipping Date, Arrival Date and State.
+We will now define which information will be displayed on this view. Click on "Column Attributes" for "Primary Table" and drag and drop the following column attributes from the right pane to the left view: Origin, Destination, Is Fragile, Price, Weight, Shipping Date, Arrival Date and State.
 
-Click on "Column Attributes" for "Related Entity" and add the "Account Name".
+Click on "Column Attributes" for "Related Table" and add the "Account Name".
 
 Name your view Containers List, save and publish.
 
@@ -54,7 +54,7 @@ Click on the top "Area" in the left view and name it Container Tracking on the r
 
 Click on the "Group" in the left view and name it All containers on the right pane.
 
-Click on the "Sub Area" in the left view, select "Entity" and "Container Shipment" as entity on the right pane.
+Click on the "Sub Area" in the left view, select "Table" and "Container Shipment" as table on the right pane.
 
 Save and publish.
 

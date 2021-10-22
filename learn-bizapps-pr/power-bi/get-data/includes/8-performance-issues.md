@@ -27,14 +27,13 @@ The following scenario shows query folding in action. In this scenario, you appl
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the last applied step right-clicked to show the context menu.](../media/8-view-native-query-ss.png)](../media/8-view-native-query-ss.png#lightbox)
 
-If the **View Native Query** option is not available (not displayed in bold type), that query folding is not possible for this step, and you will have to work backward in the **Applied Steps** area until you reach the step in which **View Native Query** is available (displays in bold type). This process will reveal the native query that is used to transform the dataset.
+If the **View Native Query** option is not available (not displayed in bold type), than query folding is not possible for this step, and you will have to work backward in the **Applied Steps** area until you reach the step in which **View Native Query** is available (displays in bold type). This process will reveal the native query that is used to transform the dataset.
 
 Native queries are not possible for the following transformations:
 
 - Adding an index column
 - Merging and appending columns of different tables with two different sources
 - Changing the data type of a column
-- Running complex DAX functions
 
 A good guideline to remember is that if you can translate a transformation into a **Select** SQL statement, which includes operators and clauses such as GROUP BY, SORT BY, WHERE, UNION ALL, and JOIN, you can use query folding.
 

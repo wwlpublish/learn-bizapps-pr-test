@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-started-ai-builder-document-automation 
 metadata: 
- title: Set up AI Builder document automation prepackaged solution
+ title: Automate the processing of documents with the AI Builder prepackaged solution
  description: Learn about document automation, how to install, configure and use it.
  ms.date: 01/31/2021  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-ai-builder  
-title: Set up AI Builder document automation prepackaged solution
+title: Automate the processing of documents with the AI Builder prepackaged solution
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Learn about document automation, how to install, configure and use it.
