@@ -47,7 +47,7 @@ Operational reports are designed to give the report consumer the ability to moni
 
 This type of report should minimize the number of analytical features to ensure that focus remains on the operation that it's designed to serve. A streamlined user experience is the primary aim for this report type because excessive clicking or illogical flow can lead to high dissatisfaction.
 
-A good example of an operational report is one that slows monitoring of a manufacturing production line. When an unexpected event arises, such as equipment malfunction, a button could allow workers to start a maintenance request.
+A good example of an operational report is one that allows monitoring of a manufacturing production line. When an unexpected event arises, such as equipment malfunction, a button could allow workers to start a maintenance request.
 
 An example of an operational report at the Contoso Skateboard Store would be an inventory report that informs the report consumer of current stock levels, and highlighting low stock levels or back orders. It also includes a **Submit Order** button that allows users to create a purchase order.
 
