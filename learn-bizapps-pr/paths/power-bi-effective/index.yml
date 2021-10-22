@@ -14,7 +14,7 @@ video:
   url: https://www.microsoft.com/videoplayer/embed/RWNNYw
 summary: |
   [!include[](../../includes/lp-banner.md)]
-  This learning path empowers Tableau users to use Microsoft Power BI. We begin with a capstone module that highlights the set of tools that will enable Analysts and Enterprise Business Intelligence professionals to build visualizations and get insights from their data. These tools cover the full spectrum from data connectivity, preparation, modeling, visualization, and collaboration. We then go into detail on the set of tools starting with an introduction to the Microsoft Power BI desktop application, then walk through the process of connecting to data and creating calculations. After creating and adding new fields, we provide best practices around organizing and simplifying those fields. Next, we create visualizations and describe how to perform analytics in Microsoft Power BI. Finally, we provide guidance on how to produce and maintain optimized Microsoft Power BI solutions: models, functions, calculations, and visuals.
+  This learning path introduces a design process to design and deliver compelling Power BI reports. It commences by describing a proven design process created by leading report design experts. The process encompasses phases to understand the report user audience and their requirements, explore options to layout pleasing report designs, and materialize reports all the way into production. 
 prerequisites: None
 iconUrl: /learn/achievements/power-bi-effective.svg
 levels:
@@ -26,7 +26,7 @@ products:
 - power-bi 
 modules:
 - learn-bizapps.power-bi-effective-requirements
-- learn-bizapps.power-bi-effective-reports
+- learn-bizapps.power-bi-effective-structure
 - learn-bizapps.power-bi-effective-reports
 - learn-bizapps.power-bi-effective-filters
 - learn-bizapps.power-bi-effective-user-experience
