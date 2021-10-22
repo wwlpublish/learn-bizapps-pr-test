@@ -1,4 +1,4 @@
-Explore additional functionality to manage working with gifts in Fundraising and Engagement and learn how Fundraising and Engagement handles the processing of gift batches, receipts, refunds, and write-offs to:
+Explore functionality to manage gifts in Fundraising and Engagement and learn how Fundraising and Engagement handles the processing of gift batches, receipts, refunds, and write-offs to:
 
 - Understand the types of gift batches and how to use them
 

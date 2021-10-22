@@ -1,17 +1,17 @@
 ### YamlMime:Module 
 uid: learn-bizapps.manage-gift-batches-receipts-and-refunds 
 metadata: 
- title: Manage gift batches, receipts and refunds 
- description: Explore additional functionality for managing and working with gifts in Fundraising and Engagement including gift batches, receipts, refunds, and write-offs.
+ title: Manage gift batches, receipts, and refunds 
+ description: Explore functionality to manage and work with gifts in Fundraising and Engagement including gift batches, receipts, refunds, and write-offs.
  ms.date: 10/29/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-industry-solutions  
-title: Manage gift batches, receipts and refunds
+title: Manage gift batches, receipts, and refunds
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module explores additional functionality for managing and working with gifts in Fundraising and Engagement. You will learn how Fundraising and Engagement handles the processing of gift batches, receipts, refunds, and write-offs.
+  This module explores functionality for managing and working with gifts in Fundraising and Engagement. You will learn how Fundraising and Engagement handle the processing of gift batches, receipts, refunds, and write-offs.
 abstract: |  
     In this module, you will: 
     - Understand the types of gift batches and how to use them
