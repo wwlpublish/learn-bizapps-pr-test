@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.process-gifts.5-lab 
-title: Lab
+title: Exercise - Process gifts
 metadata: 
-  title: Lab
-  description: Lab with steps to create and process a recurring donation.
+  title: Exercise - Process gifts
+  description: Exercise with steps to create and process a recurring donation.
   ms.date: 11/1/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
