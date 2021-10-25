@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.modern-analytics-transition 
+metadata: 
+ title: Transition from Excel to Power BI
+ description: Microsoft's Power BI combines the Power Query's extraction, transformation, and loading capabilities with DAX and a relational data model in a new application with new features.
+ ms.date: 09/28/2021  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title: Transition from Excel to Power BI
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Power BI Desktop is a Microsoft application encompassing Power Query and DAX data model technologies from Excel with the cloud Power BI service and many other features.
+abstract: |  
+    In this module, you will: 
+    - Similarities between Excel and Power BI as it relates to data connection, transformation, and overall modeling experience.
+    - Navigating the Power BI interface.
+    - Importing data from various data sources into Power BI.
+    - Importing existing data models and Power Query solutions from Excel into Power BI.
+prerequisites: Office 365 and Excel 2016+
+iconUrl: /learn/achievements/modern-analytics-transition.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- business-analyst 
+products: 
+- power-platform
+- power-bi 
+units: 
+- learn-bizapps.modern-analytics-transition.1-introduction 
+- learn-bizapps.modern-analytics-transition.2-power-query 
+- learn-bizapps.modern-analytics-transition.3-data-modeling 
+- learn-bizapps.modern-analytics-transition.4-exercise
+- learn-bizapps.modern-analytics-transition.5-check 
+- learn-bizapps.modern-analytics-transition.6-summary 
+badge: 
+  uid: learn-bizapps.modern-analytics-transition.badge 
