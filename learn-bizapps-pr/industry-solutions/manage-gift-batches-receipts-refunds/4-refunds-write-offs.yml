@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.manage-gift-batches-receipts-and-refunds.4-refunds-and-write-offs 
+uid: learn-bizapps.manage-gift-batches-receipts-refunds.4-refunds-write-offs 
 title: Refunds and write-offs
 metadata: 
   title: Refunds and write-offs
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 4 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/4-refunds-and-write-offs.md)] 
+ [!include[](includes/4-refunds-write-offs.md)] 

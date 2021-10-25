@@ -2,9 +2,9 @@ In this module, you have explored functionality for managing and working with gi
 
 Gift batching in Fundraising and Engagement allow you to enter multiple gifts efficiently in one grouping or batch. The two scenarios where you would process multiple gifts at once include:
 
-1. To process **multiple payments** in a gift batch
+- To process **multiple payments** in a gift batch
 
-1. To process multiple gifts under a **single payment**
+- To process multiple gifts under a **single payment**
 
 Receipts can be generated and contain all the receipt information for a transaction. Receipt stacks are an administrative function in Fundraising and Engagement that allows you to group receipts, typically by financial year. Each receipt stack uses a unique prefix to help identify either how, when or where a receipt is produced. You can create templates for receipts and thank-you letters, which can be configured to be sent automatically to donors in a process.
 

@@ -2,9 +2,9 @@ Gift batching in Fundraising and Engagement allows you to enter multiple gifts e
 
 The two scenarios where you would process multiple gifts at once include:
 
-1. To process **multiple payments** in a gift batch
+- To process **multiple payments** in a gift batch
 
-1. To process multiple gifts under a **single payment**
+- To process multiple gifts under a **single payment**
 
 These two types of gift batches are explored in further detail below.
 
