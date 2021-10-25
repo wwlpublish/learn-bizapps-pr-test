@@ -47,3 +47,6 @@ Excel is a good option for a simple data collection tool. Connecting Power BI to
 
 Visuals, reports, and datasets in Power BI can be analyzed in and exported to Excel. Likewise, Power BI can import Excel data models and files for analysis. Each has different strengths that you can use interchangeably, one can feed the other and vice versa.
 
+In this demo, you’ll see how you can use Power BI together with Excel to create a highly customizable report  in Excel using a data model published to the Power BI Service.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWNWvk]
