@@ -23,7 +23,7 @@ quiz:
       explanation: Selecting the Advanced tools tab in Power Apps Studio will open a new browser tab, with Monitor listening to app events.
     - content: Launch it from the make.powerapps.com link.
       isCorrect: false 
-      explanation: You must first edit the app and then start Monitor by selecting the Advanced tools tab in Power Apps Studio.
+      explanation: Edit the app first and then start Monitor by selecting the Advanced tools tab in Power Apps Studio.
     - content: Install it from Microsoft AppSource. 
       isCorrect: false 
       explanation: Monitor is a built-in feature of Power Apps Studio. You will start Monitor by selecting the Advanced tools tab in Power Apps Studio.
@@ -31,10 +31,10 @@ quiz:
     choices:
     - content: Launch Monitor and invite the user. 
       isCorrect: false 
-      explanation: You must first enable the Debug published app toggle switch in the Settings area.
+      explanation: First, you need to enable the Debug published app option in the Settings area.
     - content: Enable the Debug published app setting and then launch Monitor and invite the user. 
       isCorrect: false 
-      explanation: You must first save and publish the app after changing settings.
+      explanation: First, you need to save and publish the app after changing settings.
     - content: Enable the Debug published app setting, save and publish the app, and then launch Monitor and invite the user.
       isCorrect: true 
       explanation: These steps are necessary to use Monitor with a published app.
