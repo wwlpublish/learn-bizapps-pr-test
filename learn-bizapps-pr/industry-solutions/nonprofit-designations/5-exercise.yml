@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.designations.5-lab 
+uid: learn-bizapps.nonprofit-designations.5-exercise 
 title: Lab - Create a campaign with an appeal and a package
 metadata: 
   title: Lab - Create a campaign with an appeal and a package
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 8
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/5-lab.md)] 
+ [!include[](includes/5-exercise.md)] 

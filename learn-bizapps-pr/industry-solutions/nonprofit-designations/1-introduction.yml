@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.designations.7-summary 
-title: Summary
+uid: learn-bizapps.nonprofit-designations.1-introduction 
+title: Introduction
 metadata: 
-  title: Summary
-  description: Summary of manage designations and campaigns in Fundraising and Engagement.
+  title: Introduction
+  description: Introduction to manage designations and campaigns in Fundraising and Engagement.
   ms.date: 11/01/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 1
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/7-summary.md)] 
+ [!include[](includes/1-introduction.md)] 
