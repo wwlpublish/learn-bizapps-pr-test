@@ -422,7 +422,7 @@ To test the published debugging, your first task is to play the published
 application. Then, you will share the application with Joni and give
 the basic user security role. Next, you will edit the security role and
 allow users to view and update rows from the Bottle table. Joni is a
-member of your organization, and she has a Power Apps license.
+member of your organization who has a Power Apps license.
 
 1. Go to [Power Apps maker portal](https://make.powerapps.com/)
     and make sure that you are in the correct environment.
@@ -506,7 +506,7 @@ member of your organization, and she has a Power Apps license.
 
     :::image type="content" source="../media/join-monitor.png" alt-text="![Screenshot of the Join monitor debug session pop-up window.]":::
 
-1. The application should load for the other user, and they will be aware that other people can see the session data.
+1. The application should load for the other user, and they will know that other people can see the session data.
 
     :::image type="content" source="../media/monitor-debug-session.png" alt-text="![Screenshot of the monitor debug session.]":::
 
