@@ -1,5 +1,7 @@
 Creating a great data model is one of the most important tasks that a data analyst can perform in Microsoft Power BI. By doing this job well, you help make it easier for people to understand your data, which will make building valuable Power BI reports easier for them and for you.
 
+The pages in this module are instructional only, no data files are provided.  You will have a chance to work with real data in the labs.
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWG0L2]
 
 A good data model offers the following benefits:
