@@ -3,8 +3,8 @@ app-building process are:
 
 - **Reactive** - You are aware of a problem and need help with identifying the root cause. For example, if someone who is using your app
     reported an error, you can use Monitor to pinpoint the cause.
-    Typically, you will have a good idea where in the app that an error
-    occurs, and you can use Monitor to observe events for a specific action in the app.
+    Typically, you will have a good idea of where an error
+    occurs in an app, and you can use Monitor to observe events for a specific action in the app.
 
 - **Proactive** - As part of your normal app-building process,
     before you release your app to users, you can use Monitor to
@@ -30,8 +30,8 @@ in the app that you are testing.
 The control names that are included in the captured events are key correlations of
 the event regarding where it happened in your app. Using good names for
 controls can help make it easier for you to work with the event data. Consider
-the following example that compares the default-generated names to
-more meaningful ones that are recommended. As shown, it would be
+the following example that compares default-generated names to
+more meaningful, recommended ones. As shown, it would be
 easier to identify what control was involved in the activity when
 meaningful names are used.
 
@@ -152,7 +152,7 @@ The most common way to resolve slow actions is to reduce the amount of
 work that is done by the action or the amount of data that is returned
 from the action. By analyzing the request, you might be able to identify
 whether your criteria have been properly passed and if you could provide
-additional criteria to reduce the work. Also, you can
+more criteria to reduce the work. Also, you can
 examine the response to identify if more data is being returned
 than you need. Some connectors can automatically identify and return the
 proper data while others require you to specify options on the request
@@ -180,7 +180,7 @@ the query criteria data that is missing, which can help you understand
 what you can't send to the connector as delegable criteria.
 
 Often, you can resolve delegation problems by rewriting the
-formula to not include dynamic data calculations in the criteria that is sent to
+formula to not include dynamic data calculations in the criteria that are sent to
 the connector. Different connectors support different functions for
 delegation, and you might find that what worked for one connector doesn't work
 for another. You can use Monitor to verify that the formula will return the
