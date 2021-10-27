@@ -57,7 +57,7 @@ On the surface, it might seem that a data scientist and data analyst are far apa
 
 ## Database administrator
 
-A database administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions that are built on Microsoft Azure data services and Microsoft SQL Server. A data administrator is responsible for the overall availability and consistent performance and optimizations of the database solutions. They work with stakeholders to identify and implement the policies, tools, and processes for data backup and recovery plans.
+A database administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions that are built on Microsoft Azure data services and Microsoft SQL Server. A database administrator is responsible for the overall availability and consistent performance and optimizations of the database solutions. They work with stakeholders to identify and implement the policies, tools, and processes for data backup and recovery plans.
 
 The role of a database administrator is different from the role of a data engineer. A database administrator monitors and manages the overall health of a database and the hardware that it resides on, whereas a data engineer is involved in the process of data wrangling, in other words, ingesting, transforming, validating, and cleaning data to meet business needs and requirements.
 

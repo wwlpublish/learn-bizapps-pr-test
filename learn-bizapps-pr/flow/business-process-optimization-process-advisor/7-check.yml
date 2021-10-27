@@ -51,7 +51,7 @@ quiz:
       explanation: A recording will have a status of Failed if an error occurs and it needs to be rerecorded. 
     - content: A specific path (same steps in the same sequence) that users take to complete a process 
       isCorrect: true 
-      explanation: A variant is a deviation in the process where users take different paths, which is called out in the process map. 
+      explanation: A variant is a specific path it takes for a process to be completed. 
     - content: A recording that takes much longer than the others
       isCorrect: false 
       explanation: Many reasons exist for why a recording might take longer, but they are not called variants.
