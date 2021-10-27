@@ -70,17 +70,11 @@ In this task, you will launch a new blank worksheet to get started.
 1. Launch Excel.
 1. Create a new blank workbook.
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of a new blank workbook in Excel.](../media/5-1-blank.png)](../media/5-1-blank.png#lightbox)
-
 ### Task 2: Use Power Query to connect to CSV
 
 In this task, you will connect to the Customers CSV source data file.
 1. Select the **Data** tab on the main Excel ribbon.
 1. Select **Get Data > From File > FromText/CSV**.
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Data tab in Excel, showing Get Data > From File > From Text/CSV selected.](../media/5-2-from-text.png)](../media/5-2-from-text.png#lightbox)
 
 1. Go to the **C:\ANALYST-LABS\Lab 01\MAIAD Lab 01 - Data Source - Customers.csv** file.
 

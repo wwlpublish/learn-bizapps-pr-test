@@ -37,15 +37,9 @@ In this task, you will navigate and open the starting XLSX file then start the i
 
 1.  Select **File** > **Import** > **Power Query, Power Pivot, Power View**.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of Power BI Desktop > Import > Power Query, Power Pivot, Power View displayed.](../media/import-menu.png)](../media/import-menu.png#lightbox)
-
 1.  Navigate to the **C:\ANALYST-LABS\Lab 02A** folder.
 
 1.  Select the file **MAIAD Lab 02A - Start.xlsx** and choose **Open**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of Windows explorer file path Lab Materials and Lab 02A with file name MAIAD Lab 02A - Start.xlsx and the Open button.](../media/open.png)](../media/open.png#lightbox)
 
 1.  Select the **Start** button to begin the import.
 
@@ -70,9 +64,6 @@ In this task, you will save the file with a new file name.
 
 1. Select **File** > **Save as**.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of File window with Save as option.](../media/save.png)](../media/save.png#lightbox)
-
 1. Save the file as **MAIAD Lab 02A - Power BI Import - My Solution.pbix**.
 
 	> [!div class="mx-imgBorder"]
@@ -87,9 +78,6 @@ In this exercise, you will launch the Power Query Editor from BI Desktop and edi
 In this task, you will launch Power Query from Power BI Desktop and edit the existing queries to add a new Dates table.
 
 1. From the **Home** ribbon, select **Transform data** > **Transform data** option.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of Transform data button and Transform data option selected from the Home Main Power BI Ribbon.](../media/transform-data.png)](../media/transform-data.png#lightbox)
 
 	> [!NOTE]
 	> This will launch Power Query from Power BI Desktop. It looks very similar to Power Query in Excel and both the Customers and Quotes queries have been imported with their transformation.
