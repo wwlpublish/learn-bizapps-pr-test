@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.configure-settings-fundraising-engagement 
 metadata: 
- title: Configure-settings-for-fundraising-and-engagement
+ title: Configure settings for fundraising and engagement
  description: Configure giving levels, preference categories, objectives, and budgets for Fundraising and Engagement.
  ms.date: 10/27/2021
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-industry-solution  
-title: Configure-settings-for-fundraising-and-engagement
+title: Configure settings for fundraising and engagement
 summary: | 
   [!include[](../includes/module-banner.md)]
   Configure settings used across different areas of Fundraising and Engagement such as constituent records, opportunities, and events for tracking and segmentation purposes.
