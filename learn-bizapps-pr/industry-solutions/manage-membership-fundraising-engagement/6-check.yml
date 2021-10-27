@@ -38,7 +38,7 @@ quiz:
     - content: The primary membership associated to a constituent.
       isCorrect: false 
       explanation: A membership order is a list of membership options available to the user when processing a membership.
- - content: What is primary membership?
+  - content: What is primary membership?
     choices: 
     - content: A key single membership instance that appears on a constituent’s record.
       isCorrect: true
