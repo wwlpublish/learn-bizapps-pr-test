@@ -38,7 +38,7 @@ You can use the Data Analysis Expression (DAX) functions CALENDARAUTO() or CALEN
 In Power BI Desktop, go to the **Table** tab on the ribbon. Select **New Table**, and then enter in the following DAX formula:
 
 ```dax
-Dates  = CALENDAR(DATE(2011, 5, 31), DATE(2021, 5, 31))
+Dates  = CALENDAR(DATE(2011, 5, 31), DATE(2022, 12, 31))
 ```
 
 > [!div class="mx-imgBorder"]
@@ -92,7 +92,7 @@ In the resulting **New Query** view, enter the following M-formula to build a ca
 > [!div class="mx-imgBorder"]
 > [![Screenshot of using an M-formula to develop a calendar table.](../media/03-m-query-common-data-table-04-ss.png)](../media/03-m-query-common-data-table-04-ss.png#lightbox)
 
-For your sales data, you want the start date to reflect the earliest date that you have in your data: May 31, 2011. Additionally, you want to see dates for the next 10 years, including dates in the future. This approach ensures that, as new sales data flows in, you won't have to re-create this table. You can also change duration. In this case, you want a data point for every day, but you can also increment by hours, minutes, and seconds. The following figure shows the result.
+For your sales data, you want the start date to reflect the earliest date that you have in your data: May 31, 2011. Additionally, you want to see dates for the next 11 years, including dates in the future. This approach ensures that, as new sales data flows in, you won't have to re-create this table. You can also change duration. In this case, you want a data point for every day, but you can also increment by hours, minutes, and seconds. The following figure shows the result.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the sales calendar as a list.](../media/03-list-power-query-11-ss.png)](../media/03-list-power-query-11-ss.png#lightbox)
