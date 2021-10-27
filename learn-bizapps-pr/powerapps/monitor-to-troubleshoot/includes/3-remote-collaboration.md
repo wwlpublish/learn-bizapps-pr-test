@@ -12,7 +12,7 @@ Monitor supports three options for collaborating with others:
     another person to watch the Monitor event log as you run the
     application from Power Apps Studio. Because the app is run from
     Power Apps Studio, this option is intended for use during development of
-    the app and not for supporting deployed apps. For example, this option
+    the app, not for supporting deployed apps. For example, this option
     might be helpful in a scenario where another colleague on your team
     created a custom connector and you're having problems using it. You
     could invite that colleague to view your application's use of the
@@ -23,7 +23,7 @@ Monitor supports three options for collaborating with others:
     a user might experience a problem that you are unable to
     reproduce in your development environment. By using the **Connect user** feature, you
     can invite them to run the application while you watch the event log
-    in Monitor.
+    in the Monitor tool.
 
 Regardless of which option that you choose, collaboration can accelerate the
 resolution of app problems. In these scenarios, users whom you
@@ -71,7 +71,7 @@ When you provide the user information, the invite link will generate.
 
 Make sure that you copy the link and provide it to the user so that they can launch
 Monitor and listen to your session. The link is only good for 60 minutes.
-If you need more time, remove and then re-invite the user. If you
+If you need more time, remove and then reinvite the user. If you
 invite the wrong user, you can remove the invite; the person will not be notified
 of the invite.
 
