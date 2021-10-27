@@ -5,8 +5,8 @@ Your task for this exercise is to build a Power Automate flow, check when an ima
 To create a Dataverse table to store the recognized text, follow these steps:
 
 1. Go to [Power Apps](https://make.powerapps.com).
-2. Open the **Data** menu and then the **Tables** sub-menu.
-3. Select the **+New Table** button, which opens a side panel where you can enter information about the table. For this example, use **Text Recognizer Results** as the display name.
+2. Open the **Dataverse** menu and then the **Tables** sub-menu.
+3. Select the **+New table** button, which opens a side panel where you can enter information about the table. For this example, use **Text Recognizer Results** as the display name.
 4. When you are finished, select **Create**. A **Name** field is automatically created, which you will use to store the recognized text.
 
 The following figure shows an example of the table structure.
@@ -15,9 +15,9 @@ The following figure shows an example of the table structure.
 
 You can now create a flow in Power Automate that manages the triggering of AI Builder Text recognition when an image is added to your OneDrive for Business. You can save the result in the table that you have created.
 
-1. Go to [Power Automate Microsoft Power Platform](https://flow.microsoft.com/).
+1. Go to [Power Automate](https://flow.microsoft.com/).
 2. Open the **Create** menu.
-3. In the **Start from blank** section, select **Automated flow**.
+3. In the **Start from blank** section, select **Automated cloud flow**.
 4. Enter **Contoso Text Recognition** as the name.
 5. Enter **When a file is created - OneDrive for Business** as the trigger.
 6. When you are finished, select **Create**.
