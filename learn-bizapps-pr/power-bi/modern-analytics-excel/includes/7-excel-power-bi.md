@@ -5,7 +5,7 @@ Excel is a great application by itself. However, when you use Excel together wit
 Excel is a powerful, familiar application that is used by millions worldwide for data collection, sorting, analysis, budgeting, management, and most commonly, for reporting.
 
 > [!div class="mx-imgBorder"]
-> [![Diagram for Excel strengths.](../media/excel-strengths.png)](../media/excel-strengths.png#lightbox)
+> [![Diagram for Excel strengths.](../media/excel-strengths.png)]
 
 Great reasons to use Excel are:
 
@@ -24,7 +24,7 @@ Great reasons to use Excel are:
 Power BI is more modern. It offers custom visuals, is interactive, provides data story experiences, and Power BI service provides centralized sharing and collaboration.
 
 > [!div class="mx-imgBorder"]
-> [![Diagram for Power BI strengths.](../media/power-bi-strengths.png)](../media/power-bi-strengths.png#lightbox)
+> [![Diagram for Power BI strengths.](../media/power-bi-strengths.png)]
 
 Compelling reasons to use Power BI include the ability to:
 
