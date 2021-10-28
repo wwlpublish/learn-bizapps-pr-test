@@ -168,7 +168,7 @@ Before you begin, to achieve the maximum effect for this lab and the other labs,
 
 ## Use the onboarding template
 
-1. To use the onboarding template you have just created, switch to the **Volunteering** area from the bottom of the screen in Volunteer Management.
+1. To use the onboarding template you have created, switch to the **Volunteering** area from the bottom of the screen in Volunteer Management.
 
 1. Click on **Volunteers** from the left navigation menu and open the record for a volunteer.
 

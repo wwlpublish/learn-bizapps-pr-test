@@ -33,7 +33,7 @@ The screenshot below shows the configuration of the qualification, Child Supervi
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Child Supervisor Clearance qualification.](../media/8-qualification-detail.png)](../media/8-qualification-detail.png#lightbox)
 
-Therefore, when adding Child Supervisor Clearance as a qualification to a volunteer, you will be guided through the stages. Each stage will have the set of activities that need to be completed before progressing to the next stage of the process.
+When adding Child Supervisor Clearance as a qualification to a volunteer, you will be guided through the stages. Each stage will have the set of activities that need to be completed before progressing to the next stage of the process.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Collect Information stage in the Onboarding Process.](../media/9-onboarding-process.png)](../media/9-onboarding-process.png#lightbox)
