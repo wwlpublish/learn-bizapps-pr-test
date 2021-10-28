@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.configure-volunteer-management-settings.2-qualifications 
+title: Setting up qualifications
+metadata: 
+  title: Setting up qualifications
+  description: Qualifications are used in Volunteer Management to record skills, certifications, and training held by volunteers.
+  ms.date: 11/1/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-qualifications.md)] 
