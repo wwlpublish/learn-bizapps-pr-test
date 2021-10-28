@@ -25,7 +25,6 @@ roles:
 - business-user
 - functional-consultant
 products:
-- volunteer-management
 - industry-solutions
 units:
 - learn-bizapps.manage-volunteers-groups.1-introduction
