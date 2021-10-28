@@ -4,12 +4,13 @@ title: Security and administration
 metadata:
   title: Security and administration
   description: "Security and administration"
-  ms.date: 04/21/2021
+  ms.date: 10/13/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-bi
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/3-security-administration.md)]
