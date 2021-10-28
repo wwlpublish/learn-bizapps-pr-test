@@ -47,10 +47,10 @@ quiz:
       isCorrect: false 
       explanation: Volunteers can't see the engagement opportunity if it has been published privately.
     - content: If an engagement opportunity has been published to the web, approved participants can sign up for a shift themselves via the Volunteer Engagement portal.
-      isCorrect: false 
+      isCorrect: true 
       explanation: Approved participants can sign up for a shift themselves via the Volunteer Engagement portal.
     - content: Only volunteer managers can assign participants to a shift.
-      isCorrect: true 
+      isCorrect: false 
       explanation: It's possible for volunteers to assign themselves to a shift via the Volunteer Engagement portal if the engagement opportunity has been published.
     - content: Participants can sign up for a shift from the Volunteer Engagement portal regardless of whether they've been approved yet or not.
       isCorrect: false 
