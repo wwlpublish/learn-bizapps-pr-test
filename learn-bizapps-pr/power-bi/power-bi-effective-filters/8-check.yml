@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-effective-filters.8-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 10/11/2021 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 8 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What is the sequence of filtering levels, from highest to lowest, in a Power BI report?
+    choices: 
+    - content: Dataset (RLS) > Measure > Visual > Page > Report
+      isCorrect: false 
+      explanation: 1.	The order is Dataset (RLS), Report, Page, Visual, and then Measure.
+    - content: Dataset (RLS) > Measure > Report > Page > Visual
+      isCorrect: false 
+      explanation: 1.	The order is Dataset (RLS), Report, Page, Visual, and then Measure.
+    - content: Dataset (RLS) > Report > Page > Visual > Measure
+      isCorrect: true 
+      explanation: Filters are applied to the Dataset (when RLS is enforced), then to the report structure of report, page, visual, and then by measures.
+    - content: Dataset (RLS) > Visual > Page > Report > Measure
+      isCorrect: false 
+      explanation: 1.	The order is Dataset (RLS), Report, Page, Visual, and then Measure.
+  - content: Which of the following capabilities is unique to the Filters pane?
+    choices: 
+    - content: Horizontal orientation
+      isCorrect: false 
+      explanation: Horizontal orientation can’t be achieved in the Filters pane.
+    - content: Relative date filtering
+      isCorrect: false 
+      explanation: Search can be achieved with slicers also.
+    - content: Single selection
+      isCorrect: false 
+      explanation: Single selection can be achieved with slicers also.
+    - content: Top N filtering
+      isCorrect: true 
+      explanation: Top N filtering can only be achieved in the Filters pane.
+  - content: Which of the following capabilities is unique to slicers?
+    choices: 
+    - content: Horizontal orientation
+      isCorrect: true 
+      explanation: Horizontal orientation can only be achieved with slicers.
+    - content: Relative date filtering
+      isCorrect: false 
+      explanation: Search can be achieved in the Filters pane also.
+    - content: Single selection
+      isCorrect: false 
+      explanation: Single selection can be achieved in the Filters pane also.
+    - content: Top N filtering
+      isCorrect: false 
+      explanation: Slicers can’t achieve Top N filtering.
+  - content: At the Contoso Skateboard Company, John is responsible for developing a report for the sales director. One report page includes a date slicer and many visuals. When the sales director uses the slicer, all but one of the visuals, a Decomposition Tree visual, should receive the slicer filters. How should John configure the requirement?
+    choices: 
+    - content: Add a bookmark that doesn’t capture the state of the Decomposition Tree visual.
+      isCorrect: false 
+      explanation: A bookmark can’t be invoked when a report consumer interacts with the slicer.
+    - content: Add a visual-level filter to all but the Decomposition Tree visual.
+      isCorrect: false 
+      explanation: This configuration would apply the filter to the one visual that should not be filtered. The requirement is for the slicer to filter the page.
+    - content: Add a visual-level filter to the Decomposition Tree visual.
+      isCorrect: false 
+      explanation: This configuration would require that the report consumer apply the filter to each visual. The requirement is for the slicer to filter the page.
+    - content: Edit visual interactions.
+      isCorrect: true 
+      explanation: By editing visual interactions, John can restrict the slicer from filtering the Decomposition Tree visual.

@@ -1,11 +1,8 @@
-In this exercise you will use multiple controls mentioned in the previous units to create a unit canvas app that will change as you interact with the controls. This will give you an idea of the capabilities of controls and how you can fit them to your needs.
-
-> [!NOTE]
-> Power Apps requires either an Office 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate.](/powerapps/administrator/pricing-billing-skus/?azure-portal=true)
-
 ### Creating the collection of data
 
-1. Sign-in to [Power Apps](https://make.powerapps.com/?azure-portal=true).
+In this tutorial you will use multiple controls mentioned in the previous units to create a unit canvas app that will change as you interact with the controls. This will give you an idea of the capabilities of controls and how you can fit them to your needs.
+
+1. Sign-in to [Power Apps](https://make.powerapps.com/?azure-portal=true). If using the virtual environment, skip to step 2.
 
 1. On the Home screen select **Canvas app from blank**
 
@@ -30,10 +27,16 @@ In this exercise you will use multiple controls mentioned in the previous units 
 	Country:"Italy", Population:1344000})
 	```
 
+    To copy and paste the text in the  virtual environment, select the **Commands** button on the top left corner of the screen, select **Type text**, then select **Type clipboard text**. Paste the copied text in the window.
+    
+    ![Screenshot of commands button selected with the type text and type clipboard text highlighted.](../media/copy-instructions.png)
+
 1.  Press and hold **Alt Key**, and select the **Button** control. (This
     will create your collection and store all the information.).
 
 1.  Select the **Gallery** dropdown at the top and choose **Blank vertical** gallery and choose **CityPopulations** from the data source pop up.
+
+    ![Screenshot of the more options highlighted and gallery selected.](../media/gallery.png)
 
 1.  With the gallery selected, in the right pane, change the layout from
     blank to **Title, subtitle, and body**.
@@ -41,7 +44,7 @@ In this exercise you will use multiple controls mentioned in the previous units 
 1.  Select the last or third Label in the first item of the gallery, and change the **Text** property to
     **ThisItem.Population**.
 
-	![Screenshot of Gallery menu items for the text property.](../media/gallery-image.png)
+	![Screenshot of Gallery menu items for the text property.](../media/text-property.png)
 
 1. Select the **Input** dropdown and choose **Slider**.
 

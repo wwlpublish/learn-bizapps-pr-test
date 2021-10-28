@@ -25,7 +25,7 @@ The following figure shows your current data model.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of data granularity in a data model.](../media/05-data-granularity-example-01-ss.png)](../media/05-data-granularity-example-01-ss.png#lightbox)
 
-As shown in the preceding figure, a relationship between Budget and Calendar is missing. Therefore, you need to create this relationship before you can build your visual. Notice that if you transform the **Year** and **Month** columns in the Budget table, you can match the format of the **Date** column in the Calendar table. Then, you can establish a relationship between the two columns. To complete this task, you will concatenate the **Year** and **Month** columns and then change the format.
+As shown in the preceding figure, a relationship between Budget and Calendar is missing. Therefore, you need to create this relationship before you can build your visual. Notice that if you transform the **Year** and **Month** columns in the Calendar table into a new column, and do the same transformation in the Budget table, you can match the format of the **Date** column in the Calendar table. Then, you can establish a relationship between the two columns. To complete this task, you will concatenate the **Year** and **Month** columns and then change the format.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Budget and Calendar tables.](../media/05-budget-calendar-tables-9-ss.png)](../media/05-budget-calendar-tables-9-ss.png#lightbox)
@@ -37,7 +37,7 @@ Select **Transform Data** on the ribbon. On **Applied Steps**, on the right pane
 
 Under **Add Column** on the Home ribbon, select **Custom Column**. Enter the following equation, which will concatenate the **Year** and **Month** columns, and then add a dash in between the column names.
 
-```
+```dax
 Column = Table.AddColumn(#"Renamed Columns", "Custom", each [Year] & "-" &[Month])
 ```
 

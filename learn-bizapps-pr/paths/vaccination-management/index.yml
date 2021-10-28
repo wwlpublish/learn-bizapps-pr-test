@@ -25,6 +25,7 @@ roles:
 - functional-consultant
 products:
 - industry-solutions
+- mscloud-healthcare
 modules:
 - learn-bizapps.microsoft-vaccination-management-overview
 - learn-bizapps.cloud-licensing

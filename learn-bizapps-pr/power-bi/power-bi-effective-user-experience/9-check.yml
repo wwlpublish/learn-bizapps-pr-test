@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-effective-user-experience.9-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 10/11/2021 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 6 
+quiz: 
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: At the Contoso Skateboard Company, Sally is creating a report to show sales over time. Sally is aware that occasional spikes occur in sales revenue that could be attributed to many different reasons, such as a marketing campaign. Sally needs to ensure that supporting visuals provide explanation for the spikes. What type of visual should Sally use? 
+    choices:
+    - content: Line chart visual with a trend line
+      isCorrect: false
+      explanation: The answer is incorrect. A line chart visual with a trend line will not provide explanation of anomalies.
+    - content: Line chart visual with anomaly detection
+      isCorrect: true
+      explanation: The answer is correct. Adding anomaly detection to a line chart visual will highlight anomalies and provide accompanying explanations as data visuals.
+    - content: Line chart visual with forecasting
+      isCorrect: false
+      explanation: The answer is incorrect. A line chart visual with forecasting will not provide explanation of anomalies.
+    - content: Q&A visual
+      isCorrect: false
+      explanation: The answer is incorrect. The Q&A visual allows for the entry of natural language questions that are answered by data visuals. It can’t provide explanation for spikes in data.
+  - content: At the Contoso Skateboard Company, Sanjay is authoring a report that will be distributed to sales managers.The report contains some sensitive data that shouldn’t be exported. Which report design feature can Sanjay configure to ensure that data isn’t exported?
+    choices:
+    - content: Bookmark
+      isCorrect: false
+      explanation: The answer is incorrect. A bookmark captures the report state. It can’t restrict the exporting of data.
+    - content: Drillthrough page
+      isCorrect: false
+      explanation: The answer is incorrect. Drillthrough will direct the report consumer to a different page, possibly in a different report, and it can show details. It can’t restrict the exporting of data.
+    - content: Page tooltip
+      isCorrect: false
+      explanation: The answer is incorrect. Page tooltips allow your report consumers to gain deeper insights quickly and efficiently from a visual. It can’t restrict the exporting of data.
+    - content: Visual header
+      isCorrect: true
+      explanation: The answer is correct. By disabling the More options (…) icon, report consumers can’t export data.  
+  - content: At the Contoso Skateboard Company, Arun is building a report that will help sales managers explore sales revenue by different dimensions. Dimensions include Date, Product, Customer, Territory, and Marketing Campaign. The experience should involve a single data visual and provide guidance on which dimensions to explore.Which visual should Arun use?
+    choices:
+    - content: Decomposition tree
+      isCorrect: true
+      explanation: The answer is correct. The Decomposition Tree visual helps report consumers visualize data across multiple dimensions. By using AI splits, the visual can recommend the next dimension to drill to.
+    - content: Key influencers
+      isCorrect: false
+      explanation: The answer is incorrect. The Key influencers visual helps consumers understand the factors that drive a particular metric, such as sales revenue. By using AI, Power BI will analyze the data, rank factors that matter, and then present them as key influencers. It doesn’t support exploration across dimensions.
+    - content: Paginated reports
+      isCorrect: false
+      explanation: The answer is incorrect. The paginated reports visual embeds a Power BI paginated report. It doesn’t provide a dynamic experience to explore dimensions or guidance on which dimensions to explore.
+    - content: Q&A
+      isCorrect: false
+      explanation: The answer is incorrect. The Q&A visual allows for the entry of natural language questions that are answered by data visuals. It doesn’t provide a dynamic experience to explore dimensions or guidance on which dimensions to explore.
