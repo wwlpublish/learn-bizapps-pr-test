@@ -25,7 +25,6 @@ roles:
 - business-user   
 - functional-consultant 
 products: 
-- dynamics-365 
 - industry-solutions 
 units: 
 - learn-bizapps.configure-volunteer-management-settings.1-introduction 
