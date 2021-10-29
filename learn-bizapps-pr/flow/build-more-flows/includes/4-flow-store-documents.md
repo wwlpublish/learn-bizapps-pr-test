@@ -2,7 +2,36 @@ In this unit, you'll see how Contoso Electronics uses Power Automate to automati
 
 ## Prerequisites
 
-For this scenario, you need an account with Muhimbi, a PDF conversion service. If you don't already have a Muhimbi account, you can sign up for a [free 30-day trial](https://api.muhimbi.com/Auth/Pages/Signup.aspx/?azure-portal=true).
+For this scenario, you need an account with Muhimbi, a PDF conversion service. If you don't already have a Muhimbi account, you can sign up for a [free 30-day trial](https://www.muhimbi.com/Products/PDF-Converter-Online/?azure-portal=true).
+
+In Muhimbi, you need to subscribe for the PDF Converter Online service.
+
+## Add the connector
+
+In Power Automate, in the left verification navigation, select Data, select Connections and then select + New Connection.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of OneDrive for Business Data Connections page with New connection button highlighted.](../media/add-muhimbi-connector.png)](../media/add-muhimbi-connector.png#lightbox)
+
+In the search available on the top-right, start typing in 'muh.' When you see the Muhimbi PDF connector, select the '+' plus sign.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of OneDrive for Business Data Connections page with Muhimbi PDF selected.](../media/add-muhimbi-connector-2.png)](../media/add-muhimbi-connector-2.png#lightbox)
+
+Next, select Create.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Muhimbi PDF dialog with a Create button.](../media/add-muhimbi-connector-3.png)](../media/add-muhimbi-connector-3.png#lightbox)
+
+In the pop-up authentication window, type in the username and password you created at Muhimbi.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the muhimbi login page.](../media/add-muhimbi-connector-4.png)](../media/add-muhimbi-connector-4.png#lightbox)
+
+You will now have a new connector added to your environment.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of OneDrive for Business Data Connections page with Muhimbi added.](../media/add-muhimbi-connector-5.png)](../media/add-muhimbi-connector-5.png#lightbox)
 
 ## Create the source and target folders
 
@@ -17,13 +46,13 @@ First, you must create the source and target folders in OneDrive for Business an
 
 1. From dropdown, under **Build your own from blank**, select **Automated cloud flow**.
 
-1. In the Flow name field, give your flow a name, in this example we will call it *Flow Conversion and Upload*. 
+1. In the Flow name field, give your flow a name, in this example we will call it *Flow Conversion and Upload*.
 
 1. In the **Choose your flow's trigger** search field, enter *OneDrive for Business*, and select the **OneDrive for Business - When a file is created** trigger.
 
     ![OneDrive for Business - When a file is created trigger.](../media/onedrive-trigger.png)
 
-1. Then click **Create** to proceed.
+1. Then select **Create** to proceed.
 
 1. In the **Folder** field, select the **Folder** icon, and then select the **Finished Documents** folder that you created at the beginning of this module.
 
@@ -33,7 +62,7 @@ First, you must create the source and target folders in OneDrive for Business an
 
     ![Muhimbi PDF – Convert document action with dynamic content for File content and File name highlighted.](../media/muhimbi-action.png)
 
-1. If Power Automate prompts you to sign in to Muhimbi, sign in. If you don't have a subscription to Muhimbi, you can use a [free 30-day trial](https://api.muhimbi.com/Auth/Pages/Signup.aspx/?azure-portal=true).
+1. If Power Automate prompts you to sign in to Muhimbi, sign in. If you don't have a subscription to Muhimbi, you can use a [free 30-day trial](https://www.muhimbi.com/register/?azure-portal=true).
 
 1. In the **Convert document** action, set the following values:
 
