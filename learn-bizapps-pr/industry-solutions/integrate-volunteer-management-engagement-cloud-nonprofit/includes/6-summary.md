@@ -1,4 +1,4 @@
-In this module, you have seen the ways that Volunteer Management and Volunteer Engagement integrate with other parts of the Microsoft Cloud for Nonprofit. This includes the ability to:
+In this module, you have seen the ways that Volunteer Management and Volunteer Engagement integrate with other parts of Microsoft Cloud for Nonprofit which help improve the workflow for nonprofit staff. This includes the ability to:
 
 -   Integrate with Outlook to send email messages from Volunteer Management
 

@@ -1,4 +1,4 @@
-In this module, you will learn how Volunteer Management and Volunteer Engagement integrate with other parts of the Microsoft Cloud for Nonprofit.
+In this module, you will learn how Volunteer Management and Volunteer Engagement integrate with other parts of Microsoft Cloud for Nonprofit.
 
 After completing this module, you will be able to:
 
