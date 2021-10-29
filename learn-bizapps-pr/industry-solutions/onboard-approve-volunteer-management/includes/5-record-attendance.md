@@ -5,6 +5,8 @@ From a volunteer's participation record, you can view their participation schedu
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the New Participation Schedule with the schedule status set to Pending.](../media/schedule-status.png)](../media/schedule-status.png#lightbox)
 
+You can also bulk update participation by selecting multiple participation records.
+
 You can close an engagement by selecting the **Close** button, located in the task bar at the top of the engagement opportunity record. If you have set up automated messaging for the completion of the engagement, the message will now go out to the participants. You can instead select **Cancel** if the engagement was canceled or didn't happen for any reason
 
 > [!div class="mx-imgBorder"]
