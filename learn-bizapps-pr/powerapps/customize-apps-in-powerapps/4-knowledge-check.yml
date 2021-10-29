@@ -5,8 +5,8 @@ metadata:
   title: Check your knowledge
   description: Answer the following questions to see what you've learned.
   ms.date: 05/08/2020
-  author: DaveBeasley
-  ms.author: dbeasley
+  author: jadaphillips
+  ms.author: jadaphillips
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 durationInMinutes: 6
@@ -38,7 +38,7 @@ quiz:
     - content: You can modify all aspects of the app including screens, layouts, and formulas.
       explanation: All aspects of the app including screens, layouts, and formulas can be modified.
       isCorrect: true
-    - content:	You can modify the layout of the app, but you cannot customize the functionality.
+    - content: You can modify the layout of the app, but you cannot customize the functionality.
       explanation: All aspects of the app including screens, layouts, and formulas can be modified.
       isCorrect: false 
   - content: What is the purpose of the Gallery control?

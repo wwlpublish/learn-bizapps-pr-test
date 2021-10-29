@@ -3,7 +3,7 @@ uid: learn-bizapps.get-data
 metadata: 
  title: Get data in Power BI
  description: You will learn how to retrieve data from a wide variety of data sources, including Microsoft Excel, relational databases, and NoSQL data stores. You will also learn how to improve performance while retrieving data.
- ms.date: 06/20/2020  
+ ms.date: 10/07/2021
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  

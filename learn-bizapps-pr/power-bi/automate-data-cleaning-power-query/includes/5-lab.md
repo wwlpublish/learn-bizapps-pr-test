@@ -7,13 +7,9 @@ The estimated time to complete this lab is 30 minutes.
 In this hands-on learning lab, you will complete the following tasks:
 
 1. Use Power Query to connect to a .csv source data file - Customers
-
 1. Use Power Query transformations to splice a column by delimiter - Customers
-
 1. Use Power Query to connect to an Excel source data file - Quotes
-
 1. Use Power Query transformations to unpivot - Quotes
-
 1. Use Power Query transformations to clean - Quotes
 
 ## Lab prerequisites
@@ -21,28 +17,20 @@ In this hands-on learning lab, you will complete the following tasks:
 The following prerequisites and setup must be in place for successful completion of the exercises:
 
 - You must be connected to the internet.
-
 - You must have Microsoft Office installed.
-
 - Sign up for [Microsoft Power BI](https://aka.ms/pbimaiadtraining/?azure-portal=true).
-
 - At a minimum, you should have a computer with two cores and 4 GB of RAM that is running one of the following versions of Windows: Windows 8 / Windows Server 2008 R2 or later.
-
 - If you choose to use Internet Explorer, it will require version 10 or greater. You can also use Microsoft Edge or Google Chrome.
-
 - Verify whether you have a 32-bit or 64-bit operating system to decide if you need to install the 32-bit or 64-bit applications.
 
   > [!NOTE]
   > 64-bit Excel and Power BI Desktop is best.
 
-- Download the Attendee Content: Create a folder called MAIAD on the C: drive of your local machine. Copy all content from the folder called MAIADAttendee to the MAIAD folder that you created (C:\MAIAD).
-
+   > [!IMPORTANT]
+   > Download the student content: Create a folder called **ANALYST-LABS** on the C: drive of your local machine. Download and extract all content from https://aka.ms/modern-analytics-labs to the ANALYST-LABS folder that you created (C:\ANALYST-LABS).
 - Download and install Power BI Desktop by using any one of the following options:
-
   - If you have Windows 10, use Microsoft App Store to download and install Power BI Desktop application.
-
   - Download and install [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=45331&azure-portal=true).
-
 - If you already have Power BI Desktop installed, ensure that you have the latest version of Power BI downloaded.
 
 ## Document structure
@@ -60,19 +48,12 @@ Source data or starting files for each lab are located within each lab folder.
 Each lab comes with step-by-step instructions to follow and contains screen images throughout the instructions. The key actions for each step are identified by **bold** text. Pay attention to notes, tips, and other important information. Each lab contains a completed solution file that can be used as a reference.
 
 ## Overview
-
 The estimated time to complete this lab is 30 minutes.
-
 In this lab, you will complete the following tasks:
-
 1. Use Power Query to connect to a CSV source data file - Customers
-
 1. Use Power Query transformations to split column by delimiter - Customers
-
 1. Use Power Query to connect to an XLSX source data file - Quotes
-
 1. Use Power Query transformations to unpivot - Quotes
-
 1. Use Power Query transformations to clean - Quotes
 
     > [!NOTE]
@@ -87,24 +68,15 @@ In this exercise, you will use Excel to connect to a CSV source data file.
 In this task, you will launch a new blank worksheet to get started.
 
 1. Launch Excel.
-
 1. Create a new blank workbook.
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of a new blank workbook in Excel.](../media/5-1-blank.png)](../media/5-1-blank.png#lightbox)
 
 ### Task 2: Use Power Query to connect to CSV
 
 In this task, you will connect to the Customers CSV source data file.
-
 1. Select the **Data** tab on the main Excel ribbon.
-
 1. Select **Get Data > From File > FromText/CSV**.
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Data tab in Excel, showing Get Data > From File > From Text/CSV selected.](../media/5-2-from-text.png)](../media/5-2-from-text.png#lightbox)
-
-1. Go to the **D:\data-cleaning\AttendeeLab MaterialsLab 01 MAIAD Lab 01 - Data Source - Customers.csv** file.
+1. Go to the **C:\ANALYST-LABS\Lab 01\MAIAD Lab 01 - Data Source - Customers.csv** file.
 
    The **Preview** area will display a sample of the customer's data, column names, and values.
 
@@ -112,7 +84,7 @@ In this task, you will connect to the Customers CSV source data file.
     > This example is only a preview of the data.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Navigator window showing preview data from MAIAD Lab 01 - Data Source - Customers.csv, with the Transform Data button highlighted.](../media/5-3-transform.png)](../media/5-3-transform.png#lightbox)
+    > [![Screenshot of the Navigator window showing preview data from Lab 01 - Data Source - Customers.csv, with the Transform Data button highlighted.](../media/5-3-transform.png)](../media/5-3-transform.png#lightbox)
 
 1. Select the **Transform Data** button, which will launch the Power Query Editor window.
 
@@ -127,7 +99,7 @@ In this task, you will connect to the Customers CSV source data file.
 1. In the **Queries** pane, right-click the default query name called **MAIAD Lab 01 - Data Source - Customers** and then **Rename** the query to **Customers**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Queries pane open, showing the MAIAD Lab 01 - Data Source - Customers query and the Rename button highlighted.](../media/5-5-rename.png)](../media/5-5-rename.png#lightbox)
+    > [![Screenshot of the Queries pane open, showing Lab 01 - Data Source - Customers query and the Rename button highlighted.](../media/5-5-rename.png)](../media/5-5-rename.png#lightbox)
 
     > [!TIP]
     > Queries that will be loaded to use as part of a data model should be given a clear, descriptive, and user-friendly name that describes what the data represents, such as Customers, Quotes, Invoices, Products, or Geography.
@@ -182,7 +154,7 @@ In this task, you will start from within the **Power Query Editor** window.
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Power Query Editor window showing the Home tab options with the New Source > File > Excel option selected.](../media/5-10-new-source.png)](../media/5-10-new-source.png#lightbox)
 
-1. Go to the **D:\data-cleaning\AttendeeLab MaterialsLab 01 MAIAD Lab 01 - Data Source - Quotes.xlsx** file.
+1. Go to the **C:\ANALYST-LABS\Lab 01\Data Source - Quotes.xlsx** file.
 
 1. In the **Navigator** window, select the **Lab 01 - Quotes** worksheet.
 
@@ -305,7 +277,7 @@ In this task, you will save the Excel file with the **Customers** and **Quotes**
 
 1. From the main Excel ribbon, select **File > Save**.
 
-1. Go to the **D:\data-cleaning\AttendeeLab MaterialsLab 01** folder and then save the file as **MAIAD Lab 01 - My Solution.xlsx**.
+1. Go to the **C:\ANALYST-LABS\Lab 01** folder and then save the file as **Lab 01 - My Solution.xlsx**.
 
 
 

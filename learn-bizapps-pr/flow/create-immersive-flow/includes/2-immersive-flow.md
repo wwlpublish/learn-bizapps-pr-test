@@ -51,7 +51,7 @@ Management believes that improved data collection and standardized processes wil
 	> [![Screenshot of the details of selecting Click to add fields and forms hyperlink.](../media/10-select-click-add-fields-forms-hyperlink.png)](../media/10-select-click-add-fields-forms-hyperlink.png#lightbox)   
 
 	> [!NOTE]
-	> If you select **Click to add field and forms** link from Power Automate, you may see the classic UI. To see the modern UI, Open Power Apps in a new window and sign-in. On the left, select **Data** then **Entities**. Find and select the **Customer Check In table**. Add the columns as listed in the next step.
+	> If you select **Click to add field and forms** link from Power Automate, you may see the classic UI. To see the modern UI, Open Power Apps in a new window and sign-in. On the left, select Data, select Tables, then select the CollectCustomerInfo table from the list and click **Edit**. Find and select the **Customer Check In table**. Add the columns as listed in the next step.
 
 1.  Add column to the collectcustomerinfo table by selecting the **Add Column** button, as shown in the following screenshot.
 
