@@ -5,7 +5,7 @@ In this exercise, you will practice using tables. You will create a collection, 
 
 1. Sign-in to [Power Apps](https://make.powerapps.com/?azure-portal=true).
 
-1. On the Home screen select **Canvas app from blank**.
+1. On the Home screen, select **Canvas app from blank**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Canvas app from blank feature.](../media/canvas-app-blank.png)](../media/canvas-app-blank.png#lightbox)
@@ -31,7 +31,7 @@ In this exercise, you will practice using tables. You will create a collection, 
 
 1.  Press and hold **Alt Key**, and select the **Button** control. (This will create your collection and store all the information.).
 
-1.  Select the **Gallery** dropdown at the top and choose **Blank vertical** gallery and choose **CityPopulations** from the data source pop up.
+1.  Select the **Gallery** dropdown at the top and choose **Blank vertical** gallery and choose **CityPopulations** from the data source pop-up.
 
 1.  With the gallery selected, in the right pane, change the layout from blank to **Title, subtitle, and body**.
 
@@ -48,7 +48,7 @@ In this exercise, you will practice using tables. You will create a collection, 
 
 1. Add a label that reads "Population" and move it to the right of the gallery.
 
-1. Select the **Input** dropdown at the top and choose **Slider** and put it under the label we just created.
+1. Select the **Input** dropdown at the top and choose **Slider** and put it under the label we created.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the newly created slider.](../media/slider.png)](../media/slider.png#lightbox)
