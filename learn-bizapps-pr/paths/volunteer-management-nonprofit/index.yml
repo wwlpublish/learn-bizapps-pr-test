@@ -1,0 +1,29 @@
+﻿### YamlMime:LearningPath
+uid: learn-bizapps.volunteer-management-nonprofit
+metadata:
+  title: Manage and engage with volunteers in Microsoft Cloud for Nonprofit 
+  description: Learn how to manage and engage with volunteers with Microsoft Cloud for Nonprofit. 
+  ms.date: 11/01/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-healthcare-volunteer-management-nonprofit
+title:  Manage and engage with volunteers in Microsoft Cloud for Nonprofit 
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Learn how to manage and engage with volunteers with Microsoft Cloud for Nonprofit. 
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/volunteer-management-nonprofit.svg
+levels:
+- intermediate
+roles:
+- business-user
+- functional-consultant
+products:
+- industry-solutions
+modules:
+- learn-bizapps.microsoft-volunteer-management-nonprofit-overview
+trophy:
+  uid: learn.volunteer-management-nonprofit.trophy
+
