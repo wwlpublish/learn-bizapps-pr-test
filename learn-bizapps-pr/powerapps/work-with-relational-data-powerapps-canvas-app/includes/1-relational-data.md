@@ -11,7 +11,7 @@ one Microsoft Dataverse table.
 | 4  | Cincinnati  | 5/2/2020  | Training       | Cab          | 23.99           |
 | 5  | Cincinnati  | 5/2/2020  | Training       | Lunch        | 12.44           |
 
-The example above shows that there is numerous redundant data because each row has all of the information for the entire trip. A better way to store this data would be with parent and child tables, and then create a relationship between the two entities. The next example shows what the two entities would look like.
+The example above shows that there is numerous redundant data because each row has all of the information for the entire trip. A better way to store this data would be with parent and child tables, and then create a relationship between the two entities. The next example shows what the two tables would look like.
 
 First, the parent table with only one entry per trip.
 
@@ -23,13 +23,13 @@ First, the parent table with only one entry per trip.
 Then, the child table that has one entry per expense item with a
 reference to the parent record.
 
-| ID | Trip reason    | Expense type | Expense amount | TripID       |
-| - | --------------|-------------|---------------|-------------|
-| 1  | Customer Visit | Hotel        | 205.75         | 1            |
-| 2  | Customer Visit | Dinner       | 31.33          | 1            |
-| 3  | Customer Visit | Flight       | 450.54         | 1            |
-| 4  | Training       | Cab          | 23.99          | 2            |
-| 5  | Training       | Lunch        | 12.44          | 2            |
+| ID | Expense type | Expense amount | TripID       |
+| -  | -------------|---------------|-------------|
+| 1  | Hotel        | 205.75         | 1            |
+| 2  | Dinner       | 31.33          | 1            |
+| 3  | Flight       | 450.54         | 1            |
+| 4  | Cab          | 23.99          | 2            |
+| 5  | Lunch        | 12.44          | 2            |
 
 Here you see one entry for each expense. There is also a new column for
 TripID. This column creates the relationship by specifying the record ID
