@@ -54,7 +54,7 @@ A *field* is an individual piece of information in a record. You can
 visualize this as a value in a column for a record.
 
 As with a control, you refer to a field of a record by using
-the property selector (.) on the record. For example, **LookUp(YourInventory,Name = "Bread").Price** 
+the decimal (.) operator on the record. For example, **LookUp(YourInventory,Name = "Bread").Price** 
 returns the value $ 4.95. You could display
 this output in a Label control or use it with other controls or
 functions within your app where you need to reference the value.

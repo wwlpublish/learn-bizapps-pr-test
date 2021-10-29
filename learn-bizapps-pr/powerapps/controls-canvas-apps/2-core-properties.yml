@@ -4,12 +4,11 @@ title: Core properties of controls
 metadata: 
   title: Core properties of controls 
   description: Core properties of controls 
-  ms.date: 02/25/2021
+  ms.date: 10/29/2021
   author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
-   
 durationInMinutes: 10 
 content: |
   [!include[](../includes/unit-banner.md)]
