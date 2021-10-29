@@ -3,7 +3,7 @@ Go to [Power Automate](https://flow.microsoft.com/?azure-portal=true). Ensure th
 > [!div class="mx-imgBorder"]
 > [![Screenshot of My flows, desktop flows with Create a desktop flow button.](../media/desktop-begin.png)](../media/desktop-begin.png#lightbox)
 
-Select **Launch app** and then open Power Automate Desktop from the subsequent dialog box. The desktop app will open in the designer with a new flow named "Untitled," which you can change later.
+Select **Launch app** and then open Power Automate from the subsequent dialog box. The desktop app will open in the designer with a new flow named "Untitled," which you can change later.
 
 Desktop flows are created to mimic the actions of a user who is performing steps in a process. You have to train the flow by adding those actions.
 
