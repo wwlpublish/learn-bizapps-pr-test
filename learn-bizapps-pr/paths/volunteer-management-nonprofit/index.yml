@@ -23,7 +23,7 @@ roles:
 products:
 - industry-solutions
 modules:
-- learn-bizapps.microsoft-volunteer-management-nonprofit-overview
+- learn-bizapps.microsoft-vaccination-management-nonprofit-overview
 trophy:
   uid: learn.volunteer-management-nonprofit.trophy
 
