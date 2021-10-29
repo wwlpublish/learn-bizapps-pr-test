@@ -12,7 +12,7 @@ At the end of this exercise, you'll be able to accomplish the following:
 
 ## Sample data
 
-Before you begin, to achieve the maximum effect for this lab and the other labs, it's recommended that you deploy Volunteer Management with the sample data.
+Before you begin, to achieve the maximum effect for this lab and the other labs, it's recommended that you deploy Volunteer Management with the sample data. For more information, see [Deploy Microsoft Cloud for Nonprofits](https://aka.ms/DeployMicrosoftCloudForNonprofit).
 
 ## Add a participant to an engagement opportunity
 
