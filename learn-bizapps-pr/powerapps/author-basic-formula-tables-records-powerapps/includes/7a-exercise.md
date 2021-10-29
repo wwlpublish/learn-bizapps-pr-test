@@ -1,7 +1,7 @@
 In this exercise, you will practice using tables. You will create a collection, filter the collection, perform a lookup to the collection, edit a record in the collection, add a record to a collection, and remove a record from the collection.
 
 
-## Creating the collection of data
+## Create the collection of data
 
 1. Sign-in to [Power Apps](https://make.powerapps.com/?azure-portal=true).
 
@@ -44,7 +44,7 @@ In this exercise, you will practice using tables. You will create a collection, 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the new Text property in the body.](../media/text-property.png)](../media/text-property.png#lightbox)
 
-## Filtering your collection
+## Filter your collection
 
 1. Add a label that reads "Population" and move it to the right of the gallery.
 
@@ -78,7 +78,7 @@ In this exercise, you will practice using tables. You will create a collection, 
 	> [!div class="mx-imgBorder"]
 	> [![Demonstration of slider filter.](../media/slider-filter.gif)](../media/slider-filter.gif#lightbox)
 
-## Using the LookUp and Patch functions
+## Use the LookUp and Patch functions
 
 1. Add a label that reads "City" and place it under the slider.
 
