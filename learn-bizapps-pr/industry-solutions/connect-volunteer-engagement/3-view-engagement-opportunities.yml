@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.connect-volunteer-engagement.3-viewing-engagement-opportunities 
+uid: learn-bizapps.connect-volunteer-engagement.3-view-engagement-opportunities 
 title: Viewing Engagement Opportunities
 metadata: 
   title: Viewing Engagement Opportunities
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 2
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/3-viewing-engagement-opportunities.md)] 
+ [!include[](includes/3-view-engagement-opportunities.md)] 
