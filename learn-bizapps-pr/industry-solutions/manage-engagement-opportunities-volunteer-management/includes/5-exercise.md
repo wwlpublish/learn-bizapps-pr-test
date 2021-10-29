@@ -15,7 +15,7 @@ At the end of this exercise, you will be able to accomplish the following:
 - Publish the engagement opportunity
 
 > [!IMPORTANT]
-> Before you begin, to achieve the maximum effect for this lab and the other labs, it is recommended that you have deployed Volunteer Management with the sample data.
+> Before you begin, to achieve the maximum effect for this lab and the other labs, it is recommended that you have deployed [Volunteer Management with the sample data](https://aka.ms/DeployMicrosoftCloudForNonprofit).
 
 ## Create a new engagement opportunity
 
@@ -73,7 +73,7 @@ At the end of this exercise, you will be able to accomplish the following:
 
 1.  Enter the following details for the qualification:
 
-    -   **Qualification Type:** Background Check
+    -   **Qualification Type:** Environmental Education Experience 
 
     -   **Required:** No
 
@@ -88,9 +88,6 @@ At the end of this exercise, you will be able to accomplish the following:
 1.  Select the **Schedule** tab of the Clean Up Day engagement opportunity record.
 
 1.  Select more commands in the Volunteer Schedule section and select **+New Engagement Opportunity Schedule**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of new engagement opportunity schedule in the more commands menu.](../media/new-engagement-opportunity-schedule.png)](../media/new-engagement-opportunity-schedule.png#lightbox)
 
 1.  Enter the following details for the new schedule:
 
