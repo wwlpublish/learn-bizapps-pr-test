@@ -22,6 +22,7 @@ roles:
 - functional-consultant
 products:
 - industry-solutions
+- mscloud-nonprofit
 modules:
 - learn-bizapps.get-started-volunteer-management-engagement
 - learn-bizapps.manage-engagement-opportunities-volunteer-management
