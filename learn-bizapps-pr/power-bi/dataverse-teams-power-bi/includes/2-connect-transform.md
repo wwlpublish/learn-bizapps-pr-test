@@ -66,7 +66,7 @@ To connect to Dataverse for Teams table data, follow these steps:
 
 ## Transform the data
 
-Transforming data is the process of changing data to make it easier to work with. For example, you might want to remove unnecessary columns, change data types, or filter the data before creating Power BI reports. Dataverse for Teams tables have system columns that are used by Dataverse for Teams. You don't necessarily need these system columns when you are creating Power BI visualizations.
+Transforming data is the process of changing data to make it easier to work with. For example, you might want to bring in only a select few columns, change data types, or filter the data before creating Power BI reports. Dataverse for Teams tables have system columns that are used by Dataverse for Teams. You don't necessarily need these system columns when you are creating Power BI visualizations.
 
 For the Cost Trends table data, you need to remove unnecessary columns, rename columns, and verify that the correct data types are used:
 
