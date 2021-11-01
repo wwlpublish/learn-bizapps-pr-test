@@ -26,7 +26,8 @@ roles:
 - business-user   
 - functional-consultant 
 products: 
-- industry-solutions 
+- industry-solutions
+- mscloud-nonprofit
 units: 
 - learn-bizapps.process-gifts.1-introduction 
 - learn-bizapps.process-gifts.2-transactions 
