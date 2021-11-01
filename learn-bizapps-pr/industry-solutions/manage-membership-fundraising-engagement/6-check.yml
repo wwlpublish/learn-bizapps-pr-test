@@ -42,13 +42,13 @@ quiz:
     choices: 
     - content: A key single membership instance that appears on a constituent’s record.
       isCorrect: true
-      explanation: A key single membership instance that appears on a consituent's record.
+      explanation: A key single membership instance that appears on a constituent's record.
     - content: Key multiple membership instances that appear on a constituent’s record.
       isCorrect: false 
-      explanation: A key single membership instance that appears on a consituent's record.
+      explanation: A key single membership instance that appears on a constituent's record.
     - content: A membership group that all constituents are required to belong to.
       isCorrect: false 
-      explanation: A key single membership instance that appears on a consituent's record.
+      explanation: A key single membership instance that appears on a constituent's record.
     - content: A membership category that all constituents are required to belong to.
       isCorrect: false 
-      explanation: A key single membership instance that appears on a consituent's record.
+      explanation: A key single membership instance that appears on a constituent's record.
