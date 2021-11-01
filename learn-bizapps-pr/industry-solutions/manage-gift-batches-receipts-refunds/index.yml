@@ -27,7 +27,7 @@ roles:
 - functional-consultant 
 products: 
 - industry-solutions
-- mcsloud-nonprofit
+- mscloud-nonprofit
 units: 
 - learn-bizapps.manage-gift-batches-receipts-refunds.1-introduction 
 - learn-bizapps.manage-gift-batches-receipts-refunds.2-gift-batches 
