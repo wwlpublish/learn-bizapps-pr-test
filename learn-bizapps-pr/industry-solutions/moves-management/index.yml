@@ -27,7 +27,8 @@ roles:
 - business-user   
 - functional-consultant 
 products:
-- industry-solutions 
+- industry-solutions
+- mscloud-nonprofit
 units: 
 - learn-bizapps.moves-management.1-introduction 
 - learn-bizapps.moves-management.2-development 
