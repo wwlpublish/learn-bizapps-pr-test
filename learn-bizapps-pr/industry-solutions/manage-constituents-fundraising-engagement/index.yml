@@ -26,7 +26,8 @@ roles:
 - business-user   
 - functional-consultant 
 products: 
-- industry-solutions 
+- industry-solutions
+- mscloud-nonprofit
 units: 
 - learn-bizapps.manage-constituents-fundraising-engagement.1-introduction 
 - learn-bizapps.manage-constituents-fundraising-engagement.2-contacts-organizations 
