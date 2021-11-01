@@ -25,7 +25,8 @@ roles:
 - business-user   
 - functional-consultant 
 products: 
-- industry-solutions 
+- industry-solutions
+- mscloud-nonprofit
 units: 
 - learn-bizapps.configure-volunteer-management-settings.1-introduction 
 - learn-bizapps.configure-volunteer-management-settings.2-qualifications 
