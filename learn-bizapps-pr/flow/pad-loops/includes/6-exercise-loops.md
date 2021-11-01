@@ -24,12 +24,12 @@ Before starting, you should create two empty folders, named **PDF** and **DOCX**
 
     1. Configure the two **Move file(s)** actions as presented in the following screenshots:
 
-        > [!ΝΟΤΕ]
-        > Το populate to **Destination path** field of the **Move file(s)** actions you used a combination of variables and literal values. To find more information regarding variable concatenation and manipulation, see the [Handle variables in Power Automate for desktop](../../pad-variables/index.yml) module.
-
         ![Screenshot of the Move file(s) action that moves the pdf files.](..\media\move-files-action-pdf.png)
 
         ![Screenshot of the Move file(s) action that moves the docx files.](..\media\move-files-action-docx.png)
+
+    > [!ΝΟΤΕ]
+    > Το populate the **Destination path** field of the **Move file(s)** actions, you have to use a combination of variables and literal values. To find more information regarding variable concatenation and manipulation, see the [Handle variables in Power Automate for desktop](../../pad-variables/index.yml) module.
 
 1. As before, retrieve all the .txt files from the desktop folder. To achieve this functionality, add a **Get files in folder** action outside the previously created loop.
 
