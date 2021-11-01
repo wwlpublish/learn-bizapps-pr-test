@@ -3,7 +3,7 @@ uid: learn-bizapps.button-user-input
 metadata: 
  title: Create a Power Automate button with user input 
  description: Some Power Automate button flows will allow for user input and will run a predefined series of actions. This type of flow button provides the input that is necessary to run the predefined actions in the flow. It will show users how they can create a flow button that runs different logic based on the provided inputs.
- ms.date: 06/21/2021  
+ ms.date: 11/01/2021 
  author: KevSch  
  ms.author: kschimke  
  ms.topic: interactive-tutorial  
