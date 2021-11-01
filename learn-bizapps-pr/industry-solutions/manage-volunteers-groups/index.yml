@@ -26,6 +26,7 @@ roles:
 - functional-consultant
 products:
 - industry-solutions
+- mscloud-nonprofit
 units:
 - learn-bizapps.manage-volunteers-groups.1-introduction
 - learn-bizapps.manage-volunteers-groups.2-work-volunteers
