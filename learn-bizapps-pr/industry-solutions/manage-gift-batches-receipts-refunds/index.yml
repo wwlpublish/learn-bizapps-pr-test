@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.manage-gift-batches-receipts-refunds 
 metadata: 
- title: Manage gift batches, receipts, and refunds 
+ title: Manage gift batches, receipts, and refunds in Microsoft Cloud for Nonprofit
  description: Explore functionality to manage and work with gifts in Fundraising and Engagement including gift batches, receipts, refunds, and write-offs.
- ms.date: 10/29/2021  
+ ms.date: 11/01/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-industry-solutions  
-title: Manage gift batches, receipts, and refunds
+title: Manage gift batches, receipts, and refunds in Microsoft Cloud for Nonprofit
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module explores functionality for managing and working with gifts in Fundraising and Engagement. You will learn how Fundraising and Engagement handle the processing of gift batches, receipts, refunds, and write-offs.
