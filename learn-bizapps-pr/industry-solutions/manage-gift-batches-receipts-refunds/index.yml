@@ -26,8 +26,8 @@ roles:
 - business-user   
 - functional-consultant 
 products: 
-- dynamics-365 
-- industry-solutions 
+- industry-solutions
+- mcsloud-nonprofit
 units: 
 - learn-bizapps.manage-gift-batches-receipts-refunds.1-introduction 
 - learn-bizapps.manage-gift-batches-receipts-refunds.2-gift-batches 
