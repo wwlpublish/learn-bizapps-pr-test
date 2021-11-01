@@ -27,7 +27,7 @@ The following screenshot shows the SharePoint list. SharePoint automatically add
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the SharePoint list of Columns.](../media/4-1-columns.png)](../media/4-1-columns.png#lightbox)
 
-Return to the **Travel Reimbursement** list and, from the ribbon, select **Automate > Power Automate > Create a flow**.
+Return to the **Travel Reimbursement** list and, from the ribbon, select **Integrate > Power Automate > Create a flow**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Travel Reimbursement list with Automate selected.](../media/4-2-automate.png)](../media/4-2-automate.png#lightbox)
@@ -42,7 +42,7 @@ Select **Create Flow**.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Request approval (everyone must approve) template.](../media/4-4-request-approval.png)](../media/4-4-request-approval.png#lightbox)
 
-You need to **Turn on** the flow because it is suspended by default. Select **Edit** to view the flow design.
+You need to **Turn on** the flow because it's suspended by default. Select **Edit** to view the flow design.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the flow with Edit and Turn on buttons highlighted and with status: suspended highlighted.](../media/4-5-suspended.png)](../media/4-5-suspended.png#lightbox)
