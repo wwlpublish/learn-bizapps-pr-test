@@ -15,7 +15,7 @@ In this unit, you'll build a button containing a flow. The flow sends an email t
 1. Select **File** and rename **File Content** to **Image**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Notify Your Manager trigger with Manually trigger a flow added.](../media/notify-manager-trigger.jpg)](../media/notify-manager-trigger.jpg#lightbox)
+    > [![Screenshot of Manually trigger a flow with an image file added.](../media/notify-manager-trigger.jpg)](../media/notify-manager-trigger.jpg#lightbox)
 
 1. Select **+ New step** and search for **Office 365 Users**. Under **Actions**, select the **Get manager (V2)** option.
 
@@ -27,7 +27,7 @@ In this unit, you'll build a button containing a flow. The flow sends an email t
 1. Select **+ New step** and search for Outlook and select **Office 365 Outlook**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Manually trigger a flow with Get manager showing the User (U P N) option with the Dynamic content open and User email highlighted.](../media/office-365-outlook.png)](../media/office-365-outlook.png#lightbox)
+    > [![Screenshot of Choose an operation with Office 365 Outlook highlighted.](../media/office-365-outlook.png)](../media/office-365-outlook.png#lightbox)
 
 1. Under **Actions**, select the **Send an email (V2)** option.
 
