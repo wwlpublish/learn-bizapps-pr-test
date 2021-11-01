@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 05/25/2021 
+ ms.date: 11/01/2021
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -31,16 +31,16 @@ quiz:
     choices: 
     - content: Only contributors can add recordings.
       isCorrect: false 
-      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings, while co-owners can edit or delete any recordings in the process.
+      explanation: Contributors or co-owners can add recordings. Contributors can only edit or delete their own recordings. Co-owners can edit or delete any recordings in the process.
     - content: Only co-owners can add recordings.
       isCorrect: false 
-      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings, while co-owners can edit or delete any recordings in the process.
+      explanation: Contributors or co-owners can add recordings. Contributors can only edit or delete their own recordings. Co-owners can edit or delete any recordings in the process.
     - content: Contributors or co-owners can add recordings.
       isCorrect: true 
-      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings, while co-owners can edit or delete any recordings in the process.
-    - content: No one can add recordings to your process, regardless of their permissions.
+      explanation: Contributors or co-owners can add recordings. Contributors can only edit or delete their own recordings. Co-owners can edit or delete any recordings in the process.
+    - content: No one can add recordings to your process, whatever their permissions.
       isCorrect: false 
-      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings, while co-owners can edit or delete any recordings in the process.
+      explanation: Contributors or co-owners can add recordings. Contributors can only edit or delete their own recordings. Co-owners can edit or delete any recordings in the process.
   - content: What is a variant?
     choices: 
     - content: A grouping of actions
@@ -51,10 +51,10 @@ quiz:
       explanation: A recording will have a status of Failed if an error occurs and it needs to be rerecorded. 
     - content: A specific path (same steps in the same sequence) that users take to complete a process 
       isCorrect: true 
-      explanation: A variant is a specific path it takes for a process to be completed. 
+      explanation: A variant is a deviation in the process where users take different paths. This is called out in the process map. 
     - content: A recording that takes much longer than the others
       isCorrect: false 
-      explanation: Many reasons exist for why a recording might take longer, but they are not called variants.
+      explanation: Many reasons exist for why a recording might take longer, but they aren't called variants.
   - content: What connectors can automation recommendations suggest for improving your business processes and increasing efficiency? 
     choices: 
     - content: Automation recommendations only include Premium connectors. 
