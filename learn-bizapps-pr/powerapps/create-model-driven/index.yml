@@ -1,0 +1,37 @@
+### YamlMime:Module 
+uid: learn-bizapps.create-model-driven 
+metadata: 
+ title: Create the model-driven app
+ description: In the previous module, you about learned about table views and forms and how to view and modify records. In this module, we'll combine all the different components we built in previous modules into a grouped business application. In layman terms, a model-driven app is a combination of tables, table relationships, table views, and forms working cohesively to allow users to track information efficiently and effectively.
+ ms.date: 11/03/2021  
+ author: jadaphillips  
+ ms.author: jadaphillips  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps  
+title: Create the model-driven app
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  In the previous module, you about learned about table views and forms as well as how to view and modify records. In this module, we will combine all the different components we built in previous modules into a grouped business application. In layman terms, a model-driven app is a combination of tables, table relationships, table views, and forms working cohesively to allow users to track information efficiently and effectively.
+abstract: |  
+    In this module, you will: 
+    - Understand how to create a model-driven app
+    - Publish the model-driven app
+    - Understand the different components of model-driven apps
+prerequisites: The Target Audience should have a basic understanding of Microsoft model-driven apps and Dataverse. Completion of prior modules and exercises in this Learning Path is required. Each module in this Learning Path builds from the previous. To complete the exercises in this module, ensure that you've successfully completed all of the previous modules and exercises in this Learning Path.
+iconUrl: /learn/achievements/create-model-driven.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+products: 
+- power-platform
+- power-apps 
+units: 
+- learn-bizapps.create-model-driven.1-introduction 
+- learn-bizapps.create-model-driven.2-exercise 
+- learn-bizapps.create-model-driven.3-navigate-model-driven 
+- learn-bizapps.create-model-driven.4-exercise 
+- learn-bizapps.create-model-driven.5-check 
+- learn-bizapps.create-model-driven.6-summary 
+badge: 
+  uid: learn-bizapps.create-model-driven.badge 
