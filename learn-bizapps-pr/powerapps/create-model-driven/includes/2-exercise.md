@@ -16,7 +16,7 @@ In this exercise, we'll add the other tables we created in prior modules as sub 
 1. Repeat the same process to add the **TypeofAccidentTable** and the **AccidentTable**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of .](../media/sitemap-designer.png)](../media/sitemap-designer.png#lightbox)
+    > [![Screenshot of the entity list with the tables added.](../media/sitemap-designer.png)](../media/sitemap-designer.png#lightbox)
 
 1. Select **Save and Close**, in the sitemap designer.
 
@@ -27,4 +27,4 @@ In this exercise, we'll add the other tables we created in prior modules as sub 
 1. Select **Play**, to view the model-driven app.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of .](../media/preview-2.png)](../media/preview-2.png#lightbox)
+    > [![Screenshot of Power Apps Accident Tracking Application with the Accident Tracking section highlighted.](../media/preview-2.png)](../media/preview-2.png#lightbox)
