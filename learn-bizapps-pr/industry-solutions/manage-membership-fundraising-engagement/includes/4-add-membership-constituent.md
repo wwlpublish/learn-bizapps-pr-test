@@ -5,7 +5,8 @@ In Fundraising and Engagement, there are two methods for adding membership to a 
 
 ## Add membership from a transaction record
 
-This method is typically used when the constituent is making a donation and you are adding a membership as part of that. Let's say that a constituent, Gabriella Morales, wants to donate `$`50. She also would like to sign up for the Family Sponsorship Membership. A transaction is being created for the donation amount of `$`50. Click the +**Add Membership** button on the transaction form to add a membership to the transaction.
+This method is typically used when the constituent is making a donation and you are adding a membership as part of that. Let's say that a constituent, Gabriella Morales, wants to donate \$50. She also would like to sign up for the Family Sponsorship Membership. 
+A transaction is being created for the donation amount of \$50. Click the +**Add Membership** button on the transaction form to add a membership to the transaction.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of a new transaction with amount, add membership button, and total highlighted.](../media/new-transaction.png)](../media/new-transaction.png#lightbox)
@@ -15,7 +16,9 @@ You can now select the membership group, then membership category for the consti
 > [!div class="mx-imgBorder"]
 > [![Screenshot of a new transaction with amount, membership group, and total highlighted.](../media/membership-group.png)](../media/membership-group.png#lightbox)
 
-Once the transaction is processed, the total payment received from Gabriella will be `$`200. This includes the `$`50 donation and `$`150 payment for membership. She will now be a member of Family Sponsorship Membership.
+Once the transaction is processed, the total payment received from Gabriella will be \$200. 
+This includes the \$50 donation 
+and \$150 payment for membership. She will now be a member of Family Sponsorship Membership.
 
 Membership can be added via transaction even if the constituent only wants to sign up for membership without making a donation. In this case, the amount entered on the transaction form can be left blank. Once the membership is selected, the associated cost will be updated on the amount column.
 
