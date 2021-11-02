@@ -63,6 +63,8 @@ Other available controls
     control appears or navigate to another screen after a certain amount
     of time has passed.
 
+-   **Date Picker** - A control that allows you to select a Date from a calendar.
+
 -   **Button** - Configure the **OnSelect** property of a button control to
     run one or more formulas when the user clicks or taps the control.
     The button control is frequently used to submit data to the data

@@ -4,12 +4,11 @@ title: What is relational data?
 metadata: 
   title: What is relational data? 
   description: What is relational data?
-  ms.date: 05/12/2020 
+  ms.date: 10/29/2021 
   author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
-  ms.prod: learning-power-platform 
-   
+  ms.prod: learning-power-platform    
 durationInMinutes: 6 
 content: |
   [!include[](../includes/unit-banner.md)]

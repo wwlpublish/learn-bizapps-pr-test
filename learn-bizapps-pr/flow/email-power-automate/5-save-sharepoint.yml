@@ -4,7 +4,7 @@ title: Save email content to SharePoint
 metadata: 
   title: Save email content to SharePoint
   description: Learn how to build a flow that monitors incoming email and saves metadata to a SharePoint list and attachments to a document library.
-  ms.date: 04/06/2021 
+  ms.date: 11/01/2021
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
