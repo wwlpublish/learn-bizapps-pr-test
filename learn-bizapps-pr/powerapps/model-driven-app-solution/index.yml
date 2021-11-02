@@ -12,6 +12,8 @@ title: Introduction to the model-driven app solution and business case
 summary: |  
   [!include[](../includes/module-banner.md)] 
   One of the hardest aspects of becoming a maker in the Power Platform is knowing how to start with your company’s existing data and translate that into a model-driven app. This module will help users get into the mindset of a Power Apps maker and start thinking of a model-driven app as the solution. 
+abstract: |  
+    In this module, you will: 
     - Understand the data and solution being built with this learning path
     - Understand how to relate an Excel based solution to Power Apps model-driven apps
     - Gain insight into model-driven apps design decisions
