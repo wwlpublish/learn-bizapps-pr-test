@@ -7,11 +7,11 @@ The screenshot below shows an example of a giving level that has been created, V
 
 The amount set up as the range for the giving level should not overlap with other levels. For example, a nonprofit may set up the following giving levels and ranges for their constituents:
 
-- Visionary, with a range of \$0 to \$9,999 total donations
+- Visionary, with a range of $0 to $9,999 total donations
 
-- Supporter, with a range of \$10,000 to \$19,999 total donations
+- Supporter, with a range of $10,000 to $19,999 total donations
 
-- World Changer Society, with a range of \$20,000 to \$50,000 total donations
+- World Changer Society, with a range of $20,000 to $50,000 total donations
 
 Based on the specified ranges, the giving level for a constituent will automatically update on their record. As shown in the example below, the contact Omar Bennett has a lifetime giving of \$5,865. Thus, he falls within the giving level of Visionary. The giving level does not update immediately. Once the lifetime giving of a constituent changes, a background process is triggered to run and the giving level will update after a short amount of time. Giving level for a constituent can also be changed manually via the giving level lookup column on their record.
 
