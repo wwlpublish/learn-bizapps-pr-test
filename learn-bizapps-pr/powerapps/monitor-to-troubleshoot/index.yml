@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.monitor-to-troubleshoot 
 metadata: 
- title: Using Monitor to troubleshoot Power Apps
- description: Learn to use Monitor to troubleshoot Power Apps.
+ title: Use Monitor to troubleshoot Power Apps
+ description: Learn how to use Microsoft Azure Monitor to troubleshoot Microsoft Power Apps.
  ms.date: 10/07/2021  
  author: jadaphillips  
  ms.author: jadaphillips  
  ms.topic: interactive-tutorial  
  ms.prod: learning-powerapps
-title: Using Monitor to troubleshoot Power Apps
+title: Use Monitor to troubleshoot Power Apps
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Need to add summary here. 
+  Learn how to use Microsoft Azure Monitor to troubleshoot Microsoft Power Apps. 
 abstract: |  
     In this module, you will: 
-    - Learn common problems and how to troubleshoot using Monitor.
-    - Learn how to remote collaborate.
+    - Learn how to identify common problems when working with Power Apps and how to troubleshoot by using Monitor.
+    - Learn how to collaborate remotely.
     - Practice troubleshooting Monitor.
-prerequisites: Need to input prerequisites here.
+prerequisites: Basic knowledge of working with Microsoft Power Apps and Microsoft Azure
 iconUrl: /learn/achievements/learn-bizapps.monitor-to-troubleshoot.svg  
 levels:  
 - intermediate   
