@@ -66,8 +66,7 @@ In the Payment Schedule Entry section of the payment schedule record, the gift t
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Dynamics 365 Fundraising and Engagement Payment Schedule Entry filled out.](../media/4-10-schedule.png)](../media/4-10-schedule.png#lightbox)
 
-The Pledge Schedule section of the record is where the frequency of the pledge is set up. In the example of the screenshot above, the amount of $1200 is the total pledge.
-Setting up the frequency will allocate this amount over a period of time. Based on the schedule specified in the screenshot below, a pledge of $1200 will be allocated over 12 months, that is, $100 a month for 12 months.
+The Pledge Schedule section of the record is where the frequency of the pledge is set up. In the example of the screenshot above, the amount of $1,200 is the total pledge. Setting up the frequency will allocate this amount over a period of time. Based on the schedule specified in the screenshot below, a pledge of $1,200 will be allocated over 12 months, that is, $100 a month for 12 months.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Dynamics 365 Fundraising and Engagement pledge schedule allocated over 12 months.](../media/4-11-allocate.png)](../media/4-11-allocate.png#lightbox)
