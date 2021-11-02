@@ -1,6 +1,6 @@
 There are two types of payment schedules that can be created in Fundraising and Engagement:
 
-- **Recurring donation**: If a constituent signs up for regular giving, this is recorded as a recurring donation, for example $10/month for 12 months, or $10/month ongoing with no end date. You can manage the donation amount, the payment frequency, and the date range according to a donor's preferences. Once the recurring donation is saved in Fundraising and Engagement, the recurring donation process (in Azure) will automatically create a transaction record for each payment at the scheduled time and process the payment.
+- **Recurring donation**: If a constituent signs up for regular giving, this is recorded as a recurring donation, for example \\$10/month for 12 months, or \\$10/month ongoing with no end date. You can manage the donation amount, the payment frequency, and the date range according to a donor's preferences. Once the recurring donation is saved in Fundraising and Engagement, the recurring donation process (in Azure) will automatically create a transaction record for each payment at the scheduled time and process the payment.
 
 - **Pledge schedule**: If a constituent pledges to give multiple gifts in the future (typically for a grant or major gift), this is recorded as a pledge schedule. When it's saved, multiple donor commitments (one for each pledged payment) are created, linked back to the payment schedule. These donor commitments are converted into transactions one by one or in a batch, when the donor indicates they're ready to pay.
 
