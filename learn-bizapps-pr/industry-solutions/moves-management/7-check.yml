@@ -13,7 +13,7 @@ durationInMinutes: 6
 quiz:
   title: Answer the following questions to see what you've learned.
   questions:
-  - content: 
+  - content: "An Expected Amount of $50,000 is added to an opportunity. When creating the designation plan, the amount column on a designation plan line is set to $10,000. What will happen to the % column of the line item?"
     choices: 
     - content: It will remain blank until the user enters a value in the % column.
       isCorrect: false
