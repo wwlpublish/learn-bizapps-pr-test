@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.create-model-driven.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 11/03/2021 
+ author: jadaphillips 
+ ms.author: jadaphillips 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: How do you update a table view in a model-driven app?
+    choices: 
+    - content: Go into the mode-driven app designer, drop the entity, re-add it, and then changes in table views will reflect.
+      isCorrect: false 
+      explanation: Find the table you want to modify the view for, update the view, and then select publish. Table view changes will reflect in the model-driven app automatically.
+    - content: Find the table you want to modify the view for, update the view, and then select publish. Table view changes will reflect in the model-driven app automatically.
+      isCorrect: true 
+      explanation: Find the table you want to modify the view for, update the view, and then select publish. Table view changes will reflect in the model-driven app automatically.
+    - content: Use Visual Studio to modify the view to update the view in a model-driven app.
+      isCorrect: false 
+      explanation: Find the table you want to modify the view for, update the view, and then select publish. Table view changes will reflect in the model-driven app automatically.
+    - content: It's not possible to update a view in a model-driven app once it has been published.
+      isCorrect: false 
+      explanation: Find the table you want to modify the view for, update the view, and then select publish. Table view changes will reflect in the model-driven app automatically.
+  - content: How can you view related records from a model driven app?
+    choices: 
+    - content: Find the record you want to view related records for, select related, and then select a related table.
+      isCorrect: true 
+      explanation: Find the record you want to view related records for, select related, and then select a related table. These are standard actions if there are relationships between the tables.
+    - content: It isn't possible to view related records using model-driven apps.
+      isCorrect: false 
+      explanation: Find the record you want to view related records for, select related, and then select a related table. These are standard actions if there are relationships between the tables.
+    - content: You need custom plug-ins to build views to display related records.
+      isCorrect: false 
+      explanation: Find the record you want to view related records for, select related, and then select a related table. These are standard actions if there are relationships between the tables.
+    - content: Create a new custom form to display related records.
+      isCorrect: false 
+      explanation: Find the record you want to view related records for, select related, and then select a related table. These are standard actions if there are relationships between the tables.
+  - content: Which of the following are components of model-driven apps found in the Site Map?
+    choices: 
+    - content: Area, group, and Sub-Area.
+      isCorrect: true 
+      explanation: Area, group, and Sub-Area.
+    - content: Field, column, and table.
+      isCorrect: false 
+      explanation: Area, group, and Sub-Area.
+    - content: Entity, group, and area.
+      isCorrect: false 
+      explanation: Area, group, and Sub-Area.
+    - content: Table, group, and area.
+      isCorrect: false 
+      explanation: Area, group, and Sub-Area.
