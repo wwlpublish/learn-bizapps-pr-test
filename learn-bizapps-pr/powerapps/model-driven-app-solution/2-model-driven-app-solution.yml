@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.model-driven-app-solution.2-model-driven-app-solution 
+title: Introduction to the final model-driven app solution
+metadata: 
+  title: Introduction to the final model-driven app solution
+  description: Learn about the model-driven app solution.
+  ms.date: 11/03/2021 
+  author: jadaphillips 
+  ms.author: jadaphillips 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 2
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-model-driven-app-solution.md)] 
