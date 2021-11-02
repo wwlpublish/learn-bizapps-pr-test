@@ -14,7 +14,7 @@ summary: |
   In this module we will learn how to add a business process flow to our app to provide users with guided path throughout the app. 
 abstract: |  
     In this module, you will: 
-    - Create simple business process flow
+    - Create a simple business process flow
     - Add a business process flow to a model-driven app
     - Edit a business process flow
 prerequisites: | 

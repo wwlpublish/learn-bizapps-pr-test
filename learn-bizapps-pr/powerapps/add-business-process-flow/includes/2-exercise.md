@@ -1,4 +1,4 @@
-1. To get started, navigate to [make.powerapps.com](https://make.powerapps.com/) and sign in with your Microsoft credentials.
+1. To get started, navigate to [Power Apps](https://make.powerapps.com/?azure-portal=true) and sign in with your Microsoft credentials.
 
 1. Select **Flows**.
 
@@ -62,9 +62,9 @@
 
 1. Repeat steps 13 to 17 above and add the following fields from our **AccidentTable**:
 
--   **LocationId:** Users will select a location the accident occurred on.
-
--   **AccidentTypeId:** Users will select the type accident that occurred.
+	-   **LocationId:** Users will select a location the accident occurred on.
+	
+	-   **AccidentTypeId:** Users will select the type accident that occurred.
 
 	Next, we will add another Stage to store the steps managers will complete.
 

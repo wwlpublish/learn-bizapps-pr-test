@@ -2,7 +2,7 @@ The best way to learn how to attach the business process flow created in the pri
 
 1. From Power Apps, select **Apps**.
 
-1. To the right of the ***Accident Tracking Application*** select the ellipsis **...** and then select **Edit**.
+1. To the right of the **Accident Tracking Application** select the ellipsis **...** and then select **Edit**.
 
 1. Once the App designer opens, select **Business Process Flows**.
 
@@ -17,7 +17,7 @@ The best way to learn how to attach the business process flow created in the pri
 1. You should notice a new **Entity** (Table) added to the **Entity View**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the new business process flow table being added.](../media/new business process flow table being added.png)](../media/new business process flow table being added.png#lightbox)
+	> [![Screenshot of the new business process flow table being added.](../media/table-added.png)](../media/table-added.png#lightbox)
 
 	The next steps will be to add a place inside our model driven app to view the data from the business process flow entity. This will allow users to see the status and other data related to the BPF.
 
@@ -79,7 +79,7 @@ The best way to learn how to attach the business process flow created in the pri
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the next stage button.](../media/next-stage.png)](../media/next-stage.png#lightbox)
 
-The next step is to review the records in the *BPF\_AccidentRecording* table to illustrate how the business process flow data is recorded in a table.
+	The next step is to review the records in the **BPF\_AccidentRecording** table to illustrate how the business process flow data is recorded in a table.
 
 1. At the bottom left select the **BPF Details** Area we created earlier.
 

@@ -24,7 +24,7 @@ In this scenario, we will want to send an email automatically to the head of sec
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the trigger details.](../media/trigger-details.png)](../media/trigger-details.png#lightbox)
 
-The trigger above will run the flow every time a business process flow is changed. For example, once a manager completes the accident recording process. The trigger will return information about the business process flow in JSON format. We need to identify when the **Status Reason** of the BPF is *Finished.* To accomplish this, we will parse through the JSON output of our trigger.
+	The trigger above will run the flow every time a business process flow is changed. For example, once a manager completes the accident recording process. The trigger will return information about the business process flow in JSON format. We need to identify when the **Status Reason** of the BPF is *Finished.* To accomplish this, we will parse through the JSON output of our trigger.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the status reasons.](../media/status-reason.png)](../media/status-reason.png#lightbox)
@@ -40,7 +40,7 @@ The trigger above will run the flow every time a business process flow is change
 
 1. For the Schema, paste the following code:
 
-	```json```
+	```json
 	{
 	    "type": "object",
 	    "properties": {
@@ -54,7 +54,7 @@ The trigger above will run the flow every time a business process flow is change
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the pasted code.](../media/code.png)](../media/code.png#lightbox)
 
-1. Then we will want to check whether the status is *Finished.* To do this we will insert a **Condition** action to check.
+1. Then we will want to check whether the status is **Finished**. To do this we will insert a **Condition** action to check.
 
 1. Select **+ New step** and then select **Condition**.
 
@@ -88,7 +88,7 @@ The trigger above will run the flow every time a business process flow is change
 
 1. For the **Subject** of the email, enter **New Accident Recorded**.
 
-1. For the Body of the email, enter a combination of Text and Dynamic content, which include the **Accident Description** and the **Manager Comments**. When selecting the Dynamic content, make sure you are selecting fields in the **Get a row by ID section**. See the screenshot below for what information to enter in the email body:
+1. For the Body of the email, enter a combination of Text and Dynamic content, which include the **Accident Description** and the **Manager Comments**. When selecting the Dynamic content, make sure you are selecting fields in the **Get a row by ID section**. See the screenshot below for what information to enter in the email body.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the body of the email.](../media/email.png)](../media/email.png#lightbox)
@@ -104,7 +104,7 @@ The trigger above will run the flow every time a business process flow is change
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the business process flow for a new accident.](../media/new-accident.png)](../media/new-accident.png#lightbox)
 
-1.  Select the **Accident Recording** stage and then select **Next Stage \>**.
+1.  Select the **Accident Recording** stage and then select **Next Stage**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the accident recording stage with next stage button.](../media/accident-recording-next.png)](../media/accident-recording-next.png#lightbox)
