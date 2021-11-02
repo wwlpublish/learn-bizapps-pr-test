@@ -4,12 +4,11 @@ title: Entering and displaying data with text controls
 metadata: 
   title: Entering and displaying data with text controls 
   description: Entering and displaying data with text controls 
-  ms.date: 02/25/2021
+  ms.date: 10/29/2021
   author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
-  ms.prod: learning-powerapps 
-   
+  ms.prod: learning-powerapps    
 durationInMinutes: 8 
 content: |
   [!include[](../includes/unit-banner.md)]
