@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.build-dataverse-table-structure.5-exercise 
-title: Exercise
+title: Exercise – Create the AccidentTable and relationships
 metadata: 
-  title: Exercise
+  title: Exercise – Create the AccidentTable and relationships
   description: Create the Accident Table and relationships.
   ms.date: 11/03/2021 
   author: jadaphillips 

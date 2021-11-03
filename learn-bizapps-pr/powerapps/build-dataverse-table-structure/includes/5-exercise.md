@@ -12,9 +12,9 @@ In this exercise, we will build the final main *AccidentTable* and at the same t
 
     - **Primary Name Column Display Name:** *AccidentId* (Note: the primary name is the column showed to users when they select records from this table, also the column shown on the many side when a Lookup column is used).
 
-1. Click on **Create** at the bottom.
+1. Select **Create** at the bottom.
 
-1. Under the **Columns** tab, find the *AccidentId* field and click on it.
+1. Under the **Columns** tab, find the *AccidentId* field and Select it.
 
 1. On the columns tab, on the right, change the **Data type** from Text to **Autonumber**.
 
@@ -88,9 +88,9 @@ To create the many-to-many relationship, follow the next steps:
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Many to many menu with the current Accident table and related Employee table option highlighted.](../media/19-many.png)](../media/19-many.png#lightbox)
 
-1. Once finished, click **Done**.
+1. Once finished, Select **Done**.
 
-1. Don't forget to click **Save Table** to save all the changes you made.
+1. Don't forget to Select **Save Table** to save all the changes you made.
 
 On the **Relationships** tab, you can see the other Many-to-one relationships that were created when we added the **Lookup** columns in the previous steps. You can filter the list to just the **Custom** relationships by filtering the top left menu to **Custom**.
 

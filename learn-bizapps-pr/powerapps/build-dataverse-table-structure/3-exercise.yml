@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.build-dataverse-table-structure.3-exercise 
-title: Exercise
+title: Exercise - Create the location and TypeofAccident custom tables
 metadata: 
-  title: Exercise
+  title: Exercise - Create the location and TypeofAccident custom tables
   description: An exercise to create the location and type of accident custom tables.
   ms.date: 11/03/2021 
   author: jadaphillips 

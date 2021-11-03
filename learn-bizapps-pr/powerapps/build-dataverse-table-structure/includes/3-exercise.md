@@ -10,13 +10,13 @@ In this exercise, we will create two more custom tables to store additional data
 
     - **Display Name:** *LocationTable*
 
-    The **Plural display name** will auto populate automatically, you can choose to modify it but, in our case, we will use the default.
+        The **Plural display name** will auto populate automatically, you can choose to modify it but, in our case, we will use the default.
 
     - **Primary Name Column Display Name:** *LocationId* (Note: the primary name is the column showed to users when they select records from this table, also the column shown on the many side when a Lookup column is used)
 
-1. Click **Create**, at the bottom.
+1. Select **Create**, at the bottom.
 
-1. Under the **Columns** tab, find the *LocationId* field and click on it.
+1. Under the **Columns** tab, find the *LocationId* field and Select it.
 
 1. On the columns tab, on the right, change the **Data type** from Text to **Autonumber**.
 
@@ -40,16 +40,16 @@ In this exercise, we will create two more custom tables to store additional data
 
     - **Data type:** *Choice*
 
-    - In the **Choice** field click on the **+ New choice** to create a new set of choices to store the different countries Contoso has locations in.
+    - In the **Choice** field Select the **+ New choice** to create a new set of choices to store the different countries Contoso has locations in.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the Choice field and New choice menu option highlighted.](../media/13-new-choice.png)](../media/13-new-choice.png#lightbox)
+        > [!div class="mx-imgBorder"]
+        > [![Screenshot of the Choice field and New choice menu option highlighted.](../media/13-new-choice.png)](../media/13-new-choice.png#lightbox)
 
 It is good practice to name your custom choice with a prefix to help identify it as a choice object later.
 
 1. For the Display name, enter **ChLocationCountry**.
 
-1. Click **View more** and make sure that **Global choice** is selected. (**Global choice** will allow the custom choice to be able to be used in different tables context within the same Dataverse environment, **Local choice** will only allow the choice to be used in this table context only.)
+1. Select **View more** and make sure that **Global choice** is selected. (**Global choice** will allow the custom choice to be able to be used in different tables context within the same Dataverse environment, **Local choice** will only allow the choice to be used in this table context only.)
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the ChLocationCountry Display name and Name fields highlighted.](../media/14-location-country.png)](../media/14-location-country.png#lightbox)
@@ -67,17 +67,17 @@ It is good practice to name your custom choice with a prefix to help identify it
     > [!NOTE]
     > Choice fields are great when the number of options is small, and the items don't change often or not at all.
 
-1. Click **Save**.
+1. Select **Save**.
 
     - **Default value:** *\[No default value\]*
 
-    (This is useful if you want to always display a location as the default, such as the most common country where locations exist.)
+        (This is useful if you want to always display a location as the default, such as the most common country where locations exist.)
 
     - **Required:** *Required* (we want to prevent users from entering a location record without a location)
 
     - **Searchable:** *Yes*
 
-1. In the bottom right, click **Save Table**, to ensure your changes are saved.
+1. In the bottom right, Select **Save Table**, to ensure your changes are saved.
 
 ### Create Custom TypeofAccident Table
 
@@ -93,9 +93,9 @@ It is good practice to name your custom choice with a prefix to help identify it
 
     - **Primary Name Column Display Name:** *TypeofAccidentId* (Note: the primary name is the column showed to users when they select records from this table, also the column shown on the many side when a Lookup column is used).
 
-1. Click **Create**, at the bottom.
+1. Select **Create**, at the bottom.
 
-1. Under the **Columns** tab, find the *TypeofAccidentId* field and click on it.
+1. Under the **Columns** tab, find the *TypeofAccidentId* field and Select it.
 
 1. On the columns tab, on the right, change the **Data type** from Text to **Autonumber**.
 
@@ -127,4 +127,4 @@ It is good practice to name your custom choice with a prefix to help identify it
 
     - **Searchable:** *Yes*
 
-1. In the bottom right, click **Save Table**, to ensure your changes are saved.
+1. In the bottom right, Select **Save Table**, to ensure your changes are saved.
