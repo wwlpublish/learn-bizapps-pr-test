@@ -4,7 +4,8 @@ metadata:
  title: Build the Dataverse table schema for the model-driven app
  description: Create necessary tables and table relationships to build the sample model-driven app.
  ms.date: 11/03/2021  
- author: Jadaphiillips  
+ author: jadaphillips  
+ ms.author: jadaphillips
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
 title: Build the Dataverse table schema for the model-driven app 
