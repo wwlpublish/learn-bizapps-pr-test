@@ -1,10 +1,10 @@
 Before we build the final AccidentTable,* it is beneficial to understand the different type of relationships. As mentioned earlier in the module we will need to build the following relationships between our custom tables:
 
-1. There will be a one-to-many relationship from the location table (LocationTable) to our main accident table (AccidentTable)
+- There will be a one-to-many relationship from the location table (LocationTable) to our main accident table (AccidentTable)
 
-1. There will be a one-to-many relationship from the location table (TypeofAccidentTable) to our main accident table (AccidentTable)
+- There will be a one-to-many relationship from the location table (TypeofAccidentTable) to our main accident table (AccidentTable)
 
-1. There will be a many-to-many relationship from the employee table (EmployeeTable) to our main accident table (AccidentTable)
+- There will be a many-to-many relationship from the employee table (EmployeeTable) to our main accident table (AccidentTable)
 
 We won't go into all the details about relationship in this module, for more detailed information please refer to this link [Dataverse Relationships](/powerapps/maker/data-platform/relationships-overview).
 
