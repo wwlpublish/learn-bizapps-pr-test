@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.add-business-process-flow 
 metadata: 
- title: Adding a business process flow inside the model-driven app
+ title: Add a business process flow inside the model-driven app
  description: This module will teach users how to add a simple business process flow to a model-driven app.
  ms.date: 11/03/2021  
  author: jadaphillips  
  ms.author: jadaphillips  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Adding a business process flow inside the model-driven app
+title: Add a business process flow inside the model-driven app
 summary: |  
   [!include[](../includes/module-banner.md)] 
   In this module we will learn how to add a business process flow to our app to provide users with guided path throughout the app. 
