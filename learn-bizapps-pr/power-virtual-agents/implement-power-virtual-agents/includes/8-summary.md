@@ -15,5 +15,5 @@ Using a no-code graphical interface will help to:
 ## Links to related modules for specific topics
 
 - [Share your bot with other users](/power-virtual-agents/admin-share-bots#assign-environment-security-roles)
-- [Assign access and change security options in Power Virtual Agents](/power-virtual-agents/configuration-security#access-settings-based-on-authentication-configuration)
+- [Assign access and change security options in Power Virtual Agents](/power-virtual-agents/configuration-end-user-authentication#access-settings-based-on-authentication-configuration)
 - [Key concepts - Configuration of Power Virtual Agents](/power-virtual-agents/configuration-fundamentals)
