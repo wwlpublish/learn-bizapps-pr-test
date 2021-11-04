@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 09/03/2021 
+ ms.date: 11/04/2021 
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -13,20 +13,20 @@ durationInMinutes: 8
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which of the following options is not a key capability of Home Health?
+  - content: Which of the following is a key capability of Home Health?
     choices: 
-    - content: Schedule home visits
-      isCorrect: false
-      explanation: Patient segmentation is not a key capability of Home Health.
     - content: Provider scheduling
-      isCorrect: false 
-      explanation: Patient segmentation is not a key capability of Home Health.
+      isCorrect: true
+      explanation: Provider scheduling is a key capability of Home Health.
+    - content: Event management
+      isCorrect: false
+      explanation: Provider scheduling is a key capability of Home Health.
     - content: Patient segmentation
-      isCorrect: true 
-      explanation: Patient segmentation is not a key capability of Home Health.
-    - content: Home visit coordination
+      isCorrect: false
+      explanation: Provider scheduling is a key capability of Home Health.
+    - content: Virtual clinic
       isCorrect: false 
-      explanation: Patient segmentation is not a key capability of Home Health.
+      explanation: Provider scheduling is a key capability of Home Health.
   - content: Which of the following terms is defined as anything that needs to be scheduled in Microsoft Cloud for Healthcare?
     choices: 
     - content: Booking

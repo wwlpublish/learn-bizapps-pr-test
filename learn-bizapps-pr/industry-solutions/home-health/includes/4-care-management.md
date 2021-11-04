@@ -23,13 +23,15 @@ In this task, you will assign the **Field Service - Resource** role to Home Heal
 
 1.  Go to [https://make.powerapps.com](https://make.powerapps.com/?azure-portal=true).
 
-1.  Go to **Apps** to select the **Field Service Mobile** app*, select the **gear icon** in the upper-right corner, and then go to **Advanced settings**.
+1.  Select the **gear icon** in the upper-right corner, and then go to **Advanced settings**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Field Service Mobile app.](../media/field-service-mobile.png)](../media/field-service-mobile.png#lightbox)
+	> [![Screenshot of the gearn icon and advanced settings.](../media/advanced-settings.png)](../media/advanced-settings.png#lightbox)
+
+1.  You will be navigated to the classic view. If it takes a while to load, refresh the page.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of Advanced settings.](../media/advanced-settings.png)](../media/advanced-settings.png#lightbox)
+	> [![Screenshot of the classic view.](../media/classic-view.png)](../media/classic-view.png#lightbox)
 
 1.  Select **Settings** and then select **Security**.
 
@@ -41,7 +43,10 @@ In this task, you will assign the **Field Service - Resource** role to Home Heal
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Users feature.](../media/users-feature.png)](../media/users-feature.png#lightbox)
 
-1.  Change the view to show **Enabled Users**.
+1.  The view will be set as Omnichannel Users. Change the view to show **Enabled Users**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the system views.](../media/views.png)](../media/views.png#lightbox)
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Enabled Users view.](../media/enabled-users.png)](../media/enabled-users.png#lightbox)
@@ -87,7 +92,7 @@ In this task, you will assign a Home Health work order to your Home Health booka
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Home Health app.](../media/home-health-app-selected.png)](../media/home-health-app-selected.png#lightbox)
 
-1.  Go to **Home Care** and open the unscheduled **Home Care Work Order 00020** for the Contoso, Ltd. household (opening any unscheduled Home Care work order is acceptable).
+1.  Go to **Home Care** and open the unscheduled **Home Care Work Order 00034** for the Contoso, Ltd. household (opening any unscheduled Home Care work order is acceptable).
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Home Care option in the Home Health screen.](../media/home-care-work-order.png)](../media/home-care-work-order.png#lightbox)
@@ -105,12 +110,12 @@ In this task, you will assign a Home Health work order to your Home Health booka
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Save & Close button.](../media/save-close-button.png)](../media/save-close-button.png#lightbox)
 
-1.  Go to the **Schedule Board** and select **Unscheduled Work Orders**.
+1.  Go to the **Schedule Board** and select **Unscheduled Work Orders**. You may have to expand the footer area using the bottom center arrow.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Unscheduled Work Orders option in the schedule board.](../media/unscheduled.png)](../media/unscheduled.png#lightbox)
 
-1.  Drag the Home Health work order onto the schedule board to assign it to your bookable resource.
+1.  **Drag** the **Home Health Work Order 00034** onto the **Schedule Board** to assign it to your **Bookable Resource**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Home Health work order moved onto the schedule board.](../media/drag-drop.png)](../media/drag-drop.png#lightbox)
@@ -125,26 +130,39 @@ In this task, you will assign a Home Health work order to your Home Health booka
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the state set as In Progress.](../media/in-progress.png)](../media/in-progress.png#lightbox)
 
-1. Select to open the work order. Notice that the **Booking Status** shows as **In Progress**.
+1. Select to open the work order. Notice that the **Status** shows as **In Progress**. Expand the status field using the blue arrow in the upper right.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Booking Status shown as In Progress.](../media/booking-status.png)](../media/booking-status.png#lightbox)
 
-1. Update the **Booking Status** from **In Progress** to "**Completed** to close the work order and then select **Save**.
+1. Select the magnifying glass next to the status field to modify the value. **Remove** In progress from the selected values by selecting the x next to it.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Booking Status set as Completed.](../media/completed.png)](../media/completed.png#lightbox)
+	> [![Screenshot of the x next to the in progress status.](../media/remove-status.png)](../media/remove-status.png#lightbox)
+
+1. Select the **Completed** option for **Booking Status** to close the Work Order.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Saving message.](../media/saving.png)](../media/saving.png#lightbox)
+	> [![Screenshot of the completed booking status.](../media/completed.png)](../media/completed.png#lightbox)
 
-1. Return to the **Home Health** app, select **Home Care** on the site map, and then find your work order. Notice that the **System Status** has been updated to **Open - Completed**.
+1. Select **Save** in the upper right corner. The Work order has been completed and the time values have reflected based on the start time and when we completed the order.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the completed work order.](../media/work-order-complete.png)](../media/work-order-complete.png#lightbox)
+
+1. We are now finished with the mobile app. Go back to the **Home Health app**.
+
+1. You'll see on the **schedule board** the work order has been updated to show the reflected time and status.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the completed work order on the schedule board.](../media/schedule-board-work-order.png)](../media/schedule-board-work-order.png#lightbox)
+
+1. Select **Home Care** on the site map and find **Work Order 00034**. You will see that the **System Status** has been updated to "Completed".
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of Home Care on the site map.](../media/home-care-work-order.png)](../media/home-care-work-order.png#lightbox)
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the System Status displayed as Open - Completed.](../media/open-completed.png)](../media/open-completed.png#lightbox)
+	> [![Screenshot of the System Status displayed as Completed.](../media/open-completed.png)](../media/open-completed.png#lightbox)
 
-Congratulations, you have assigned a Home Health work order to a Home Health bookable resource, updated the work order in the Field Service Mobile app, and then viewed those changes in the Home Health app in Microsoft Cloud for Healthcare.
-
+**Congratulations!** You have assigned a Home Health Work Order to a Home Health Bookable Resource, made updates to the work order in the Field Service mobile app, and then viewed those changes in the Microsoft Cloud for Healthcare Home Health app.

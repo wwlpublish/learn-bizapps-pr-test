@@ -42,10 +42,10 @@ The following screenshot shows an example of a configured schedule board.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Home Health app in the Apps list.](../media/home-health-app.png)](../media/home-health-app.png#lightbox)
 
-1.  Select **Home Care** and then open any work order.
+1.  Select **Home Care** on the left sitemap and open the **Thomson Household** Home Care Work Order record.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the active home care work orders.](../media/home-care.png)](../media/home-care.png#lightbox)
+	> [![Screenshot of the active home care work orders.](../media/home-care-record.png)](../media/home-care-record.png#lightbox)
 
 1. Select **Related** and then select **Characteristics**.
 

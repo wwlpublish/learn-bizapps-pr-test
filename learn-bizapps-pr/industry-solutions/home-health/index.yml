@@ -2,8 +2,8 @@
 uid: learn-bizapps.home-health 
 metadata: 
  title: Home health in Microsoft Cloud for Healthcare
- description: Learn how to empower health team collaboration within a healthcare organization by using the Home Health application in Microsoft Cloud for Healthcare. With the Home Health application, provider personnel can schedule appointments for the patient based on various factors. You can view patient information directly in context, and a guided business process flow ensures that each measure is taken prior to and after booking the appointment.
- ms.date: 09/03/2021  
+ description: Learn how to empower health team collaboration within a healthcare organization by using the Home Health application in Microsoft Cloud for Healthcare. With the Home Health application, provider personnel can schedule appointments for the patient based on various factors. You can view patient information directly in context, and a guided business process flow ensures each measure is taken before and after booking the appointment.
+ ms.date: 11/04/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -11,7 +11,7 @@ metadata:
 title: Home health in Microsoft Cloud for Healthcare
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  With the Home Health application in Microsoft Cloud for Healthcare, provider personnel can schedule appointments for the patient based on various factors. You can view patient information directly in context, and a guided business process flow ensures that each measure is taken prior to and after booking the appointment.
+  In this module you will learn how to empower health team collaboration within a healthcare organization by using the Home Health application in the Microsoft Cloud for Healthcare. With the Home Health application, provider personnel can schedule appointments for the patient based on various factors. You can view patient information directly in context, and a guided business process flow ensures each measure is taken prior to and after booking the appointment. More information can be found at [Use Home Health](/dynamics365/industry/healthcare/use-home-health/?azure-portal=true).
 abstract: |  
     In this module, you will: 
     - Create a bookable resource.
