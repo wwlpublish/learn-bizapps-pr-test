@@ -2,7 +2,7 @@ Web applications are critical components of most organizations, and they are com
 
 Most CRM and ERP platforms run through web browsers, while the most popular business productivity tools are web services. Web applications are unquestionably an integral part of the technological infrastructure of most companies.
 
-To provide automation solutions for these applications, Power Automate for desktop supports all major browsers through its web automation actions. More precisely, it supports the handling of the following browsers:
+To provide automation solutions for these applications, Power Automate for desktop supports all major browsers through its browser automation actions. More precisely, it supports the handling of the following browsers:
 
 - Microsoft Edge
 - Microsoft Internet Explorer
@@ -18,7 +18,7 @@ By the end of this module, you'll be able to develop web-related flows and extra
 
 In this module, you will:
 
-- Learn how to configure web automation actions.
+- Learn how to configure browser automation actions.
 - Learn how to extract data from web pages.
 - Create a flow that extracts gainer stocks from the MSN website.
 
