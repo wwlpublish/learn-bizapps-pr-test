@@ -27,7 +27,7 @@ In this exercise, you will create a healthcare-focused, virtual marketing event 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Next Stage button.](../media/next-stage.png)](../media/next-stage.png#lightbox)
 
-1.  Advance each stage in the business process flow until you reach the **Launch** stage. Observe the fields that are associated with stage as you advance through them.
+1.  Advance each stage in the business process flow until you reach the **Launch** stage. Observe the fields that are associated with each stage as you advance through them.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Launch stage.](../media/launch.png)](../media/launch.png#lightbox)
@@ -37,10 +37,14 @@ In this exercise, you will create a healthcare-focused, virtual marketing event 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Go live button on the command bar.](../media/go-live-command.png)](../media/go-live-command.png#lightbox)
 
-1.  The Microsoft Teams meeting URL will populate. You can also choose to make the recording available to attendees, enable Q/A for the event, and select other options by changing their corresponding toggle setting to **Yes**.
+1.  The Microsoft Teams meeting URL will populate.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the populated Teams URL value.](../media/teams.png)](../media/teamss.png#lightbox)
+
+1. You can also choose to change the meeting options. Toggle to **Yes** to enable settings and more fields appear. These allow you to make the recording available to attendees, enable meeting chat, allow reactions, and more.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the event stream details.](../media/event-details.png)](../media/event-details.png#lightbox)
 
-Congratulations, you have created a virtual marketing event by using Microsoft Cloud for Healthcare. For more information, see [Event planning and management overview](/dynamics365/marketing/event-management/?azure-portal=true).
-
+Congratulations, you have created a virtual marketing event for patients with hypermetropia by using Microsoft Cloud for Healthcare. For more information, see [Event planning and management overview](/dynamics365/marketing/event-management/?azure-portal=true).
