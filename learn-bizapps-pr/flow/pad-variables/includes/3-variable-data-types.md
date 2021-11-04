@@ -1,4 +1,4 @@
-When you create variables in your flows, Power Automate Desktop converts them to a specific type based on their content.
+When you create variables in your flows, Power Automate for desktop converts them to a specific type based on their content.
 
 Some of these data types are widely used throughout the application, such as numbers, while others, such as FTP connection, require explicit actions or groups of actions.
 

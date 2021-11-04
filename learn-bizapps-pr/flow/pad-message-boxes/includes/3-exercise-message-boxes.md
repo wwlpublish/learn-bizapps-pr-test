@@ -2,7 +2,7 @@ In attended automation, the interaction between users and workstations is essent
 
 In this exercise, you'll develop an attended flow that reads orders from Excel worksheets and prompts users to select a discount for high-value orders.
 
-To begin, download [**Orders.zip**](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-desktop/Orders.zip). Select **Download** on the right and extract the Excel file to your local computer.
+To begin, download [**Orders.zip**](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/raw/master/power-automate-desktop/Orders.zip). Select **Download** on the right and extract the Excel file to your local computer.
 
 1. Start by prompting the user to select an Excel file. Use the **Display select file dialog** action and configure the **File filter** field to allow only **xlsx** files.
 

@@ -9,8 +9,8 @@ By the end of this module, you will be able to deploy UI automation to identify 
 In this module, you will:
 
 - Learn about the concept of UI elements.
-- Discover the window and element-handling capabilities of Power Automate Desktop.
+- Discover the window and element-handling capabilities of Power Automate for desktop.
 
 ## Prerequisites
 
-To complete this module successfully, you should have basic familiarity with the Power Automate Desktop flow designer.
+To complete this module successfully, you should have basic familiarity with the Power Automate for desktop flow designer.

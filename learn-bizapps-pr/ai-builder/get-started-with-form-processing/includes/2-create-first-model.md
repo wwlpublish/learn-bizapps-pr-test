@@ -44,7 +44,7 @@ For the collection names **Contoso**, upload the five documents you will find on
 
 ![Animated screenshot of the Power Automate Add collections of documents page uploading five documents to each collection.](../media/form-processing-add-collections-2.gif)
 
-Once you have uploaded the sample documents to each collection click **Analyze** to continue. During the analysis step, AI Builder examines the documents that you have uploaded, and detects the fields and tables in your document. The time it takes to complete this operation depends on the number of documents provided, but in most cases, it should only take a few minutes.
+Once you have uploaded the sample documents to each collection click **Next** to continue.
 
 ## Tag documents
 

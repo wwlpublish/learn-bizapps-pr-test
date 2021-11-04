@@ -12,7 +12,7 @@ In this exercise, you will apply some of the **If** actions available, in order 
 
 1. This will only run if the Folder exists. By this stage, your flow should look like this:
 
-    ![Screenshot of the initial flow structure.](..\media\initial-process-structure.png)
+    ![Screenshot of the initial flow structure.](..\media\initial-flow-structure.png)
 
 1. If the file exists, move it to the desktop folder using the **Move Files** action. Otherwise, the user should be notified; add an **Else** action inside the second if block, and a **Display Message** action to inform the user that the file has already been moved.
 

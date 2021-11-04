@@ -49,7 +49,7 @@ To learn more about access and the scope of the different privileges, see [Secur
 
 1. On the **All Roles** page, click **New**.
 1. In the **Role Name** box, enter *Pet Grooming Technicians*.
-1. In the Security Role designer, on the **Custom Entities** tab, find the **Pet** table.
+1. In the Security Role designer, on the **Custom Tables** tab, find the **Pet** table.
 1. On the **Pet** row, click **Read**, **Write**, and **Append** four times, to set the scope for each to *organization* ![Screenshot of the Global organization scope green.](../media/organizational-scope-privilege.png) is selected:
 
     ![Screenshot of the Read, Write, and Append with scope set green.](../media/updated-custom-security-role.png)
@@ -57,7 +57,7 @@ To learn more about access and the scope of the different privileges, see [Secur
 1. The pet grooming app also has a relationship with the account table. On the **Core Rows** tab, on the **Account** row select the **Read** privilege four times until it is set to *organization* scope ![Screenshot of global organization scope set to green.](../media/organizational-scope-privilege.png).
 1. Click **Save and Close**.
 1. In the Security Role designer, select **New** and then in the **Role Name** box, enter *Pet Grooming Schedulers*.
-1. On the **Custom Entities** tab, find the **Pet** table.
+1. On the **Custom Tables** tab, find the **Pet** table.
 1. On the **Pet** row, click each of the following privileges four times, until the *organization* scope ![Global organization green scope icon.](../media/organizational-scope-privilege.png) is selected: **Create**, **Read**, **Write**, **Delete**, **Append**, **Append To**, **Assign**, and **Share**.
 1. The pet grooming app also has a relationship with the account table, and schedulers must be able to create and change account rows. Therefore, on the **Core rows** tab, on the **Account** row, select each of the following privileges four times, until the *organization* scope ![Global organization scope green icon.](../media/organizational-scope-privilege.png) is selected: **Create**, **Read**, **Write**, **Delete**, **Append**, **Append To**, **Assign**, and **Share**.
 1. Select **Save and Close**.
@@ -92,6 +92,6 @@ The following predefined roles are available with a PowerApps environment. Unles
 |--------------------------|------------|-------------|
 | Environment Maker        | None | Users who have this role can create new resources that are associated with an environment, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Microsoft Flow. But these users can't access the data in an environment. To learn more about environments, see [Announcing Power Apps environments](https://powerapps.microsoft.com/blog/powerapps-environments/?azure-portal=true). |
 | System Administrator     | Create, Read, Write, Delete, Customize | This role has full permission to customize or administer the environment, including creating, changing, and assigning security roles. User who have this role can view all data in the environment. To learn more, see [Privileges required for customization](/dynamics365/customer-engagement/customize/privileges-required-customization/?azure-portal=true). |
-| System Customizer        | Create (self), Read (self), Write (self), Delete (self), Customizations | This role has full permission to customize the environment. But users who have this role can view rows only for environment entities that they create. To learn more, see [Privileges required for customization](/dynamics365/customer-engagement/customize/privileges-required-customization/?azure-portal=true). |
+| System Customizer        | Create (self), Read (self), Write (self), Delete (self), Customizations | This role has full permission to customize the environment. But users who have this role can view rows only for environment tables that they create. To learn more, see [Privileges required for customization](/dynamics365/customer-engagement/customize/privileges-required-customization/?azure-portal=true). |
 | Basic User | Read, Create (self), write (self), delete (self) | Users who have this role can run an app in the environment and perform common tasks for the rows they own. |
 | Delegate                 | Act on behalf of another user | This role lets code run as or impersonate another user. This role is typically used with another security role to provide access to rows. To learn more, see [Impersonate another user](/dynamics365/customerengagement/on-premises/developer/org-service/impersonate-another-user/?azure-portal=true). |

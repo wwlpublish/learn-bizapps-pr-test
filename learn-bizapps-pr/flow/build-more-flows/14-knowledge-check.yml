@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
   title: "Knowledge check: Build more complex flows with Power Automate" 
   description: This quiz tests your knowledge of how to create more complex flows.
-  ms.date: 06/08/2021
+  ms.date: 10/29/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
@@ -16,13 +16,13 @@ quiz:
   - content: What are connectors used for in Power Automate? 
     choices:  
     - content: Connectors are used to start a flow.
-      explanation: Connectors let you connect to a services like Salesforce, Microsoft 365, Twitter. 
+      explanation: Connectors let you connect to a service like Salesforce, Microsoft 365, Twitter. 
       isCorrect: false 
     - content: Connectors let you build a flow that accepts user input.
       explanation: Connectors let you connect to a service like Twitter.
       isCorrect: false 
-    - content: Connectors let you connect to a services like Salesforce, Microsoft 365, Twitter.
-      explanation: Connectors let you connect to a services like Salesforce, Microsoft 365, Twitter.
+    - content: Connectors let you connect to a service like Salesforce, Microsoft 365, Twitter.
+      explanation: Connectors let you connect to a service like Salesforce, Microsoft 365, Twitter.
       isCorrect: true 
   - content: How can you define who has privileges to create, read, update, or delete a business process flow instance?
     choices: 

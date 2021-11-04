@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-bizapps.manage-volunteers-groups
+metadata:
+ title: Manage volunteers and groups with Volunteer Management
+ description: Learn to add volunteers and create groups of volunteers, and to manage volunteer participation and communication.
+ ms.date: 11/01/2021
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-industry-solutions
+title: Manage volunteers and groups with Volunteer Management
+summary: |
+  [!include[](../includes/module-banner.md)]
+  Learn to add volunteers and create groups of volunteers, and to manage volunteer participation and communication.
+abstract: |
+    In this module, you will:
+    - Manage volunteer details such as personal and contact details, qualifications and preferences, and availability
+    - See a history of a volunteer's participation
+    - Use groups to manage volunteers with common interests, roles, or affiliations
+prerequisites: None
+iconUrl: /learn/achievements/manage-volunteers-groups.svg
+levels:
+- intermediate
+roles:
+- business-user
+- functional-consultant
+products:
+- industry-solutions
+- mscloud-nonprofit
+units:
+- learn-bizapps.manage-volunteers-groups.1-introduction
+- learn-bizapps.manage-volunteers-groups.2-work-volunteers
+- learn-bizapps.manage-volunteers-groups.3-use-groups
+- learn-bizapps.manage-volunteers-groups.4-check
+- learn-bizapps.manage-volunteers-groups.5-summary
+badge:
+  uid: learn-bizapps.manage-volunteers-groups.badge

@@ -15,7 +15,7 @@ In this view, you will be able to configure the action’s exception handling be
 > [!NOTE]
 > You can drag and drop any user-created rules to rearrange them.
 
-In the above case, for example, when this action fails, it will retry one more time after 2 seconds, and then run a subflow that will send an email to notify the administrator about the database status.
+In the above case, for example, when this action fails, it will retry one more time after 2 seconds, and then run a subflow that will send an email to notify the administrator about the database status. Additionally, the action will change the value of a variable that indicates that the database is down.
 
 By default, exception handling takes effect when any exception occurs while this action is running - however, you can configure it so that exception handling occurs only on a specific type of exception. Each action has specific exception types that it may produce:
 
@@ -27,7 +27,7 @@ In this example, the exception handling rules will only apply when the **Can't c
 
 There are cases where one cannot be certain which action is at risk of failing, and it is not practical to apply the same exception handling rules to every single action.
 
-For example, consider a flow in which Power Automate Desktop interacts with the web portal. If at any point during this task the portal or browser becomes unresponsive, the preferred action is to close the browser, launch it again, and restart the entire web portal interaction from the beginning. However, a web portal interaction can span tens, or even hundreds of actions; so assigning the same exception handling rules to each action individually is impractical.
+For example, consider a flow in which Power Automate for desktop interacts with the web portal. If at any point during this task the portal or browser becomes unresponsive, the preferred action is to close the browser, launch it again, and restart the entire web portal interaction from the beginning. However, a web portal interaction can span tens, or even hundreds of actions; so assigning the same exception handling rules to each action individually is impractical.
 
 The **On block error** action allows you to apply one set of exception handling rules to an entire block of actions:
 

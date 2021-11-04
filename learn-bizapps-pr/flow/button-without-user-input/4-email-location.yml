@@ -4,9 +4,9 @@ title: Create a Power Automate button that sends an email with your location
 metadata: 
   title: Create a Power Automate button that sends an email with your location 
   description: Learn how to create a Power Automate button that sends your manager an email with your location. 
-  ms.date: 06/21/2021 
-  author: KevSch 
-  ms.author: kschimke 
+  ms.date: 10/01/2021 
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 15 

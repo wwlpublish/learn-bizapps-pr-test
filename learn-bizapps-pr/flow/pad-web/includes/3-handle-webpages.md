@@ -1,10 +1,10 @@
-Power Automate Desktop enables you to interact with any web application through UI elements. You can consider UI elements as web components, such as buttons and text fields.
+Power Automate for desktop enables you to interact with any web application through UI elements. You can consider UI elements as web components, such as buttons and text fields.
 
 To specify a UI element, you have to create Cascading Style Sheets (CSS) selectors that pinpoint the specific component you want to interact with.
 
 When you create a new UI element, the platform store it in the **UI elements pane**, located on the right side of the **flow designer**.
 
-![Screenshot of the Power Automate U I elements pane.](..\media\ui-elements-pane.png)
+![Screenshot of the Power Automate for desktop U I elements pane.](..\media\ui-elements-pane.png)
 
 All the actions that handle specific components in web pages require UI elements as input parameters. To create a UI element, follow the following steps:
 
@@ -62,7 +62,7 @@ In the action's properties, you have to set the text to write, the browser insta
 
 ## Focus text field on web page
 
-Although Power Automate Desktop provides an action to populate text fields automatically, you might want to just set the input focus on them.
+Although Power Automate for desktop provides an action to populate text fields automatically, you might want to just set the input focus on them.
 
 The platform enables you to do that through the **Focus text field on web page** action. In the action's properties, you have to populate a UI element describing the text box and a browser instance.
 

@@ -8,7 +8,7 @@ In a separate tab, open the Teams app. In another tab, open the Outlook app. Now
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Test Flow dialog box with Manually selected.](../media/18-test-manually.png)](../media/18-test-manually.png#lightbox)
 
-Open the Power Automate Desktop application and send yourself an email with an attachment and the subject line of "New invoice." The flow will appear with indications on each step to show where your flow is in the process.
+Open the Power Automate for desktop application. Send yourself an email with an attachment and the subject line of "New invoice." The flow will appear with indications on each step to show where your flow is in the process.
 
 When the Teams message appears, select **Yes**.
 

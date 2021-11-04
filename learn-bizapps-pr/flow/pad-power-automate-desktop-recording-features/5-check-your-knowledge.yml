@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: "Keep track of a user's actions on a workstation"
       isCorrect: false 
-      explanation: "That is false; the recorders translate users' actions into Power Automate Desktop actions."
+      explanation: "That is false; the recorders translate users' actions into Power Automate for desktop actions."
     - content: "Monitor the idle time of users’ workstations"
       isCorrect: false 
-      explanation: "That is false; the recorders translate users' actions into Power Automate Desktop actions."
-    - content: "Generate Power Automate Desktop actions which automate users’ actions"
+      explanation: "That is false; the recorders translate users' actions into Power Automate for desktop actions."
+    - content: "Generate Power Automate for desktop actions which automate users’ actions"
       isCorrect: true
-      explanation: "That is correct! The recorders translate users' actions into Power Automate Desktop actions."
+      explanation: "That is correct! The recorders translate users' actions into Power Automate for desktop actions."
     - content: "All of the above"
       isCorrect: false 
-      explanation: "That is false; the recorders translate users' actions into Power Automate Desktop actions."
+      explanation: "That is false; the recorders translate users' actions into Power Automate for desktop actions."
   - content: "What is the functionality of the web recorder?"
     choices: 
     - content: "It generates coordinate-based actions to replicate a user’s interaction with a web browser."
@@ -46,7 +46,7 @@ quiz:
     - content: "Both"
       isCorrect: true 
       explanation: "Both mouse clicks and keystrokes are captured by the desktop recorder."
-  - content: "Which browser(s) does the Power Automate Desktop support for web recording?"
+  - content: "Which browser(s) does the Power Automate for desktop support for web recording?"
     choices: 
     - content: "Microsoft Internet Explorer"
       isCorrect: false 

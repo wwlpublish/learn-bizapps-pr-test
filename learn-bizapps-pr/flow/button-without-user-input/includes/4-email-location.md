@@ -36,7 +36,9 @@ entirely from the Power Automate app on your smart phone.
 
 1. For both **Source time zone** and **Destination time zone**, select the same time zone that works for your geographic location. This example uses the **(UTC-05:00) Eastern Time (US & Canada)** option. After you have selected the time zone, select **Done** on the upper right of the screen.
 
-1. For **Format String**, select **General date/time pattern (short time) - Monday, June 15, 2009 1:45 PM (g)**.
+1. For **Format String**, select **General date/time pattern (short time) - 6/15/2009 1:45 PM (g)**.
+
+1. Select **+ New step**.
 
 1. In the **Connectors** option, select **Office 365 Users**. If you
     don't see the selection, then search for it in **Search all connectors and
@@ -67,7 +69,7 @@ entirely from the Power Automate app on your smart phone.
 
 1. Select **Body** and then enter the following text:
 
-    ```Hi.```
+    ```Hi```
 
 1. Then, next to **Get Manager (V2)**, select **See more**. Select **Display Name** and then **Done**.
 

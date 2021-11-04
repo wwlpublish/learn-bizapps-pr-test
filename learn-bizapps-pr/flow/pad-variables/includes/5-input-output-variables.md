@@ -1,11 +1,11 @@
-While Power Automate Desktop can work autonomously, you may need to exchange data with other products of the Power Automate platform.
+While Power Automate for desktop can work autonomously, you may need to exchange data with other products of the Power Automate platform.
 
-Power Automate Desktop provides this functionality through the input and output variables. Using these variables, you can pass data to and from Power Automate Desktop and develop sophisticated flows.
+Power Automate for desktop provides this functionality through the input and output variables. Using these variables, you can pass data to and from Power Automate for desktop and develop sophisticated flows.
 
 This feature creates unlimited potentialities allowing you to make the most out of the platform and create a complete automation solution.
 
 > [!NOTE]
-> You can find more information about passing data between Power Automate Desktop and Power Automate in [Link a Power Automate Desktop flow with a flow](/power-automate/ui-flows/desktop/link-pad-flow-portal/?azure-portal=true).
+> You can find more information about passing data between Power Automate for desktop and Power Automate in [Link a Power Automate desktop flow with a cloud flow](/power-automate/ui-flows/desktop/link-pad-flow-portal/?azure-portal=true).
 
 To create an input or output variable, select the + button in the variables pane, and choose the respective option.
 

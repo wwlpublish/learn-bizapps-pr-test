@@ -1,4 +1,4 @@
-New flows are created through the Power Automate Desktop Console, using the **New flow** button.
+New flows are created through the Power Automate for desktop console, using the **New flow** button.
 
 Development takes place in the flow designer. Actions are the basic building blocks of a flow, while variables are used to store data to be used as input or output in actions.
 

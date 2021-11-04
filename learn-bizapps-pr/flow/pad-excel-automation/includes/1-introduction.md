@@ -12,13 +12,13 @@ This module demonstrates some of the most common uses of Excel actions by design
 
 ## Learning objectives
 
-In this module, you will learn how to:
+In this module, you'll learn how to:
 
-* Open Excel files and attach a process to an already opened file.
+* Open Excel files and attach a flow to an already opened file.
 * Use the Excel group of actions to read and write data to and from Excel files.
 * Create and edit worksheets.
 * Save and close Excel files.
 
 ## Prerequisites
 
-To complete this module, you will need to have basic familiarity with the Power Automate Desktop console and flow designer, in addition to basic familiarity with Microsoft Excel.
+To complete this module, you'll need to have basic familiarity with the Power Automate for desktop console and flow designer, in addition to basic familiarity with Microsoft Excel.
