@@ -7,7 +7,7 @@ At the end of this exercise, you'll be able to accomplish the following:
 - Remove members from a household
 
 > [!IMPORTANT]
-> Before you begin, to achieve the maximum effect for this lab and the other labs, it is recommended that you have deployed Fundraising and Engagement with the sample data. For more information, see the [Deployment Guide](.https://aka.ms/DeployMicrosoftCloudForNonprofit/?azure-portal=true).
+> Before you begin, to achieve the maximum effect for this lab and the other labs, it is recommended that you have deployed Fundraising and Engagement with the sample data. For more information, see the [Deployment Guide](https://aka.ms/DeployMicrosoftCloudForNonprofit/?azure-portal=true).
 
 ## Creating a household and adding members
 
