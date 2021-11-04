@@ -40,7 +40,7 @@ In this exercise, you will create a healthcare-focused, virtual marketing event 
 1.  The Microsoft Teams meeting URL will populate.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the populated Teams URL value.](../media/teams.png)](../media/teamss.png#lightbox)
+	> [![Screenshot of the populated Teams URL value.](../media/teams.png)](../media/teams.png#lightbox)
 
 1. You can also choose to change the meeting options. Toggle to **Yes** to enable settings and more fields appear. These allow you to make the recording available to attendees, enable meeting chat, allow reactions, and more.
 
