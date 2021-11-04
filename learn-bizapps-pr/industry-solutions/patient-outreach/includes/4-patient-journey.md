@@ -7,7 +7,7 @@ The following screenshot shows an example of a configured patient journey that f
 
 Now let’s make our own patient journey for patients with hypermetropia.
 
-1. In the Patient Outreach app in [https://make.powerapps.com](https://make.powerapps.com), select **Patient journeys** under **Marketing execution** on the site map.
+1. In the Patient Outreach app in [https://make.powerapps.com](https://make.powerapps.com/?azure-portal=true), select **Patient journeys** under **Marketing execution** on the site map.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of customer journeys in the navigation.](../media/customer-journey.png)](../media/customer-journey.png#lightbox)
