@@ -86,35 +86,31 @@ To create a bookable resource in the Home Health application, follow these steps
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of New Bookable Resource Characteristic option in the navigation pane.](../media/new-bookable-resource-characteristic.png)](../media/new-bookable-resource-characteristic.png#lightbox)
 
-1. In the **Characteristic** field, select the magnifying glass and then select **+ New Characteristic**.
+1. In the **Skill Name** field, select the magnifying glass and then select **+ New Characteristic**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the New Characteristic button.](../media/new-characteristic.png)](../media/new-characteristic.png#lightbox)
 
-1. When prompted to leave this page, select **OK**.
+1. A quick create form for Characteristic will appear. We want to assign a characteristic to the bookable resource. In this case, the user can speak Spanish fluently. Type "**Spanish fluency**" for the **Name** and select **Save & Close.**
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the OK button.](../media/ok-button.png)](../media/ok-button.png#lightbox)
+	> [![Screenshot of the quick create characteristic record for spanish fluency.](../media/characteristic-spanish.png)](../media/characteristic-spanish.png#lightbox)
 
-1. Type **Spanish fluency** for the **Name** and then select **Save & Close**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the name set as Spanish fluency.](../media/spanish-fluency.png)](../media/spanish-fluency.png#lightbox)
-
-1. On the bookable resource record, on the **General** tab, select **+ New Bookable Resource Characteristic**.
+1. Back on the Bookable Resource Characteristic quick create form, the Skill Name should be populated with the new Spanish fluency characteristic. Select **Save & Close**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the New Bookable Resource Characteristic option in the menu.](../media/new-bookable-resource-characteristic.png)](../media/new-bookable-resource-characteristic.png#lightbox)
-
-1. In the **Characteristic** field, select the magnifying glass and then search for and select the **Spanish fluency** resource characteristic that you created. Select **Save & Close**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Sreenshot of Spanish fluency displayed in the characteristic search results.](../media/search-characteristic.png)](../media/search-characteristic.png#lightbox)
+	> [![Screenshot of save and close on the bookable resource characteristic quick create form.](../media/save-close.png)](../media/save-close.png#lightbox)
 
 	> [!NOTE]
-	> Characteristics represent a resource's skills and certifications, which could be concrete, such as a CPR certification. These skills and certifications can also be general, such as accounting or web development experience, or they can be as simple as security clearance for a specific building or fluency in the Spanish language.
+	> Characteristics represent a resource's skills and certifications. This could be concrete, like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building or fluency in the Spanish language.
 
-1. To have more data in the system, create **two** more bookable resources by following the same process. For each new bookable resource, select **Contact** as the **Resource Type** and then choose any contact in the system. Select **Location Agnostic** and then select **Save**. Configure the **work hours** as you did with the previous bookable resource, and then select **Save & Close**.
+1. Your bookable resource (user) now has working hours configured and the proper characteristics applied.
 
-Congratulations, you have now created a bookable resource. In the next task, you will use this bookable resource to help configure the schedule board.
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the bookable resource record with working hours.](../media/bookable-resource-hours.png)](../media/bookable-resource-hours.png#lightbox)
+
+1. For more data in the system, create **two** more **Bookable Resources** following the same process. For each of them, select **Contact** as the **Resource Type** and choose any **Contact** in the system. Choose **Location Agnostic** just as before and select **Save**. Configure the **Work Hours** the same as the previous Bookable Resource. Add characteristics as you see fit and select **Save & Close**.
+
+**Congratulations**! You have created a Bookable Resource. In the next task, we will use this bookable resource to help configure the Schedule Board.
+
 
