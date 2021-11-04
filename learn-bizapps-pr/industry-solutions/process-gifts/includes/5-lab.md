@@ -10,7 +10,7 @@ At the end of this exercise, you'll be able to accomplish the following:
 
 ## Sample data
 
-Before you begin, to achieve the maximum effect for this lab and the other labs, we recommended deploying Fundraising and Engagement with the sample data. For more information, see the [Deployment Guide](https://aka.ms/fedeploymentguide/?azure-portal=true).
+Before you begin, to achieve the maximum effect for this lab and the other labs, we recommended deploying Fundraising and Engagement with the sample data. For more information, see the [Deployment Guide](.https://aka.ms/DeployMicrosoftCloudForNonprofit/?azure-portal=true).
 
 ## Add a new credit card
 
