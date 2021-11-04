@@ -3,7 +3,8 @@
 The current sales process for your company is manual and updates are only provided
 each Friday. To simplify this process, minimize the opportunity for mistakes, and 
 improve visibility, you have decided you want to create a new app to track sales 
-leads and automatically calculate the forecasted revenue. You want to use Dataverse to store the list of potential customers. 
+leads and automatically calculate the forecasted revenue. You want to use Common 
+Data Service to store the list of potential customers. 
 
 ## Use Microsoft Dataverse to store data
 
@@ -84,12 +85,12 @@ exercise. Open the link, and select the Download button and save it locally.
 1. Open the file. Notice the “Stage” column is empty, you will need to look these up and enter them manually. 
 1. Go to the [Power Apps home page](https://powerapps.microsoft.com/?azure-portal=true) and sign in to Power Apps.
 1. Go back to your Excel file and in the Stage column enter the values as below:
-	- **Contoso Flooring**: Won.
-	- **Fabrikam Inc**:  Won.
-	- **Adventure Works**: Lead.
-	- **Adatum**: Lead.
-	- **VanArsdel**: Lost.
-	- **Relecloud**: Opportunity.
+	- **Contoso Flooring**: Won
+	- **Fabrikam Inc**:  Won
+	- **Adventure Works**: Lead
+	- **Adatum**: Lead
+	- **VanArsdel**: Lost
+	- **Relecloud**: Opportunity
 1. Save and close the Excel file.
 1. Continue with the **Prospects** table.
 1. Select the drop-down arrow to the right of **Get data** and select **Get data from Excel**.

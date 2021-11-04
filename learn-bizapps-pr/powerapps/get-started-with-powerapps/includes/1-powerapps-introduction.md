@@ -1,11 +1,3 @@
-Welcome to Microsoft Power Apps. This self-paced, online module helps you build apps from the ground up.
-
- In this module, you will:
-  - Explore how Power Apps can make your business more efficient.
-  - Learn which technologies to use to perform tasks in Power Apps.
-  - Learn about the different ways to build an app in Power Apps.
-  - Create your first app from data in a Microsoft Excel workbook.
-
 Power Apps is a suite of apps, services, connectors, and a data platform that provides you with an opportunity to build custom apps for your business needs. By using Power Apps, you can quickly build custom business apps that connect to your business data that is stored either in the underlying data platform (Microsoft Dataverse) or in various online and on-premises data sources (SharePoint, Excel, Office 365, Dynamics 365, SQL Server, and so on).
 
 Apps that are built by using Power Apps provide rich business logic and workflow capabilities to transform your manual business processes to digital, automated processes. Power Apps simplifies the custom business app building experience by enabling users to build feature-rich apps without writing code.

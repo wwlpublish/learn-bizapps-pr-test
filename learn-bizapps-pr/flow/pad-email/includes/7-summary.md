@@ -1,1 +1,1 @@
-Power Automate Desktop enables the automation of virtually every email-related procedure through the email, Outlook, and Exchange actions. These actions allow you to retrieve, send, and process emails using webmail services, Microsoft Outlook, and Exchange servers.
+Power Automate for desktop enables the automation of virtually every email-related procedure through the email, Outlook, and Exchange actions. These actions allow you to retrieve, send, and process emails using webmail services, Microsoft Outlook, and Exchange servers.

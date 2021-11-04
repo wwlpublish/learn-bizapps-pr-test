@@ -3,7 +3,7 @@ In this exercise, you'll create a flow that extracts gainer stocks from the MSN 
 > [!NOTE]
 > The exercise is developed based on the USA version of the MSN Money page, but it'll work with all the regional versions with the same structure.
 
-1. Launch Power Automate Desktop console and create a new flow named **Gainer stocks extraction**.
+1. Launch the Power Automate for desktop console and create a new flow named **Gainer stocks extraction**.
 
     ![Screenshot of the Build a flow dialog.](..\media\exercise-new-flow.png)
 

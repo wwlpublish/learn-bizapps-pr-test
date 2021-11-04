@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.moves-management 
+metadata: 
+ title: Moves management to raise major gifts with Fundraising and Engagement
+ description: Learn to manage fundraising for major gifts with a dashboard for tracking and opportunity management.
+ ms.date: 11/01/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-industry-solutions  
+title: Moves management to raise major gifts with Fundraising and Engagement
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Learn to manage fundraising for major gifts with a dashboard for tracking and opportunity management.
+abstract: |  
+    In this module, you will: 
+    - Use dashboards to view major gifts received
+    - Understand how to use opportunities to manage major moves
+    - Understand components of an opportunity record
+    - Understand funding reports
+    - Create designation plans and donor commitments from an opportunity
+prerequisites: None
+iconUrl: /learn/achievements/moves-management.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products:
+- industry-solutions
+- mscloud-nonprofit
+units: 
+- learn-bizapps.moves-management.1-introduction 
+- learn-bizapps.moves-management.2-development 
+- learn-bizapps.moves-management.3-opportunities 
+- learn-bizapps.moves-management.4-funding-reports 
+- learn-bizapps.moves-management.5-create-designation 
+- learn-bizapps.moves-management.6-lab 
+- learn-bizapps.moves-management.7-check 
+- learn-bizapps.moves-management.8-summary 
+badge: 
+  uid: learn-bizapps.moves-management.badge 

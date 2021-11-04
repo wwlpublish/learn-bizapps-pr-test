@@ -8,9 +8,7 @@ Business process flows can be configured to require users to enter certain colum
 > To complete this exercise, you will need access to an account that has permission to create tables and columns in Dataverse and you need a Power Apps or Dynamics 365 license. Ask your Power Platform administrator for proper permissions or sign in and create a personal Power Apps and Power Automate development environment by using the Power Apps Community Plan (which is free). Sign up by accessing the Power Apps Community Plan page.
 
 
-The following illustration shows a simple business process flow with two
-stages for adding questions to a survey. The business process
-flow is shown as a component of a model-driven solution in Power Apps.
+The following illustration shows a simple business process flow as shown as a component of a model-driven solution in Power Apps.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Power Automate Flows page with the Business process flows tab selected and highlighted.](../media/embedded-business-process-flow-stage.png)](../media/embedded-business-process-flow-stage.png#lightbox)

@@ -4,9 +4,9 @@ title: Create a weather report Power Automate button
 metadata: 
   title: Create a weather report Power Automate button 
   description: Learn how to create a Power Automate button that sends you the weather report. 
-  ms.date: 06/21/2021 
-  author: KevSch 
-  ms.author: kschimke 
+  ms.date: 10/01/2021 
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 8 

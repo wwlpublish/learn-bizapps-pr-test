@@ -1,6 +1,6 @@
-Automating business tasks is a unique task of its own, requiring users to manually add, arrange, and configure individual actions to achieve the required results. The **desktop and web recorders** provide a way for users to jumpstart the automation of a manual task by performing it, and allowing power automate desktop to automatically interpret their actions into power automate desktop actions.
+Automating business tasks is a unique task of its own, requiring users to manually add, arrange, and configure individual actions to achieve the required results. The **desktop and web recorders** provide a way for users to jumpstart the automation of a manual task by performing it, and allowing power automate desktop to automatically interpret their actions into Power Automate for desktop actions.
 
-Let’s take a look at a common automation case. A considerable number of business tasks require the use of web portals: launching a web browser, navigating to the portal page, entering login credentials, and then proceeding to interact with the web page, are all steps that require a significant number of individual actions to automate. Using the web recorder, these actions can be automatically generated and configured by Power Automate Desktop, with minimal effort by the user.
+Let’s take a look at a common automation case. A considerable number of business tasks require the use of web portals: launching a web browser, navigating to the portal page, entering login credentials, and then proceeding to interact with the web page, are all steps that require a significant number of individual actions to automate. Using the web recorder, these actions can be automatically generated and configured by Power Automate for desktop, with minimal effort by the user.
 
 In this module, you will learn how to use recorders during development, and how to apply the different types of recorders according to the nature of the task at hand.
 
@@ -16,6 +16,6 @@ In this module, you will:
 
 ## Prerequisites
 
-* Basic familiarity with the Power Automate Desktop flow designer
-* Basic familiarity with the Power Automate Desktop console
-* Preconfiguration of Power Automate Desktop for web automation
+* Basic familiarity with the Power Automate for desktop flow designer
+* Basic familiarity with the Power Automate for desktop console
+* Preconfiguration of Power Automate for desktop for web automation

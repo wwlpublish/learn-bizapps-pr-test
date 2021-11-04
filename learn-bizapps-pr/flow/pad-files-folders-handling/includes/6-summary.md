@@ -1,1 +1,1 @@
-Power Automate Desktop provides users with the ability to handle files and folders through the files and folders actions. These actions allow users to develop sophisticated processes that create, retrieve, and modify files and folders.
+Power Automate for desktop provides users with the ability to handle files and folders through the files and folders actions. These actions allow users to develop sophisticated flows that create, retrieve, and modify files and folders.

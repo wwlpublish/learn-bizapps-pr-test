@@ -1,26 +1,26 @@
 ### YamlMime:Module 
 uid: learn-bizapps.pad-power-automate
 metadata: 
- title: Combine Power Automate Desktop and Power Automate
- description: This module describes how to combine a Power Automate Desktop flow with a Power Automate flow.
- ms.date: 12/10/2020 
+ title: Combine Power Automate desktop and cloud flows
+ description: This module describes how to combine a Power Automate desktop flow with a Power Automate cloud flow.
+ ms.date: 09/20/2021 
  author: mariosleon  
  ms.author: marleon
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Combine Power Automate Desktop and Power Automate
+title: Combine Power Automate desktop and cloud flows
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module describes how to combine a Power Automate Desktop flow with a Power Automate flow. It demonstrates how to call an existing Power Automate Desktop flow from Power Automate to enhance its functionality and save time when designing large, complex flows.
+  This module describes how to combine a Power Automate desktop flow with a Power Automate cloud flow. It demonstrates how to call an existing Power Automate desktop flow from a cloud flow to enhance its functionality and save time when designing large, complex flows.
 abstract: |  
     In this module, you will: 
-    - Create a flow in Power Automate that calls a Power Automate Desktop flow.
-    - Use the values of variables from Power Automate in a Power Automate Desktop flow.
-    - Use the resulting variables from Power Automate Desktop in Power Automate actions.
+    - Create a cloud flow in Power Automate that calls a Power Automate desktop flow.
+    - Use the values of variables from Power Automate in a Power Automate desktop flow.
+    - Use the resulting variables from Power Automate for desktop in Power Automate actions.
 prerequisites: |
     - Either a paid or trial Power Automate license.
     - A work or school account to sign into your Windows device with administrator privileges and Power Automate.
-    - A device that runs Windows 10 Pro or Windows Server 2019.
+    - A device that runs Windows 10 or Windows Server 2019.
     - Microsoft Edge (version 80 or later) or other supported browser.
     - An environment with a Dataverse database. 
 iconUrl: /learn/achievements/pad-power-automate.svg  

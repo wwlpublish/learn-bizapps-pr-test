@@ -4,8 +4,7 @@ it throughout your app. This allows you to avoid repetitive query for
 the same information repetitively, to build out the information you need
 in an imperative way, or sometimes just as a place holder.
 
-Storing information for your user
----------------------------------
+## Storing information for your user
 
 A common design pattern in apps is to personalize the app. This can be
 as simple as saying Welcome and displaying the user's name on each screen of the
@@ -37,13 +36,13 @@ Now for your Label control, you would change the formula to the following.
 ```
 "Welcome " & varUserDisplayName
 ```
+![Screenshot of code and corresponding message from previous step.](../media/3-welcome-message.png)
 
 This formula gets you the same output as the previous formula, but instead of
 having to go back to Azure AD on every screen, Power Apps can reference the
 value stored in the variable.
 
-Tracking status in a variable
------------------------------
+## Tracking status in a variable
 
 In a declarative mindset, you might hide or show controls based on a
 query for data. For example, if you had an app for managing customer's

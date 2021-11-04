@@ -1,4 +1,4 @@
-To interact with UI items, Power Automate Desktop must first identify them. To do so without resorting to image recognition or on-screen positions, Power Automate Desktop uses UI elements to identify windows and their contents.
+To interact with UI items, Power Automate for desktop must first identify them. To do so without resorting to image recognition or on-screen positions, Power Automate for desktop uses UI elements to identify windows and their contents.
 
 ## Add controls
 

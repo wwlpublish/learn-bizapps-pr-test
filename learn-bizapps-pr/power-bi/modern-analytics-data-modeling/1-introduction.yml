@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.modern-analytics-data-modeling.1-introduction 
+title: Introduction
+metadata: 
+  title: Introduction 
+  description: Introduction to key concepts related to developing a well-organized data model.
+  ms.date: 09/13/2021 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 

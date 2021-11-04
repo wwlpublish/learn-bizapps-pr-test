@@ -1,0 +1,3 @@
+Modern Excel users can view promoted or certified datasets in Power BI and decide on the best dataset to use. Promoted datasets are endorsements from data modelers. Certified datasets are determined by the Power BI tenant admin, which is generally a higher endorsement from your organization. These labels ensure that a single version of the truth is used, regardless of the analysis tool.
+
+In Excel, when a user is building a PivotTable that is connected to Power BI with row-level security (RLS), they will only see the data that is available to them based on the role that's assigned. The RLS roles flow through to Excel, allowing a data modeler to control what the users can view.

@@ -53,4 +53,4 @@ The **Exit Loop** action is used to immediately exit a loop, regardless of wheth
 
 ![Screenshot of the exit loop action workspace.](..\media\exit-loop-action-workspace.png)
 
-In the above scenario, the loop will end when the total budget is greater than 10000 – however, if the Process encounters a non-positive number, indicating that there is no more data to add, the loop will end immediately.
+In the above scenario, the loop will end when the total budget is greater than 10000 – however, if the flow encounters a non-positive number, indicating that there is no more data to add, the loop will end immediately.

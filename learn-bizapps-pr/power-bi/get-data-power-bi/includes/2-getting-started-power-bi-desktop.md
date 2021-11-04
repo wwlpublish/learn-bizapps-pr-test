@@ -41,7 +41,7 @@ To create a visual, drag a field from the **Fields** list onto the **Report** vi
 
 ![Drag a field onto the Report view canvas to create a visual.](../media/02-power-bi-desktop-drag-field.png)
 
-For example, Power BI Desktop automatically created a map-based visualization because it recognized that the **State** field contained geolocation data. (Note that screenshot examples come from a variey of datasets.)
+For example, Power BI Desktop automatically created a map-based visualization because it recognized that the **State** field contained geolocation data. (Note that screenshot examples come from a variety of datasets.)
 
 ## Publish a report
 
@@ -61,4 +61,4 @@ When you view a published report in the Power BI service, you can choose the **P
 
 You can choose whether to pin the visual to an existing dashboard or to create a new dashboard. 
 
-For more information, see [Report View in Power BI Desktop](/power-bi/desktop-report-view/?azure-portal=true).
+For more information, see [Report View in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-report-view/?azure-portal=true).
