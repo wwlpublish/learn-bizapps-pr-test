@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 09/03/2021 
+ ms.date: 11/04/2021
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -13,20 +13,20 @@ durationInMinutes: 8
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which of the following options is not a key capability of Patient Outreach?
+  - content: Which of the following are key capabilities of Patient Outreach?
     choices: 
-    - content: Patient segmentation
+    - content: Patient Segmentation, Patient Dynamics, Event Management
       isCorrect: false
-      explanation: Patient dynamics is not a key capability of Patient Outreach.
-    - content: Patient journey
+      explanation: Patient Segmentation, Patient Journey, and Event Management are the key capabilities of Patient Outreach.
+    - content: Patient Segmentation, Patient Journey, Patient Dynamics
       isCorrect: false 
-      explanation: Patient dynamics is not a key capability of Patient Outreach.
-    - content: Patient dynamics
+      explanation: Patient Segmentation, Patient Journey, and Event Management are the key capabilities of Patient Outreach.
+    - content: Patient Journey, Patient Dynamics, Event Management
+      isCorrect: false 
+      explanation: Patient Segmentation, Patient Journey, and Event Management are the key capabilities of Patient Outreach.
+    - content: Patient Segmentation, Patient Journey, Event Management
       isCorrect: true 
-      explanation: Patient dynamics is not a key capability of Patient Outreach.
-    - content: Event management
-      isCorrect: false 
-      explanation: Patient dynamics is not a key capability of Patient Outreach.
+      explanation: Patient Segmentation, Patient Journey, and Event Management are the key capabilities of Patient Outreach.
   - content: Patient Outreach focuses on which of the following priority scenarios?
     choices: 
     - content: Enhance patient engagement
