@@ -46,7 +46,7 @@ In this task, you will assign the **Field Service - Resource** role to Home Heal
 1.  The view will be set as Omnichannel Users. Change the view to show **Enabled Users**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Enabled Users view.](../media/views.png)](../media/views.png#lightbox)
+	> [![Screenshot of the system views.](../media/views.png)](../media/views.png#lightbox)
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Enabled Users view.](../media/enabled-users.png)](../media/enabled-users.png#lightbox)
