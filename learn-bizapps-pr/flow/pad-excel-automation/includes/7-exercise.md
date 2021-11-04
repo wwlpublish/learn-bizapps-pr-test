@@ -8,13 +8,13 @@ In this exercise, you will:
 - Switch the positions of two columns.
 - Copy and paste cells.
 - Delete a blank column.
-- Run the process to verify successful completion.
+- Run the flow to verify successful completion.
 
 ### Attach to an Excel file and add headers
 
-To begin, download [**Customers.xlsx**](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-desktop/Customers.zip). Select **Download** on the right. Extract the Excel file to your local computer. Then, follow these steps to attach to this running Excel file:
+To begin, download [**Customers.xlsx**](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/raw/master/power-automate-desktop/Customers.zip). Select **Download** on the right. Extract the Excel file to your local computer. Then, follow these steps to attach to this running Excel file:
 
-1. Create a new process and then add the **Attach to running Excel** action.
+1. Create a new flow and then add the **Attach to running Excel** action.
 
 1. Specify the name of the file in the action properties (**Customers.xlsx**).
 
@@ -79,10 +79,10 @@ Save and quit the file by adding the **Close Excel** action and then selecting t
   
 ![Screenshot of Close Excel properties dialog.](..\media\close-excel-exercise.png)
 
-The completed process should look like the following screenshot.
+The completed flow should look like the following screenshot.
 
 ![Screenshot of the completed Excel exercise workspace.](..\media\excel-exercise-workspace.png)
 
-## Run the process
+## Run the flow
 
-Run the process to see that a new row has been inserted, the headers have been written, and the last two columns have switched positions.
+Run the flow to see that a new row has been inserted, the headers have been written, and the last two columns have switched positions.

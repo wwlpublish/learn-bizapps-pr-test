@@ -1,4 +1,4 @@
-If you've installed Microsoft Outlook on your desktop, Power Automate Desktop enables you to automate it using the Outlook actions.
+If you've installed Microsoft Outlook on your desktop, Power Automate for desktop enables you to automate it using the Outlook actions.
 
 These actions can launch and close Outlook, as well as retrieve, send, process and save emails from all the connected accounts. The ability to handle multiple accounts in the same flow allows you to handle emails from multiple sources and manage all your accounts simultaneously.
 
@@ -35,7 +35,7 @@ Optionally, you can write the email body in HTML and attach files to the message
 
 ## Process email messages in Outlook
 
-After retrieving messages from a mailbox, Power Automate Desktop enables you to manipulate them through the **Process email messages in Outlook** action.
+After retrieving messages from a mailbox, Power Automate for desktop enables you to manipulate them through the **Process email messages in Outlook** action.
 
 This action runs a series of essential email handling operations, such as deleting, marking as unread, and moving messages to other folders.
 
@@ -45,7 +45,7 @@ To use this action, you have to set a list of emails as input. This list can be 
 
 ## Save Outlook email messages
 
-Apart from processing retrieved emails, Power Automate Desktop enables you to save emails locally using the **Save Outlook email messages** action.
+Apart from processing retrieved emails, Power Automate for desktop enables you to save emails locally using the **Save Outlook email messages** action.
 
 This action requires a list of emails that can be retrieved using the **Retrieve email messages from Outlook** action.
 

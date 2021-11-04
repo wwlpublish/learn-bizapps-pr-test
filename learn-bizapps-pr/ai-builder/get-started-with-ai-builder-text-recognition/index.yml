@@ -1,14 +1,15 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-started-with-ai-builder-text-recognition 
 metadata: 
- title: Get started with AI Builder Text recognition
+ title: Recognize text with AI Builder
  description: Learn about AI Builder Text recognition and how to use it with other Microsoft Power Platform products.
  ms.date: 04/10/2020  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
- ms.prod: learning-d365-ai-builder  
-title: Get started with AI Builder Text recognition
+ ms.prod: learning-d365-ai-builder
+ ms.custom: intro-internal
+title: Recognize text with AI Builder
 summary: |  
    [!include[](../includes/module-banner.md)] 
    Learn about AI Builder Text recognition and how to use it with other Microsoft Power Platform products.

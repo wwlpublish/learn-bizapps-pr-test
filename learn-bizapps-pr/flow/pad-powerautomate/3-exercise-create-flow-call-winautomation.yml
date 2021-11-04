@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.pad-power-automate.3-exercise-create-flow-call-pad
-title: Exercise - Create a flow that calls a Power Automate Desktop process
+title: Exercise - Create a cloud flow that calls a Power Automate desktop flow
 metadata: 
-  title: Exercise - Create a flow that calls a Power Automate Desktop process
-  description: Follow this exercise to practice running a Power Automate Desktop process from a flow.
-  ms.date: 12/10/2020  
+  title: Exercise - Create a cloud flow that calls a Power Automate desktop flow
+  description: Exercise - Create a cloud flow that calls a Power Automate desktop flow
+  ms.date: 09/20/2021  
   author: mariosleon  
   ms.author: marleon 
   ms.topic: interactive-tutorial 

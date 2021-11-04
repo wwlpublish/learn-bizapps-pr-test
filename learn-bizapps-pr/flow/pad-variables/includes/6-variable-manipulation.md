@@ -6,7 +6,7 @@ The percentage sign is used as a special character to denote variables. The plat
 
 If you want to use the percentage sign as a simple character in a hardcoded text,  you have to combine it with the backslash (\\) character.
 
-Power Automate Desktop enables you to create complex expressions containing hardcoded values, variable names, arithmetic operations, comparisons, logical operations, and parentheses.
+Power Automate for desktop enables you to create complex expressions containing hardcoded values, variable names, arithmetic operations, comparisons, logical operations, and parentheses.
 
 ![Screenshot of an expression with arithmetic and logical operators.](..\media\variables-arithmetic-logical-operations.png)
 
@@ -24,7 +24,7 @@ If you want to use multiple variables in an expression, you can add their names 
 
 ## Basic arithmetic
 
-In case you want to perform mathematical operations, Power Automate Desktop enables you to use all the essential arithmetic operators, such as addition (**+**), subtraction (**-**), multiplication (**\***), and division (**/**).
+In case you want to perform mathematical operations, Power Automate for desktop enables you to use all the essential arithmetic operators, such as addition (**+**), subtraction (**-**), multiplication (**\***), and division (**/**).
 
 Except for arithmetic operations with numerical values and variables, you can also use the addition operator to concatenate strings. Adding numbers and text strings in the same expression will convert the numbers into text and join them with the other text strings.
 
@@ -53,6 +53,6 @@ In many flows, you might need to check if a value meets some particular standard
 
 ## Parentheses
 
-While creating complex expressions, you might want to prioritize some specific parts of them. To change an operators' priority, use parentheses. Power Automate Desktop handles parentheses the same way as algebra and programming languages.  
+While creating complex expressions, you might want to prioritize some specific parts of them. To change an operators' priority, use parentheses. Power Automate for desktop handles parentheses the same way as algebra and programming languages.  
 
 ![Screenshot of a complex expression with parentheses.](..\media\variables-expressions-parentheses.png)

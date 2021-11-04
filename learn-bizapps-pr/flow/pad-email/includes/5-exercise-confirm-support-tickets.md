@@ -2,7 +2,7 @@ In this exercise, you'll develop a flow that sends confirmation emails to receiv
 
 To execute the flow of the exercise successfully, use the credentials of a valid webmail account. If the account or server information is false, the flow will fail.
 
-1. Launch Power Automate Desktop console and create a new flow named **Ticket confirmation**.
+1. Launch the Power Automate for desktop console and create a new flow named **Ticket confirmation**.
 
     ![Properties of the Build a flow dialog with the Flow name highlighted.](..\media\exercise-new-flow.png)
 

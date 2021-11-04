@@ -2,7 +2,7 @@ Before automating web components, you have to launch a web browser to indicate w
 
 Later in your flow, you can use the instance variable containing the launched browser to perform various operations through the available web actions.
 
-Power Automate Desktop provides various launching actions to create browser instances for each supported browser:
+Power Automate for desktop provides various launching actions to create browser instances for each supported browser:
 
 - **Launch new Edge**
 - **Launch new Internet Explorer**
@@ -12,7 +12,7 @@ Power Automate Desktop provides various launching actions to create browser inst
 All these actions accept similar input parameters and function virtually in the same way. Inside the actions, you can set the initial URL of the browser and the desired state of the window.
 
 > [!NOTE]
-> Power Automate Desktop may require additional configuration for some supported browsers. To find more information about browser configuration, please visit the [respective documentation article](/power-automate/ui-flows/desktop/using-browsers/?azure-portal=true).
+> Power Automate for desktop may require additional configuration for some supported browsers. To find more information about browser configuration, please visit the [respective documentation article](/power-automate/ui-flows/desktop/using-browsers/?azure-portal=true).
 
 ![Screenshot of the Launch new Edge action.](..\media\launch-new-edge-action.png)
 
@@ -21,7 +21,7 @@ In the actions properties, you can also set whether the action will launch a new
 ![Screenshot of the automation browser option in the Launch new Internet Explorer action.](..\media\launch-new-internet-explorer-action-automation-browser.png)
 
 > [!NOTE]
-> The Power Automate Desktop automation browser implements some limitations that increase speed and efficiency on web-related flows. To find more information about the automation browser, please visit the [respective documentation article](/power-automate/ui-flows/desktop/using-browsers?azure-portal=true#using-the-actual-internet-explorer-vs-the-automation-browser).
+> The Power Automate for desktop automation browser implements some limitations that increase speed and efficiency on web-related flows. To find more information about the automation browser, please visit the [respective documentation article](/power-automate/ui-flows/desktop/using-browsers?azure-portal=true#using-the-actual-internet-explorer-vs-the-automation-browser).
 
 When you've developed the web-related part of your flow, you can use the **Close web browser** action to close the browser. This action accepts a browser instance as an input parameter and doesn't return any outputs.
 

@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-started-ai-builder-identity-document-reader 
 metadata: 
- title: Get started with the identity document reader in AI Builder 
+ title: Extract data from passports and US driver licenses  
  description: Explore the identity document reader (ID reader) in AI Builder and learn how to use it with other Microsoft Power Platform products.
  ms.date: 07/06/2021  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-ai-builder  
-title: Get started with the identity document reader in AI Builder 
+title: Extract data from passports and US driver licenses 
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Explore the identity document reader (ID reader) in AI Builder and learn how to use it with other Microsoft Power Platform products.

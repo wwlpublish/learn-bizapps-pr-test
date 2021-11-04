@@ -12,27 +12,27 @@ In this lab you learn how to:
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
-1. [Prepare data in Power BI Desktop](/learn/modules/get-data/lab-prepare/?azure-portal=true)
+1. [Prepare data in Power BI Desktop](https://docs.microsoft.com/learn/modules/get-data/lab-prepare/?azure-portal=true)
 
-1. [Load data in Power BI Desktop](/learn/modules/clean-data-power-bi/8-lab/?azure-portal=true)
+1. [Load data in Power BI Desktop](https://docs.microsoft.com/learn/modules/clean-data-power-bi/8-lab/?azure-portal=true)
 
-1. [Model data in Power BI Desktop, part 1](/learn/modules/design-model-power-bi/8-lab/?azure-portal=true)
+1. [Model data in Power BI Desktop, part 1](https://docs.microsoft.com/learn/modules/design-model-power-bi/8-lab/?azure-portal=true)
 
 1. **Model data in Power BI Desktop, Part 2** << You are here. This is the lab for the current module.
 
-1. [Create DAX calculations in Power BI Desktop, part 1](/learn/modules/create-measures-dax-power-bi/6-lab/?azure-portal=true)
+1. [Create DAX calculations in Power BI Desktop, part 1](https://docs.microsoft.com/learn/modules/create-measures-dax-power-bi/6-lab/?azure-portal=true)
 
-1. [Create DAX calculations in Power BI Desktop, part 2](/learn/modules/create-measures-dax-power-bi/8-lab/?azure-portal=true)
+1. [Create DAX calculations in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/create-measures-dax-power-bi/8-lab/?azure-portal=true)
 
-1. [Design a report in Power BI Desktop, part 1](/learn/modules/visuals-power-bi/8-lab/?azure-portal=true)
+1. [Design a report in Power BI Desktop, part 1](https://docs.microsoft.com/learn/modules/visuals-power-bi/8-lab/?azure-portal=true)
 
-1. [Design a report in Power BI Desktop, part 2](/learn/modules/data-driven-story-power-bi/13-lab/?azure-portal=true)
+1. [Design a report in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/data-driven-story-power-bi/13-lab/?azure-portal=true)
 
-1. [Create a Power BI dashboard](/learn/modules/create-dashboards-power-bi/9-lab/?azure-portal=true)
+1. [Create a Power BI dashboard](https://docs.microsoft.com/learn/modules/create-dashboards-power-bi/9-lab/?azure-portal=true)
 
-1. [Perform data analysis in Power BI Desktop](/learn/modules/ai-visuals-power-bi/5-lab/?azure-portal=true)
+1. [Perform data analysis in Power BI Desktop](https://docs.microsoft.com/learn/modules/ai-visuals-power-bi/5-lab/?azure-portal=true)
 
-1. [Create a Power BI paginated report](/learn/modules/create-paginated-reports-power-bi/6-lab/?azure-portal=true)
+1. [Create a Power BI paginated report](https://docs.microsoft.com/learn/modules/create-paginated-reports-power-bi/6-lab/?azure-portal=true)
 
 > [!NOTE]
 > Each lab starts with a PBIX file that has all of the previous lab work completed. If you should lose your work for any reason, you can open the PBIX file that includes the progress up to that point from the folder indicated at the beginning of the next lab.
@@ -164,7 +164,7 @@ In this task you will create a many-to-many relationship between the **Salespers
 
     It’s a common observation of a many-to-many relationship due to the double, triple, etc. counting of regional sales results. Consider Brian Welcker, the second salesperson listed. His sales amount equals the total sales amount. It’s the correct result simply due to the fact the he’s the Director of Sales; his sales are measured by the sales of all regions.
 
-    While the many-to-many relationship is now working, it’s now not possible to analyze sales made by a salesperson (because the relationship is inactive). You’ll be able to reactive the relationship when you introduce a calculated table that to represent salesperson for performance analysis (of their regions) in the **Create DAX calculations in Power BI Desktop, Part 1** lab.
+    While the many-to-many relationship is now working, it’s now not possible to analyze sales made by a salesperson (because the relationship is inactive). You’ll be able to reactivate the relationship when you introduce a calculated table that to represent salesperson for performance analysis (of their regions) in the **Create DAX calculations in Power BI Desktop, Part 1** lab.
 
 1. Switch to Modeling view, and then in the diagram, select the **Salesperson** table.
 

@@ -38,7 +38,7 @@ You should see this:
 
 ## Streamline work
 
-To streamline the work of the front line worker minimizing information requested, we will provide a guided experience that allows the user to update the entity data but ask him only the information relevant at this stage of the shipment. Insert a new Form Screen (See [Add a screen to a canvas app and navigate between screens](/powerapps/maker/canvas-apps/add-screen-context-variables/?azure-portal=true))
+To streamline the work of the front line worker minimizing information requested, we will provide a guided experience that allows the user to update the table data but ask him only the information relevant at this stage of the shipment. Insert a new Form Screen (See [Add a screen to a canvas app and navigate between screens](/powerapps/maker/canvas-apps/add-screen-context-variables/?azure-portal=true))
 
 ![New Form screen offers Blank, Scrollable, List, Form, Success, and Tutorial options.](../media/image12.png)
 
@@ -46,7 +46,7 @@ Change the title "Text" property to "Update shipping."
 
 Edit the EditForm1 (See [Show, edit, or add a record in a canvas app](/powerapps/maker/canvas-apps/add-form/?azure-portal=true))
 
-- To bind the edit form to the entity previously created, Click on connect to data on the view and select 'Container Shipments' on the left pane**
+- To bind the edit form to the table previously created, Click on connect to data on the view and select 'Container Shipments' on the left pane**
 
 - Change the property "DataSource" to 'Container Shipments'
 

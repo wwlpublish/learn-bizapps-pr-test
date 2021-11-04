@@ -4,7 +4,7 @@ In this unit, you'll learn how to troubleshoot common issues that might occur wh
 
 Before you can fix a flow, you must identify why it failed. You will get an email with a list of failures each week.
 
-1. Select the **Settings** button (the gear symbol) at the top of the web portal and select **Activity** (or select the **Activity** tab in the mobile app), and then select your flow in the list that appears.
+1. Select the **Monitor** and then **Cloud flow activity** on the left menu (or select the **Activity** tab in the mobile app), and then select your flow in the list that appears.
 
     ![Screenshot of the Settings menu expanded with the Activity option highlighted.](../media/notifications-toolbar.png)
 
@@ -18,7 +18,7 @@ In many cases, flows fail because of an authentication error. If this type of er
 
 1. You can view the connections by opening up the flow details by selecting the flow from **My Flows**.
 2. Scroll to the connection that you saw the "Unauthorized" error message for.
-3. Next to the connection, select the **Verify password** link in the message that states that the connection hasn't been authenticated.
+3. Next to the connection, select the **Fix connection** link in the message that states that the connection hasn't been authenticated.
 4. Verify your credentials by following the instructions that appear. Then return to your flow-run failure, and select **Resubmit**.
 
 The flow should now run as expected.
@@ -42,7 +42,9 @@ If error code 500 or 502 appears, the failure is temporary or transient.
 
 Sometimes your flows might behave unexpectedly because you aren't using the correct plan.
 
-- To view your plan, in Power Automate, select **Learn**. It will redirect you to another page. Here select **Learn**, and then select **Pricing**.
+- To view your plan, in Power Automate, select **Learn**. It will redirect you to the **Microsoft Power Automate documentation** page. Here select **Learn Power Automate**, and then select **Pricing**.
+
+    ![Screenshot of pricing button highlighted in the Power Automate documentation page.](../media/pricing.png)
 
 Learn more about [pricing and how to switch plans](https://flow.microsoft.com/pricing/).
 
@@ -85,8 +87,8 @@ You might have issues that are based on other limits:
 
 - Each account can have up to:
 
-  - 250 flows.
-  - 15 custom connectors.
+  - 600 flows.
+  - 50 custom connectors.
   - 20 connections per application programming interface (API) and 100 connections total.
 
 - You can install a gateway only in the default environment.

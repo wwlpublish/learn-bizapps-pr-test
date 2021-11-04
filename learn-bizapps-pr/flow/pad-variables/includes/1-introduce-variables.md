@@ -1,6 +1,6 @@
 While developing flows, it's common to reuse information in multiple actions and update it based on certain conditions. For example, you might need to store some retrieved emails and process them later in your flow.
 
-Power Automate Desktop enables you to store this information for later use through variables. Variables provide a way of labeling data with a descriptive name and allow you to refer to it by name.
+Power Automate for desktop enables you to store this information for later use through variables. Variables provide a way of labeling data with a descriptive name and allow you to refer to it by name.
 
 You can think of variables as storage bins that save valuable information while a flow is running. The stored information can be virtually any type, such as numbers, text, dates, files and folders, or text.
 
@@ -23,4 +23,4 @@ In this module, you will:
 
 ## Prerequisites
 
-- Basic familiarity with the Power Automate Desktop console and flow designer.
+- Basic familiarity with the Power Automate for desktop console and flow designer.

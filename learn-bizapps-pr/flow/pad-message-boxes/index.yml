@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.pad-message-boxes
 metadata: 
- title: Communicate using message boxes in Power Automate Desktop flows
+ title: Communicate using message boxes in Power Automate for desktop flows
  description: In this module, we will discuss the use of message boxes in automated flows.
  ms.date: 10/22/2020  
  author: mariosleon 
  ms.author: marleon 
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Communicate using message boxes in Power Automate Desktop flows
+title: Communicate using message boxes in Power Automate for desktop flows
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Message boxes can be used to interact with a user to either request input, or to provide output.
@@ -16,7 +16,7 @@ abstract: |
     In this module, you will:
     - Familiarize yourself with the various preset message box actions
 prerequisites: |
-    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
+    A basic understanding of [how to use the Power Automate for desktop console and flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-message-boxes.svg  
 levels:  
 - beginner   
