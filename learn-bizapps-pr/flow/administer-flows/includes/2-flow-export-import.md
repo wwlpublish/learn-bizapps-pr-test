@@ -4,7 +4,7 @@ Power Automate allows you to export and then import a flow so that others can us
 
 1. Go to Power Automate, and sign in by using your organizational account.
 
-1. In the left pane, select **My flows**.
+1. In the left pane, select **Cloud flows**.
 
 1. For the flow that you want to export, select the **More commands** button (the three vertical dots), select **Export**, and then select **Package (.zip)**.
 
@@ -15,7 +15,7 @@ Power Automate allows you to export and then import a flow so that others can us
     - **Name**: Enter a name for the flow.
     - **Environment**: Enter the environment for the flow.
     - **Description**: Enter a description of the flow.
-    - **Review package content**: Select export options, and add comments to provide instruction or add version notes.
+    - **Review Package Content**: Select export options, and add comments to provide instruction or add version notes.
 
 1. Select **Export** to export the zip file. You can then select the folder to in which to download.
 
@@ -35,4 +35,4 @@ After a flow has been exported, anyone that you send the zip file to can import 
     - You must also select the connections that are required to set up the flow as part of the import process.
     - The **Import** button should become available after you've configured all the required settings.
 
-1. After the flow is completely imported, you will have a link to open it and see the flow in **My Flows**.
+1. After the flow is imported, you will have a link to open it and see the flow in **My Flows**, under the **Cloud flows** heading.

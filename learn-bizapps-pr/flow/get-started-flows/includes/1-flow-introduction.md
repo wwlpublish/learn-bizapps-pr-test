@@ -9,17 +9,15 @@ In this module, you will:
 - Learn what Power Automate is and how it can be used
 - Create a flow that automatically saves email attachments
 - Learn how to create a button flow to send yourself a reminder
-- Create a flow that sends you notifications
-- Create a flow that copies files
 - Create a flow that runs on a schedule
 - Create a flow that posts tweets
-- Create a flow that your team can use
+- Share a flow that your team can use
 
 ## What is Power Automate?
 
 Power Automate is an online workflow service that automates actions across the most common apps and services. For example, you can create a flow that adds a lead to Microsoft Dynamics 365 and a record in MailChimp whenever someone with more than 100 followers tweets about your company.
 
-When you sign up, you can connect to more than 220 services, and can manage data either in the cloud or in on-premises sources like SharePoint and Microsoft SQL Server. The list of applications you can use with Power Automate grows constantly.
+When you sign up, you can connect to more than 500 services, and can manage data either in the cloud or in on-premises sources like SharePoint and Microsoft SQL Server. The list of applications you can use with Power Automate grows constantly.
 
 ![Screenshot of the beginning of the list of services.](../media/flow-services.png)
 
@@ -90,6 +88,9 @@ When you sign in to Power Automate, you'll find these menus:
 - **Templates**, where you can take a look at some of the most popular templates. These should give you some great ideas for flows you want to try.
 - **Connectors**, where you can connect from one service to another.
 - **Data**, where you can access entities, connections, custom connectors and gateways.
+- **Monitor**, where you can view the activity of all your cloud and desktop flows.
+- **AI Builder**, where you can build AI models and view the models you created or that have been shared with you.
+- **Process advisor**, where you can create processes to help your organization better understand places to streamline workflows. 
 - **Solutions**, where you can manage your solutions.
 - **Learn**, where you can find information that will help you quickly ramp up on Power Automate.
 
@@ -102,7 +103,11 @@ For now, let's focus on the **?** menu next to your login, which has these optio
 - **Community** is a place to plug into and find out how other people use Power Automate.
 - **Give Feedback** taps into a community of power users, and is where you can send comments and questions to developers and other experienced users.
 - **Blog** keeps you up to date about the most recent developments and releases in the Power Automate ecosystem.
+- **Desktop flows** provides an introduction to Power Automate Desktop.
 - **Pricing** can help you choose the right plan for you or your business.
+- **Power Automate Desktop** is where you can download Power Automate Desktop and install it on your machine.
+- **Power Automate for Mobile** provides information about the mobile app and the platforms it is available on.
+- **Data Gateway** provides an overview of the on-premises data gateway.
 
 ## What's next?
 

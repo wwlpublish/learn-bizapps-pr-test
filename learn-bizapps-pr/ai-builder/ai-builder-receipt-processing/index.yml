@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.ai-builder-receipt-processing 
 metadata: 
- title: Get started with receipt processing in AI Builder
+ title: Process receipts with AI Builder
  description: Learn the basics of receipt processing in AI Builder and how it can benefit your organization.
  ms.date: 07/20/2020  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-ai-builder  
-title: Get started with receipt processing in AI Builder
+title: Process receipts with AI Builder
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Learn the basics of receipt processing in AI Builder and how it can benefit your organization.

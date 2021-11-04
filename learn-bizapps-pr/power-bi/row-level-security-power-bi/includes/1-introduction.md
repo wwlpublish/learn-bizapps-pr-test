@@ -7,7 +7,7 @@ For example, consider a scenario where you work for Tailspin Traders. You use th
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the contents of the sales table.](../media/01-sales-table-ss.png)](../media/01-sales-table-ss.png#lightbox)
 
-You also use the following table for employee information.
+You can also use the following table for employee information.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the contents of the employees table.](../media/01-employees-table-ss.png)](../media/01-employees-table-ss.png#lightbox)

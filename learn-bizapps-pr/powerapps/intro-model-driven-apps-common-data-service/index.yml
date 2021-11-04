@@ -7,7 +7,8 @@ metadata:
  author: DaveBeasley
  ms.author: dbeasley
  ms.topic: interactive-tutorial  
- ms.prod: learning-power-apps  
+ ms.prod: learning-power-apps
+ ms.custom: intro-internal
 title: Introduction to model-driven apps and Dataverse 
 summary: |  
   [!include[](../includes/module-banner.md)] 

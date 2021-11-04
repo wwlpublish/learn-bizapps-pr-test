@@ -14,7 +14,7 @@ the cloud or on-premises.
 The Sales team at Tailwind Traders have requested that you connect to the organization's on-premises SQL Server database and get the sales data into Power BI Desktop so you can build sales reports.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Data flow from SQL database into Power B I.](../media/3-get-data-sql-server-ssm.png)](../media/3-get-data-sql-server-ssm.png#lightbox)
+> [![Screenshot of the Data flow from SQL database into Power BI.](../media/3-get-data-sql-server-ssm.png)](../media/3-get-data-sql-server-ssm.png#lightbox)
 
 ### Connect to data in a relational database
 

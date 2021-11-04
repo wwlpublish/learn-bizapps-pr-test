@@ -15,4 +15,4 @@ In this module, you will:
 
 ## Prerequisites
 
-- Basic familiarity with the Power Automate Desktop Console and Flow Designer.
+- Basic familiarity with the Power Automate for desktop console and flow Designer.

@@ -2,7 +2,7 @@ In this exercise, you'll create a flow that copies a selected folder and then ad
 
 To create the flow:
 
-1. Launch Power Automate Desktop and then select the **New flow** button in the console.
+1. Launch Power Automate for desktop and then select the **New flow** button in the console.
 
     ![Screenshot of the New flow button in the console.](..\media\exercise-new-flow-button.png)
 
@@ -15,6 +15,9 @@ To create the flow:
     ![Screenshot of the Display select folder dialog action dialog.](..\media\exercise-display-select-folder-dialog-action.png)
 
 1. Use a **Copy folder** action to copy the selected folder in your documents folder.
+
+    >[!IMPORTANT]
+    > Make sure the destination folder already exists so that the flow can copy the files.
 
     ![Screenshot of the Copy folder action dialog.](..\media\exercise-copy-folder-action.png)
 

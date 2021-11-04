@@ -1,4 +1,4 @@
-Apart from handling web forms and components, Power Automate Desktop enables you to extract data and details from web pages.
+Apart from handling web forms and components, Power Automate for desktop enables you to extract data and details from web pages.
 
 To extract information about a web page, use the **Get details of web page** action.  Through this action, you can retrieve descriptive details about web pages, such as its title, metadata keywords, and description. In the action's properties, you have to specify the browser instance and the desired information to retrieve.
 
@@ -14,7 +14,7 @@ If you want to take a screenshot from a web page, you can use the **Take screens
 
 ## Advanced data extraction
 
-It's common in business procedures to extract web data displayed in the form of tables and lists. Power Automate Desktop enables you to automate these procedures through the **Extract data from web page** action.
+It's common in business procedures to extract web data displayed in the form of tables and lists. Power Automate for desktop enables you to automate these procedures through the **Extract data from web page** action.
 
 Like the other web actions, the **Extract data from web page** action requires a browser instance containing the page from which you'll extract data.
 
@@ -40,7 +40,7 @@ If you repeat the selection for another corresponding value, the action will ext
 
 ![Screenshot of an extracted list of values.](..\media\extract-list.png)
 
-If you select an additional value, Power Automate Desktop will return a data table containing each element's corresponding data in the list.
+If you select an additional value, Power Automate for desktop will return a data table containing each element's corresponding data in the list.
 
 ![Screenshot of an extracted table of values.](..\media\extract-table.png)
 

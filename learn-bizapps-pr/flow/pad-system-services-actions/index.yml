@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.pad-system-services-actions 
 metadata: 
- title: Automate system and services actions in Power Automate Desktop
- description: Learn about the system and services actions in Power Automate Desktop.
+ title: Automate system, workstation and services actions in Power Automate for desktop
+ description: Learn about the system, workstation, and services actions in Power Automate for desktop.
  ms.date: 09/24/2020  
  author: mariosleon  
  ms.author: marleon 
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Automate system and services actions in Power Automate Desktop
+title: Automate system, workstation, and services actions in Power Automate for desktop
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Power Automate Desktop supports the automation of miscellaneous tasks, which are fundamental to the Microsoft Windows operating system, through the system and services actions.
+  Power Automate for desktop supports the automation of miscellaneous tasks, which are fundamental to the Microsoft Windows operating system, through the system, workstation, and services actions.
 abstract: |  
     In this module, you will: 
-    - Automate system-related tasks with the system group of actions.
+    - Automate system-related tasks with the system and workstation groups of actions.
     - Automate the management of Windows services with the service group of actions.
 prerequisites: |
-    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
+    A basic understanding of [how to use the Power Automate for desktop console and flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-system-services-actions.svg  
 levels:  
 - beginner   
@@ -30,7 +30,7 @@ products:
 - power-automate 
 units: 
 - learn-bizapps.pad-system-services-actions.1-introduction 
-- learn-bizapps.pad-system-services-actions.2-system-actions 
+- learn-bizapps.pad-system-services-actions.2-system-workstation-actions 
 - learn-bizapps.pad-system-services-actions.3-services-actions 
 - learn-bizapps.pad-system-services-actions.4-check-knowledge 
 - learn-bizapps.pad-system-services-actions.5-summary 

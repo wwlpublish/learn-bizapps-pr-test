@@ -1,4 +1,4 @@
-There are three kinds of loops in Power Automate Desktop:
+There are three kinds of loops in Power Automate for desktop:
 
 * Simple loops, used to perform a predetermined number of repetitions, and in cases where a loop index should be used
 * Loop condition, used when the number of repetitions required is not known, but a condition should be satisfied before proceeding

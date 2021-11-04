@@ -71,4 +71,6 @@ Selecting the run history will provide you with more clues such as how many
 times the flow has failed, whether it failed at the same action or condition every
 time, and so on. You can then select **Edit flow** and fix the issue.
 
-You can view the history for up to 28 days for all run flows. You can also export this history as a CSV file that will give you details on all the runs including successful, failed, running and canceled.
+In this example, the Get manager (v2) action has failed. This could be because of the user not having a manager assigned yet.
+
+You can view the history for up to 28 days for all run flows. You can also export this history as a CSV file that will give you details on all the runs including successful, failed, running, and canceled.

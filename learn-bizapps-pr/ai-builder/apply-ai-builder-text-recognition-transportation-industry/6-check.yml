@@ -26,7 +26,7 @@ quiz:
       explanation: AI Builder can recognize printed and handwritten characters on a picture.
   - content: Which Azure service is powering this technology?
     choices: 
-    - content: Azure Entity Recognition
+    - content: Azure Table Recognition
       isCorrect: false
       explanation: This technology is powered by Azure OCR.
     - content: Azure Image Analysis

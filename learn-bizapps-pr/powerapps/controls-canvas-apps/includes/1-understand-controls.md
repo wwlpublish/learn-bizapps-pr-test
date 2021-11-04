@@ -34,7 +34,7 @@ the app) and a barcode reader for quickly capturing identification
 information.
 
 **Charts** - These controls let you add charts so that users can do
-instant analysis.
+instant analysis. You can also add a Power BI Tile using this tab.
 
 **Icons** - These controls include shapes, graphics, and symbols to
 enhance the user interface. They are quickly recognizable by your users

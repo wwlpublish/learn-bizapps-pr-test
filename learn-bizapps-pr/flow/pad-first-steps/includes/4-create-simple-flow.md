@@ -5,7 +5,7 @@ In this unit, you'll develop a flow that converts dates in the dd/MM/yyyy format
 
 To create the flow:
 
-1. Launch Power Automate Desktop and select the **New flow** button in the console.
+1. Launch Power Automate for desktop and select the **New flow** button in the console.
 
     ![Screenshot of the New flow button in the console.](..\media\console-new-flow.png)
 

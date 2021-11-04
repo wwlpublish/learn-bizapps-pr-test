@@ -2,7 +2,7 @@ Standardized email messages are common in most business organizations. Automated
 
 Email automation enables organizations to send personalized emails to customers and employees efficiently. Uniformity in business communication is critical and ensures that all employees follow the same communication standards.
 
-Power Automate Desktop provides various actions that enable email handling for webmail services, Microsoft Outlook, and Exchange servers.
+Power Automate for desktop provides various actions that enable email handling for webmail services, Microsoft Outlook, and Exchange servers.
 
 Using the email actions, you can automate any webmail service that supports the Internet Message Access Protocol (IMAP) and the Simple Mail Transfer Protocol (SMTP), such as Outlook.com.
 
@@ -19,5 +19,5 @@ In this module, you will:
 
 ## Prerequisites
 
-- Basic understanding of how to use Power Automate Desktop Console and Flow designer.
+- Basic understanding of how to use the Power Automate for desktop console and flow designer.
 - Basic familiarity with flow development and variables.

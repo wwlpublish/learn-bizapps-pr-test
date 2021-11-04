@@ -20,6 +20,9 @@ Before you begin this course, we recommend that you get familiar with these prod
 
 Thanks to automation solutions and AI, organizations can accelerate and optimize the processing of documents to free humans from repetitive, low value, and error prone tasks. This applies to any kind of printed or digital form that must be reviewed, have data extracted from it, and be processed.
 
+> [!div class="mx-imgBorder"]
+> [![Document automation consists of automatically storing documents and sending them for processing in Power Automate, processing documents in AI Builder, and reviewing processed documents in Power Apps.](../media/1-document-automation.png)](../media/1-document-automation.png#lightbox)
+
 Automating the processing of documents requires a complete solution. The Microsoft Power Platform enables you to build a rich and robust document automation solution using Power Automate to orchestrate the overall process, AI Builder to bring the Intelligence required to efficiently extract information from documents, Power Apps to allow users to manually review and approve documents, and Dataverse to manage the document queue and store all the data, files, and configuration required.
 
 Starting from a blank page can be challenging when designing such a complex system. This document automation solution is a reference implementation that provides a functional end-to-end solution that is ready to install and supports a common processing pattern: 
@@ -39,9 +42,6 @@ Document automation provides this standard end-to-end solution. It includes the 
 - Use the AI Builder form processing solution to extract data from those documents.
 
 - Process the data extracted and allow users to review and approve data through a central manual validation application.
-
-> [!div class="mx-imgBorder"]
-> [![Document automation consists of automatically storing documents and sending them for processing in Power Automate, processing documents in AI Builder, and reviewing processed documents in Power Apps.](../media/1-document-automation.png)](../media/1-document-automation.png#lightbox)
 
 The document automation tool is a solution that you install in one of your Environments (learn more about environments in [Environments Overview](/power-platform/admin/environments-overview/?azure-portal=true)). This solution includes several Power Automate flows, a Power App, and several Dataverse data tables. It's called the **Document automation base kit**.
 

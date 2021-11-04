@@ -16,27 +16,27 @@ In this lab you learn how to:
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
-1. [Prepare data in Power BI Desktop](/learn/modules/get-data/lab-prepare/?azure-portal=true)
+1. [Prepare data in Power BI Desktop](https://docs.microsoft.com/learn/modules/get-data/lab-prepare/?azure-portal=true)
 
-1. [Load data in Power BI Desktop](/learn/modules/clean-data-power-bi/8-lab/?azure-portal=true)
+1. [Load data in Power BI Desktop](https://docs.microsoft.com/learn/modules/clean-data-power-bi/8-lab/?azure-portal=true)
 
-1. [Model data in Power BI Desktop, part 1](/learn/modules/design-model-power-bi/8-lab/?azure-portal=true)
+1. [Model data in Power BI Desktop, part 1](https://docs.microsoft.com/learn/modules/design-model-power-bi/8-lab/?azure-portal=true)
 
-1. [Model data in Power BI Desktop, part 2](/learn/modules/design-model-power-bi/9-lab/?azure-portal=true)
+1. [Model data in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/design-model-power-bi/9-lab/?azure-portal=true)
 
-1. [Create DAX calculations in Power BI Desktop, part 1](/learn/modules/create-measures-dax-power-bi/6-lab/?azure-portal=true)
+1. [Create DAX calculations in Power BI Desktop, part 1](https://docs.microsoft.com/learn/modules/create-measures-dax-power-bi/6-lab/?azure-portal=true)
 
-1. [Create DAX calculations in Power BI Desktop, part 2](/learn/modules/create-measures-dax-power-bi/8-lab/?azure-portal=true)
+1. [Create DAX calculations in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/create-measures-dax-power-bi/8-lab/?azure-portal=true)
 
-1. [Design a report in Power BI Desktop, part 1](/learn/modules/visuals-power-bi/8-lab/?azure-portal=true)
+1. [Design a report in Power BI Desktop, part 1](https://docs.microsoft.com/learn/modules/visuals-power-bi/8-lab/?azure-portal=true)
 
-1. [Design a report in Power BI Desktop, part 2](/learn/modules/data-driven-story-power-bi/13-lab/?azure-portal=true)
+1. [Design a report in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/data-driven-story-power-bi/13-lab/?azure-portal=true)
 
-1. [Create a Power BI dashboard](/learn/modules/create-dashboards-power-bi/9-lab/?azure-portal=true)
+1. [Create a Power BI dashboard](https://docs.microsoft.com/learn/modules/create-dashboards-power-bi/9-lab/?azure-portal=true)
 
 1. **Perform data analysis in Power BI Desktop** << You are here. This is the lab for the current module.
 
-1. [Create a Power BI paginated report](/learn/modules/create-paginated-reports-power-bi/6-lab/?azure-portal=true)
+1. [Create a Power BI paginated report](https://docs.microsoft.com/learn/modules/create-paginated-reports-power-bi/6-lab/?azure-portal=true)
 
 > [!NOTE]
 > Each lab starts with a PBIX file that has all of the previous lab work completed. If you should lose your work for any reason, you can open the PBIX file that includes the progress up to that point from the folder indicated at the beginning of the next lab.
@@ -164,9 +164,6 @@ In this task, you'll create a scatter chart that can be animated.
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the scatter chart visualization.](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the scatter chart on the report page repositioned and resized to fill the page.](../media/lab-6-ss.png)](../media/lab-6-ss.png#lightbox)
-
 1. Add the following fields to the visual wells:
 
     The labs use a shorthand notation to reference a field. It looks like this: **Reseller | Business Type**. In this example, **Reseller** is the table name and **Business Type** is the field name.
@@ -229,9 +226,6 @@ In this task, you will create a forecast to determine possible future sales reve
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the line chart visualization.](../media/lab-11-ssm.png)](../media/lab-11-ssm.png#lightbox)
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the line chart added to the report page repositioned and resized to fill the page.](../media/lab-12-ss.png)](../media/lab-12-ss.png#lightbox)
 
 1. Add the following fields to the visual wells:
 
@@ -322,9 +316,6 @@ In this task, you'll create a decomposition tree to explore the relationships be
 
 1. Reposition and resize the visual so that it fills the entire page.
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the visual repositioned and resized to fill the screen.](../media/lab-22-ss.png)](../media/lab-22-ss.png#lightbox)
-
 1. Add the following fields to the visual wells:
 
     - Analyze: **Sales | Profit Margin**
@@ -397,9 +388,6 @@ In this task, you will use the **Key influencers** AI visual to determine what i
     > [![Screenshot of Key Influencers in the Visualizations pane.](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
 
 1. Reposition and resize the visual so that it fills the entire page.
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the visual resized and repositioned to fill the page.](../media/lab-31-ss.png)](../media/lab-31-ss.png#lightbox)
 
 1. Add the following fields to the visual wells:
 

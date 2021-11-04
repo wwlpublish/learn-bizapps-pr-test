@@ -1,4 +1,4 @@
-Microsoft 365 Outlook (previously known as Office 365 Outlook) has a standard connector that allows you to show, send, delete, and reply to email messages, in addition to other tasks.
+Microsoft 365 Outlook (previously known as Office 365 Outlook) has a standard connector that allows you to show, send, delete, and reply to email messages, among other tasks.
 
 ## Basic concept of Microsoft 365 Outlook connector
 
@@ -21,9 +21,10 @@ The following table describes the actions and triggers in Outlook.
 | Flag email (V2) |  |
 | Forward an email (V2) |  |
 | Get attachment (V2) |  |
-| Get calendar view of events (V2) |  |
+| Get calendar view of events (V3) |  |
 | Get calendars (V2) |  |
-| Get contacts folders (V2) |  |
+| Get contact (V2) |  |
+| Get contact folders (V2) |  |
 | Get contacts (V2) |  |
 | Get email (V2) |  |
 | Get emails (V3) |  |
@@ -60,7 +61,7 @@ The following screenshot shows the **Choice (menu to choose from)** column.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Settings > Edit Column dialog box with column type set to Choice (menu to choose from).](../media/3-2-edit-column.png)](../media/3-2-edit-column.png#lightbox)
 
-Return to the **Travel Reimbursement** list and, from the ribbon, select **Automate > Power Automate > Create a flow**.
+Return to the **Travel Reimbursement** list and, from the ribbon, select **Integrate > Power Automate > Create a flow**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Travel Reimbursement list with Create a flow selected.](../media/3-3-create-flow.png)](../media/3-3-create-flow.png#lightbox)
@@ -80,7 +81,7 @@ Change the flow title and **List Name** to **Travel Reimbursement**.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the When a new item is created dialog box.](../media/3-6-travel-reimbursement.png)](../media/3-6-travel-reimbursement.png#lightbox)
 
-This template needs to be modified to get the manager information. To do so, drag the **Get my profile (V2)** action and then drop it below the trigger.
+Modify this template to get the manager information. To do so, drag the **Get my profile (V2)** action and then drop it below the trigger.
 
 The following screenshot shows what the template looked like before you modified it.
 

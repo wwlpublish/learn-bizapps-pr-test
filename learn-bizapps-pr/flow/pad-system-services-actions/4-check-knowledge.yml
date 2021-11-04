@@ -13,23 +13,23 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Where can the Take Screenshot action save the taken screenshots?
+  - content: Where can the Take screenshot action save the taken screenshots?
     choices: 
     - content: "Clipboard"
       isCorrect: false 
       explanation: The Take screenshot action saves the taken screenshots to the clipboard or to a file.
     - content: "Local file"
       isCorrect: false 
-      explanation: The Take Screenshot action saves the taken screenshots to the clipboard or to a file.
+      explanation: The Take screenshot action saves the taken screenshots to the clipboard or to a file.
     - content: "Both"
       isCorrect: true 
-      explanation: The Take Screenshot action saves the taken screenshots to the clipboard or to a file.
-  - content: Which services can the Pause Service action pause?
+      explanation: The Take screenshot action saves the taken screenshots to the clipboard or to a file.
+  - content: Which services can the Pause service action pause?
     choices: 
     - content: "Windows services"
       isCorrect: false 
       explanation: The Pause service action can pause Windows services as well as services from other software.
-    - content: "All types of services"
+    - content: "All types of services installed on the computer"
       isCorrect: true 
       explanation: The Pause service action can pause Windows services as well as services from other software.
   - content: Which one of the following actions sets a value to an environment variable?

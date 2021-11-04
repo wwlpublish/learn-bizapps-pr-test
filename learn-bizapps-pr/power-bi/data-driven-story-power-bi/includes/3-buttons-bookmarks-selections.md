@@ -39,7 +39,7 @@ Now you are ready to add the bookmark. On the **View** tab, select **Bookmarks**
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Bookmark menu expanded to show options.](../media/3-add-bookmark-ssm.png)](../media/3-add-bookmark-ssm.png#lightbox)
 
-Next, you can add the second bookmark. Start by making changes to how the page currently appears. In this example, you will add another bookmark for the main dashboard charts. Because you only want to see charts from the main dashboard, you can hide the **Visual** chart by selecting its eye icon on the **Selections** pane. Then, add a bookmark for this new view of the page and rename it as **Main Dashboard**.
+Next, you can add the second bookmark. Start by making changes to how the page currently appears. In this example, you will add another bookmark for the main dashboard charts. Because you only want to see charts from the main dashboard, you can hide the **Variance** chart by selecting its eye icon on the **Selections** pane. Then, add a bookmark for this new view of the page and rename it as **Main Dashboard**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of selecting items to see with Main Dashboard bookmark.](../media/3-select-items-dashboard-bookmark-ssm.png)](../media/3-select-items-dashboard-bookmark-ssm.png#lightbox)

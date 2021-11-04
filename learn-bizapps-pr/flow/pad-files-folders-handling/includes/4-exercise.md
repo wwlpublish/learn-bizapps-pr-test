@@ -19,7 +19,7 @@ Follow these steps to organize and manage files and folders:
 
 1. Repeat the previous step for other available document or file types. Though no restrictions are placed on the amount, three files should be enough for this exercise.
 
-1. Create a new process and add the **Get special folder** action to the workspace.
+1. Create a new flow and add the **Get special folder** action to the workspace.
 
 1. Set the **Special folder name:** field to **Desktop** and then store it in a variable.
 
@@ -45,7 +45,7 @@ Follow these steps to organize and manage files and folders:
 
 1. To create the log file, add the **Write text to file** action and then set the **File path** field to **%NewFolder%\Backup Log.txt**.
 
-1. In the **Text to write** field, add a message that will show that the process has run successfully.
+1. In the **Text to write** field, add a message that will show that the flow has run successfully.
 
     ![Screenshot of the Write Text to File action dialog.](..\media\write-text-to-file-exercise.png)
 
@@ -57,10 +57,10 @@ Follow these steps to organize and manage files and folders:
 
     ![Screenshot of the Rename Files action dialog.](..\media\rename-files-exercise.png)
 
-    The completed process should resemble the following screenshot.
+    The completed flow should resemble the following screenshot.
 
-    ![Screenshot of the completed process workspace.](..\media\completed-process-workspace-exercise.png)
+    ![Screenshot of the completed flow workspace.](..\media\completed-flow-workspace-exercise.png)
 
-1. Run the process.
+1. Run the flow.
 
-After the run process has completed, you will have a new folder called **Backup Files** on your desktop. The folder will contain all contents of the folder named **Important** and an additional text file called **Backup Log**, which will have the last date and time that the process has run appended to its file name.
+After the run flow has completed, you will have a new folder called **Backup Files** on your desktop. The folder will contain all contents of the folder named **Important** and an additional text file called **Backup Log**, which will have the last date and time that the flow has run appended to its file name.

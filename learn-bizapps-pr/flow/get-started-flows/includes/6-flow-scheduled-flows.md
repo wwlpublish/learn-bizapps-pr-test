@@ -39,7 +39,7 @@ For this scenario, you will need to make an Excel file with a table that contain
 
 1. In the **Email Address** field, use the dynamic content feature to add the **ContactEmail** field.
 
-    Notice that the flow automatically creates an additional step. Flow detects that you're setting up an action that requires an additional action. Whenever the flow reads a new email address, it will also create a new action for each row.
+    Notice that the flow automatically creates another step. Flow detects that you're setting up an action that requires another action. Whenever the flow reads a new email address, it will also create a new action for each row.
 
 1. Use the dynamic content feature to fill in the **First name** and **Last name** fields.
 
