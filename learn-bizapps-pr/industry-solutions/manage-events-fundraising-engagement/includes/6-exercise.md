@@ -9,7 +9,7 @@ At the end of this exercise, you will be able to accomplish the following:
 - Create a registration package for a constituent
 
 > [!IMPORTANT]
-> Before you begin, to achieve the maximum effect for this lab and the other labs, it is recommended that you have deployed Fundraising and Engagement with the sample data. Refer to the [Deployment Guide](https://aka.ms/fedeploymentguide) for further information.
+> Before you begin, to achieve the maximum effect for this lab and the other labs, it is recommended that you have deployed Fundraising and Engagement with the sample data. Refer to the [Deployment Guide](https://aka.ms/DeployMicrosoftCloudForNonprofit) for further information.
 
 ## Event setup
 
