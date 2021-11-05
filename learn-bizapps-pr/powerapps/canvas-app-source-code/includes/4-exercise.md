@@ -194,7 +194,7 @@ In this exercise, you will create a new repository in GitHub, initialize reposit
 
 1.  Select **OK**.
 
-1.  Go to GitHub and open the **Contoto_Man** repository.
+1.  Go to GitHub and open the **Contoso_Man** repository.
 
 1.  Select to open the **src** folder.
 
