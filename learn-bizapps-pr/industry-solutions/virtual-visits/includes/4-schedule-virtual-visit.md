@@ -118,7 +118,7 @@ In this task, you'll sign in to the Patient Portal as Reed Flores and schedule a
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Microsoft Teams audio and video settings for Instant Appointment showing the Join now button.](../media/join-now.png)](../media/join-now.png#lightbox)
 
-1. Select **Teams** on the right to reduce the size of the meeting and see the full holistic experience for a practitioner.
+1. Select **Teams** on the left to reduce the size of the meeting and see the full holistic experience for a practitioner.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Microsoft Teams showing Waiting for others to join.](../media/teams.png)](../media/teams.png#lightbox)
