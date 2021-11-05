@@ -43,7 +43,7 @@ The target output folder is identified by sources switch using the [following fo
 
 ### Canvas pack command
 
-The canvas pack command does the reverse of the unpack command by taking the folder containing individual files and "packing" it back into a single .msapp file. To pack the app so it's ready for upload to the cloud or to be included in a solution use this command:
+The canvas pack command does the reverse of the unpack command by taking the folder containing individual files and "packing" it back into a single .msapp file. To pack the app so it's ready for upload to the cloud or to be included in a solution, use this command:
 
 	`pac canvas pack --msapp "Account Manager.msapp" --sources src`
 
