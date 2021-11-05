@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.instrumentation-app-insights.5-exercise 
+title: Exercise - Use App Insights to collect and analyze telemetry data
+metadata: 
+  title: Exercise - Use App Insights to collect and analyze telemetry data
+  description: Steps to use App Insights to collect and analyze telemetry data.
+  ms.date: 11/12/2021 
+  author: jadaphillips 
+  ms.author: jadaphillips 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 15 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-exercise.md)] 
