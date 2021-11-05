@@ -168,7 +168,7 @@ In this exercise, you will create a new repository in GitHub, initialize reposit
 1.  Type **Initial commit** for the message and select **Commit** (checkbox button).
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the commit changes button.](../media/initial-commit.png)](../media/initial-commit.png#lightbox)
+	> [![Screenshot of the commit changes button for the initial commit.](../media/initial-commit.png)](../media/initial-commit.png#lightbox)
 
 ### Task 3: Add remote and sync repo
 
