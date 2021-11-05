@@ -3,7 +3,7 @@ When you edit a canvas app in Power Apps Studio, you see a visual representation
 > [!div class="mx-imgBorder"]
 > [![Screenshot of a canvas app.](../media/canvas-app.png)](../media/canvas-app.png#lightbox)
 
-You can drag and drop a control on the screen, use the formula bar to edit your expressions and the properties panel to edit control property values. This is how most makers create and modify apps.
+You can drag and drop a control on the screen, use the formula bar to edit your expressions and the properties panel to edit control property values. Using these tools is how most makers create and modify apps.
 
 You can save a copy of a canvas app to your computer as a single file with .msapp extension. If the canvas app is a part of a Dataverse solution, then you can use the [Power Platform CLI (command line interface)](/powerapps/developer/data-platform/powerapps-cli/?azure-portal=true) to download the solution and extract the app. The app file is self-contained and represents the entire app including screens, controls, components, connections, formulas, and so on. Internally, however, it contains many separate files, each describing a part of the app. You can use the unpack feature of the Power Platform CLI to extract these files. Once unpacked, most of the files can be edited using any text editor. Below is the same app opened in Visual Studio Code after it's unpacked.
 
