@@ -72,4 +72,4 @@ Using the extension, you can pack and unpack your canvas apps without leaving VS
 
 Unpacking a canvas app creates many files and makes it possible to commit the individual files to source control for each change. These steps can become a part of your overall [Power Platform ALM strategy](/power-platform/alm/?azure-portal=true). By committing the individual files to source control, you get much more granular tracking of the changes that you made. More specifically, if you commit just the .msapp file the only differencing between the versions is to note that "something" has changed. By unpacking and committing the individual files, you can get line by line differencing and highlight what has changed in each commit. Combined with work item tracking you get requirements traceability all the way down to the change that was made to support the work item.
 
-In the rest of the module we will explore more detail how to work with source control from your canvas app.
+In the rest of the module, we will explore more detail how to work with source control from your canvas app.
