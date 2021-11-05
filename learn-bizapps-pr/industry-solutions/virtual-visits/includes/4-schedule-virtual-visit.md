@@ -4,7 +4,7 @@ In this final exercise, you'll use the items that you configured in the previous
 
 In this task, you'll sign in to the Patient Portal as Reed Flores and schedule an instant virtual appointment. First we need to register Reed for the patient portal.
 
-1. Go to [make.powerapps.com](https://make.powerapps.com/)
+1. Go to [make.powerapps.com](https://make.powerapps.com/?azure-portal=true)
 
 1. Go to the Virtual Clinic application and select **People** from the sitemap. Change the view to Active Patients, if not already on it and open the **Reed Flores** record.
 

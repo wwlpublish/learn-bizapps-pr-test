@@ -207,7 +207,7 @@ In this task, you'll configure the environment variables necessary to generate a
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Environmental Variables dialog showing Virtual Visit Secret and Client ID.](../media/virtual.png)](../media/virtual.png#lightbox)
 
-1. Open a new tab in your internet browser and go to [portal.azure.com](https://portal.azure.com).
+1. Open a new tab in your internet browser and go to [portal.azure.com](https://portal.azure.com/?azure-portal=true).
 
 1. Search for and select **Azure Active Directory**
 
