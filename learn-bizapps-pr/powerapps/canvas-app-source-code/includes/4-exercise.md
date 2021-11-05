@@ -18,7 +18,7 @@ Microsoft Dataverse environment with database installed.
 
 ## Prerequisite
 
-- The prior lab from this module must be completed.
+The prior lab from this module must be completed.
 
 ## Exercise 1: Edit application 
 
@@ -33,7 +33,7 @@ In this exercise, you will edit the account manager application in Visual Studio
 1.  Expand the **src** folder, expand the **Src** folder, and select **BrowseScreen1.fx.yaml** file.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the browse screen file.(../media/browse-screen.png)](../media/browse-screen.png#lightbox)
+	> [![Screenshot of the browse screen file.](../media/browse-screen.png)](../media/browse-screen.png#lightbox)
 
 1.  Locate **LblAppName1**.
 
