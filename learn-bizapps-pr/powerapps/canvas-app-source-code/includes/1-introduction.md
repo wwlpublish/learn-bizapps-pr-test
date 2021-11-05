@@ -49,7 +49,7 @@ The canvas pack command does the reverse of the unpack command by taking the fol
 
 ### Solution commands
 
-You can get the .msapp file for your canvas app from the maker portal by downloading the individual app. If you're using solutions to hold your apps and flows, then exported solution will contain the .msapp file for each canvas app in the solution. Using the CLI and the solution unpack command you can extract the individual .msapp files from the solution. This is an example of the solution unpack command:
+You can get the .msapp file for your canvas app from the maker portal by downloading the individual app. If you're using solutions to hold your apps and flows, then exported solution will contain the .msapp file for each canvas app in the solution. Using the CLI and the solution unpack command you can extract the individual .msapp files from the solution. The following is an example of the solution unpack command:
 
 	`pac solution unpack --solution-zip C:\SampleSolution.zip --folder .\SampleSolutionUnpacked\.`
 
