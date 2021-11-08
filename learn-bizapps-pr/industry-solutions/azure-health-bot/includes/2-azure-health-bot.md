@@ -102,7 +102,7 @@ Task 1: Install Azure Health Bot in Azure Subscription
 1. Scroll to the bottom of the **Human Handoff** page. Under **Dynamics 365 Omnichannel**, toggle **Enabled** for **Bridge Messages**. This is required to allow communication and bridge messages between the Azure health Bot and Dynamics 365 Omnichannel for Customer Service.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Human Handoff page Dynamics 365 Omnichannel toggel enabled for Bridge Messages.](../media/18-bridge-messages.png)](../media/18-bridge-messages.png#lightbox)
+    > [![Screenshot of the Human Handoff page Dynamics 365 Omnichannel toggle enabled for Bridge Messages.](../media/18-bridge-messages.png)](../media/18-bridge-messages.png#lightbox)
 
 1. Select **Save** in the top right.
 
