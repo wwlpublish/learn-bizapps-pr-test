@@ -28,8 +28,8 @@ roles:
 - business-user   
 - functional-consultant 
 products: 
-- dynamics-365 
-- industry-solutions 
+- industry-solutions
+- mscloud-healthcare
 units: 
 - learn-bizapps.patient-outreach.1-introduction 
 - learn-bizapps.patient-outreach.2-patient-segment 
