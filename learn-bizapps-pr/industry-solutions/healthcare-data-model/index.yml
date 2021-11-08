@@ -25,8 +25,8 @@ roles:
 - business-user   
 - functional-consultant 
 products: 
-- dynamics-365 
-- industry-solutions 
+- industry-solutions
+- mscloud-healthcare
 units: 
 - learn-bizapps.healthcare-data-model.1-introduction 
 - learn-bizapps.healthcare-data-model.2-common-data-model 
