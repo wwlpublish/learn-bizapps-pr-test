@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: Dynamics 365 Portal Management
       isCorrect: false 
-      explanation: The correct answer is Azure Portal.
+      explanation: The correct answer is Azure portal.
     - content: Power Apps Portal
       isCorrect: false 
-      explanation: The correct answer is Azure Portal.
-    - content: Azure Portal
+      explanation: The correct answer is Azure portal.
+    - content: Azure portal
       isCorrect: true
-      explanation: The correct answer is Azure Portal.
+      explanation: The correct answer is Azure portal.
     - content: Dynamics 365 Omnichannel Administration
       isCorrect: false 
-      explanation: The correct answer is Azure Portal.
+      explanation: The correct answer is Azure portal.
   - content: Registering which of the following establishes a trust relationship between your Dynamics 365 app and the Microsoft Identity platform?
     choices: 
     - content: Azure Active Directory Application ID
