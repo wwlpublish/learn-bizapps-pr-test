@@ -29,7 +29,7 @@ In this exercise, you'll embed the **Omnichannel Chat Widget** into the Power Ap
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Chat Widget HTML code snippet on the General tab.](../media/75-chat-widget-code-snippet.png)](../media/75-chat-widget-code-snippet.png#lightbox)
 
-1. Select **Save & Close**.
+1. Select **Save and Close**.
 
     > [!div class="mx-imgBorder"]
     > [![Image of the Save and Close option highlighted on the horizontal navigation bar.](../media/76-chat-widget-save-close.png)](../media/76-chat-widget-save-close.png#lightbox)
