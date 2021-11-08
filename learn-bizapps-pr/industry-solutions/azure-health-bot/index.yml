@@ -24,7 +24,8 @@ levels:
 - intermediate   
 roles:  
 - business-user   
-- functional-consultant 
+- functional-consultant
+- mscloud-healthcare
 products: 
 - dynamics-365 
 - industry-solutions 
