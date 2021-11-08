@@ -23,7 +23,7 @@ Navigate back to the Azure Health Bot instance homepage where you set the bot se
 1. Click to Expand the Side navigation bar. Navigate to **Scenario** > **Manage.**
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Scenarios menu on the side navigation bar withe the Manage option selected.](../media/80-scenario-manage.png)](../media/80-scenario-manage.png#lightbox)
+    > [![Screenshot of the Scenarios menu on the side navigation bar with the Manage option selected.](../media/80-scenario-manage.png)](../media/80-scenario-manage.png#lightbox)
 
 1. Click **+ New** button on the top ribbon.
 
@@ -282,7 +282,7 @@ scenario.formData.myName + \" - Thanks for providing the information, we have cr
 1. **Connect** the **Live Chat** to the new **EscalateToAgent** action.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Escalate To branch connected to the ive Chat branch.](../media/110-connect-live-chat.png)](../media/110-connect-live-chat.png#lightbox)
+    > [![Image of the Escalate To branch connected to the Live Chat branch.](../media/110-connect-live-chat.png)](../media/110-connect-live-chat.png#lightbox)
 
 1. You have completed the final connection! Here is your full scenario:
 
