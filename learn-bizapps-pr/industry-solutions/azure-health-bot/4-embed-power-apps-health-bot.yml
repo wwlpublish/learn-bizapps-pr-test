@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.azure-health-bot.4-embed-power-apps-health-bot 
+title: Embed Health Bot in Power Apps Portal
+metadata: 
+  title: Embed Health Bot in Power Apps Portal
+  description: Embed the Omnichannel Chat Widget into the Power Apps Customer self-service portal using Portal Management configuration.
+  ms.date: 11/10/2021 
+  author: dbeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-embed-power-apps-health-bot.md)] 

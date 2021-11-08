@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.azure-health-bot.5-extend-custom-scenarios 
+title: Extend Azure Health Bot with Custom Scenarios
+metadata: 
+  title: Extend Azure Health Bot with Custom Scenarios
+  description: Dynamics 365 Omnichannel integration allows the patient to interact with Azure Health Bot using the Dynamics 365 chat widget to access the medical knowledge and your custom scenarios. 
+  ms.date: 11/10/2021 
+  author: dbeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 8 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-extend-custom-scenarios.md)] 

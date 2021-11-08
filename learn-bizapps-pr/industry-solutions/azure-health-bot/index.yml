@@ -1,0 +1,40 @@
+### YamlMime:Module 
+uid: learn-bizapps.azure-health-bot 
+metadata: 
+ title: Azure Health Bot
+ description:  The Azure Health Bot Service is a cloud platform that empowers developers in healthcare organizations build and deploy compliant, AI-powered virtual health assistants and health bots, that help improve processes and reduce costs.  
+ ms.date: 11/10/2021  
+ author: dbeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-industry-solutions  
+title: Azure Health Bot
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The Azure Health Bot Service is a cloud platform that empowers developers in healthcare organizations build and deploy compliant, AI-powered virtual health assistants and health bots, that help improve processes and reduce costs.  
+abstract: |  
+    In this module, you will: 
+    - Set up Azure Health Bot
+    - Configure Dynamics 365 Customer Service Omnichannel Live Chat
+    -	Embed Azure Health Bot in a Power Apps Portal
+    -	Extend Azure Health Bot with custom scenarios
+prerequisites: Training Environment Preparation, an Azure subscription with Administrator access, Dynamics 365 Customer Service for Omnichannel and Power Apps Customer Self-service Portal
+iconUrl: /learn/achievements/azure-health-bot.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products: 
+- dynamics-365 
+- industry-solutions 
+units: 
+- learn-bizapps.azure-health-bot.1-introduction 
+- learn-bizapps.azure-health-bot.2-azure-health-bot 
+- learn-bizapps.azure-health-bot.3-configure-customer-service-ominchannel-chat 
+- learn-bizapps.azure-health-bot.4-embed-power-apps-health-bot 
+- learn-bizapps.azure-health-bot.5-extend-custom-scenarios 
+- learn-bizapps.azure-health-bot.6-check 
+- learn-bizapps.azure-health-bot.7-summary 
+badge: 
+  uid: learn-bizapps.azure-health-bot.badge 
