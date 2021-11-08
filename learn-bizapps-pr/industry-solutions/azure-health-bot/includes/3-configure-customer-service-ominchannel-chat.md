@@ -223,7 +223,7 @@ In this task, we'll set up basic chat routing. This will allow for users to chat
     c.  **Type:** Number
 
     > [!div class="mx-imgBorder"]
-    > [![Image of Quick Create Context variables with Display Name, Name, Owner and Type fields populated.](../media/58-escalate-context-variable.png)](../media/i58-escalate-context-variable.png#lightbox)
+    > [![Image of Quick Create Context variables with Display Name, Name, Owner and Type fields populated.](../media/58-escalate-context-variable.png)](../media/58-escalate-context-variable.png#lightbox)
 
 1. Select **Save and Close**.
 
