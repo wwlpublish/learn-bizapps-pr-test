@@ -107,7 +107,7 @@ The details screen is named **DetailScreen1** by default. Some of its controls a
 
 - **DetailForm1** - This control contains other controls and contains a data card for each column of the row that is being displayed.
 
-- **Title_DataCard1** - This is a card control. Each card represents a single column of the row. In this case, it shows the Title from the Site Inspector table, as shown in the previous unit.
+- **Address_DataCard1** - This is a card control. Each card represents a single column of the row. In this case, it shows the Address from the Site Inspector table, as shown in the previous unit.
 
 - **IconEdit1** - When this control is selected, it opens the edit/create screen so that the user can edit the current item.
     > [!div class="mx-imgBorder"]
@@ -168,11 +168,13 @@ is just one of the many sources you can use to expand your canvas app’s data.
 
 1.  Select **View** \> **Data sources** to open the **Data** pane.
 
-2.  In the search bar, type or paste the first few letters of **Office 365 Outlook:**
+2.  Select **Add Data**.
+
+3.  In the search bar, type or paste the first few letters of **Office 365 Outlook:**
 
     ![Office 365 Outlook in data sources list](../media/canvas-app-outlook.png)
 
-3.  Select **Connect**, and if prompted to sign in, enter your work account.
+4.  Select **Connect**, and if prompted to sign in, enter your work account.
 
 The Office 365 Outlook connection has been created and added to your app. Now,
 it is ready to be used.

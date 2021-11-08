@@ -1,6 +1,6 @@
-The **desktop and web recorders** are used to assist users in the development of flows. Using a recorder, users can perform the task manually, and Power Automate Desktop will automatically generate actions to mimic the user’s behavior.
+The **desktop and web recorders** are used to assist users in the development of flows. Using a recorder, users can perform the task manually, and Power Automate for desktop will automatically generate actions to mimick the user’s behavior.
 
-There are two types of recorders in Power Automate Desktop:
+There are two types of recorders in Power Automate for desktop:
 
 * The desktop recorder, used for Windows/UI and Keyboard/Mouse related actions
 * The web recorder, used for automating web browser-related actions

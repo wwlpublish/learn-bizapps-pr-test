@@ -19,19 +19,19 @@ To work with time intelligence DAX functions, you need to meet the prerequisite 
 
 -   The date table must be indicated as a date table.
 
-For more information, see [Create date tables in Power BI Desktop](https://docs.microsoft.com/power-bi/guidance/model-date-tables/?azure-portal=true).
+For more information, see [Create date tables in Power BI Desktop](/power-bi/guidance/model-date-tables/?azure-portal=true).
 
 ### Summarizations over time
 
 One group of DAX time intelligence functions is concerned with summarizations over time:
 
--   **[DATESYTD](https://docs.microsoft.com/dax/datesytd-function-dax/?azure-portal=true) DAX function** - Returns a single-column table that contains dates for the year-to-date (YTD) in the current filter context. This group also includes the [DATESMTD](https://docs.microsoft.com/dax/datesmtd-function-dax/?azure-portal=true) and [DATESQTD](https://docs.microsoft.com/dax/datesqtd-function-dax/?azure-portal=true) DAX functions for month-to-date (MTD) and quarter-to-date (QTD). You can pass these functions as filters into the [CALCULATE](https://docs.microsoft.com/dax/calculate-function-dax/?azure-portal=true) DAX function.
+-   **[DATESYTD](/dax/datesytd-function-dax/?azure-portal=true) DAX function** - Returns a single-column table that contains dates for the year-to-date (YTD) in the current filter context. This group also includes the [DATESMTD](/dax/datesmtd-function-dax/?azure-portal=true) and [DATESQTD](/dax/datesqtd-function-dax/?azure-portal=true) DAX functions for month-to-date (MTD) and quarter-to-date (QTD). You can pass these functions as filters into the [CALCULATE](/dax/calculate-function-dax/?azure-portal=true) DAX function.
 
--   **[TOTALYTD](https://docs.microsoft.com/dax/totalytd-function-dax/?azure-portal=true) DAX function** - Evaluates an expression for YTD in the current filter context. The equivalent QTD and MTD DAX functions of [TOTALQTD](https://docs.microsoft.com/dax/totalqtd-function-dax/?azure-portal=true) and [TOTALMTD](https://docs.microsoft.com/dax/totalmtd-function-dax/?azure-portal=true) are also included.
+-   **[TOTALYTD](/dax/totalytd-function-dax/?azure-portal=true) DAX function** - Evaluates an expression for YTD in the current filter context. The equivalent QTD and MTD DAX functions of [TOTALQTD](/dax/totalqtd-function-dax/?azure-portal=true) and [TOTALMTD](/dax/totalmtd-function-dax/?azure-portal=true) are also included.
 
--   **[DATESBETWEEN](https://docs.microsoft.com/dax/datesbetween-function-dax/?azure-portal=true) DAX function** - Returns a table that contains a column of dates that begins with a given start date and continues until a given end date.
+-   **[DATESBETWEEN](/dax/datesbetween-function-dax/?azure-portal=true) DAX function** - Returns a table that contains a column of dates that begins with a given start date and continues until a given end date.
 
--   **[DATESINPERIOD](https://docs.microsoft.com/dax/datesinperiod-function-dax/?azure-portal=true) DAX function** - Returns a table that contains a column of dates that begins with a given start date and continues for the specified number of intervals.
+-   **[DATESINPERIOD](/dax/datesinperiod-function-dax/?azure-portal=true) DAX function** - Returns a table that contains a column of dates that begins with a given start date and continues for the specified number of intervals.
 
 > [!NOTE]
 > While the TOTALYTD function is simple to use, you are limited to passing in one filter expression. If you need to apply multiple filter expressions, use the CALCULATE function and then pass the DATESYTD function in as one of the filter expressions.
@@ -62,13 +62,13 @@ On **Page 1** of the report, add the **Revenue YTD** measure to the matrix vis
 
 Another group of DAX time intelligence functions is concerned with shifting time periods:
 
--   **[DATEADD](https://docs.microsoft.com/dax/dateadd-function-dax/?azure-portal=true) DAX function** - Returns a table that contains a column of dates, shifted either forward or backward in time by the specified number of intervals from the dates in the current filter context.
+-   **[DATEADD](/dax/dateadd-function-dax/?azure-portal=true) DAX function** - Returns a table that contains a column of dates, shifted either forward or backward in time by the specified number of intervals from the dates in the current filter context.
 
--   **[PARALLELPERIOD](https://docs.microsoft.com/dax/parallelperiod-function-dax/?azure-portal=true) DAX function** - Returns a table that contains a column of dates that represents a period that is parallel to the dates in the specified dates column, in the current filter context, with the dates shifted a number of intervals either forward in time or back in time.
+-   **[PARALLELPERIOD](/dax/parallelperiod-function-dax/?azure-portal=true) DAX function** - Returns a table that contains a column of dates that represents a period that is parallel to the dates in the specified dates column, in the current filter context, with the dates shifted a number of intervals either forward in time or back in time.
 
--   **[SAMEPERIODLASTYEAR](https://docs.microsoft.com/dax/sameperiodlastyear-function-dax/?azure-portal=true) DAX function** - Returns a table that contains a column of dates that are shifted one year back in time from the dates in the specified dates column, in the current filter context.
+-   **[SAMEPERIODLASTYEAR](/dax/sameperiodlastyear-function-dax/?azure-portal=true) DAX function** - Returns a table that contains a column of dates that are shifted one year back in time from the dates in the specified dates column, in the current filter context.
 
--   Many helper DAX functions for navigating backward or forward for specific time periods, all of which returns a table of dates. These helper functions include [NEXTDAY](https://docs.microsoft.com/dax/nextday-function-dax/?azure-portal=true), [NEXTMONTH](https://docs.microsoft.com/dax/nextmonth-function-dax/?azure-portal=true), [NEXTQUARTER](https://docs.microsoft.com/dax/nextquarter-function-dax/?azure-portal=true), [NEXTYEAR](https://docs.microsoft.com/dax/nextyear-function-dax/?azure-portal=true), and [PREVIOUSDAY](https://docs.microsoft.com/dax/previousday-function-dax/?azure-portal=true), [PREVIOUSMONTH](https://docs.microsoft.com/dax/previousmonth-function-dax/?azure-portal=true), [PREVIOUSQUARTER](https://docs.microsoft.com/dax/previousquarter-function-dax/?azure-portal=true), and [PREVIOUSYEAR](https://docs.microsoft.com/dax/previousyear-function-dax/?azure-portal=true).
+-   Many helper DAX functions for navigating backward or forward for specific time periods, all of which returns a table of dates. These helper functions include [NEXTDAY](/dax/nextday-function-dax/?azure-portal=true), [NEXTMONTH](/dax/nextmonth-function-dax/?azure-portal=true), [NEXTQUARTER](/dax/nextquarter-function-dax/?azure-portal=true), [NEXTYEAR](/dax/nextyear-function-dax/?azure-portal=true), and [PREVIOUSDAY](/dax/previousday-function-dax/?azure-portal=true), [PREVIOUSMONTH](/dax/previousmonth-function-dax/?azure-portal=true), [PREVIOUSQUARTER](/dax/previousquarter-function-dax/?azure-portal=true), and [PREVIOUSYEAR](/dax/previousyear-function-dax/?azure-portal=true).
 
 Now, you will add a measure definition that calculates revenue for the prior year by using the SAMEPERIODLASTYEAR function. Format the measure as currency with two decimal places.
 

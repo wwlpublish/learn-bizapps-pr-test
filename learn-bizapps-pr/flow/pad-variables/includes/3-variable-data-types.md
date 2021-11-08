@@ -1,11 +1,11 @@
-When you create variables in your flows, Power Automate Desktop converts them to a specific type based on their content.
+When you create variables in your flows, Power Automate for desktop converts them to a specific type based on their content.
 
 Some of these data types are widely used throughout the application, such as numbers, while others, such as FTP connection, require explicit actions or groups of actions.
 
 The platform supports more than 40 distinct data types and enables you to convert variables between each one of them by just changing the content.  
 
 > [!NOTE]
-> To find more information about each data type, please visit the [respective documentation article](https://docs.microsoft.com/power-automate/ui-flows/desktop/variable-data-types).
+> To find more information about each data type, please visit the [respective documentation article](/power-automate/ui-flows/desktop/variable-data-types/?azure-portal=true).
 
 For example, you can deploy the **Get clipboard text** action to retrieve your clipboard's current content. The action will store by default the retrieved text in a text variable named **ClipboardText**.
 
@@ -36,4 +36,4 @@ For example, if the flow contains a list of files called **Files**, you can get 
 ![Screenshot of the notation to get the size of a list of files.](..\media\variable-property-example.png)
 
 > [!NOTE]
-> To find more information about the available properties, please visit the [respective documentation article](https://docs.microsoft.com/power-automate/ui-flows/desktop/datatype-properties).
+> To find more information about the available properties, please visit the [respective documentation article](/power-automate/ui-flows/desktop/datatype-properties/?azure-portal=true).

@@ -1,21 +1,15 @@
-**Microsoft Power BI** is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights. Whether your data is a simple Microsoft Excel workbook, or a collection of cloud-based and on-premises hybrid data warehouses, **Power BI** lets you easily connect to your data sources, visualize (or discover) what's important, and share that with anyone or everyone.
+**Microsoft Power BI** is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights. Whether your data is a simple Microsoft Excel workbook, or a collection of cloud-based and on-premises hybrid data warehouses, **Power BI** lets you easily connect to your data sources, visualize (or discover) what's important, and share that with anyone or everyone you want.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFLap]
+![How Power BI works with other data](../media/pbi-intro_01.png)
 
 **Power BI** can be simple and fast, capable of creating quick insights from an Excel workbook or a local database. But **Power BI** is also robust and enterprise-grade, ready not only for extensive modeling and real-time analytics, but also for custom development. Therefore, it can be your personal report and visualization tool, but can also serve as the analytics and decision engine behind group projects, divisions, or entire corporations.
 
-![How Power BI works with other data to share insights.](../media/pbi-intro_01.png)
-
 If you're a **beginner** with Power BI, this module will get you going. If you're a Power BI **veteran**, this module will tie concepts together and fill in the gaps.
-
-Here is a working Power BI report. Feel free to click and explore.
-
-<iframe width="1140" height="540" src=https://msit.powerbi.com/view?r=eyJrIjoiNmYzNDVmOGItOWMzZi00OTI1LWFlNTctNDljMzAzMDIxNWUzIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
 ## The parts of Power BI
 Power BI consists of a Microsoft Windows desktop application called **Power BI Desktop**, an online SaaS (*Software as a Service*) service called the **Power BI service**, and mobile Power BI **apps** that are available on any device, with native mobile BI apps for Windows, iOS, and Android.
 
-![The parts of Power BI: desktop, service, and mobile.](../media/pbi-intro_02.png)
+![The parts of Power BI](../media/pbi-intro_02.png)
 
 These three elements—**Desktop**, the **service**, and **Mobile** apps—are designed to let people create, share, and consume business insights in the way that serves them, or their role, most effectively.
 
@@ -42,7 +36,7 @@ You can download Power BI Desktop from the web or as an app from the Microsoft S
 ## Sign in to Power BI service
 Before you can sign in to Power BI, you'll need an account. To get a free trial, go to <a href="https://go.microsoft.com/fwlink/?linkid=2101313" target="_blank">app.powerbi.com</a> and sign up with your email address. 
 
-For detailed steps on setting up an account, see [Sign in to Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-sign-in)
+For detailed steps on setting up an account, see [Sign in to Power BI service](/power-bi/consumer/end-user-sign-in)
 
 ## The flow of work in Power BI
 A common flow of work in Power BI begins in **Power BI Desktop**, where a report is created. That report is then published to the **Power BI service** and finally shared, so that users of **Power BI Mobile** apps can consume the information.

@@ -11,7 +11,7 @@ entities that is available in your Microsoft Power Apps environment.
 
 3.  On the **Home** page, select **Model-driven app from blank**.
 
-4.  Click **Create**.
+4.  Select **Classic App Designer** and click **Create**.
 
     ![Model-driven](../media/model-driven-app-from-blank.png)
 
@@ -100,7 +100,7 @@ The following steps explain how to open and add a view in the app designer.
     > [!NOTE]
     > Views are displayed based on the table that you have selected. For example, when you select Account, views that are related to the Account table are displayed.
 
-For more information about the app designer visit [Design custom business apps by using the app designer](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-custom-business-apps-using-app-designer)
+For more information about the app designer visit [Design custom business apps by using the app designer](/powerapps/maker/model-driven-apps/design-custom-business-apps-using-app-designer)
 
 ## Add a column to your view in app designer
 

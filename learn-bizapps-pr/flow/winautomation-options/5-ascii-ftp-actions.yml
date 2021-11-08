@@ -5,8 +5,8 @@ metadata:
   title: Set files to be treated as ASCII in FTP actions
   description: Learn how to set files to be treated as ASCII in FTP actions.
   ms.date: 08/20/2020 
-  author: georgiostrantzas 
-  ms.author: getrantz 
+  author: mariosleon 
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate   
 durationInMinutes: 4 

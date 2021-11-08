@@ -1,10 +1,10 @@
 You can use the **Bookmarks**, **Buttons**, and **Selections** features in Power BI Desktop to make your report more compelling, interactive, and simpler for users to navigate.
 
-- **Bookmarks** - Capture the currently configured view of a report page so you can quickly return to that view later. You can use bookmarks for different reasons. For example, you can use them to keep track of your own progress when creating reports. You can also use them to build a PowerPoint-like presentation that goes through the bookmarks in order, thereby telling a story with your report.
+-   **Bookmarks** - Capture the currently configured view of a report page so you can quickly return to that view later. You can use bookmarks for different reasons. For example, you can use them to keep track of your own progress when creating reports. You can also use them to build a PowerPoint-like presentation that goes through the bookmarks in order, thereby telling a story with your report.
 
-- **Buttons** - Create a more interactive experience for the report users. With the addition of buttons that have assigned actions, your report behaves similar to an app, where users can hover, select, and interact more with the content.
+-   **Buttons** - Create a more interactive experience for the report users. With the addition of buttons that have assigned actions, your report behaves similar to an app, where users can hover, select, and interact more with the content.
 
-- **Selections** - Allow you to determine what items in the report are visible and what items are hidden. Selections are used alongside bookmarks and buttons.
+-   **Selections** - Allow you to determine what items in the report are visible and what items are hidden. Selections are used alongside bookmarks and buttons.
 
 Consider a situation where you have designed a report page and want to have a second page that looks almost the same, except that one of the visuals will be different. Rather than creating a second page and manually making changes, you can use a combination of selections, bookmarks, and buttons to switch between the two visuals on one page.
 
@@ -12,21 +12,21 @@ Consider a situation where you have designed a report page and want to have a se
 
 When you add a bookmark, the following elements are saved with it:
 
-- Current page
+-   Current page
 
-- Filters
+-   Filters
 
-- Slicers, including slicer type (for example, drop-down or list) and slicer state
+-   Slicers, including slicer type (for example, drop-down or list) and slicer state
 
-- Visual selection state (such as cross-highlight filters)
+-   Visual selection state (such as cross-highlight filters)
 
-- Sort order
+-   Sort order
 
-- Drill location
+-   Drill location
 
-- Visibility of an object (by using the **Selection** pane)
+-   Visibility of an object (by using the **Selection** pane)
 
-- Focus or Spotlight modes of any visible object
+-   Focus or Spotlight modes of any visible object
 
 In this example, you want to add bookmarks to allow users to switch between two visuals on one page. First, you need to set up how you want the page to initially display.
 
@@ -39,7 +39,7 @@ Now you are ready to add the bookmark. On the **View** tab, select **Bookmarks**
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Bookmark menu expanded to show options.](../media/3-add-bookmark-ssm.png)](../media/3-add-bookmark-ssm.png#lightbox)
 
-Next, you can add the second bookmark. Start by making changes to how the page currently appears. In this example, you will add another bookmark for the main dashboard charts. Because you only want to see charts from the main dashboard, you can hide the **Visual** chart by selecting its eye icon on the **Selections** pane. Then, add a bookmark for this new view of the page and rename it as **Main Dashboard**.
+Next, you can add the second bookmark. Start by making changes to how the page currently appears. In this example, you will add another bookmark for the main dashboard charts. Because you only want to see charts from the main dashboard, you can hide the **Variance** chart by selecting its eye icon on the **Selections** pane. Then, add a bookmark for this new view of the page and rename it as **Main Dashboard**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of selecting items to see with Main Dashboard bookmark.](../media/3-select-items-dashboard-bookmark-ssm.png)](../media/3-select-items-dashboard-bookmark-ssm.png#lightbox)
@@ -51,7 +51,7 @@ Now, you can switch between the two bookmarks to see the difference in the page.
 
 Repeat these steps to add more bookmarks. In summary, you would select items that you want to show/hide on the report page, add a bookmark, and then give it a descriptive name.
 
-You can now assign those bookmarks to buttons so that users can switch between the bookmarks.
+You can now assign those bookmarks to buttons so that users can switch between the bookmarks. 
 
 ## Add buttons
 
@@ -69,17 +69,17 @@ When the button is added to the page, reposition the button to above the visual 
 
 Now, you can add an action to the button. Go to the **Action** slider near the bottom of the **Visualizations** pane and move the slider to the **On** position. Then, expand the **Actions** section to view the options. The options for the button action types are as follows, some of which are explained in more detail in the subsequent sections.
 
-- **Back** - Returns the user to the previous page of the report. This option is useful for drillthrough pages or pages that are accessed from one main page.
+-   **Back** - Returns the user to the previous page of the report. This option is useful for drillthrough pages or pages that are accessed from one main page.
 
-- **Bookmark** - Presents the report page that's associated with a bookmark that is defined for the current report.
+-   **Bookmark** - Presents the report page that's associated with a bookmark that is defined for the current report.
 
-- **Drill through** - Brings the user to a drillthrough page that is filtered to their selection, without using bookmarks.
+-   **Drill through** - Brings the user to a drillthrough page that is filtered to their selection, without using bookmarks.
 
-- **Page navigation** - Brings the user to a different page within the report, also without using bookmarks, which is an effective way to create a navigation experience for your report users. This type of button is discussed later in this module.
+-   **Page navigation** - Brings the user to a different page within the report, also without using bookmarks, which is an effective way to create a navigation experience for your report users. This type of button is discussed later in this module.
 
-- **Q&A** - Opens a **Q&A Explorer** window, where users can enter questions to quickly find the information that they are looking for and specify the type of visual that they want to see the information displayed in. This option can be useful if you want to save space in the report but still offer **Q&A** functionality to the user.
+-   **Q&A** - Opens a **Q&A Explorer** window, where users can enter questions to quickly find the information that they are looking for and specify the type of visual that they want to see the information displayed in. This option can be useful if you want to save space in the report but still offer **Q&A** functionality to the user.
 
-- **Web URL** - Opens a website in a new browser window. For example, you might want to give users quick access to your organization's website or intranet from within a report.
+-   **Web URL** - Opens a website in a new browser window. For example, you might want to give users quick access to your organization's website or intranet from within a report.
 
 In this example, you select **Bookmark** as the action type. In the **Bookmark** list that displays, select the bookmark that you want to assign to the action, the **Main Dashboard** bookmark that you created previously. For enhanced accessibility, you should add a tooltip that users will see when they hover over the button, but in this case, it's not required because you have a descriptive button label.
 

@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-effective-structure.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 10/11/2021 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 6 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: In what order does an analytic query execute its phases?
+    choices: 
+    - content: Summarize, Filter, Group
+      isCorrect: false
+      explanation: Filtering takes place before grouping.
+    - content: Group, Filter, Summarize
+      isCorrect: false 
+      explanation: Filtering is followed by grouping, then summarization.
+    - content: Filter, Group, Summarize
+      isCorrect: true
+      explanation: Filtering is used to first restrict the data to query. Grouping then divides the query result into groups. Summarization then produces single value aggregations for each group.
+  - content: In analytical report design, which statement describes the golden ratio?
+    choices: 
+    - content: A layout that divides the report page into an invisible grid of nine equal parts
+      isCorrect: false
+      explanation: The golden ratio does not divide the report page into equal parts. Instead, it uses a ratio that is based on the Fibonacci Sequence.
+    - content: A layout that produces asymmetrical balance
+      isCorrect: true 
+      explanation: The golden ratio uses a ratio that is based on the Fibonacci Sequence to produce asymmetrical balance.
+    - content: A layout that produces symmetrical balance
+      isCorrect: false
+      explanation: The golden ratio uses a ratio that is based on the Fibonacci Sequence to produce asymmetrical balance.
+    - content: A report measure that uses the DIVIDE function
+      isCorrect: false
+      explanation: The golden ratio is not related to model calculations. Rather, applying the ratio to a report page layout can produce a balanced result.
+  - content: In what order are the guided analytical experience levels?
+    choices: 
+    - content: High-level metrics > Details > Supporting visuals
+      isCorrect: false
+      explanation: Details (if needed) follow Supporting visuals.
+    - content: High-level metrics > Supporting visuals > Details
+      isCorrect: true
+      explanation: High-level metrics lead to Supporting visuals, and Supporting visuals lead to Details (if needed). 
+    - content: Details > Supporting visuals > High-level metrics
+      isCorrect: false
+      explanation: Details (if needed) follow Supporting visuals, and High-level metrics lead to Supporting visuals.
+    - content: Details > High-level metrics > Supporting visuals
+      isCorrect: false
+      explanation: Details (if needed) follow Supporting visuals.

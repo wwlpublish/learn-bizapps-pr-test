@@ -172,7 +172,7 @@ Now, let's make a change to that conversation by adding another store location. 
 	> [![Screenshot of the message node with store location information.](../media/lab-18.png)](../media/lab-18.png#lightbox)
 
 	> [!NOTE]
-	> You can format the message text using the formatting buttons that appear while you're typing. You can even replace the name of the location with the value of the vasorelaxation variable by using the {*x*} control.
+	> You can format the message text using the formatting buttons that appear while you're typing. You can even replace the name of the location with the value of the pva_StoreLocation variable by using the {*x*} control.
 	
 	You are now going to end the conversation. Since the conversation ends the same way no matter which location the user chose, we're going to link to a shared **End of conversation** node. This node starts the **End of conversation** system topic.
 

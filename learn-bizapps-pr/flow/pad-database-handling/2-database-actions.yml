@@ -3,10 +3,10 @@ uid: learn-bizapps.pad-database-handling.2-database-actions
 title: Database actions
 metadata: 
   title: Database actions
-  description: Learn about database actions in Power Automate Desktop.
+  description: Learn about database actions in Power Automate for desktop.
   ms.date: 02/02/2021  
-  author: olegmelnykov 
-  ms.author: olmelnyk 
+  author: mariosleon  
+  ms.author: marleon
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 15 

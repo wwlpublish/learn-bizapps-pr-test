@@ -4,7 +4,7 @@ You and Kiana have worked on the same "high code" or traditional development tea
 
 The term "low code" can mean different things to different people when they first hear it. What we mean when we talk about low code is that with tools like Power Apps, you only need to write a small amount of code to get results that would normally take several more lines of code in a traditional programming language.
 
-In canvas-based Power Apps, the low code scripting language used is called [Power Fx](https://docs.microsoft.com/power-platform/power-fx/overview); that is the language we will be learning and using throughout this module to build our app.
+In canvas-based Power Apps, the low code scripting language used is called [Power Fx](/power-platform/power-fx/overview/?azure-portal=true); that is the language we will be learning and using throughout this module to build our app.
 
 Take this as an example: to look up the first name of the employee for an order, one would write the Power Fx formula or equivalent JavaScript as seen in the animation below. This animation shows the mapping between the parts of the Power Fx formula and the concepts that need to be explicitly coded in the equivalent JavaScript.
 
@@ -42,8 +42,8 @@ Excel is used by hundreds of millions of users, most of which know that “&” 
 
 ### Display names and localization
 
-'First Name' is used in the Power Fx formula while nwind_firstname is used in the JavaScript equivalent. In [Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/) and SharePoint, there is a display name for fields and tables as well as a unique logical name. The display names are often much more user friendly, as in this case, but they have another important quality: they can be localized. If you have a multi-lingual team, each team member can see table and field names in their own language. In all cases, Power Fx makes sure that the correct logical name is sent to the database automatically.
+'First Name' is used in the Power Fx formula while nwind_firstname is used in the JavaScript equivalent. In [Dataverse](/powerapps/maker/data-platform/?azure-portal=true) and SharePoint, there is a display name for fields and tables as well as a unique logical name. The display names are often much more user friendly, as in this case, but they have another important quality: they can be localized. If you have a multi-lingual team, each team member can see table and field names in their own language. In all cases, Power Fx makes sure that the correct logical name is sent to the database automatically.
 
 ### Always live
 
-There is another Excel trait that is critical for citizen developers: immediate feedback. If you stop to think about it, Excel has no edit mode, compile step, or run state. What’s great is that you’ve probably never thought about that before: you load your spreadsheet, you edit formulas and values freely, and you get your answers. The spreadsheet is always live while in Excel and there is no distinction made between editing and running. Changes in any value or formula are immediate propagated throughout the spreadsheet and the maker can quickly check for the right answer. Any errors that Excel detects are surfaced immediately and don’t interfere with the rest of the spreadsheet.
+There is another Excel trait that is critical for citizen developers: immediate feedback. If you stop to think about it, Excel has no edit mode, compile step, or run state. What’s great is that you’ve probably never thought about that before: you load your spreadsheet, you edit formulas and values freely, and you get your answers. The spreadsheet is always live while in Excel and there is no distinction made between editing and running. Changes in any value or formula are immediately propagated throughout the spreadsheet and the maker can quickly check for the right answer. Any errors that Excel detects are surfaced immediately and don’t interfere with the rest of the spreadsheet.

@@ -1,24 +1,24 @@
 ### YamlMime:Module 
 uid: learn-bizapps.pad-web 
 metadata: 
- title: Web automation in Power Automate Desktop
- description: This module covers the web automation actions in Power Automate Desktop.
+ title: Web automation in Power Automate for desktop
+ description: This module covers the browser automation actions in Power Automate for desktop.
  ms.date: 11/09/2020  
- author: georgiostrantzas  
- ms.author: getrantz  
+ author: mariosleon  
+ ms.author: marleon 
  ms.topic: interactive-tutorial  
  ms.prod: power-platform  
-title: Web automation in Power Automate Desktop
+title: Web automation in Power Automate for desktop
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Web applications are critical components of most organizations. Power Automate Desktop supports the automation of all major browsers through its web automation actions. 
+  Web applications are critical components of most organizations. Power Automate for desktop supports the automation of all major browsers through its browser automation actions. 
 abstract: |  
     In this module, you will: 
-    - Learn how to configure web automation actions.
+    - Learn how to configure browser automation actions.
     - Learn how to extract data from web pages.
     - Create a flow that extracts gainer stocks from the MSN website.
 prerequisites: |
-    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml), [UI elements](../pad-power-automate-desktop-development-essentials/index.yml) and [variables](../pad-variables/index.yml).
+    A basic understanding of [how to use the Power Automate for desktop console and flow designer](../pad-first-steps/index.yml), [UI elements](../pad-power-automate-desktop-development-essentials/index.yml) and [variables](../pad-variables/index.yml).
 iconUrl: /learn/achievements/pad-web.svg  
 levels:  
 - beginner   

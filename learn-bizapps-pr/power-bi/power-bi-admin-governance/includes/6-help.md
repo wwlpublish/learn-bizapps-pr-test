@@ -1,6 +1,6 @@
 Power BI allows you to customize help and support links in the help menu to direct your users to specific organizational content.
 
-It's encouraged that you set up internal Power BI-related sites using [Microsoft Teams](https://docs.microsoft.com/microsoftteams/?azure-portal=true), or some other collaboration platform. These sites can be used to store training documentation, host discussions, make requests for licenses, or respond to help.
+It's encouraged that you set up internal Power BI-related sites using [Microsoft Teams](/microsoftteams/?azure-portal=true), or some other collaboration platform. These sites can be used to store training documentation, host discussions, make requests for licenses, or respond to help.
 
 If you do so, it's recommended that you enable the **Publish "Get Help" information** setting for the entire organization. It's found in the **Help and support settings** group. You can set URLs for your:
 

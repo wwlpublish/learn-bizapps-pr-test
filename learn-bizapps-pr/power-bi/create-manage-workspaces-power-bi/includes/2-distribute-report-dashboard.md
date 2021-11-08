@@ -135,4 +135,4 @@ To accomplish this task, return to the workspace, and make the necessary updates
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Update app button from the ribbon.](../media/02-publish-app-9-ss.png)](../media/02-publish-app-9-ss.png#lightbox)
 
-For more information, see [Publish an app in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-create-distribute-apps/?azure-portal=true).
+For more information, see [Publish an app in Power BI](/power-bi/collaborate-share/service-create-distribute-apps/?azure-portal=true).

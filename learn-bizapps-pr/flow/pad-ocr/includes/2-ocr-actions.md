@@ -1,29 +1,16 @@
-Power Automate Desktop provides a wide variety of optical character recognition (OCR) actions that you can use to locate or extract text from any application or file.
+Power Automate for desktop provides a wide variety of optical character recognition (OCR) actions that you can use to locate or extract text from any application or file.
 
 ## Create an OCR engine
 
 To perform any OCR operation, you have to initialize an OCR engine. OCR engines are software tools used to convert typed or handwritten content into a machine-readable and editable format.
 
-Power Automate Desktop supports the Microsoft MODI and Google Tesseract engines through the **Create MODI OCR engine** and **Create Tesseract OCR engine** actions. Both actions have the same structure and work identically.
-
-![Screenshot of the Create MODI O C R engine action.](..\media\create-modi-ocr-engine-action.png)
-
-To initialize the engine, you need to specify its language and set the image's width and height multipliers.
+Power Automate for desktop supports the Google Tesseract engine and enables users to initialize it through any OCR action. To initialize the engine, you need to specify its language and set the image's width and height multipliers.
 
 Image multipliers increase the size of the image to make text extraction or searching more effective. Although multipliers are a valuable mechanism, avoid setting values greater than three because high values might lead to failed results.
 
-As an output, these actions produce an OCR engine variable. This variable is used as input in virtually every other OCR action.
-
-Additionally, the **Create Tesseract OCR engine** action provides the **Use other language** option to use languages outside the provided list. To use another language, you have to populate the language's abbreviation and the respective data file's path.
-
-![Screenshot of the Create Tesseract O C R engine action.](..\media\create-tesseract-ocr-engine-action.png)
-
-Apart from the **Create Tesseract OCR engine** action, you can initialize a Tesseract OCR engine within every OCR action. This OCR engine initialization method provides the same configuration options as before and eliminates the need for a produced **OCREngine** variable.
+Additionally, you can enable the **Use other language** option to use languages outside the provided list. To use another language, populate the language's abbreviation and the respective data file's path.
 
 ![Screenshot of the Tesseract options in the Extract text with O C R action.](..\media\extract-text-with-ocr-action-tesseract-options.png)
-
-> [!NOTE]
-> To use the **Create MODI OCR engine** action, you need to install the MODI OCR engine on your Desktop.
 
 ## Extract text from screen or images
 
@@ -65,7 +52,7 @@ As an output, the action produces two variables that describe the exact position
 
 ## Move the cursor to a defined text on the screen
 
-Power Automate Desktop provides the mouse and keyboard actions to automate applications that aren't compatible with the UI actions. These actions can be helpful to automate legacy applications or applications that apply strict security restrictions.
+Power Automate for desktop provides the mouse and keyboard actions to automate applications that aren't compatible with the UI actions. These actions can be helpful to automate legacy applications or applications that apply strict security restrictions.
 
 In these circumstances, you can use the **Move mouse to text on screen** action to move the cursor on the screen.
 

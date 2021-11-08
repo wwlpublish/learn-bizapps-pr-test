@@ -59,7 +59,7 @@ With a **single cross-filter direction**:
     > [!TIP]
     > Follow the direction of the arrow on the relationship between your tables to know which direction the filter will flow. You typically want these arrows to point to your fact table.
 
-- For a one-to-many or many-to-one relationship, the cross-filter direction will be from the "one" side, meaning that the filtering will occur in the table that has unique values.
+- For a one-to-many or many-to-one relationship, the cross-filter direction will be from the "one" side, meaning that the filtering will occur in the table that has many values.
 
 With **both cross-filter directions** or **bi-directional cross-filtering**:
 

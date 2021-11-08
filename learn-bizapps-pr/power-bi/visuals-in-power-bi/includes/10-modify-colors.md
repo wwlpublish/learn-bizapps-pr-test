@@ -13,7 +13,7 @@ You can change the color of each bar (or other element, depending on the type of
 
 ## Conditional formatting
 
-You can change the color based on a value or measure. To do so, select the vertical ellipsis next to **Default color**.
+You can change the color based on a value or measure. To do so, select the formula box next to **Default color**.
 
   ![Image of the Conditional Formatting option below the Visualizations pane.](../media/10-power-bi-desktop-conditional-formatting.png)
 

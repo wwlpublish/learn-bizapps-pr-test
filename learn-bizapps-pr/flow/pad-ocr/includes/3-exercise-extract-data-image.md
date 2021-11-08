@@ -1,6 +1,6 @@
-In this exercise, you'll create a flow that extracts invoice data from scanned documents and saves it to a text file. The wanted functionality can be implemented with both **MODI** and **Tesseract** OCR engines.
+In this exercise, you'll create a flow that extracts invoice data from scanned documents and saves it to a text file.
 
-1. Launch Power Automate Desktop console and create a new flow named **Invoice extraction**.
+1. Launch the Power Automate for desktop console and create a new flow named **Invoice extraction**.
 
     ![Screenshot of the Build a flow dialog with Flow name set to Invoice extraction.](..\media\exercise-new-flow.png)
 
@@ -8,11 +8,7 @@ In this exercise, you'll create a flow that extracts invoice data from scanned d
 
     ![Screenshot of the Display select file dialog action.](..\media\exercise-display-select-file-dialog-action.png)
 
-1. Deploy a **Create MODI OCR engine** action to initialize an OCR engine variable. In the action's properties, set the image width and height multipliers to 2.
-
-    ![Screenshot of the Create MODI O C R engine action.](..\media\exercise-create-modi-ocer-engine-action.png)
-
-1. Add an **Extract text with OCR** action to the workspace and configure it to extract text from the previously selected image.
+1. Add an **Extract text with OCR** action to the workspace and configure it to extract text from the previously selected image. In the **OCR engine settings**, set the image width and height multipliers to 2.
 
     ![Screenshot of the Extract text with O C R action.](..\media\exercise-extract-text-with-ocr-action.png)
 
@@ -23,7 +19,7 @@ In this exercise, you'll create a flow that extracts invoice data from scanned d
 1. Save the flow and run it to ensure that the extraction is completed successfully.
 
     > [!NOTE]
-    > To test the flow, you can use the [newinvoice.jpg](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-desktop/newinvoice.zip) image file. Select **Download** on the right side of the page and extract the downloaded file to your local computer.
+    > To test the flow, you can use the [newinvoice.jpg](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/raw/master/power-automate-desktop/newinvoice.zip) image file. Select **Download** on the right side of the page and extract the downloaded file to your local computer.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the appropriate buttons in the designer to save and run the final flow.](../media/exericse-final-flow.png)](../media/exericse-final-flow.png#lightbox)

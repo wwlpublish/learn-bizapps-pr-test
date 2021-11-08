@@ -1,4 +1,4 @@
-When you are finished designing your report, you can publish it to your Power BI workspace. You also have options to export to Microsoft Excel.
+When you are finished designing your report, you can publish it to your workspace in Power BI Service. You also have options to export to Microsoft Excel.
 
 ## Publish reports
 

@@ -1,4 +1,4 @@
-In this exercise, you will be building a Power Automate flow that will check for sentiment in an email that you receive from your boss. Sentiment will be sent as a push notification to your mobile flow app. For more information, see [Create a flow in Power Automate](https://docs.microsoft.com/power-automate/get-started-logic-flow).
+In this exercise, you will be building a Power Automate flow that will check for sentiment in an email that you receive from your boss. Sentiment will be sent as a push notification to your mobile flow app. For more information, see [Create a flow in Power Automate](/power-automate/get-started-logic-flow/?azure-portal=true).
 
 The prerequisite for this exercise is to have Microsoft Dataverse and a Power Automate mobile app to receive push notifications. The mobile app is available for [Google Android](https://play.google.com/store/apps/details?id=com.microsoft.flow), [Apple iOS](https://itunes.apple.com/app/apple-store/id1094928825), and [Windows Phone](https://www.microsoft.com/p/microsoft-flow/9nkn0p5l9n84).
 

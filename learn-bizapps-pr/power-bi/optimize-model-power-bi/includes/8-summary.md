@@ -8,12 +8,12 @@ If Power BI Desktop did not give you the opportunity to optimize inefficient dat
 
 Now that you have optimized the report, users can access the data that they need in a faster time, so they are more productive and have greater job satisfaction. The reduction that you made to the model's file size will ease the strain on resources, bringing about a range of benefits to your organization. You have successfully accomplished the task you were given.
 
-[Use Performance Analyzer to examine report element performance](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer/?azure-portal=true)
+[Use Performance Analyzer to examine report element performance](/power-bi/create-reports/desktop-performance-analyzer/?azure-portal=true)
 
-[Apply auto date/time in Power BI Desktop](https://docs.microsoft.com/power-bi/transform-model/desktop-auto-date-time/?azure-portal=true)
+[Apply auto date/time in Power BI Desktop](/power-bi/transform-model/desktop-auto-date-time/?azure-portal=true)
 
-[Data reduction techniques for Import modeling](https://docs.microsoft.com/power-bi/guidance/import-modeling-data-reduction#group-by-and-summarize/?azure-portal=true)
+[Data reduction techniques for Import modeling](/power-bi/guidance/import-modeling-data-reduction#group-by-and-summarize/?azure-portal=true)
 
-[DirectQuery model guidance in Power BI Desktop](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance/?azure-portal=true)
+[DirectQuery model guidance in Power BI Desktop](/power-bi/guidance/directquery-model-guidance/?azure-portal=true)
 
-[Use aggregations in Power BI Desktop](https://docs.microsoft.com/power-bi/transform-model/desktop-aggregations/?azure-portal=true)
+[Use aggregations in Power BI Desktop](/power-bi/transform-model/desktop-aggregations/?azure-portal=true)

@@ -16,7 +16,12 @@ The environment URL for the Dataverse for Teams table is required when you are c
 
 1. Launch Teams or use your browser to open [https://teams.microsoft.com](https://teams.microsoft.com/?azure-portal=true).
 
-1. Select the **Microsoft Power Apps** application.
+1. Select the **More added apps** ellipsis then type in **power apps** in the search bar.
+
+1. Select **Power Apps** from the search results. If you don't already have it installed click, on **More apps >** and install it from the Teams app store.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the More added apps ellipsis with the search bar highlighted.](../media/image-63.png)](../media/image-63.png#lightbox)    
 
 1. Select the **Build** tab.
 
@@ -61,7 +66,7 @@ To connect to Dataverse for Teams table data, follow these steps:
 
 ## Transform the data
 
-Transforming data is the process of changing data to make it easier to work with. For example, you might want to remove unnecessary columns, change data types, or filter the data before creating Power BI reports. Dataverse for Teams tables have system columns that are used by Dataverse for Teams. You don't necessarily need these system columns when you are creating Power BI visualizations.
+Transforming data is the process of changing data to make it easier to work with. For example, you might want to bring in only a select few columns, change data types, or filter the data before creating Power BI reports. Dataverse for Teams tables have system columns that are used by Dataverse for Teams. You don't necessarily need these system columns when you are creating Power BI visualizations.
 
 For the Cost Trends table data, you need to remove unnecessary columns, rename columns, and verify that the correct data types are used:
 

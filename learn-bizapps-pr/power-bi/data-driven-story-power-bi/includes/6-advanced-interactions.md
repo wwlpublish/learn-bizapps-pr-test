@@ -25,18 +25,18 @@ The following example shows how all elements are updated after the Components ca
 
 To change an interaction of a selected visual, select the required interaction icon. Remember, the applied interaction is displayed in bold. The following image shows that:
 
-- The selected interaction is cross-filtered because the **Filter** icon is displayed in bold.
+-   The selected interaction is cross-filtered because the **Filter** icon is displayed in bold.
 
-- You can change the interaction to cross-highlight by selecting the **Highlight** icon.
+-   You can change the interaction to cross-highlight by selecting the **Highlight** icon.
 
-- You can remove the interaction altogether by selecting the **None** icon.
+-   You can remove the interaction altogether by selecting the **None** icon.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the icons used to change interactions.](../media/6-change-interactions-ssm.png)](../media/6-change-interactions-ssm.png#lightbox)
 
 Keep in mind that the number of interactions between your visuals will impact the performance of your report. To optimize the performance of your report, consider the query reduction options that are available within Power BI Desktop. You have the option to send fewer queries (which will reduce query chattiness) by disabling cross-highlighting/filtering by default. You can also disable certain interactions that would result in a poor experience, if the resulting queries take a long time to run.
 
-You can access the query reduction settings by selecting **File** > **Options and settings** > **Options**, then scrolling down and selecting the **Query reduction** option.
+You can access the query reduction settings by selecting **File > Options and settings > **Options**, then scrolling down and selecting the **Query reduction** option.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Query reduction settings.](../media/6-query-reduction-settings-ssm.png)](../media/6-query-reduction-settings-ssm.png#lightbox)
@@ -46,7 +46,7 @@ You can access the query reduction settings by selecting **File** > **Options an
 You can use the **Drill through** feature to create a page in your report that focuses on a specific entity, such as a product, category, or region. You can then access this page when you drill through from the related visuals that are on other pages in your report. The information that displays on the drillthrough page will be specific to the item that you select on the visual, as illustrated in the following image.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Drill through example.](../media/6-drill-through-example-ssm.png)](../media/6-drill-through-example-ssm.png#lightbox)
+> [![Drill through example](../media/6-drill-through-example-ssm.png)](../media/6-drill-through-example-ssm.png#lightbox)
 
 In this example, you will create a drillthrough for the product category entity. You can start by creating a page in your report and rename it to **Details Page**. On that page, you will add a visual for the entity that you want to provide the drillthrough for (a table that displays data for the **Category**, **SubCategory**, **Country**, **Gross Sales**, and **Net Sales** fields).
 

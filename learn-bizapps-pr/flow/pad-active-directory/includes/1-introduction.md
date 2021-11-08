@@ -2,7 +2,7 @@ Automating Microsoft Azure Active Directory (Azure AD) related tasks allows admi
 
 Consider the example of a large company whose IT department must create a new Active Directory user for every new hire. The new employee’s details are received by email from the Human Resources department, and then the email will be parsed and the employee’s details will be stored in variables.
 
-Power Automate Desktop connects to the Active Directory server and then creates a new user with the provided details and credentials. Then, the user will be added to a group, and a computer object will be created for them as well.
+Power Automate for desktop connects to the Active Directory server and then creates a new user with the provided details and credentials. Then, the user will be added to a group, and a computer object will be created for them as well.
 
 This module demonstrates some of the most common uses of Active Directory actions.
 

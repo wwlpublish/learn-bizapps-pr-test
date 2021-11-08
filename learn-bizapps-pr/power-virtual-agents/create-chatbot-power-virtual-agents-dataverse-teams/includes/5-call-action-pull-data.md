@@ -73,7 +73,7 @@ To add an action, follow these steps:
 
 1. Enter **ContactInfo** for the **Name** and then select **String** for the type.
 
-1. To access Dataverse for Teams table information, search for the **Dataverse (Current Environment)** connector. Select **List rows** for the trigger.
+1. Now we need a step to access the data from Dataverse from Teams. Under the **Initialize variable** step, select the **Insert new step** icon and select **Add an action**. Search for the **Common Data Service (Current Environment)** connector then select **List Rows** as the trigger. 
     
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the search for Dataverse connector with List rows selected.](../media/image-27.png)](../media/image-27.png#lightbox)

@@ -7,9 +7,9 @@ When you have finished creating your report for the regular web view, you can th
 
 To create a mobile-optimized version of your report, you can:
 
-- Design a mobile layout view, where you can drag and drop certain visuals onto a phone emulator canvas.
+-   Design a mobile layout view, where you can drag and drop certain visuals onto a phone emulator canvas.
 
-- Use visuals and slicers that are suitable for use on small, mobile screens.
+-   Use visuals and slicers that are suitable for use on small, mobile screens.
 
 To publish a mobile-optimized version of your report, you can publish the main report as you did previously. The web and mobile versions are published at the same time.
 
@@ -33,9 +33,9 @@ By default, many visuals in Power BI are responsive, which means that they chang
 
 Regarding slicers, which offer on-canvas filtering of report data, you might want to modify some settings to optimize them for mobile use. Return to the regular report authoring mode to edit the slicer settings, and then consider the following points:
 
-- Determine whether you want to allow report readers to select only one item or multiple items.
+-   Determine whether you want to allow report readers to select only one item or multiple items.
 
-- Decide on the orientation of the slicer, whether it should be vertical, horizontal, or responsive (responsive slicers must be horizontal). If you make the slicer responsive, as you change its size and shape, it shows more or fewer options. If you make the slicer small enough, it becomes a filter icon on the report page.
+-   Decide on the orientation of the slicer, whether it should be vertical, horizontal, or responsive (responsive slicers must be horizontal). If you make the slicer responsive, as you change its size and shape, it shows more or fewer options. If you make the slicer small enough, it becomes a filter icon on the report page.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of configuring slicers for a mobile layout.](../media/12-configure-slicers-mobile-layout-ss.png)](../media/12-configure-slicers-mobile-layout-ss.png#lightbox)

@@ -26,10 +26,10 @@ answers. Here's a closer look at the differences between each of these controls.
 
 -   **List box** - This control always shows all available choices
     (unlike
-    a [Dropdown](https://docs.microsoft.com/powerapps/maker/canvas-apps/controls/control-drop-down) control)
+    a [Dropdown](/powerapps/maker/canvas-apps/controls/control-drop-down/?azure-portal=true) control)
     and in which the user can choose more than one item at a time
     (unlike a
-    [Radio](https://docs.microsoft.com/powerapps/maker/canvas-apps/controls/control-radio) control).
+    [Radio](/powerapps/maker/canvas-apps/controls/control-radi/?azure-portal=trueo) control).
 
 -   **Check box** - A control that the user can select or clear to set
     its value to **true** or **false**. The user can specify a Boolean
@@ -62,6 +62,8 @@ Other available controls
     a certain amount of time passes. For example, determine how long a
     control appears or navigate to another screen after a certain amount
     of time has passed.
+
+-   **Date Picker** - A control that allows you to select a Date from a calendar.
 
 -   **Button** - Configure the **OnSelect** property of a button control to
     run one or more formulas when the user clicks or taps the control.

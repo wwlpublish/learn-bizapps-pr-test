@@ -1,7 +1,7 @@
 If your data model has multiple tables, complex relationships, intricate calculations, multiple visuals, and redundant data, a potential exists for poor report performance. The poor performance of a report leads to a negative user experience.
 
 > [!div class="mx-imgBorder"]
-> [![Conceptual graphic of factors impacting report performance](../media/2-graphic-factors-impacting-performance-c.png)](../media/2-graphic-factors-impacting-performance-c.png#lightbox)
+> [![Screenshot of factors impacting report performance.](../media/2-graphic-factors-impacting-performance-c.png)](../media/2-graphic-factors-impacting-performance-c.png#lightbox)
 
 To optimize performance, you must first identify where the problem is coming from; in other words, find out which elements of your report and data model are causing the performance issues. Afterward, you can take action to resolve those issues and, therefore, improve performance.
 
@@ -30,16 +30,16 @@ When you have cleared the caches and opened the Power BI Desktop file on the bla
 To begin the analysis process, select **Start recording**, select the page of the report that you want to analyze, and interact with the elements of the report that you want to measure. You will see the results of your interactions display in the **Performance analyzer** pane as you work. When you are finished, select the **Stop** button.
 
 > [!div class="mx-imgBorder"]
-> [![Performance analyzer overview](../media/2-performance-analyzer-overview-ssm.png)](../media/2-performance-analyzer-overview-ssm.png#lightbox)
+> [![Screenshot of Performance Analyzer start screen.](../media/2-performance-analyzer-overview-ssm.png)](../media/2-performance-analyzer-overview-ssm.png#lightbox)
 
-For more detailed information, see [Use Performance Analyzer to examine report element performance](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer/?azure-portal=true).
+For more detailed information, see [Use Performance Analyzer to examine report element performance](/power-bi/create-reports/desktop-performance-analyzer/?azure-portal=true).
 
 ### Review results
 
 You can review the results of your performance test in the **Performance analyzer** pane. To review the tasks in order of duration, longest to shortest, right-click the **Sort** icon next to the **Duration (ms)** column header, and then select **Total time** in **Descending** order.
 
 > [!div class="mx-imgBorder"]
-> [![Sort results in performance analyzer overview](../media/2-sort-results-performance-analyzer-ss.png)](../media/2-sort-results-performance-analyzer-ss.png#lightbox)
+> [![Screenshot showing how to sort results in Analyzer.](../media/2-sort-results-performance-analyzer-ss.png)](../media/2-sort-results-performance-analyzer-ss.png#lightbox)
 
 The log information for each visual shows how much time it took (duration) to complete the following categories of tasks:
 
@@ -50,7 +50,7 @@ The log information for each visual shows how much time it took (duration) to co
 -   **Other** - The time it took the visual to prepare queries, wait for other visuals to complete, or perform other background processing tasks. If this category displays a long duration, the only real way to reduce this duration is to optimize DAX queries for other visuals, or reduce the number of visuals in the report.
 
 > [!div class="mx-imgBorder"]
-> [![Categories in performance analyzer results](../media/2-categories-performance-analyze-results-ss.png)](../media/2-categories-performance-analyze-results-ss.png#lightbox)
+> [![Screenshot of categories in performance analyzer results.](../media/2-categories-performance-analyze-results-ss.png)](../media/2-categories-performance-analyze-results-ss.png#lightbox)
 
 The results of the analysis test help you to understand the behavior of your data model and identify the elements that you need to optimize. You can compare the duration of each element in the report and identify the elements that have a long duration. You should focus on those elements and investigate why it takes them so long to load on the report page.
 
@@ -73,7 +73,7 @@ Examine the number of fields in each visual. The more visuals you have on the re
 When you examine the results in the **Performance analyzer** pane, you can see how long it took the Power BI Desktop engine to evaluate each query (in milliseconds). A good starting point is any DAX query that is taking longer than 120 milliseconds. In this example, you identify one particular query that has a large duration time.
 
 > [!div class="mx-imgBorder"]
-> [![Performance Analyzer with large duration time](../media/2-performance-analyzer-large-duration-measures-ssm.png)](../media/2-performance-analyzer-large-duration-measures-ssm.png#lightbox)
+> [![Screenshot of an example of large duration time in Performance Analyzer.](../media/2-performance-analyzer-large-duration-measures-ssm.png)](../media/2-performance-analyzer-large-duration-measures-ssm.png#lightbox)
 
 **Performance analyzer** highlights potential issues but does not tell you what needs to be done to improve them. You might want to conduct further investigation into why this measure takes so long to process. You can use DAX Studio to investigate your queries in more detail.
 
@@ -100,7 +100,7 @@ CALCULATE (
 In this case, you can replace the FILTER function with the KEEPFILTER function to significantly reduce the evaluation duration time for this query. When you make this change, to check whether the duration time has improved or not, clear the data cache and then rerun the **Performance analyzer** process.
 
 > [!div class="mx-imgBorder"]
-> [![Performance Analyzer with small duration time](../media/2-performance-analyzer-small-duration-measures-ssm.png)](../media/2-performance-analyzer-small-duration-measures-ssm.png#lightbox)
+> [![Screenshot of an example of small duration time in Performance Analyzer.](../media/2-performance-analyzer-small-duration-measures-ssm.png)](../media/2-performance-analyzer-small-duration-measures-ssm.png#lightbox)
 
 ### Data model
 
@@ -116,7 +116,7 @@ It is best practice to not import columns of data that you do not need. To avoid
 
 When you remove an unnecessary column, you will reduce the size of the data model which, in turn, results in a smaller file size and faster refresh time. Also, because the dataset contains only relevant data, the overall report performance will be improved.
 
-For more information, see [Data reduction techniques for Import modeling](https://docs.microsoft.com/power-bi/guidance/import-modeling-data-reduction/?azure-portal=true).
+For more information, see [Data reduction techniques for Import modeling](/power-bi/guidance/import-modeling-data-reduction/?azure-portal=true).
 
 ### Metadata
 
@@ -127,7 +127,7 @@ When you load data into Power BI Desktop, it is good practice to analyze the cor
 You can use Power Query Editor in Power BI Desktop to examine the columns, rows, and values of the raw data. You can then use the available tools, such as those highlighted in the following screenshot, to make the necessary changes.
 
 > [!div class="mx-imgBorder"]
-> [![Query editor home tab options](../media/2-query-editor-home-tab-ssm.png)](../media/2-query-editor-home-tab-ssm.png#lightbox)
+> [![Screenshot of query editor home tab options.](../media/2-query-editor-home-tab-ssm.png)](../media/2-query-editor-home-tab-ssm.png#lightbox)
 
 The Power Query options include:
 
@@ -148,13 +148,13 @@ The Power Query options include:
     -   **Column profile** - Shows more statistics for the column and a chart showing the distribution of the unique items.
 
 > [!div class="mx-imgBorder"]
-> [![Column profile options](../media/2-data-preview-column-profile-options-ssm.png)](../media/2-data-preview-column-profile-options-ssm.png#lightbox)
+> [![Screenshot of the column profile options.](../media/2-data-preview-column-profile-options-ssm.png)](../media/2-data-preview-column-profile-options-ssm.png#lightbox)
 
 > [!NOTE]
 > If you are reviewing a large dataset with more than 1,000 rows, and you want to analyze that whole dataset, you need to change the default option at the bottom of the window. Select **Column profiling based on top 1000 rows** **>** **Column profiling based on entire data set**.
 
 > [!div class="mx-imgBorder"]
-> [![Column profile rows](../media/2-column-profile-rows-ssm.png)](../media/2-column-profile-rows-ssm.png#lightbox)
+> [![Screenshot of the column profile rows.](../media/2-column-profile-rows-ssm.png)](../media/2-column-profile-rows-ssm.png#lightbox)
 
 Other metadata that you should consider is the information about the data model as a whole, such as the file size and data refresh rates. You can find this metadata in the associated Power BI Desktop (.pbix) file. The data that you load into Power BI Desktop is compressed and stored to the disk by the VertiPaq storage engine. The size of your data model has a direct impact on its performance; a smaller sized data model uses less resources (memory) and achieves faster data refresh, calculations, and rendering of visuals in reports.
 
@@ -171,6 +171,6 @@ You can enable/disable this **Auto date/time** option globally so that it applie
 To enable/disable this **Auto date/time** option, go to **File** **>** **Options and settings** **>** **Options**, and then select either the **Global** or **Current File** page. On either page, select **Data Load** and then, in the **Time Intelligence** section, select or clear the check box as required.
 
 > [!div class="mx-imgBorder"]
-> [![Configure auto date/time options matrix](../media/2-auto-date-time-configure-global-options-ssm.png)](../media/2-auto-date-time-configure-global-options-ssm.png#lightbox)
+> [![Screenshot shows how to configure auto date time.](../media/2-auto-date-time-configure-global-options-ssm.png)](../media/2-auto-date-time-configure-global-options-ssm.png#lightbox)
 
-For an overview and general introduction to the **Auto date/time** feature, see [Apply auto date/time in Power BI Desktop](https://docs.microsoft.com/power-bi/transform-model/desktop-auto-date-time/?azure-portal=true).
+For an overview and general introduction to the **Auto date/time** feature, see [Apply auto date/time in Power BI Desktop](/power-bi/transform-model/desktop-auto-date-time/?azure-portal=true).

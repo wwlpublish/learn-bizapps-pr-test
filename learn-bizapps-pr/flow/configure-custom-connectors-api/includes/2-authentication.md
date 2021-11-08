@@ -78,13 +78,13 @@ The authorization token is short-lived, and the connector runtime will use the r
 
 ## Windows authentication
 
-The Windows authentication option is available only for connections that use [on-premises data gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-onprem/?azure-portal=true), when the **Connect via on-premises data gateway** check box is set on the **General** tab. No additional information is required for the Windows authentication scheme.
+The Windows authentication option is available only for connections that use [on-premises data gateway](/data-integration/gateway/service-gateway-onprem/?azure-portal=true), when the **Connect via on-premises data gateway** check box is set on the **General** tab. No additional information is required for the Windows authentication scheme.
 
 When a new connection is created, the user will need to provide Windows credentials for the service and then select one of the installed on-premises gateways.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the window prompt to enter details for the on-premises custom connector with Windows authentication scheme.](../media/select-gateway.png)](../media/select-gateway.png#lightbox)
 
-Open API specification that is used by the platform includes both [API Key](https://swagger.io/docs/specification/2-0/authentication/api-keys/?azure-portal=true) and [Basic authentication](https://swagger.io/docs/specification/2-0/authentication/basic-authentication/?azure-portal=true) definitions. You can also modify them directly online by using the Swagger editor. Other authentication schemes store authentication information separately as the extended properties of the connector. While this information is not available for direct source editing online, you can modify it by using [the paconn tool](https://docs.microsoft.com/connectors/custom-connectors/paconn-cli/?azure-portal=true). The Command-Line Interface (CLI) allows scripting of the connector deployment process where automated deployment is required.
+Open API specification that is used by the platform includes both [API Key](https://swagger.io/docs/specification/2-0/authentication/api-keys/?azure-portal=true) and [Basic authentication](https://swagger.io/docs/specification/2-0/authentication/basic-authentication/?azure-portal=true) definitions. You can also modify them directly online by using the Swagger editor. Other authentication schemes store authentication information separately as the extended properties of the connector. While this information is not available for direct source editing online, you can modify it by using [the paconn tool](/connectors/custom-connectors/paconn-cli/?azure-portal=true). The Command-Line Interface (CLI) allows scripting of the connector deployment process where automated deployment is required.
 
 Custom connectors support several authentication schemes to accommodate requirements for allowing access to secure REST API services. When API services are deployed and secured within an Azure AD environment, the connector's infrastructure delivers other benefits. You will learn more about Azure AD specifics in the next topic.

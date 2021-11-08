@@ -11,7 +11,7 @@ In this unit, you will combine data from different sources by using Query Editor
 
 To add more sources to an existing report, from the Home ribbon, select **Transform data** and then select **New Source**. You can use many potential data sources in Power BI Desktop, including folders. By connecting to a folder, you can import data from multiple Excel or CSV files at once. 
 
-Power Query Editor allows you to apply filters to your data. For example, selecting the drop-down arrow next to a column opens a checklist of text filters. Clearing a filter allows you to remove values from your model before the data is loaded into Power BI.
+Power Query Editor allows you to apply filters to your data. For example, selecting the drop-down arrow next to a column opens a checklist of text filters. Using a filter allows you to remove values from your model before the data is loaded into Power BI.
 
 ![Screenshot of the "Remove Empty" option.](../media/05-power-bi-desktop-query-editor-filter.png)
 

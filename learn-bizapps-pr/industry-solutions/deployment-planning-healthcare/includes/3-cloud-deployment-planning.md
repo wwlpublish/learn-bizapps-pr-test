@@ -16,7 +16,7 @@ To use Microsoft Teams and the Microsoft 365 EHR integration to the Epic platfor
 
 -   Epic version November 2018 or later (Microsoft 365 EHR integration)
 
-For more information, see [How to buy the Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare/buy/?azure-portal=true).
+For more information, see [How to buy the Microsoft Cloud for Healthcare](/industry/healthcare/buy/?azure-portal=true).
 
 Microsoft Bookings can be used for patient appointments with Microsoft Teams for organizations without an EHR system, and it requires Microsoft 365 Business Standard, Premium, A3, A5, E3, or E5.
 
@@ -28,14 +28,14 @@ The following sections review the requirements to deploy the Microsoft Cloud for
 
 The deployment of the Microsoft 365 EHR integration is launched from the Solutions Center. You will need information from your Epic system to complete the integration and access to an Epic administrator account.
 
-For more information, see [Virtual visits with Teams - Integration into EHR](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin/?azure-portal=true).
+For more information, see [Virtual visits with Teams - Integration into EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the Microsoft cloud for Healthcare solutions, with the Virtual Visits solution highlighted.](../media/virtual-visits.png)](../media/virtual-visits.png#lightbox)
 
 ### Microsoft Bookings
 
-The Microsoft Bookings application doesn't have dependencies to the Microsoft Cloud for Healthcare applications. For more information, see [Virtual Visits with the Microsoft Teams and the Bookings app](https://docs.microsoft.com/microsoftteams/bookings-app-admin/?azure-portal=true).
+The Microsoft Bookings application doesn't have dependencies to the Microsoft Cloud for Healthcare applications. For more information, see [Virtual Visits with the Microsoft Teams and the Bookings app](/microsoftteams/bookings-app-admin/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing booking for Nancy Anderson.](../media/booking-application.png)](../media/booking-application.png#lightbox)

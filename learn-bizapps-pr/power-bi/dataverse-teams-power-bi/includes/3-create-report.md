@@ -2,11 +2,11 @@ Previously, you connected to your Dataverse for Teams table data and then transf
 
 - **Report canvas** - Where visualizations are created and arranged (number **1** in the image).
 
-- **Filters pane** - Allows you to filter and only work with subsets of data (number **2** in the image).
+- **Filters pane** - This allows you to filter and only work with subsets of data (number **2** in the image).
 
 - **Visualizations pane** - Where you can select and edit the visualizations (number **3** in the image).
 
-- **Fields pane** - Where you can choose the data to include in the visualizations or include as a filter (number **4** in the image).
+- **Fields pane** - Where you can choose the data to include in the visualizations or include it as a filter (number **4** in the image).
 
 - **Pages tab** - Where you can create more report canvases (number **5** in the image).
 
@@ -40,7 +40,7 @@ To add a stacked column chart, follow these steps:
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Visualizations and Fields panes with Date dragged to Axis and Total Cost dragged to Values.](../media/image-18.png)](../media/image-18.png#lightbox)
 
-1. Notice that the chart is showing the data by years. You can drill in to see the data by quarter and month by selecting the **Go to the next level in the hierarchy** icon underneath the chart. In the next step, you will edit the chart to show the data by month.
+1. Notice that the chart is showing the data by years. You can drill in to see the data by quarter and month by selecting the **Go to the next level in the hierarchy** icon. In the next step, you will edit the chart to show the data by month.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the chart with the "Go to the next level in the hierarchy" icon highlighted.](../media/image-19.png)](../media/image-19.png#lightbox)
@@ -131,6 +131,11 @@ To add a stacked area chart, follow these steps:
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Format tab with data colors selected.](../media/image-30.png)](../media/image-30.png#lightbox)
 
+1. If the new chart has automatically set the Y axis to zoom in on the shipping data, in the **Format** tab expand the **Y Axis** section and type in **0** for the start. The graph now shows both the Total Production Cost and the Shipping information.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the report stacked area chart with the Y axis set automatically, then the Y axis configuration under Format, then the chart with the Y axis set to start at zero.](../media/image-64.png)](../media/image-64.png#lightbox)
+
 1. Select and resize the chart in the report canvas to occupy the existing space.
 
     > [!div class="mx-imgBorder"]
@@ -158,6 +163,15 @@ After you have completed these steps, your data will appear as currency.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the report with numbers formatted as currency.](../media/image-34.png)](../media/image-34.png#lightbox)
+
+## Explore the report
+
+Power BI links your charts to be interactive when selecting a visual in one chart; the other charts will automatically adjust. For example, if you click on the data point for March under **Total Production Cost and Shipping by Month**, the other two charts will adjust to show data for that month. **Total Cost by Month** will highlight the data for March while the **Materials, Printing, Assembly, and Shipping by Month** line graph shows just the data point for March. Click on the same data point to revet all the charts back to normal.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Contoso Cost Trends report with March data selected in the Total Production Cost and Shipping by Month chart.](../media/image-65.png)](../media/image-65.png#lightbox)
+
+Experiment by selecting other visuals in the other charts. As you add additional tables into your reports, you will create more complex reports that automatically interact to help you and your users explore the data. For more information on Power BI visual interactions and how to configure them, please see the links that are provided in the Summary section at the end of the module.
 
 ## Save the report
 

@@ -1,12 +1,12 @@
 In Power BI Desktop, your report is dynamic. When you make a selection on one visual in the report, other visuals might change to reflect that selection. Similarly, if hierarchies are in your data, you can move up and down the hierarchy to see the data at different levels.
 
-The following sections explain how the basic interactions work and how you can use hierarchies in your visuals.
+The following sections explain how the basic interactions work and how you can use hierarchies in your visuals. 
 
 ## View interactions
 
 When multiple visuals exist on the same report page, they all interact with each other. For that reason, you should become familiar with these interactions to see how your report changes.
 
-Compare the following two images. In the first image, the data displays at a high level.
+Compare the following two images. In the first image, the data displays at a high level. 
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of high level data with the Edit interactions button highlighted.](../media/5-compare-interactions-high-level-ssm.png)](../media/5-compare-interactions-high-level-ssm.png#lightbox)

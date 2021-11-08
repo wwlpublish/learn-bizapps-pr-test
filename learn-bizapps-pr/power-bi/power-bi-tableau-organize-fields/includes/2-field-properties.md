@@ -68,6 +68,6 @@ Like how fields are set to dimensions or measures, in Microsoft Power BI, you ha
 
 ## Reference links
 
-For more information on Power BI datatypes, see: [Data types in Power BI Desktop](https://docs.microsoft.com/power-bi/connect-data/desktop-data-types)
+For more information on Power BI datatypes, see: [Data types in Power BI Desktop](/power-bi/connect-data/desktop-data-types)
 
-For more information on sorting by columns in Power BI, see: [Sort by column in Power BI Desktop](https://docs.microsoft.com/power-bi/create-reports/desktop-sort-by-column)
+For more information on sorting by columns in Power BI, see: [Sort by column in Power BI Desktop](/power-bi/create-reports/desktop-sort-by-column)

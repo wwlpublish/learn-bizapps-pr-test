@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge
  description: Answer the following questions to see what you've learned.
- ms.date: 04/20/2021
+ ms.date: 07/30/2021
  author: DaveBeasley
  ms.author: dbeasley 
  ms.topic: interactive-tutorial
@@ -23,7 +23,7 @@ quiz:
       explanation: Production environments are used for live data and users. It should not be used for proofs of concept because they are thrown away.
     - content: Sandbox
       isCorrect: false
-      explanation: Production environments are used for development and testing. It should not be used for proofs of concept because they are thrown away.
+      explanation: Isolated from production, a sandbox environment is the place to safely develop and test application changes with low risk. It should not be used for proof of concept.
     - content: Trial
       isCorrect: true
       explanation: Trial environments are used to try new features and perform proofs of concept because they are automatically deleted after 30 days.

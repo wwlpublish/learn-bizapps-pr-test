@@ -1,6 +1,6 @@
 Conditionals are used to modify a flow's behavior based on certain conditions. Conditions may include the comparison of two values, or more specific information, such as the existence of a file or the contents of a web page.
 
-Conditional actions are divided into two major categories in Power Automate Desktop, based on their functionality. These are:
+Conditional actions are divided into two major categories in Power Automate for desktop, based on their functionality. These are:
 
 * The **If** group of actions
 * The **Switch** group of actions

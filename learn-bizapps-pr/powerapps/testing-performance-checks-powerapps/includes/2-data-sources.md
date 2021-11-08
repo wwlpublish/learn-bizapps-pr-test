@@ -40,7 +40,7 @@ limitation as you implement the use of collections in your app.
 Delegation also affects performance
 -----------------------------------
 
-When you learned about [delegation](/learn/modules/work-with-data-source-limits-powerapps-canvas-app/), 
+When you learned about [delegation](/learn/modules/work-with-data-source-limits-powerapps-canvas-app/?azure-portal=true),
 you focused on returning the right amount of rows for your
 data source. It is also important to remember that delegation,
 especially for mobile apps, can affect performance.
@@ -58,7 +58,7 @@ experience for the user.
 Try to use only delegable functions as much as possible. If your
 function is not delegable, then plan for the impact on the end user.
 
-Use the Concurrent function to load multiple data sources 
+Use the Concurrent function to load multiple data sources
 -----------------------------------------------------------------
 
 Previously you learned to use collections to cache data in your app. As
@@ -136,7 +136,7 @@ OnStart versus OnVisible
 ---------------------
 
 OnStart and OnVisible are part of your toolkit for building great apps,
-but from a performance point of view, they can have a major impact. 
+but from a performance point of view, they can have a major impact.
 
 -   OnStart - This is an app-level property. Formulas in this property
     are run once, when the app starts, and never again. All of the
@@ -156,7 +156,7 @@ wait on the formula to complete to view the screen, which reduces the amount
 of that user needs to view a blank screen.
 
 In most apps, you use a mixture of OnStart and OnVisible to get the
-optimal experience. 
+optimal experience.
 
 Summary
 -------

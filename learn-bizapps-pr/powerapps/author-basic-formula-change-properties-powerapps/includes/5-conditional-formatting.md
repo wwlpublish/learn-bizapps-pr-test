@@ -10,10 +10,10 @@ formatting can greatly enhance the user experience with visual
 indicators and modified functionality based on the condition.
 
 Continuing with the previous example, the following formula shows how to apply
-conditional formatting to the **Label1 Color** property.
+conditional formatting to the **Label6 Color** property.
 
 ```powerappsfl
-If(Sum(Value(TextInput1_1.Text),Value(TextInput1_2.Text)) >50,Color.DarkGreen,Color.DarkRed)
+If(Sum(Value(TextInput2.Text),Value(TextInput3.Text)) >50,Color.DarkGreen,Color.DarkRed)
 ```
 
 The **Color** property defines the color of the text in the **Label**
@@ -25,7 +25,7 @@ When setting the Color property in Power Apps, there are a few options.
 You can provide a color object, as shown in the example, by using
 Color.Orange or any of the predefined colors in Power Apps. There is also
 a ColorValue and an RGBA function available. For more information, see
-[Power Apps Color enumeration and functions](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-colors).
+[Power Apps Color enumeration and functions](/powerapps/maker/canvas-apps/functions/function-colors/?azure-portal=true).
 
 Another concept that can be applied is to reference the **Text**
 property to determine the **Color** property. If your app needs to always show PASS in DarkGreen and FAIL in DarkRed, then you can use the
@@ -34,7 +34,7 @@ properties you can reference one property in another. Try replacing the
 formula in the **Color** property.
 
 ```
-If(Label1.Text = "PASS", Color.DarkGreen,Color.DarkRed)
+If(Label6.Text = "PASS", Color.DarkGreen,Color.DarkRed)
 ```
 
 This will get you the same result as before but now if you change your

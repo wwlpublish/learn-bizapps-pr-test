@@ -10,7 +10,7 @@ There are various ways to share your Power BI reports beyond your tenant. The fo
 
 There is also a special version of Power BI that can be initiated through the Azure portal called Power BI Embedded (PBIE). PBIE allows application developers to embed fully interactive reports into their applications. Microsoft developed Power BI Embedded for independent software vendors (ISVs) wanting to embed visuals into their applications to help their customers make analytic decisions and spares ISVs from having to build their own analytics' solutions. 
 
-For more information about PBIE, see this [article](https://docs.microsoft.com/power-bi/developer/embedded/embedded-faq/?azure-portal=true).
+For more information about PBIE, see this [article](/power-bi/developer/embedded/embedded-faq/?azure-portal=true).
 
 ## Publish to web
 
@@ -27,7 +27,7 @@ Access the publish to web option through the Power BI admin portal.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of share embedded report feature in Power BI content.](../media/share-content.png)](../media/share-content.png#lightbox)
 
-For more information on the publish to web option, see this [article](https://docs.microsoft.com/power-bi/collaborate-share/service-publish-to-web/?azure-portal=true).
+For more information on the publish to web option, see this [article](/power-bi/collaborate-share/service-publish-to-web/?azure-portal=true).
 
 ## Embed in Microsoft Teams
 
@@ -40,14 +40,14 @@ You can embed Power BI reports in Microsoft Teams. In your Microsoft Teams chann
 
 With the new Power BI report web part for SharePoint Online, you can easily embed interactive Power BI reports in SharePoint Online pages.
 
-When using the new **Embed in SharePoint Online** option, the embedded reports respect all item permissions and data security through [row-level security (RLS)](https://docs.microsoft.com/power-bi/admin/service-admin-rls/?azure-portal=true), so you can easily create secure internal portals.
+When using the new **Embed in SharePoint Online** option, the embedded reports respect all item permissions and data security through [row-level security (RLS)](/power-bi/admin/service-admin-rls/?azure-portal=true), so you can easily create secure internal portals.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of instructions to embed a report on SharePoint Online.](../media/sharepoint-online.png)](../media/sharepoint-online.png#lightbox) 
 
 Embedding a report in SharePoint Online requires no coding knowledge, does not work with on-premises SharePoint and requires the user to log into SharePoint to access reports.
 
-For more information regarding embedding reports in a SharePoint Online web part, see this [article](https://docs.microsoft.com/power-bi/collaborate-share/service-embed-report-spo/?azure-portal=true).
+For more information regarding embedding reports in a SharePoint Online web part, see this [article](/power-bi/collaborate-share/service-embed-report-spo/?azure-portal=true).
 
 ## Embed in PowerApps
 

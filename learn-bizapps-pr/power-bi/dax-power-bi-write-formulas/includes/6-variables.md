@@ -28,4 +28,4 @@ Notice that the RETURN clause refers to the variable twice. This improved measur
 
 In the [**Adventure Works DW 2020 M02.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M02.pbix) Power BI Desktop file, refactor the **Revenue YoY %** measure to produce the same result as the previous example.
 
-For more information on using DAX variables, see [Use variables to improve your formulas](https://docs.microsoft.com/power-bi/guidance/dax-variables/?azure-portal=true).
+For more information on using DAX variables, see [Use variables to improve your formulas](/power-bi/guidance/dax-variables/?azure-portal=true).

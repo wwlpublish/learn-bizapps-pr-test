@@ -4,12 +4,13 @@ title: Build a canvas app
 metadata:
   title: Build a canvas app
   description: "Build a canvas app"
-  ms.date: 03/15/2021
+  ms.date: 09/28/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
 azureSandbox: false
+labModal: false
 durationInMinutes: 30
 content: |
   [!include[](includes/3-build-canvas-app.md)]

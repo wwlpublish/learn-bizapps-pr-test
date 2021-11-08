@@ -41,17 +41,17 @@ To create a visual, drag a field from the **Fields** list onto the **Report** vi
 
 ![Drag a field onto the Report view canvas to create a visual.](../media/02-power-bi-desktop-drag-field.png)
 
-For example, Power BI Desktop automatically created a map-based visualization because it recognized that the **State** field contained geolocation data. (Note that screenshot examples come from a variey of datasets.)
+For example, Power BI Desktop automatically created a map-based visualization because it recognized that the **State** field contained geolocation data. (Note that screenshot examples come from a variety of datasets.)
 
 ## Publish a report
 
 After creating a report with a few visuals, you're ready to publish to the Power BI service. On the **Home** ribbon on the Power BI Desktop, select **Publish**.
 
-![Screenshot of the Publish button.](../media/02-power-bi-desktop-publish.png)
+![Screenshot of the Publish button to publish the report online.](../media/02-power-bi-desktop-publish.png)
 
 You’ll be prompted to sign in to Power BI. When you've signed in and the publish process is complete, the following dialog box will appear. You can select the link below **Success!**, which will take you to the Power BI service, where you can see the report that you published. 
 
-![Screenshot of the Publish button.](../media/02-power-bi-publish-success.png)
+![Screenshot of the Publishing to Power BI success message.](../media/02-power-bi-publish-success.png)
 
 ## Pin a visual to a dashboard
 

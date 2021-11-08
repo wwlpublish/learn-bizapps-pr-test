@@ -5,8 +5,8 @@ metadata:
   title: Configure process security
   description: Configure security settings for a process.
   ms.date: 08/21/2020 
-  author: georgiostrantzas 
-  ms.author: getrantz 
+  author: mariosleon 
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate
 durationInMinutes: 5 

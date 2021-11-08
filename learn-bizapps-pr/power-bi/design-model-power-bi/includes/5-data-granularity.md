@@ -25,7 +25,7 @@ The following figure shows your current data model.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of data granularity in a data model.](../media/05-data-granularity-example-01-ss.png)](../media/05-data-granularity-example-01-ss.png#lightbox)
 
-As shown in the preceding figure, a relationship between Budget and Calendar is missing. Therefore, you need to create this relationship before you can build your visual. Notice that if you transform the **Year** and **Month** columns in the Budget table, you can match the format of the **Date** column in the Calendar table. Then, you can establish a relationship between the two columns. To complete this task, you will concatenate the **Year** and **Month** columns and then change the format.
+As shown in the preceding figure, a relationship between Budget and Calendar is missing. Therefore, you need to create this relationship before you can build your visual. Notice that if you transform the **Year** and **Month** columns in the Calendar table into a new column, and do the same transformation in the Budget table, you can match the format of the **Date** column in the Calendar table. Then, you can establish a relationship between the two columns. To complete this task, you will concatenate the **Year** and **Month** columns and then change the format.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Budget and Calendar tables.](../media/05-budget-calendar-tables-9-ss.png)](../media/05-budget-calendar-tables-9-ss.png#lightbox)
@@ -58,14 +58,14 @@ Power BI automatically detects relationships, but you can also go to **Manage Re
 By completing this task, you have ensured that the granularity is the same between your different tables. Now, you need to create DAX measures to calculate **Total Sales** and **BudgetAmount**. Go to the **Data** pane on Power BI Desktop, select **New Measure**, and then create two measures with the following equations:
 
 ```dax
-TotalSales = SUM(Sales[Total Sales])/100
+TotalSales = SUM(Sales[Total Sales])
 ```
 
 ```dax
 BudgetAmount = SUM (Budget[BudgetAmount])
 ```
 
-Select the matrix visual on the **Visualization** pane, and then enter these measures and the **Date** into the **Values** field**.** You have now accomplished the goal of building a matrix of the total sales and budgets over time.
+Select the table visual on the **Visualization** pane, and then enter these measures and the **Date** into the **Values** field. You have now accomplished the goal of building a matrix of the total sales and budgets over time.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Matrix visual being built.](../media/05-matrix-visual-being-built-04-ssm.png)](../media/05-matrix-visual-being-built-04-ssm.png#lightbox)

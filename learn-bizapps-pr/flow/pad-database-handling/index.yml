@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.pad-database-handling 
 metadata: 
- title: Database handling in Power Automate Desktop
- description: Learn about the database actions in Power Automate Desktop.
+ title: Database handling in Power Automate for desktop
+ description: Learn about the database actions in Power Automate for desktop.
  ms.date: 02/02/2021 
- author: olegmelnykov  
- ms.author: olmelnyk  
+ author: mariosleon  
+ ms.author: marleon 
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Database handling in Power Automate Desktop
+title: Database handling in Power Automate for desktop
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Databases are vital components of every organization, and efficient data handling is necessary for their effective operation. Power Automate Desktop provides organizations with the ability to automate databases through the database actions. 
+  Databases are vital components of every organization, and efficient data handling is necessary for their effective operation. Power Automate for desktop provides organizations with the ability to automate databases through the database actions. 
 abstract: |  
     In this module, you will: 
     - Compose a connection string to connect to a database.
     - Use the appropriate action to run queries on a database.
 prerequisites: |
-    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml), and an SQL database with at least one table that contains data.
+    A basic understanding of [how to use the Power Automate for desktop console and flow designer](../pad-first-steps/index.yml), and an SQL database with at least one table that contains data.
 iconUrl: /learn/achievements/pad-database-handling.svg  
 levels:  
 - intermediate   

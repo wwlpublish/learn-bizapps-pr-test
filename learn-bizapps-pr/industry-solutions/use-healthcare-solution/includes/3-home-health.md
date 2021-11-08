@@ -1,4 +1,4 @@
-The Home Health app is an extension of the [Microsoft Dynamics 365 Field Service](https://docs.microsoft.com/learn/modules/dynamics-365-for-field-service/?azure-portal=true) app. This app allows healthcare professionals to schedule healthcare resources for home visits with patients. Administrators can also follow up with patients for appointment reminders and surveys and to track medical cases.
+The Home Health app is an extension of the [Microsoft Dynamics 365 Field Service](/learn/modules/dynamics-365-for-field-service/?azure-portal=true) app. This app allows healthcare professionals to schedule healthcare resources for home visits with patients. Administrators can also follow up with patients for appointment reminders and surveys and to track medical cases.
 
 Home Health is a model-driven app from Power Apps that can be configured, modified, or extended as required by a particular medical organization's requirements.
 

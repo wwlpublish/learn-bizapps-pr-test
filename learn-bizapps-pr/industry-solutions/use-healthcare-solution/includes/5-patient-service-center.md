@@ -1,6 +1,6 @@
 The Patient Service Center app eases communication between healthcare call center agents and patients through channels such as live chat and text message.
 
-The Patient Service Center is an extension of [Microsoft Dynamics 365 Omnichannel for Customer Service](https://docs.microsoft.com/learn/modules/getting-started-omnichannel/). Patient Service Center is a model-driven app from Power Apps that can be configured, modified, or extended as required by a particular medical organization's requirements.
+The Patient Service Center is an extension of [Microsoft Dynamics 365 Omnichannel for Customer Service](/learn/modules/getting-started-omnichannel/?azure-portal=true). Patient Service Center is a model-driven app from Power Apps that can be configured, modified, or extended as required by a particular medical organization's requirements.
 
 A medical organization (hospital, public health, or other healthcare provider) can provide agent services to patients to get real-time interaction, diagnosis, and advice, which can potentially help avoid time-consuming appointments or misdirected treatments.
 

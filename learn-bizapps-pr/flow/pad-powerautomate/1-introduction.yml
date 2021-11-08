@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.pad-power-automate.1-introduction
-title: Introduction to running Power Automate Desktop from Power Automate
+title: Introduction to running Power Automate desktop flows from cloud flows
 metadata: 
-  title: Introduction to running Power Automate Desktop from Power Automate
-  description: Introduction to passing variables to Power Automate Desktop from Power Automate.
-  ms.date: 12/10/2020 
-  author: olegmelnykov 
-  ms.author: olmelnyk 
+  title: Introduction to running Power Automate desktop flows from cloud flows
+  description: Introduction to running Power Automate desktop flows from cloud flows
+  ms.date: 09/20/2021 
+  author: mariosleon  
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 3

@@ -5,8 +5,8 @@ metadata:
   title: Exercise - Create a flow that calls a WinAutomation process
   description: Follow this exercise to practice running a WinAutomation process can be run from a flow.
   ms.date: 08/24/2020 
-  author: olegmelnykov 
-  ms.author: olmelnyk 
+  author: mariosleon 
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 20 

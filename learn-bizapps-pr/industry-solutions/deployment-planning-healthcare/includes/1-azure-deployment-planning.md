@@ -12,7 +12,7 @@ The main benefits of these healthcare features are that they can be deployed wit
 
 Many Microsoft Azure services are licensed on a consumption model, meaning that the costs are determined by computing resources that have been used during a particular billing cycle. Azure API for FHIR does not have a fixed monthly cost. Additionally, Azure API for FHIR can be provisioned on an Azure portal, and the monthly costs can be calculated based on projected usage by using the [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/?azure-portal=true).
 
-Azure Health Bot is offered as a free or standard plan. The free plan is only recommended for testing and experimenting with Azure Health Bot. The standard plan is a fixed monthly fee with a set package of messages and content consumption with additional fees for messages and content that are required beyond the fixed monthly fee. For more information, see [Choosing the right Health Bot plan](https://docs.microsoft.com/azure/health-bot/resources/pricing-details/?azure-portal=true).
+Azure Health Bot is offered as a free or standard plan. The free plan is only recommended for testing and experimenting with Azure Health Bot. The standard plan is a fixed monthly fee with a set package of messages and content consumption with additional fees for messages and content that are required beyond the fixed monthly fee. For more information, see [Choosing the right Health Bot plan](/azure/health-bot/resources/pricing-details/?azure-portal=true).
 
 ## Microsoft Cloud for Healthcare Azure deployment
 
@@ -24,7 +24,7 @@ Azure API for FHIR allows organizations to take data from various medical system
 
 Azure API for FHIR can be deployed by adding a new resource to an existing Azure deployment. The deployment process will provision all services and APIs to be integrated and accessed from the different electronic medical record systems.
 
-For more information, see [Quickstart: Deploy Azure API for FHIR using Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart/?azure-portal=true).
+For more information, see [Quickstart: Deploy Azure API for FHIR using Azure portal](/azure/healthcare-apis/fhir-paas-portal-quickstart/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Azure API for FHIR deployment screen in Azure.](../media/azure-api-fhir.png)](../media/azure-api-fhir.png#lightbox)
@@ -38,7 +38,7 @@ Azure Health Bot service provides an AI-powered virtual assistant for use with v
 
 Azure Health Bot can be deployed by adding a new resource to an existing Azure subscription. The provisioning process will prompt for the choice of subscription plan (free or standard) and will deploy the required assets.
 
-For more information, see [Create your first Health Bot](https://docs.microsoft.com/azure/health-bot/quickstart-createyourhealthcarebot/?azure-portal=true).
+For more information, see [Create your first Health Bot](/azure/health-bot/quickstart-createyourhealthcarebot/?azure-portal=true).
 
 When Azure Health Bot has been deployed, it can be further configured on the Azure Health Bot portal, and then conversations can be initiated with the bot.
 

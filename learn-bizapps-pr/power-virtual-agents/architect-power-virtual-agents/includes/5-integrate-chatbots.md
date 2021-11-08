@@ -29,7 +29,7 @@ For instance, by using Bot Framework Composer with your Power Virtual Agents cha
 
 ![Power Virtual Agents integration with Bot Framework Composer.](../media/5-pva-composer-integration.gif)
 
-For more information, see [Power Virtual Agents composer](https://docs.microsoft.com/composer/pva/overview-composer-pva/?azure-portal=true) and [Advanced framework composer](https://docs.microsoft.com/power-virtual-agents/advanced-bot-framework-composer/?azure-portal=true).
+For more information, see [Power Virtual Agents composer](/composer/pva/overview-composer-pva/?azure-portal=true) and [Advanced framework composer](/power-virtual-agents/advanced-bot-framework-composer/?azure-portal=true).
 
 ## QnA Maker
 
@@ -37,7 +37,7 @@ You can extend a Power Virtual Agents chatbot to provide answers from a QnA Make
 
 ![Power Virtual Agents integration with QnA Maker.](../media/5-power-automate-qna-flow-template.png)
 
-For more information, see [Fallback topics](https://docs.microsoft.com/azure/cognitive-services/qnamaker/tutorials/integrate-with-power-virtual-assistant-fallback-topic/?azure-portal=true).
+For more information, see [Fallback topics](/azure/cognitive-services/qnamaker/tutorials/integrate-with-power-virtual-assistant-fallback-topic/?azure-portal=true).
 
 ## Cognitive Services
 

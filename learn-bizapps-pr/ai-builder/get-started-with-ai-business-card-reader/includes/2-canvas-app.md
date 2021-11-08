@@ -1,6 +1,6 @@
 Your goal for this exercise is to take a picture or upload an existing photo from the file system and extract contact information that is present in the image. You will then build a canvas app in Power Apps and use the Business card reader component. 
 
-For more information, see the [What are canvas apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started/?azure-portal=true) and the [Use the Business card reader component in a canvas app](https://docs.microsoft.com/ai-builder/business-card-reader-component-in-powerapps/?azure-portal=true) documentation.
+For more information, see the [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started/?azure-portal=true) and the [Use the Business card reader component in a canvas app](/ai-builder/business-card-reader-component-in-powerapps/?azure-portal=true) documentation.
 
 ### Create an application in Power Apps
 
@@ -20,12 +20,12 @@ Follow these steps to give users the ability to automatically retrieve contact i
 
     ![The A I Builder menu is expanded to reveal Business card reader, Form processor, Object detector, and Text recognizer options.](../media/image2.png)
 
-### Bind the contact information to an existing entity from Microsoft Dataverse
+### Bind the contact information to an existing table from Microsoft Dataverse
 
-To bind the contact information to an existing entity from Dataverse, follow these steps:
+To bind the contact information to an existing table from Dataverse, follow these steps:
 
 1. Select **Insert a new Form in edition mode**.
-2. Change the **Default mode** property to **New** and the **Data source** property to the **Contacts** entity.
+2. Change the **Default mode** property to **New** and the **Data source** property to the **Contacts** table.
 3. After the **Data Source** property has been set, three fields are automatically added to the form. Select the **Fields** property and add other contact fields to the form. Business card reader can extract 18 different fields from business cards. For this example, you will add the **Website** field.
 
 ### Bind the extracted contact information to the form
@@ -94,6 +94,6 @@ The extracted contact information is now displayed in the form's data cards. You
 
 ![A screenshot of a scanned business card with the information populating the fields.](../media/image6.png)
 
-You can add new fields to the form; AI Builder Business card reader will recognize various contact information from business cards. You can also use the extracted information to create records in other entities from Dataverse and to use it in external data sources.
+You can add new fields to the form; AI Builder Business card reader will recognize various contact information from business cards. You can also use the extracted information to create records in other tables from Dataverse and to use it in external data sources.
 
-You have now learned how to build a Power Apps canvas app with the AI Builder Business card reader component, and have discovered how to use the extracted contact information to create a new record in the **Contact** entity from Dataverse.
+You have now learned how to build a Power Apps canvas app with the AI Builder Business card reader component, and have discovered how to use the extracted contact information to create a new record in the **Contact** table from Dataverse.

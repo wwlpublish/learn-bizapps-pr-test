@@ -3,10 +3,10 @@ uid: learn-bizapps.pad-power-automate.5-summary
 title: Summary
 metadata: 
   title: Summary
-  description: Summary of the Power Automate and Power Automate Desktop integration module
-  ms.date: 12/10/2020 
-  author: olegmelnykov 
-  ms.author: olmelnyk 
+  description: Summary of the Power Automate and Power Automate for desktop integration module
+  ms.date: 09/20/2021 
+  author: mariosleon  
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 1

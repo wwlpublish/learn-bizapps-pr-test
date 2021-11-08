@@ -131,13 +131,11 @@ Importing the solution is a required installation process that helps ensure that
 	
 		-   Dataverse (legacy)
 		
-		-   Dataverse 
-		
 		-   Power Apps for Admins
 		
 		-   Power Apps for Makers
 		
-		-   Microsoft Power Platform for Admins
+		-   Power Platform for Admins
 		
 		-   Power Automate for Admins
 		
@@ -151,7 +149,12 @@ Importing the solution is a required installation process that helps ensure that
 		
 		-   SharePoint (select **Connect directly (cloud-services)**)
 		
-		-   Microsoft Teams
+		-   Microsoft Teams (preview)
+
+		-   HTTP with Azure AD (use **https://graph.microsoft.com/** for the Base Resource URL and the Azure AD Resource URI)
+
+			> [!div class="mx-imgBorder"]
+			> [![Screenshot of HTTP with Azure AD.](../media/http-azure-active-directory.png)](../media/http-azure-active-directory.png#lightbox)
 
 1.  On the left pane, select **Solutions**.
 
@@ -174,8 +177,20 @@ Importing the solution is a required installation process that helps ensure that
 
 	|     Name                                     |     Current Value                                                                                                                                                                                                                                                  |
 	|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-	|     Power   Automate environment variable    |     For a US   environment: [https://us.flow.microsoft.com/manage/environments/](https://us.flow.microsoft.com/manage/environments/?azure-portal=true)        For an EMEA environment: [https://emea.flow.microsoft.com/manage/environments/](https://emea.flow.microsoft.com/manage/environments/?azure-portal=true)           For a GCC   environment: [https://gov.flow.microsoft.us/manage/environments/](https://gov.flow.microsoft.us/manage/environments/?azure-portal=true)          |
+	|     Power   Automate environment variable    |     For a US   environment: [https://us.flow.microsoft.com/manage/environments/](https://us.flow.microsoft.com/manage/environments/?azure-portal=true)        <br>For an EMEA environment: [https://emea.flow.microsoft.com/manage/environments/](https://emea.flow.microsoft.com/manage/environments/?azure-portal=true)          <br> For a GCC   environment: [https://gov.flow.microsoft.us/manage/environments/](https://gov.flow.microsoft.us/manage/environments/?azure-portal=true)          |
 	|     Admin eMail                              |     Email address   that is used in flows to send notifications to admins; this should be either your   email address or a distribution list                                                                                                                               |
+	|     Also Delete from CoE                              |     Recommend Yes here to delete objects from the CoE inventory when they are deleted from the tenant. No will keep a record that an app or flow existed in the past.                                                                                                                               |
+	|     Approval Admin                              |     The email address used in flows to send approvals to admins; this cannot be a distribution list.                                                                                                                               |
+	|     Community URL                             |     Link to your internal Microsoft Power Platform community (for example, Yammer or Teams).                                                                                                                               |
+	|     Developer Compliance Center URL                              |     Leave empty on Import and do the following to populated after set up of the Governance components.  <br> Navigate to the details page of the Developer Compliance Center (canvas app) included with this solution, and copy the web link (to launch the app) and paste it into this variable.                                                                                                                               |
+	|     Environment Request Admin App Url                              |     Link to the Admin - Power Platform Resource RMS canvas app included in this solution. Leave empty on Import and fill it in once the app is installed. <br>To do that, navigate to the details page of the Admin - Power Platform Resource RMS (canvas app) included with this solution, and use the web link (to launch the app).                                                                                                                        
+	|     PowerApp Maker environment variable                              |     The maker URL used by PowerApps for your cloud, including trailing slash. Here are examples: For a US environment: [https://make.powerapps.com](https://make.powerapps.com) <br>For a GCC environment: [https://make.gov.powerapps.us](https://make.gov.powerapps.us) <br>For a GCC High environment: [https://make.high.powerapps.us/](https://make.high.powerapps.us/)                                                                                                                               |
+	|     PowerApp Player environment variable                              |     The player URL used by PowerApps for your cloud, including trailing slash. Here are examples: For a US environment: [https://app.powerapps.com](https://app.powerapps.com) <br>For a GCC environment: [https://app.gov.powerapps.us](https://app.gov.powerapps.us) <br>For a GCC High environment: [https://app.gov.powerapps.us/](https://app.gov.powerapps.us/)                                                                                                                            |
+	|     PowerApp Player environment variable                              |     The player URL used by PowerApps for your cloud, including trailing slash. Here are examples: For a US environment: [https://app.powerapps.com](https://app.powerapps.com) <br>For a GCC environment: [https://app.gov.powerapps.us](https://app.gov.powerapps.us) <br>For a GCC High environment: [https://app.gov.powerapps.us/](https://app.gov.powerapps.us/)    
+	|
+	|     Power Platform Maker Microsoft 365 Group                              |     The Admin \| Welcome Email flow sends a welcome email to onboard new makers and adds them to a Microsoft 365 group. You can use this group to send communications to your makers or invite them to a Yammer or Teams group. Configure the group ID here.                                                                                                                        
+	|     TenantID                              |     Your Azure Tenant ID.
+
 
 	> [!div class="mx-imgBorder"]
 	> [![Update environment variable values.](../media/environment-variable-ssm.png)](../media/environment-variable-ssm.png#lightbox)
@@ -190,7 +205,9 @@ The flows with the prefix **Sync** are required for populating and cleaning up d
 
 The first run of these will be long running. To avoid issues, enable the flows in an explicit order and repeat this order on each upgrade as well.
 
-1.  Turn on **CLEANUP - Admin | Sync Template v2 (Check Deleted)**.
+1.  Select the **Center of Excellence - Core Components** solution
+
+1. Turn on **CLEANUP - Admin | Sync Template v2 (Check Deleted)**.
 
 1.  Wait until it finishes before you turn on any other flows.
 

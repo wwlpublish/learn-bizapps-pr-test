@@ -1,6 +1,6 @@
 Workspaces are places to collaborate with colleagues to create collections of dashboards, reports, datasets, and paginated reports. The new workspace experience helps you better manage access to content. This unit describes the new workspaces, and how they differ from the classic workspaces. As with classic workspaces, you still use them to create and distribute apps.
 
-New, upgraded workspaces can coexist side by side with existing classic workspaces. The new workspace experience is the default workspace type. You can still create and use [classic workspaces](https://docs.microsoft.com/power-bi/collaborate-share/service-create-workspaces/?azure-portal=true) based on Microsoft 365 groups, if you need to.
+New, upgraded workspaces can coexist side by side with existing classic workspaces. The new workspace experience is the default workspace type. You can still create and use [classic workspaces](/power-bi/collaborate-share/service-create-workspaces/?azure-portal=true) based on Microsoft 365 groups, if you need to.
 
 ## New and classic workspace differences
 
@@ -14,9 +14,9 @@ With the new workspaces, some features have been redesigned. Here are the main d
 
 - **Contact list**: In the new workspaces, you can specify who receives notification about workspace activity.
 
-- **Create template apps**: You can only create *template apps* in the new workspaces. Template apps are apps that you can distribute to customers outside of your organization. Those customers can then connect to their own data with your template app. Read more about [template apps](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview/?azure-portal=true).
+- **Create template apps**: You can only create *template apps* in the new workspaces. Template apps are apps that you can distribute to customers outside of your organization. Those customers can then connect to their own data with your template app. Read more about [template apps](/power-bi/connect-data/service-template-apps-overview/?azure-portal=true).
 
-- **Share datasets**: To share a dataset outside a specific workspace, you need to save the report that contains the dataset to one of the new workspaces. You can't share datasets from classic workspaces. Read more about [shared datasets](https://docs.microsoft.com/power-bi/connect-data/service-datasets-across-workspaces/?azure-portal=true).
+- **Share datasets**: To share a dataset outside a specific workspace, you need to save the report that contains the dataset to one of the new workspaces. You can't share datasets from classic workspaces. Read more about [shared datasets](/power-bi/connect-data/service-datasets-across-workspaces/?azure-portal=true).
 
 - **Organizational content packs**: You create and consume organizational content packs in classic workspaces. You can't create or consume them in the new workspaces. Apps and template apps replace organizational content packs in the new workspaces. Organizational content packs are being deprecated, so now is a good time to upgrade your content packs to apps. See the workspace upgrade roadmap section of this blog post [Announcing Power BI admins can upgrade classic workspaces](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/?azure-portal=true) for the timeline.
 
@@ -25,7 +25,7 @@ With the new workspaces, some features have been redesigned. Here are the main d
 >
 > Classic workspaces will really clutter up your PBI tenant.
 
-More details regarding new and classic workspace differences and new capabilities may be found [here](https://docs.microsoft.com/power-bi/collaborate-share/service-new-workspaces#how-the-new-workspaces-are-different/?azure-portal=true).
+More details regarding new and classic workspace differences and new capabilities may be found [here](/power-bi/collaborate-share/service-new-workspaces#how-the-new-workspaces-are-different/?azure-portal=true).
 
 ## Other workspace improvements
 
@@ -39,7 +39,7 @@ Based on customer feedback requesting a more flexible approach to collaboration 
 
 - **Users without a Pro license** can access a new workspace if the workspace is in a Power BI Premium capacity, but only if they have the Viewer role.
 
-- **Allow users to export data**: Even users with the Viewer role in the new workspace can export data if they have Build permission on the datasets in that workspace. Read more about [Build permission for datasets](https://docs.microsoft.com/power-bi/connect-data/service-datasets-build-permissions/?azure-portal=true).
+- **Allow users to export data**: Even users with the Viewer role in the new workspace can export data if they have Build permission on the datasets in that workspace. Read more about [Build permission for datasets](/power-bi/connect-data/service-datasets-build-permissions/?azure-portal=true).
 
 - No **Leave workspace** button in the new workspaces.
 
@@ -49,7 +49,7 @@ Based on customer feedback requesting a more flexible approach to collaboration 
 
 The contact list feature allows you to specify which users receive notification about issues occurring in the new workspaces. By default, any user or group specified as a workspace admin in the new workspace is notified. You can add to that list. Users or groups in the contact list are also listed in the user interface (UI) of the new workspaces, so workspace end-users know who to contact.
 
-Read about [how to create the workspace contact list](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces#create-a-contact-list/?azure-portal=true).
+Read about [how to create the workspace contact list](/power-bi/collaborate-share/service-create-the-new-workspaces#create-a-contact-list/?azure-portal=true).
 
 ### Workspace OneDrive
 
@@ -66,7 +66,7 @@ To grant access to a new workspace, assign those user groups or individuals to o
 - Contributor
 - Viewer
 
-Everyone in a user group gets the role you've assigned. If someone is in several user groups, they get the highest level of permission provided by the roles they're assigned. If you nest user groups, all the contained users have permission. All of these capabilities, except viewing and interacting, require a Power BI Pro license. Read more about [licensing](https://docs.microsoft.com/power-bi/collaborate-share/service-new-workspaces?azure-portal=true#licenses) in this article.
+Everyone in a user group gets the role you've assigned. If someone is in several user groups, they get the highest level of permission provided by the roles they're assigned. If you nest user groups, all the contained users have permission. All of these capabilities, except viewing and interacting, require a Power BI Pro license. Read more about [licensing](/power-bi/collaborate-share/service-new-workspaces?azure-portal=true#licenses) in this article.
 
 ## License and administer
 
@@ -76,10 +76,10 @@ If one of the new workspaces is in a shared capacity, everyone you add to it nee
 
 ### Guest users
 
-By default, [Azure AD B2B Guest users](https://docs.microsoft.com/power-bi/admin/service-admin-azure-ad-b2b/?azure-portal=true) can't access workspaces. Power BI admins can [allow external guest users to edit and manage content in the organization](https://docs.microsoft.com/power-bi/admin/service-admin-azure-ad-b2b?azure-portal=true#guest-users-who-can-edit-and-manage-content). Enabled Guest users can access workspaces to which they have permission.
+By default, [Azure AD B2B Guest users](/power-bi/admin/service-admin-azure-ad-b2b/?azure-portal=true) can't access workspaces. Power BI admins can [allow external guest users to edit and manage content in the organization](/power-bi/admin/service-admin-azure-ad-b2b?azure-portal=true#guest-users-who-can-edit-and-manage-content). Enabled Guest users can access workspaces to which they have permission.
 
 ### Administer new workspace experience workspaces
 
-Administration for new workspace experience workspaces is in the Power BI admin portal. Power BI admins decide who within an organization can create workspaces and distribute apps. Read about [managing users' ability to create workspaces](https://docs.microsoft.com/power-bi/admin/service-admin-portal?azure-portal=true#create-the-new-workspaces) in the "Admin portal" article.
+Administration for new workspace experience workspaces is in the Power BI admin portal. Power BI admins decide who within an organization can create workspaces and distribute apps. Read about [managing users' ability to create workspaces](/power-bi/admin/service-admin-portal?azure-portal=true#create-the-new-workspaces) in the "Admin portal" article.
 
-Admins can also see the state of all the workspaces in their organization. They can manage, recover, and even delete workspaces. Read about [managing the workspaces themselves](https://docs.microsoft.com/power-bi/admin/service-admin-portal?azure-portal=true#workspaces) in the "Admin portal" article.
+Admins can also see the state of all the workspaces in their organization. They can manage, recover, and even delete workspaces. Read about [managing the workspaces themselves](/power-bi/admin/service-admin-portal?azure-portal=true#workspaces) in the "Admin portal" article.

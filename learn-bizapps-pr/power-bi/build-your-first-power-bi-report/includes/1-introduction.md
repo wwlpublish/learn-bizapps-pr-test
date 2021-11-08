@@ -16,25 +16,25 @@ Power BI Desktop centralizes, simplifies, and streamlines what can otherwise be 
 Ready to give it a try? Then let's get started.
 
 ## Install and run Power BI Desktop
-You can download Power BI Desktop from the **Power BI service** by selecting the download arrow icon and then selecting **Power BI Desktop**.
+You can download Power BI Desktop from the **Power BI service** by selecting the three dots, then download and then selecting **Power BI Desktop**.
 
-![Screenshot of the download arrow icon menu to install Power BI Desktop.](../media/pbid-intro_01.jpg)
+![Install Power BI Desktop from the Power BI service](../media/pbid-intro_01.jpg)
 
 You can also install **Power BI Desktop** as an app from **Microsoft Store**.
 
-![Screenshot of the installation option for Power BI Desktop from the Microsoft Store.](../media/pbid-intro_02.jpg)
+![Install Power BI Desktop from Microsoft Store](../media/pbid-intro_02.jpg)
 
 Power BI Desktop is installed as an application and runs on your desktop. When you start Power BI Desktop, a **Welcome** screen is shown.
 
-![Screenshot of the Power BI Desktop welcome window.](../media/pbid-intro_03.jpg)
+![Power BI Desktop runs as an application](../media/pbid-intro_03.jpg)
 
 You can **get data**, see **recent sources**, or **open other reports** directly from the **Welcome** screen, by using the links in the left pane. If you close the **Welcome** screen (by selecting the **X** in the upper-right corner), the **Report** view of Power BI Desktop is shown.
 
-![Screenshot of the report view of Power BI Desktop with an empty canvas.](../media/pbid-intro_04.jpg)
+![Power BI Desktop empty canvas](../media/pbid-intro_04.jpg)
 
-Three icons along the left edge of the window correspond to the three views that are available in Power BI Desktop: **Report**, **Data**, and **Relationships** (from top to bottom). You can change views by selecting the icons. The current view is indicated by a yellow bar to the left of the icon. For example, in the following image, the **Report** view is currently shown.
+Three icons along the left edge of the window correspond to the three views that are available in Power BI Desktop: **Report**, **Data**, and **Model** (from top to bottom) views. You can change views by selecting the icons. The current view is indicated by a yellow bar to the left of the icon. For example, in the following image, the **Report** view is currently shown.
 
-![Screenshot of the current view yellow bar for the views bar.](../media/pbid-intro_05.jpg)
+![Three different views in Power BI Desktop](../media/pbid-intro_05.jpg)
 
 Power BI Desktop also includes **Power Query Editor**, which starts in a separate window. In **Power Query Editor**, you can build queries and transform data, load that refined data model into Power BI Desktop, and create reports.
 

@@ -1,4 +1,4 @@
-When you have finished creating your report, the performance of that report depends on how quickly data can load onto the report page. You should test your report in the Power BI service to see how it works from a user's perspective. If you experience issues, or if the report users have reported issues, you need to investigate the cause of those issues and take measures to tune the report for more optimized performance.
+When you have finished creating your report, the performance of that report depends on how quickly data can load onto the report page. You should test your report in the Power BI Report Server to see how it works from a user's perspective. If you experience issues, or if the report users have reported issues, you need to investigate the cause of those issues and take measures to tune the report for more optimized performance.
 
 ## Analyze performance
 
@@ -6,7 +6,7 @@ To investigate the cause of issues, your first step is to use the **Performance 
 
 Before you run **Performance analyzer**, ensure that you clear the visual cache and data engine cache; otherwise, the results will not be accurate. Also, you should set up the report so that it opens on a blank page.
 
-When you have cleared the caches and opened the report on the blank page, to run the **Performance analyzer**, go to the **View** tab, select **Performance analyzer**, and then select **Start recording**.
+When you have cleared the caches and opened the report on the blank page, to run the **Performance analyzer**, go to the **View** tab, select **Performance analyzer**, and then select **Start recording**. 
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Performance analyzer button on the View tab.](../media/11-run-performance-analyzer-ssm.png)](../media/11-run-performance-analyzer-ssm.png#lightbox)
@@ -29,9 +29,9 @@ A common reason for poor performance is too many visuals on the same page. The f
 
 If you identify visuals as the bottleneck that has caused poor performance, take the following measures to tune the report:
 
-- Reduce the number of visuals on the report page because fewer visuals means better performance. If a visual is not necessary and doesn't add value to the user, you should remove it. Rather than using multiple visuals on the page, consider other ways to provide additional details, such as drillthrough pages and report page tooltips.
+-   Reduce the number of visuals on the report page because fewer visuals means better performance. If a visual is not necessary and doesn't add value to the user, you should remove it. Rather than using multiple visuals on the page, consider other ways to provide additional details, such as drillthrough pages and report page tooltips.
 
-- Reduce the number of fields in each visual. The upper limit for visuals is 100 fields, so a visual with more than 100 fields will be slow to load (and will look cluttered and confusing). Identify fields that are not valuable to the visual and then remove them.
+-   Reduce the number of fields in each visual. The upper limit for visuals is 100 fields, so a visual with more than 100 fields will be slow to load (and will look cluttered and confusing). Identify fields that are not valuable to the visual and then remove them.
 
 If you find that visuals are not causing the performance issues, you should assess the DAX query results that are displayed in the **Performance analyzer** pane and investigate those results further. For example, you might need to look elsewhere in your data model, such as the relationships and columns.
 

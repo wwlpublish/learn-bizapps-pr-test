@@ -1,8 +1,8 @@
-Power Automate Desktop is an RPA software solution capable of automating rules-based tasks, enabling users to direct their attention to more productive and value-adding tasks.
+Power Automate for desktop is an RPA software solution capable of automating rules-based tasks, enabling users to direct their attention to more productive and value-adding tasks.
 
-To provide automation that is sturdy, reliable, flexible, and user-friendly, Power Automate Desktop incorporates a multitude of features and capabilities, with the goal of empowering its users and covering a wide array of business tasks and tools.
+To provide automation that is sturdy, reliable, flexible, and user-friendly, Power Automate for desktop incorporates a multitude of features and capabilities, with the goal of empowering its users and covering a wide array of business tasks and tools.
 
-In this module, you will get a first glance at the flow development capabilities that Power Automate Desktop offers. You will create a flow using many of the features available in the flow designer, familiarizing yourself with important principles and concepts along the way. You will also examine example flows to further cement your understanding of the development capabilities available to you during flow development.
+In this module, you will get a first glance at the flow development capabilities that Power Automate for desktop offers. You will create a flow using many of the features available in the flow designer, familiarizing yourself with important principles and concepts along the way. You will also examine example flows to further cement your understanding of the development capabilities available to you during flow development.
 
 By the end of this module, you will be able to start developing flows, identifying and implementing the basic techniques and tools required to complete a task.
 
@@ -19,4 +19,4 @@ In this module, you will:
 
 ## Prerequisites
 
-* Basic familiarity with the Power Automate Desktop Console
+* Basic familiarity with the Power Automate for desktop console

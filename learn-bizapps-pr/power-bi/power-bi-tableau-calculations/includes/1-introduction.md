@@ -1,11 +1,11 @@
 As a new Power BI user, you should know that there are two calculation languages: M and DAX. Both languages filter, manage, and visualize your data.
 
-| | **DAX** | **M** |
+| Comparison | **DAX** | **M** |
 |--|--|--|
-| **Why?** | **Calculations and analysis** | **Transformation and connections** |
+| Why? | Calculations and analysis | Transformation and connections |
 | Where? | Used in Power BI Desktop. | Used in Power Query Editor. |
 | What? | Returns a single value, column, or table. Can make calculations using fields from many tables. | Controls shape of data when loaded into Power BI. Transforms one table at a time or combine tables. |
-| **Tableau comparison** | Tableau calculations | Tableau Data Flow or transformation steps before making Tableau Extract. |
+| Tableau comparison | Tableau calculations | Tableau Data Flow or transformation steps before making Tableau Extract. |
 
 **Comparison between the two Power BI calculation languages: DAX and M.**
 

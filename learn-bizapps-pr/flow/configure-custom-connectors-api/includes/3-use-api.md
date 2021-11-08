@@ -1,10 +1,10 @@
 Azure Active Directory (Azure AD) authentication is a recommended authentication scheme. Unlike other approaches, it has the following unique attributes:
 
--   It allows authentication on behalf of the user who is consuming the connection, meaning that users can't get access to the resources that they do not already have access to. The target service maintains responsibility for enforcing what is permitted for the authenticated user.
+- It allows authentication on behalf of the user who is consuming the connection, meaning that users can't get access to the resources that they do not already have access to. The target service maintains responsibility for enforcing what is permitted for the authenticated user.
 
--   The target service knows the identity of the user who is performing the connection, thus allowing more checks by using Azure AD information without explicitly asking a user for further details.
+- The target service knows the identity of the user who is performing the connection, thus allowing more checks by using Azure AD information without explicitly asking a user for further details.
 
--   It supports [managed identities](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview/?azure-portal=true) where controlled access to the underlying resource eliminates the need for developers and users having to manage credentials.
+- It supports [managed identities](/azure/active-directory/managed-identities-azure-resources/overview/?azure-portal=true) where controlled access to the underlying resource eliminates the need for developers and users having to manage credentials.
 
 The internals of the Azure AD secured custom connector are similar to a generic secured connector.
 
@@ -56,7 +56,7 @@ Select **OAuth 2.0** as the authentication type and then set the identity provid
 
 After you have saved the configuration, the Redirect URL will become available to add as a valid callback to the app registration.
 
-The configuration is stored in the **apiProperties.json** file, and developers can also use [paconn command line tooling](https://docs.microsoft.com/connectors/custom-connectors/paconn-cli/?azure-portal=true) to update the configuration as required. For example, the secret key, instead of being defined by the maker, can be managed and rotated automatically as part of the enterprise deployment.
+The configuration is stored in the **apiProperties.json** file, and developers can also use [paconn command line tooling](/connectors/custom-connectors/paconn-cli/?azure-portal=true) to update the configuration as required. For example, the secret key, instead of being defined by the maker, can be managed and rotated automatically as part of the enterprise deployment.
 
 ## Steps to configure connectors with Azure Active Directory
 

@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.pad-text-manipulation.3-datetime-actions 
-title: Datetime actions
+title: Date time actions
 metadata: 
   title: Datetime actions
-  description: Learn about Datetime actions.
+  description: Learn about datetime actions.
   ms.date: 09/22/2020 
-  author: olegmelnykov 
-  ms.author: olmelnyk 
+  author: mariosleon  
+  ms.author: marleon  
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 5

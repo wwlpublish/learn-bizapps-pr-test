@@ -66,7 +66,7 @@ days back that the flow should evaluate when looking for new apps, flows, and
 connectors. The default value is **-7**, which means that this flow will
 look for new assets that were created in the past seven days.
 
-![Screenshot of Power Automate showing the configured flow.](../media/9-configure-flow.png)
+![Screenshot of Power Automate showing the configured flow with Interval and Frequency highlighted.](../media/9-configure-flow.png)
 
 When you run this flow, a report will be generated that identifies every
 new flow, app, and connector that has been created in your tenant over the

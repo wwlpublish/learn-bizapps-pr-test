@@ -1,8 +1,8 @@
 With Power Virtual Agents, you can use variables to store important information that is entered by the customer for later use. For example, you can save a customer's name in a variable called UserName. This variable can be inserted into conversation nodes to create a more personal experience for the customer, such as inserting it into the **Message** node, to allow the bot to address the customer by name as the conversation continues.
 
-Variables can be used to dynamically route customers down different conversation paths. They can also be fed into [Power Automate](https://docs.microsoft.com/power-virtual-agents/advanced-flow/?azure-portal=true) flows or [Bot Framework Skills](https://docs.microsoft.com/azure/bot-service/bot-builder-skills-overview?view=azure-bot-service-4.0/?azure-portal=true) as input parameters. For example, the city that the customer lives in could be stored in a variable. When a Power Automate flow is run, the variable could be passed through as an input parameter to ensure that the weather service is getting the correct forecast.
+Variables can be used to dynamically route customers down different conversation paths. They can also be fed into [Power Automate](/power-virtual-agents/advanced-flow/?azure-portal=true) flows or [Bot Framework Skills](/azure/bot-service/bot-builder-skills-overview?view=azure-bot-service-4.0/?azure-portal=true) as input parameters. For example, the city that the customer lives in could be stored in a variable. When a Power Automate flow is run, the variable could be passed through as an input parameter to ensure that the weather service is getting the correct forecast.
 
-For a complete list of variable types, see [Entity and variable types](https://docs.microsoft.com/power-virtual-agents/authoring-variables#entity-and-variable-type/?azure-portal=true).
+For a complete list of variable types, see [Entity and variable types](/power-virtual-agents/authoring-variables#entity-and-variable-type/?azure-portal=true).
 
 ### Create variables
 
@@ -50,4 +50,4 @@ Two primary items that are available from the **Variable Properties** pane are:
 
 - **Used by** - Displays all topics where the variable is used so that you can go straight to that topic and node.
 
-For additional information, see [Microsoft Docs](https://docs.microsoft.com/power-virtual-agents/authoring-variables-bot).
+For additional information, see [Microsoft Docs](/power-virtual-agents/authoring-variables-bot).

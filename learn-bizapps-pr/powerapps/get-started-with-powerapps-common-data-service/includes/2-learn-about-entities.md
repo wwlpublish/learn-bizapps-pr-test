@@ -2,12 +2,12 @@ Microsoft Dataverse is designed to let you quickly and easily create a data mode
 
 Tables describe the kinds of data that is stored in the Dataverse database. Each table corresponds to a database table and each column (also known as an attribute) within a table represents a column in that table. 
 
-In Dataverse, metadata (data about data), is a collection of tables. table metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. When you use customization tools to create or edit tables, columns, and table relationships, you are editing this metadata.
+In Dataverse, metadata (data about data), is a collection of tables. Table metadata is what controls the kinds of rows you can create and what kind of actions can be performed on them. When you use customization tools to create or edit tables, columns, and table relationships, you are editing this metadata.
 
 The apps that your customers use to interact with the data in your environment depend on the table metadata, and they adapt as you customize the metadata. 
 
 ## When to use standard tables, and when to create new tables
-Dataverse comes with a number of standard tables that support core business application capabilities. Each table also contains a number of metadata columns that represent common data that the system needs to store for that table. We recommend that you become very familiar with the catalog of standard tables, and use them where possible, because any applications written with standard tables will work as you expect in your environment without additional effort.
+Dataverse comes with many standard tables that support core business application capabilities. Each table also contains many metadata columns that represent common data that the system needs to store for that table. We recommend that you become familiar with the catalog of standard tables, and use them where possible, because any applications written with standard tables will work as you expect in your environment without extra effort.
 
 For minor changes, you might not have to create a custom table: 
 
@@ -17,21 +17,21 @@ For minor changes, you might not have to create a custom table:
 If standard tables don't work for your business needs, and if they can't be edited to meet those needs, consider creating a new table, column, or table relationship. If a standard table almost meets your business needs, you can use it as the basis for a new table.
 
 ## Table relationships
-Table relationships define the different ways table records can be associated with records from other tables or the same table. Table relationships are metadata. They let queries retrieve related data very efficiently. Use table relationships to define the formal relationships that define the table or that most records can use. 
+Table relationships define the different ways table rows can be associated with rows from other tables or the same table [self-referential relationship](/powerapps/maker/data-platform/create-edit-nn-relationships-portal#azure-portal=true#create-a-many-to-many-relationship-with-the-same-table-self-referential-relationship). Table relationships are metadata. They let queries retrieve related data efficiently. Use table relationships to define the formal relationships between tables. 
 
 When you look at the solution explorer you might think that there are three types of table relationships but actually there are only two, see below:
 
-- **One-to-many relationships**: In a one-to-many (1:N) table relationship, many related table records are associated with a single primary table record in a parent/child relationship. 
-- **Many-to-many relationships**: In a many-to-many (N:N) table relationship, many table records are associated with many other table records. Records that are related through N:N table relationships are considered peers.
+- **One-to-many relationships**: In a one-to-many (1:N) table relationship, many related table rows are associated with a single primary table row in a parent/child relationship. 
+- **Many-to-many relationships**: In a many-to-many (N:N) table relationship, many table rows are associated with many other table rows. Rows that are related through N:N table relationships are considered peers.
 
-The N:1 (many-to-one) relationship type exists in the user interface because the designer shows you a view grouped by tables. 1:N relationships actually exist between tables and refer to each table as either a Primary/Current table or Related table. The related table, sometimes called the child table, has a lookup column that allows storing a reference to a record from the primary table, sometimes called the parent table. A N:1 relationship is just a 1:N relationship viewed from the related table.
+The N:1 (many-to-one) relationship type exists in the user interface because the designer shows you a view grouped by tables. 1:N relationships actually exist between tables and refer to each table as either a Primary/Current table or Related table. The related table, sometimes called the child table, has a lookup column that allows storing a reference to a row from the primary table, sometimes called the parent table. A N:1 relationship is just a 1:N relationship viewed from the related table.
 
-Besides defining how records can be related to other records, 1:N table relationships also provide data to address the following questions:
+Besides defining how rows can be related to other rows, 1:N table relationships also provide data to address the following questions:
 
-- When I delete a record, should any records that are related to that record also be deleted?
-- When I assign a record to a new owner, do I also have to assign all related records to the new owner?
-- How can I streamline the data entry process when I create a new related record in the context of an existing record?
-- How should people who view a record be able to view the related records?
+- When I delete a row, should any rows that are related to that row also be deleted?
+- When I assign a row to a new owner, do I also have to assign all related rows to the new owner?
+- How can I streamline the data entry process when I create a new related row in the context of an existing row?
+- How should people who view a row be able to view the related rows?
 
 ## Table types
 Before creating or editing tables in Dataverse, you should understand the different types of tables that you can create. After a custom table is created, the table type can't be changed. 
@@ -39,7 +39,7 @@ Before creating or editing tables in Dataverse, you should understand the differ
 ### Types of table owners
 When you create a custom table, the options for ownership are *User or team owned*, or *Organization-owned*. After a table is created, you can’t change the ownership. 
 
-- **User or team owned**: Actions that can be performed on these records can be controlled at the user level.
+- **User or team owned**: Actions that can be performed on these rows can be controlled at the user level.
 - **Organization-owned**: Access to the data is controlled at the organization level.
 
 ### Activity tables
@@ -47,7 +47,7 @@ An *activity* is an action that a calendar entry can be made for. Activities hav
 
 - They have time dimensions (start time, stop time, due date, and duration) that help define when the action occurred or will occur.
 - They have data (like a subject and description) that helps define the action that the activity represents. 
-- They can be opened, canceled, or completed. Several sub-status values will be associated with the *Completed* status of an activity to clarify how the activity was completed. 
+- They can be opened, canceled, or completed. Several substatus values will be associated with the *Completed* status of an activity to clarify how the activity was completed. 
  
 Activity tables can be owned only by a user or team. They can't be owned by an organization.
 

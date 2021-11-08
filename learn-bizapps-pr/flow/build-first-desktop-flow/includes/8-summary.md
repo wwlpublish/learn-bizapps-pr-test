@@ -1,8 +1,8 @@
-Power Automate Desktop helps you reduce or eliminate repetitive tasks, which will help increase productivity. Robotic process automation (RPA) allows you to outsource those tasks to user-friendly software, freeing your time for more important or creative endeavors. Power Automate allows you to build automations on desktop applications without requiring custom connectors by using desktop flows. Desktop flows are the first step in designing your complete RPA solution.
+Power Automate helps you reduce or eliminate repetitive tasks, which will help increase productivity. Robotic process automation (RPA) allows you to outsource those tasks to user-friendly software, freeing your time for more important or creative endeavors. Power Automate allows you to build automations on desktop applications without requiring custom connectors by using desktop flows. Desktop flows are the first step in designing your complete RPA solution.
 
 In this module, you have:
 
--   Learned about the Power Automate Desktop flows.
+-   Learned about the Power Automate flows.
 
 -   Created a new desktop flow.
 
@@ -18,4 +18,4 @@ Key takeaways of this module include:
 
 - Recording your actions is as simple as pressing a button.          
                    
-- RPA is accessible to anyone who uses the Power Automate Desktop application.   
+- RPA is accessible to anyone who uses the Power Automate application.   

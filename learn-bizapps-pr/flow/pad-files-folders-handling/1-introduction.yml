@@ -3,10 +3,10 @@ uid: learn-bizapps.pad-files-folders-handling.1-introduction
 title: Introduction
 metadata: 
   title: Introduction
-  description: Introduction to file and folder handling in Microsoft Power Automate Desktop
+  description: Introduction to file and folder handling in Microsoft Power Automate for desktop
   ms.date: 09/28/2020 
-  author: olegmelnykov 
-  ms.author: olmelnyk 
+  author: mariosleon  
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 3

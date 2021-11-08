@@ -1,6 +1,6 @@
 Your goal for this exercise is to accelerate the process of creating an appointment by using information from business cards. Users will extract contact information from a business card and prefill the **Quick Create: Appointment** form with the contact information.
 
-You will build a model-driven Power App and use the Business card reader component for this exercise. For more information, see the [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview/?azure-portal=true) and the [Use the business card reader in model-driven apps](https://docs.microsoft.com/ai-builder/business-card-reader-component-model-driven/?azure-portal=true) documentation.
+You will build a model-driven Power App and use the Business card reader component for this exercise. For more information, see the [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview/?azure-portal=true) and the [Use the business card reader in model-driven apps](/ai-builder/business-card-reader-component-model-driven/?azure-portal=true) documentation.
 
 ## Create a model-driven app in Power Apps
 
@@ -10,7 +10,7 @@ To create a model-driven app in Power Apps, follow these steps:
 1. Select **Model Driven Apps from blank**.
 1. Name the model-driven app **Contoso Business card reader**.
 1. In the App Designer, edit the **Site map** and then edit the sub area.
-1. Select a Microsoft Dataverse entity related to the form that you will create that will use the Business card reader component. For this lesson, use the **Appointment** entity.
+1. Select a Microsoft Dataverse table related to the form that you will create that will use the Business card reader component. For this lesson, use the **Appointment** table.
 1. Select **Save and close**.
 
     ![Screenshot of Power Apps App Designer > Sitemap Designer with the Contoso Business Card in design view.](../media/image9.png)

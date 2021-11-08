@@ -5,8 +5,8 @@ metadata:
   title: Simulate mouse and keyboard actions
   description: Simulate mouse and keyboard actions
   ms.date: 12/10/2020
-  author: olegmelnykov 
-  ms.author: olmelnyk 
+  author: mariosleon  
+  ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 10

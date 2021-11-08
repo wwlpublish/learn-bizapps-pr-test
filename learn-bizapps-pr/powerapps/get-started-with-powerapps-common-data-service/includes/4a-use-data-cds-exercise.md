@@ -85,12 +85,12 @@ exercise. Open the link, and select the Download button and save it locally.
 1. Open the file. Notice the “Stage” column is empty, you will need to look these up and enter them manually. 
 1. Go to the [Power Apps home page](https://powerapps.microsoft.com/?azure-portal=true) and sign in to Power Apps.
 1. Go back to your Excel file and in the Stage column enter the values as below:
-	- **Contoso Flooring**: Won.
-	- **Fabrikam Inc**:  Won.
-	- **Adventure Works**: Lead.
-	- **Adatum**: Lead.
-	- **VanArsdel**: Lost.
-	- **Relecloud**: Opportunity.
+	- **Contoso Flooring**: Won
+	- **Fabrikam Inc**:  Won
+	- **Adventure Works**: Lead
+	- **Adatum**: Lead
+	- **VanArsdel**: Lost
+	- **Relecloud**: Opportunity
 1. Save and close the Excel file.
 1. Continue with the **Prospects** table.
 1. Select the drop-down arrow to the right of **Get data** and select **Get data from Excel**.

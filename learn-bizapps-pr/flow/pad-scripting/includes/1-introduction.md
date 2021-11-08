@@ -2,7 +2,7 @@ While developing flows, you might encounter scenarios that need the implementati
 
 Scripting allows you to develop blocks of code and simplify pieces of flows that usually require dozens of actions. For example, you might need to execute JavaScript code on loaded webpages to alter their functionality or appearance.
 
-Power Automate Desktop enables you to automate complex scenarios using scripting actions that run scripts in VBScript, JavaScript, PowerShell, and Python.
+Power Automate for desktop enables you to automate complex scenarios using scripting actions that run scripts in VBScript, JavaScript, PowerShell, and Python.
 
 Using scripts, you can avoid the development of complicated flows and enhance your workflow flexibility.
 
@@ -15,5 +15,5 @@ In this module, you will:
 
 ## Prerequisites
 
-- Familiarity with the Power Automate Desktop console and flow designer.
+- Familiarity with the Power Automate for desktop console and flow designer.
 - Advanced experience with flow development and variables.

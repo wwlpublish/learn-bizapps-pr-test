@@ -6,23 +6,24 @@ To continue the module scenario, you have built a few reports for Tailwind Toys.
 
 When you pin a visual, you can add it to a new or an existing dashboard. You can do the same with entire reports; when you pin a report page, all visuals on the report will be pinned to a dashboard and they are also live, meaning that any changes you make on the report will be immediately reflected on the dashboard that you have pinned the report to.
 
-Pinning a live page is a simple way to pin all visuals at once so that you don't have to do any reformatting on the dashboard. To pin a live page, select the ellipsis (**...**) on the navigation bar of the report and then select **Pin a live Page**.
+Pinning a live page is a simple way to pin all visuals at once so that you don't have to do any reformatting on the dashboard. To pin a live page, select the ellipsis (**...**) on the navigation bar of the report and then select **Pin to a dashboard**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Pin a live page feature.](../media/05-pin-live-page-ssm.png)](../media/05-pin-live-page-ssm.png#lightbox)
+> [![Pin a live page](../media/05-pin-live-page-ssm.png)](../media/05-pin-live-page-ssm.png#lightbox)
 
 After you have made the selection, you can choose whether you want to pin this report to a new dashboard or an existing one. For this scenario, you want to pin your report to a new dashboard called **Sales Figures**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Pin to dashboard window.](../media/05-pin-live-page-ss.png)](../media/05-pin-live-page-ss.png#lightbox)
+> [![Pin to dashboard example](../media/05-pin-live-page-ss.png)](../media/05-pin-live-page-ss.png#lightbox)
 
 After selecting **Pin live**, you will be redirected to a new window where you can see your dashboard. On the dashboard, you can modify the visuals as needed. Note that all your slicers and filters still work and that the visuals have the same data as in the report.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the pinned live dashboard example.](../media/05-dashboard-example-ss.png)](../media/05-dashboard-example-ss.png#lightbox)
+> [![Dashboard example](../media/05-dashboard-example-ss.png)](../media/05-dashboard-example-ss.png#lightbox)
 
 Any changes that you make to the tickets report will automatically show on the dashboard when the page is refreshed. In Power BI Desktop, you can make changes to your visuals or data as needed and then deploy to the appropriate workspace file, which will update the report and simultaneously update the dashboard as well.
 
 You have now learned how to pin visuals as individual tiles and as entire live report pages. A word of caution: Dashboards are intended to be a collection from various sources, not just as a "launching pad" for reports. We recommend that you pin at the tile level first and foremost, and if needed, the entire report page can also be pinned. Seeing an entire report page in a dashboard tile can be difficult.
 
-For more information, see [Pin an entire report page](https://docs.microsoft.com/power-bi/create-reports/service-dashboard-pin-live-tile-from-report/?azure-portal=true).
+For more information, see [Pin an entire report page](/power-bi/create-reports/service-dashboard-pin-live-tile-from-report/?azure-portal=true).
+

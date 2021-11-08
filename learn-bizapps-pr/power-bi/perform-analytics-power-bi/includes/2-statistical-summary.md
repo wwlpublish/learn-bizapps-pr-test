@@ -102,4 +102,4 @@ The following image shows how much the top 10 products contribute toward the ove
 
 You can adjust the DAX formula to present the same result in percentages.
 
-For more information about the statistical capabilities of Power BI, see [Statistical Functions - DAX](https://docs.microsoft.com/dax/statistical-functions-dax/?azure-portal=true).
+For more information about the statistical capabilities of Power BI, see [Statistical Functions - DAX](/dax/statistical-functions-dax/?azure-portal=true).

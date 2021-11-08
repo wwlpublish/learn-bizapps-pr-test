@@ -164,9 +164,6 @@ In this task, you'll create a scatter chart that can be animated.
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the scatter chart visualization.](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the scatter chart on the report page repositioned and resized to fill the page.](../media/lab-6-ss.png)](../media/lab-6-ss.png#lightbox)
-
 1. Add the following fields to the visual wells:
 
     The labs use a shorthand notation to reference a field. It looks like this: **Reseller | Business Type**. In this example, **Reseller** is the table name and **Business Type** is the field name.
@@ -229,9 +226,6 @@ In this task, you will create a forecast to determine possible future sales reve
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the line chart visualization.](../media/lab-11-ssm.png)](../media/lab-11-ssm.png#lightbox)
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the line chart added to the report page repositioned and resized to fill the page.](../media/lab-12-ss.png)](../media/lab-12-ss.png#lightbox)
 
 1. Add the following fields to the visual wells:
 
@@ -322,9 +316,6 @@ In this task, you'll create a decomposition tree to explore the relationships be
 
 1. Reposition and resize the visual so that it fills the entire page.
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the visual repositioned and resized to fill the screen.](../media/lab-22-ss.png)](../media/lab-22-ss.png#lightbox)
-
 1. Add the following fields to the visual wells:
 
     - Analyze: **Sales | Profit Margin**
@@ -397,9 +388,6 @@ In this task, you will use the **Key influencers** AI visual to determine what i
     > [![Screenshot of Key Influencers in the Visualizations pane.](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
 
 1. Reposition and resize the visual so that it fills the entire page.
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the visual resized and repositioned to fill the page.](../media/lab-31-ss.png)](../media/lab-31-ss.png#lightbox)
 
 1. Add the following fields to the visual wells:
 

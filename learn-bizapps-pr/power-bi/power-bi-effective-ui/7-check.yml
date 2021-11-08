@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-effective-ui.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 10/07/2021 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: At the Contoso Skateboard Company, Iqbal is designing an inventory report. The report includes a line chart visual that has a data series for each warehouse. The visual shows a legend. The report must be accessible to report consumers with visual impairment, particularly for those with color blindness. How should Iqbal format the line chart visual?
+    choices: 
+    - content: Assign alt text to the visual by using static text.
+      isCorrect: false 
+      explanation: Alt text with static text can describe the visual but it can't describe the data series.
+    - content: Assign alt text to the visual by using a measure.
+      isCorrect: false 
+      explanation: Alt text with a measure could summarize the data, but that wouldn’t be sufficient in helping report consumers distinguish each data series.
+    - content: Assign different marker shapes to each data series.
+      isCorrect: true 
+      explanation: Using different marker shapes will provide a visual clue to distinguish the data series.
+    - content: Enable the visual header tooltip icon and set the tooltip text.
+      isCorrect: false 
+      explanation: The visual header tooltip icon can show a tooltip, but the tooltip text couldn’t adequately describe the data series.
+  - content: At the Contoso Skateboard Company, Sally is ready to publish a beta version of a regional sales report in readiness for user acceptance testing (UAT). What should Sally do prior to publication?
+    choices: 
+    - content: Select the initial page and reset filters and slicers.
+      isCorrect: true 
+      explanation: Before you publish the report, ensure that the state of the report aligns with the intended initial experience. Reset filters and slicers, visual drill state, sort orders, and button state (for buttons that switch visibility of report objects).
+    - content: Add an accessible theme.
+      isCorrect: false 
+      explanation: A theme, whether to optimize accessibility or not, should be added before you publish the report. Also, a report consumer can add an accessible theme while they’re viewing a report (in reading view).
+    - content: Record a video to support training.
+      isCorrect: false 
+      explanation: It’s too early to record a video because UAT might result in changes.
+    - content: Set the page view state.
+      isCorrect: false 
+      explanation: Scaling the report canvas to fit to page, fit to width, or show actual size supports report authoring and doesn’t affect how the report is rendered.
+  - content: At the Contoso Skateboard Company, Marie is developing a Power BI report. She wants to ensure screen readers will read report objects in a specific order. She also wants to ensure that some objects, like decorative shapes and images, will not be read by screen readers. In Power BI Desktop, which pane should Marie use to configure the requirements?
+    choices: 
+    - content: Fields pane
+      isCorrect: false 
+      explanation: The answer is incorrect. The Fields pane presents a list of dataset tables and fields. It can't be used to configure report object order.
+    - content: Filters pane
+      isCorrect: false 
+      explanation: The answer is incorrect. The Filters pane allows you to add or interact with report, page, or visual filters. It can’t be used to configure report object order.
+    - content: Selection pane
+      isCorrect: true 
+      explanation: The answer is correct. The Tab order section of the Selection pane allows you to configure the order of report options and hide objects from tab (screen reader) selection.
+    - content: Visualizations pane
+      isCorrect: false 
+      explanation: The answer is incorrect. The Visualizations pane allows you to select a visual type and configure visual fields and format options. It can’t be used to configure report object order.
