@@ -6,7 +6,7 @@ metadata:
   description: Configure live chat for Dynamics 365 Omnichannel for Customer Service to connect and engage with their customers across digital messaging channels.
   ms.date: 11/10/2021 
   author: dbeasley 
-  ms.author: davebeasley 
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-industry-solutions 
 durationInMinutes: 5 

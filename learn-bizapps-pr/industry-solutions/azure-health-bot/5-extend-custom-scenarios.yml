@@ -6,7 +6,7 @@ metadata:
   description: Dynamics 365 Omnichannel integration allows the patient to interact with Azure Health Bot using the Dynamics 365 chat widget to access the medical knowledge and your custom scenarios. 
   ms.date: 11/10/2021 
   author: dbeasley 
-  ms.author: davebeasley 
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-industry-solutions 
 durationInMinutes: 8 

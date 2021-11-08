@@ -6,7 +6,7 @@ metadata:
   description: Embed the Omnichannel Chat Widget into the Power Apps Customer self-service portal using Portal Management configuration.
   ms.date: 11/10/2021 
   author: dbeasley 
-  ms.author: davebeasley 
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-industry-solutions 
 durationInMinutes: 4 

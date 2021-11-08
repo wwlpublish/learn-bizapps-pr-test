@@ -32,12 +32,12 @@ In the following tasks, you will complete the following:
 1. On the top command bar next to Dynamics 365, select **Settings** to open the drop-down, then select **Security** in the third column under System.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Business Management Settings page with the Security option highlighted in the System menu.](../media/image.png)](../media/image.png#lightbox)
+    > [![Screenshot of the Business Management Settings page with the Security option highlighted in the System menu.](../media/32-security-settings.png)](../media/32-security-settings.png#lightbox)
 
 1. Under Security, select **Users**.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the System Security Users option.](../media/33-security-users.png)](../media/i33-security-users.png#lightbox)
+    > [![Image of the System Security Users option.](../media/33-security-users.png)](../media/33-security-users.png#lightbox)
 
 1. Switch the view drop-down from Omnichannel Users to **Enabled Users** for the grid view so that your user will show in the list.
 
@@ -187,7 +187,7 @@ In this task, you'll create and configure the omnichannel queues necessary to co
     The queue **Escalate To Human** is created to manage and redirect the incoming messages from a user to a Customer Service (human) Agent when Bot sends the user through to a live agent.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Escalate to Human queue Summary page.](../media/54-escalate-to-human.png)](../media/image.png#lightbox)
+    > [![Image of the Escalate to Human queue Summary page.](../media/54-escalate-to-human.png)](../media/54-escalate-to-human.png#lightbox)
 
 **Congratulations!** You have created the necessary queue to escalate to human agent and added the appropriate users to each messaging queue.
 
@@ -301,6 +301,6 @@ In this task, we'll set up basic chat routing. This will allow for users to chat
 1. After the record is saved, a **Widget Code Snippet** will be generated. **Copy** the code snippet and store it for later use.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the sample Patient Portal Chat Widget General Settings tab with the Code snippet section highlighted.](../media/image.png)](../media/image.png#lightbox)
+    > [![Screenshot of the sample Patient Portal Chat Widget General Settings tab with the Code snippet section highlighted.](../media/70-widget-code-snippet.png)](../media/70-widget-code-snippet.png#lightbox)
 
 > **Congratulations!** In this exercise, you have successfully configured Customer Service Omnichannel Live chat by creating the necessary Users, Queues, Work Streams, Context Variables, Routing Rules, and Chat Widget. These all work together and allow patients to chat with a virtual health bot with the option to escalate up to a human agent if needed.

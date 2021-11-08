@@ -6,7 +6,7 @@ metadata:
   description: Set up the Health Bot from Azure Portal and integrate it with the Dynamics 365 Omnichannel.
   ms.date: 11/10/2021 
   author: dbeasley 
-  ms.author: davebeasley 
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-industry-solutions 
 durationInMinutes: 6 

@@ -6,7 +6,7 @@ metadata:
   description: Summary of the Microsoft Azure Health bot, Dynamics 365 Customer Service for Omnichannel, and PowerApps Customer self-service portal integration.
   ms.date: 11/10/2021 
   author: dbeasley 
-  ms.author: davebeasley 
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-industry-solutions 
 durationInMinutes: 3 

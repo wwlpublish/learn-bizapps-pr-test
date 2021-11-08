@@ -1,5 +1,3 @@
-# Extend Azure Health Bot with Custom Scenarios
-
 **Dynamics 365 Omnichannel** integration allows the patient to interact with **Azure Health Bot** using the Dynamics 365 chat widget to access the medical knowledge and your custom scenarios. It also, allows the escalation of a bot conversation to a live agent to continue the interaction. When escalating a conversation, Dynamics passes along the conversation history and the context to the agent.
 
 In this exercise, you will be doing the following:
@@ -20,12 +18,12 @@ In this task, you will create the **MCH_PatientService** bot scenario using the 
 Navigate back to the Azure Health Bot instance homepage where you set the bot settings. This is the portal management link you copied from the Azure portal.
 
 > [!div class="mx-imgBorder"]
-> [![](../media/image.png)](../media/image.png#lightbox)
+> [![Screenshot of the Azure Health Bot welcome page again.](../media/12-welcome.png)](../media/12-welcome.png#lightbox)
 
 1. Click to Expand the Side navigation bar. Navigate to **Scenario** > **Manage.**
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Scenarios menu on the side navigation bar withe the Manage option selected.](../media/80-scenario-manage.png)](../media/image80-scenario-manage
+    > [![Screenshot of the Scenarios menu on the side navigation bar withe the Manage option selected.](../media/80-scenario-manage.png)](../media/80-scenario-manage.png#lightbox)
 
 1. Click **+ New** button on the top ribbon.
 
@@ -60,9 +58,9 @@ Hi there, I'm your Healthcare Assistant. How can I help you today?
 1. Select the **pencil** next to Statement in the top bar and Change Title to "**Intro**". Click **OK**.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Intro dialogue box with "Hi there, Im your Healthcare Assistant. How can I help you today?" populated in the Display Text box.](../media/85-introduction.png)](../media/i85-introduction.png#lightbox)
+    > [![Image of the Intro dialogue box with "Hi there, Im your Healthcare Assistant. How can I help you today?" populated in the Display Text box.](../media/85-introduction.png)](../media/85-introduction.png#lightbox)
 
-1. Click **OK**. You will see the intro statement added to the designer canvas. Double click anytime to edit.
+1. Select **OK**. You will see the intro statement added to the designer canvas. Double select anytime to edit.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the designer canvas with the Intro statement added.](../media/86-designer-canvas.png)](../media/86-designer-canvas.png#lightbox)
@@ -74,7 +72,7 @@ This section prompts two buttons Medication Refill and Live Agent. When user cli
 1. Select **Prompt** icon and drag down onto canvas
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Prompt, Yes, No and Statement icons.](../media/84-prompt-statement.png)](../media/84-prompt-statementpng#lightbox)
+    > [![Image of the Prompt, Yes, No and Statement icons.](../media/84-prompt-statement.png)](../media/84-prompt-statement.png#lightbox)
 
 1. Enter the following details:
 
@@ -200,7 +198,7 @@ This section checks whether the user has clicked Medication Refill or Live Agent
 1. **Connect** the **Yes** condition of the **MedicationOrAgent** branch to the **Submit** prompt.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Intro, Medication, Medication Decision and Submit branches connected.](../media/i100-connect-yes.png)](../media/100-connect-yes.png#lightbox)
+    > [![Image of the Intro, Medication, Medication Decision and Submit branches connected.](../media/100-connect-yes.png)](../media/100-connect-yes.png#lightbox)
 
 1. **Save** and **run** your current scenario. If you don't save the scenario first, it won't run with updates since the last save. If you haven't saved at all, it won't recognize any conversation.
 
@@ -233,7 +231,7 @@ scenario.formData.myName + \" - Thanks for providing the information, we have cr
 1. Select **Save** and **Run** to see your scenario in the webchat.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Web Chat Tell us about yourself window with Name, email and Medication Requested fields populated.](../media/i104-webchat-scenario.png)](../media/104-webchat-scenario.png#lightbox)
+    > [![Screenshot of the Web Chat Tell us about yourself window with Name, email and Medication Requested fields populated.](../media/104-webchat-scenario.png)](../media/104-webchat-scenario.png#lightbox)
 
 1. **Fill in information** for the request and click **Submit** to see the confirmation text.
 
@@ -245,7 +243,7 @@ scenario.formData.myName + \" - Thanks for providing the information, we have cr
 1. Add a **Statement** element to the canvas.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Live Chat dialogue box with entered Display text.](../media/84-prompt-statement-rename.png)](../media/84-prompt-statement-rename.png#lightbox)
+    > [![Screenshot of the Live Chat dialogue box with entered Display text.](../media/84-prompt-statement.png)](../media/84-prompt-statement.png#lightbox)
 
 1. Enter **Display Text**: Please wait, I am transferring your request to a live agent for further assistance.
 
@@ -321,7 +319,7 @@ In this task, we will create another bot scenario called **MCH_PatientServiceWel
     c.  Select **Create**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of New Scenario details including Name, Description, Scenario ID, Returning Message and Interrupting scenario fields.](../media/115-create-new-scenario.png)](../media/115-create-new-scenariopng#lightbox)
+    > [![Screenshot of New Scenario details including Name, Description, Scenario ID, Returning Message and Interrupting scenario fields.](../media/115-create-new-scenario.png)](../media/115-create-new-scenario.png#lightbox)
 
 1. On the scenario editor designer, add a **Statement** element
 
