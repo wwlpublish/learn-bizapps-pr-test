@@ -4,7 +4,7 @@ metadata:
  title: Azure Health Bot
  description:  The Azure Health Bot Service is a cloud platform that empowers developers in healthcare organizations build and deploy compliant, AI-powered virtual health assistants and health bots, that help improve processes and reduce costs.  
  ms.date: 11/10/2021  
- author: dbeasley  
+ author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-industry-solutions  

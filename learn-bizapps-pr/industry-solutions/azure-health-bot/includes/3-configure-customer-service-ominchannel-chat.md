@@ -164,12 +164,12 @@ In this task, you'll create and configure the omnichannel queues necessary to co
     > If your user does not populate after adding, make sure you have assigned the bot user the correct omnichannel agent security role from the previous task (it may take up to 15 minutes for changes to take effect)*
 
     > [!div class="mx-imgBorder"]
-    > [!Image of the Default messaging queue Summary page with Name, Priority and Queue type populated.](../media/51-default-messaging-summary.png)](../media/51-default-messaging-summary.png#lightbox)
+    > [![Screenshot of the Default messaging queue Summary page with Name, Priority, and Queue type populated.](../media/51-default-messaging-summary.png)](../media/51-default-messaging-summary.png#lightbox)
 
 1. Go back to the **Omnichannel queues** grid. Click **+** **New** to create a new Queue.
 
     > [!div class="mx-imgBorder"]
-    > [![Immage of the Omnichannel queue menu with the New button highlighted in the top navigation bar.](../media/52-new-omnichannel-queues.png)](../media/52-new-omnichannel-queues.png#lightbox)
+    > [![Screenshot of the Omnichannel queue menu with the New button highlighted in the top navigation bar.](../media/52-new-omnichannel-queues.png)](../media/52-new-omnichannel-queues.png#lightbox)
 
 1. Give the new Queue the following details:
 

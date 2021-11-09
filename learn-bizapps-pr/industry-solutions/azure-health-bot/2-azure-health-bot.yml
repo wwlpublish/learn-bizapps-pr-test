@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.azure-health-bot.2-azure-health-bot 
-title: Set Up Azure Health Bot
+title: Set up Azure Health Bot
 metadata: 
-  title: Set Up Azure Health Bot
-  description: Set up the Health Bot from Azure Portal and integrate it with the Dynamics 365 Omnichannel.
+  title: Set up Azure Health Bot
+  description: Set up the Health Bot from Azure portal and integrate it with the Dynamics 365 Omnichannel.
   ms.date: 11/10/2021 
-  author: dbeasley 
+  author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-industry-solutions 
