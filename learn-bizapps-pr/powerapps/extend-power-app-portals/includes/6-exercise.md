@@ -51,11 +51,11 @@ To create a web template, follow these steps:
     ```twig
     {% fetchxml accounts %}
     <fetch>
-      <table name="account">
+      <entity name="account">
         <attribute name="name" />
         <attribute name="numberofemployees" />
         <attribute name="revenue" />
-      </table>
+      </entity>
     </fetch>
     {% endfetchxml %}
     [
@@ -117,7 +117,7 @@ To add table permissions, follow these steps:
     - **Name** - Account Directory
     - **Table Name** - Select account table
     - **Website** - Select your current website
-    - **Scope** - Select **Global**
+    - **Access Type** - Select **Global**
     - **Privileges** - Select **Read**
 1. Select **Save**.
 1. Scroll to the **Web Roles** subgrid.
