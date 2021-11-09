@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.azure-health-bot.3-configure-customer-service-ominchannel-chat 
-title: Configure Customer Service Omnichannel Live Channel
+title: Configure Customer Service Omnichannel live chat
 metadata: 
-  title: Configure Customer Service Omnichannel Live Channel
+  title: Configure Customer Service Omnichannel live chat
   description: Configure live chat for Dynamics 365 Omnichannel for Customer Service to connect and engage with their customers across digital messaging channels.
   ms.date: 11/10/2021 
-  author: dbeasley 
+  author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-industry-solutions 
