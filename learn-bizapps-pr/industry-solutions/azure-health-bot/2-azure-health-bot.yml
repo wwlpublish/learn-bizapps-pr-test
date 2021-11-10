@@ -9,7 +9,7 @@ metadata:
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-industry-solutions 
-durationInMinutes: 6 
+durationInMinutes: 10 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/2-azure-health-bot.md)] 

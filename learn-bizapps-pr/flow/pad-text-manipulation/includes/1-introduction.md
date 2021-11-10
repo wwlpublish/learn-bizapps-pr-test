@@ -8,7 +8,7 @@ In business environments, Microsoft Excel registries, databases, and reports req
 
 In this module, you will:
 
-- Learn how to use the Text group of actions.
+- Learn how to use the text group of actions.
 - Create methods that help you process and edit text
 - Manipulate text type variables for input and output in actions and flows.
 

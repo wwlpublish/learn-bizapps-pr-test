@@ -18,7 +18,7 @@ Let's take a look at how you can apply this formula to show and hide a button in
     ```powerappsfl
     ClearCollect(TestScoresCollection,{Name:"Student 1", TestScore:"B"},{Name:"Student 2", TestScore:"C"},{Name:"Student 3",TestScore:"A"},{Name:"Student 4", TestScore:"C"},{Name:"Student 5", TestScore:"A"})
     ```
-3.	Hold the alt key on your keyboard and click the Button. (This will generate the TestScoresCollection)
+3.	Hold the alt key on your keyboard and click the Button. (This will generate the TestScoresCollection). If you do not have an alt key, continue to the next step. When you complete step 6, select **Play** and select the Button.
 
 4.	Select **Gallery** from the ribbon **Insert tab**.
 

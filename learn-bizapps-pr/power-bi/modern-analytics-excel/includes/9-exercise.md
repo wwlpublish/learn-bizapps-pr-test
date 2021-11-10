@@ -26,9 +26,6 @@ In this task, you will launch a new blank worksheet to get started.
 
 1.  Create a new blank workbook.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of Excel, Home, New blank workbook window.](../media/blank-workbook.png)](../media/blank-workbook.png#lightbox)
-
 ### Task 2: Use Insert new Pivot Table from Power BI
 
 In this task, you will create a new Pivot Table workspace connected to a published data set in the Power BI service.

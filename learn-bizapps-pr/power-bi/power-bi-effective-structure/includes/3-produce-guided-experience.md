@@ -18,7 +18,7 @@ For an example of a guided experience, watch the following video that explores t
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWNYEX]
 
-This report is available for you to explore. In the ensuing report, you can follow the recorded demonstration to complete these tasks:
+This [report](https://msit.powerbi.com/view?r=eyJrIjoiMDc1NTk0ZjItZjUxMS00OGM1LTk0YTktN2U5ZGNkY2NlNzdlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&pageName=ReportSection) is available for you to explore. In the ensuing report, you can follow the recorded demonstration to complete these tasks:
 
 1. In the upper-right corner of the report page, modify the date slicer values.
 

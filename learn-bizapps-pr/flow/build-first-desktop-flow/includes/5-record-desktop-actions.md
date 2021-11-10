@@ -1,6 +1,6 @@
 Before getting started, you should be aware of a couple cleanup items. First, the process will go more smoothly if you exit out of unnecessary applications while you're recording. If you have more browsers or programs running, you should close them now. Second, it will be difficult to read the instructions and perform the actions that are required for the recording simultaneously. You might want to read through this unit completely before performing the outlined steps. With those items out of the way, you are now ready to begin recording.
 
-To begin recording your desktop actions, open the Contoso Invoicing app and the **Desktop recorder** in Power Automate. If your application is not maximized, the desktop recorder will show as an icon without text in the toolbar. Select the **Start recording** button in Power Automate Desktop.
+To begin recording your desktop actions, open the Contoso Invoicing app and the **Desktop recorder** in Power Automate. If your application is not maximized, the desktop recorder will show as an icon without text in the toolbar. Select the **Start recording** button in Power Automate.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the record desktop feature in the toolbar.](../media/record-desktop.png)](../media/record-desktop.png#lightbox)
@@ -22,7 +22,7 @@ When you're finished, select the **Save** icon to save your record.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Contoso Invoice with invoice details displayed.](../media/contoso-invoice-detail.png)](../media/contoso-invoice-detail.png#lightbox)
 
-Return to the recording, put it in Power Automate Desktop, and then select **Finish**. Your recorded actions should look similar to the following screenshot.
+Return to the recording, put it in Power Automate, and then select **Finish**. Your recorded actions should look similar to the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Recorded actions list with Finish button.](../media/recorded-actions.png)](../media/recorded-actions.png#lightbox)

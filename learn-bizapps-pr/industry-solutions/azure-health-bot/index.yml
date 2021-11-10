@@ -24,10 +24,10 @@ levels:
 - intermediate   
 roles:  
 - business-user   
-- functional-consultant 
+- functional-consultant
 products: 
-- dynamics-365 
-- industry-solutions 
+- industry-solutions
+- mscloud-healthcare
 units: 
 - learn-bizapps.azure-health-bot.1-introduction 
 - learn-bizapps.azure-health-bot.2-azure-health-bot 

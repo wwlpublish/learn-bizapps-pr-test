@@ -16,6 +16,9 @@ To create the flow:
 
 1. Use a **Copy folder** action to copy the selected folder in your documents folder.
 
+    >[!IMPORTANT]
+    > Make sure the destination folder already exists so that the flow can copy the files.
+
     ![Screenshot of the Copy folder action dialog.](..\media\exercise-copy-folder-action.png)
 
 1. Deploy a **Launch Excel** action to open the Excel file that contains the logs about your backup activity. 
