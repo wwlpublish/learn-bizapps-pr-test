@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 10/07/2021 
+ ms.date: 11/10/2021 
  author: jadaphillips 
  ms.author: jadaphillips 
  ms.topic: interactive-tutorial 
@@ -20,7 +20,7 @@ quiz:
       explanation: Monitor is an on-demand feature and only runs when you start it manually by selecting the Advanced tools tab in Power Apps Studio.
     - content: By selecting the Advanced tools tab in Power Apps Studio. 
       isCorrect: true 
-      explanation: Selecting the Advanced tools tab in Power Apps Studio will open a new browser tab, with Monitor listening to app events.
+      explanation: Selecting the Advanced tools tab in Power Apps Studio will open a new browser tab and connects it to your existing Power Apps Studio session.
     - content: Launch it from the make.powerapps.com link.
       isCorrect: false 
       explanation: Edit the app first and then start Monitor by selecting the Advanced tools tab in Power Apps Studio.
