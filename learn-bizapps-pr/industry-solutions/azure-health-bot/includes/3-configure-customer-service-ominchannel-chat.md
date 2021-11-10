@@ -68,9 +68,9 @@ In the following tasks, you will complete the following:
 
 We need two users to configure in Omnichannel for Dynamics 365 Customer Service:
 
-- **Health Bot User**--This is the Azure Health Bot user we created in the previous exercise.
+- **Health Bot User** - This is the Azure Health Bot user we created in the previous exercise.
 
-- **Omnichannel Agent** **User--This is your current user whom you are logged into Dynamics 365. This will allow you to be a live agent in Customer Service who receives messages from portal users through Azure Bot escalations.
+- **Omnichannel Agent** **User** -This is your current user whom you are logged into Dynamics 365. This will allow you to be a live agent in Customer Service who receives messages from portal users through Azure Bot escalations.
 
 In this task, you'll create a **Bot User** which helps connect **Azure Health Bot** with **Omnichannel live Chat**.
 

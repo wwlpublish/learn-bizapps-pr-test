@@ -125,7 +125,7 @@ This section prompts two buttons Medication Refill and Live Agent. When user cli
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Medical Request page with OK button selected.](../media/91-request-ok.png)](../media/91-request-ok.png#lightbox)
 
-1. Connect Intro and Appointment boxes. Select the bottom circle on intro and drag it to the top circle on the new promp. An arrow will automatically appear when you try to connect Intro and Appointment boxes using ellipse pointer.
+1. Connect Intro and Appointment boxes. Select the bottom circle on intro and drag it to the top circle on the new prompt. An arrow will automatically appear when you try to connect Intro and Appointment boxes using ellipse pointer.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Intro and Medication statements connected.](../media/92-connect-boxes.png)](../media/92-connect-boxes.png#lightbox)
@@ -135,7 +135,7 @@ This section prompts two buttons Medication Refill and Live Agent. When user cli
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the horizontal navigation bar with the Save option selected.](../media/93-save-button.png)](../media/93-save-button.png#lightbox)
 
-1. Select **Run** to see the output in the WebChat on the right.
+1. Select **Run** to see the output in the Web Chat on the right.
 
     > [!div class="mx-imgBorder"]
     > [![screenshot of the horizontal navigation bar with the Run option selected.](../media/94-run-button.png)](../media/94-run-button.png#lightbox)
