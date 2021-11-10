@@ -32,7 +32,7 @@ In this exercise, you'll embed the **Omnichannel Chat Widget** into the Power Ap
 1. Select **Save and Close**.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Save and Close option highlighted on the horizontal navigation bar.](../media/76-chat-widget-save-close.png)](../media/76-chat-widget-save-close.png#lightbox)
+    > [![Screenshot of the Save and Close option highlighted on the horizontal navigation bar.](../media/76-chat-widget-save-close.png)](../media/76-chat-widget-save-close.png#lightbox)
 
 1. Now open the other **Chat Widget Code** associated with **Healthcare Patient Portal**.
 
@@ -42,7 +42,7 @@ In this exercise, you'll embed the **Omnichannel Chat Widget** into the Power Ap
 1. In the **Chat Widget Code** record associated with the Healthcare Patient Portal, paste in **Value** (HTML) the same **Chat Widget Code snippet** that you copied and stored previously and added to the customer self-service chat widget code. Replace any value that may have already populated the field.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the HTML value code on the Chat Widget Code General tab.](../media/78-value-code-snippet.png)](../media/78-value-code-snippet.png#lightbox)
+    > [![Screenshot of the HTML value code on the Chat Widget Code General tab.](../media/78-value-code-snippet.png)](../media/78-value-code-snippet.png#lightbox)
 
 1. Select **Save and Close**.
 

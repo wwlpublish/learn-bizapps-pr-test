@@ -15,12 +15,12 @@ Task 1: Install Azure Health Bot in Azure Subscription
 1. Search for **Azure Health Bot** in the top search bar and **select** from the search results.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Azure Health Bot top search bar.](../media/2-azure-health-bot.png)](../media/2-azure-health-bot.png#lightbox)
+    > [![Screenshot of the Azure Health Bot top search bar.](../media/2-azure-health-bot.png)](../media/2-azure-health-bot.png#lightbox)
 
 1. Select **Create** button to create a new Azure Health Bot instance.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Azure Health Bot instance with the create button highlighted.](../media/3-create-button.png)](../media/3-create-button.png#lightbox)
+    > [![Screenshot of the Azure Health Bot instance with the create button highlighted.](../media/3-create-button.png)](../media/3-create-button.png#lightbox)
 
 1. You will be redirected to the Azure Health Bot page. Enter the following information:
 
@@ -35,7 +35,7 @@ Task 1: Install Azure Health Bot in Azure Subscription
     e.  **Plan**: Free (F0)
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Azure Health Bot page Basics tab and associated fields.](../media/4-azure-basics.png)](../media/4-azure-basics.png#lightbox)
+    > [![Screenshot of the Azure Health Bot page Basics tab and associated fields.](../media/4-azure-basics.png)](../media/4-azure-basics.png#lightbox)
 
 1. Select **Review + Create**.
 
@@ -68,7 +68,7 @@ Task 1: Install Azure Health Bot in Azure Subscription
 1. You will be navigated to your new Azure Health Bot instance homepage.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Azure Health Bot welcome page.](../media/12-welcome.png)](../media/12-welcome.png#lightbox)
+    > [![Screenshot of the Azure Health Bot welcome page.](../media/12-welcome.png)](../media/12-welcome.png#lightbox)
 
 **Congratulations!** You've successfully created a new Health Bot instance in your Azure tenant.
 
@@ -77,12 +77,12 @@ Task 1: Install Azure Health Bot in Azure Subscription
 1. On the Azure Health Bot homepage, **expand** the side navigation bar to see the sitemap labels.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Azure Health Bot Welcome.](../media/13-welcome-navigation.png)](../media/13-welcome-navigation.png#lightbox)
+    > [![Screenshot of the Azure Health Bot Welcome.](../media/13-welcome-navigation.png)](../media/13-welcome-navigation.png#lightbox)
 
     After expanding, you'll see the sitemap labels next to the icons.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Azure Health Bot Welcome page sitemap label in the left navigation](../media/14-sitemap-labels.png)](../media/14-sitemap-labels.png#lightbox)
+    > [![Screenshot of the Azure Health Bot Welcome page sitemap label in the left navigation](../media/14-sitemap-labels.png)](../media/14-sitemap-labels.png#lightbox)
 
 1. Select **Configuration** > **Conversation** on the navigation bar.
 
@@ -142,22 +142,22 @@ We will now obtain the client ID and store it to later create a Dynamics 365 App
 1. Navigate back to the Azure portal and search for **App Registrations** in the Search box.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Azure Portal Search box with App Registrations entered.](../media/24-app-registrations.png)](../media/24-app-registrations.png#lightbox)
+    > [![Screenshot of the Azure Portal Search box with App Registrations entered.](../media/24-app-registrations.png)](../media/24-app-registrations.png#lightbox)
 
 1. You will be landed in the App registrations homepage on the **Owned applications** tab.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Owned applications tab on the App registrations homepage.](../media/25-owned-applications.png)](../media/25-owned-applications.png#lightbox)
+    > [![Screenshot of the Owned applications tab on the App registrations homepage.](../media/25-owned-applications.png)](../media/25-owned-applications.png#lightbox)
 
 1. Select the **All applications** tab.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the All applications tab on the App registrations homepage.](../media/26-all-applications.png)](../media/26-all-applications.png#lightbox)
+    > [![Screenshot of the All applications tab on the App registrations homepage.](../media/26-all-applications.png)](../media/26-all-applications.png#lightbox)
 
 1. To **search** for our Application ID, type "**MCH Application Id**" in the Search box.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of MCH Application ID entered in the App registrations search box.](../media/27-mch-application.png)](../media/27-mch-application.png#lightbox)
+    > [![Screenshot of MCH Application ID entered in the App registrations search box.](../media/27-mch-application.png)](../media/27-mch-application.png#lightbox)
 
 1. Select the **MCH Application Id** app registration resource. **Copy and store** the **Application (client) ID** for later to use when creating the Dynamics 365 Application User.
 
@@ -165,6 +165,6 @@ We will now obtain the client ID and store it to later create a Dynamics 365 App
     > ID values have been removed in the screenshot for privacy purposes.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the App registration MCH Application ID page including the Application (client ID) option in the Overview Essentials menu.](../media/28-application-overview.png)](../media/28-application-overview.png#lightbox)
+    > [![Screenshot of the App registration MCH Application ID page including the Application (client ID) option in the Overview Essentials menu.](../media/28-application-overview.png)](../media/28-application-overview.png#lightbox)
 
 **Congratulations!** You've successfully obtained the MCH Application ID from Application Registrations in the Azure portal.

@@ -45,7 +45,7 @@ The Health Bot Service contains a **built-in medical database**, including **t
 The Azure Health Bot focuses on the **Enhance patient engagement** priority scenario by creating a virtual bot health option to allow for new avenues of care with embedded insights.
 
 > [!div class="mx-imgBorder"]
-> [![Image of the Enhance patient engagement priority scenario.](../media/1-priority-scenarios.png)](../media/1-priority-scenarios.png#lightbox)
+> [![Screenshot of the Enhance patient engagement priority scenario.](../media/1-priority-scenarios.png)](../media/1-priority-scenarios.png#lightbox)
 
 ## Healthcare Story
 

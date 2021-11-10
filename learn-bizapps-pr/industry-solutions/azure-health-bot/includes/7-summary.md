@@ -1,6 +1,6 @@
 In this lab, you learned about how to setup Microsoft Azure Health bot, Dynamics 365 Customer Service for Omnichannel, and PowerApps Customer self-service portal. You also learned how to integrate all these apps together to build an end-to-end scenario that addressed the following:
 
-1. Installation and setup of Azure Health Bot*.*
+1. Installation and setup of Azure Health Bot.
 
     - Installed Azure Health bot from Azure Market Place and create a new health bot instance.
 
