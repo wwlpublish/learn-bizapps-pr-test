@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.azure-health-bot.3-configure-customer-service-ominchannel-chat 
+uid: learn-bizapps.azure-health-bot.3-configure-customer-service-omnichannel-chat 
 title: Configure Customer Service Omnichannel live chat
 metadata: 
   title: Configure Customer Service Omnichannel live chat
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 10 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/3-configure-customer-service-ominchannel-chat.md)] 
+ [!include[](includes/3-configure-customer-service-omnichannel-chat.md)] 

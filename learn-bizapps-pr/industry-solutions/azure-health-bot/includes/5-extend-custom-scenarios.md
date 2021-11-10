@@ -5,7 +5,7 @@ In this exercise, you will be doing the following:
 1. Designing the below Health Bot Scenario called **MCH_PatientService**
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Health Bot Scenario diagram.](../media/79-health-bot-scenario.png)](../media/79-health-bot-scenario.png#lightbox)
+    > [![Screenshot of the Health Bot Scenario diagram.](../media/79-health-bot-scenario.png)](../media/79-health-bot-scenario.png#lightbox)
 
 1. Design another Health Bot Scenario called **MCH_PatientServiceWelcome**. This scenario holds the starting statement which will allow the user to invoke the **MCH_PatientService** scenario.
 
@@ -28,7 +28,7 @@ Navigate back to the Azure Health Bot instance homepage where you set the bot se
 1. Click **+ New** button on the top ribbon.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Azure Health Bot homepage with the New option selected in the horizontal navigation bar.](../media/81-select-new.png)](../media/81-select-new.png#lightbox)
+    > [![Screenshot of the Azure Health Bot homepage with the New option selected in the horizontal navigation bar.](../media/81-select-new.png)](../media/81-select-new.png#lightbox)
 
 1. Provide the following details for the new health bot scenario:
 
@@ -37,7 +37,7 @@ Navigate back to the Azure Health Bot instance homepage where you set the bot se
     b.  **Scenario ID**: MCH_PatientService
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the New Scenario screen with the Name and Scenario ID populated with MCH PatientService.](../media/82-new-scenario.png)](../media/82-new-scenario.png#lightbox)
+    > [![Screenshot of the New Scenario screen with the Name and Scenario ID populated with MCH PatientService.](../media/82-new-scenario.png)](../media/82-new-scenario.png#lightbox)
 
 1. Now let's design the scenario conversation. It should navigate you directly to the designer. If not, select the MCH_PatientService scenario in **Scenarios** > **Manage** to edit.
 
@@ -53,12 +53,12 @@ Navigate back to the Azure Health Bot instance homepage where you set the bot se
 
 1. Enter the **Display Text**:
 
-Hi there, I'm your Healthcare Assistant. How can I help you today?
+    Hi there, I'm your Healthcare Assistant. How can I help you today?
 
 1. Select the **pencil** next to Statement in the top bar and Change Title to "**Intro**". Click **OK**.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Intro dialogue box with "Hi there, Im your Healthcare Assistant. How can I help you today?" populated in the Display Text box.](../media/85-introduction.png)](../media/85-introduction.png#lightbox)
+    > [![Screenshot of the Intro dialogue box with "Hi there, Im your Healthcare Assistant. How can I help you today?" populated in the Display Text box.](../media/85-introduction.png)](../media/85-introduction.png#lightbox)
 
 1. Select **OK**. You will see the intro statement added to the designer canvas. Double select anytime to edit.
 
@@ -72,7 +72,7 @@ This section prompts two buttons Medication Refill and Live Agent. When user cli
 1. Select **Prompt** icon and drag down onto canvas
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Prompt, Yes, No and Statement icons.](../media/84-prompt-statement.png)](../media/84-prompt-statement.png#lightbox)
+    > [![Screenshot of the Prompt, Yes, No and Statement icons.](../media/84-prompt-statement.png)](../media/84-prompt-statement.png#lightbox)
 
 1. Enter the following details:
 
@@ -92,7 +92,7 @@ This section prompts two buttons Medication Refill and Live Agent. When user cli
 1. Select **Add Card**.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Cards screen with the Add Card and OK buttons highlighted.](../media/88-add-card.png)](../media/88-add-card.png#lightbox)
+    > [![Screenshot of the Cards screen with the Add Card and OK buttons highlighted.](../media/88-add-card.png)](../media/88-add-card.png#lightbox)
 
 1. Select Card Type as **HeroCard** and fill in the title as "**Medication Refill or Live Agent**".
 
@@ -115,12 +115,12 @@ This section prompts two buttons Medication Refill and Live Agent. When user cli
         iii. Action title: "Live Agent"
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Card screen with Medication Refill and Live Agent actions included.](../media/89-add-action.png)](../media/89-add-action.png#lightbox)
+    > [![Screenshot of the Card screen with Medication Refill and Live Agent actions included.](../media/89-add-action.png)](../media/89-add-action.png#lightbox)
 
 1. Click Ok three times to get back to designer.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Cards screen with vertical entered in the Layout field.](../media/90-select-ok.png)](../media/90-select-ok.png#lightbox)
+    > [![Screenshot of the Cards screen with vertical entered in the Layout field.](../media/90-select-ok.png)](../media/90-select-ok.png#lightbox)
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Medical Request page with OK button selected.](../media/91-request-ok.png)](../media/91-request-ok.png#lightbox)
@@ -147,7 +147,7 @@ This section prompts two buttons Medication Refill and Live Agent. When user cli
 
 This section checks whether the user has clicked Medication Refill or Live Agent with the help of the variable MedicationOrAgent. It will redirect the message accordingly.
 
-1. Add a **Branch** to the designer canvas**.**
+1. Add a **Branch** to the designer canvas.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Prompt, Yes, No, Statement and Branch options.](../media/95-branch.png)](../media/95-branch.png#lightbox)
@@ -158,13 +158,13 @@ This section checks whether the user has clicked Medication Refill or Live Agent
 
 1. Rename to **MedicationOrAgent.** Select **OK**.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the Medication or Agent JavaScript Boolean Expression populated with OK button selected.](../media/96-medication-agent.png)](../media/96-medication-agent.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the Medication or Agent JavaScript Boolean Expression populated with OK button selected.](../media/96-medication-agent.png)](../media/96-medication-agent.png#lightbox)
 
 1. Drag the medication prompt to the MedicationOrAgent branch decision to connect the boxes.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Intro, Medication, and Medication decision branches connected.](../media/97-medication-branch.png)](../media/97-medication-branch.png#lightbox)
+    > [![Screenshot of the Intro, Medication, and Medication decision branches connected.](../media/97-medication-branch.png)](../media/97-medication-branch.png#lightbox)
 
 ### Step 4: Prompt User to Enter Data for Medication Refill Option
 
@@ -198,7 +198,7 @@ This section checks whether the user has clicked Medication Refill or Live Agent
 1. **Connect** the **Yes** condition of the **MedicationOrAgent** branch to the **Submit** prompt.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Intro, Medication, Medication Decision and Submit branches connected.](../media/100-connect-yes.png)](../media/100-connect-yes.png#lightbox)
+    > [![Screenshot of the Intro, Medication, Medication Decision and Submit branches connected.](../media/100-connect-yes.png)](../media/100-connect-yes.png#lightbox)
 
 1. **Save** and **run** your current scenario. If you don't save the scenario first, it won't run with updates since the last save. If you haven't saved at all, it won't recognize any conversation.
 
@@ -216,7 +216,7 @@ This section checks whether the user has clicked Medication Refill or Live Agent
 
 1. Add **Display text** as the following:
 
-scenario.formData.myName + \" - Thanks for providing the information, we have created a Medication Request for you regarding the following medication: \" + scenario.formData.myMedReq
+    scenario.formData.myName + \" - Thanks for providing the information, we have created a Medication Request for you regarding the following medication: \" + scenario.formData.myMedReq
 
 1. Rename the statement to **Confirmation**.
 
@@ -250,14 +250,14 @@ scenario.formData.myName + \" - Thanks for providing the information, we have cr
 1. Rename the statement to **Live Chat**.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Live Chat screen with the following display text: Please wait, I am transferring your request to a live agent for further assistance.](../media/106-statement-rename.png)](../media/106-statement-rename.png#lightbox)
+    > [![Screenshot of the Live Chat screen with the following display text: Please wait, I am transferring your request to a live agent for further assistance.](../media/106-statement-rename.png)](../media/106-statement-rename.png#lightbox)
 
 1. Click **OK** to return to the designer page.
 
 1. **Connect** the **No** decision of **MedicationOrAgent** to the **Live Chat** statement.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Intro, Medication, Medication Decision, Live Chat, Submit and Confirmation branches connected.](../media/107-connect-no.png)](../media/107-connect-no.png#lightbox)
+    > [![Screenshot of the Intro, Medication, Medication Decision, Live Chat, Submit and Confirmation branches connected.](../media/107-connect-no.png)](../media/107-connect-no.png#lightbox)
 
 ### Step 7: Add Action to Invoke Escalation
 
@@ -282,7 +282,7 @@ scenario.formData.myName + \" - Thanks for providing the information, we have cr
 1. **Connect** the **Live Chat** to the new **EscalateToAgent** action.
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Escalate To branch connected to the Live Chat branch.](../media/110-connect-live-chat.png)](../media/110-connect-live-chat.png#lightbox)
+    > [![Screenshot of the Escalate To branch connected to the Live Chat branch.](../media/110-connect-live-chat.png)](../media/110-connect-live-chat.png#lightbox)
 
 1. You have completed the final connection! Here is your full scenario:
 
@@ -324,7 +324,7 @@ In this task, we will create another bot scenario called **MCH_PatientServiceWel
 1. On the scenario editor designer, add a **Statement** element
 
     > [!div class="mx-imgBorder"]
-    > [![Image of the Prompt, Yes, No and Statement options again.](../media/84-prompt-statement.png)](../media/84-prompt-statement.png#lightbox)
+    > [![Screenshot of the Prompt, Yes, No and Statement options again.](../media/84-prompt-statement.png)](../media/84-prompt-statement.png#lightbox)
 
 1. Enter **Display text**: "Welcome to Lamna Healthcare Patient Service Portal!"
 
@@ -418,16 +418,16 @@ In this task, you will test the escalation experience from Power Apps portal to 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Power Apps menu with the Customer Service workspace option selected.](../media/129-customer-service-workspace.png)](../media/129-customer-service-workspace.png#lightbox)
 
-> [!NOTE]
-> Omnichannel for Customer Chat Widget will work only when you see the presence status is enabled. There should be a splash loading screen that goes through multiple steps and then displays the status indicator as available once loaded. (Status is enabled when green with checkmark in circle**)**
->
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Customer Service Agent Dashboard with the Presence status highlighted.](../media/130-presence-status.png)](../media/130-presence-status.png#lightbox)
->
-> Splash screen looks like the following. Refresh the page if you do not see the splash screen.
->
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the splash screen message connecting to Omnichannel for Customer Service.](../media/131-splash-screen.png)](../media/131-splash-screen.png#lightbox)
+    > [!NOTE]
+    > Omnichannel for Customer Chat Widget will work only when you see the presence status is enabled. There should be a splash loading screen that goes through multiple steps and then displays the status indicator as available once loaded. (Status is enabled when green with checkmark in circle.)
+    >
+        > [!div class="mx-imgBorder"]
+        > [![Screenshot of the Customer Service Agent Dashboard with the Presence status highlighted.](../media/130-presence-status.png)](../media/130-presence-status.png#lightbox)
+    >
+        > Splash screen looks like the following. Refresh the page if you do not see the splash screen.
+    >
+        > [!div class="mx-imgBorder"]
+        > [![Screenshot of the splash screen message connecting to Omnichannel for Customer Service.](../media/131-splash-screen.png)](../media/131-splash-screen.png#lightbox)
 
 1. In the Health Bot dialog in the Patient Portal, click **Lamna Healthcare Support** button, then the **Live Agent** button to witness the escalation into Omnichannel to chat with a live agent (your user!)
 
@@ -442,7 +442,7 @@ In this task, you will test the escalation experience from Power Apps portal to 
 1. Click **Accept** to connect and chat with customer (In this case chat with the **patient**).
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Chat request window displaying the Accept and Reject buttons.(../media/134-accept.png)](../media/134-accept.png#lightbox)
+    > ![Screenshot of the Chat request window displaying the Accept and Reject buttons.(../media/134-accept.png)](../media/134-accept.png#lightbox)
 
 1. As soon as Live Chat Agent accepts the incoming chat notification, Omnichannel for Customer Service has opened a **Live Chat Widget** and Agent would be able to see the entire bot conversation with user and continue the chat conversation with user for further assistance.
 

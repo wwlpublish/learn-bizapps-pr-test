@@ -31,7 +31,7 @@ products:
 units: 
 - learn-bizapps.azure-health-bot.1-introduction 
 - learn-bizapps.azure-health-bot.2-azure-health-bot 
-- learn-bizapps.azure-health-bot.3-configure-customer-service-ominchannel-chat 
+- learn-bizapps.azure-health-bot.3-configure-customer-service-omnichannel-chat 
 - learn-bizapps.azure-health-bot.4-embed-power-apps-health-bot 
 - learn-bizapps.azure-health-bot.5-extend-custom-scenarios 
 - learn-bizapps.azure-health-bot.6-check 
