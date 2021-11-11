@@ -22,7 +22,7 @@ Key capabilities of loan tracker include:
 
 In this video, you will see how the users of the app will work with the Loan Application and its associated details.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOZwr]
 
 Organizations may choose to deploy a self-service portal. The loan onboarding sample portal is also part of Microsoft Cloud for Financial Services. It allows customers or potential customers to go through the loan application process.
 
