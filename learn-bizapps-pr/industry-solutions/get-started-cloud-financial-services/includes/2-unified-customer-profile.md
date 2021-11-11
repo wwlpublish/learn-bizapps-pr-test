@@ -10,7 +10,7 @@ Key areas of unified customer profile include:
 
 This video contains a demonstration of how users might use the Unified Customer Profile to better know their customer.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOUkW]
 
 ## Using the application
 
