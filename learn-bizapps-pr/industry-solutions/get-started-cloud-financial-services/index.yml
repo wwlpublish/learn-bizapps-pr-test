@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.get-started-cloud-financial-services 
+metadata: 
+ title: Get started with Microsoft Cloud for Financial Services
+ description: Microsoft Cloud for Financial Services provides capabilities to manage data to deliver differentiated experiences, empower employees, and combat financial crime while facilitating security, compliance, and interoperability.  
+ ms.date: 11/11/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-industry-solutions  
+title: Get started with Microsoft Cloud for Financial Services
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Microsoft Cloud for Financial Services provides capabilities to manage data to deliver differentiated experiences, empower employees, and combat financial crime while facilitating security, compliance, and interoperability.  This cloud enhances collaboration, automation, and insights to streamline processes; personalizes customer interaction; improves customer experience; and delivers data insights. This industry-specific cloud includes existing and new capabilities that unlock the power of Microsoft 365, Microsoft Dynamics 365, and Microsoft Power Platform to innovate for responsible and sustainable growth.  
+abstract: |  
+    In this module, you will: 
+    - Discover Microsoft Cloud for Financial Services
+    - Explore key use cases for Microsoft Cloud for Financial Services
+    - Gain an understanding of considerations for a successful implementation
+prerequisites: |  
+    - Working knowledge of the financial services industry
+    - Familiarity with Microsoft 365
+    - Experience with Microsoft Dynamics 365
+    - Knowledge of Microsoft Power Platform
+iconUrl: /learn/achievements/get-started-cloud-financial-services.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products: 
+- industry-solutions 
+- mscloud-financial
+units: 
+- learn-bizapps.get-started-cloud-financial-services.1-introduction 
+- learn-bizapps.get-started-cloud-financial-services.2-unified-customer-profile 
+- learn-bizapps.get-started-cloud-financial-services.3-onboarding 
+- learn-bizapps.get-started-cloud-financial-services.4-maker-considerations 
+- learn-bizapps.get-started-cloud-financial-services.5-check 
+- learn-bizapps.get-started-cloud-financial-services.6-summary 
+badge: 
+  uid: learn-bizapps.get-started-cloud-financial-services.badge 
