@@ -8,9 +8,9 @@ In this exercise, you will be making some enhancements to the Power Apps canvas 
 
 - How to work with many-to-many relationships
 
-## Prerequisite:
+## Prerequisite
 
-- You will need an environment with Microsoft Dataverse.
+You will need an environment with Microsoft Dataverse.
 
 ## Exercise 1: Import solution
 
