@@ -47,7 +47,7 @@ Filter(
 
 ## Filtering choices columns
 
-Filtering table rows on a choices column is complicated by how the data is stored in Dataverse as a comma-separated list. As a result, any filter you compose involving a choices column will receive a [delegation](https://docs.microsoft.com/powerapps/maker/canvas-apps/delegation-overview/?azure-portal=true) warning as illustrated in the following example:
+Filtering table rows on a choices column is complicated by how the data is stored in Dataverse as a comma-separated list. As a result, any filter you compose involving a choices column will receive a [delegation](/powerapps/maker/canvas-apps/delegation-overview/?azure-portal=true) warning as illustrated in the following example:
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the formula Filter(Accounts,Text(Dropdown1.Selected.Value in 'Preferred Delivery').](../media/filter.png)](../media/filter.png#lightbox)

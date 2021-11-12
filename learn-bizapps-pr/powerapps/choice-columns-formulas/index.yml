@@ -18,7 +18,7 @@ abstract: |
     - Know when to use choice or lookups.
     - Filter data on choice values.
 prerequisites: |
-  - you'll need an environment with Microsoft Dataverse to do the exercise.
+  - You'll need an environment with Microsoft Dataverse to do the exercise.
   - Basic Power Apps maker experience.
   - Fundamentals of configuring Microsoft Dataverse.
 iconUrl: /learn/achievements/choice-columns-formulas.svg
