@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.optimize-app-load-time.1-introduction 
+title: Introduction
+metadata: 
+  title: Introduction
+  description: Introduction to tools and strategies used to help you monitor and optimize app load times.
+  ms.date: 11/17/2021 
+  author: jadaphillips 
+  ms.author: jadaphillips 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 9 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 
