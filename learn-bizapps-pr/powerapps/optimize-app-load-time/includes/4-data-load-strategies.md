@@ -58,11 +58,11 @@ Another advantage of this approach is you can allow your user to modify and revi
 
 A variation of the simple preload approach is to load data from your device local storage first and then continue to load directly from the data source. This strategy is helpful when the data source is slow or available intermittently. To implement this pattern, you would need to do the following:
 
-- Load the data, if it exists, from the device local storage using LoadData(). At this point, any control bound to the collection would show the data.
+1. Load the data, if it exists, from the device's local storage using LoadData(). At this point, any control bound to the collection would show the data.
 
-- Proceed to load data directly from the data source connector into the same collection. At this point, any control bound to the collection would show the updated data loaded from the connector.
+1. Proceed to load data directly from the data source connector into the same collection. At this point, any control bound to the collection would show the updated data loaded from the connector.
 
-- Use SaveData() to persist the most recent data to the device local storage.
+1. Use SaveData() to persist the most recent data to the device's local storage.
 
 Your formulas would look like the following:
 
