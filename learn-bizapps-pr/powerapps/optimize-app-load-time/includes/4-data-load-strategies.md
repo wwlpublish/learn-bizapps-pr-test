@@ -52,7 +52,7 @@ When you use data preloaded into a collection the data does not get refreshed un
 
 Another advantage of this approach is you can allow your user to modify and review multiple rows as they go, without saving each one using the data source. Once changes are completed, they can be committed back to the data source using a single Patch() function call. If you want to undo all changes before the commit, you can refresh the collection. The following is an example of using Patch function to commit changes in colDesks collection back to Desks table in Dataverse.
 
-Patch(Desks,colDesks)
+    Patch(Desks,colDesks)
 
 ## Loading from persisted storage
 
