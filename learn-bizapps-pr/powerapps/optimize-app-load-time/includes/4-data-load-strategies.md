@@ -46,7 +46,7 @@ The following expression clears the colDesks collection and loads all the Desks 
 To use the preloaded data, you would change your relevant formulas to use the collection.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Tree View menu with updated formula highlighted.](../media/2-screen-formula.png)](../media/2-screen-formula.png#lightbox)
+> [![Screenshot of the Tree View Screens menu with updated formula highlighted.](../media/2-screen-formula.png)](../media/2-screen-formula.png#lightbox)
 
 When you use data preloaded into a collection the data does not get refreshed unless you ClearCollect() again to bring in the latest data. This is different from the direct data source binding where refresh is automatically managed by the Power Apps.
 
