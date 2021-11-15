@@ -27,7 +27,7 @@ quiz:
     - content: Q&A visual
       isCorrect: false
       explanation: The answer is incorrect. The Q&A visual allows for the entry of natural language questions that are answered by data visuals. It can’t provide explanation for spikes in data.
-  - content: At the Contoso Skateboard Company, Sanjay is authoring a report that will be distributed to sales managers.The report contains some sensitive data that shouldn’t be exported. Which report design feature can Sanjay configure to ensure that data isn’t exported?
+  - content: At the Contoso Skateboard Company, Sanjay is authoring a report that will be distributed to sales managers. The report contains some sensitive data that shouldn’t be exported. Which report design feature can Sanjay configure to ensure that data isn’t exported?
     choices:
     - content: Bookmark
       isCorrect: false
