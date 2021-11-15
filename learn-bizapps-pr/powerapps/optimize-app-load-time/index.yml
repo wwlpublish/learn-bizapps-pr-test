@@ -1,0 +1,35 @@
+### YamlMime:Module 
+uid: learn-bizapps.optimize-app-load-time 
+metadata: 
+ title: Optimize app load time
+ description: Introduction to tools and strategies used to help you monitor and optimize app load times.
+ ms.date: 11/17/2021  
+ author: jadaphillips  
+ ms.author: jadaphillips  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps  
+title: Optimize app load time
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Introduction to tools and strategies used to help you monitor and optimize app load times. 
+abstract: |  
+    In this module, you will: 
+    - Explore how to evaluate your app load time.
+    - Identify strategies for improvement. 
+prerequisites: None
+iconUrl: /learn/achievements/optimize-app-load-time.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+products: 
+- power-apps 
+units: 
+- learn-bizapps.optimize-app-load-time.1-introduction 
+- learn-bizapps.optimize-app-load-time.2-monitor-start-performance-issues 
+- learn-bizapps.optimize-app-load-time.3-optimize-on-start 
+- learn-bizapps.optimize-app-load-time.4-data-load-strategies 
+- learn-bizapps.optimize-app-load-time.5-check 
+- learn-bizapps.optimize-app-load-time.6-summary 
+badge: 
+  uid: learn-bizapps.optimize-app-load-time.badge 

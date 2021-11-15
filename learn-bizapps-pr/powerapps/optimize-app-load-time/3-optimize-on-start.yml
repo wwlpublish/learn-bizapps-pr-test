@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.optimize-app-load-time.3-optimize-on-start 
+title: Optimize App.OnStart
+metadata: 
+  title: Optimize App.OnStart
+  description: The OnStart property on the app object runs when a user starts your app to evaluate formulas for retrieving and caching data you wish to pre-load and setting global variables. 
+  ms.date: 11/17/2021 
+  author: jadaphillips 
+  ms.author: jadaphillips 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-optimize-on-start.md)] 
