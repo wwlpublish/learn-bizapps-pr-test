@@ -2,7 +2,7 @@ The OnStart property on the app object runs when a user starts your app. The pro
 
 ## Navigating on app startup
 
-A common need on app startup is to select the first screen the user sees. For example, the app could open a welcome screen on first run or implement [deep linking](https://powerapps.microsoft.com/en-us/blog/powerapps-deep-linking/) into a specific detail page. In the past adding conditional logic and using Navigate() function in App.OnStart property was common practice. Using Navigate() in OnStart has been retired and all new apps are prohibited from using Navigate from App.OnStart.
+A common need on app startup is to select the first screen the user sees. For example, the app could open a welcome screen on first run or implement [deep linking](https://powerapps.microsoft.com/en-us/blog/powerapps-deep-linking//?azure-portal=true#) into a specific detail page. In the past adding conditional logic and using Navigate() function in App.OnStart property was common practice. Using Navigate() in OnStart has been retired and all new apps are prohibited from using Navigate from App.OnStart.
 
 The new approach is to use the App.StartScreen property. By default, this property will be empty, and the first screen in the screen tree view is shown. If evaluating the formula provided for the StartScreen property results in an error, the first screen will fall back like the property is empty. You can use IfError function to catch any errors and redirect to an appropriate error screen.
 

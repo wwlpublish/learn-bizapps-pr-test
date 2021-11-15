@@ -22,7 +22,7 @@ As you evaluate your app, the following are some key considerations:
 
 When you set the items property of a gallery to the table of a tabular connector or use an expression like Filter() that is based on the table, you are doing direct data source binding. The following expression binds directly to the Desks table.
 
-    SortByColumns(Filter(\[\@Desks\], StartsWith(Title, TextSearchBox1.Text)), \"Title\", If(SortDescending1, Descending, Ascending))
+    SortByColumns(Filter([@Desks], StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, Descending, Ascending))
 
 This is the most basic approach to data loading. Data is retrieved directly from the connector as the criteria on the filter changes. This is a declarative way of loading data where the Power Apps runtime can decide to load and refresh the data. As a result, you don't have the option of having a loading indicator shown to the user.
 
@@ -33,7 +33,7 @@ Another significant advantage of direct binding is you are not limited by the da
 > [!div class="mx-imgBorder"]
 > [![Screenshot that shows Power Apps Monitor events with three columns.](../media/1-network-rows.png)](../media/1-network-rows.png#lightbox)
 
-As we suggested in our initial considerations you really don\'t want to present the user with 100,000 rows. Instead, with data sources that support delegation, add a filter then let the connector process the filter criteria and only return rows that match.
+As we suggested in our initial considerations you really don't want to present the user with 100,000 rows. Instead, with data sources that support delegation, add a filter then let the connector process the filter criteria and only return rows that match.
 
 ## Preload data into collection
 
@@ -66,21 +66,21 @@ A variation of the simple preload approach is to load data from your device loca
 
 Your formulas would look like the following:
 
-    LoadData(colDesks,\"LocalDesks\",true);
+    LoadData(colDesks,"LocalDesks",true);
 
     ClearCollect(colDesks,Desks);
 
-    SaveData(colDesks,\"LocalDesks\");
+    SaveData(colDesks,"LocalDesks");
 
 If your users are occasionally not connected, you can add in a conditional check if they are connected prior to attempting to load new data. The revised formula would look like the following:
 
-    LoadData(colDesks,\"LocalDesks\", true);
+    LoadData(colDesks,"LocalDesks", true);
 
     If (Connection.Connected,
 
     ClearCollect(colDesks,Desks);
 
-    SaveData(colDesks,\"LocalDesks\")
+    SaveData(colDesks,"LocalDesks")
 
     )
 
@@ -122,7 +122,7 @@ If you are preloading data from connectors and have multiple items that you're c
 
     ClearCollect(colDesks,Desks);
 
-    ClearCollect(colDeskFeatures,\'Desk Features\');
+    ClearCollect(colDeskFeatures,'Desk Features');
 
     Set(userProfile, Office365Users.MyProfileV2())
 
@@ -132,7 +132,7 @@ If each of them is independently preloading data, then you can run them in paral
 
     ClearCollect( colDesks,Desks ),
 
-    ClearCollect( colDeskFeatures, \'Desk Features\' ),
+    ClearCollect( colDeskFeatures, 'Desk Features' ),
 
     Set( userProfile, Office365Users.MyProfileV2() )
 

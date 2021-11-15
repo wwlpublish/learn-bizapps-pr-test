@@ -22,11 +22,11 @@ Using the event details, you can make changes in the app to correct problems ide
 
 In addition to the events automatically captured, you can also log custom messages using the Trace() function. The custom messages can be helpful to mark the start or the end of OnStart or OnVisible logic. In the following example, we add a Trace before and after we pre-load some data from Microsoft Dataverse.
 
-    Trace(\"Start of OnStart\");
+    Trace("Start of OnStart");
 
     ClearCollect(colDesks,Desks);
 
-    Trace(\"End of OnStart\");
+    Trace("End of OnStart");
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the App.OnStart formulate containing the following formula: Trace(\"Start of OnStart\"); ClearCollect(colDesks,Desks); Trace(\"End of OnStart\");](../media/3-trace.png)](../media/3-trace.png#lightbox)
