@@ -31,7 +31,7 @@ Once data is loaded, it can be used by controls without retrieving from the data
 Another significant advantage of direct binding is you are not limited by the data row limit app setting if your connector supports delegation. For example, if you had 100,000 contact rows in Microsoft Dataverse and you bound a gallery directly to the table, the gallery would load an initial set of items and then get more as the user scrolled. The following screenshot shows Power Apps Monitor events that include getRows call to load the initial data followed by several getMoreRows calls as the user scrolls the gallery. These are done automatically by Power Apps and the app doesn't need to handle paging of the data.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot that shows Power Apps Monitor events.](../media/1-network-rows.png)](../media/1-network-rows.png#lightbox)
+> [![Screenshot that shows Power Apps Monitor events with three columns.](../media/1-network-rows.png)](../media/1-network-rows.png#lightbox)
 
 As we suggested in our initial considerations you really don\'t want to present the user with 100,000 rows. Instead, with data sources that support delegation, add a filter then let the connector process the filter criteria and only return rows that match.
 
@@ -46,7 +46,7 @@ The following expression clears the colDesks collection and loads all the Desks 
 To use the preloaded data, you would change your relevant formulas to use the collection.
 
 > [!div class="mx-imgBorder"]
-> [![](../media/2-screen-formula.png)](../media/2-screen-formula.png#lightbox)
+> [![Screenshot of the Tree View menu with updated formula highlighted.](../media/2-screen-formula.png)](../media/2-screen-formula.png#lightbox)
 
 When you use data preloaded into a collection the data does not get refreshed unless you ClearCollect() again to bring in the latest data. This is different from the direct data source binding where refresh is automatically managed by the Power Apps.
 

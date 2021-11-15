@@ -11,12 +11,12 @@ metadata:
 title: Optimize app load time
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Summary text goes here. 
+  Introduction to tools and strategies used to help you monitor and optimize app load times. 
 abstract: |  
     In this module, you will: 
     - Explore how to evaluate your app load time.
     - Identify strategies for improvement. 
-prerequisites: 
+prerequisites: None
 iconUrl: /learn/achievements/optimize-app-load-time.svg  
 levels:  
 - intermediate   

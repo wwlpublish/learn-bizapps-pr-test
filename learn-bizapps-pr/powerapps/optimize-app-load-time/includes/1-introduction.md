@@ -56,7 +56,7 @@ The app settings can have a significant impact on the performance of your app. I
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Debug published app screen with the General option highlighted.](../media/4-debug-published.png)](../media/4-debug-published.png#lightbox)
 
-Another setting to consider is the **Data row limit**. This setting determines the most rows that will be retrieved from a server-based connection when delegation is not supported. By default, this is 500 and can be any value between 1 and 2,000. To work around [delegation issues](https://docs.microsoft.com/powerapps/maker/canvas-apps/delegation-overview) in apps, it is not uncommon to increase this value. This may cause unexpected problems when a development environment holds much smaller sets of data than production. For example, with the data row limit set to 2,000 the following expression in App.OnStart might only preload a handful of rows in a development environment.
+Another setting to consider is the **Data row limit**. This setting determines the most rows that will be retrieved from a server-based connection when delegation is not supported. By default, this is 500 and can be any value between 1 and 2,000. To work around [delegation issues](/powerapps/maker/canvas-apps/delegation-overview) in apps, it is not uncommon to increase this value. This may cause unexpected problems when a development environment holds much smaller sets of data than production. For example, with the data row limit set to 2,000 the following expression in App.OnStart might only preload a handful of rows in a development environment.
 
 ClearCollect(colDesks,Desks)
 
@@ -74,7 +74,7 @@ If you are working on a performance issue, testing some of the upcoming features
 
 ## Limits and throttling
 
-Each connector can have its own limit of data retrieved and throttling. There are also [service protection limits](https://docs.microsoft.com/powerapps/developer/data-platform/api-limits) in place at the platform level. It is a good idea to be aware of these for the connectors you use in your app. Apps that encounter these limits during startup might exhibit slowdown in loading the app.
+Each connector can have its own limit of data retrieved and throttling. There are also [service protection limits](/powerapps/developer/data-platform/api-limits) in place at the platform level. It is a good idea to be aware of these for the connectors you use in your app. Apps that encounter these limits during startup might exhibit slowdown in loading the app.
 
 ## Using a loading image
 
