@@ -47,7 +47,7 @@ In our example, Desk and Desk Feature would have a many-to-many relationship. Th
 
 In the following video, we will look at how to create relationships between tables.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWOUXs]
 
 After creating all the tables and relationships, the data model for the example scenario now looks like the following:
 
