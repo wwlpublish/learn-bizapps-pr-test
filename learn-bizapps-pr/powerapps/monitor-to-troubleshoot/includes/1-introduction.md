@@ -1,4 +1,4 @@
-Microsoft Azure Monitor is a tool that you can launch from Microsoft Power Apps Studio to help you troubleshoot problems and improve the quality of your apps.
+Monitor is a tool that you can launch from Microsoft Power Apps Studio to help you troubleshoot problems and improve the quality of your apps.
 
 The key concepts that you can identify by using Monitor include:
 
