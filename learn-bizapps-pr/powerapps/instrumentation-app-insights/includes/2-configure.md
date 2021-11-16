@@ -8,7 +8,7 @@ Now, when users run your published app outside of Power Apps Studio it will send
 
 In the following video, we walk through configuring a Power Apps canvas app and Application Insights.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP06z]
 
 In the rest of this topic, we will dive deeper into some of the options to consider when configuring Application Insights for your app.
 

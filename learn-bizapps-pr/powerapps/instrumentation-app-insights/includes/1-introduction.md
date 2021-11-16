@@ -8,8 +8,6 @@ You built an app, published and shared it with people in your organization. Do y
 
 -   Which screens are slow?
 
--   Any question that you could log and use custom telemetry to answer.
-
 Application Insights is a feature of Azure Monitor that you can use to monitor application performance. Custom apps including canvas Power Apps can easily be configured to send telemetry to Application Insights. Once the telemetry is in Application Insights the data can be viewed or accessed using multiple options.
 
 > [!div class="mx-imgBorder"]
