@@ -49,4 +49,4 @@ When using Monitor to evaluate startup time of your app, it's important that you
 In the following video, we show how to activate Monitor and review the data captured during startup of your app.
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP2DX]

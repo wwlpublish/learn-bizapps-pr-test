@@ -2,7 +2,7 @@
 uid: learn-bizapps.optimize-app-load-time 
 metadata: 
  title: Optimize app load time
- description: Introduction to tools and strategies used to help you monitor and optimize app load times.
+ description: Learn how you can evaluate and improve app load times. By regularly reviewing and measuring your app, you can proactively identify and remediate startup performance problems.
  ms.date: 11/17/2021  
  author: jadaphillips  
  ms.author: jadaphillips  
@@ -11,12 +11,13 @@ metadata:
 title: Optimize app load time
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Introduction to tools and strategies used to help you monitor and optimize app load times. 
+  Learn how you can evaluate and improve app load times. By regularly reviewing and measuring your app, you can proactively identify and remediate startup performance problems. 
 abstract: |  
-    In this module, you will: 
-    - Explore how to evaluate your app load time.
-    - Identify strategies for improvement. 
-prerequisites: None
+    After completing this module, you’ll be able to know how to: 
+    - Evaluate your app startup performance.
+    - Optimize OnStart app load time.
+    - Implement a data load strategy.
+prerequisites: Basic Power Apps maker experience
 iconUrl: /learn/achievements/optimize-app-load-time.svg  
 levels:  
 - intermediate   
