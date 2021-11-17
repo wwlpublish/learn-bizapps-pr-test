@@ -6,7 +6,7 @@ After you have set up your application to send telemetry to Application Insights
 
 -   **Logs** - Allow you to query the raw event data and look for patterns. Also, you can answer questions directly in Application Insights on the Azure portal or in an external app like Power BI.
 
-You can use Application Insights to collect application performance data for many different types of applications, including Power Apps. For this reason, the portal offers many different visualizations and workbook templates for the different types of applications. Not all visualizations and workbook templates are applicable for Power Apps, and as you explore the different assets, you might find that many don't contain data or provide a limited experience. 
+You can use Application Insights to collect application performance data for many different types of applications, including Power Apps. For this reason, the portal offers many different visualizations and workbook templates for the different types of applications. Not all visualizations and workbook templates are applicable for Power Apps, and as you explore the different assets, you might find that many of them don't contain data or provide a limited experience. 
 
 Visualizations and workbook templates that you will find useful for Power Apps include:
 
@@ -46,7 +46,7 @@ A good place to start is **Usage > Users** and then determine who/how many peopl
 
 ## Cohorts
 
-Cohorts allows you to define sets of users, events, or operations that have something in common. For example, you could define a cohort for all users of a specific screen in your app. Another example would be all users from a country/region. Then, you could use the cohort to filter your Application Insights visualizations.
+Using cohorts will allow you to define sets of users, events, or operations that have something in common. For example, you could define a cohort for all users of a specific screen in your app. Another example would be all users from a country/region. Then, you could use the cohort to filter your Application Insights visualizations.
 
 ## Custom visualizations
 
