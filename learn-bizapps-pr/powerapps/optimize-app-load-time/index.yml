@@ -13,11 +13,11 @@ summary: |
   [!include[](../includes/module-banner.md)] 
   Learn how you can evaluate and improve app load times. By regularly reviewing and measuring your app, you can proactively identify and remediate startup performance problems. 
 abstract: |  
-    After completing this module, you’ll be able to know how to: 
+    In this module, you will:
     - Evaluate your app startup performance.
     - Optimize OnStart app load time.
     - Implement a data load strategy.
-prerequisites: Basic Power Apps maker experience
+prerequisites: Basic Microsoft Power Apps maker experience
 iconUrl: /learn/achievements/optimize-app-load-time.svg  
 levels:  
 - intermediate   
