@@ -1,4 +1,4 @@
-One-to-many relationships are the most common Dataverse relationships that you will work with. This unit continues the scenario regarding Contoso's shared workspaces. To help explain how to work with relationships in a canvas app, the ensuing examples will use the relationship between the Location and Desk tables. The following diagram is a visualization of the relationship and the corresponding data.
+One-to-many relationships are the most common Dataverse relationships that you will work with. This unit continues the scenario regarding the shared workspaces (*hot desking*) solution in Contoso. To help explain how to work with relationships in a canvas app, the ensuing examples will use the relationship between the Location and Desk tables. The following diagram is a visualization of the relationship and the corresponding data.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram of the one-to-many relationship, showing the Location record on the One side, and multiple desk records showing on the Many side of the relationship.](../media/many-relationship.png)](../media/many-relationship.png#lightbox)
