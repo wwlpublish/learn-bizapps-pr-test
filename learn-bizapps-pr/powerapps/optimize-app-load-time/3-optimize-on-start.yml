@@ -3,7 +3,7 @@ uid: learn-bizapps.optimize-app-load-time.3-optimize-on-start
 title: Optimize App.OnStart
 metadata: 
   title: Optimize App.OnStart
-  description: The OnStart property on the app object runs when a user starts your app to evaluate formulas for retrieving and caching data you wish to pre-load and setting global variables. 
+  description: Learn how to optimize the App.OnStart property. 
   ms.date: 11/17/2021 
   author: jadaphillips 
   ms.author: jadaphillips 
