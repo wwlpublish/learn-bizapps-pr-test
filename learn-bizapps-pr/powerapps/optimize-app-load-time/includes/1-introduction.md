@@ -62,7 +62,7 @@ Another setting to consider is **Data row limit**. This setting determines the m
 
 The same app in a production environment with a fully populated dataset could retrieve the full 2,000 rows. As a result, the app will load much slower in production than in development. Frequently, working to eliminate delegation warnings is a better approach than increasing this value.
 
-In older apps, the **Enable Navigate function in App.OnStart** setting might be enabled. This setting allows you to use the Navigate() function in App.OnStart property but results in the first screen not rendering until all your expressions in App.OnStart are evaluated. In more recent apps, this approach is not allowed, and you will need to use the App.StartScreen property instead. The **OnStart** and **StartScreen** properties will be discussed in depth later in this module. If your app has this setting enabled, consider updating to the new approach and disabling the setting, which can improve load times.
+In older apps, the **Enable Navigate function in App.OnStart** setting might be enabled. This setting allows you to use the Navigate() function in the **App.OnStart** property, but results in the first screen will not render until all your expressions in **App.OnStart** are evaluated. In more recent apps, this approach is not allowed, and you will need to use the App.StartScreen property instead. The **OnStart** and **StartScreen** properties will be discussed in depth later in this module. If your app has this setting enabled, consider updating to the new approach and disabling the setting, which can improve load times.
 
 In addition to the previously mentioned settings, the **Upcoming features** category has more settings that you should review. Three sections are in this category: **Preview**, **Experimental**, and **Retired**.
 
@@ -88,7 +88,7 @@ The simplest way to use a loading image during the loading of your app is to use
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the preloader control Visible property that is set to showLoader variable.](../media/6-visible-show-loader.png)](../media/6-visible-show-loader.png#lightbox)
 
-Then, in App.OnStart, you can turn on the loading image before loading the data, and then you can turn off the image after the data is loaded.
+Then, in **App.OnStart**, you can turn on the loading image before loading the data, and then you can turn off the image after the data is loaded.
 
     Set(showLoader, true);
 
