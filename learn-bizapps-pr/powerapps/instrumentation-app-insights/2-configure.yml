@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.instrumentation-app-insights.2-configure 
-title: Configure a Power Apps for Azure Application Insights
+title: Set up an app for Application Insights
 metadata: 
-  title: Configure a Power Apps for Azure Application Insights
-  description: Learn how to configure a Power Apps for Azure Application Insights.
+  title: Set up an app for Application Insights
+  description: Learn how to set up an app from Power Apps for Application Insights.
   ms.date: 11/12/2021 
   author: jadaphillips 
   ms.author: jadaphillips 

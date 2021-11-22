@@ -1,112 +1,116 @@
-You are asked to collect telemetry data from the Cost Estimator application. You have decided to use Application Insights to collect and analyze the telemetry data.
+In this exercise scenario, you have been asked to collect telemetry data from the Cost Estimator application. You have decided to use Application Insights to collect and analyze the telemetry data.
 
-## Requirements
+## Tasks
+
+The tasks that you will complete in this exercise are:
 
 - Add trace that will track viewed jobs.
 
-- Add trace that will track jobs form validation errors.
+- Add trace that will track jobs from validation errors.
 
-## What you will learn
+## Objectives
 
-- How to create app insights application.
+The objectives of this exercise are to show you how to:
 
-- How to connect canvas application to Application Insights.
+- Create an Application Insights app in Azure.
 
-- How to add traces to your application.
+- Connect a canvas app to Application Insights.
 
-- How to query trace logs.
+- Add traces to your application.
 
-## Prerequisite
+- Query trace logs.
 
-- You will need an environment with Microsoft Dataverse installed.
+## Prerequisites
 
-- You will need Microsoft Azure subscription [Azure - Sign up](https://signup.azure.com/signup?offer=ms-azr-0044p&appId=102&ref=portal&redirectURL=https:%2F%2Fazure.microsoft.com%2Fen-us%2Fget-started%2Fwelcome-to-azure%2F&l=en-us&correlationId=a18965c7a16f4722a855a8e7953047f3).
+Make sure that you meet the following prerequisites before beginning the exercise:
 
-## Exercise 1: Import solution 
+- An environment with Microsoft Dataverse installed
+
+- A Microsoft Azure subscription: [Azure - Sign up](https://signup.azure.com/signup?offer=ms-azr-0044p&appId=102&ref=portal&redirectURL=https:%2F%2Fazure.microsoft.com%2Fen-us%2Fget-started%2Fwelcome-to-azure%2F&l=en-us&correlationId=a18965c7a16f4722a855a8e7953047f3)
+
+## Exercise 1: Import a solution 
 
 In this exercise, you will import a solution into your environment. This solution contains a working canvas application. You will modify it later to add tracing to certain user actions and then analyze the results.
 
-### Task 1: Import solution
+### Task: Import a solution
 
 In this task, you will import a solution into your environment.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and select the environment you would like to use for this lab.
+1.  Go to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and select the environment that you want to use for this lab.
 
-1.  Select **Solutions** and select **Import**.
+1.  Select **Solutions > Import**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the import button.](../media/import-button.png)](../media/import-button.png#lightbox)
+	> [![Screenshot of the Import button in the Solutions area.](../media/import-button.png)](../media/import-button.png#lightbox)
 
 1.  Select **Browse**.
 
-1.  Browse to the lab resources folder, select the ContosoCostEstimator_1_0_0_1.zip solution, and select **Open**.
+1.  Browse to the lab resources folder, select the **ContosoCostEstimator_1_0_0_1.zip** solution, and then select **Open**.
 
 1.  Select **Next**.
 
-1.  Select **Import** and wait for the solution importing to complete.
+1.  Select **Import** and then wait for the solution importing to complete.
 
-## Exercise 2: Configure app
+## Exercise 2: Set up the app
 
-In this exercise, you configure the app for app insights. If you have an active Azure subscription associated to your lab user, follow the steps here. If you do not have an active Azure subscription, you will be prompted to add that while following these steps. The free Azure that is offered will be enough to allow you to complete this lab.
+In this exercise, you will set up the app for Application Insights. If you have an active Azure subscription that is associated with your lab user, follow the steps in this section. If you don't have an active Azure subscription, you will be prompted to add it while following these steps. The free Azure subscription that is offered will be enough for you to complete this lab.
 
-### Task 1: Create app insights app
+### Task: Create an Application Insights app
 
-In this task, you will create an app insights app in Microsoft Azure. Creating app insights requires Microsoft Azure subscription, you can [Sign up](https://signup.azure.com/signup?offer=ms-azr-0044p&appId=102&ref=portal&redirectURL=https:%2F%2Fazure.microsoft.com%2Fen-us%2Fget-started%2Fwelcome-to-azure%2F&l=en-us&correlationId=a18965c7a16f4722a855a8e7953047f3).
+In this task, you will create an Application Insights app in Microsoft Azure, which requires an active Azure subscription. If you don't have an Azure subscription, you can [sign up](https://signup.azure.com/signup?offer=ms-azr-0044p&appId=102&ref=portal&redirectURL=https:%2F%2Fazure.microsoft.com%2Fen-us%2Fget-started%2Fwelcome-to-azure%2F&l=en-us&correlationId=a18965c7a16f4722a855a8e7953047f3).
 
-1.  Navigate to [Microsoft Azure portal](https://portal.azure.com/?azure-portal=true) and select **Create a resource**.
+1.  Go to the [Microsoft Azure portal](https://portal.azure.com/?azure-portal=true) and select **Create a resource**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the create a resource button.](../media/create-resource.png)](../media/create-resource.png#lightbox)
+	> [![Screenshot of the Create a resource button.](../media/create-resource.png)](../media/create-resource.png#lightbox)
 
-1.  Search for application insights and select **Application Insights**.
+1.  Search for and select **Application Insights**.
 
 1.  Select **Create**.
 
-1.  Select your Subscription and select **Create new** Resource group.
+1.  Select your subscription and then select **Create new** under the **Resource Group** dropdown list.
 
-1.  Enter **fl_insights** for **Name** and select **OK**. Replace fl with your initials.
+1.  Enter **fl_insights** for **Name** and then select **OK**. Replace **fl** with your initials.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the create resource group window.](../media/resource-group.png)](../media/resource-group.png#lightbox)
 
-1.  Enter **Insights_Lab** for Name, select your **Region**, and select **Review + create**.
+1.  Enter **Insights_Lab** for **Name**, select your **Region**, and then select **Review + create**.
 
-1.  Select **Create** and wait for the resource to be created.
+1.  Select **Create** and then wait for the resource to be created.
 
 1.  Select **Go to resource**.
 
 1.  Copy the **Instrumentation Key**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the instrumentation key.](../media/instrumentation-key.png)](../media/instrumentation-key.png#lightbox)
+	> [![Screenshot of the Instrumentation Key.](../media/instrumentation-key.png)](../media/instrumentation-key.png#lightbox)
 
-1. Navigate to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and select the environment you are using for this lab.
+1. Go to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and select the environment that you are using for this lab.
 
-1. Select **Solutions** and select to open the **Contoso Cost estimator** solution you imported.
+1. Select **Solutions** and then select to open the **Contoso Cost estimator** solution that you imported.
 
-1. Select to open the **Cost Estimator** application.
+1. Select to open the **Cost Estimator** application. The application should open in app studio.
 
-1. The application should open in app studio.
-
-1. Select **App**, go to the **Properties** pane and paste the instrumentation key you copied in the **Instrumentation Key** field.
+1. Select **App**, go to the **Properties** pane, and then paste the instrumentation key that you copied from the **Instrumentation Key** field.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the instrumentation key pasted in the properties.](../media/properties-instrumentation-key.png)](../media/properties-instrumentation-key.png#lightbox)
+	> [![Screenshot of the Instrumentation key pasted in the properties.](../media/properties-instrumentation-key.png)](../media/properties-instrumentation-key.png#lightbox)
 
-1. Select **File** and **Save**.
+1. Select **File > Save**.
 
 1. Select **Publish**.
 
-1. Select **Publish this version** and wait for the publishing to complete.
+1. Select **Publish this version** and then wait for the publishing to complete.
 
-1. Select the back button.
+1. Select the **back** button.
 
 1. Select **Play**.
 
-1. Make sure the app loads the data.
+1. Make sure that the app loads the data.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the cost estimator application.](../media/cost-estimator.png)](../media/cost-estimator.png#lightbox)
+	> [![Screenshot of the Cost Estimator application.](../media/cost-estimator.png)](../media/cost-estimator.png#lightbox)
 
 1. Close the preview.
 
@@ -114,34 +118,34 @@ In this task, you will create an app insights app in Microsoft Azure. Creating a
 
 ## Exercise 3: Edit and add trace
 
-In this exercise, you will add trace to the application by modifying formulas that are already part of the working Power App.
+In this exercise, you will add trace to the application by modifying formulas that are already part of the working app from Power Apps.
 
-### Task 1: Add trace
+### Task: Add trace
 
-In this task, you will trace to the application.
+In this task, you will add trace to the application.
 
-1.  Expand the **OpenJobsPage**.
+1.  Expand **OpenJobsPage**.
 
-1.  Expand the **JobsListGallery** and select **Icon2**.
+1.  Expand **JobsListGallery** and then select **icon2**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the icon control.](../media/icon-control.png)](../media/icon-control.png#lightbox)
 
-1.  Append the OnSelect value of Icon2 with the formula below. This trace will track which jobs are getting viewed.
+1.  Append the **OnSelect** value of **icon2** with the following formula. This trace will track which jobs are being viewed.
 
 	`;Trace("Job Viewed",TraceSeverity.Information,{JobId:ThisItem.JobId, JobName:ThisItem.JobName})`
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the formula being edited.](../media/edit-formula.png)](../media/edit-formula.png#lightbox)
 
-1.  Select the **NewJobPage** from the **Tree view**.
+1.  Select **NewJobPage** from the **Tree view**.
 
 1.  Select the **Save job** button.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the save job button.](../media/save-job.png)](../media/save-job.png#lightbox)
+	> [![Screenshot of the Save job button.](../media/save-job.png)](../media/save-job.png#lightbox)
 
-1.  Go to the formula bar, select **OnSelect** and expand the formula bar.
+1.  Go to the formula bar, select **OnSelect**, and then expand the formula bar.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the expand formula bar button.](../media/expand-formula.png)](../media/expand-formula.png#lightbox)
@@ -149,14 +153,14 @@ In this task, you will trace to the application.
 1.  Select **Format text**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the format formula text button.](../media/format-text.png)](../media/format-text.png#lightbox)
+	> [![Screenshot of the Format text button.](../media/format-text.png)](../media/format-text.png#lightbox)
 
-1.  Scroll down and locate **UpdateContext**. There should be two of them.
+1.  Scroll down and locate **UpdateContext**. Two occurrences should be shown.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the two update context.](../media/update-context.png)](../media/update-context.png#lightbox)
+	> [![Screenshot of the two UpdateContext occurrences.](../media/update-context.png)](../media/update-context.png#lightbox)
 
-1.  Add the formula below after the first **UpdateContext**.
+1.  Add the following formula after the first **UpdateContext** occurrence.
 
 	```powerappsfl
 	;
@@ -177,107 +181,109 @@ In this task, you will trace to the application.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the formula edit area.](../media/formula-edit.png)](../media/formula-edit.png#lightbox)
 
-1. Go to the second **UpdateContext** and add the same formula.
+1. Go to the second **UpdateContext** occurrence and add the same formula.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the second formula edit area.(../media/formula-edit-2.png)](../media/formula-edit-2.png#lightbox)
+	> [![Screenshot of the second formula edit area.](../media/formula-edit-2.png)](../media/formula-edit-2.png#lightbox)
 
-1. Select **File** and **Save**.
+1. Select **File > Save**.
 
 1. Select **Publish**.
 
-1. Select **Publish this version** and wait for the publishing to complete.
+1. Select **Publish this version** and then wait for the publishing to complete.
 
 1. Close the app studio browser window or tab.
 
-## Exercise 4: Run published app 
+## Exercise 4: Run the published app 
 
-In this exercise, you will run the published application. Doing this will trigger the tracing you just added and will give you data to analyze in the steps that follow.
+In this exercise, you will run the published application, which will trigger the tracing that you added. Additionally, it will give you data to analyze in the steps that follow.
 
-### Task 1: Run application
+### Task: Run the application
 
-In this task, you will run the application you published.
+In this task, you will run the application that you published.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and make sure you are in the correct environment.
+1.  Go to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and make sure that you are in the correct environment.
 
-1.  Select **Apps** and select to launch the **Cost Estimator** application.
+1.  Select **Apps** and then select to launch the **Cost Estimator** application.
 
-1.  Select to open a Job.
+1.  Select to open a job.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the row from the gallery.](../media/row.png)](../media/row.png#lightbox)
 
-1.  Select the back button.
+1.  Select the **back** button.
 
-1.  Open another job and select the back button again.
+1.  Open another job and then select the **back** button again.
 
-1.  Open few more jobs.
+1.  Open a few more jobs.
 
-1.  Select **+** add job button.
+1.  Select the plus (**+**) icon to add a job.
 
-1.  Select Save job without providing data. This will give you data to analyze where the user did not follow the expected data entry path.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the cost estimator form.](../media/cost-estimator-form.png)](../media/cost-estimator-form.png#lightbox)
-
-1.  Provide **Client name** and select **Save job**.
-
-1. Provide **Email** and select **Save job**.
-
-1. Provide **Address** and select **Save job**.
-
-1. Provide **City** and **State** and select **Save jobs**.
-
-1. Provide **Zip code** and **Phone** and select **Save job**.
+1.  Select **Save job** without providing data, which will give you data to analyze where the user didn't follow the expected data entry path.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the completed cost estimator form.](../media/cost-estimator-form-2.png)](../media/cost-estimator-form-2.png#lightbox)
+	> [![Screenshot of the Cost Estimator form.](../media/cost-estimator-form.png)](../media/cost-estimator-form.png#lightbox)
 
-1. The job should be saved.
+1. Provide a **Client name** and then select **Save job**.
 
-1. Create another job, but this time provide contact name and leave some of the required fields empty.
+1. Provide an **Email** and then select **Save job**.
 
-## Exercise 5: View app insights 
+1. Provide an **Address** and then select **Save job**.
 
-In this exercise, you will view app insights
+1. Provide **City** and **State** information and then select **Save job**.
 
-### Task 1: View app insights
-
-1.  Navigate to [Microsoft Azure portal](https://portal.azure.com/?azure-portal=true) and make sure you are in the correct environment.
-
-1.  Select to open the **Insights_Lab** Application Insights you created.
+1. Provide **Zip code** and **Phone** information and then select **Save job**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the insights lab resource.](../media/insights-lab.png)](../media/insights-lab.png#lightbox)
+	> [![Screenshot of the completed Cost Estimator form.](../media/cost-estimator-form-2.png)](../media/cost-estimator-form-2.png#lightbox)
+
+   The job should be saved.
+
+1. Create another job, but this time, provide a contact name and then leave some of the required fields empty.
+
+## Exercise 5: View Application Insights 
+
+In this exercise, you will view Application Insights.
+
+### Task: View Application Insights
+
+In this task, you view Application Insights.
+
+1.  Go to the [Microsoft Azure portal](https://portal.azure.com/?azure-portal=true) and make sure that you are in the correct environment.
+
+1.  Select to open the **Insights_Lab** resource that you created.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Insights_Lab resource.](../media/insights-lab.png)](../media/insights-lab.png#lightbox)
 
 1.  Scroll down to the **Usage** section and select **Users**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of users in the usage section.](../media/users.png)](../media/users.png#lightbox)
+	> [![Screenshot of the Users option in the Usage section.](../media/users.png)](../media/users.png#lightbox)
 
-1.  You should see at least one user. If you don't see at least one user, edit the app again and make you provided the correct Instrumentation Key then publish again.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the user count.](../media/user-count.png)](../media/user-count.png#lightbox)
-
-1.  From the chart, scroll down and select **View more insights** at the bottom of the chart.
+1.  At least one user should display. If at least one user doesn't show, edit the app again, make sure that you provided the correct Instrumentation key, and then publish it again.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the view more insights button.](../media/view-more-insights.png)](../media/view-more-insights.png#lightbox)
+	> [![Screenshot showing one user in the user count.](../media/user-count.png)](../media/user-count.png#lightbox)
 
-1.  You should see at least **5** events. If you don't at least 5 events, go back and do Exercise 4 again and wait 5 minutes.
+1.  From the chart, scroll down and select **View more insights** in the lower left of the chart.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the View More Insights button.](../media/view-more-insights.png)](../media/view-more-insights.png#lightbox)
+
+1. At least five events should show. If at least five events don't show, then return to Exercise 4 and complete it again. Wait for five minutes before continuing.
 
 1.  Scroll down and select **View user timeline**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the view user timeline button.](../media/user-timeline.png)](../media/user-timeline.png#lightbox)
+	> [![Screenshot of the View user timeline button.](../media/user-timeline.png)](../media/user-timeline.png#lightbox)
 
-1.  You should see information about the use location and events. Select to expand the session.
+1.  Information about the use location and events should display. Select to expand the session.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the expand session button.](../media/expand-session.png)](../media/expand-session.png#lightbox)
 
-1.  You should see the events.
+1.  View the listed events.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the session events.](../media/session-events.png)](../media/session-events.png#lightbox)
@@ -285,40 +291,42 @@ In this exercise, you will view app insights
 1. Go to the **Monitoring** section and select **Logs**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the logs button.](../media/logs.png)](../media/logs.png#lightbox)
+	> [![Screenshot of the Logs button.](../media/logs.png)](../media/logs.png#lightbox)
 
-1. Close the **Queries** popup.
+1. Close the **Queries** pop-up window.
 
 1. Do not navigate away from this page.
 
-## Exercise 6: Query log
+## Exercise 6: Query the logs
 
 In this exercise, you will query the logs.
 
-### Task 1: Query log
+### Task: Query the logs
 
-1.  Type **pageViews** and select **Run**.
+In this task, you will query the logs.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the run query button.](../media/run-query.png)](../media/run-query.png#lightbox)
-
-1.  Go to the **Results**.
-
-1.  You should see the traces. Scroll Up/Down and Left/Right to see what was traced.
-
-1.  Expand one of the results and select to expand the **customDimensions**.
+1.  Type **pageViews** and then select **Run**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the expand custom dimensions button.](../media/expand-custom-dimensions.png)](../media/expand-custom-dimensions.png#lightbox)
+	> [![Screenshot of the Run query button.](../media/run-query.png)](../media/run-query.png#lightbox)
 
-1.  Change the Query to **traces** and select **Run** again.
+1.  Go to the **Results** tab.
+
+1.  Traces should display. Scroll up/down and left/right to view what was traced.
+
+1.  Expand one of the results and then select to expand **customDimensions**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the run query button to run it once more.](../media/run-query-2.png)](../media/run-query-2.png#lightbox)
+	> [![Screenshot of the expand button next to customDimensions.](../media/expand-custom-dimensions.png)](../media/expand-custom-dimensions.png#lightbox)
 
-1.  Expand one of the results and select to expand the **customDimensions**.
+1.  Change the query to **traces** and then select **Run** again.
 
-1.  Filter for validation logs. Replace the query with the query below and select **Run**.
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Run query button to run it again.](../media/run-query-2.png)](../media/run-query-2.png#lightbox)
+
+1.  Expand one of the results and then select to expand **customDimensions**.
+
+1.  Filter for validation logs. Replace the query with the following query logic and then select **Run**.
 
 	```powerappsfl
 	traces
@@ -326,16 +334,16 @@ In this exercise, you will query the logs.
 	```
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the query traces with run button.](../media/query-traces.png)](../media/query-traces.png#lightbox)
+	> [![Screenshot of the query traces with the Run button highlighted.](../media/query-traces.png)](../media/query-traces.png#lightbox)
 
-1.  Expand one of the results and select to expand the **customDimensions**.
+1.  Expand one of the results and then select to expand **customDimensions**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the query results.](../media/query-results.png)](../media/query-results.png#lightbox)
 
-1.  Query for jobs without contact name. Paste the query below and select **Run**.
+1.  Query for jobs without a contact name. Paste the following query and then select **Run**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the trace query with run button.](../media/query-traces-run.png)](../media/query-traces-run.png#lightbox)
+	> [![Screenshot of the trace query showing the Run button.](../media/query-traces-run.png)](../media/query-traces-run.png#lightbox)
 
-1. You should get traces with no contact name.
+    You should get traces with no contact name.

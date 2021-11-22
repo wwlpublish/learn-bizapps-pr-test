@@ -1,30 +1,30 @@
-You built an app, published and shared it with people in your organization. Do you know how people are using it and if it is performing well? If you had configured your app to send telemetry to Application Insights, you could just check how it is doing in the Azure portal. For example, you could answer the following questions:
+You have built an app, and you have published and shared it with people in your organization. Now, you need to know how people are using it and if it's performing well. If you configured your app to send telemetry to Application Insights, you could check how it's doing in the Microsoft Azure portal. For example, you could answer the following questions:
 
--   How many users are using your app?
+-   How many people are using the app?
 
--   What screens do they use most?
+-   What screens do people use most often?
 
--   How long are they on a screen?
+-   How long are users on a screen?
 
 -   Which screens are slow?
 
-Application Insights is a feature of Azure Monitor that you can use to monitor application performance. Custom apps including canvas Power Apps can easily be configured to send telemetry to Application Insights. Once the telemetry is in Application Insights the data can be viewed or accessed using multiple options.
+Application Insights is a feature of Microsoft Azure Monitor that you can use to monitor application performance. You can configure custom apps, including canvas apps from Microsoft Power Apps, to send telemetry to Application Insights. After the telemetry is in Application Insights, you can view or access the data by using multiple options.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram of Power Apps sending data to Application Insights.](../media/diagram.png)](../media/diagram.png#lightbox)
 
-From the Azure portal, you can access pre-built visualizations of the telemetry captured from users running your app.
+From the Azure portal, you can access prebuilt visualizations of the telemetry that was captured from users who were running your app.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of visualizations in the Azure portal.](../media/visualizations.png)](../media/visualizations.png#lightbox)
 
-For more custom analysis of the data, you can compose custom queries of the data or use Power BI to create custom visualizations of your data.
+For more custom analysis of the data, you can compose custom queries of the data or use Microsoft Power BI to create custom visualizations of your data.
 
-Power Apps canvas apps automatically sends basic screen telemetry to Application Insights if you configure the Instrumentation key on the app object. The telemetry is only captured when your published app is run so any use from within Power Apps Studio when you build the app won't impact your usage telemetry.
+Canvas apps from Power Apps will automatically send basic screen telemetry to Application Insights if you set up the **Instrumentation** key on the app object. The telemetry is only captured when your published app is run; therefore, usage from within Microsoft Power Apps Studio when you build the app won't impact your usage telemetry.
 
-In addition to the basic telemetry the Power Apps runtime sends, you can also log custom events using the Power Fx Trace() function. By strategically instrumenting your app with Trace() function calls, you can include app context information that can be used to analyze app-specific challenges. The following is an example of using Trace() to record the user and active screen information when the app OnStart property runs.
+In addition to the basic telemetry that the Power Apps runtime sends, you can also log custom events by using the Trace() function from Microsoft Power Fx. By strategically instrumenting your app with Trace() function calls, you can include app context information that you can use to analyze app-specific challenges. The following example shows the use of Trace() to record the user and active screen information when the **OnStart** property runs.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the trace function.](../media/trace-function.png)](../media/trace-function.png#lightbox)
+> [![Screenshot of the Trace function.](../media/trace-function.png)](../media/trace-function.png#lightbox)
 
-Configuring your Power Apps canvas app to send telemetry to send data is a simple process we will cover in the next topic. Sending of telemetry adds minimal overhead to an app and should be considered for any app with multiple users. Without actual telemetry, you are left with user perception of how your app is doing. While user perception is an important part of how you should improve your application, actual telemetry takes out the user emotion and focuses on empirical data. In the rest of this module, we will look at how to configure and use the telemetry that you capture in Application Insights to improve your application.
+Setting up your canvas app to send telemetry to send data is a simple process that the next topic will cover. Sending of telemetry adds minimal overhead to an app and should be considered for any app with multiple users. Without actual telemetry, you are left with user perception of how your app is doing. While user perception is an important part of how you should improve your application, actual telemetry removes user emotion and focuses on empirical data. The rest of this module will explain how to set up and use the telemetry that you capture in Application Insights to improve your application.
