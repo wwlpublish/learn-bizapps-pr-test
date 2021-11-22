@@ -27,11 +27,11 @@ quiz:
     - content: Proprietary binary format 
       isCorrect: false 
       explanation: Power Fx formulas are stored by using text, not binary representation. 
-  - content: What is not a valid method of obtaining a copy of a canvas .msapp file on your computer? 
+  - content: What is not a valid method of obtaining a copy of a canvas msapp file on your computer? 
     choices: 
     - content: Use the File > Save As > This computer command in Power Apps Studio. 
       isCorrect: false
-      explanation: You can download the canvas app and save it locally as an msapp file by using Power Apps Studio.
+      explanation: You can download the app and save it locally as a canvas msapp file by using Power Apps Studio.
     - content: Export a solution that contains the canvas app from Dataverse and then use the pac solution unpack command to unpack the solution and access individual msapp files.
       isCorrect: false 
       explanation: You can use Dataverse solutions to transport canvas apps as msapp files.
