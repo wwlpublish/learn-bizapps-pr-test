@@ -138,7 +138,7 @@ In this exercise, you'll create a new repository in GitHub, initialize the repos
 
 In this task, you'll initialize the remote repository.
 
-1.  Go to [GitHub](https://github.com/?azure-portal=true) and sign in. If this is your first time, select **Sign up** and then follow the prompts to complete the sign-up process.
+1.  Go to [GitHub](https://github.com/?azure-portal=true) and sign in. If time is your first, select **Sign up** and then follow the prompts to complete the sign-up process.
 
 1.  Select the plus (**+**) button and then select **New repository**.
 
