@@ -56,9 +56,9 @@ The files that end with **\*.fx.yaml** are where you can edit formulas. As you e
 
 ## Merge source changes
 
-One scenario that is enabled by unpacking is the ability for multiple people to edit an app and merge changes in source control. In this scenario, you will want to minimize conflicts. For example, editing formulas on the same control will likely cause a conflict, but two people who are editing different screens is less likely to happen.
+One scenario that is enabled by unpacking is the ability for multiple people to edit an app and merge changes in source control. In this scenario, you will want to minimize conflicts. For example, editing formulas on the same control will likely cause a conflict, but two people who are editing different screens is a scenario that's less likely to happen.
 
-Be aware that, if you create the app in the cloud, download it, and then edit it, when you upload the repacked version, it will overwrite any changes that are done to the cloud version because it was downloaded.
+If you create the app in the cloud, download it, and then edit it, know that when you upload the repacked version, it will overwrite any changes that are done to the cloud version because it was downloaded.
 
 In this scenario, to avoid overwriting and losing work that was done online, you should download the app from the cloud again, unpack it, commit the file changes, resolve conflicts, and then repack and upload the new app. Make sure that the source control contains the main copy of your app.
 
