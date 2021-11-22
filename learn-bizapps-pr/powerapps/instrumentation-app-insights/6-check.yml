@@ -18,7 +18,7 @@ quiz:
     - content: New apps are preconfigured to send telemetry to Application Insights. 
       isCorrect: false
       explanation: The Application Insights feature requires initial configuration to start sending telemetry data.
-    - content: Configure the Instrumentation key, and then save and publish the app. 
+    - content: Configure the Instrumentation Key, and then save and publish the app. 
       isCorrect: true 
       explanation: This action starts sending data when a user runs the published app outside of Power Apps Studio.
     - content: Use the Application Insights connector. 

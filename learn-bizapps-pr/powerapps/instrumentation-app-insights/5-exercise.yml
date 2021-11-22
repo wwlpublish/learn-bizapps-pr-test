@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.instrumentation-app-insights.5-exercise 
-title: Exercise - Use Application Insights to collect and analyze telemetry data
+title: Exercise - Collect and analyze telemetry data
 metadata: 
-  title: Exercise - Use Application Insights to collect and analyze telemetry data
+  title: Exercise - Collect and analyze telemetry data
   description: Practice using Application Insights to collect and analyze telemetry data.
   ms.date: 11/12/2021 
   author: jadaphillips 

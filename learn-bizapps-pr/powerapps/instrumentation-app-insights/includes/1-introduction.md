@@ -20,7 +20,7 @@ From the Azure portal, you can access prebuilt visualizations of the telemetry t
 
 For more custom analysis of the data, you can compose custom queries of the data or use Microsoft Power BI to create custom visualizations of your data.
 
-Canvas apps from Power Apps will automatically send basic screen telemetry to Application Insights if you set up the **Instrumentation** key on the app object. The telemetry is only captured when your published app is run; therefore, usage from within Microsoft Power Apps Studio when you build the app won't impact your usage telemetry.
+Canvas apps from Power Apps will automatically send basic screen telemetry to Application Insights if you set up the **Instrumentation Key** on the app object. The telemetry is only captured when your published app is run; therefore, usage from within Microsoft Power Apps Studio when you build the app won't impact your usage telemetry.
 
 In addition to the basic telemetry that the Power Apps runtime sends, you can also log custom events by using the Trace() function from Microsoft Power Fx. By strategically instrumenting your app with Trace() function calls, you can include app context information that you can use to analyze app-specific challenges. The following example shows the use of Trace() to record the user and active screen information when the **OnStart** property runs.
 

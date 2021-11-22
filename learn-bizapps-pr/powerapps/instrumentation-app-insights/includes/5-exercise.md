@@ -28,13 +28,15 @@ Make sure that you meet the following prerequisites before beginning the exercis
 
 - A Microsoft Azure subscription: [Azure - Sign up](https://signup.azure.com/signup?offer=ms-azr-0044p&appId=102&ref=portal&redirectURL=https:%2F%2Fazure.microsoft.com%2Fen-us%2Fget-started%2Fwelcome-to-azure%2F&l=en-us&correlationId=a18965c7a16f4722a855a8e7953047f3)
 
-## Exercise 1: Import a solution 
+## Exercise 1: Import a solution
 
 In this exercise, you will import a solution into your environment. This solution contains a working canvas application. You will modify it later to add tracing to certain user actions and then analyze the results.
 
 ### Task: Import a solution
 
 In this task, you will import a solution into your environment.
+
+1.  You will need to download the [zip file](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/collect-analyze-telemetry-data/ContosoCostEstimator_1_0_0_1.zip) to complete this exercise. Select download once the link opens.
 
 1.  Go to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and select the environment that you want to use for this lab.
 
@@ -45,7 +47,7 @@ In this task, you will import a solution into your environment.
 
 1.  Select **Browse**.
 
-1.  Browse to the lab resources folder, select the **ContosoCostEstimator_1_0_0_1.zip** solution, and then select **Open**.
+1.  Select the **ContosoCostEstimator_1_0_0_1.zip** solution, and then select **Open**.
 
 1.  Select **Next**.
 
@@ -138,7 +140,7 @@ In this task, you will add trace to the application.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the formula being edited.](../media/edit-formula.png)](../media/edit-formula.png#lightbox)
 
-1.  Select **NewJobPage** from the **Tree view**.
+1.  Select **NewJob** page from the **Tree view**.
 
 1.  Select the **Save job** button.
 

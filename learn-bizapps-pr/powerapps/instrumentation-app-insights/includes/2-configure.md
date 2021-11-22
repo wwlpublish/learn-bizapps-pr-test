@@ -2,7 +2,7 @@ Sending telemetry from a canvas app requires the follow steps:
 
 1. Provision an Application Insights resource at the [Azure portal](https://portal.azure.com/?azure-portal=true).
 
-2. Edit your canvas app to set up the **Instrumentation** key and then publish the app.
+2. Edit your canvas app to set up the **Instrumentation Key** and then publish the app.
 
 Now, when users run your published app outside of Power Apps Studio, it will send telemetry to Application Insights.
 

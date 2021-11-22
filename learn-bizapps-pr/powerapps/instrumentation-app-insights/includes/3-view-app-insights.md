@@ -6,7 +6,7 @@ After you have set up your application to send telemetry to Application Insights
 
 -   **Logs** - Allow you to query the raw event data and look for patterns. Also, you can answer questions directly in Application Insights on the Azure portal or in an external app like Power BI.
 
-You can use Application Insights to collect application performance data for many different types of applications, including Power Apps. For this reason, the portal offers many different visualizations and workbook templates for the different types of applications. Not all visualizations and workbook templates are applicable for Power Apps, and as you explore the different assets, you might find that many of them don't contain data or provide a limited experience. 
+You can use Application Insights to collect application performance data for many different types of applications, including Power Apps. For this reason, the portal offers many different visualizations and workbook templates for the different types of applications. Not all visualizations and workbook templates are applicable for Power Apps, and as you explore the different assets, you might find that many of them don't contain data or provide a limited experience.
 
 Visualizations and workbook templates that you will find useful for Power Apps include:
 
