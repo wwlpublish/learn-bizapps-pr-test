@@ -8,7 +8,7 @@ To complete this exercise, make sure that you have a Microsoft Dataverse environ
 
 ## Objectives
 
-The objectives for this exercise are for you to learn how to:
+The goals for this exercise are for you to learn how to:
 
 - Create a canvas application and download it to your computer.
 
@@ -18,11 +18,11 @@ The objectives for this exercise are for you to learn how to:
 
 ## Exercise 1: Create an app 
 
-In this exercise, you will create an account management canvas application and save it to your local machine.
+In this exercise, you'll create an account management canvas application and save it to your local machine.
 
 ### Task: Create an application
 
-In this task, you will create an application and save it to your local machine.
+In this task, you'll create an application and save it to your local machine.
 
 1.  Go to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true), sign in, and then select the environment that you want to use for this lab.
 
@@ -55,13 +55,13 @@ In this task, you will create an application and save it to your local machine.
 
 ## Exercise 2: Install tools and unpack
 
-In this exercise, you will install Visual Studio Code, install the Power Platform extension for Visual Studio, and then unpack the canvas application.
+In this exercise, you'll install Visual Studio Code, install the Power Platform extension for Visual Studio, and then unpack the canvas application.
 
 ### Task: Install tools
 
-In this task, you will install Visual Studio Code.
+In this task, you'll install Visual Studio Code.
 
-1.  Go to [Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/Download/?azure-portal=true) and select the download for your platform.
+1.  Go to [Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/Download/?azure-portal=true), and then select the download for your platform.
 
 1.  Follow prompts to install Visual Studio Code.
 
@@ -90,7 +90,7 @@ In this task, you will install Visual Studio Code.
 
 	`pac canvas unpack --msapp "Account manager.msapp" --sources src`
 
-1. The unpack should succeed. Expand the **src** folder that was created.
+1. The unpack process should succeed. Expand the **src** folder that was created.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the folder that was created by the unpack command.](../media/folder.png)](../media/folder.png#lightbox)
