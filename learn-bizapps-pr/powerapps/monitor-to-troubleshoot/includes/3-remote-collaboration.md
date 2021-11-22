@@ -35,10 +35,9 @@ factors to consider when you're using each option.
 
 Monitor includes a built-in feature that allows you to download the current session's
 events to a local file. You can reload the downloaded file into any
-Monitor session by using the **Upload** feature. 
+Monitor session by using the **Upload** feature.
 This process won't have a negative effect on the contents of the current session's file; the feature
-only allows you to reload the events later. You can initiate these actions from any Monitor session by
-using the command bar buttons.
+only allows you to reload the events later. You can initiate these actions from any Monitor session by using the command bar buttons.
 
 :::image type="content" source="../media/download-monitor.png" alt-text="![Screenshot showing the Upload and Download command bar buttons.]":::
 

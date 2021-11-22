@@ -28,7 +28,7 @@ and formula.
 
 By using the details, you can make changes to correct problems that are identified
 and then retest without leaving Power Apps Studio or Monitor. The
-following video demonstrates how to activate Monitor and review the captured data.
+following video shows how to activate Monitor and review the captured data.
 
 **Video**: Demo the Monitor tool
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO4s1]
