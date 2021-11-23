@@ -16,7 +16,7 @@ Both of these ways of viewing data are possible using *single-select* and *multi
 
 You can switch between single-select and multi-select modes in the app settings, as explained in the [Configure app settings](6-configure-app-settings.md) unit of this module.
 
-You can switch between single-select and multi-select modes in the app settings, as explained in the [!include[](../../shared/includes/meet-kiana-row.md)] unit of this module.
+You can switch between single-select and multi-select modes in the app settings, as explained in the [!include[](6-configure-app-settings.md)] unit of this module.
 
 ## Tooltips
 
