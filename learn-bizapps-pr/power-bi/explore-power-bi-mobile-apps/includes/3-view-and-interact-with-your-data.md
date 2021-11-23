@@ -136,7 +136,7 @@ Report data refreshes when you open a report. You can also refresh report data m
 >[!NOTE]
 > In the mobile apps, data is always refreshed with the data as it is in the Power BI service, never directly from the data source.
  
-On Android devices, it is possible to have a button for refresh, as explained in the [Configure app settings](6-configure-app-settings.md) unit of this module.
+On Android devices, it is possible to have a button for refresh, as explained in the [Configure app settings](/learn/modules/explore-power-bi-mobile-apps/6-configure-app-settings) unit of this module.
 
 ## View your data offline
 
