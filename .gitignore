@@ -15,3 +15,5 @@ _dependentPackages/
 .openpublishing.buildcore.ps1
 
 .DS_Store
+
+**/.vscode/settings.json
