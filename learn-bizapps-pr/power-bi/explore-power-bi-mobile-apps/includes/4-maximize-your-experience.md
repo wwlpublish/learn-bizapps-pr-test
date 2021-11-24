@@ -49,7 +49,7 @@ For more information, see [Set data alerts in the Power BI mobile apps](/power-b
 
 Sharing views of your reports and dashboards with colleagues is simple from the Power BI mobile apps. To share views, go to the item that you want to share, apply the filters or bookmarks that you need to get the view of the data that you want to share, and then select the **Share** option, which is located in the header under **More options (...)**. If enough space is available on the header, the **Share** option might already be visible on the header. 
 
-![Screenshot of Share option in iOS and Android.](../media/4-maximize-your-experience/power-bi-mobil-app-share-icons.png)
+![Screenshot of Share option in iOS and Android.](../media/4-maximize-your-experience/power-bi-mobile-app-share-icons.png)
  
 When you tap the **Share button**, you'll be able to choose one of the communications apps that you have on your device, such as your email app. A link to the view that you created will be sent through the app that you chose.
  

@@ -1,6 +1,6 @@
 After you have a report open in the app, you can start working with it. You can do many things with your report and its data. By tapping and long tapping on the data that is shown in the report, you can slice and dice the data. In the report footer, you'll find actions that you can take on the report.
  
-We generally hold our phones in portait orientation when looking at them. Some reports have pages that are optimized for mobile viewing and are easy to read in portrait orientation. Whenever you come to a page that is not optimized for mobile viewing, it will appear as it does in the Power BI service. In portrait orientation this might be a bit small for convenient viewing. In such cases you can flip your phone to landscape orientation for a larger view, or you can just stay in portrait orientation and zoom in to the data you want to view in detail.
+We generally hold our phones in portrait orientation when looking at them. Some reports have pages that are optimized for mobile viewing and are easy to read in portrait orientation. Whenever you come to a page that is not optimized for mobile viewing, it will appear as it does in the Power BI service. In portrait orientation this might be a bit small for convenient viewing. In such cases you can flip your phone to landscape orientation for a larger view, or you can just stay in portrait orientation and zoom in to the data you want to view in detail.
 
 ![Screenshot of portrait and landscape orientation.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-portrait-landscape.png)
  
@@ -123,7 +123,7 @@ A bookmark captures a particular, configured view of a report page, including fi
  
 In the Power BI mobile apps, you can't create bookmarks - you can only *use* them to display report views. Bookmarks are created in Power BI Desktop or in the Power BI service. There are two kinds of bookmarks – *report bookmarks*, which are created by the report designer, and *personal bookmarks*, which you as a report viewer can create yourself in the Power BI service. The mobile apps support both personal and report bookmarks.
 
-You can see any bookmarks that have been created for a report on the bookmarks menu under **More options (...)** on the report actions toolbar. While you can't create bookmarks in the mobile apps, you can mark an existing personal bookmark as the default bookmark by selecting the **More options (...)** ellipsis that follows the personal bookmark name and choosing **Make default**. If do this, the next time you open the report, it will open to the view defined by the that default bookmark.
+You can see any bookmarks that have been created for a report on the bookmarks menu under **More options (...)** on the report actions toolbar. While you can't create bookmarks in the mobile apps, you can mark an existing personal bookmark as the default bookmark by selecting the **More options (...)** ellipsis that follows the personal bookmark name and choosing **Make default**. If you do this, the next time you open the report, it will open to the view defined by that default bookmark.
 
 ![Screenshot of bookmarks menu, showing the Make default option.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-bookmarks-menu.png)
   
