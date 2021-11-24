@@ -4,7 +4,7 @@ Key areas of the Unified Customer Profile application include:
 
 - **Summary** - View a summary of the customer, their personal details, life moments, financial holdings, and credit and debit cards.
 
-- **Connections** - View the groups that the customer is a part of, which will help you know the overall financial strength for each group (such as householding). In this area, you can create group records, associate customer records with groups, and update general information and financial holdings that are relevant to the group. Furthermore, you can capture relationships between contacts based on an expandable option set.
+- **Connections** - View the groups that the customer is a part of, which will help you know the overall financial strength for each group (such as household). In this area, you can create group records, associate customer records with groups, and update general information and financial holdings that are relevant to the group. Furthermore, you can capture relationships between contacts based on an expandable option set.
 
 - **Financial holdings** - View detailed information about all financial holdings that are associated with the customer.
 
