@@ -30,7 +30,7 @@ The retail banking data model contains several tables to support the business of
 
   -   A new table that represents groups, including types (for households and partnerships).
 
-  -   Groups can be associated with all/some/none of the financial holdings that are owned by its members, which then defines the financial strength of the group, through total income, assets, and liabilities.
+  -   Groups can be associated with all/some/none of the financial holdings that are owned by its members, which then define the financial strength of the group, through total income, assets, and liabilities.
 
   -   Each group can have a primary member. For any member, a main group of **Household** type can be set.
 
@@ -58,7 +58,7 @@ Relevant alerts for life moments are predetermined based on the event type and a
 
   -   Reflect the latest status in the system
 
-- **Financial holdings** - The financial holdings schema in the retail banking data model supports the financial holdings of bank customers. Financial holdings are categorized as one of the following:
+- **Financial holdings** - The financial holdings schema in the retail banking data model supports the financial holdings of bank customers. Financial holdings are categorized as one of the following types:
 
   -   **Account** - Checking or savings accounts
 
