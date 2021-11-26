@@ -3,7 +3,7 @@ uid: learn-bizapps.intro-to-power-bi-mobile-apps
 metadata: 
   title: Get to your data on the go with the Power BI mobile apps
   description: As a consumer, you'll use the Power BI mobile app to review and interact with the content that is available to you in the Power BI service while you're on the go. This module provides the information that you need to work effectively with the Power BI mobile apps.
-  ms.date: 07/05/2021  
+  ms.date: 11/26/2021  
   author: paulinbar
   ms.author: painbar  
   ms.topic: interactive-tutorial
@@ -35,9 +35,9 @@ products:
 units: 
 - learn-bizapps.intro-to-power-bi-mobile-apps.1-power-bi-mobile-apps 
 - learn-bizapps.intro-to-power-bi-mobile-apps.2-find-your-data 
-- learn-bizapps.intro-to-power-bi-mobile-apps.3-view-and-interact-with-your-data 
+- learn-bizapps.intro-to-power-bi-mobile-apps.3-view-interact-with-your-data 
 - learn-bizapps.intro-to-power-bi-mobile-apps.4-maximize-your-experience  
-- learn-bizapps.intro-to-power-bi-mobile-apps.5-get-your-data-out-in-the-real-world 
+- learn-bizapps.intro-to-power-bi-mobile-apps.5-get-your-data-out-in-real-world 
 - learn-bizapps.intro-to-power-bi-mobile-apps.6-configure-app-settings
 - learn-bizapps.intro-to-power-bi-mobile-apps.7-knowledge-check 
 - learn-bizapps.intro-to-power-bi-mobile-apps.8-summary 
