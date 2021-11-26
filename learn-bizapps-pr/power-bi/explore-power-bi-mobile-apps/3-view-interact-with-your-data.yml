@@ -1,5 +1,5 @@
 ﻿### YamlMime:ModuleUnit 
-uid: learn-bizapps.intro-to-power-bi-mobile-apps.3-view-and-interact-with-your-data
+uid: learn-bizapps.intro-to-power-bi-mobile-apps.3-view-interact-with-your-data
 title: View and interact with your data
 metadata: 
   title:  View and interact with your data
@@ -13,5 +13,5 @@ metadata:
 durationInMinutes: 12 
 content: |
   [!include[](../includes/unit-banner.md)]
-  [!include[](includes/3-view-and-interact-with-your-data.md)] 
+  [!include[](includes/3-view-interact-with-your-data.md)] 
 
