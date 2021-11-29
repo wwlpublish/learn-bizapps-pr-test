@@ -8,7 +8,7 @@ metadata:
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
- ms.prod: mscloud-healthcare 
+ ms.prod: learning-healthcare 
 durationInMinutes: 8 
 quiz: 
   title: Answer the following questions to see what you've learned. 
@@ -26,7 +26,7 @@ quiz:
       explanation: The Productivity Pane is an auxiliary work area that contains tools for supporting or expediting tasks when agents are resolving customer issues.
     - content: Azure Health Bot
       isCorrect: false 
-      explanation: YourExplanation
+      explanation: The Productivity Pane is an auxiliary work area that contains tools for supporting or expediting tasks when agents are resolving customer issues.
   - content: Which portal template was originally deployed in your environment before configuring it to the Healthcare Patient Portal template?
     choices: 
     - content: Customer self-service
@@ -40,7 +40,7 @@ quiz:
       explanation: The Customer self-service portal template was originally deployed in your environment before configuring it to the Healthcare Patient Portal template.
     - content: Customer Portal
       isCorrect: false 
-      explanation: YourExplanation
+      explanation: The Customer self-service portal template was originally deployed in your environment before configuring it to the Healthcare Patient Portal template.
   - content: Which role is required for a user to act as a live agent in Patient Service Center and accept patient escalations?
     choices: 
     - content: Productivity Tools User
