@@ -179,7 +179,7 @@ In this task, you will fix the formula.
 
     :::image type="content" source="../media/tree-view.png" alt-text="![Screenshot of the BottleGallery option selected in Tree view.]":::
 
-1. Select items from the formula bar. The warning also shows in the bar.
+1. Select **items** from the formula bar. The warning also shows in the bar.
 
     :::image type="content" source="../media/warning-message.png" alt-text="![Screenshot of the formula bar showing the warning message.]":::
 
@@ -196,7 +196,7 @@ In this task, you will fix the formula.
 
    The warning should go away.
 
-1. Select **Advanced tools > Open monitor.
+1. Select **Advanced tools** located on the left navigation pane and **Open monitor**.
 
 1. Leave the Monitor tool running.
 
