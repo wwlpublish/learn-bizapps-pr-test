@@ -25,7 +25,9 @@ roles:
 - maker  
 products: 
 - power-platform
-- power-apps 
+- power-apps
+- azure-application-insights
+- common-data-service
 units: 
 - learn-bizapps.instrumentation-app-insights.1-introduction 
 - learn-bizapps.instrumentation-app-insights.2-configure 
