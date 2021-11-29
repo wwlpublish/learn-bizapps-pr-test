@@ -9,7 +9,7 @@ To understand what you can achieve with bookmarks, you need to know how to confi
 >
 ## Bookmark state
 
-Bookmarks capture different state, relating to date, display, and the current page. By default, a new bookmark captures all state types, but you can decide to disable any of them.
+Bookmarks capture different state, relating to data, display, and the current page. By default, a new bookmark captures all state types, but you can decide to disable any of them.
 
 > [!div class="mx-imgBorder"]
 > ![Image shows the bookmark context menu, with Data, Display, and Current page enabled.](../media/bookmark-context-menu-state.png)
