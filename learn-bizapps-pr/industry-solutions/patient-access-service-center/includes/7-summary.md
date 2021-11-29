@@ -1,0 +1,1 @@
+In this lab, you learned how to configure and navigate the Patient Access Portal. You then configured Agent Scripts and Knowledge Articles to show in the Productivity Pane in Patient Service Center. Finally, you experienced the full escalation scenario between Patient, Health Bot, and Live Agent from Patient Access Portal to Patient Service Center through the Azure Health Bot.

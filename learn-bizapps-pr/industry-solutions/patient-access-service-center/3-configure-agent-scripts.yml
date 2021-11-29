@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.patient-access-service-center.3-configure-agent-scripts 
+title: Exercise - Configure agent scripts
+metadata: 
+  title: Exercise - Configure agent scripts
+  description: Create and configure an agent script to appear in the productivity pane in Patient Service Center.
+  ms.date: 11/30/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: mscloud-healthcare 
+durationInMinutes: 10
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-configure-agent-scripts.md)] 
