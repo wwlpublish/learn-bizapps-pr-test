@@ -196,7 +196,7 @@ In this task, you will fix the formula.
 
    The warning should go away.
 
-1. Select **Advanced tools** located on the left navigation pane and **Open monitor**.
+1. Select the **Advanced tools** tab located on the left navigation pane and then select **Open monitor**.
 
 1. Leave the Monitor tool running.
 
