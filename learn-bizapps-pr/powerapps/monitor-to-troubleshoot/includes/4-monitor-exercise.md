@@ -48,6 +48,8 @@ then run a Power Automate cloud flow that will create sample date for you.
 
 In this task, you will import a solution into your environment.
 
+1. You will need to download the [zip file](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/troubleshoot-monitor/CohoVineyardMonitorModule_1_0_0_1.zip) to complete this exercise. Select download once the link opens.
+
 1. Go to [Power Apps maker portal](https://make.powerapps.com/)
     and select the environment that you want to use for this lab.
 
@@ -57,7 +59,7 @@ In this task, you will import a solution into your environment.
 
 1. Select **Browse**.
 
-1. Go to the lab resources folder, select the
+1. Select the
     CohoVineyardMonitorModule_1\_0_0\_1.zip solution, and then select
     **Open**.
 
