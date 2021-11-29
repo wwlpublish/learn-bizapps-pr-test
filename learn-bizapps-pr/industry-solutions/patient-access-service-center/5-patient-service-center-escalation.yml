@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.patient-access-service-center.5-patient-service-center-escalation 
+title: Exercise - Experience escalation into Patient Service Center
+metadata: 
+  title: Exercise - Experience escalation into Patient Service Center
+  description: Test the end-to-end escalation experience you configured for the patient and service center agent.
+  ms.date: 11/30/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-healthcare 
+durationInMinutes: 11 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-patient-service-center-escalation.md)] 

@@ -1,0 +1,44 @@
+### YamlMime:Module 
+uid: learn-bizapps.patient-access-service-center 
+metadata: 
+ title: Patient access and service center
+ description: Provide patients with access to their health data, appointment scheduling, and information through the Patient Access portal and the Patient Service Center. 
+ ms.date: 11/30/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-healthcare  
+title: Patient access and service center
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Provide patients with access to their health data, appointment scheduling, and information through the Patient Access portal and the Patient Service Center.
+abstract: |  
+    In this module, you will: 
+    - Configure and navigate the Patient Access Portal
+    - Create and configure Agent Scripts to show in the Productivity Pane
+    - Create and configure Knowledge Articles
+    - Experience escalation scenario from Patient Portal through Azure Health Bot into Patient Service Center
+prerequisites: |
+    - Training Environment preparation 
+    - Azure Health Bot
+    - Dynamics 365 Customer Service for Omnichannel
+    - Power Apps Customer Self-service portal
+iconUrl: /learn/achievements/patient-access-service-center.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products: 
+- mscloud-healthcare 
+- industry-solutions 
+units: 
+- learn-bizapps.patient-access-service-center.1-introduction 
+- learn-bizapps.patient-access-service-center.2-configure-patient-access-portal 
+- learn-bizapps.patient-access-service-center.3-configure-agent-scripts 
+- learn-bizapps.patient-access-service-center.4-configure-knowledge-articles 
+- learn-bizapps.patient-access-service-center.5-patient-service-center-escalation 
+- learn-bizapps.patient-access-service-center.6-check 
+- learn-bizapps.patient-access-service-center.7-summary 
+badge: 
+  uid: learn-bizapps.patient-access-service-center.badge 
