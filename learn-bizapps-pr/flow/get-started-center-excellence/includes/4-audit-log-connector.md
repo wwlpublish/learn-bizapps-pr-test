@@ -80,7 +80,7 @@ Use the following steps to set up an Azure AD app registration that will be used
 
 Now, you'll configure and set up a custom connector that uses Microsoft 365 Management APIs.
 
-1.  Go to **make.powerapps.com > Data > Custom Connectors**. The Office 365 Management API custom connector will be listed on this page; it has been imported with the core components solution.
+1.  Go to **make.powerapps.com > Dataverse > Custom Connectors**. The Office 365 Management API custom connector will be listed on this page; it has been imported with the core components solution.
 
 1.  Select the **Edit** pencil icon.
 
@@ -105,7 +105,11 @@ Now, you'll configure and set up a custom connector that uses Microsoft 365 Mana
 
 1.  Set the **Resource URL** field to [https://manage.office.com](https://manage.office.com/?azure-portal=true).
 
-1.  Copy the **Redirect URL** into your text document in Notepad.
+1.  Copy the **Redirect URL** into your text document in Notepad. 
+
+	> [!IMPORTANT] 
+	> If the Redirect URL is not showing up, back out to the custom connectors main page and select the ellipses next to the Office 365 Management API custom connector. Select **View Properties** and you should be able to find it there. 
+		
 
 1. Select **Update Connector**.
 
@@ -130,11 +134,15 @@ Go back to the custom connector to set up a connection to the custom connector a
 > [!IMPORTANT] 
 > You must complete these steps for subsequent steps to work. If you don't create a new connection and test the connector at this point, setting up the flow and child flow in later steps will fail.
 
-1.  On the **Custom Connector** page, select **4. Test**.
+1.  On the **Custom Connector** page, select **5. Test**.
 
 1.  Select **+ New connection** and then sign in with your account.
 
 1.  In the **Operations** drop-down menu, select **Start Subscription**.
+
+1. Fill in **tenant** with the field titled **Directory (tenant) ID** in Azure and **PublisherIdentifier** with the **Application (client) ID** field from Azure.
+
+1. Select **Test operation**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Select Start Subscription.](../media/start-subscription-ssm.png)](../media/start-subscription-ssm.png#lightbox)
@@ -154,25 +162,22 @@ A Power Automate flow uses the custom connector, queries the audit log daily, an
 	> [!div class="mx-imgBorder"]
 	> [![Import the Center of Excellence aduit logs solution.](../media/import-audit-logs-solution-ss.png)](../media/import-audit-logs-solution-ss.png#lightbox)
 
-1.  In the **Tenant ID** field, paste the ID that you copied for directory (tenant) ID.
 
-	> [!div class="mx-imgBorder"]
-	> [![Paste the Tenant ID.](../media/import-audit-logs-solution-azure-active-directory-id-ss.png)](../media/import-audit-logs-solution-azure-active-directory-id-ss.png#lightbox)
 
-1.  Open the Center of Excellence - Audit Log solution and select **Admin | [Child] Admin | Sync Logs**.
+1.  Open the Center of Excellence - Audit Log solution and select **[Child] Admin | Sync Logs**.
 
 1.  Edit the **Run only users** settings.
 
 	> [!div class="mx-imgBorder"]
 	> [![Edit the settings for Run only users.](../media/child-admin-sync-logs-flow-ssm.png)](../media/child-admin-sync-logs-flow-ssm.png#lightbox)
 
-1.  For both connections (the custom connector and Dataverse), change the value to **Use this connection** (userPrincipalName@company.com). If no connection is available for any of the connectors, go to **Data > Connections** and then create one for the connector.
+1.  For all connections (the custom connector, Dataverse, and Outlook), change the value to **Use this connection** (userPrincipalName@company.com). If no connection is available for any of the connectors, go to **Data > Connections** and then create one for the connector.
 
 	> [!div class="mx-imgBorder"]
 	> [![Change the connection accounts.](../media/change-connection-acounts-ss.png)](../media/change-connection-acounts-ss.png#lightbox)
 
 1.  Select **Save** and then close the flow's **Details** tab.
 
-1. (Optional) Edit the **Admin | Sync Audit Logs** flow to update the time interval at which the log clusters should be retrieved. The default is set to one-day intervals (from the options of **Month**, **Week**, **Day**, **Hour**, **Minute**, or **Second**).
+1. (Optional) Edit the **Sync Audit Logs** flow to update the time interval at which the log clusters should be retrieved. The default is set to one-day intervals (from the options of **Month**, **Week**, **Day**, **Hour**, **Minute**, or **Second**).
 
 1. (Optional) Edit the **Admin | Sync Audit Logs** flow to update the start time and end time during which the logs will be read. The maximum is seven days in the past, and the end time must be after the start time. Use a positive number in the **Interval** field.
