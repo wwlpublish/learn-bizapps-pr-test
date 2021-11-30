@@ -22,7 +22,7 @@ These flows in the solution use the built-in Approval actions of Power Automate 
 
  If you are installing the solution in a new environment, or one in which Approvals have not been used in the past, then the Approval tables must be initialized before you can install the solution. The easiest way to do this is to create a "dummy" approval flow.
 
-1.  Go to [flow.microsoft.com](flow.microsoft.com) and select your CoE environment.
+1.  Go to [Power Automate](https://flow.microsoft.com/) and select your CoE environment.
 
 1. Select **+ New** > **Instant (From Blank)**.
 
@@ -67,7 +67,7 @@ The Core Components solution is required for the Audit and Report Components sol
 	|     Name                             |     Current value                                                                                                                                                                                                                                                                                          |
 	|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 	|     Cleanup Old Objects App URL         |     (optional) URL to the Cleanup Old Objects App canvas app, if you are using this app                                                                                                                                                  |
-	|     Flow Approvals URL    |     Link to the CoE Envt's approvals page from [flow.microsoft.com](flow.microsoft.com)    |
+	|     Flow Approvals URL    |     Link to the CoE Envt's approvals page from [Power Automate](https://flow.microsoft.com/)    |
 	                                                                                         
 
 
