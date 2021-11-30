@@ -11,16 +11,16 @@ metadata:
 title: Use Dataverse choice columns with formulas
 summary: |
   [!include[](../includes/module-banner.md)]
-  Explore how you can use Power Fx formulas to work with Microsoft Dataverse choice and choices columns. These column data types present the user with a fixed list of values defined by the maker.
+  Explore how you can use Power Fx formulas to work with the Choice and Choices columns in Microsoft Dataverse. These column data types present the user with a fixed list of values that are defined by the maker.
 abstract: |
-    In this module, you'll:
-    - Understand Choice field basics.
-    - Know when to use choice or lookups.
+    In this module, you will:
+    - Discover the Choice field basics.
+    - Learn when to use choice or lookups.
     - Filter data on choice values.
 prerequisites: |
-  - You'll need an environment with Microsoft Dataverse to do the exercise.
-  - Basic Power Apps maker experience.
-  - Fundamentals of configuring Microsoft Dataverse.
+  - An environment with Microsoft Dataverse
+  - Basic Microsoft Power Apps maker experience
+  - Fundamental knowledge of setting up Microsoft Dataverse
 iconUrl: /learn/achievements/choice-columns-formulas.svg
 levels:
 - intermediate
