@@ -1,22 +1,22 @@
 ### YamlMime:Module 
 uid: learn-bizapps.canvas-app-source-code 
 metadata: 
- title: Work with Canvas app source code
- description: This module covers how to unpack a canvas app from a single monolithic file to many files each describing individual part of the app.  
+ title: Work with canvas app source code
+ description: Learn how to unpack a canvas app from a single monolithic file to many files, each describing an individual part of the app.  
  ms.date: 11/12/2021  
  author: jadaphillips  
  ms.author: jadaphillips  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Work with Canvas app source code
+title: Work with canvas app source code
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn how you can unpack a canvas app from a single monolithic file to many files each describing individual part of the app.  In these files, formulas from your app are represented in YAML text format to allow easy reading and editing.  
+  Learn how to unpack a canvas app from a single monolithic file to many files, each describing an individual part of the app. In these files, formulas from your app are represented in YAML text format to allow for a simple reading and editing experience.
 abstract: |  
     In this module, you will: 
-    - Practice how to unpack and pack apps
-    - Explain how a canvas app is represented in YAML
-prerequisites: Basic Power Apps maker experience
+    - Practice how to unpack and pack apps.
+    - Learn how a canvas app is represented in YAML.
+prerequisites: Basic Microsoft Power Apps maker experience
 iconUrl: /learn/achievements/canvas-app-source-code.svg  
 levels:  
 - intermediate   
