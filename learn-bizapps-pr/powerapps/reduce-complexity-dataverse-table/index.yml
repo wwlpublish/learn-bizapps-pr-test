@@ -27,7 +27,8 @@ roles:
 - maker  
 products: 
 - power-platform 
-- power-apps 
+- power-apps
+- common-data-service 
 units: 
 - learn-bizapps.reduce-complexity-dataverse-table.1-introduction 
 - learn-bizapps.reduce-complexity-dataverse-table.2-one-to-many-relationships 
