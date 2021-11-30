@@ -47,7 +47,7 @@ In this module's example, **Desk** and **Desk Feature** would have a many-to-man
 
 The following video demonstrates how to create relationships between tables.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWOUXs]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOUXs]
 
 After you have created all tables and relationships, the data model for the example scenario should resemble the following diagram.
 

@@ -105,8 +105,8 @@ In this task, you will run the **Hot Desking Manager** and **Hot Desking** appli
 
 1.  Make sure that you still have **Apps** selected, select the **Hot Desking** application, and then select **Edit**.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Edit button highlighted and the Hot Desking application selected.](../media/edit-application.png)](../media/edit-application.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the Edit button highlighted and the Hot Desking application selected.](../media/edit-application.png)](../media/edit-application.png#lightbox)
 
    The application should open in app studio.
 
@@ -276,7 +276,7 @@ In this task, you will add a favorite desk and add a label to show desk features
     > [!NOTE]
     > The CountIf does encounter [delegation](/powerapps/maker/canvas-apps/delegation-overview/?azure-portal=true) challenges, if you have a large amount of rows in your app you might have to use an alternate approach.
 
-	    `If(CountIf(ThisItem.Users, ThisRecord.User = currentUser.User) > 0, Icon.ThumbsUp,Icon.ThumbsUpFilled)`
+   `If(CountIf(ThisItem.Users, ThisRecord.User = currentUser.User) > 0, Icon.ThumbsUp,Icon.ThumbsUpFilled)`
 
 1.  Make sure that you still have the icon selected. Select **OnSelect** and then paste the following formula. This formula will relate or unrelate this desk and signed-in user, depending on whether the user has already added the desk as a favorite.
 
