@@ -17,38 +17,38 @@ quiz:
     choices:
     - content: Select()
       isCorrect: false
-      explanation: Select function simulates a select action on a control as if the user had clicked or tapped the control.
+      explanation: The Select() function simulates a select action on a control as if the user had selected or tapped the control.
     - content: Choices()
       isCorrect: true
-      explanation: Returns a table of possible values for a Choice column.
-    - content: LookUp
+      explanation: The Choices() formula returns a table of possible values for a Choice column.
+    - content: LookUp()
       isCorrect: false
-      explanation: The LookUp function finds the first record in a table that satisfies a formula.
+      explanation: The LookUp() function finds the first record in a table that satisfies a formula.
     - content: None, you should manually build the table
       isCorrect: false
-      explanation: The Choices function returns a table of possible values for a Choice column.
-  - content: What is NOT a valid type of list of values for a choice or choices column?
+      explanation: The Choices() function returns a table of possible values for a Choice column.
+  - content: What is not a valid type of a list of values for a choice or choices column?
     choices:
-    - content: Private choice.
+    - content: Private choice
       isCorrect: true
-      explanation: Valid types are Global choice and Local choice.
-    - content: Global choice.
+      explanation: Valid list value types are Global choice and Local choice.
+    - content: Global choice
       isCorrect: false
-      explanation: Global is a valid type, the list of values can be used by multiple choice or choices columns.
-    - content: Local choice.
+      explanation: Global is a valid type; the list of values can be used by multiple choice or choices columns.
+    - content: Local choice
       isCorrect: false
-      explanation: Local is a valid type, the list of values is only used for a single choice or choices column.
-  - content: What would you set the value of a choice column to when using patch if you wanted to clear the existing value stored?
+      explanation: Local is a valid type; the list of values is only used for a single choice or a choices column.
+  - content: If you want to clear the existing stored value, what would you set the value of a choice column to when using the Patch() function?
     choices:
     - content: Blank()
       isCorrect: true
-      explanation: The Blank() function would set to "no value" or "unknown value" like it was before being set.
+      explanation: The Blank() function would set to "no value" or "unknown value," as it was before being set.
     - content: Empty()
       isCorrect: false
       explanation: Empty() isn't a valid Power Fx function.
     - content: IsBlank()
       isCorrect: false
-      explanation: IsBlank() function is used to check for "no value" not to set it.
+      explanation: The IsBlank() function is used to check for "no value," not to set the value.
     - content: Reset()
       isCorrect: false
-      explanation: The Reset function resets a control to its Default property value. This function would set the control back to the current value and would have no effect on the Patch.
+      explanation: The Reset() function resets a control to its default property value. This function would set the control back to the current value and would have no effect on the Patch() function.
