@@ -35,9 +35,9 @@ To complete the exercise, you will build a new page template that includes a sid
 
 Your first task is to create a partial template that will not be used to render a page but will instead be inserted into another template.
 
-1. Open https://home.dynamics.com.
+1. Open [https://make.powerapps.com](https://make.powerapps.com/?azure-portal=true).
 2. Select the Portals Management app.
-3. Select **Web Templates**.
+3. Select **Page Templates**.
 4. Select **New**.
 5. Enter the following values:
    - **Name** - Directory 
