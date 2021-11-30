@@ -50,7 +50,9 @@ When you unpack a canvas app, a [set of files and folders](/powerapps/developer/
 
 - **\other** - All miscellaneous files that are needed for re-creating the .msapp file.
 
-- **entropy.json** - Volatile elements (like timestamps) are extracted to this file. This file helps reduce noisy diffs in other files while ensuring that you can still round trip. Holds other files from the .msapp file, such as what is in \references.
+- **entropy.json** - Volatile elements (like timestamps) are extracted to this file. This file helps reduce noisy diffs in other files while ensuring that you can still round-trip. Holds other files from the .msapp file, such as what is in \references.
+
+## File format
 
 The files that end with **\*.fx.yaml** are where you can edit formulas. As you explore the extracted files, you will find that not all contain YAML; many are in their native format and are not meant to be edited outside of Power Apps Studio.
 

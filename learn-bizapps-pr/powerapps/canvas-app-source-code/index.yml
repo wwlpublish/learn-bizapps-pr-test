@@ -16,7 +16,9 @@ abstract: |
     In this module, you will: 
     - Practice how to unpack and pack apps.
     - Learn how a canvas app is represented in YAML.
-prerequisites: Basic Microsoft Power Apps maker experience
+prerequisites: |
+    - An environment with Microsoft Dataverse
+    - Basic Microsoft Power Apps maker experience
 iconUrl: /learn/achievements/canvas-app-source-code.svg  
 levels:  
 - intermediate   
@@ -24,7 +26,9 @@ roles:
 - maker  
 products: 
 - power-platform
-- power-apps 
+- power-apps
+- common-data-service
+- vs-code 
 units: 
 - learn-bizapps.canvas-app-source-code.1-introduction 
 - learn-bizapps.canvas-app-source-code.2-exercise 
