@@ -14,15 +14,15 @@ summary: |
   Provide patients with access to their health data, appointment scheduling, and information through the Patient Access portal and the Patient Service Center.
 abstract: |  
     In this module, you will: 
-    - Configure and navigate the Patient Access Portal
-    - Create and configure Agent Scripts to show in the Productivity Pane
-    - Create and configure Knowledge Articles
-    - Experience escalation scenario from Patient Portal through Azure Health Bot into Patient Service Center
+    - Set up and navigate the Patient Access portal.
+    - Create and set up agent scripts to show in the Productivity pane.
+    - Create and set up knowledge articles.
+    - Experience an escalation scenario from the Healthcare Patient Portal through Microsoft Azure Health Bot into Patient Service Center.
 prerequisites: |
-    - Training Environment preparation 
-    - Azure Health Bot
-    - Dynamics 365 Customer Service for Omnichannel
-    - Power Apps Customer Self-service portal
+    - Training environment preparation
+    - Knowledge of Azure Health Bot
+    - Knowledge of Omnichannel for Customer Service
+    - Knowledge of the Customer Self-service portal in Microsoft Power Apps
 iconUrl: /learn/achievements/patient-access-service-center.svg  
 levels:  
 - intermediate   
