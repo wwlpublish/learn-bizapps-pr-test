@@ -22,7 +22,9 @@ In this exercise, you will import a starting solution into your test environment
 
 In this task, you will import a solution into your environment.
 
-1.  Go to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and select the environment that you want to use for this lab.
+1. You will need to download the [zip file](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/relational-data/ContosoHotDesking_1_0_0_0.zip) to complete this exercise. Select download once the link opens.
+
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and select the environment you would like to use for this lab.
 
 1.  Select **Solutions > Import**.
 
@@ -31,7 +33,7 @@ In this task, you will import a solution into your environment.
 
 1.  Select **Browse**.
 
-1.  Browse to the lab resources folder, select the **ContosoHotDesking_1_0_0_0.zip** solution, and then select **Open**.
+1.  Select the ContosoHotDesking_1_0_0_0.zip solution, and select **Open**.
 
 1.  Select **Next**.
 
@@ -271,10 +273,10 @@ In this task, you will add a favorite desk and add a label to show desk features
 
 1.  Select the icon that you added and change the **Icon** value to the following formula. This formula will show the **thumbs up** icon filled if the user didn't indicate this desk as a favorite, or it will show the **thumbs up** icon if the user has already selected the desk as a favorite. 
 
-> [!NOTE]
-> The CountIf() function does encounter [delegation](/powerapps/maker/canvas-apps/delegation-overview/?azure-portal=true) challenges. If you have numerous rows in your app, you might need to use an alternate approach.
+    > [!NOTE]
+    > The CountIf does encounter [delegation](/powerapps/maker/canvas-apps/delegation-overview/?azure-portal=true) challenges, if you have a large amount of rows in your app you might have to use an alternate approach.
 
-	`If(CountIf(ThisItem.Users, ThisRecord.User = currentUser.User) > 0, Icon.ThumbsUp,Icon.ThumbsUpFilled)`
+	    `If(CountIf(ThisItem.Users, ThisRecord.User = currentUser.User) > 0, Icon.ThumbsUp,Icon.ThumbsUpFilled)`
 
 1.  Make sure that you still have the icon selected. Select **OnSelect** and then paste the following formula. This formula will relate or unrelate this desk and signed-in user, depending on whether the user has already added the desk as a favorite.
 
