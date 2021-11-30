@@ -34,7 +34,7 @@ When you download a canvas app from the cloud, it's a single file with an .msapp
 
 To unpack the .msapp file of a canvas app, use the following command:
 
-	`pac canvas unpack --msapp "Account Manager.msapp" --sources src`
+```pac canvas unpack --msapp "Account Manager.msapp" --sources src```
 
 The target output folder is identified by the source's switch by using the [following folder structure](/powerapps/developer/data-platform/powerapps-cli?azure-portal=true#folder-structure).
 
@@ -45,19 +45,19 @@ The target output folder is identified by the source's switch by using the [foll
 
 The **canvas pack** command is the reverse of the **canvas unpack** command, where it *packs* the folder that contains individual files into a single .msapp file. To pack the app so that it's ready for upload to the cloud, or so that it's included in a solution, use this command:
 
-	`pac canvas pack --msapp "Account Manager.msapp" --sources src`
+```pac canvas pack --msapp "Account Manager.msapp" --sources src```
 
 ### Solution commands
 
 You can get the .msapp file for your canvas app from the maker portal by downloading the individual app. If you use solutions to hold your apps and flows, then the exported solution will contain the .msapp file for each canvas app in the solution. By using the CLI and the **solution unpack** command, you can extract the individual .msapp files from the solution. The following example shows the **solution unpack** command:
 
-	`pac solution unpack --solution-zip C:\SampleSolution.zip --folder .\SampleSolutionUnpacked\.`
+```pac solution unpack --solution-zip C:\SampleSolution.zip --folder .\SampleSolutionUnpacked\.```
 
 The **SampleSolutionUnpacked** folder will contain a **CanvasApps** subfolder that includes the .msapp file for each app that is included in your solution.
 
 Similar to **canvas pack**, the **solution pack** command reassembles the files into a solution that you can import to a cloud environment. The following example shows the **solution pack** command:
 
-	`pac solution pack --solution-zip C:\SampleSolution.zip --folder .\SampleSolutionUnpacked\.`
+```pac solution pack --solution-zip C:\SampleSolution.zip --folder .\SampleSolutionUnpacked\.```
 
 ## Power Platform vs. code extension
 
