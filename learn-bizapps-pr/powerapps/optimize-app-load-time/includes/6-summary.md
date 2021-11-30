@@ -1,6 +1,8 @@
-In this module, we explored how you can evaluate and improve app load times. By regularly reviewing and measuring your app, you can proactively identify and remediate startup performance problems. Power Apps Monitor tool can help identify formulas that are slowing the app down. Keeping your app updated with current app settings recommendations can help ensure you get the best performance. Also, by configuring only the connectors required, you can avoid friction of users signing into connectors that aren't in use. By establishing a data load strategy, you can ensure you balance the need to defer loading data with the performance of having it pre-loaded on startup. Working to make your app load as quickly as possible and providing visual feedback when appropriate can help increase user satisfaction with your app.
+This module explored how you can evaluate and improve app load times. By regularly reviewing and measuring your app, you can proactively identify and remediate startup performance problems. Microsoft Azure Monitor can help you identify formulas that are causing the app to slow down. Keeping your app updated with current app setting recommendations can help ensure that you get the best performance. Also, by configuring only the required connectors, you can avoid users signing in to connectors that aren't in use. By establishing a data load strategy, you can ensure that you balance the need to defer loading data with the performance of having it preloaded on startup. Working to make your app load as quickly as possible and providing visual feedback when appropriate can help increase user satisfaction with your app.
 
-Other resources:
+## Other resources
+
+For more information, select the following links:
 
 - [Common sources of slow performance for a canvas app](/powerapps/maker/canvas-apps/slow-performance-sources/?azure-portal=true#)
 
