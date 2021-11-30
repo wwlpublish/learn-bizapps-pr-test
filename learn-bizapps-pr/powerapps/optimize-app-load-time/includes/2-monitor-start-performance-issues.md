@@ -47,6 +47,5 @@ When using Monitor to evaluate the startup time of your app, make sure that you 
 4. Launch Monitor from make.powerapps.com.
 
 The following video demonstrates how to activate Monitor and review the data that is captured during the startup of your app.
-
 &nbsp;
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP2DX]
