@@ -155,7 +155,7 @@ In this task, you will debug the application by using the Monitor tool.
 
 1. Scroll down and read the issue.
 
- :::image type="content" source="../media/issue-message.png" alt-text="![Screenshot of the issue message.]":::
+     :::image type="content" source="../media/issue-message.png" alt-text="![Screenshot of the issue message.]":::
 
 1. Select **Download**. You can download Monitor event logs and upload them later or share them with team members.
 
@@ -240,7 +240,7 @@ by using Monitor.
 
 1. Select the **Advanced tools** tab and then select **Open monitor**.
 
- :::image type="content" source="../media/open-monitor.png" alt-text="![Screenshot of the Open monitor button highlighted.]":::
+     :::image type="content" source="../media/open-monitor.png" alt-text="![Screenshot of the Open monitor button highlighted.]":::
 
    Monitor should open in a new browser tab or window and connect to your application.
 
@@ -402,7 +402,7 @@ using it.
 
 1. Select **File > Settings**.
 
- :::image type="content" source="../media/settings-button.png" alt-text="![Screenshot of the Settings button in the application.]":::
+     :::image type="content" source="../media/settings-button.png" alt-text="![Screenshot of the Settings button in the application.]":::
 
 1. Scroll down and turn on the **Debug published app** toggle switch.
 
