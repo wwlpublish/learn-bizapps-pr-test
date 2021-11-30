@@ -41,19 +41,19 @@ quiz:
     - content: Delete the old version app, then install the new version of the app.
       explanation: Everyone you shared the app with sees the new version automatically.
       isCorrect: false
-  - content: Which of these is not a reason to use environments? 
+  - content: Which of these is a reason to use environments? 
     choices:
-    - content: Have separate environments for each department in your organization  
-      explanation: To share apps outside the organization, it is not necessary to use environments.
+    - content: Create packaged solutions
+      explanation: To create packaged solutions, it is not necessary to use environments. 
       isCorrect: false
-    - content: Support application lifecycle management (ALM) of your apps
-      explanation: To share apps outside the organization, it is not necessary to use environments.
+    - content: Managing data capacity by adding new environments
+      explanation: Environments have a default data capacity, but that capacity can be changed with add-ons. Additionally, data capacity limitations are capped on a tenant-wide level.
       isCorrect: false
     - content: Share apps outside of your organization
       explanation: To share apps outside the organization, it is not necessary to use environments.
-      isCorrect: true
-    - content: Manage access to data 
-      explanation: To share apps outside the organization, it is not necessary to use environments.
       isCorrect: false
+    - content: Manage access to data 
+      explanation: Environments can be shared with specific users, allowing you to manage who can access certain data.
+      isCorrect: true
 
       
