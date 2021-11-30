@@ -22,6 +22,8 @@ In this exercise, you'll import a solution into your environment. This solution 
 
 In this task, you'll import a solution into your environment.
 
+1. You will need to download the [zip file](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/choice-columns/ContosoProductChoiceLab_1_0_0_0.zip) to complete this exercise. Select download once the link opens.
+
 1. Navigate to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and select the environment you would like to use for this lab.
 
 1. Select **Solutions** and select **Import**.
@@ -31,7 +33,7 @@ In this task, you'll import a solution into your environment.
 
 1. Select **Browse**.
 
-1. Browse to the lab resources folder, select the ContosoProductChoiceLab_1_0_0_0.zip solution, and select **Open**.
+1. Select the ContosoProductChoiceLab_1_0_0_0.zip solution, and select **Open**.
 
 1. Select **Next**.
 
