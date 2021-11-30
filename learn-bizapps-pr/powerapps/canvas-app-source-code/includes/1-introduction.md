@@ -26,7 +26,7 @@ The source to your app is represented by a subset of [YAML](https://yaml.org/?az
 
 This module focuses on the canvas app and solution functionality of Power Platform CLI. You can review the other capabilities and how they work in the [product documentation](/powerapps/developer/data-platform/powerapps-cli#common-commands/?azure-portal=true). You can download and install [Power Platform CLI](https://aka.ms/PowerAppsCLI/?azure-portal=true). If you already have the CLI installed, ensure that you have the latest version by using the following command:
 
-	`pac install latest`
+```pac install latest```
 
 ### Canvas unpack command
 
