@@ -77,7 +77,7 @@ Power Apps and Power Automate share a common connector framework that lets you w
 
 1. Select **Create an app**.
 
-    ![Screenshot of SharePoint toolbar with the PowerApps menu expanded and the Create an app option highlighted.](../media/flow-sharepoint-powerapps.png)
+    ![Screenshot of SharePoint toolbar with the PowerApps menu expanded and the Create an app option highlighted.](../media/flow-sharepoint-power-apps.png)
 
 1. In the **Create an app** pane, enter a name for your app, and then select **Create**.
 
