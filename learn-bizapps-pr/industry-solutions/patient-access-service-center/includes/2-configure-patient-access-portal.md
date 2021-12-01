@@ -182,7 +182,7 @@ In this task, you will create an invitation code for patients to sign up and use
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Power Apps list of apps with the Healthcare Administration option highlighted.](../media/27-healthcare-administration.png)](../media/27-healthcare-administration.png#lightbox)
 
-1. In the **Administration** section of the sitemap, select **People**, which will display the **Active Patients** grid view. Open the **Casey Jensen** patient record so that you can obtain an invitation code for Casey to use.
+1. In the **Administration** section of the site map, select **People**, which will display the **Active Patients** grid view. Open the **Casey Jensen** patient record so that you can obtain an invitation code for Casey to use.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Healthcare Administration page. The People menu option is selected and the Active Patients list is displayed.](../media/28-active-patients.png)](../media/28-active-patients.png#lightbox)
