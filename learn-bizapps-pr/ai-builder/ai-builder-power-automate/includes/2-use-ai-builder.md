@@ -93,10 +93,10 @@ Any new emails will now be routed to the correct Helpdesk mailbox based on the l
 **Note** You may get the below error. If you do then go back to the **AI Builder Language Detection** step, click in the item/requestv2/countryhint field, in **Dynamic content** select **The plain text content** and then delete it and then click **Save**.
 
 > [!div class="mx-imgBorder"]
-    > [![Screenshot of the flow save error message.](../media/03-ai-bulder-flow-error.png)](../media/template-predefined-languages.png#lightbox)
+    > [![Screenshot of the flow save error message.](../media/03-ai-builder-flow-error.png)](../media/template-predefined-languages.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-    > [![Screenshot of the error message to remove and save again.](../media/03-ai-bulder-flow-error-2.png)](../media/template-predefined-languages.png#lightbox)
+    > [![Screenshot of the error message to remove and save again.](../media/03-ai-builder-flow-error-2.png)](../media/template-predefined-languages.png#lightbox)
 
 The flow should now save successfully.
 
