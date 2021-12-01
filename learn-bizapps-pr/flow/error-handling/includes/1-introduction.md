@@ -40,8 +40,8 @@ The following sections describe SharePoint actions in Power Automate:
 
 - **New Comment** - This action allows you to leave comments or suggestions for flow makers.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the new comment action.](../media/new-comments.png)](../media/new-comments.png)
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the new comment action.](../media/new-comments.png)](../media/new-comments.png)
 
 - **Rename** - The actions and conditions come with default names, and this setting gives you the option to rename them.
 
