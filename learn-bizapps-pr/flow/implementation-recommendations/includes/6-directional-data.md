@@ -39,7 +39,7 @@ The **List Flows as Admin** action requires the name of an environment as an inp
 Because you are only interested in exploring recently modified flows, you will add a condition to your flow and will compare the ticks of the flow's last modified timestamp to that of your variable that you
 established earlier in your flow. To accomplish this task, use an expression to calculate the ticks of your last modified timestamp. The complete statement is **```ticks(items('Apply_to_each_2')?['properties']?['lastModifiedTime']) is greater than previousTimestamp```**.
 
-![Screenshot of condition with number of ticks greater than previous with If yes and If no options.](../media/23-compare-ticks.png)
+> [![Screenshot of condition with number of ticks greater than previous with If yes and If no options.](../media/23-compare-ticks.png)](../media/23-compare-ticks.png#lightbox)
 
 When you detect that a flow has been modified within the past 60 minutes, you will want to ensure that it doesn't belong to your administrator. This verification will help avoid an error when you try to add the administrator as co-owner of a flow in a future step. To detect if the current flow belongs to your
 administrator, use the Office 365 Users connector and the **Get my profile (v2)** action. This step will return information about the user who established a connection to the connector, which in this case is the
@@ -50,7 +50,7 @@ administrator. Next, add the Office 365 Users action to the **If yes** branch.
 Now, you will add another condition that will verify if the **Creator** object ID (from the **List Flows as Admin** action) is not equal to **ID** (from the **Get my profile (V2)** action). In the **If yes** branch, add the **Edit Flow Owner Role as Admin** action that belongs to the Microsoft Flow for Admins connector. This action will add your administrator user as a co-owner of the flow and will help extract the flow
 definition, which requires you to be a co-owner of the flow. You will retrieve the flow definition in an upcoming step, but for now, provide the current **Environment Name**, current **Flow Name**, and details about your administrator user such as email address, display name, and ID. These values are accessible from your **Get my profile (V2)** action.
 
-![Screenshot of EditFlow Owner Role as Admin with properties highlighted.](../media/24-edit-flow-owners.png)
+> [![Screenshot of EditFlow Owner Role as Admin with properties highlighted.](../media/24-edit-flow-owners.png)](../media/24-edit-flow-owners.png#lightbox)
 
 After you have added your administrator account as a co-owner of the flow, you can call the **Get Flow as Admin** action from the Flow management connector.
 
@@ -58,7 +58,7 @@ After you have added your administrator account as a co-owner of the flow, you c
 
 The inputs to the **Get Flow as Admin** action includes the current **Environment Name** and **Flow Name**. The output of this action includes the flow definition that will allow you to determine if a Twitter action exists.
 
-![Screenshot of If yes condition with Get Flow as Admin added with Environment set to Name and Flow set to Flow Name.](../media/28-get-flow.png)
+> [![Screenshot of If yes condition with Get Flow as Admin added with Environment set to Name and Flow set to Flow Name.](../media/28-get-flow.png)](../media/28-get-flow.png#lightbox)
 
 To check whether a Twitter action is being used, add a
 condition to your flow and verify if the **Action Api** name (from the **Get Flow as Admin** action) is equal to *shared_twitter*. After you have added this
@@ -67,7 +67,7 @@ condition, an **Apply to each** loop will be applied because the **Action Api** 
 Within the **If yes** branch, update your  **isFlowAction** variable to be set to **true** because you have now found a flow that includes a Twitter
 action. You will use this variable later in your flow to determine whether you need to disable a flow and send an email to the flow owner.
 
-![Screenshot of Condition with If yes with Set variable - Twitter Action exists highlighted.](../media/29-check-twitter.png)
+> [![Screenshot of Condition with If yes with Set variable - Twitter Action exists highlighted.](../media/29-check-twitter.png)](../media/29-check-twitter.png#lightbox)
 
 Outside the **Apply to each** variable that allows you to iterate through all actions in your flow, add another condition. This condition will verify if the value of your **isFlowAction** variable is **true**.
 
