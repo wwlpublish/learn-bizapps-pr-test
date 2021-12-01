@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.patient-access-service-center.4-configure-knowledge-articles 
-title: Exercise - Configure knowledge articles
+title: Exercise - Create and manage knowledge articles
 metadata: 
-  title: Exercise - Configure knowledge articles
+  title: Exercise - Create and manage knowledge articles
   description: Learn how to create and manage knowledge articles in the Patient Service Center.
   ms.date: 11/30/2021 
   author: DaveBeasley 
