@@ -1,7 +1,7 @@
 In the previous module for Power Automate, you learned how to build some basic flows that save email attachments and send you reminders from your phone.
 
 > [!div class="mx-imgBorder"]
-> [![Diagram of flow with cube, comment bubble, cloud, email, and spreadsheet.](../media/flow-plan.png)]
+> ![Diagram of flow with cube, comment bubble, cloud, email, and spreadsheet.](../media/flow-plan.png)
 
 In this module, you'll now build approval flows and increase your knowledge.
 
