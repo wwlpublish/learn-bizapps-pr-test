@@ -118,7 +118,7 @@ First, open the portal to view the Customer Self-Service template that is curren
 
 Congratulations, you have completed the post deployment step to set up the Healthcare Patient Portal template that is deployed from Patient Access. After you have updated the bindings and restarted the portal, the website should now show as **Healthcare Patient Portal** template rather than **Customer Self-Service**.
 
-### Task 2: Modify the company name in Healthcare Patient Portal
+### Task 2: Modify the company name in the Healthcare Patient Portal
 
 In this task, you will edit the Healthcare Patient Portal website to align the name with Lamna Healthcare Company because the template uses a generic company name.
 
@@ -272,7 +272,7 @@ In this task, you will continue as Casey and navigate the features of the Health
     > [!div class="mx-imgBorder"]
     > [![Screenshot of home page sections to Schedule an appointment, View messages, or Find a doctor.](../media/40-shortcuts.png)](../media/40-shortcuts.png#lightbox)
 
-   Under the shortcuts is a section showing current patient information, including **Unread messages**, **Upcoming appointments**, and **Medications**.
+   Under the shortcuts, a section shows current patient information, including **Unread messages**, **Upcoming appointments**, and **Medications**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of sample patient information, displaying the Unread messages, Upcoming appointments, and Medications sections.](../media/41-unread-messages.png)](../media/41-unread-messages.png#lightbox)
