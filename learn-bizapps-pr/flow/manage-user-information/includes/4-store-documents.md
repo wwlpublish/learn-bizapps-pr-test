@@ -66,15 +66,16 @@ First, you must create the source and target folders in OneDrive for Business an
 
 1. In the **Convert document** action, set the following values:
 
-    * **Source file name**: In the dynamic content list, select **File name**.
-    * **Source file content**: In the dynamic content list, select **File content**.
-    * **Output format**: Select *PDF*.
+	- **Source file name**: In the dynamic content list, select **File name**.
+	- **Source file content**: In the dynamic content list, select **File content**.
+	- **Output format**: Select *PDF*.
 
     ![Screenshot of the Muhimbi setup showing Convert document action with File name dynamic content as the Source file name, and File content as the Source file content.](../media/muhimbi-configuration.png)
 
     So far, you've set up these steps for your flow:
 
     1. The flow is triggered whenever a new file is added to a specific OneDrive for Business folder.
+    
     1. The Muhimbi service converts that file to PDF.
 
     For the final step, you'll add an action that moves the PDF document to a SharePoint Online folder where the team can access it.
