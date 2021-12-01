@@ -10,7 +10,7 @@ A powerful capability in Microsoft Power Platform is connectors. By using connec
 a maker can connect to a wide variety of applications and APIs without
 having to understand security schemes, such as OAuth, to
 establish a connection to these systems. Currently, more than
-300 connectors are provided by Microsoft and third-party organizations.
+450 connectors are provided by Microsoft and third-party organizations.
 
 With democratized access to building flows and apps, organizations might have
 concerns with makers connecting to unauthorized systems, which could result in

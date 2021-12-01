@@ -1,14 +1,14 @@
 Data Loss Prevention (DLP) policies allow organizations to construct
 rules that permit and prevent connectors from communicating with each
 other within the same flow. Microsoft accomplishes this task by establishing
-two data groups: **Business data only** and **No business data allowed**.
-The intent of these two data groups is to put connectors that
+three data groups: **Business**, **Non-business** and **Blocked**.
+The intent of these data groups is to put connectors that
 have the same data profile in the same data group. Grouping
 connectors means that they can communicate with each other within the
 same data group but are not able to communicate across data groups.
 
 To illustrate this concept, consider the following scenario where
-connectors have been distributed across the two data groups.
+connectors have been distributed across the three data groups.
 You want to build a flow that includes the Microsoft **Word Online**,
 **Approvals**, and **Power BI** connectors. Because all of these connectors
 belong to the **Business** data group, you can confidently create and run this flow.
