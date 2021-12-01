@@ -59,7 +59,7 @@ organization. People who are responsible for change management can
 use this data to help support training and adoption campaigns by being
 able to show measurable progress.
 
-> [![Screenshot of Power Automate on the Runs tab.](../media/3-runs.png)](../media/3-runs.png#lightbox)
+[![Screenshot of Power Automate on the Runs tab.](../media/3-runs.png)](../media/3-runs.png#lightbox)
 
 The **Usage** report outlines the types of flows in use, including whether
 the flow is **Scheduled**, **Button clicked**, or **System Events** driven or not. In

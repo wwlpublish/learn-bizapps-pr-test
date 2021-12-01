@@ -58,7 +58,7 @@ After you have added your administrator account as a co-owner of the flow, you c
 
 The inputs to the **Get Flow as Admin** action includes the current **Environment Name** and **Flow Name**. The output of this action includes the flow definition that will allow you to determine if a Twitter action exists.
 
-> [![Screenshot of If yes condition with Get Flow as Admin added with Environment set to Name and Flow set to Flow Name.](../media/28-get-flow.png)](../media/28-get-flow.png#lightbox)
+[![Screenshot of If yes condition with Get Flow as Admin added with Environment set to Name and Flow set to Flow Name.](../media/28-get-flow.png)](../media/28-get-flow.png#lightbox)
 
 To check whether a Twitter action is being used, add a
 condition to your flow and verify if the **Action Api** name (from the **Get Flow as Admin** action) is equal to *shared_twitter*. After you have added this
@@ -67,7 +67,7 @@ condition, an **Apply to each** loop will be applied because the **Action Api** 
 Within the **If yes** branch, update your  **isFlowAction** variable to be set to **true** because you have now found a flow that includes a Twitter
 action. You will use this variable later in your flow to determine whether you need to disable a flow and send an email to the flow owner.
 
-> [![Screenshot of Condition with If yes with Set variable - Twitter Action exists highlighted.](../media/29-check-twitter.png)](../media/29-check-twitter.png#lightbox)
+[![Screenshot of Condition with If yes with Set variable - Twitter Action exists highlighted.](../media/29-check-twitter.png)](../media/29-check-twitter.png#lightbox)
 
 Outside the **Apply to each** variable that allows you to iterate through all actions in your flow, add another condition. This condition will verify if the value of your **isFlowAction** variable is **true**.
 
