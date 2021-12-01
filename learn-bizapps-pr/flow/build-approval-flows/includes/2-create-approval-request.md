@@ -5,7 +5,7 @@ In this scenario, anyone who has access to the Microsoft SharePoint list can con
 ## Prerequisites
 
 - Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true)
-- A Microsoft Office 365 account with access to SharePoint.
+- A Microsoft Office 365 account with access to SharePoint
 - A Twitter account
 
 ## Step 1: Create a SharePoint list for tweets

@@ -104,7 +104,8 @@ In this process flow, the loan officer will be able to see the Fraud Investigati
 
 Pay special attention to the information that might become disclosed because of branching. In our example, to prevent information disclosure, split the process into two separate processes: one for the request processing and one for the fraud investigation. The process for the loan officer will then look like this.
 
-![Diagram showing additional steps in the process to prevent information disclosure.](../media/additional-steps.png)
+> [!div class="mx-imgBorder"]
+> [![Diagram showing additional steps in the process to prevent information disclosure.](../media/additional-steps.png)]
 
 The process for the investigation will be self-contained and will include the following stages.
 
