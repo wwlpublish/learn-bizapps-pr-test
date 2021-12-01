@@ -26,16 +26,16 @@ quiz:
       isCorrect: true 
   - content: What is the most commonly used data source to store your personal documents?
     choices: 
-    - content: Microsoft OneDrive. 
+    - content: Microsoft OneDrive
       explanation: Microsoft's OneDrive and OneDrive for Business is the most commonly used data source to store personal information.
       isCorrect: true
-    - content: SharePoint.
+    - content: SharePoint
       explanation: Microsoft SharePoint is not the most commonly used data source to store personal information. 
       isCorrect: false 
-    - content: Dataverse.
+    - content: Dataverse
       explanation: Microsoft Dataverse is not the most commonly used data source to store personal information.
       isCorrect: false 
-    - content: Excel. 
+    - content: Excel
       explanation: Microsoft Excel is not the most commonly used data source to store personal information. 
       isCorrect: false 
   - content: When creating Button Flows you can use trigger tokens to capture which of the following information?  
