@@ -3,7 +3,7 @@ uid: learn-bizapps.patient-access-service-center.5-patient-service-center-escala
 title: Exercise - Experience escalation into Patient Service Center
 metadata: 
   title: Exercise - Experience escalation into Patient Service Center
-  description: Test the end-to-end escalation experience you configured for the patient and service center agent.
+  description: Test the end-to-end escalation experience that you set up for the Patient Service Center agent.
   ms.date: 11/30/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
