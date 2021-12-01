@@ -272,15 +272,15 @@ In this task, you will learn how to publish the knowledge article so that it's l
 
 1. Specify the following details (as shown in the following screenshot):
 
-    a.  **Publish** - Now
+    -  **Publish** - Now
 
-    b.  **Published Status** - Published
+    -  **Published Status** - Published
 
-    c.  **Expiration State** - Published
+    -  **Expiration State** - Published
 
-    d.  **Expiration Status** - Published
+    -  **Expiration Status** - Published
 
-    e.  **Publish approved related translations with Article** - Yes
+    -  **Publish approved related translations with Article** - Yes
 
 1. Select **Publish**.
 
