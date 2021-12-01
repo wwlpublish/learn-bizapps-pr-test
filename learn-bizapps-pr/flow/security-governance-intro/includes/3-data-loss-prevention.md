@@ -41,7 +41,7 @@ ability to **Add all environments** (tenant), **Add multiple environments**, and
 When a DLP author selects **Add all environments**, this setting
 also ensures that new environments have this DLP policy applied.
 
-![Screenshot of the Screenshot of the Data Loss Prevention policy applied.](../media/3-dlp-applied.png)
+> [![Screenshot of the Screenshot of the Data Loss Prevention policy applied.](../media/3-dlp-applied.png)](../media/3-dlp-applied.png#lightbox)
 
 Environments can have multiple DLP policies applied, which provides for
 more governance scenarios to be implemented. However, when multiple DLP
