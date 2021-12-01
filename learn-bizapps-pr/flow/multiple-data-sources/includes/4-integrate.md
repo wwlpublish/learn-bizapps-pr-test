@@ -31,7 +31,7 @@ Adding a flow to a Power Apps application is straightforward.
 
     Power Automate is started and shows templates filtered by the trigger **PowerApps Button**.
 
-    ![Screenshot of search results for PowerApps button.](../media/flow-select-powerapp.png)
+    ![Screenshot of search results for PowerApps button.](../media/flow-select-power-app.png)
 
 For more about how to create flows, see [Create a flow from a template in Power Automate](/flow/get-started-logic-template/?azure-portal=true).
 
