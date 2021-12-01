@@ -67,19 +67,19 @@ First, we'll create a process named **Car Sales Process**.
     > [!TIP]
     > To create more complex branching, you can add another a **Condition** component to the **No** path of an existing **Condition** component.
 
-    ![Screenshot of Qualify stage after the condition is added.](../media/example-car-sales-qualify-stage.jpg)
+    [![Screenshot of Qualify stage after the condition is added.](../media/example-car-sales-qualify-stage.jpg)](../media/example-car-sales-qualify-stage.jpg#lightbox)
 
     If **Car preference** = **New**, the process branches out to the **New Car Sales** stage, as shown here.
 
-    ![Screenshot of the New Car Sales stage with six steps.](../media/example-car-sales-new-stage-1.jpg)
+    [![Screenshot of the New Car Sales stage with six steps.](../media/example-car-sales-new-stage-1.jpg)](../media/example-car-sales-new-stage-1.jpg#lightbox)
 
     Otherwise, the process goes to the **Pre-Owned Car Sales** stage in the second branch, as shown here.
 
-    ![Screenshot of the Pre-owned Car Sales stage with seven steps.](../media/example-car-sales-pre-owned-stage.jpg)
+    [![Screenshot of the Pre-owned Car Sales stage with seven steps.](../media/example-car-sales-pre-owned-stage.jpg)](../media/example-car-sales-pre-owned-stage.jpg#lightbox)
 
     After all the steps in either the **New Car Sales** stage or the **Pre-Owned Car Sales** stage are finished, the process returns to the main flow, at the **Deliver Quote** stage.
 
-    ![Screenshot of the Deliver Quote stage with four steps.](../media/example-car-sales-deliver-quote-stage.jpg)
+    [![Screenshot of the Deliver Quote stage with four steps.](../media/example-car-sales-deliver-quote-stage.jpg)](../media/example-car-sales-deliver-quote-stage.jpg#lightbox)
 
 ## Prevent information disclosure example
 
