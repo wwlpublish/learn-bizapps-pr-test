@@ -2,7 +2,7 @@
 uid: learn-bizapps.pad-power-automate-desktop-recording-features 
 metadata: 
  title: Generate Power Automate for desktop flows by recording
- description: In this module, we will examine the ways in which users can automate tasks by performing them manually and recording the flow.
+ description: In this module, we'll examine the ways in which users can automate tasks by performing them manually and recording the flow.
  ms.date: 11/03/2020
  author: mariosleon 
  ms.author: marleon 
@@ -11,11 +11,11 @@ metadata:
 title: Generate Power Automate for desktop flows by recording
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The Desktop and Web Recorders can be used to automatically generate blocks of actions, based on the user's interaction with the workstation.
+  The recorder can be used to automatically generate blocks of actions, based on the user's interaction with the workstation.
 abstract: |  
     In this module, you will: 
-    - Use the Desktop Recorder to generate actions automating local Windows UI-based tasks
-    - Deploy the Web Recorder to automate interactions with a web browser
+    - Use the recorder to generate actions automating local Windows UI-based tasks
+    - Deploy the recorder to automate interactions with a web browser
     - Preview and edit the automatically generated actions during and after the recording
 prerequisites: |
     A basic understanding of [how to use the Power Automate for desktop console and flow designer](../pad-first-steps/index.yml).
@@ -31,8 +31,8 @@ products:
 units: 
 - learn-bizapps.pad-power-automate-desktop-recording-features.1-introduction 
 - learn-bizapps.pad-power-automate-dekstop-recording-features.2-recording-actions
-- learn-bizapps.pad-power-automate-desktop-recording-features.3-web-recorder 
-- learn-bizapps.pad-power-automate-desktop-recording-features.4-exercise-desktop-recorder 
+- learn-bizapps.pad-power-automate-desktop-recording-features.3-exercise-recording-web-flows
+- learn-bizapps.pad-power-automate-desktop-recording-features.4-exercise-recording-desktop-flows
 - learn-bizapps.pad-power-automate-desktop-recording-features.5-check-your-knowledge 
 - learn-bizapps.pad-power-automate-desktop-recording-features.6-summary 
 badge: 
