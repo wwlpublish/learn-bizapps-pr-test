@@ -33,7 +33,9 @@ products:
 - power-automate
 modules:
 - learn-bizapps.flow-get-started
-- learn-bizapps.flow-build-more
+- learn-bizapps.build-approval-flows
+- learn-bizapps.manage-user-information
+- learn-bizapps.multiple-data-sources
 - learn-bizapps.flow-administration
 - learn-bizapps.ai-builder-power-automate
 - learn-bizapps.business-process-optimization-process-advisor 
