@@ -8,11 +8,11 @@ To record the flow:
 
     ![Screenshot of the launch new browser option in the recorder window.](..\media\launch-new-browser-recorder.png)
 
-1. After selecting the browser, a browser window will open automatically. Start recording and use this window to navigate to the [MSN currency converter page](https://www.msn.com/en-us/money/tools/currencyconverter).
+1. After selecting the browser, a browser window will open automatically. Use this window to navigate to the [MSN currency converter page](https://www.msn.com/en-us/money/tools/currencyconverter).
 
     ![Screenshot of the MSN currency converter page.](..\media\msn-currency-converter-page.png)
 
-1. Set the drop-down menus of the converter to **United States Dollar** and **Euro**, respectively.
+1. Start recording and set the drop-down menus of the converter to **United States Dollar** and **Euro**, respectively.
 
     ![Screenshot of the currency drop-down menus in the MSN currency converter page.](..\media\msn-currency-converter-page-drop-down-menus.png)
 
