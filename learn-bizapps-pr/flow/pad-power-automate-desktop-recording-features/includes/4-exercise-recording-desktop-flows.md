@@ -18,7 +18,7 @@ In this exercise, you'll automate a desktop-related task to get a better grasp o
 
 1. Select the entire first row, and then assign it a background color.
 
-1. In this step, the recorder window should look like the following example. Optionally, you can add comments to describe the purpose of its step.
+1. In this step, the recorder window should look like the following example. Optionally, you can add comments to describe the purpose of each step.
 
    ![Screenshot of the recorded steps.](..\media\recorded-actions-exercise.png)
 

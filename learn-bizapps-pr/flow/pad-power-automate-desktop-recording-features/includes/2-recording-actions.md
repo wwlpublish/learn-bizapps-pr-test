@@ -17,10 +17,10 @@ When the recorder dialog is launched, select **Record** to start recording.
 
 ![Screenshot of the recorder window.](..\media\recorder-window.png)
 
-This dialog is where a preview of the recorded actions will appear during the recording:
+This dialog is where a preview of the recorded actions will appear during the recording. To suspend the recording, select **Pause**.
 
 ![Screenshot of the recorded steps in the recorder window.](..\media\recorded-actions.png)
 
-To suspend the recording, select **Pause**. When the recording is completed, select **Finish** to convert the recorded steps to Power Automate for desktop actions.
+When the recording is completed, select **Finish** to convert the recorded steps to Power Automate for desktop actions.
 
 ![Screenshot of the generated actions in the flow designer.](..\media\generated-actions.png)
