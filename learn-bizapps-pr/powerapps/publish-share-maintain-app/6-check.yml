@@ -37,7 +37,7 @@ quiz:
       explanation: You can restore a previous version of your app up to the last six months.
     - content: Last twelve months.
       isCorrect: false 
-      explanation: YYou can restore a previous version of your app up to the last six months.
+      explanation: You can restore a previous version of your app up to the last six months.
     - content: There is no limit on how far back you can go, any previous versions can be restored.
       isCorrect: false 
       explanation: You can restore a previous version of your app up to the last six months.
