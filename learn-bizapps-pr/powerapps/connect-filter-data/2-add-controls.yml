@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.connect-filter-data.2-add-controls
+title: Exercise - Add controls to display data
+metadata:
+  title: Exercise - Add controls to display data
+  description: Follow the steps to add controls to your app that display data to your users.
+  ms.date: 12/17/2021
+  author: jadaphillips
+  ms.author: jadaphillips
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+durationInMinutes: 8
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/2-add-controls.md)]
