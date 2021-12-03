@@ -79,18 +79,18 @@ customers for your app.
 
 ### Importing Data from an Excel file
 
-You will use the Excel spreadsheet named [Prospects](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/Prospects.zip/?azure-portal=true) for this
+You will use the Excel spreadsheet named [Prospects](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/raw/master/power-apps/Prospects.zip) for this
 exercise. Open the link, and select the Download button and save it locally. 
 
 1. Open the file. Notice the “Stage” column is empty, you will need to look these up and enter them manually. 
 1. Go to the [Power Apps home page](https://powerapps.microsoft.com/?azure-portal=true) and sign in to Power Apps.
 1. Go back to your Excel file and in the Stage column enter the values as below:
-	- **Contoso Flooring**: Won.
-	- **Fabrikam Inc**:  Won.
-	- **Adventure Works**: Lead.
-	- **Adatum**: Lead.
-	- **VanArsdel**: Lost.
-	- **Relecloud**: Opportunity.
+	- **Contoso Flooring**: Won
+	- **Fabrikam Inc**:  Won
+	- **Adventure Works**: Lead
+	- **Adatum**: Lead
+	- **VanArsdel**: Lost
+	- **Relecloud**: Opportunity
 1. Save and close the Excel file.
 1. Continue with the **Prospects** table.
 1. Select the drop-down arrow to the right of **Get data** and select **Get data from Excel**.

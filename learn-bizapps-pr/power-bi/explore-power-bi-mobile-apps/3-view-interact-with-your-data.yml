@@ -1,0 +1,17 @@
+﻿### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-to-power-bi-mobile-apps.3-view-interact-with-your-data
+title: View and interact with your data
+metadata: 
+  title:  View and interact with your data
+  description: Learn how to view and interact with your data using the Power BI mobile app. 
+  ms.date: 11/26/2021 
+  author: paulinbar
+  ms.author: painbar 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+   
+durationInMinutes: 12 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/3-view-interact-with-your-data.md)] 
+

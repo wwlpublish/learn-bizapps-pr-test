@@ -20,29 +20,29 @@ If you are using a trial environment, consider setting up a profile in your brow
 
 ## Software installation
 
-The following exercises will require various software to be installed on your computer. The following steps will guide you through the download and installation of Power Automate Desktop, the required extensions, and the Contoso Invoicing app.
+The following exercises will require various software to be installed on your computer. The following steps will guide you through the download and installation of Power Automate, the required extensions, and the Contoso Invoicing app.
 
-If you have already installed Power Automate Desktop, ensure that you are running the latest available version.
+If you have already installed Power Automate, ensure that you are running the latest available version.
 
-### Power Automate Desktop
+### Power Automate
 
-Go to [Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in with the account that you used to create your environment and database. After you have signed in, select **My flows > Install > Power Automate Desktop**.
-
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the Install menu with Power Automate Desktop option.](../media/install-desktop.png)](../media/install-desktop.png#lightbox)
-
-When the download completes, select the file to open and run the installer. Select **Next** and, on the subsequent screen, select the final check box and then select **Install**. This action will install the Power Automate Desktop and the browser extensions for Microsoft Edge and Google Chrome.
+Go to [Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in with the account that you used to create your environment and database. After you have signed in, select **My flows > Install > Power Automate**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Power Automate Desktop Setup Install Package with Next button.](../media/installer-1.png)](../media/installer-1.png#lightbox)
+> [![Screenshot of the Install menu with Power Automate option.](../media/install-desktop.png)](../media/install-desktop.png#lightbox)
+
+When the download completes, select the file to open and run the installer. Select **Next** and, on the subsequent screen, select the final check box and then select **Install**. This action will install the Power Automate and the browser extensions for Microsoft Edge and Google Chrome.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Power Automate Setup Install Package with Next button.](../media/installer-1.png)](../media/installer-1.png#lightbox)
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Installation details window with Install button.](../media/installer-2.png)](../media/installer-2.png#lightbox)
 
-When the installation is complete, select the link of your preferred browser and then follow the instructions to enable the extension. After the extension has been enabled, you can launch the Power Automate Desktop app.
+When the installation is complete, select the link of your preferred browser and then follow the instructions to enable the extension. After the extension has been enabled, you can launch the Power Automate app.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Installation successful screen with Launch Power Automate Desktop button.](../media/installer-3.png)](../media/installer-3.png#lightbox)
+> [![Screenshot of the Installation successful screen with Launch Power Automate button.](../media/installer-3.png)](../media/installer-3.png#lightbox)
 
 After launching the app, sign in by using the account that you used to set up your environment and database.
 
@@ -52,4 +52,4 @@ A major benefit of using desktop flows is the ability to perform actions on desk
 
 Download the [Contoso Invoicing app](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/raw/master/power-automate-desktop/contoso-invoice-app/ContosoInvoicingSetup.zip), extract the contents and then install the application and explore the elements.
 
-Now you're ready to get into the details of Power Automate Desktop.
+Now you're ready to get into the details of Power Automate

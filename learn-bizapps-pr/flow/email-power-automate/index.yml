@@ -3,7 +3,7 @@ uid: learn-bizapps.email-power-automate
 metadata: 
  title: Email with Power Automate
  description: With Microsoft Power Automate, you can create emails that are sent automatically when new data is added or when existing data is updated. Additionally, you can have email metadata captured in SharePoint automatically. This module explains how you can use email actions in Power Automate with SharePoint as the data source.
- ms.date: 04/06/2021  
+ ms.date: 11/01/2021
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  

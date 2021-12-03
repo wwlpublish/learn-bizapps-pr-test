@@ -44,8 +44,6 @@ You can set the visibility state to hide or unhide individual objects or groups.
 
 You can also modify the layer order, often referred to as *z-order*. Because you can overlap objects (or groups) on the page, the higher an object appears in the layer order, the closer it is to the front. Therefore, when you have overlapping objects, the one that is listed first is on top. To change order, drag an object or group to a new position.
 
-Similar to how you would summarize a smart narrative visual, you can summarize an object, which adds a text box that contains a text description of the visual to the report page.
-
 ### Tab order
 
 In the **Tab order** tab, you can manage tab order.

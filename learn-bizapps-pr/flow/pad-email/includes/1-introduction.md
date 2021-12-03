@@ -6,7 +6,7 @@ Power Automate for desktop provides various actions that enable email handling f
 
 Using the email actions, you can automate any webmail service that supports the Internet Message Access Protocol (IMAP) and the Simple Mail Transfer Protocol (SMTP), such as Outlook.com.
 
-To use the available Outlook actions, you have to install the respective software, while the Exchange actions require an existed Exchange server.
+To use the available Outlook actions, you have to install the respective software, while the Exchange actions require an existing Exchange server.
 
 By the end of this module, you'll be familiar with the email, Outlook, and Exchange actions, and you'll be able to develop flows that automate email tasks.
 

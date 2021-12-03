@@ -25,9 +25,6 @@ In this task, you will launch Power BI Desktop and save the new PBIX file.
 
 1. Launch Power BI Desktop.
 
-    > [!div class="mx-imgBorder"]
-    > [![Image of the Power BI Desktop Logo 2020.](../media/power-bi-icon.png)](../media/power-bi-icon.png#lightbox)
-
 1. If applicable, use the "x" in the upper right-hand corner to close the Welcome window.
 
 ### Task 2: Open the PBIX file
