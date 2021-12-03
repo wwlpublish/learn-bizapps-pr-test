@@ -2,7 +2,7 @@
 uid: learn-bizapps.transform-business-process 
 metadata: 
  title: Transform a business process to a canvas app 
- description: This module will help you get into the mindset of a Power Apps maker and start thinking of a solution.
+ description: This module will help you get into the mindset of a Microsoft Power Apps maker and start thinking of a solution.
  ms.date: 12/17/2021  
  author: jadaphillips  
  ms.author: jadaphillips  
@@ -11,13 +11,13 @@ metadata:
 title: Transform a business process to a canvas app 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  One of the hardest aspects of becoming a maker in the Power Platform is knowing how to start with your company's existing data and translate that into a canvas app. This module will help you get into the mindset of a Power Apps maker and start thinking of a solution.  
+  A difficult aspect of becoming a maker in Microsoft Power Platform is knowing how to start with your company's existing data and translate it into a canvas app. This module will help you get into the mindset of a Power Apps maker and start thinking of a solution.
 abstract: |  
     In this module, you will: 
-    - Understand the solution and decisions involved
-    - Learn to apply these concepts to other business solutions
-    - Be able to create a data model
-prerequisites: A basic understanding of Microsoft Power Apps canvas apps.
+    - Discover the solution and decisions involved.
+    - Learn how to apply these concepts to other business solutions.
+    - Learn how to create a data model.
+prerequisites: Basic understanding of Microsoft Power Apps canvas apps
 iconUrl: /learn/achievements/transform-business-process.svg  
 levels:  
 - beginner   
