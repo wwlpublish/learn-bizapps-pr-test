@@ -25,7 +25,8 @@ roles:
 - maker  
 products: 
 - power-platform
-- power-apps 
+- power-apps
+- office-excel
 units: 
 - learn-bizapps.transform-business-process.1-introduction 
 - learn-bizapps.transform-business-process.2-canvas-app 
