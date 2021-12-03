@@ -19,7 +19,7 @@ Contoso needs a new solution that can:
 
 -   Send approved expenses automatically to accounting.
 
--   Allow employees to view the status of their expenses any time.
+-   Allow employees to view the status of their expenses anytime.
 
 Based on these requirements, you've decided that a canvas app is the best solution. While you can use many different data sources to store your data, you'll use Microsoft Dataverse for this module's scenario. Dataverse already has access to your users and works with canvas apps seamlessly.
 
