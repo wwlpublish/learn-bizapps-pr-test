@@ -26,7 +26,6 @@ roles:
 products:
 - power-platform
 - power-apps
-- dataverse
 units:
 - learn-bizapps.connect-filter-data.1-introduction
 - learn-bizapps.connect-filter-data.2-add-controls
