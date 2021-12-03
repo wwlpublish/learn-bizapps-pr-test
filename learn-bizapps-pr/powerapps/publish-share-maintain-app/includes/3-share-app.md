@@ -1,6 +1,6 @@
 Once you've successfully published your app, it's time to share it out so users can begin testing the app.
 
-1. Navigate to [http://make.powerapps.com](http:\\make.powerapps.com/azure-portal=true). You should see your app listed at the bottom of the screen, but if you don't, select **Apps** in the navigation menu.
+1. Navigate to [http://make.powerapps.com](http://make.powerapps.com/?azure-portal=true). You should see your app listed at the bottom of the screen, but if you don't, select **Apps** in the navigation menu.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Power Apps left navigation menu with the Apps option highlighted.](../media/apps-menu-option.png)](../media/apps-menu-option.png#lightbox)

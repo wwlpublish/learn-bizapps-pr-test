@@ -1,6 +1,6 @@
 Even the most proficient, experienced app builders can make mistakes when developing apps. But what's important to understand is how to undo a premature release of your app or revert to a previous version if bugs occur. Let's take a look at how you could revert your app to a previous version, if necessary:
 
-1. Navigate to [http://make.powerapps.com](http:\\make.powerapps.com/azure-portal=true). You should see your app listed at the bottom of the screen, but if you don't, select **Apps** in the navigation menu.
+1. Navigate to [http://make.powerapps.com](http://make.powerapps.com/?azure-portal=true). You should see your app listed at the bottom of the screen, but if you don't, select **Apps** in the navigation menu.
 
 1. Find your app and select the ellipses "**...**" beside it, but this time, select **Details**.
 
