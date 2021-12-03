@@ -1,12 +1,12 @@
 Simply adding the data doesn't mean that your users can see it in your app. You need to add a control to display it. There are two main controls meant to display repeating rows of data, the data table and the gallery.
 
-## Deciding how to display your data
+## Decide how to display your data
 
 Data tables are useful in that they can quickly and easily display data in a way that looks similar to an Excel spreadsheet. The downsides are that you can't edit data or do many customizations, even on individual columns (such as allowing various column widths). A gallery is much more customizable. You can include buttons to take actions on specific lines of data and format fields exactly the way you want them. The downside to galleries is the larger effort to create and customize them. Also, you can't scroll both horizontally and vertically as galleries only allow one or the other.
 
 For this solution, we'll use a gallery since we want to customize the view beyond what a data table allows and take action on your data.
 
-## Adding a gallery
+## Add a gallery
 
 To add a gallery, follow the steps below:
 
