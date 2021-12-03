@@ -1,18 +1,18 @@
-Now that you have chosen to use a canvas app, we need to understand the various pieces of the complete solution to visualize as you move forward into building out and designing the app.
+Now that you have chosen to use a canvas app, you will need to explore the various components of the complete solution so that you have a visual as you move forward into building and designing the app.
 
-**Welcome Screen:** This screen will allow users to choose the direction of their time in the app. They can create new expense reports, review submitted reports, or pick up a previous draft.
-
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the welcome screen.](../media/welcome.png)](../media/welcome.png#lightbox)
-
-**Expense Report Screen:** This screen will show the details of an expense report. This could be to create a new expense report, edit a draft report, or view the details of an older report.
+The **Welcome** screen allows users to choose the direction of their time in the app. They can create new expense reports, review submitted reports, or pick up a previous draft.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the expense report screen.](../media/expense-report.png)](../media/expense-report.png#lightbox)
+> [![Screenshot of the Welcome screen.](../media/welcome.png)](../media/welcome.png#lightbox)
 
-**Multiple Expense Reports Screen:** This will allow employees to choose from existing expense reports to edit or view individual reports. Employees will only see their own reports in our solution, but you can easily add a supervisor or accounting filter so employees can see other reports they may need to approve.
+The **Expense Report** screen shows details of an expense report, such as details that are necessary for creating a new expense report, editing a draft report, or viewing the details of an older report.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the multiple expense reports screen.](../media/multiple-expense-reports.png)](../media/multiple-expense-reports.png#lightbox)
+> [![Screenshot of the Expense Report screen.](../media/expense-report.png)](../media/expense-report.png#lightbox)
 
-With the endless possibilities in Power Apps, we can certainly add more screens and functionality, but we'll focus on these three screens to lay a learning foundation for you. As a challenge, try to take this solution and add more functionality once you've completed the scenario.
+In the **Multiple Expense Reports** screen, employees can choose from existing expense reports to edit or view individual reports. Employees can only view their own reports in this module's solution, but you can add a supervisor or accounting filter so that employees can view other reports that they might need to approve.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the All Expense Reports screen.](../media/multiple-expense-reports.png)](../media/multiple-expense-reports.png#lightbox)
+
+With the endless possibilities in Microsoft Power Apps, you can add more screens and functionality. However, for this module, you'll focus on these three screens so that you have a learning foundation. As a challenge, try to add more functionality to this solution after you've completed the scenario.
