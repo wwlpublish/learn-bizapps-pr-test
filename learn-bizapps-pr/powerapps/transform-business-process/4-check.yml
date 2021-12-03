@@ -27,7 +27,7 @@ quiz:
     - content: To limit having duplicate information in every line
       isCorrect: true 
       explanation: Parent-child relationships help prevent the occurrence of repetitive fields in a table.
-  - content: Which of the following is not a reason for using canvas apps in this solution?
+  - content: Which of the following options is not a reason for using canvas apps in this solution?
     choices: 
     - content: Canvas apps are quickly and easily activated.
       isCorrect: true 
