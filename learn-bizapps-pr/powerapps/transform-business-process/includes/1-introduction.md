@@ -33,4 +33,4 @@ While many potential solutions exist in Microsoft Power Platform, using a canvas
 |     Simple   to learn          |     Canvas   apps use Excel-like formulas in building. If you can use Excel, you   can build an app. Additionally, you can add and move around controls manually, without using formulas, by using the drag and drop canvas in   the building studio.    |
 |     Unique                   |     No   two canvas apps are alike; they allow developers to   express their creativity and build individual apps.                                                                                                                                        |
 
-Now that you have chosen the appropriate path to build your solution, you can explore the rest of the solution so that you have an idea of what you will be building in this learning path.
+Now that you have chosen the appropriate path to build your solution, you can explore the complete solution so that you have an idea of what you will be building in this learning path.
