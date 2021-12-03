@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.publish-share-maintain-app 
+metadata: 
+ title: Publish, share and maintain a canvas app
+ description: This module will teach you how to roll out your first app and subsequent versions of that app.
+ ms.date: 12/17/2021  
+ author: jadaphillips  
+ ms.author: jadaphillips  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps  
+title: Publish, share and maintain a canvas app 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module will teach you how to roll out your first app and subsequent versions of that app. 
+abstract: |  
+    In this module, you will: 
+    - Be able to roll out the primary app build.
+    - Understand how to roll out future iterations.
+    - Understand how to manage versions and publish your app.
+prerequisites: The Target Audience should have a basic understanding of Microsoft canvas apps and Dataverse.
+iconUrl: /learn/achievements/publish-share-maintain-app.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+products: 
+- dynamics-365 
+- power-apps 
+units: 
+- learn-bizapps.publish-share-maintain-app.1-introduction 
+- learn-bizapps.publish-share-maintain-app.2-publish-app 
+- learn-bizapps.publish-share-maintain-app.3-share-app 
+- learn-bizapps.publish-share-maintain-app.4-maintain-app 
+- learn-bizapps.publish-share-maintain-app.5-lifecycle-management 
+- learn-bizapps.publish-share-maintain-app.6-check 
+- learn-bizapps.publish-share-maintain-app.7-summary 
+badge: 
+  uid: learn-bizapps.publish-share-maintain-app.badge 
