@@ -1,4 +1,4 @@
-Even the most proficient app builders can make mistakes when developing apps. What's most important is understanding how to undo a premature release of your app or revert to a previous version if bugs occur. If necessary, you can revert your app to a previous version by following these steps:
+Even the most proficient app builders can make mistakes when developing apps. The key is understanding how to undo a premature release of your app or revert to a previous version if bugs occur. If necessary, you can revert your app to a previous version by following these steps:
 
 1. Go to [http://make.powerapps.com](http://make.powerapps.com/?azure-portal=true). Your app should be listed in the lower part of the screen. If you don't find your app, select **Apps** in the navigation menu.
 
@@ -14,7 +14,7 @@ Even the most proficient app builders can make mistakes when developing apps. Wh
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Versions tab of the Travel Expense Report app.](../media/versions.png)](../media/versions.png#lightbox)
 
-    You can view all versions of your app that have been created and notes that you included when saving. The most recently published version shows as "**Live**" in the **Published** column. You can restore or delete any version that was created in the last six months. Restoring a previous version will not move the version up; instead, it will create a new version that you can then publish. For example, the following image shows that version 6 would stay the same, but a new version (version 8) would be created as a copy of version 6.
+    You can view all versions of your app that have been created and notes that you included when saving. The most recently published version shows as "**Live**" in the **Published** column. You can restore or delete any version that was created in the last six months. Restoring a previous version will not move up the version; instead, it will create a new version that you can then publish. For example, the following image shows that version 6 would stay the same, but a new version (version 8) would be created as a copy of version 6.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of a list of versions, showing Version 6 selected and the option to Restore this version higlighted.](../media/restore-versions.png)](../media/restore-versions.png#lightbox)
