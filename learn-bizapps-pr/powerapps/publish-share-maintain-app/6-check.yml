@@ -24,7 +24,7 @@ quiz:
     - content: User and Owner
       isCorrect: false 
       explanation: As an app owner, the two roles that you can choose from when sharing the app with someone are User and Co-owner.
-    - content: User and Co-admin
+    - content: User and Coadmin
       isCorrect: false 
       explanation: As an app owner, the two roles that you can choose from when sharing the app with someone are User and Co-owner.
   - content: How far back can you restore a previous version of your app?
@@ -35,7 +35,7 @@ quiz:
     - content: Last five months
       isCorrect: false 
       explanation: You can restore a previous version of your app up to the last six months.
-    - content: Last twelve months
+    - content: Last 12 months
       isCorrect: false 
       explanation: You can restore a previous version of your app up to the last six months.
     - content: No limit is placed on how far back you can go; you can restore any previous versions
