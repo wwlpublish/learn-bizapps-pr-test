@@ -48,8 +48,8 @@ quiz:
       isCorrect: false 
     - content: No.
       explanation: This is only required for choice type column types. 
-      isCorrect: true 
+      isCorrect: false 
     - content: Yes, but only for choice type column types.
       explanation: In order to copy data over the names of choice type, columns need to match.
-      isCorrect: false 
+      isCorrect: true 
 
