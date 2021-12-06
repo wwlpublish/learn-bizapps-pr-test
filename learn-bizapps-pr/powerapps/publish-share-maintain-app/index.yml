@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.publish-share-maintain-app 
 metadata: 
- title: Publish, share and maintain a canvas app
+ title: Publish, share, and maintain a canvas app
  description: This module will teach you how to roll out your first app and subsequent versions of that app.
  ms.date: 12/17/2021  
  author: jadaphillips  
  ms.author: jadaphillips  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Publish, share and maintain a canvas app 
+title: Publish, share, and maintain a canvas app 
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module will teach you how to roll out your first app and subsequent versions of that app. 
@@ -24,8 +24,8 @@ levels:
 roles:  
 - maker  
 products: 
-- dynamics-365 
-- power-apps 
+ - power-apps
+ - common-data-service 
 units: 
 - learn-bizapps.publish-share-maintain-app.1-introduction 
 - learn-bizapps.publish-share-maintain-app.2-publish-app 

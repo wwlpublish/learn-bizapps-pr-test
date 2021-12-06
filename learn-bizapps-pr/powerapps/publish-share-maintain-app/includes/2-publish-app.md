@@ -2,9 +2,6 @@ You may have noticed that once you save your application, you can publish and sh
 
 In our example, we've yet to publish the Travel Expense App but that is what we're about to do in this unit. Let's get to it!
 
-> [!NOTE]
-> If your app is still open in Power Apps Studio from the previous module, then you can skip steps 1-3.
-
 1. In your browser, navigate to [http://make.powerapps.com](http://make.powerapps.com/?azure-portal=true).
 
 1. Select **Apps**, on the left.
