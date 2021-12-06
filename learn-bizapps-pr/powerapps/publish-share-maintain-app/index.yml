@@ -17,7 +17,7 @@ abstract: |
     - Be able to roll out the primary app build.
     - Understand how to roll out future iterations.
     - Understand how to manage versions and publish your app.
-prerequisites: The Target Audience should have a basic understanding of Microsoft canvas apps and Dataverse.
+prerequisites: Basic understanding of Microsoft Power Apps canvas apps and Dataverse.
 iconUrl: /learn/achievements/publish-share-maintain-app.svg  
 levels:  
 - beginner   
