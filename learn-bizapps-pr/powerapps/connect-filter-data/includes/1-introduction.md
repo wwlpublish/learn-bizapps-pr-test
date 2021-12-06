@@ -1,4 +1,4 @@
-When building an app, you first spend your time creating a data model and building that model out in Dataverse. So that your solution can meet the needs of your user, it's important that we also interact with the data.
+When building an app, you first spend your time creating a data model and building that model out in Dataverse. So that your solution can meet the needs of your user, it's important that we also interact with the data. We will continue to build the expense report app, and if you did not complete the earlier modules you may download the files here (insert link). The files contain the completed work on the expense report app thus far. 
 
 1. Start by selecting the **Data** button to the left of the tree view. Once there, select the drop-down to **Add data**.
 
