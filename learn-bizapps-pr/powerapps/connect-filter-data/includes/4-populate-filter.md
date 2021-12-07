@@ -9,7 +9,7 @@ To fix this issue, follow these steps:
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Data pane with the ellipsis button selected next to Expense Reports, showing the Refresh option.](../media/refresh-2.png)](../media/refresh-2.png#lightbox)
 
-    The Expense Report data should now be populated in the Gallery.
+    The Expense Report data should populate in the Gallery.
 
 1. Return to the **Tree view**, where you can select various controls. (**Hint:** The **Tree view** icon resembles stacked papers.)
 
@@ -231,7 +231,7 @@ Now, your gallery has the exact appearance that you want. However, you still nee
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the expanded formula bar with the formula added and the Format text button highlighted.](../media/format.png)](../media/format.png#lightbox)
 
-This formula has become somewhat complex, so this section will explain in detail. You've wrapped your initial items property in an **If()** statement, which allows you to specify different outcomes depending on one or more conditions. In this case, the logical test (or condition) is whether the dropdown control is blank or not. If the dropdown control is blank (true value), the items for the gallery will only be filtered by the user. Alternatively, if the dropdown control isn't blank (false value), then the items for the gallery will be filtered by the user and the destination.
+This formula has become complex, so this section will explain in detail. You've wrapped your initial items property in an **If()** statement, which allows you to specify different outcomes depending on one or more conditions. In this case, the logical test (or condition) is whether the dropdown control is blank or not. If the dropdown control is blank (true value), the items for the gallery will only be filtered by the user. Alternatively, if the dropdown control isn't blank (false value), then the items for the gallery will be filtered by the user and the destination.
 
 > [!NOTE]
 > Occasionally, when you reset the **Items** property of a gallery, certain labels switch to looking at different fields. If some of your data appears as if it has disappeared, make sure that the **Text** property of your labels is correct.
