@@ -1,38 +1,41 @@
-1. In a new browser tab, navigate to [make.powerapps.com](https://make.powerapps.com/?azure-portal=true).
+To add Dataverse data to your app, follow these steps:
 
-1. Select **Dataverse/Data** and then select **Tables**.
+1. In a new browser tab, go to [make.powerapps.com](https://make.powerapps.com/?azure-portal=true).
+
+1. Select **Dataverse/Data > Tables**.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the navigation pane with Dataverse and Tables highlighted.](../media/tables.png)](../media/tables.png#lightbox)
 
-1. Choose your **Expense Report** table.
-   > [!Tip]
-   > You may need to change the view to custom tables.
+1. Select your **Expense Report** table.
+   
+   > [!TIP]
+   > You might need to change the view to custom tables.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the list of tables with Expense Report highlighted.](../media/expense-report.png)](../media/expense-report.png#lightbox)
 
-1. Once there, select the **Data** tab. It should say you have no records. Select the **Data** drop-down on the ribbon and select **Edit data in Excel**.
+1. In the **Expense Report** table, select the **Data** tab, which should show that you don't have records. Select the **Data** dropdown menu on the ribbon and then select **Edit data in Excel**.
 
    > [!div class="mx-imgBorder"]
-   > [![Screenshot of the Expense Report table's Data tab with the Data menu expanded to show the Edit data in Excel option.](../media/edit-data.png)](../media/edit-data.png#lightbox)
+   > [![Screenshot of the Data tab in the Expense Report table, with the Data menu expanded to show the Edit data in Excel option.](../media/edit-data.png)](../media/edit-data.png#lightbox)
 
-Once Excel loads, you'll need to **Enable Editing** and ensure you're signed in to the correct tenant by checking the logged-in user in the right-hand editing pane.
-
-   > [!div class="mx-imgBorder"]
-   > [![Screenshot of PowerApps with the logged-in user highlighted.](../media/user.png)](../media/user.png#lightbox)
-
-Afterward, you can edit the sheet like you would any other Excel sheet. The data connector panel on the right will pop up options and information for various fields, such as a date picker for your arrival and departure date fields. The Traveler field can also be chosen here.
+1. After Excel has loaded, select to **Enable Editing**. Make sure that you're signed in to the correct tenant by checking the editing pane in the upper-right corner.
 
    > [!div class="mx-imgBorder"]
-   > [![Screenshot of the Excel spreadsheet with the data connector panel to the right.](../media/excel.png)](../media/excel.png#lightbox)
+   > [![Screenshot of Power Apps with the signed-in user highlighted.](../media/user.png)](../media/user.png#lightbox)
 
-After filling in the Trip Destination, Arrival Date, Departure Date, and Traveler, you can select **Publish** to push your changes to Dataverse. Feel free to add a few more rows of data with different users since we'll be filtering based on that field. Don't worry about Report Status right now. Choice fields can be difficult to edit this way, so we'll wait until we can edit in the canvas app for that one.
+   Afterward, you can edit the sheet as you would any other Excel sheet. The **Data Connector** panel on the right will display options and information for various fields, such as a date picker for your arrival and departure date fields. You can also select the **Traveler** field in the spreadsheet.
 
-> [!NOTE]
-> If you do not have any users in your User table, follow the above steps to populate that table first.
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the Excel spreadsheet with the Data Connector panel to the right.](../media/excel.png)](../media/excel.png#lightbox)
 
-Once you publish, go back into Dataverse and refresh your data. You should now see the data you added in Excel.
+6. After filling in the **Trip Destination**, **Arrival Date**, **Departure Date**, and **Traveler** fields, you can select **Publish** to push your changes to Dataverse. Add a few more rows of data with different users because you'll be filtering based on that field. You don't need to fill in the **Report Status** field at this point. Choice fields can be difficult to edit this way, so wait until you can edit in the canvas app for that field.
+
+   > [!NOTE]
+   > If you don't have users in your User table, follow the preceding steps to populate that table first.
+
+7. After you have published, return to Dataverse and refresh your data. The data that you added in Excel should now display.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Expense Report table with the Refresh data button highlighted.](../media/refresh.png)](../media/refresh.png#lightbox)
