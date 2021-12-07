@@ -34,7 +34,7 @@ quiz:
       explanation: The X and Y properties determine the location. Height and Width determine the size.
     - content: X and Y
       isCorrect: true
-      explanation: X and Y properties determine the location of a control. If, for some reason, a property needs to be placed off screen, you can use the X and Y properties to do so because you can't drag controls off screen.
+      explanation: X and Y properties determine the location of a control. For some reason, if a property needs to be placed off screen, you can use the X and Y properties to do so because you can't drag controls off screen.
     - content: Location
       isCorrect: false
       explanation: The X and Y properties determine the location. The Location property doesn't exist.
