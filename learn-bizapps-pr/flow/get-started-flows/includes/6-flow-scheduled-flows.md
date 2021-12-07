@@ -10,7 +10,7 @@ For this scenario, you will need to make an Excel file with a table that contain
 
 1. Select **My flows**.
 
-1. Select **New**, and then select **Scheduled-from blank**.
+1. Select **New**, and then select **Scheduled cloud flow**.
 
 1. Name your flow and under **Run this flow** set the flow to repeat every one Day.
 
@@ -33,7 +33,7 @@ For this scenario, you will need to make an Excel file with a table that contain
 1. In the search field, enter *chimp*, select the **MailChimp** service, and then select the **MailChimp - Add member to list** action.
 
     > [!NOTE]
-    > MailChimp is a premium connector. Depending on your Power Automate license, you might need to sign up for a trial to use this connector.
+    > MailChimp is a premium connector. Depending on your Power Automate license, you might need to sign up for a trial to use this connector. A MailChimp account is required to complete the folowing steps.
 
 1. In the **List Id** field, select the desired MailChimp mailing list. In the **Status** field, select *subscribed*.
 
