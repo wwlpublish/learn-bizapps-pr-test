@@ -11,11 +11,11 @@ To create a new table in Dataverse, follow the steps below:
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Power Apps Tables menu with the New table option highlighted.](../media/7-new-table.png)](../media/7-new-table.png#lightbox)
 
-A flyout menu will open to ask questions about your new table. The first field, display name, is what you will see when you visit Dataverse. The plural name is used in model driven apps and when writing to Dataverse via Power Automate. Right now, you don't need to worry about either of those, just try to keep your display name singular and your plural name something that makes logical sense. Dataverse tries to help you out with this but isn't always perfect. The next field is Name, which is a system table name. All custom tables begin with a series of letters and numbers, which will differ from tenant to tenant. This cannot be changed. Your system name should be similar to your display name but with no spaces or symbols other than an underscore. As you type your display name, the additional names will populate. In this case, you don't need to change the other names, but always check to make sure they make sense.
+    A flyout menu will open to ask questions about your new table. The first field, display name, is what you will see when you visit Dataverse. The plural name is used in model driven apps and when writing to Dataverse via Power Automate. Right now, you don't need to worry about either of those, just try to keep your display name singular and your plural name something that makes logical sense. Dataverse tries to help you out with this but isn't always perfect. The next field is Name, which is a system table name. All custom tables begin with a series of letters and numbers, which will differ from tenant to tenant. This cannot be changed. Your system name should be similar to your display name but with no spaces or symbols other than an underscore. As you type your display name, the additional names will populate. In this case, you don't need to change the other names, but always check to make sure they make sense.
 
-After your table information, the information for the primary name column is included. This is not the ID column but will act as a primary field for users to distinguish records. We will use trip destination since that is easily distinguishable for users. If we were expanding this to all expense reports and not solely travel related expense reports, we would use something else, like a title column. Your primary name column will always be a text column. You will notice the column also has a display name and a system name; try to follow the same rules here as you did for the table name.
+    After your table information, the information for the primary name column is included. This is not the ID column but will act as a primary field for users to distinguish records. We will use trip destination since that is easily distinguishable for users. If we were expanding this to all expense reports and not solely travel related expense reports, we would use something else, like a title column. Your primary name column will always be a text column. You will notice the column also has a display name and a system name; try to follow the same rules here as you did for the table name.
 
-You now have the option to include attachments. If your scenario includes taking pictures of receipts or plane tickets, you may want to enable this feature, but we will not cover attachments in this learning path. You can enable attachments after creating the table, so don't worry if you are unsure on creation whether your solution requires this functionality.
+    You now have the option to include attachments. If your scenario includes taking pictures of receipts or plane tickets, you may want to enable this feature, but we will not cover attachments in this learning path. You can enable attachments after creating the table, so don't worry if you are unsure on creation whether your solution requires this functionality.
 
 1. Enter the table information to match the screenshot below and then select **Create**.
 
@@ -146,36 +146,36 @@ Create a new table called, **Expense Report Details** Table with the details bel
 
 ### Column information
 
-1. Now create some custom columns for this table, see the columns and details below:
+Now create some custom columns for this table, see the columns and details below:
 
-    - Display name: Category
+- Display name: Category
 
-        - Name: Category
+  - Name: Category
 
-        - Data type: Text
+  - Data type: Text
 
-        - Required: Optional
+  - Required: Optional
 
-        - Description: Category of expense
+  - Description: Category of expense
 
-    - Display name: Transaction Date
+- Display name: Transaction Date
 
-        - Name: Transaction Date
+  - Name: Transaction Date
 
-        - Data type: Date Only
+  - Data type: Date Only
 
-        - Required: Optional
+  - Required: Optional
 
-        - Description: Date transaction for expense
+  - Description: Date transaction for expense
 
-    - Display name: Amount
+- Display name: Amount
 
-        - Name: Amount
+  - Name: Amount
 
-        - Data type: Currency
+  - Data type: Currency
 
-        - Required: Optional
+  - Required: Optional
 
-        - Description: Amount of expense
+  - Description: Amount of expense
 
 When you are done adding these columns, don't forget to select **Save Table** to ensure your work on this table is saved.
