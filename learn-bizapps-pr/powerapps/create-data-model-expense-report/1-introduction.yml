@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.create-data-model-expense-report.1-introduction 
+title: Introduction
+metadata: 
+  title: Introduction
+  description: Introduction to creating, using, and relating tables in Dataverse. 
+  ms.date: 12/17/2021 
+  author: jadaphillips 
+  ms.author: jadaphillips 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 
