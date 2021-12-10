@@ -19,13 +19,13 @@ To create a new table in Dataverse, follow the steps below:
 
 1. Enter the table information to match the screenshot below and then select **Create**.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of New table information fields with the Create button highlighted.](../media/8-create.png)](../media/8-create.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of New table information fields with the Create button highlighted.](../media/8-create.png)](../media/8-create.png#lightbox)
 
-After several seconds, your table will appear. Wait until you receive the message that your table has been provisioned successfully before continuing.
+    After several seconds, your table will appear. Wait until you receive the message that your table has been provisioned successfully before continuing.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of message Your table Expense Report has been provisioned successfully.](../media/9-expense-success.png)](../media/9-expense-success.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of message Your table Expense Report has been provisioned successfully.](../media/9-expense-success.png)](../media/9-expense-success.png#lightbox)
 
 You will see that Dataverse has created several columns for you to help you organize and secure your information. We will not be using all these columns but take a moment to look through them in case you need to use them later.
 
