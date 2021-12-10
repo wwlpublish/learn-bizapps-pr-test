@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.write-data-source.6-check
+title: Check your knowledge
+metadata:
+ title: Check your knowledge
+ description: Answer the following questions to see what you've learned.
+ ms.date: 12/17/2021
+ author: jadaphillips
+ ms.author: jadaphillips
+ ms.topic: interactive-tutorial
+ ms.prod: learning-power-apps
+durationInMinutes: 6
+quiz:
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: To view or edit the properties of a Control, what three places could you look in the Power Apps Studio Editor?
+    choices:
+    - content: All of the properties can always be found on the Toolbar, Properties dropdown, or in the Properties pane.
+      isCorrect: true
+      explanation: Correct. All of the properties can always be found on the Toolbar, Properties dropdown, or in the Properties pane.
+    - content: All of the properties can always be found in the Help tab, Properties dropdown, or in the Properties pane.
+      isCorrect: false
+      explanation: Incorrect. All of the properties can always be found on the Toolbar, Properties dropdown, or in the Properties pane.
+    - content: All of the properties can always be found on the Toolbar, Tree view, or in the Properties pane.
+      isCorrect: false
+      explanation: Incorrect. All of the properties can always be found on the Toolbar, Properties dropdown, or in the Properties pane.
+    - content: All of the properties can always be found on the Toolbar, Properties dropdown, or in the App Components.
+      isCorrect: false
+      explanation: Incorrect. All of the properties can always be found on the Toolbar, Properties dropdown, or in the Properties pane.
+  - content: What is the difference between the Remove() function and RemoveIf() function?
+    choices:
+    - content: There's no difference, they do the same thing, delete records.
+      isCorrect: false
+      explanation: Incorrect. The Remove() function deletes a single record and RemoveIf() can delete multiple records.
+    - content: The Remove() function deletes multiple records and RemoveIf() can only delete a single record.
+      isCorrect: false
+      explanation: Incorrect. The Remove() function deletes a single record and RemoveIf() can delete multiple records.
+    - content: The Remove() function deletes a single record and RemoveIf() can delete multiple records.
+      isCorrect: true
+      explanation: Correct. The Remove() function deletes a single record and RemoveIf() can delete multiple records.
+    - content: Remove() can only delete items from a collection but RemoveIf() can delete items from collections and data sources such as SharePoint, Dataverse, and Azure SQL.
+      isCorrect: false
+      explanation: Incorrect. The Remove() function deletes a single record and RemoveIf() can delete multiple records.
+  - content: Which Power Apps function could you use to add up all of the values in a gallery or collection for a specific column?
+    choices:
+    - content: Value(Data source, column)
+      isCorrect: false
+      explanation: Incorrect. The Sum(Data source, column) function adds all of the values in a specific column for a gallery or collection.
+    - content: Sum(Data source, column)
+      isCorrect: true
+      explanation: Correct. The Sum(Data source, column) function adds all of the values in a specific column for a gallery or collection.
+    - content: Text(Data source, column)
+      isCorrect: false
+      explanation: Incorrect. The Sum(Data source, column) function adds all of the values in a specific column for a gallery or collection.
+    - content: Text(Value(Sum(Data source, column)))
+      isCorrect: false
+      explanation: Incorrect. The Sum(Data source, column) function adds all of the values in a specific column for a gallery or collection.
