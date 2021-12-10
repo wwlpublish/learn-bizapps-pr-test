@@ -13,45 +13,45 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: When Sharing an App, as the Owner, what 2 roles are available to choose from?
+  - content: As an app owner, what two roles can you choose from when sharing the app with someone?
     choices: 
-    - content: User and Admin.
+    - content: User and Admin
       isCorrect: false
-      explanation: When Sharing an App, as the Owner, User and Co-owner are 2 available roles.
-    - content: User and Co-owner.
+      explanation: As an app owner, the two roles that you can choose from when sharing the app with someone are User and Co-owner.
+    - content: User and Co-owner
       isCorrect: true 
-      explanation: When Sharing an App, as the Owner, User and Co-owner are 2 available roles.
-    - content: User and Owner.
+      explanation: As an app owner, the two roles that you can choose from when sharing the app with someone are User and Co-owner.
+    - content: User and Owner
       isCorrect: false 
-      explanation: When Sharing an App, as the Owner, User and Co-owner are 2 available roles.
-    - content: User and Co-admin.
+      explanation: As an app owner, the two roles that you can choose from when sharing the app with someone are User and Co-owner.
+    - content: User and Coadmin
       isCorrect: false 
-      explanation: When Sharing an App, as the Owner, User and Co-owner are 2 available roles.
+      explanation: As an app owner, the two roles that you can choose from when sharing the app with someone are User and Co-owner.
   - content: How far back can you restore a previous version of your app?
     choices: 
-    - content: Last six months.
+    - content: Last six months
       isCorrect: true 
       explanation: You can restore a previous version of your app up to the last six months.
-    - content: Last five months.
+    - content: Last five months
       isCorrect: false 
       explanation: You can restore a previous version of your app up to the last six months.
-    - content: Last twelve months.
+    - content: Last 12 months
       isCorrect: false 
       explanation: You can restore a previous version of your app up to the last six months.
-    - content: There is no limit on how far back you can go, any previous versions can be restored.
+    - content: No limit is placed on how far back you can go; you can restore any previous versions
       isCorrect: false 
       explanation: You can restore a previous version of your app up to the last six months.
-  - content: What are the 5 stages, in order, of the Application Lifecycle Management?
+  - content: What are the five stages, in sequential order, of application lifecycle management?
     choices: 
-    - content: Plan, Develop, Deploy, Test, Maintain.
+    - content: Plan, Develop, Deploy, Test, Maintain
       isCorrect: false 
-      explanation: The 5 stages of the Application Lifecycle Management are Plan, Develop, Test, Deploy, and Maintain. 
-    - content: Plan, Test, Develop, Deploy, Maintain.
+      explanation: The five stages of application lifecycle management are Plan, Develop, Test, Deploy, and Maintain. 
+    - content: Plan, Test, Develop, Deploy, Maintain
       isCorrect: false 
-      explanation: The 5 stages of the Application Lifecycle Management are Plan, Develop, Test, Deploy, and Maintain.
-    - content: Plan, Develop, Test, Deploy, Maintain.
+      explanation: The five stages of application lifecycle management are Plan, Develop, Test, Deploy, and Maintain.
+    - content: Plan, Develop, Test, Deploy, Maintain
       isCorrect: true
-      explanation: The 5 stages of the Application Lifecycle Management are Plan, Develop, Test, Deploy, and Maintain.
-    - content: Plan, Develop, Deploy, Maintain, Test.
+      explanation: The five stages of application lifecycle management are Plan, Develop, Test, Deploy, and Maintain.
+    - content: Plan, Develop, Deploy, Maintain, Test
       isCorrect: false 
-      explanation: The 5 stages of the Application Lifecycle Management are Plan, Develop, Test, Deploy, and Maintain.      
+      explanation: The five stages of application lifecycle management are Plan, Develop, Test, Deploy, and Maintain.      
