@@ -26,7 +26,6 @@ roles:
 products:
 - power-platform
 - power-apps
-- dataverse
 units:
 - learn-bizapps.write-data-source.1-introduction
 - learn-bizapps.write-data-source.2-base-controls
