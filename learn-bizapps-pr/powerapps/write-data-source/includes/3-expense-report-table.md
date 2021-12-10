@@ -63,29 +63,29 @@ In our scenario, and many real-world scenarios, users will need the functionalit
 
 1. Still on the **Scr_EditExpense** screen, select **Btn_SaveAsDraft_EditExpense** and change the **OnSelect** property to the following:
 
-```powerappsfl
-Set(
-VarExpense,
-Patch(
-    'Expense Reports',
-    If(
-        VarExpenseMode = "New",
-        Defaults('Expense Reports'),
-        VarExpense
-    ),
-    {
-        'Trip Destination': Txt_Destination_EditExpense.Text,
-        'Departure Date': Dte_Departure_EditExpense.SelectedDate,
-        'Arrival Date': Dte_Arrival_EditExpense.SelectedDate,
-        'Report Status': ['Report Status'.Draft],
-        Traveler: LookUp(
-            Users,
-            'Primary Email' = VarUser.Email
-        )
-    }
-)
-)
-```
+   ```powerappsfl
+   Set(
+   VarExpense,
+   Patch(
+      'Expense Reports',
+      If(
+         VarExpenseMode = "New",
+         Defaults('Expense Reports'),
+         VarExpense
+      ),
+      {
+         'Trip Destination': Txt_Destination_EditExpense.Text,
+         'Departure Date': Dte_Departure_EditExpense.SelectedDate,
+         'Arrival Date': Dte_Arrival_EditExpense.SelectedDate,
+         'Report Status': ['Report Status'.Draft],
+         Traveler: LookUp(
+               Users,
+               'Primary Email' = VarUser.Email
+         )
+      }
+   )
+   )
+   ```
 
 If you're unsure about what this code is doing, don't worry. It's the most complex piece we've done so far in this learning path. To help you better understand, here's a little breakdown of what's happening.
 
