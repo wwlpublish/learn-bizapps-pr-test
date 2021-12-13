@@ -9,7 +9,7 @@ Power Apps portals implements numerous extensions that are specific to the porta
 - Website
 - Generic entities
 
-[Power Apps Dataverse table tags](/powerapps/maker/portals/liquid/portals-table-tags/?azure-portal=true) include:
+[Power Apps Dataverse table tags](/powerapps/maker/portals/liquid/portals-entity-tags/?azure-portal=true) include:
 
 - chart
 - Power BI
