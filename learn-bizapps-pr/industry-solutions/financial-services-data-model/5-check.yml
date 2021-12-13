@@ -45,10 +45,10 @@ quiz:
     choices:
     - content: Four
       isCorrect: false
-      explanation: Correct.
+      explanation: Incorrect.
     - content: Three
       isCorrect: true
-      explanation: Incorrect.
+      explanation: Correct.
     - content: Two
       isCorrect: false
       explanation: Incorrect.
