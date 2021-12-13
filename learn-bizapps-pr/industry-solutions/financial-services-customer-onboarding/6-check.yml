@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.financial-services-customer-onboarding.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 12/13/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-industry-solutions 
+durationInMinutes: 8 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What Power Apps portal is included with Customer Onboarding?
+    choices: 
+    - content: Commercial Banking Sample Portal
+      isCorrect: false
+      explanation: Retail Banking Sample Portal is included with Customer Onboarding.
+    - content: Retail Banking Sample Portal
+      isCorrect: true
+      explanation: Retail Banking Sample Portal is included with Customer Onboarding.
+    - content: Loan Application Sample Portal
+      isCorrect: false 
+      explanation: Retail Banking Sample Portal is included with Customer Onboarding.
+    - content: No sample portal is included
+      isCorrect: false 
+      explanation: Retail Banking Sample Portal is included with Customer Onboarding.
+  - content: What entity is used for tracking a loan application in the Loan Onboarding app?
+    choices: 
+    - content: Loan application
+      isCorrect: true 
+      explanation: Loan application entity is used for tracking a loan application in the Loan Onboarding app.
+    - content: Contact
+      isCorrect: false 
+      explanation: Loan application entity is used for tracking a loan application in the Loan Onboarding app.
+    - content: Account
+      isCorrect: false 
+      explanation: Loan application entity is used for tracking a loan application in the Loan Onboarding app.
+    - content: Loan onboarding
+      isCorrect: false 
+      explanation: Loan application entity is used for tracking a loan application in the Loan Onboarding app.
+  - content: What process can be extended to better track loan applications in Loan onboarding?
+    choices: 
+    - content: Loan Application Process
+      isCorrect: false
+      explanation: Business Process Flow can be extended to better track loan applications in Loan Onboarding.
+    - content: Business Process Flow
+      isCorrect: true 
+      explanation: Business Process Flow can be extended to better track loan applications in Loan Onboarding.
+    - content: Power Apps Flow
+      isCorrect: false 
+      explanation: Business Process Flow can be extended to better track loan applications in Loan Onboarding.
+    - content: Dynamics 365 Process
+      isCorrect: false 
+      explanation: Business Process Flow can be extended to better track loan applications in Loan Onboarding.
+  - content: Customer Onboarding can be deployed from where?
+    choices: 
+    - content: Power Apps Admin Center
+      isCorrect: false
+      explanation: Customer Onboarding can be deployed from Microsoft Solution Center.
+    - content: Microsoft 365 Admin Center
+      isCorrect: false 
+      explanation: Customer Onboarding can be deployed from Microsoft Solution Center.
+    - content: Microsoft AppSource
+      isCorrect: false 
+      explanation: Customer Onboarding can be deployed from Microsoft Solution Center.
+    - content: Microsoft Solution Center
+      isCorrect: true 
+      explanation: Customer Onboarding can be deployed from Microsoft Solution Center.
