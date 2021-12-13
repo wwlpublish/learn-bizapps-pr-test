@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-services-data-model.5-check
+title: Check your knowledge
+metadata:
+ title: Check your knowledge
+ description: Answer the following questions to see what you've learned.
+ ms.date: 12/20/2021
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-d365-financial-services
+durationInMinutes: 8
+quiz:
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: What is at the heart of Microsoft's Data Platform strategy?
+    choices:
+    - content: Microsoft Azure
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Microsoft Common Data Model
+      isCorrect: true
+      explanation: Correct.
+    - content: Power Platform
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Microsoft SQL Server
+      isCorrect: false
+      explanation: Incorrect.
+  - content: Which of the following is not a layer in Financial Services Industry Data Model?
+    choices:
+    - content: Financial Services Common Data Model
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Retail Banking Core Data Model
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Commercial Banking Data Model
+      isCorrect: true
+      explanation: Correct.
+    - content: Loan Onboarding Data Model
+      isCorrect: false
+      explanation: Incorrect.
+  - content: How many layers make up the Financial Services Industry Data Model?
+    choices:
+    - content: 4
+      isCorrect: false
+      explanation: Correct.
+    - content: 3
+      isCorrect: true
+      explanation: Incorrect.
+    - content: 2
+      isCorrect: false
+      explanation: Incorrect.
+    - content: 1
+      isCorrect: false
+      explanation: Incorrect.
+  - content: Unified Customer Profile uses which of the following Data model layers?
+    choices:
+    - content: All three layers that form Financial Services Industry Data Model
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Only Retail Banking Core Data Model
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Retail Banking Core Data Model and Loan Onboarding Data Model
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Financial Services Common Data Model and Retail Banking Core Data Model
+      isCorrect: true
+      explanation: Correct.
