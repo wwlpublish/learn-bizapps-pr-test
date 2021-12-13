@@ -1,0 +1,1 @@
+This module taught you about the financials services industry trends that have shaped the basis for Microsoft Cloud for Financial Services. You learned about the prioritized scenarios and the relevant capabilities. Finally, you learned about the Architecture and the core components that form the Microsoft Cloud for Financial Services.
