@@ -1,4 +1,4 @@
-The Microsoft Cloud for Financial Services uses a combination of Microsoft Products to address the industry prioritized scenarios focused on Retail Banking. The illustration below reflects the required and recommended capabilities along with the third party extensions that are driven by Independent Software Vendors and System Integrators.
+The Microsoft Cloud for Financial Services uses a combination of Microsoft Products to address the industry prioritized scenarios focused on Retail Banking. The illustration below reflects the required and recommended capabilities along with the third-party extensions that are driven by Independent Software Vendors and System Integrators.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram of Microsoft Cloud for Financial Services architecture.](../media/architecture.png)](../media/architecture.png#lightbox)
