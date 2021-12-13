@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.financial-services-overview.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 12/13/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-industry-solutions 
+durationInMinutes: 8 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What is the purpose of Unified Customer Profile capability?
+    choices: 
+    - content: Empower Employees with meaningful collaboration.
+      isCorrect: false
+      explanation: The purpose of Unified Customer Profile capability is to gain a comprehensive view of the customer's financial situation.
+    - content: Gain comprehensive view of the customer’s financial situation.
+      isCorrect: true 
+      explanation: The purpose of Unified Customer Profile capability is to gain a comprehensive view of the customer's financial situation.
+    - content: Maintain a comprehensive compliance posture.
+      isCorrect: false 
+      explanation: The purpose of Unified Customer Profile capability is to gain a comprehensive view of the customer's financial situation.
+    - content: No such capability is included in Microsoft Cloud for Financial Services.
+      isCorrect: false 
+      explanation: The purpose of Unified Customer Profile capability is to gain a comprehensive view of the customer's financial situation.
+  - content: How are the financial services institutions reacting to Covid disruptions?
+    choices: 
+    - content: Financial institutions are prioritizing Cloud Services for digital transformation.
+      isCorrect: true 
+      explanation: Financial institutions are reacting to Covid disruptions by prioritizing Cloud Services for digital transformation.
+    - content: Financial institutions are prioritizing On-premises deployments.
+      isCorrect: false 
+      explanation: Financial institutions are reacting to Covid disruptions by prioritizing Cloud Services for digital transformation.
+    - content: Financial institutions are competing with startups.
+      isCorrect: false 
+      explanation: Financial institutions are reacting to Covid disruptions by prioritizing Cloud Services for digital transformation.
+    - content: Covid hasn’t disrupted Financial services industry.
+      isCorrect: false 
+      explanation: Financial institutions are reacting to Covid disruptions by prioritizing Cloud Services for digital transformation.
+  - content: How are customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services?
+    choices: 
+    - content: Using integration services such as Logic Apps.
+      isCorrect: false
+      explanation: Customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services by using prebuilt connectors and retail banking data models.
+    - content: Using prebuilt connectors and retail banking data model.  
+      isCorrect: true 
+      explanation: Customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services by using prebuilt connectors and retail banking data models.
+    - content: Power Apps Flow
+      isCorrect: false 
+      explanation: Customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services by using prebuilt connectors and retail banking data models.
+    - content: Business Process Flow
+      isCorrect: false 
+      explanation: Customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services by using prebuilt connectors and retail banking data models.
+  - content: Which of these capabilities form Combatting Financial Crime scenario?
+    choices: 
+    - content: Account and Purchase Compliance
+      isCorrect: false
+      explanation: Account and Purchase Protection form Combatting Financial Crime scenario.
+    - content: Customer Onboarding Portal
+      isCorrect: false 
+      explanation: Account and Purchase Protection form Combatting Financial Crime scenario.
+    - content: Account and Purchase Protection
+      isCorrect: true
+      explanation: Account and Purchase Protection form Combatting Financial Crime scenario.
+    - content: Microsoft AppSource
+      isCorrect: false 
+      explanation: Account and Purchase Protection form Combatting Financial Crime scenario.
