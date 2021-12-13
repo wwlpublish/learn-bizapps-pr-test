@@ -43,16 +43,16 @@ quiz:
       explanation: Incorrect.
   - content: How many layers make up the Financial Services Industry Data Model?
     choices:
-    - content: 4
+    - content: Four
       isCorrect: false
       explanation: Correct.
-    - content: 3
+    - content: Three
       isCorrect: true
       explanation: Incorrect.
-    - content: 2
+    - content: Two
       isCorrect: false
       explanation: Incorrect.
-    - content: 1
+    - content: One
       isCorrect: false
       explanation: Incorrect.
   - content: Unified Customer Profile uses which of the following Data model layers?
