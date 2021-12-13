@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-services-data-model.4-data-model-extensibility
+title: Data Model extensibility and known limitations
+metadata:
+  title: Data Model extensibility and known limitations
+  description: Learn about extensibility factors and known limitations.
+  ms.date: 12/20/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-financial-services
+durationInMinutes: 2
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/4-data-model-extensibility.md)]
