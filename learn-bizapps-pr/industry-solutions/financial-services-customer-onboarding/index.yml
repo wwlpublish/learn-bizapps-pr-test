@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.financial-services-customer-onboarding 
+metadata: 
+ title: Financial Services customer onboarding
+ description: In this module, you'll learn how to streamline the customer-onboarding experience within a financial services organization by configuring self-service tools in the Microsoft Cloud for Financial Services. 
+ ms.date: 12/13/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-industry-solutions  
+title: Financial Services customer onboarding
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  In this module you'll learn how to streamline the customer-onboarding experience within a financial services organization by configuring self-service tools in the Microsoft Cloud for Financial Services that enable relationship managers to monitor the loan process. Customers can efficiently apply for and track a loan by easily accessing a mobile app or portal, while the automated pipeline helps them review and validate application information. Relationship managers can monitor the loan process and ensure consistent, reliable customer experiences. More information can be found at [Customer onboarding overview](/dynamics365/industry/financial-services/customer-onboarding-overview/?azure-portal=true). 
+abstract: |  
+    In this module, you will: 
+    - Configure the Retail Banking Sample Portal
+    - Extend the Loan Tracker application
+    - Embed the Loan Tracker app in Microsoft Teams
+    - Submit and approve a loan
+prerequisites: Training Environment Preparation
+iconUrl: /learn/achievements/financial-services-customer-onboarding.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products: 
+- power-platform
+- industry-solutions 
+- mscloud-financial
+units: 
+- learn-bizapps.financial-services-customer-onboarding.1-introduction 
+- learn-bizapps.financial-services-customer-onboarding.2-retail-banking 
+- learn-bizapps.financial-services-customer-onboarding.3-extend-loan-tracker 
+- learn-bizapps.financial-services-customer-onboarding.4-embed-loan-tracker 
+- learn-bizapps.financial-services-customer-onboarding.5-submit-approve-loan 
+- learn-bizapps.financial-services-customer-onboarding.6-check 
+- learn-bizapps.financial-services-customer-onboarding.7-summary 
+badge: 
+  uid: learn-bizapps.financial-services-customer-onboarding.badge 
