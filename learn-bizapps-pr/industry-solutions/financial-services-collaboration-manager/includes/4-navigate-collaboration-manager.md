@@ -1,4 +1,4 @@
-In this exercise, you will navigate Collaboration Manager for Loans and explore the collaborative features it provides. In this case, we will examine the home loan for Hayden Reyes to see how a loan team could collaborate with each other to ensure completion of the loan.
+In this exercise, you'll navigate Collaboration Manager for Loans and explore the collaborative features it provides. In this case, we'll examine the home loan for Hayden Reyes to see how a loan team could collaborate with each other to ensure completion of the loan.
 
 1. To begin, open the Teams channel that you pinned your app to in the previous exercise. You should see a dashboard page where you can see graphs of the relevant data along with a list of loans that are currently active.
     > [!div class="mx-imgBorder"]
@@ -18,7 +18,7 @@ In this exercise, you will navigate Collaboration Manager for Loans and explore 
 
 ## Task 1: Creating tasks in Collaboration Manager for Loans
 
-1. The first tab that we will explore that provides collaboration is the **Tasks** tab. Selecting it will reveal an empty page where users can add all the relevant tasks they need to complete.
+1. The first tab that we'll explore that provides collaboration is the **Tasks** tab. Selecting it will reveal an empty page where users can add all the relevant tasks they need to complete.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the loan application Tasks tab.](../media/no-tasks.png)](../media/no-tasks.png#lightbox)
@@ -59,7 +59,7 @@ In this exercise, you will navigate Collaboration Manager for Loans and explore 
 
 1. To add a new note, select **New note**.
 
-1. You can then provide details regarding the loan. In the example below, we're providing notes regarding the last meeting we had with the customer.
+1. You can then provide details about the loan. In the example below, we're providing notes about the last meeting we had with the customer.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the loan application on the Notes tab showing the new note with changes to be saved.](../media/notes.png)](../media/notes.png#lightbox)
@@ -68,7 +68,7 @@ In this exercise, you will navigate Collaboration Manager for Loans and explore 
 
 ## Task 3: Creating meetings in Collaboration Manager for Loans
 
-1. To schedule both internal and external meetings regarding the loan, start by selecting the **Meetings** tab for a loan record.
+1. To schedule both internal and external meetings about the loan, start by selecting the **Meetings** tab for a loan record.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the loan application on the Meetings tab showing a schedule with no meetings.](../media/no-meetings.png)](../media/no-meetings.png#lightbox)
@@ -95,7 +95,7 @@ In this exercise, you will navigate Collaboration Manager for Loans and explore 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Customer Booking dialog.](../media/booking.png)](../media/booking.png#lightbox)
 
-1. Once you're finished, you should see both meetings in your meeting list. Once the meeting has started you can join it by selecting the **Join** button; this will open the meeting directly within Microsoft Teams.
+1. Once you're finished, you should see both meetings in your meeting list. Once the meeting has started, you can join it by selecting the **Join** button. This will open the meeting directly within Microsoft Teams.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the loan application on the Meetings tab showing both meetings added.](../media/meetings-added.png)](../media/meetings-added.png#lightbox)

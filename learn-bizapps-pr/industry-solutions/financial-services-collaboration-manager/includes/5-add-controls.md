@@ -1,4 +1,4 @@
-In this exercise, you will be embedding the Loan Application form from the Loan Tracker app so that your users can have access to even more information within Collaboration Manager for Loans. All the apps in the Microsoft Cloud for Financial Services use the same data model, which allow you to mix-and-match the experiences for the various apps.
+In this exercise, you'll embed the Loan Application form from the Loan Tracker app so that your users can have access to even more information within Collaboration Manager for Loans. All the apps in the Microsoft Cloud for Financial Services use the same data model, which allows you to mix-and-match the experiences for the various apps.
 
 ## Task 1: Replace default form within Collaboration Manager
 
@@ -11,7 +11,7 @@ In this exercise, you will be embedding the Loan Application form from the Loan 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the New solution dialog with Display name, Name, Publisher, and Version filled in.](../media/solution.png)](../media/solution.png#lightbox)
 
-1. Open the solution you just created.
+1. Open the solution you created.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Solutions list with the loan tracker in collaboration manager highlighted.](../media/solutions-list.png)](../media/solutions-list.png#lightbox)
@@ -37,7 +37,7 @@ In this exercise, you will be embedding the Loan Application form from the Loan 
 
 1. Select **Save**.
 
-1. Select **Publish**. If you played the app at this point within Microsoft Teams, the components from Loan Tracker will be present, but the collaborative features like tasks, meetings, and notes would not be present.
+1. Select **Publish**. If you played the app at this point within Microsoft Teams, the components from Loan Tracker will be present, but the collaborative features like tasks, meetings, and notes wouldn't be present.
 
 ## Task 2: Adding Collaboration Toolkit experiences in the Loan tracker form
 

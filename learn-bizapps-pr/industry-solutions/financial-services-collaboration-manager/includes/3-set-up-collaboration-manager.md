@@ -1,4 +1,4 @@
-In this exercise, you will configure the settings for Collaboration Manager for Loans so that it correctly works with Microsoft 365 services like Teams, Bookings, and Planner. In this case, we will examine how you can bind Collaboration Manager to a new Microsoft Teams team and Bookings business for a bank branch that would like to use the product.
+In this exercise, you'll configure the settings for Collaboration Manager for Loans so that it correctly works with Microsoft 365 services like Teams, Bookings, and Planner. In this case, we'll examine how you can bind Collaboration Manager to a new Microsoft Teams team and Bookings business for a bank branch that wants to use the product.
 
 At the end, you'll then learn how you can take a model-driven app like Collaboration Manager for Loans and embed it in Teams as both a teams tab and as a personal app.
 
@@ -6,7 +6,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
 
 1. Open **Microsoft Teams** and navigate to **Teams** in the left app bar.
 
-1. Select **Join or create a team** so that we can create a new branch that will be leveraging Collaboration Manager for Loans.
+1. Select **Join or create a team** so that we can create a new branch that will be using Collaboration Manager for Loans.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Microsoft Teams on the Teams page with the Join or create a team button highlighted.](../media/join.png)](../media/join.png#lightbox)
@@ -42,7 +42,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Teams with the ellipsis button selected and the Get link to team option highlighted.](../media/get-link.png)](../media/get-link.png#lightbox)
 
-1. Record the value of **groupId** from within the URL somewhere safe. You will use this value in a future step while defining the settings of your solution.
+1. Record the value of **groupId** from within the URL somewhere safe. You'll use this value in a future step while defining the settings of your solution.
 
     `https://teams.microsoft.com/l/team/19%3akk_TuKhjXu92yJvg4TZ10S6rouLSCgvHIb5NOOTfRjg1%40thread.tacv2/conversations?groupId=`**4310f270-1aa5-4089-99f3-47eb3b4d69ad**`&tenantId=b699419b-e0df-47e3-9909-24076fdcf68b`
 
@@ -55,7 +55,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Office 365 apps with Bookings highlighted.](../media/bookings.png)](../media/bookings.png#lightbox)
 
-1. If this is your first time using Bookings, you may be prompted with a **Get it now** button, select that to continue. If you already have a Bookings business and need to create an additional one, select the chevron next to your currently active Bookings business and select **New**.
+1. If this is your first time using Bookings, you may be prompted with a **Get it now** button, select that to continue. If you already have a Bookings business and need to create another one, select the chevron next to your currently active Bookings business and select **New**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Bookings with the drop-down arrow next to the existing bookings business selected to reveal the New option.](../media/new-booking.png)](../media/new-booking.png#lightbox)
@@ -65,7 +65,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Welcome to Bookings with name and type of business filled in.](../media/welcome.png)](../media/welcome.png#lightbox)
 
-1. You may now provide additional details for your Bookings business by configuring the **Booking page**, **Staff**, **Services**, and **Business Information** pages by selecting them in the left navigation.
+1. You may now provide more details for your Bookings business by configuring the **Booking page**, **Staff**, **Services**, and **Business Information** pages by selecting them in the left navigation.
 
 ## Task 4: Retrieve the alias of the new Bookings business
 
@@ -74,7 +74,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the drop-down arrow next to the existing bookings business selected to reveal the Open option.](../media/open.png)](../media/open.png#lightbox)
 
-1. Once the dialog appears, re-select your new Bookings business.
+1. Once the dialog appears, reselect your new Bookings business.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Choose a booking calendar with Loan Business selected.](../media/calendar.png)](../media/calendar.png#lightbox)
@@ -88,7 +88,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
 
 1. Now that we have both the Group ID and the Bookings business ID, we can set them as values within the Collaboration Toolkit settings. To begin, open up [https://make.powerapps.com/](https://make.powerapps.com/?azure-portal=true).
 
-1. Ensure you are in the correct environment by using the environment picker in the top right.
+1. Ensure you're in the correct environment by using the environment picker in the top right.
 
 1. Navigate to the **Solutions** page in the left navigation.
 
@@ -102,7 +102,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
     > [!div class="mx-imgBorder"]
     > [![Screenshot of New solution with Display name, Name, Publisher, and Version filled in.](../media/solution-filled.png)](../media/solution-filled.png#lightbox)
 
-1. Once you have created your solution, navigate into it by selecting it in the list of solutions.
+1. Once you've created your solution, navigate into it by selecting it in the list of solutions.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Solutions with Collaboration Manager Settings highlighted.](../media/solutions.png)](../media/solutions.png#lightbox)
@@ -112,7 +112,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Power Apps with the New menu expanded, the More option expanded, the Other option expanded, and the Settings Value option selected.](../media/settings-value.png)](../media/settings-value.png#lightbox)
 
-1. For our first settings value, we will provide the value of our teams group. Paste the value you retrieved from step 10 in the **Value** field. Set **Settings Group ID** to "Collaboration Manager for Loans" and **Settings Definition ID** to "Group ID."
+1. For our first settings value, we'll provide the value of our teams group. Paste the value you retrieved from step 10 in the **Value** field. Set **Settings Group ID** to "Collaboration Manager for Loans" and **Settings Definition ID** to "Group ID."
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of New Settings Value with the Value, Settings Group I D, Settings Definition I D, and Owner filled in.](../media/new-settings-value.png)](../media/new-settings-value.png#lightbox)
@@ -132,7 +132,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
 
 1. Now that the settings are defined, we can now add the app to Microsoft Teams. To begin, navigate to [teams.microsoft.com](https://teams.microsoft.com/?azure-portal=true) using your lab credentials.
 
-1. Once you are there, find the team you created in Task 1 above.
+1. Once you're there, find the team you created in Task 1 above.
 
 1. In the general channel for the team, select **+** and note the **Add a tab** dialog show up.
 
@@ -144,7 +144,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Add a tab with Power Apps selected.](../media/power-apps.png)](../media/power-apps.png#lightbox)
 
-1. This will open the **Power Apps** add in. Select **Add** to open the app selection wizard.
+1. This will open the **Power Apps** add-in. Select **Add** to open the app selection wizard.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Power Apps add in with the Add button highlighted.](../media/add-in.png)](../media/add-in.png#lightbox)
@@ -154,7 +154,7 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the app selection wizard with search within this list set to model-driven apps.](../media/model-driven.png)](../media/model-driven.png#lightbox)
 
-1. Now search for **Collaboration Manager** and select the app that corresponds to your dedicated environment. For example, if you are working with environment 100, you would select the app with environment FSIInADay_100 against its name.
+1. Now search for **Collaboration Manager** and select the app that corresponds to your dedicated environment. For example, if you're working with environment 100, you would select the app with environment FSIInADay_100 against its name.
 
 1. Select the Collaboration Manager app and select **Save**.
 

@@ -2,7 +2,7 @@
 uid: learn-bizapps.financial-services-collaboration-manager
 metadata:
  title: Financial Services collaboration manager
- description: In this module you will learn how to set up and configure Collaboration Manager for Loans within the Microsoft Cloud for Financial Services. Collaboration Manager for Loans is a model-driven app created with Microsoft Power Apps and built specifically to work inside Microsoft Teams. It is built around the Microsoft Cloud for Financial Services Retail banking data model that creates a set of common entities for financial services. Collaboration Manager enables collaboration around this data model by using components provided by a Collaboration Toolkit. These components, while enabling collaboration, abstract the consumer away from the details of interaction with other Microsoft services.
+ description: In this module, you'll learn how to set up and configure Collaboration Manager for Loans within the Microsoft Cloud for Financial Services. Collaboration Manager for Loans is a model-driven app created with Microsoft Power Apps and built specifically to work inside Microsoft Teams. It's built around the Microsoft Cloud for Financial Services Retail banking data model that creates a set of common entities for financial services. Collaboration Manager enables collaboration around this data model by using components provided by a Collaboration Toolkit. These components, while enabling collaboration, abstract the consumer away from the details of interaction with other Microsoft services.
  ms.date: 12/20/2021
  author: DaveBeasley
  ms.author: dbeasley
@@ -11,9 +11,9 @@ metadata:
 title: Financial Services collaboration manager
 summary: |
   [!include[](../includes/module-banner.md)]
-  In this module you will learn how to set up and configure Collaboration Manager for Loans within the Microsoft Cloud for Financial Services. Collaboration Manager for Loans is a model-driven app created with Microsoft Power Apps and built specifically to work inside Microsoft Teams. It is built around the Microsoft Cloud for Financial Services Retail banking data model that creates a set of common entities for financial services. Collaboration Manager enables collaboration around this data model by using components provided by a Collaboration Toolkit. These components, while enabling collaboration, abstract the consumer away from the details of interaction with other Microsoft services.
+  In this module you'll learn how to set up and configure Collaboration Manager for Loans within the Microsoft Cloud for Financial Services. Collaboration Manager for Loans is a model-driven app created with Microsoft Power Apps and built specifically to work inside Microsoft Teams. It's built around the Microsoft Cloud for Financial Services Retail banking data model that creates a set of common entities for financial services. Collaboration Manager enables collaboration around this data model by using components provided by a Collaboration Toolkit. These components, while enabling collaboration, abstract the consumer away from the details of interaction with other Microsoft services.
 abstract: |
-    In this module, you will:
+    In this module, you'll:
     - Explore the Collaboration Toolkit Data Model
     - Configure Collaboration Manager for Loans settings
     - Navigate Collaboration Manager for Loans
