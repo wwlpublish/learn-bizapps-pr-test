@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-services-collaboration-manager.2-explore-collaboration-toolkit
+title: Explore the Collaboration Toolkit data model
+metadata:
+  title: Explore the Collaboration Toolkit data model
+  description: Learn to navigate Collaboration Toolkit tables, settings, and relationships
+  ms.date: 12/20/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-mscloud-financial
+durationInMinutes: 4
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/2-explore-collaboration-toolkit.md)]

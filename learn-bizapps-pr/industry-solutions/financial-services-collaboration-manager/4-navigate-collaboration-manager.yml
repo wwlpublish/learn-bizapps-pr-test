@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-services-collaboration-manager.4-navigate-collaboration-manager
+title: Navigate Collaboration Manager for Loans
+metadata:
+  title: Navigate Collaboration Manager for Loans
+  description: Follow the steps to navigate and explore the collaborative features offered for a home loan in the Collaboration Manager for Loans app.
+  ms.date: 12/20/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-mscloud-financial
+durationInMinutes: 12
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/4-navigate-collaboration-manager.md)]
