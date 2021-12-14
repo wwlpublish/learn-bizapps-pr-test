@@ -19,7 +19,7 @@ In this task, you will explore the main tables that power the Collaboration Tool
 
 ## Task 2: Navigate Collaboration Toolkit settings and relationships
 
-In this task, you will explore the main tables related to Collaboration Toolkit settings. The settings tables allows you to define how M365 services (such as Planner, Outlook, Bookings, and so on) map to business entities within Dataverse. All of the settings tables are solution-aware objects, so they can be packaged within a solution and participate in solution import and export.
+In this task, you will explore the main tables related to Collaboration Toolkit settings. The settings tables allow you to define how M365 services (such as Planner, Outlook, Bookings, and so on) map to business entities within Dataverse. All of the settings tables are solution-aware objects, so they can be packaged within a solution and participate in solution import and export.
 
 ### Collaboration Toolkit settings definitions
 
