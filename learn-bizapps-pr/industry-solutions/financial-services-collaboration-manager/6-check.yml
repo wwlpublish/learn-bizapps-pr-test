@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-services-collaboration-manager.6-check
+title: Check your knowledge
+metadata:
+ title: Check your knowledge
+ description: Answer the following questions to see what you've learned.
+ ms.date: 12/20/2021
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-mscloud-financial
+durationInMinutes: 8
+quiz:
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: Which of the following is NOT a key capability of Collaboration Manager for Loans?
+    choices:
+    - content: Retail Banking Sample Portal
+      isCorrect: true
+      explanation: Correct.
+    - content: Loan processing business process flow
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Microsoft Planner tasks
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Meetings
+      isCorrect: false
+      explanation: Incorrect.
+  - content: What kind of app is Collaboration Manager for Loans?
+    choices:
+    - content: Canvas app
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Model-driven app
+      isCorrect: true
+      explanation: Correct.
+    - content: Desktop app
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Teams app
+      isCorrect: false
+      explanation: Incorrect.
+  - content: Which of the following allows you to keep track of a loan as it progresses from origination to closing?
+    choices:
+    - content: Loan Application Process
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Power Apps Flow
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Business Process Flow
+      isCorrect: true
+      explanation: Correct.
+    - content: Dynamics 365 Process
+      isCorrect: false
+      explanation: Incorrect.
+  - content: Meetings can be scheduled with both customer and team members using what application?
+    choices:
+    - content: Microsoft Planner
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Microsoft Teams
+      isCorrect: true
+      explanation: Correct.
+    - content: Microsoft Flow
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Microsoft Schedule Master
+      isCorrect: false
+      explanation: Incorrect.

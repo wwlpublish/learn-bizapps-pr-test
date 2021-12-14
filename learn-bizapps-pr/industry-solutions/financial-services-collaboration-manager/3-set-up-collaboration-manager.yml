@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-services-collaboration-manager.3-set-up-collaboration-manager
+title: Exercise - Configure Collaboration Manager for Loans settings
+metadata:
+  title: Exercise - Configure Collaboration Manager for Loans settings
+  description: Follow the steps to configure the settings for Collaboration Manager for Loans to work with Microsoft 365 services.
+  ms.date: 12/20/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-mscloud-financial
+durationInMinutes: 15
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/3-set-up-collaboration-manager.md)]
