@@ -1,4 +1,4 @@
-The recorder is used to assist users in the development of flows. Using the recorder, users can perform tasks manually, and Power Automate for desktop will automatically generate actions to mimick their behavior.
+The recorder is used to assist users in the development of flows. Using the recorder, users can perform tasks manually, and Power Automate for desktop will automatically generate actions to mimic their behavior.
 
 The recorder can be used to automate two different kinds of applications: 
 
