@@ -219,14 +219,12 @@
       "source_path": "learn-bizapps-pr/flow/pad-system-services-actions/2-system-actions.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/pad-system-services-actions/2-system-workstation-actions",
       "redirect_document_id": false
-    }
-
+    },
     {
       "source_path": "learn-bizapps-pr/flow/pad-power-automate-desktop-recording-features/3-web-recorder.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/pad-power-automate-desktop-recording-features/3-exercise-recording-web-flows",
       "redirect_document_id": false
-    }
-
+    },
     {
       "source_path": "learn-bizapps-pr/flow/pad-power-automate-desktop-recording-features/4-exercise-desktop-recorder.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/pad-power-automate-desktop-recording-features/4-exercise-recording-desktop-flows",
