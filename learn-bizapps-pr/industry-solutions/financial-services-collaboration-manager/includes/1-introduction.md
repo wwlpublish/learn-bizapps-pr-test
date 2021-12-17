@@ -6,11 +6,11 @@ Collaboration Manager for Loans within Microsoft Cloud for Financial Services is
 
   - Data model changes that augment and extend parts of the Banking data model to customer-specific requirements.
 
-  - Form and view changes to support the data layer changes.
+  - Changes to forms and views to support the data layer changes.
 
   - More API extensions, actions, functions, and plug-ins to support specific customer requirements.
 
-  - PCF controls that are used to replace default experiences with those that are specific to requirements. For example, you could use a custom address verification component, which connects to an external service provider with specific address verification capabilities.
+  - PCF controls that are used to replace default experiences with experiences that are specific to requirements. For example, you could use a custom address verification component, which connects to an external service provider with specific address verification capabilities.
 
 - A replacement business process flow that maps to the customer's loan process flow.
 
