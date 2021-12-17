@@ -59,9 +59,9 @@ together in one place. Datasets can also source data from dataflows.
 
 Datasets are associated with *workspaces* and a single dataset can be part of
 many workspaces. When you open a workspace, the associated datasets are listed
-under the **Datasets** tab. Each listed dataset represents a single source of
-data, for example, an Excel workbook on OneDrive, or an on-premises SSAS tabular
-dataset, or a Salesforce dataset. There are many different data sources
+under the **Datasets** tab. Each listed dataset represents a collection of
+data, for example, a dataset can contain data from an Excel workbook on OneDrive, an on-premises SSAS tabular
+dataset, and/or a Salesforce dataset. There are many different data sources
 supported. Datasets added by one
 workspace member are available to the other workspace members with
 an *admin*, *member*, or *contributor* role.
