@@ -13,7 +13,7 @@ Follow these steps to create a new team in Microsoft Teams:
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Microsoft Teams on the Teams page with the Join or create a team button highlighted.](../media/join.png)](../media/join.png#lightbox)
 
-1. Select **Create team** to open the new team creation modal.
+1. Select **Create team** to create a new team.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Join or create a team with the Create team button highlighted.](../media/create.png)](../media/create.png#lightbox)
