@@ -10,7 +10,7 @@ Collaboration Manager for Loans within Microsoft Cloud for Financial Services is
 
   - More API extensions, actions, functions, and plug-ins to support specific customer requirements.
 
-  - PCF controls that are used to replace default experiences with experiences that are specific to requirements. For example, you could use a custom address verification component, which connects to an external service provider with specific address verification capabilities.
+  - Power Apps component framework controls that are used to replace default experiences with experiences that are specific to requirements. For example, you could use a custom address verification component, which connects to an external service provider with specific address verification capabilities.
 
 - A replacement business process flow that maps to the customer's loan process flow.
 
