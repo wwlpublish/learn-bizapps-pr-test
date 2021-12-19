@@ -1,41 +1,45 @@
-In this exercise, you'll configure the settings for Collaboration Manager for Loans so that it correctly works with Microsoft 365 services like Teams, Bookings, and Planner. In this case, we'll examine how you can bind Collaboration Manager to a new Microsoft Teams team and Bookings business for a bank branch that wants to use the product.
+In this exercise, you'll set up the Collaboration Manager for Loans settings so that it works correctly with Microsoft 365 services such as Teams, Bookings, and Planner. In this case, you'll examine how to bind Collaboration Manager to a new team in Microsoft Teams and a Microsoft Bookings business for a bank branch that wants to use the product.
 
-At the end, you'll then learn how you can take a model-driven app like Collaboration Manager for Loans and embed it in Teams as both a teams tab and as a personal app.
+The objective of this exercise is for you to learn how to embed a model-driven app, like Collaboration Manager for Loans, in Teams as a Teams tab and as a personal app.
 
-## Task 1: Create a new Microsoft Teams team
+## Task 1: Create a new team in Microsoft Teams
 
-1. Open **Microsoft Teams** and navigate to **Teams** in the left app bar.
+Follow these steps to create a new team in Microsoft Teams:
 
-1. Select **Join or create a team** so that we can create a new branch that will be using Collaboration Manager for Loans.
+1. Open **Microsoft Teams** and select **Teams** in the left navigation bar.
+
+1. Select **Join or create a team** so that you can create a new branch that will use Collaboration Manager for Loans.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Microsoft Teams on the Teams page with the Join or create a team button highlighted.](../media/join.png)](../media/join.png#lightbox)
 
-1. Select **Create team** to open the new team creation modal.
+1. Select **Create team** to create a new team.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Join or create a team with the Create team button highlighted.](../media/create.png)](../media/create.png#lightbox)
 
-1. Select **From scratch** to create a brand new Teams team.
+1. Select **From scratch** to create a new team.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Create a team showing options including From scratch.](../media/scratch.png)](../media/scratch.png#lightbox)
+    > [![Screenshot of Create a team showing options, including From scratch.](../media/scratch.png)](../media/scratch.png#lightbox)
 
-1. Since this team will only be accessible to users that belong to this branch, make the new team **Private**.
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of What kind of team will this be, with options including Private.](../media/private.png)](../media/private.png#lightbox)
-
-1. Provide the name and description of your brand new Branch before finally selecting **Create**.
+1. Because this team will only be accessible to users who belong to this branch, make the new team **Private**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Some quick details about your private team with the Team name and description filled in.](../media/branch.png)](../media/branch.png#lightbox)
+    > [![Screenshot of What kind of team will this be screen, showing options including Private.](../media/private.png)](../media/private.png#lightbox)
 
-## Task 2: Retrieve the internal ID of the new Teams team
+1. Provide the name and description of your new branch before selecting **Create**.
 
-1. Now that we have a new Microsoft Teams team, we'll want to record its ID so that we can use it later. To get the ID, start by finding your new team in your list of teams.
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the Some quick details about your private team screen, showing the Team name and description areas filled in.](../media/branch.png)](../media/branch.png#lightbox)
 
-1. Select the ellipsis (...) button
+## Task 2: Retrieve the internal ID of the new team
+
+Now that you have created a new team in Microsoft Teams, you'll need to record its ID so that you can use it later. 
+
+1. To get the ID, find your new team in your list of teams.
+
+1. Select the ellipsis (**...**) button next to your new team.
 
 1. Select **Get link to team**.
 
@@ -48,74 +52,80 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
 
 ## Task 3: Create a new Bookings business for the branch
 
-1. To use the virtual visit features within Collaboration Manager for Loans, we must also provide a Bookings business. To create a new Bookings business, start by going to [https://office.com/apps](https://office.com/apps/?azure-portal=true).
+To use the virtual visit features within Collaboration Manager for Loans, you must also provide a Microsoft Bookings business. 
+
+1. To create a new Bookings business, start by going to [https://office.com/apps](https://office.com/apps/?azure-portal=true).
 
 1. Select **Bookings** within the list of apps.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Office 365 apps with Bookings highlighted.](../media/bookings.png)](../media/bookings.png#lightbox)
 
-1. If this is your first time using Bookings, you may be prompted with a **Get it now** button, select that to continue. If you already have a Bookings business and need to create another one, select the chevron next to your currently active Bookings business and select **New**.
+1. If this is your first time using Bookings, you might be prompted with a **Get it now** button. Select that button to continue. If you already have a Bookings business and need to create another one, select the arrow next to your currently active Bookings business and then select **New**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Bookings with the drop-down arrow next to the existing bookings business selected to reveal the New option.](../media/new-booking.png)](../media/new-booking.png#lightbox)
+    > [![Screenshot of Bookings with the arrow next to the existing Bookings business selected to reveal the New option.](../media/new-booking.png)](../media/new-booking.png#lightbox)
 
-1. Provide the name and type of your business before selecting **Continue**.
+1. Provide the name and type for your business before selecting **Continue**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Welcome to Bookings with name and type of business filled in.](../media/welcome.png)](../media/welcome.png#lightbox)
+    > [![Screenshot of the Welcome to Bookings screen, with name and type of business filled in.](../media/welcome.png)](../media/welcome.png#lightbox)
 
-1. You may now provide more details for your Bookings business by configuring the **Booking page**, **Staff**, **Services**, and **Business Information** pages by selecting them in the left navigation.
+1. Provide more details for your Bookings business by setting up the **Booking Page**, **Staff**, **Services**, and **Business Information** pages by selecting them in the left navigation pane.
 
 ## Task 4: Retrieve the alias of the new Bookings business
 
-1. To get the alias of your new Bookings business, we'll need to reopen the current Bookings business so that we can retrieve the value from the URL; begin by selecting the chevron and selecting **Open**.
+To retrieve the alias of your new Bookings business, reopen the current Bookings business so that you can retrieve the value from the URL.
+
+1. Select the arrow next to your Bookings business and then select **Open**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the drop-down arrow next to the existing bookings business selected to reveal the Open option.](../media/open.png)](../media/open.png#lightbox)
+    > [![Screenshot of the arrow next to the existing Bookings business selected to reveal the Open option.](../media/open.png)](../media/open.png#lightbox)
 
-1. Once the dialog appears, reselect your new Bookings business.
+1. When the dialog appears, select your Bookings business.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Choose a booking calendar with Loan Business selected.](../media/calendar.png)](../media/calendar.png#lightbox)
 
-1. This will reopen the Bookings business and cause the URL of the page to change. Copy the value of the calendar parameter in the URL. It should look like an email address. Record this value somewhere safe so that we can use it in a future step.
+1. The Bookings business will reopen and will cause the URL of the page to change. Copy the value of the calendar parameter in the URL. It should resemble an email address. Record this value somewhere safe so that you can use it in a future step.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the U R L with the calendar parameter highlighted.](../media/parameter.png)](../media/parameter.png#lightbox)
+    > [![Screenshot of the URL with the calendar parameter highlighted.](../media/parameter.png)](../media/parameter.png#lightbox)
 
 ## Task 5: Provide the settings to Collaboration Manager for Loans
 
-1. Now that we have both the Group ID and the Bookings business ID, we can set them as values within the Collaboration Toolkit settings. To begin, open up [https://make.powerapps.com/](https://make.powerapps.com/?azure-portal=true).
+Now that you have the Group ID and the Bookings business ID, you can set them as values within the Collaboration Toolkit settings. 
 
-1. Ensure you're in the correct environment by using the environment picker in the top right.
+1. Open [https://make.powerapps.com/](https://make.powerapps.com/?azure-portal=true).
 
-1. Navigate to the **Solutions** page in the left navigation.
+1. Ensure that you're in the correct environment by using the environment picker in the upper-right corner.
 
-1. Select **New solution** so that we can provide a home for all of our settings values.
+1. Go to the **Solutions** page in the left navigation pane.
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of Power Apps Solutions page with New solution highlighted.](../media/new-solution.png)](../media/new-solution.png#lightbox)
-
-1. Provide the name and publisher of your new solution. Since this solution is merely holding the values of Collaboration Manager, we can call it "Collaboration Manager Settings."
+1. Select **New solution** so that you can provide a place for your settings values.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of New solution with Display name, Name, Publisher, and Version filled in.](../media/solution-filled.png)](../media/solution-filled.png#lightbox)
+    > [![Screenshot of the Solutions page in Power Apps, showing the +New solution button highlighted.](../media/new-solution.png)](../media/new-solution.png#lightbox)
 
-1. Once you've created your solution, navigate into it by selecting it in the list of solutions.
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of Solutions with Collaboration Manager Settings highlighted.](../media/solutions.png)](../media/solutions.png#lightbox)
-
-1. Provide the first settings value by selecting **New** > **More** > **Other** > **Settings Value** from within the solution explorer.
+1. Provide the name and publisher of your new solution. Because this solution is merely holding the values of Collaboration Manager, you can name it **Collaboration Manager Settings**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Power Apps with the New menu expanded, the More option expanded, the Other option expanded, and the Settings Value option selected.](../media/settings-value.png)](../media/settings-value.png#lightbox)
+    > [![Screenshot of the New solution dialog with Display name, Name, Publisher, and Version fields filled in.](../media/solution-filled.png)](../media/solution-filled.png#lightbox)
 
-1. For our first settings value, we'll provide the value of our teams group. Paste the value you retrieved from step 10 in the **Value** field. Set **Settings Group ID** to "Collaboration Manager for Loans" and **Settings Definition ID** to "Group ID."
+1. After you've created your solution, find and select it in the list of solutions.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of New Settings Value with the Value, Settings Group I D, Settings Definition I D, and Owner filled in.](../media/new-settings-value.png)](../media/new-settings-value.png#lightbox)
+    > [![Screenshot of the Solutions page, showing Collaboration Manager Settings highlighted.](../media/solutions.png)](../media/solutions.png#lightbox)
+
+1. Provide the first settings value by selecting **New > More > Other > Settings Value** from within the solution explorer.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the New menu expanded in Power Apps, showing the More > Other options expanded and the Settings Value option selected.](../media/settings-value.png)](../media/settings-value.png#lightbox)
+
+1. For your first settings value, provide the value of your teams group. Paste the value that you previously retrieved in the **Value** field. Set **Settings Group ID** to **Collaboration Manager for Loans** and set **Settings Definition ID** to **Group ID**.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of New Settings Value with the Value, Settings Group ID, Settings Definition ID, and Owner filled in.](../media/new-settings-value.png)](../media/new-settings-value.png#lightbox)
 
 1. Select **Save & Close** once you're finished.
 
@@ -126,15 +136,19 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
     > [!div class="mx-imgBorder"]
     > [![Screenshot of a second New Settings Value with the Value, Settings Group I D, Settings Definition I D, and Owner filled in.](../media/new-settings-value-2.png)](../media/new-settings-value-2.png#lightbox)
 
-1. Select **Save & Close** once you're finished. You've now successfully defined the settings for Collaboration Manager for Loans.
+1. Select **Save & Close** when you're finished. 
 
-## Task 6: Adding the app to the Microsoft Teams channel
+You've successfully defined the settings for Collaboration Manager for Loans.
 
-1. Now that the settings are defined, we can now add the app to Microsoft Teams. To begin, navigate to [teams.microsoft.com](https://teams.microsoft.com/?azure-portal=true) using your lab credentials.
+## Task 6: Add the app to the Microsoft Teams channel
 
-1. Once you're there, find the team you created in Task 1 above.
+Now that the settings are defined, you can add the app to Microsoft Teams. 
 
-1. In the general channel for the team, select **+** and note the **Add a tab** dialog show up.
+1. Go to [teams.microsoft.com](https://teams.microsoft.com/?azure-portal=true) and use your lab credentials.
+
+1. Find the team that you created in Task 1.
+
+1. In the **General** channel for the team, select the plus (**+**) icon and note the **Add a tab** dialog that appears.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Microsoft Teams with the team's General channel selected and the Add button highlighted.](../media/add-tab.png)](../media/add-tab.png#lightbox)
@@ -144,24 +158,24 @@ At the end, you'll then learn how you can take a model-driven app like Collabora
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Add a tab with Power Apps selected.](../media/power-apps.png)](../media/power-apps.png#lightbox)
 
-1. This will open the **Power Apps** add-in. Select **Add** to open the app selection wizard.
+1. The **Power Apps** add-in will open. Select **Add** to open the app selection wizard.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Power Apps add in with the Add button highlighted.](../media/add-in.png)](../media/add-in.png#lightbox)
+    > [![Screenshot of the Power Apps add-in with the Add button highlighted.](../media/add-in.png)](../media/add-in.png#lightbox)
 
-1. In the app selection wizard, set the search option to **Model driven apps**.
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the app selection wizard with search within this list set to model-driven apps.](../media/model-driven.png)](../media/model-driven.png#lightbox)
-
-1. Now search for **Collaboration Manager** and select the app that corresponds to your dedicated environment. For example, if you're working with environment 100, you would select the app with environment FSIInADay_100 against its name.
-
-1. Select the Collaboration Manager app and select **Save**.
+1. In the app selection wizard, set the search option to **Model-driven apps**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the app selection wizard with search results for "collab" showing the Collaboration Manager for Loans.](../media/collaboration.png)](../media/collaboration.png#lightbox)
+    > [![Screenshot of the app selection wizard with the Search within this list dropdown menu set to Model-driven apps.](../media/model-driven.png)](../media/model-driven.png#lightbox)
 
-1. Notice the app appears as a pinned tab in your channel.
+1. Search for **Collaboration Manager** and select the app that corresponds with your dedicated environment. For example, if you're working with environment 100, you would select the app with environment FSIInADay_100 against its name.
+
+1. Select the **Collaboration Manager** app and select **Save**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the channel in Teams with the Collaboration Manager for Loans tab open.](../media/tab.png)](../media/tab.png#lightbox)
+    > [![Screenshot of the app selection wizard with search results for "collab" showing Collaboration Manager for Loans.](../media/collaboration.png)](../media/collaboration.png#lightbox)
+
+The app will appear as a pinned tab in your channel.
+
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the channel in Teams with the Collaboration Manager for Loans tab open.](../media/tab.png)](../media/tab.png#lightbox)

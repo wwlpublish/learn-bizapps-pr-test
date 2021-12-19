@@ -13,9 +13,9 @@ durationInMinutes: 8
 quiz:
   title: Answer the following questions to see what you've learned.
   questions:
-  - content: Which of the following is NOT a key capability of Collaboration Manager for Loans?
+  - content: Which of the following options is not a key capability of Collaboration Manager for Loans?
     choices:
-    - content: Retail Banking Sample Portal
+    - content: Retail banking sample portal
       isCorrect: true
       explanation: Correct.
     - content: Loan processing business process flow
@@ -46,16 +46,16 @@ quiz:
     - content: Loan Application Process
       isCorrect: false
       explanation: Incorrect.
-    - content: Power Apps Flow
+    - content: Power Apps flow
       isCorrect: false
       explanation: Incorrect.
-    - content: Business Process Flow
+    - content: Business Process flow
       isCorrect: true
       explanation: Correct.
     - content: Dynamics 365 Process
       isCorrect: false
       explanation: Incorrect.
-  - content: Meetings can be scheduled with both customer and team members using what application?
+  - content: You can schedule meetings with customer and team members by using what application?
     choices:
     - content: Microsoft Planner
       isCorrect: false
