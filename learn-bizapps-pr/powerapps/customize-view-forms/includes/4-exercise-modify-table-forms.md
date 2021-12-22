@@ -137,7 +137,7 @@ The process for modifying this form is the same, the difference with this one is
 1. Find the ***EmployeesTable*** and then select the **Active Employees** as the **Default view**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Subgrid layout options selected for Table and Default View.](../media/20-subgrid-views.png)](../media/20-subgrid-viewspng#lightbox)
+    > [![Screenshot of the Subgrid layout options selected for Table and Default View.](../media/20-subgrid-views.png)](../media/20-subgrid-views.png#lightbox)
 
 1. Click **Done** to add it. You should see it at the bottom of the form.
 
