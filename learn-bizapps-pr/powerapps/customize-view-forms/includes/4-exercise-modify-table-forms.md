@@ -117,7 +117,7 @@ The process for modifying this form is the same, the difference with this one is
 1. Now click on the **Components** section and then click on **1-column tab** to add a new tab in the general section.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Components section with layout options for 1, 2 or 3 column tabs.](../media/18-components.png)](../media/18-components.png#lightbox)
+    > [![Screenshot of the Components section with layout options for column tabs and sections.](../media/18-components.png)](../media/18-components.png#lightbox)
 
 1. In the Properties on the right, for the Label, enter ***Manager Review***. For the Name, enter **ManagerReview**.(It's essentially the same name for both, but since the Label is what shows on the view it should have a space. Whereas the Name, is a unique field used for referencing and generally it's best to avoid spaces for the Name.)
 
@@ -142,7 +142,7 @@ The process for modifying this form is the same, the difference with this one is
 1. Click **Done** to add it. You should see it at the bottom of the form.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the subgrid views table and default view option menu with Employee Tabled and Active Employee Tables selected.](../media/21-involved-employees.png)](../media/21-involved-employees.png#lightbox)
+    > [![Screenshot of the subgrid views table and default view option menu with the Involved Employee label highlighted.](../media/21-involved-employees.png)](../media/21-involved-employees.png#lightbox)
 
 1. Give the Subgrid a more meaningful name, in the Label under Properties, enter ***Involved Employees**.*
 
