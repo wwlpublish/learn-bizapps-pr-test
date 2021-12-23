@@ -9,7 +9,7 @@ In this exercise, we will modify the views for our ***LocationTable** and **Type
 1. Click **Views** and then select the **Active LocationTables** view. Once again, you will be redirected to the view designer studio.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Views option highlighted and teh Active Location Tables option selected.](../media/7-views-option.png)](../media/7-views-option.png#lightbox)
+    > [![Screenshot of the Views option highlighted and the Active Location Tables option selected.](../media/7-views-option.png)](../media/7-views-option.png#lightbox)
 
 1. By default, this view already has our ***LocationId*** column added and the ***Created On*** column. Remove the ***Created On*** column from the view.
 
@@ -45,7 +45,7 @@ The process for modifying this view is the same, the difference with this one is
 
 1. Click **Views** and then select the **Active AccidentTables** view to open the view designer studio.
 
-1. Select the ***AccidentDescription*** column, click on it and then it should be added to the grid. Repeat the same process for ***ManagerComments**, **AccidentDate, and **MangerReviewed**.* At the end, you should have the fields on the grid.
+1. Select the ***AccidentDescription*** column, click on it and then it should be added to the grid. Repeat the same process for ***ManagerComments**, **AccidentDate, and **ManagerReviewed**.* At the end, you should have the fields on the grid.
 
 1. To add fields from the related table, select **Related** and then you will see the list of tables that have a relationship with this table. By default, all tables in **Dataverse** have standard relationships with other standard tables such as the **User** table.
 

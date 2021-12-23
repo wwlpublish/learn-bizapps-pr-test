@@ -6,7 +6,7 @@ Modify the main form for the LocationTable. Sign in into Power Apps and follow t
 
 1. Select the ***LocationTable*** and then click on **Forms**, find the **Main** information form, and then click on it to navigate to the forms design experience.
 
-1. Add the **Owner** (This is Dataverse standard field that quickly shows the user who was the user that created the record in the table) to the **Header** section of the table. To do this simply drag and drop the **Owner** field in the top right of the header.
+1. Add the **Owner** (This is Dataverse standard field that quickly shows the user who was the user that created the record in the table) to the **Header** section of the table. To do this, drag and drop the **Owner** field in the top right of the header.
 
 1. Add the fields a user will enter for locations in the **General** section of the form. To do this click on **Table columns** icon on the right, this will reveal the different fields in the *LocationsTable.* Next using drag and drop place the fields in the **General** section. Put them in the following order:
 
@@ -41,7 +41,7 @@ Modify the main form for the LocationTable. Sign in into Power Apps and follow t
 
 ### Modify the main form for the TypeofAccidentTable
 
-Sign in into Power Apps and follow these steps to modify default views:
+Sign into Power Apps and follow these steps to modify default views:
 
 1. From Power Apps, on the main menu, expand **Dataverse** and select **Tables**.
 
@@ -49,7 +49,7 @@ Sign in into Power Apps and follow these steps to modify default views:
 
 1. Select the table and then click on **Forms**, find the **Main** information form, and then click on it to navigate to the forms design experience.
 
-1. Add the **Owner** (This is Dataverse standard field that quickly show the user who was the user that created the record in the table) to the **Header** section of the table. To do this simply drag and drop the **Owner** field in the top right of the header.
+1. Add the **Owner** (This is Dataverse standard field that quickly shows the user who was the user that created the record in the table) to the **Header** section of the table. To do this, drag and drop the **Owner** field in the top right of the header.
 
 1. Add the fields a user will enter for type of accidents in the **General** section of the form. To do this click on **Table columns** icon on the right, this will reveal the different fields in the *TypeofAccidentsTable.* Next using drag and drop place the fields in the **General** section. Put them in the following order:
 
@@ -119,7 +119,7 @@ The process for modifying this form is the same, the difference with this one is
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Components section with layout options for column tabs and sections.](../media/18-components.png)](../media/18-components.png#lightbox)
 
-1. In the Properties on the right, for the Label, enter ***Manager Review***. For the Name, enter **ManagerReview**.(It's essentially the same name for both, but since the Label is what shows on the view it should have a space. Whereas the Name, is a unique field used for referencing and generally it's best to avoid spaces for the Name.)
+1. In the Properties on the right, for the Label, enter ***Manager Review***. For the Name, enter **ManagerReview**. (It's essentially the same name for both, but since the Label is what shows on the view it should have a space. Whereas the Name, is a unique field used for referencing and generally it's best to avoid spaces for the Name.)
 
 1. Add the following fields to it:
 
@@ -132,7 +132,7 @@ The process for modifying this form is the same, the difference with this one is
 
 1. On the Form, select the ***General*** tab.
 
-1. From the left, click the **Components** section, select **Subgrid** and then check the **Show related records** check box.
+1. From the left navigation menu, click the **Components** section, select **Subgrid** and then check the **Show related records** check box.
 
 1. Find the ***EmployeesTable*** and then select the **Active Employees** as the **Default view**.
 
@@ -160,8 +160,8 @@ The process for modifying this form is the same, the difference with this one is
 
     - **LocationId:** From the dropdown, select Contoso Main Factory
 
-    > [!NOTE]
-    > If you press enter while on the drop down, it will reveal the Location names instead of their Id).
+        > [!NOTE]
+        > If you press enter while on the drop down, it will reveal the Location names instead of their Id).
 
     - **AccidentTypeId:** From the drop-down select Slip and Fall
 

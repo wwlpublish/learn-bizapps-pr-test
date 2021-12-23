@@ -26,7 +26,7 @@ Follow these steps to modify default views:
 1. In here, you will see on the left menu that a form is broken down into three sections, **Header, General, and Footer** section. These three components can be customized to make the data entry process more efficient, if needed.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Tree view with the Information section expanded and highlihgted.](../media/11-tree-view.png)](../media/11-tree-view.png#lightbox)
+    > [![Screenshot of the Tree view with the Information section expanded and highlighted.](../media/11-tree-view.png)](../media/11-tree-view.png#lightbox)
 
 1. We will first add the **Owner** (This is Dataverse standard field that quickly shows the user who was the user that created the record in the table) to the **Header** section of the table. To do this simply drag and drop the **Owner** field in the top right of the header.
 
@@ -52,7 +52,7 @@ Follow these steps to modify default views:
 
 1. To complete the changes, click **Publish** in the top right.
 
-    > Now let's test our form, we will create a few employee records.
+    Now let's test our form, we will create a few employee records.
 
 1. Select **Back** on the top left to navigate back to the table's menu.
 
