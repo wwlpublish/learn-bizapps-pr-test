@@ -22,6 +22,10 @@ For this scenario, you will need to make an Excel file with a table that contain
 
 1. In the search field, enter *excel*, select the **Excel Online (Business)** service, and then select the **List rows present in a table** action.
 
+1. In the **Location** field, click on the drop down arrow and select **OneDrive for Business**.
+
+1. In the **Document Library** field, click on the drop down arrow and select **OneDrive**.
+
 1. In the **File name** field, select the folder button, and then select the Excel file to use.
 
 1. In the **Table name** box, select the drop-down arrow, and then browse to and select the worksheet to use.
@@ -33,7 +37,13 @@ For this scenario, you will need to make an Excel file with a table that contain
 1. In the search field, enter *chimp*, select the **MailChimp** service, and then select the **MailChimp - Add member to list** action.
 
     > [!NOTE]
-    > MailChimp is a premium connector. Depending on your Power Automate license, you might need to sign up for a trial to use this connector. A MailChimp account is required to complete the folowing steps.
+    > MailChimp is a premium connector. Depending on your Power Automate license, you might need to sign up for a trial to use this connector. A MailChimp account is required to complete the following steps where a one-time sign-in is required.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of mail chimp signin.](../media/mailchimp-sign-in.png)](../media/mailchimp-sign-in.png#lightbox)
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the authorize Microsoft Power Platform message.](../media/mailchimp-sign-in-2.png)](../media/mailchimp-sign-in-2.png#lightbox)
 
 1. In the **List Id** field, select the desired MailChimp mailing list. In the **Status** field, select *subscribed*.
 

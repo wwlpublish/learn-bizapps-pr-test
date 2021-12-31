@@ -1,6 +1,86 @@
 {
   "redirections": [
     {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/1-flow-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/2-flow-create-approval.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    }, 
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/3-flow-process-approval-request.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/4-flow-store-documents.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/5-flow-use-tokens.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/6-flow-accepts-user-input.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/7-flow-recurring.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/8-flow-event-d365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/9-flow-use-sql.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/10-flow-integrate-powerapps.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/11-flow-create-business-process-flow.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/12-flow-create-business-process-flow-branching.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/13-monitor-flows.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/14-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/15-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
       "source_path": "learn-bizapps-pr/flow/get-started-flows/8-flow-team-flows.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/",
       "redirect_document_id⁯": false
@@ -218,6 +298,16 @@
     {
       "source_path": "learn-bizapps-pr/flow/pad-system-services-actions/2-system-actions.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/pad-system-services-actions/2-system-workstation-actions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/pad-power-automate-desktop-recording-features/3-web-recorder.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/pad-power-automate-desktop-recording-features/3-exercise-recording-web-flows",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/pad-power-automate-desktop-recording-features/4-exercise-desktop-recorder.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/pad-power-automate-desktop-recording-features/4-exercise-recording-desktop-flows",
       "redirect_document_id": false
     }
   ]

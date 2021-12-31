@@ -1,17 +1,17 @@
 ﻿### YamlMime:LearningPath
 uid: learn-bizapps.understand-advanced-topics
 metadata:
-  title: Master advanced techniques for Power Apps canvas apps
-  description: Do you want to make sure your app is the best it can be? This learning path will help you use advanced formulas and perform custom updates. It will also focus on performance checks and testing.
-  ms.date: 05/15/2020
+  title: Master advanced formula techniques and custom updates
+  description: Do you want to use formulas in a more advanced way? This learning path will help you use advanced formulas and perform custom updates.
+  ms.date: 12/01/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-title: Master advanced techniques for Power Apps canvas apps
+title: Master advanced formula techniques and custom updates
 summary: |
   [!include[](../../includes/lp-banner.md)]
-  Do you want to make sure your app is the best it can be? This learning path will help you use advanced formulas and perform custom updates. It will also focus on performance checks and testing.
+  Do you want to use formulas in a more advanced way? This learning path will help you use advanced formulas and perform custom updates.
 
   This learning path can help you prepare for the [Microsoft Certified: Microsoft Power Platform App Maker Associate certification](/learn/certifications/power-platform-app-maker/?azure-portal=true).
 
@@ -27,11 +27,15 @@ roles:
 products:
 - power-platform
 - power-apps
+- common-data-service
+- vs-code
 modules:
-- learn-bizapps.use-imperative-dev-techniques
 - learn-bizapps.author-advanced-formulas
+- learn-bizapps.choice-columns-formulas
+- learn-bizapps.reduce-complexity-dataverse-table
+- learn-bizapps.use-imperative-dev-techniques
 - learn-bizapps.perform-custom-updates
-- learn-bizapps.testing-performance-checks
+- learn-bizapps.canvas-app-source-code
 trophy:
   uid: learn-bizapps.understand-advanced-topics.trophy
 

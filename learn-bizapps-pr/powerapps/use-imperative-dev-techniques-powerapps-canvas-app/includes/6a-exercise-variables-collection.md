@@ -78,7 +78,7 @@ This hands-on lab shows you how to create and use Global, Contextual, and Collec
         Fill: RGBA(255, 255, 255, 1)
         BorderThickness: 1
 
-1. Select the **Insert** tab and add **Text**
+1. Select the **Insert** tab, **Text** and then **Label**
 
 1. Make the below changes to the **Text** label:
 

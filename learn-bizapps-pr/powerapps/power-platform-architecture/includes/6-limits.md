@@ -14,17 +14,12 @@ Requests in Microsoft Power Platform consist of various actions that a user make
 
 Entitlement limits represent the number of API requests that users are entitled to make each day. The allocated limit depends on the type of license that is assigned to each user. API entitlement limits are based on a 24-hour period, as shown in the following table.
 
-| User license                   | Number of API requests / 24 hours |
-| ------------------------------ | --------------------------------- |
-| Dynamics 365 Enterprise apps   | 20,000                            |
-| Dynamics 365 Professional apps | 10,000                            |
-| Dynamics 365 Team member       | 5,000                             |
-| Power Apps per user plan       | 5,000                             |
-| Power Automate per user plan   | 5,000                             |
-| Office 365 license             | 2,000                             |
-| Power Apps per app plan        | 1,000 per app pass                |
-
-If a user has multiple plans that are assigned from different product lines, the total number of allowed requests would be the sum of requests that are allocated to each license type. For example, if a user has a Dynamics 365 Customer Service Enterprise license and an Office 365 E3 user license, then that user will have a total of 20,000 + 2,000 = 22,000 requests available every 24 hours.
+| Products | Requests per paid license per 24 hours |
+|--------------|-------------------|
+| Paid licensed users for Power Platform (excludes Power Apps per App, Power Automate per flow, and Power Virtual Agents) and Dynamics 365 excluding D365 Team Member<sup>1</sup>    | 40,000     |
+| [Power Apps pay-as-you-go plan](https://go.microsoft.com/fwlink/?linkid=2173947), and paid licensed users for Power Apps per app, Microsoft 365 apps with Power Platform access, and Dynamics 365 Team Member<sup>2</sup> | 6,000        |
+| Power Automate per flow plan<sup>3</sup>, Power Virtual Agents base offer, and Power Virtual Agents add-on pack<sup>4</sup>   | 250,000    |
+| Paid Power Apps Portals login | 200 |
 
 Dataverse provides the ability to have identities that do not require a user license to interact with the service. The four types of users are:
 
