@@ -1,7 +1,7 @@
-This lesson shows how to build a flow that is triggered by a button that
-will notify you of the weather forecast for today and tomorrow. In this lesson, you will also see how to edit a button flow and add another step to send an email notification with the weather forecast. This example uses the **MSN Weather** connector.
+This exercise shows how to build a flow that is triggered by a button that
+will notify you of the weather forecast for today and tomorrow. In this exercise, you will also see how to edit a button flow and add another step to send an email notification with the weather forecast. This example uses the **MSN Weather** connector.
 
-Before we begin, you may be wondering, when should I create a Power Automate button? There are many examples, such as the example you will see in this module, but another common scenario is creating a button to send an email to your manager if you're sick or going to be late to work. These scenarios require no user input, you can create a button, which will allow you too quickly and easily notify your manager or send an email with the single push of a button.
+Before we begin, you may be wondering, when should I create a Power Automate button? There are many examples, such as the example you will see in this module, but another common scenario is creating a button to send an email to your manager if you're sick or going to be late to work. These scenarios require no user input, you can create a button, which will allow you to quickly and easily notify your manager or send an email with the single push of a button.
 
 As stated previously though, in this example you will see how to create a button and get a notification with today and tomorrow's weather forecast.   
 
