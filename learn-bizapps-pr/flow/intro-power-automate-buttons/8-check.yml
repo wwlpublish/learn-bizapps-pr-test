@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 11/01/2021
+ ms.date: 01/03/2022
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -13,20 +13,6 @@ durationInMinutes: 10
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: How many types of flow buttons are there?
-    choices: 
-    - content: Two.
-      isCorrect: false
-      explanation: Three, an app-based virtual button with a flow with no user input; an app-based virtual button with a flow with user input or trigger tokens; and a physical button.
-    - content: Four.
-      isCorrect: false 
-      explanation: Three, an app-based virtual button with a flow with no user input; an app-based virtual button with a flow with user input or trigger tokens; and a physical button.
-    - content: Five.
-      isCorrect: false 
-      explanation: Three, an app-based virtual button with a flow with no user input; an app-based virtual button with a flow with user input or trigger tokens; and a physical button.
-    - content: Three.
-      isCorrect: true
-      explanation: Three, an app-based virtual button with a flow with no user input; an app-based virtual button with a flow with user input or trigger tokens; and a physical button.
   - content: What are the different ways to share a button?
     choices: 
     - content: By sharing your login credentials.
