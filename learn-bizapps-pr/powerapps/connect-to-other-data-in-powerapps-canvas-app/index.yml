@@ -1,39 +1,39 @@
-﻿### YamlMime:Module 
-uid: learn-bizapps.connect-other-data 
-metadata: 
-  title: Connecting to other data in a Power Apps canvas app
+﻿### YamlMime:Module
+uid: learn-bizapps.connect-other-data
+metadata:
+  title: Connect to other data in a Power Apps canvas app
   description: Learn how to connect to other data in Power Apps canvas app.
-  ms.date: 05/13/2020
+  ms.date: 01/03/2022
   author: DaveBeasley
-  ms.author: dbeasley 
-  ms.topic: interactive-tutorial  
-  ms.prod: learning-power-platform  
-title: Connecting to other data in a Power Apps canvas app
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform
+title: Connect to other data in a Power Apps canvas app
 summary: |
   [!include[](../includes/module-banner.md)]
 
-  Do you need to connect to data that is not tabular? This module will help with that. It includes discussion of action-based connectors, Flow, and user data. 
-abstract: |  
-    In this module, you will: 
-    - Understand and utilize action-based connectors
+  Do you need to connect to data that isn't tabular? This module will help with that. It includes discussion of action-based connectors, Flow, and user data.
+abstract: |
+    In this module, you'll:
+    - Understand and use action-based connectors
     - Integrate user information and user-profile information into a canvas app
     - Use Power Automate with Power Apps
-prerequisites: A basic understanding of how to create a Power Apps canvas app.      
-iconUrl: /learn/achievements/connect-other-data.svg  
-levels:  
-- intermediate   
-roles:  
-- functional-consultant  
-- maker  
-products:  
+prerequisites: A basic understanding of how to create a Power Apps canvas app.
+iconUrl: /learn/achievements/connect-other-data.svg
+levels:
+- intermediate
+roles:
+- functional-consultant
+- maker
+products:
 - power-platform
 - power-apps
-units: 
-- learn-bizapps.connect-other-data.1-overview-data-sources 
-- learn-bizapps.connect-other-data.2-work-with-action-based-data-sources 
-- learn-bizapps.connect-other-data.3-flow-and-powerapps 
-- learn-bizapps.connect-other-data.4-knowledge-check 
-- learn-bizapps.connect-other-data.5-summary 
-badge: 
-  uid: learn.connect-other-data.badge 
+units:
+- learn-bizapps.connect-other-data.1-overview-data-sources
+- learn-bizapps.connect-other-data.2-work-with-action-based-data-sources
+- learn-bizapps.connect-other-data.3-flow-and-powerapps
+- learn-bizapps.connect-other-data.4-knowledge-check
+- learn-bizapps.connect-other-data.5-summary
+badge:
+  uid: learn.connect-other-data.badge
 
