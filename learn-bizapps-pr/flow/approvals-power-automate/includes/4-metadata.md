@@ -2,7 +2,7 @@ Actions in the **Approvals** connector for Power Automate provide several helpfu
 
 ## Who is approved or rejected
 
-After an item has been approved or rejected, all metadata that is part of this process is available for other workflow processes. The following screenshot shows the primary dynamic content that captures the information.
+After you approve or reject an item, the metadata from this process is available for other workflow processes. The following screenshot shows the dynamic content that captures the information.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the primary dynamic content that captures the metadata.](../media/dynamic-content-approvals.png)](../media/dynamic-content-approvals.png#lightbox)
@@ -11,12 +11,12 @@ The **Outcome** option will provide you with the approval option that was select
 
 ## Date and time stamps of the approvals
 
-Several dates and time stamps are automatically captured by approval. The following screenshot shows all dates that are captured.
+Approval automatically captures several date and time stamps. The following screenshot shows all of the dates that are captured.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the dates captured automatically by approval.](../media/date-time-stamps-captured.png)](../media/date-time-stamps-captured.png#lightbox)
 
-## Additional comments
+## Add comments
 
 When responding to an approval, you can add comments. You can capture these comments and save them in the data source of your choice.
 
