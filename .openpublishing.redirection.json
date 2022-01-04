@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "learn-bizapps-pr/flow/intro-power-automate-buttons/7-exercise.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-power-automate-buttons/",
+      "redirect_document_id⁯": false
+    },
+    {
       "source_path": "learn-bizapps-pr/flow/build-more-flows/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
       "redirect_document_id⁯": false
