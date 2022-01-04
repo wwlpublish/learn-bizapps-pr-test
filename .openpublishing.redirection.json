@@ -1,16 +1,6 @@
 {
   "redirections": [
     {
-      "source_path": "learn-bizapps-pr/powerapps/work-with-relational-data/5-summary.md",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/work-with-relational-data/",
-      "redirect_document_id⁯": false
-    },
-    {
-      "source_path": "learn-bizapps-pr/powerapps/work-with-relational-data/3-cds-for-apps.md",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/work-with-relational-data/",
-      "redirect_document_id⁯": false
-    },
-    {
       "source_path": "learn-bizapps-pr/flow/intro-power-automate-buttons/7-exercise.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-power-automate-buttons/",
       "redirect_document_id⁯": false

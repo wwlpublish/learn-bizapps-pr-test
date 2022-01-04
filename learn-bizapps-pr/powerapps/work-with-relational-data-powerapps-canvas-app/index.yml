@@ -32,9 +32,9 @@ units:
 - learn-bizapps.work-with-relational-data.1-relational-data
 - learn-bizapps.work-with-relational-data.2-work-with-relationships
 - learn-bizapps.work-with-relational-data.3-exercise
-- learn-bizapps.work-with-relational-data.4-cds-for-apps
-- learn-bizapps.work-with-relational-data.5-check
-- learn-bizapps.work-with-relational-data.6-summary
+- learn-bizapps.work-with-relational-data.3-cds-for-apps
+- learn-bizapps.work-with-relational-data.4-knowledge-check
+- learn-bizapps.work-with-relational-data.5-summary
 badge:
   uid: learn-bizapps.work-with-relational-data.badge
 
