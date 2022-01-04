@@ -109,4 +109,4 @@ For this exercise, we're going to create a shopping cart. We'll be using a paren
 
 1. You now have a functioning order history page. You can select a **Receipt Header** on the left-hand side to see the line items from that receipt on the right.
 
-![Screenshot of the two order history galleries.](../media/3-exercise-view-orders.png)
+    ![Screenshot of the two order history galleries.](../media/3-exercise-view-orders.png)
