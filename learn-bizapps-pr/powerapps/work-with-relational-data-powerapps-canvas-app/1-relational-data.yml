@@ -1,16 +1,16 @@
-﻿### YamlMime:ModuleUnit 
-uid: learn-bizapps.work-with-relational-data.1-relational-data 
+﻿### YamlMime:ModuleUnit
+uid: learn-bizapps.work-with-relational-data.1-relational-data
 title: What is relational data?
-metadata: 
-  title: What is relational data? 
+metadata:
+  title: What is relational data?
   description: What is relational data?
-  ms.date: 10/29/2021 
+  ms.date: 01/03/2022
   author: DaveBeasley
-  ms.author: dbeasley 
-  ms.topic: interactive-tutorial 
-  ms.prod: learning-power-platform    
-durationInMinutes: 6 
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform
+durationInMinutes: 6
 content: |
   [!include[](../includes/unit-banner.md)]
-  [!include[](includes/1-relational-data.md)] 
+  [!include[](includes/1-relational-data.md)]
 
