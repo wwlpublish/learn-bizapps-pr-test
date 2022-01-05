@@ -13,59 +13,53 @@ durationInMinutes: 8
 quiz:
   title: Answer the following questions to see what you've learned.
   questions:
-  - content: What is at the heart of Microsoft's Data Platform strategy?
+  - content: The Financial holdings table in the Retail Banking Data model supports which specific sub-verticals? 
     choices:
-    - content: Microsoft Azure
+    - content: Insurance Holdings
       isCorrect: false
-      explanation: Incorrect.
-    - content: Microsoft Common Data Model
+      explanation: Incorrect. Currently the entire Microsoft Cloud for Financial Services Data model only supports Retail Banking.
+    - content: Retail Banking
       isCorrect: true
-      explanation: Correct.
-    - content: Power Platform
+      explanation: Correct. Currently the entire Microsoft Cloud for Financial Services Data model only supports Retail Banking.
+    - content: Commercial Banking
       isCorrect: false
-      explanation: Incorrect.
-    - content: Microsoft SQL Server
+      explanation: Incorrect. Currently the entire Microsoft Cloud for Financial Services Data model only supports Retail Banking.
+    - content: Any Financial Services subvertical
       isCorrect: false
-      explanation: Incorrect.
-  - content: Which of the following is not a layer in Financial Services Industry Data Model?
+      explanation: Incorrect. Currently the entire Microsoft Cloud for Financial Services Data model only supports Retail Banking.
+  - content: The Microsoft Cloud for Financial Services Data model is available in GitHub. 
     choices:
-    - content: Financial Services Common Data Model
+    - content: "True"
       isCorrect: false
-      explanation: Incorrect.
-    - content: Retail Banking Core Data Model
+      explanation: Incorrect. Unlike the Microsoft Financial Services Accelerator, the Microsoft Cloud for Financial Services is only available as a part of a Licensed SKU. 
+    - content: "False"
       isCorrect: false
-      explanation: Incorrect.
-    - content: Commercial Banking Data Model
-      isCorrect: true
-      explanation: Correct.
-    - content: Loan Onboarding Data Model
-      isCorrect: false
-      explanation: Incorrect.
-  - content: How many layers make up the Financial Services Industry Data Model?
+      explanation: Incorrect. Unlike the Microsoft Financial Services Accelerator, the Microsoft Cloud for Financial Services is only available as a part of a Licensed SKU. 
+  - content: What are the options for extending the Microsoft Cloud for Financial Services Data Model? 
     choices:
-    - content: Four
+    - content: The Tables can be extended just like any other Dataverse Table.
       isCorrect: false
-      explanation: Incorrect.
-    - content: Three
+      explanation: Incorrect. The current controls on the Data model are exercised with the intent of maintaining future compatibility, as in the future, data elements and relationships of other related financial industry sub-verticals will need to be included.  
+    - content: Options sets could be extended in multiple tables and custom Tables could be added for additional extensions.
       isCorrect: true
-      explanation: Correct.
-    - content: Two
+      explanation: Correct. The current controls on the Data model are exercised with the intent of maintaining future compatibility, as in the future, data elements and relationships of other related financial industry sub-verticals will need to be included.  
+    - content: Additional fields can be added to the Tables.
       isCorrect: false
-      explanation: Incorrect.
-    - content: One
+      explanation: Incorrect. The current controls on the Data model are exercised with the intent of maintaining future compatibility, as in the future, data elements and relationships of other related financial industry sub-verticals will need to be included.  
+    - content: The Tables are completely locked.
       isCorrect: false
-      explanation: Incorrect.
-  - content: Unified Customer Profile uses which of the following Data model layers?
+      explanation: Incorrect. The current controls on the Data model are exercised with the intent of maintaining future compatibility, as in the future, data elements and relationships of other related financial industry sub-verticals will need to be included.  
+  - content: Unified Customer Profile uses which of the following Data model layers? 
     choices:
     - content: All three layers that form Financial Services Industry Data Model
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Unified Customer Profile app uses Financial Services Common Data model and Retail Banking Core Data model.  
     - content: Only Retail Banking Core Data Model
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Unified Customer Profile app uses Financial Services Common Data model and Retail Banking Core Data model.  
     - content: Retail Banking Core Data Model and Loan Onboarding Data Model
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Unified Customer Profile app uses Financial Services Common Data model and Retail Banking Core Data model.  
     - content: Financial Services Common Data Model and Retail Banking Core Data Model
       isCorrect: true
-      explanation: Correct.
+      explanation: Correct. Unified Customer Profile app uses Financial Services Common Data model and Retail Banking Core Data model.  
