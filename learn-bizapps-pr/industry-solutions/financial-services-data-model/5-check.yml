@@ -33,7 +33,7 @@ quiz:
       isCorrect: false
       explanation: Incorrect. Unlike the Microsoft Financial Services Accelerator, the Microsoft Cloud for Financial Services is only available as a part of a Licensed SKU. 
     - content: "False"
-      isCorrect: false
+      isCorrect: true
       explanation: Incorrect. Unlike the Microsoft Financial Services Accelerator, the Microsoft Cloud for Financial Services is only available as a part of a Licensed SKU. 
   - content: What are the options for extending the Microsoft Cloud for Financial Services Data Model? 
     choices:
