@@ -17,55 +17,55 @@ quiz:
     choices: 
     - content: Empower Employees with meaningful collaboration.
       isCorrect: false
-      explanation: The purpose of Unified Customer Profile capability is to gain a comprehensive view of the customer's financial situation.
+      explanation: Unified Customer Profile provides a comprehensive view of a customer’s financial situation to help banks take advantage of cross-sell/up-sell opportunities and, helping to increase a customer’s lifetime value and loyalty.
     - content: Gain comprehensive view of the customer’s financial situation.
       isCorrect: true 
-      explanation: The purpose of Unified Customer Profile capability is to gain a comprehensive view of the customer's financial situation.
+      explanation: Unified Customer Profile provides a comprehensive view of a customer’s financial situation to help banks take advantage of cross-sell/up-sell opportunities and, helping to increase a customer’s lifetime value and loyalty.
     - content: Maintain a comprehensive compliance posture.
       isCorrect: false 
-      explanation: The purpose of Unified Customer Profile capability is to gain a comprehensive view of the customer's financial situation.
+      explanation: Unified Customer Profile provides a comprehensive view of a customer’s financial situation to help banks take advantage of cross-sell/up-sell opportunities and, helping to increase a customer’s lifetime value and loyalty.
     - content: No such capability is included in Microsoft Cloud for Financial Services.
       isCorrect: false 
-      explanation: The purpose of Unified Customer Profile capability is to gain a comprehensive view of the customer's financial situation.
-  - content: How are the financial services institutions reacting to Covid disruptions?
+      explanation: Unified Customer Profile provides a comprehensive view of a customer’s financial situation to help banks take advantage of cross-sell/up-sell opportunities and, helping to increase a customer’s lifetime value and loyalty.
+  - content: What are the potential methods of extending and integration Microsoft Cloud for Financial Services? 
     choices: 
-    - content: Financial institutions are prioritizing Cloud Services for digital transformation.
-      isCorrect: true 
-      explanation: Financial institutions are reacting to Covid disruptions by prioritizing Cloud Services for digital transformation.
-    - content: Financial institutions are prioritizing On-premises deployments.
+    - content: Microsoft Cloud for Financial Services has limited extensibility and integration options.  
       isCorrect: false 
-      explanation: Financial institutions are reacting to Covid disruptions by prioritizing Cloud Services for digital transformation.
-    - content: Financial institutions are competing with startups.
+      explanation: Service Integrators, Independent Software Vendors and Customers can extend Microsoft Cloud for Financial Services at the Data model level, at the Application layer and finally using APIs and Integrations.  
+    - content: Extensibility and Integration can be achieved by extending the Industry Data model and integrating their bespoke solutions with Microsoft Cloud for Financial Services. 
+      isCorrect: True 
+      explanation: Service Integrators, Independent Software Vendors and Customers can extend Microsoft Cloud for Financial Services at the Data model level, at the Application layer and finally using APIs and Integrations.  
+    - content: Financial institutions can integrate with Microsoft Cloud for Financial Services using their integration technologies.  
       isCorrect: false 
-      explanation: Financial institutions are reacting to Covid disruptions by prioritizing Cloud Services for digital transformation.
-    - content: Covid hasn’t disrupted Financial services industry.
+      explanation: Service Integrators, Independent Software Vendors and Customers can extend Microsoft Cloud for Financial Services at the Data model level, at the Application layer and finally using APIs and Integrations.  
+    - content: Only Service Integrators can configure and extend Microsoft Cloud for Financial Services. 
       isCorrect: false 
-      explanation: Financial institutions are reacting to Covid disruptions by prioritizing Cloud Services for digital transformation.
+      explanation: Service Integrators, Independent Software Vendors and Customers can extend Microsoft Cloud for Financial Services at the Data model level, at the Application layer and finally using APIs and Integrations.  
   - content: How are customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services?
     choices: 
     - content: Using integration services such as Logic Apps.
       isCorrect: false
-      explanation: Customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services by using prebuilt connectors and retail banking data models.
+      explanation: Data model and connectors form the foundational elements of Microsoft Cloud for Financial Services. These are tailored to the financial services industry thus enabling interoperable connections between a financial institution’s banking systems and Microsoft Cloud for Financial Services. 
     - content: Using prebuilt connectors and retail banking data model.  
       isCorrect: true 
-      explanation: Customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services by using prebuilt connectors and retail banking data models.
+      explanation: Data model and connectors form the foundational elements of Microsoft Cloud for Financial Services. These are tailored to the financial services industry thus enabling interoperable connections between a financial institution’s banking systems and Microsoft Cloud for Financial Services. 
     - content: Power Apps Flow
       isCorrect: false 
-      explanation: Customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services by using prebuilt connectors and retail banking data models.
+      explanation: Data model and connectors form the foundational elements of Microsoft Cloud for Financial Services. These are tailored to the financial services industry thus enabling interoperable connections between a financial institution’s banking systems and Microsoft Cloud for Financial Services. 
     - content: Business Process Flow
       isCorrect: false 
-      explanation: Customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services by using prebuilt connectors and retail banking data models.
-  - content: Which of these capabilities form Combatting Financial Crime scenario?
+      explanation: Data model and connectors form the foundational elements of Microsoft Cloud for Financial Services. These are tailored to the financial services industry thus enabling interoperable connections between a financial institution’s banking systems and Microsoft Cloud for Financial Services. 
+  - content: Currently, the Microsoft Cloud for Financial Services is focused on which specific financial industry subvertical?  
     choices: 
-    - content: Account and Purchase Compliance
+    - content: Commercial Banking e
       isCorrect: false
-      explanation: Account and Purchase Protection form Combatting Financial Crime scenario.
-    - content: Customer Onboarding Portal
+      explanation: The current release of Microsoft Cloud for Financial Services focuses on Retail Banking.
+    - content: Retail Banking
+      isCorrect: true 
+      explanation: The current release of Microsoft Cloud for Financial Services focuses on Retail Banking.
+    - content: Insurance
+      isCorrect: false
+      explanation: The current release of Microsoft Cloud for Financial Services focuses on Retail Banking.
+    - content: Can support any financial industry subvertical
       isCorrect: false 
-      explanation: Account and Purchase Protection form Combatting Financial Crime scenario.
-    - content: Account and Purchase Protection
-      isCorrect: true
-      explanation: Account and Purchase Protection form Combatting Financial Crime scenario.
-    - content: Microsoft AppSource
-      isCorrect: false 
-      explanation: Account and Purchase Protection form Combatting Financial Crime scenario.
+      explanation: The current release of Microsoft Cloud for Financial Services focuses on Retail Banking.
