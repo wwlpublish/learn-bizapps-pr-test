@@ -27,7 +27,7 @@ In this task, you will understand the main tables related to Life event data. Se
 
 ### Life event data table definitions
 
-- [Life Moment](/common-data-model/schema/core/industrycommon/financialservices/retailbankingcoredatamodel/lifemoment/?azure-portal=true): Significant milestones in a customer's personal life, which can impact their financial situation, such as attending college, marriage, having a child, retirement, etc.  
+[Life Moment](/common-data-model/schema/core/industrycommon/financialservices/retailbankingcoredatamodel/lifemoment/?azure-portal=true): Significant milestones in a customer's personal life, which can impact their financial situation, such as attending college, marriage, having a child, retirement, etc.  
 
 See next page for the Life event data Entity Relationship Diagram.
 

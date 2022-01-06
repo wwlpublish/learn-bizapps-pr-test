@@ -43,7 +43,7 @@ In this task, we will create a new life event, edit its details, and then delete
 1.  Confirm deletion and Select **Delete** button.
 
 	> [!div class="mx-imgBorder"]
-	> [!Screenshot of the confirm deletion message.](../media/confirm-deletion.png)](../media/confirm-deletion.png#lightbox)
+	> [![Screenshot of the confirm deletion message.](../media/confirm-deletion.png)](../media/confirm-deletion.png#lightbox)
 
 1.  The change reflects on the **Residence** Life event control.
 
