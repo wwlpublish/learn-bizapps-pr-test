@@ -1,0 +1,1 @@
+This module explored the Retail Banking Data model in Microsoft Cloud for Financial Services and navigated the Unified Customer Profile application controls. You then learned how to create new records within Unified Customer Profile. You also customized the application by editing the controls to show a new Life Event type.
