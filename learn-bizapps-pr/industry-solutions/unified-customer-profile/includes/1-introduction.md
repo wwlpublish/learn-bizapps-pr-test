@@ -17,7 +17,7 @@ Unified customer profile focuses on both **Deliver differentiated Customer Exper
 
 ## Reference architecture
 
-Below is the reference architecture of Unified customer profile
+Below is the reference architecture of Unified customer profile.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram of unified customer profile reference architecture.](../media/reference-architecture.png)](../media/reference-architecture.png#lightbox)

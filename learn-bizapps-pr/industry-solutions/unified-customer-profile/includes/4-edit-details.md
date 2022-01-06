@@ -40,7 +40,7 @@ In this task, we will create a new life event, edit its details, and then delete
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the delete button.](../media/delete.png)](../media/delete.png#lightbox)
 
-    Confirm deletion and Select **Delete** button.
+1.  Confirm deletion and Select **Delete** button.
 
 	> [!div class="mx-imgBorder"]
 	> [!Screenshot of the confirm deletion message.](../media/confirm-deletion.png)](../media/confirm-deletion.png#lightbox)
@@ -144,7 +144,7 @@ In this task, we will create a new relationship, edit its relationship type, and
 
 1. Set Relationship type value and Select **Add relationship**.
 
-- **Relationship type:** Lawyer
+	- **Relationship type:** Lawyer
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the relationship type set as lawyer.](../media/relationship.png)](../media/relationship.png#lightbox)

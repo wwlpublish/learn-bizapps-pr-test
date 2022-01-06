@@ -79,7 +79,7 @@ In this task, you will understand the main tables related to customer connection
 
 - [Group member](/common-data-model/schema/core/industrycommon/financialservices/retailbankingcoredatamodel/groupmember/?azure-portal=true): An association between a customer and a Group
   
-- [Group Financial Holding](/common-data-model/schema/core/industrycommon/financialservices/retailbankingcoredatamodel/groupfinancialholding/?azure-portal=true: Financial holdings associated with a Group, to be included in the group's total assets and liabilities.
+- [Group Financial Holding](/common-data-model/schema/core/industrycommon/financialservices/retailbankingcoredatamodel/groupfinancialholding/?azure-portal=true): Financial holdings associated with a Group, to be included in the group's total assets and liabilities.
   
 - [Relationship](/common-data-model/schema/core/industrycommon/financialservices/retailbankingcoredatamodel/relationship/?azure-portal=true): Denotes an association between one contact to another (not as part of the larger group) where there is not necessarily a direct association of finances. For example, a spouse, lawyer, child, or grandparent.
 

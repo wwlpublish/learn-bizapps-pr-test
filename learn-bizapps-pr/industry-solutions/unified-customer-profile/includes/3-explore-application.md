@@ -28,15 +28,15 @@ Now that the UCP form has loaded, we will explore all the tabs on the form and i
 
 The **Summary** tab consists of the below PCF controls that are componentized to provide the flexibility to choose and customize the views you want to develop.
 
-	-   Customer Snapshot
+-   Customer Snapshot
+	
+-   Life events
 		
-	-   Life events
+-   Financial Holdings
+	
+-   Main Household
 		
-	-   Financial Holdings
-		
-	-   Main Household
-		
-	-   Cards
+-   Cards
 
 1.  Examine the **Customer Snapshot** control. The snapshot of the customer shows personal information (for example, name, demographics, and branch information) and the preferred channel of communication. 
 
@@ -91,7 +91,7 @@ The **Summary** tab consists of the below PCF controls that are componentized to
 	|     Lines   of Credit      |     FH_linesofcredit     [sum of   balances by type of line of credit; in the summary view this is based on   balance_default (that is, in the bank’s default currency)]      |
 	|     Long-term   savings    |     FH_longtermsavings     [sum of   balances by type of line of credit; in the summary view this is based on   balance_default (that is, in the bank’s default currency)]    |
 
-1.  Examine the **Household** control. It shows
+1.  Examine the **Household** control.
 
     See the information showing up on the control and the Dataverse table columns it is derived from.
 

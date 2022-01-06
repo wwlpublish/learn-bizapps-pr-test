@@ -20,7 +20,7 @@ In this task, we will first create a new solution and then customize UCP to add 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the new solution button.](../media/new-solution.png)](../media/new-solution.png#lightbox)
 
-1.  Create a new solution with the following properties and select**Create**.
+1.  Create a new solution with the following properties and select **Create**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the new solution details.](../media/solution.png)](../media/solution.png#lightbox)
@@ -30,12 +30,12 @@ In this task, we will first create a new solution and then customize UCP to add 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the solution name.](../media/solution-name.png)](../media/solution-name.png#lightbox)
 
-1.  In the solution explorer, select**Add existing** > **App** > **Model-driven app**.
+1.  In the solution explorer, select **Add existing** > **App** > **Model-driven app**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the steps to add an existing model-driven-app.](../media/add-model-driven-app.png)](../media/add-model-driven-app.png#lightbox)
 
-1.  Select the **Unified customer profile** application from the list and select**Add**. 
+1.  Select the **Unified customer profile** application from the list and select **Add**. 
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the unified customer profile application selected.](../media/unified-customer-profile-application.png)](../media/unified-customer-profile-application.png#lightbox)
@@ -87,12 +87,12 @@ In this task, we will first create a new solution and then customize UCP to add 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the controls tab.](../media/controls.png)](../media/controls.png#lightbox)
 
-1. Now select**Add Control** and look for **Customer Summary** control in the list.
+1. Now select **Add Control** and look for **Customer Summary** control in the list.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the add control button.](../media/add-control.png)](../media/add-control.png#lightbox)
 
-1. Select the **Customer Summary** control and select**Add**.
+1. Select the **Customer Summary** control and select **Add**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the customer summary control.](../media/customer-summary-control.png)](../media/customer-summary-control.png#lightbox)
@@ -102,7 +102,7 @@ In this task, we will first create a new solution and then customize UCP to add 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the edit contact button.](../media/edit-contact.png)](../media/edit-contact.png#lightbox)
 
-1. In the dialog box that opens, set the **Bind to a value on a field** value to **contactid(SingleLine.Text)** and select**OK**.
+1. In the dialog box that opens, set the **Bind to a value on a field** value to **contactid(SingleLine.Text)** and select **OK**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the bind to a value on a field set to contact ID.](../media/bind-value.png)](../media/bind-value.png#lightbox)
@@ -112,7 +112,7 @@ In this task, we will first create a new solution and then customize UCP to add 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the component edit icon.](../media/edit-component.png)](../media/edit-component.png#lightbox)
 
-1. Set the **Bind to static options** property to **Life events** and select**OK**.
+1. Set the **Bind to static options** property to **Life events** and select **OK**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the bind to static options property set life events.](../media/bind-static.png)](../media/bind-static.png#lightbox)
@@ -122,12 +122,12 @@ In this task, we will first create a new solution and then customize UCP to add 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the field properties.](../media/field-properties.png)](../media/field-properties.png#lightbox)
 
-1. Set the **CustomerSummary** radio buttons for **Web, Phone, Tablet** to true, and then select**OK**.
+1. Set the **CustomerSummary** radio buttons for **Web, Phone, Tablet** to true, and then select **OK**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the customer summary control settings.](../media/customer-summary-control-settings.png)](../media/customer-summary-control-settings.png#lightbox)
 
-1. The form is ready now, select the **Home** menu on the ribbon and then select**Save** and **Publish**.
+1. The form is ready now, select the **Home** menu on the ribbon and then select **Save** and **Publish**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the home menu with save and publish selected.](../media/publish.png)](../media/publish.png#lightbox)
@@ -160,12 +160,12 @@ In this task, we will extend the data model to add a new Life Event Type to the 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of life event table selected in the search results.](../media/life-event-table.png)](../media/life-event-table.png#lightbox)
 
-1.  In the table columns tab, select**Life event type** column name to edit it. Then select**Edit choice** to add the new life moment type.
+1.  In the table columns tab, select **Life event type** column name to edit it. Then select **Edit choice** to add the new life moment type.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the edit choice button.](../media/edit-choice.png)](../media/edit-choice.png#lightbox)
 
-1.  In the choice edit dialog, select**Add new item**.
+1.  In the choice edit dialog, select **Add new item**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of add new item in the choice edit dialog box.](../media/add-new-item.png)](../media/add-new-item.png#lightbox)
@@ -227,17 +227,17 @@ In this task, we will extend the data model to add a new Life Event Type to the 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the new life event type details.](../media/life-event-details.png)](../media/life-event-details.png#lightbox)
 
-1. After the record is saved, select**Related** tab and then **Category types relations**.
+1. After the record is saved, select **Related** tab and then **Category types relations**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the related tab with category types relations selected.](../media/category-types.png)](../media/category-types.png#lightbox)
 
-1. In the **Category types relations** tab, select**+New Category types relations** to create a new record.
+1. In the **Category types relations** tab, select **+New Category types relations** to create a new record.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of new category types relations button.](../media/new-category-types-relations.png)](../media/new-category-types-relations.png#lightbox)
 
-1. Set the following values to create a new **Category types relations** record and select**Save**.
+1. Set the following values to create a new **Category types relations** record and select **Save**.
 
 	- **Name:** University Enrollment category types relations
 
@@ -250,7 +250,7 @@ In this task, we will extend the data model to add a new Life Event Type to the 
 
 1. The Life event configurations are now complete.
 
-1. Launch the **Unified customer profile** application, and select**Add new event**.
+1. Launch the **Unified customer profile** application, and select **Add new event**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the add new event button on the life events screen.](../media/add-new-event.png)](../media/add-new-event.png#lightbox)
