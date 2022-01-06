@@ -1,0 +1,65 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.unified-customer-profile.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 01/06/2022 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-industry-solutions 
+durationInMinutes: 8 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which of the following is NOT a key capability of Unified Customer Profile?
+    choices: 
+    - content: At-a-glance summary for the customer
+      isCorrect: false
+      explanation: Account protection is not one of the key capabilities of Unified Customer Profile.
+    - content: Relationship connections
+      isCorrect: false 
+      explanation: Account protection is not one of the key capabilities of Unified Customer Profile.
+    - content: Financial Holdings
+      isCorrect: false 
+      explanation: Account protection is not one of the key capabilities of Unified Customer Profile.
+    - content: Account protection
+      isCorrect: true 
+      explanation: Account protection is not one of the key capabilities of Unified Customer Profile.
+  - content: Which of the following is NOT included on the Summary tab of Unified Customer Profile?
+    choices: 
+    - content: Customer Snapshot
+      isCorrect: false
+      explanation: Banking information is not included on the Summary tab of a Unified Customer Profile.
+    - content: Life Events
+      isCorrect: false 
+      explanation: Banking information is not included on the Summary tab of a Unified Customer Profile.
+    - content: Banking information
+      isCorrect: true 
+      explanation: Banking information is not included on the Summary tab of a Unified Customer Profile.
+    - content: Financial Holdings
+      isCorrect: false 
+      explanation: Banking information is not included on the Summary tab of a Unified Customer Profile.
+  - content: Which of the following is typically editable in Unified Customer Profile?
+    choices: 
+    - content: Birthday
+      isCorrect: false
+      explanation: Most of the information in Unified Customer Profile comes from financial core systems, but Life Events are editable scenarios.
+    - content: Employment
+      isCorrect: false 
+      explanation: Most of the information in Unified Customer Profile comes from financial core systems, but Life Events are editable scenarios.
+    - content: Life Event
+      isCorrect: true 
+      explanation: Most of the information in Unified Customer Profile comes from financial core systems, but Life Events are editable scenarios.
+    - content: Residence
+      isCorrect: false 
+      explanation: Most of the information in Unified Customer Profile comes from financial core systems, but Life Events are editable scenarios.
+  - content: Can new controls be added to Unified Customer Profile?
+    choices: 
+    - content: Yes
+      isCorrect: true 
+      explanation: Unified Customer Profile can be extended to add new controls.
+    - content: No
+      isCorrect: false 
+      explanation: Unified Customer Profile can be extended to add new controls.

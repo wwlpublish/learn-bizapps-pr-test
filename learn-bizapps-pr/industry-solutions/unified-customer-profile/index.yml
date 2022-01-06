@@ -1,0 +1,40 @@
+### YamlMime:Module 
+uid: learn-bizapps.unified-customer-profile 
+metadata: 
+ title: Unified Customer Profile
+ description: In this module, you will explore the Unified Customer Profile (UCP) application that shows a 360-degree perspective of the customer consolidated into a unified dashboard in the Microsoft Cloud for Financial Services. 
+ ms.date: 01/06/2022  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-industry-solutions  
+title: Unified Customer Profile
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  In this module, you will explore the Unified Customer Profile (UCP) application that shows a 360-degree perspective of the customer consolidated into a unified dashboard in the Microsoft Cloud for Financial Services. After exploring UCP and it's and data model, you will extend the overall scenario by editing the details of a customer’s profile and adding new controls to the application. 
+abstract: |  
+    In this module, you will: 
+    - Explore the Unified Customer Profile Data Model
+    - Explore Unified Customer Profile application
+    - Edit customer details in Unified customer profile
+    - Extend the Unified Customer Profile application
+prerequisites: Training environment preparation 
+iconUrl: /learn/achievements/unified-customer-profile.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products: 
+- mscloud-financial
+- industry-solutions 
+units: 
+- learn-bizapps.unified-customer-profile.1-introduction 
+- learn-bizapps.unified-customer-profile.2-data-model 
+- learn-bizapps.unified-customer-profile.3-explore-application 
+- learn-bizapps.unified-customer-profile.4-edit-details 
+- learn-bizapps.unified-customer-profile.5-extend 
+- learn-bizapps.unified-customer-profile.6-check 
+- learn-bizapps.unified-customer-profile.7-summary 
+badge: 
+  uid: learn-bizapps.unified-customer-profile.badge 
