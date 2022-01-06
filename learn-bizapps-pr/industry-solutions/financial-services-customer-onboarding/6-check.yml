@@ -13,59 +13,56 @@ durationInMinutes: 8
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: What Power Apps portal is included with Customer Onboarding?
+  - content: The Financial holdings table in the Retail Banking Data model supports which specific sub-verticals?
     choices: 
-    - content: Commercial Banking Sample Portal
+    - content: Insurance Holdings
       isCorrect: false
-      explanation: Retail Banking Sample Portal is included with Customer Onboarding.
-    - content: Retail Banking Sample Portal
+      explanation: Currently the entire Microsoft Cloud for Financial Services Data model only supports Retail Banking.
+    - content: Retail Banking
       isCorrect: true
-      explanation: Retail Banking Sample Portal is included with Customer Onboarding.
-    - content: Loan Application Sample Portal
+      explanation: Currently the entire Microsoft Cloud for Financial Services Data model only supports Retail Banking.
+    - content: Commercial Banking
       isCorrect: false 
-      explanation: Retail Banking Sample Portal is included with Customer Onboarding.
-    - content: No sample portal is included
+      explanation: Currently the entire Microsoft Cloud for Financial Services Data model only supports Retail Banking.
+    - content: Any Financial Services subvertical
       isCorrect: false 
-      explanation: Retail Banking Sample Portal is included with Customer Onboarding.
-  - content: What entity is used for tracking a loan application in the Loan Onboarding app?
+      explanation: Currently the entire Microsoft Cloud for Financial Services Data model only supports Retail Banking.
+  - content: The Microsoft Cloud for Financial Services Data model is available in GitHub. True or False?
     choices: 
-    - content: Loan application
+    - content: False, it is not available in GitHub.
       isCorrect: true 
-      explanation: Loan application entity is used for tracking a loan application in the Loan Onboarding app.
-    - content: Contact
+      explanation: Unlike the Microsoft Financial Services Accelerator, the Microsoft Cloud for Financial Services is only available as a part of a Licensed SKU.
+    - content: True, it is available in GitHub.
       isCorrect: false 
-      explanation: Loan application entity is used for tracking a loan application in the Loan Onboarding app.
-    - content: Account
+      explanation: Unlike the Microsoft Financial Services Accelerator, the Microsoft Cloud for Financial Services is only available as a part of a Licensed SKU.
+    - content: False, it is available in Roadmap.
       isCorrect: false 
-      explanation: Loan application entity is used for tracking a loan application in the Loan Onboarding app.
-    - content: Loan onboarding
-      isCorrect: false 
-      explanation: Loan application entity is used for tracking a loan application in the Loan Onboarding app.
-  - content: What process can be extended to better track loan applications in Loan onboarding?
+      explanation: Unlike the Microsoft Financial Services Accelerator, the Microsoft Cloud for Financial Services is only available as a part of a Licensed SKU.
+  - content: What are the options for extending the Microsoft Cloud for Financial Services Data Model?
     choices: 
-    - content: Loan Application Process
+    - content: The Tables can be extended just like any other Dataverse Table.
       isCorrect: false
-      explanation: Business Process Flow can be extended to better track loan applications in Loan Onboarding.
-    - content: Business Process Flow
+      explanation: The current controls on the Data model are exercised with the intent of maintaining future compatibility, as in the future, data elements and relationships of other related financial industry sub-verticals will need to be included.
+    - content: Option sets could be extended in multiple tables and custom Tables could be added for additional extensions.
       isCorrect: true 
-      explanation: Business Process Flow can be extended to better track loan applications in Loan Onboarding.
-    - content: Power Apps Flow
+      explanation: The current controls on the Data model are exercised with the intent of maintaining future compatibility, as in the future, data elements and relationships of other related financial industry sub-verticals will need to be included.
+    - content: Additional fields can be added to the Tables.
       isCorrect: false 
-      explanation: Business Process Flow can be extended to better track loan applications in Loan Onboarding.
-    - content: Dynamics 365 Process
+      explanation: The current controls on the Data model are exercised with the intent of maintaining future compatibility, as in the future, data elements and relationships of other related financial industry sub-verticals will need to be included.
+    - content: The Tables are completely locked.
       isCorrect: false 
-      explanation: Business Process Flow can be extended to better track loan applications in Loan Onboarding.
-  - content: Customer Onboarding can be deployed from where?
+      explanation: The current controls on the Data model are exercised with the intent of maintaining future compatibility, as in the future, data elements and relationships of other related financial industry sub-verticals will need to be included.
+  - content: Unified Customer Profile uses which of the following Data model layers?
     choices: 
-    - content: Power Apps Admin Center
+    - content: All the 3 layers that form Financial Services Industry Data model.
       isCorrect: false
-      explanation: Customer Onboarding can be deployed from Microsoft Solution Center.
-    - content: Microsoft 365 Admin Center
+      explanation: Unified Customer Profile app uses Financial Services Common Data model and Retail Banking Core Data model.
+    - content: Only Retail Banking Core Data model.
       isCorrect: false 
-      explanation: Customer Onboarding can be deployed from Microsoft Solution Center.
-    - content: Microsoft AppSource
+      explanation: Unified Customer Profile app uses Financial Services Common Data model and Retail Banking Core Data model.
+    - content: Retail Banking Core Data model and Loan Onboarding Data model.
       isCorrect: false 
-      explanation: Customer Onboarding can be deployed from Microsoft Solution Center.
-    - content: Microsoft Solution Center
+      explanation: Unified Customer Profile app uses Financial Services Common Data model and Retail Banking Core Data model.
+    - content: Financial Services Common Data model and Retail Banking Core Data model.
       isCorrect: true 
-      explanation: Customer Onboarding can be deployed from Microsoft Solution Center.
+      explanation: Unified Customer Profile app uses Financial Services Common Data model and Retail Banking Core Data model.
