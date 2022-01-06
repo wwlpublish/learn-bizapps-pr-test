@@ -144,7 +144,7 @@ In this task, we will first create a new solution and then customize UCP to add 
 1. Launch **Unified customer profile** again from any contact record. Note the new tab reflect along with the **Life Event** control.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the new tab added.](../media/tab-added.png)](../media/tab-added.png#lightbox)
+	> [![Screenshot of the newly added tab.](../media/tab-added.png)](../media/tab-added.png#lightbox)
 
 ## Task 2: Add a new life event type
 

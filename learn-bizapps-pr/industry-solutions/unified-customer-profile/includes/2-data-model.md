@@ -1,6 +1,6 @@
 In this exercise, you will learn about the Unified customer profile (UCP) data tables.
 
-The UCP data model is built atop the FinancialServiceCommon and RetailBankingCoreDataModel layers in Dataverse. Visit [FSI docs for Data model link](https://docs.microsoft.com/en-us/common-data-model/schema/core/industrycommon/financialservices/overview) on Microsoft Docs to learn more about the FSI data model.
+The UCP data model is built atop the FinancialServiceCommon and RetailBankingCoreDataModel layers in Dataverse. Visit [FSI docs for Data model link](/common-data-model/schema/core/industrycommon/financialservices/overview/?azure-portal=true) on Microsoft Docs to learn more about the FSI data model.
 
 ## Task 1: Understand customer and bank data and relationships
 
