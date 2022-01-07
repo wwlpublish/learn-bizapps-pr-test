@@ -4,7 +4,7 @@ The Microsoft Cloud for Financial Services solution is composed of various integ
 
 - Microsoft 365
 
-To learn more on how to use and set up and the various components in Microsoft Cloud for Financial Services, reference this article on Microsoft Docs: [Set up and configure Microsoft Cloud for Financial Services](https://docs.microsoft.com/industry/financial-services/configure-cloud-for-financial-services).
+To learn more on how to use and set up and the various components in Microsoft Cloud for Financial Services, reference this article on Microsoft Docs: [Set up and configure Microsoft Cloud for Financial Services](/industry/financial-services/configure-cloud-for-financial-services/?azure-portal=true).
 
 This learning path will require the following features and license dependencies:
 
