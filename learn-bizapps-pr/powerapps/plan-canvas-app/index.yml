@@ -28,6 +28,7 @@ roles:
 products:
 - power-platform
 - power-apps
+- common-data-service
 units:
 - learn-bizapps.plan-canvas-app.1-introduction
 - learn-bizapps.plan-canvas-app.2-start-app
