@@ -24,7 +24,8 @@ levels:
 roles:  
 - maker  
 products: 
-- power-apps 
+- power-apps
+- common-data-service
 units: 
 - learn-bizapps.create-data-model-expense-report.1-introduction 
 - learn-bizapps.create-data-model-expense-report.2-use-predefined-tables 
