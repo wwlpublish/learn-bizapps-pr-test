@@ -79,8 +79,8 @@ In this task, you will save the file with a new file name.
 
 1. Save the file as **MAIAD Lab 02A - Power BI Import - My Solution.pbix**.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of Save as window with MAIAD Lab 02A - Power BI Import - My solution.pbix.](../media/save-file-name.png)](../media/save-file-name.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of Save as window with MAIAD Lab 02A - Power BI Import - My solution.pbix.](../media/save-file-name.png)](../media/save-file-name.png#lightbox)
 
 ## Exercise 2: Edit imported queries to Include a dates table
 
