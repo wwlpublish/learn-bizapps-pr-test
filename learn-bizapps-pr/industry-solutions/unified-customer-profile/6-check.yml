@@ -13,34 +13,34 @@ durationInMinutes: 8
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which of the following is NOT a key capability of Unified Customer Profile?
+  - content: Which of the following is a key capability of Unified Customer Profile?
     choices: 
-    - content: At-a-glance summary for the customer
+    - content: Fraud Protection
       isCorrect: false
-      explanation: Account protection is not one of the key capabilities of Unified Customer Profile.
+      explanation: Relationship connections are included as one of the key capabilities of Unified Customer Profile. 
     - content: Relationship connections
+      isCorrect: true 
+      explanation: Relationship connections are included as one of the key capabilities of Unified Customer Profile. 
+    - content: Compliance needs
       isCorrect: false 
-      explanation: Account protection is not one of the key capabilities of Unified Customer Profile.
-    - content: Financial Holdings
-      isCorrect: false 
-      explanation: Account protection is not one of the key capabilities of Unified Customer Profile.
+      explanation: Relationship connections are included as one of the key capabilities of Unified Customer Profile. 
     - content: Account protection
-      isCorrect: true 
-      explanation: Account protection is not one of the key capabilities of Unified Customer Profile.
-  - content: Which of the following is NOT included on the Summary tab of Unified Customer Profile?
-    choices: 
-    - content: Customer Snapshot
-      isCorrect: false
-      explanation: Banking information is not included on the Summary tab of a Unified Customer Profile.
-    - content: Life Events
       isCorrect: false 
-      explanation: Banking information is not included on the Summary tab of a Unified Customer Profile.
-    - content: Banking information
+      explanation: Relationship connections are included as one of the key capabilities of Unified Customer Profile. 
+  - content: Which of the following is included on the Summary tab of Unified Customer Profile?
+    choices: 
+    - content: Account Snapshot
+      isCorrect: false
+      explanation: Life Events are included on the Summary tab of a Unified Customer Profile. 
+    - content: Life Events
       isCorrect: true 
-      explanation: Banking information is not included on the Summary tab of a Unified Customer Profile.
+      explanation: Life Events are included on the Summary tab of a Unified Customer Profile. 
+    - content: Banking information
+      isCorrect: false 
+      explanation: Life Events are included on the Summary tab of a Unified Customer Profile. 
     - content: Financial Holdings
       isCorrect: false 
-      explanation: Banking information is not included on the Summary tab of a Unified Customer Profile.
+      explanation: Life Events are included on the Summary tab of a Unified Customer Profile. 
   - content: Which of the following is typically editable in Unified Customer Profile?
     choices: 
     - content: Birthday
