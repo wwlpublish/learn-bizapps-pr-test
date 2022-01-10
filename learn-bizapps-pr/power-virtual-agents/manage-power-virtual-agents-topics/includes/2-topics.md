@@ -57,9 +57,9 @@ Five node types are available:
 
 - **Ask a question** - Helps the bot capture information from the user. The captured information can be used to influence the flow of the conversation or as variables in other parts of the bot.
 
-- **Call an action** - Calls a Microsoft Power Automate flow to help interact with external systems or areas, for example, passing customer location details to the MSN weather connector to get the local weather forecast for the customer's location.
+- **Call an action** - Calls a Microsoft Power Automate flow to help interact with external systems or areas, for example, passing customer location details to the MSN weather connector to get the local weather forecast for the customer's location. This node is also used to prompt user authentication.
 
-- **Go to another topic** - Directs the user to a different topic in the bot. For example, you might want to send the user to a specific topic about the closure of a store if they ask about hours of operation for that store.
+- **Redirect to another topic** - Directs the user to a different topic in the bot. For example, you might want to send the user to a specific topic about the closure of a store if they ask about hours of operation for that store.
 
 - **End the conversation** - Ends the conversation and provides the ability to display surveys or send the customer to a live agent.
 
@@ -92,9 +92,9 @@ Message nodes can also include variables in message content. Variables can be us
 
 Variables will be discussed in more detail later.
 
-## Work with the Go to another topic node
+## Work with the Redirect to another topic node
 
-Each topic that you include in your bot will likely be specific. For example, the Current Weather topic will only provide weather-related data, while the Hours of Operation topic will focus on when a business is open. Regardless of the fact that they are separate topics, they can still be related or dependent on each other. Returning to the previous example of the Product Returns and Product Recalls topics, rather than writing multiple, unique triggers for both topics, you could create a Recall or Return topic. The purpose of the topics is to determine which topic to load next. It contains a question node that asks if the inquiry is a return or recall. Based on what the user selects, the **Go to topic** node loads either the Product Returns or Product Recalls topic.
+Each topic that you include in your bot will likely be specific. For example, the Current Weather topic will only provide weather-related data, while the Hours of Operation topic will focus on when a business is open. Regardless of the fact that they are separate topics, they can still be related or dependent on each other. Returning to the previous example of the Product Returns and Product Recalls topics, rather than writing multiple, unique triggers for both topics, you could create a Recall or Return topic. The purpose of the topics is to determine which topic to load next. It contains a question node that asks if the inquiry is a return or recall. Based on what the user selects, the **Redirect to topic** node loads either the Product Returns or Product Recalls topic.
 
 > [!div class="mx-imgBorder"]
 > [![In Go to another topic, you can select any topic in the bot.](../media/2-4.png)](../media/2-4.png#lightbox)
