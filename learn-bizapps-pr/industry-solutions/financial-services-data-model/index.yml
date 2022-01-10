@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-bizapps.financial-services-data-model
 metadata:
- title: Financial Services data model
+ title: Financial Services data model in Microsoft Cloud for Financial Services
  description: This Module describes the dedicated data model included in the Microsoft Cloud for Financial Services.
- ms.date: 12/20/2021
+ ms.date: 01/14/2022
  author: DaveBeasley
  ms.author: dbeasley
  ms.topic: interactive-tutorial
  ms.prod: learning-d365-financial-services
-title: Financial Services data model
+title: Financial Services data model in Microsoft Cloud for Financial Services
 summary: |
   [!include[](../includes/module-banner.md)]
   This Module describes the dedicated data model included in the Microsoft Cloud for Financial Services.
