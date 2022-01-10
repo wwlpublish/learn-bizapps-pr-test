@@ -3,7 +3,7 @@ uid: learn-bizapps.create-data-model-expense-report.2-use-predefined-tables
 title: Use predefined tables in Dataverse
 metadata: 
   title: Use predefined tables in Dataverse
-  description: Predefined tables help you define relationships in Dataverse and relate information inside of your app.
+  description: Predefined tables help you define relationships in Dataverse and relate information inside your app.
   ms.date: 12/17/2021 
   author: jadaphillips 
   ms.author: jadaphillips 
