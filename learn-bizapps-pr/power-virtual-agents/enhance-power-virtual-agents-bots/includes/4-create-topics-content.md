@@ -2,7 +2,7 @@ Many organizations want to create bot topics that use existing content. This app
 
 Two ways that organizations can automatically generate topics for a bot are from Customer Service Insights topics and for existing web content such as FAQ pages. 
 
-Power Virtual Agents uses AI-assisted authoring to help organizations automatically extract and insert relevant content from existing web content topics into your bot. This feature eliminates the need to copy and paste or manually recreate content into topics.
+Power Virtual Agents uses AI-assisted authoring to help organizations automatically extract and insert relevant content from existing online content topics into your bot. This feature eliminates the need to copy and paste or manually recreate content into topics.
 
 AI evaluates the page and determines structure and content. It isolates content blocks that relate to a support issue or question and classifies them into topics. Each identified topic will follow the same structure as other topics. They will contain [trigger phrases that are identified during the process and an initial Message node](/power-virtual-agents/authoring-create-edit-topics/?azure-portal=true). These topics appear as suggested topics that can be modified and deleted like other topics.
 
@@ -16,7 +16,7 @@ Dynamics 365 Customer Service Insights uses AI to automatically group your organ
 
 For more information, see [Automate topics for a Power Virtual Agents bot](/dynamics365/ai/customer-service-insights/automate-topics/?azure-portal=true).
 
-## Extract content from webpages
+## Extract content from webpages or online files
 
 The three main steps for autocreating topics are:
 
@@ -28,7 +28,7 @@ The three main steps for autocreating topics are:
 
 The first step in creating topics from existing content is to extract topic suggestions from existing pages that contain the support content that you want to use. To complete this step, use the **Suggest topics** command in Power Virtual Agents. The **Suggest topics** command is built to run on webpages that are in the form of FAQ pages or support sites. After the extraction is complete, the suggested topics are displayed for further review.
 
-Content can be extracted by using the **Suggested** tab on the **Topics** page. When you first receive suggestions, this page will likely be blank. When topics have been extracted, the list will be displayed. To suggest topics, you will need to enter a URL for each webpage that you want to extract content from. The URLs must be secure (they must start with *https://*). If you add a page by mistake, you can remove it by selecting **Delete**.
+Content can be extracted by using the **Suggested** tab on the **Topics** page. When you first receive suggestions, this page will likely be blank. When topics have been extracted, the list will be displayed. To suggest topics, you will need to enter a URL for each webpage that you want to extract content from. The URLs must be secure (they must start with *https://*). If you are connecting to an online file, such as PDF or DOCX, you will need to provide the full URL to the location of the file. If you add a page by mistake, you can remove it by selecting **Delete**.
 
 > [!div class="mx-imgBorder"]
 > [![Suggest topics is built to run on webpages formatted as FAQ pages or support sites. Pages not following that structure might not work as expected.](../media/4-1.png)](../media/4-1.png#lightbox)
