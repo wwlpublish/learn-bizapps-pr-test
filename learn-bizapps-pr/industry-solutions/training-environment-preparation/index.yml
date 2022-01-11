@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-bizapps.training-environment-preparation
+uid: learn-bizapps.financial-training-environment-preparation
 metadata:
  title: Financial Services training environment preparation
  description: This module will walk you through the process of obtaining a training environment to be used for all the later modules in this Learning Path. The Microsoft Cloud for Financial Services is a conflux of Microsoft Dynamics 365 and Microsoft 365. To take full advantage of the Microsoft Cloud for Financial Services solution and the rest of this Learning Path, we recommend having access to both clouds. If you already have a Microsoft 365 tenant and licenses for all Microsoft Cloud for Financial Services apps(/industry/financial-services/configure-cloud-for-financial-services/?azure-portal=true), then you can skip this module and go on to the next module in this Learning Path.
@@ -18,7 +18,7 @@ abstract: |
     - Learn how to obtain trial licenses for all Microsoft Cloud for Financial Services required applications
     - Learn how to set up a Microsoft Cloud for Financial Services training environment
 prerequisites: You must have a Global Administrator role in your Microsoft 365 tenant to complete the exercises in this module.
-iconUrl: /learn/achievements/training-environment-preparation.svg
+iconUrl: /learn/achievements/financial-training-environment-preparation.svg
 levels:
 - intermediate
 roles:
@@ -28,11 +28,11 @@ products:
 - mscloud-financial
 - industry-solutions
 units:
-- learn-bizapps.training-environment-preparation.1-introduction
-- learn-bizapps.training-environment-preparation.2-set-up-tenant
-- learn-bizapps.training-environment-preparation.3-obtain-deploy-trial-licenses
-- learn-bizapps.training-environment-preparation.4-deploy-cloud
-- learn-bizapps.training-environment-preparation.5-check
-- learn-bizapps.training-environment-preparation.6-summary
+- learn-bizapps.financial-training-environment-preparation.1-introduction
+- learn-bizapps.financial-training-environment-preparation.2-set-up-tenant
+- learn-bizapps.financial-training-environment-preparation.3-obtain-deploy-trial-licenses
+- learn-bizapps.financial-training-environment-preparation.4-deploy-cloud
+- learn-bizapps.financial-training-environment-preparation.5-check
+- learn-bizapps.financial-training-environment-preparation.6-summary
 badge:
-  uid: learn-bizapps.training-environment-preparation.badge
+  uid: learn-bizapps.financial-training-environment-preparation.badge
