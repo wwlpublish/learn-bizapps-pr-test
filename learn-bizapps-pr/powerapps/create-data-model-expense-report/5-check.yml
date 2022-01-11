@@ -13,17 +13,17 @@ durationInMinutes: 6
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: How often will Dataverse autosave when you are making changes to tables?
+  - content: How often will Dataverse auto save when you are making changes to tables?
     choices: 
-    - content: You will manually save once and then Dataverse will autosave every two minutes.
+    - content: You will manually save once and then Dataverse will auto save every two minutes.
       isCorrect: false 
       explanation: Incorrect. This process is the case for Microsoft Power Apps, not Dataverse.
-    - content: In Dataverse settings, you need to set up autosaves and then you can choose how often you want it to autosave.
+    - content: In Dataverse settings, you need to set up the AutoSave function and then you can choose how often you want it to autosave.
       isCorrect: false 
-      explanation: Incorrect. Dataverse doesn't have autosave functionality when you are making changes to tables.
+      explanation: Incorrect. Dataverse doesn't have auto save functionality when you are making changes to tables.
     - content: Dataverse will autosave every five minutes.
       isCorrect: false 
-      explanation: Incorrect. Dataverse doesn't have autosave functionality when you are making changes to tables.
+      explanation: Incorrect. Dataverse doesn't have auto save functionality when you are making changes to tables.
     - content: You need to manually save every time.
       isCorrect: true 
       explanation: Correct. Though you need to select Done when you create a new column, your changes will not save until you select the Save Table button.
