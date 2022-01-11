@@ -19,7 +19,7 @@ In this case, you know that travelers will use the app. They need to log expense
 
 This use case shows that travelers need to submit expenses and save them as a draft to return to later. They need to view expense reports that they've submitted in the past but shouldn't be able to view other travelers' expenses. As a result, the traveler will need the following components:
 
-- A screen where they can submit a new expense report or view previous reports, including those that are being drafted
+- A screen where they can submit a new expense report or view previous reports, including reports that are being drafted
 
 - A screen to edit expense reports, whether a new or previous draft
 
