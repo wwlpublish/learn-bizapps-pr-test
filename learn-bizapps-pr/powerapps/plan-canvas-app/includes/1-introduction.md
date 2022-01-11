@@ -1,30 +1,30 @@
-So far, we've covered how to translate a pre-existing and outdated business solution into a modern solution using the Power Platform. We also covered how to create a data model, and how to implement that data model in Dataverse. Now we can get into building the app. But first, let's think through how this app is going to look and work. You may be tempted to skip all these planning stages and jump right into building. But without taking time to methodically plan out your app, you can implement a partial solution or have to go back and change many things later on. Apps go through a development cycle, sometimes referred to as Application Lifecycle Management. The stages are listed in the visual below.
+In this learning path, you have learned how to translate a pre-existing and outdated business solution into a modern solution by using Microsoft Power Platform. Additionally, you learned how to create a data model and how to implement that data model in Microsoft Dataverse. Now, you can begin building the app. First, you need to consider how this app will appear and function. You might be tempted to skip these planning stages and immediately start building. However, not taking the time to methodically plan your app can result in implementing a partial solution or needing to make several changes later. Apps go through a development cycle, sometimes referred to as application lifecycle management (ALM). The following flowchart shows the stages in the development cycle.
 
 > [!div class="mx-imgBorder"]
-> [![Flowchart showing the development cycle with Plan, Design, Make (develop), Test, Deploy & Refine stages.](../media/cycle.png)](../media/cycle.png#lightbox)
+> [![Flowchart showing the development cycle with Plan, Design, Make (develop), Test, and Deploy & Refine stages.](../media/cycle.png)](../media/cycle.png#lightbox)
 
-We've already been in the planning phase actually, since we've worked out the data model already. But now it's time to plan out what the app will look like and the actual mechanics. So how do you plan an app?
+You've already been in the planning phase because you've worked out the data model. Now, it's time to plan the app's appearance and mechanics.
 
-There are many ways to go about this. You could start from your data model and think about how you'll walk through it in the application. But the best way to start planning is from a user perspective. Ask yourself:
+You can plan an app in many ways. You could start from your data model and consider how you'll go through it in the application. However, the best way to start planning is from a user's perspective, and you can start by asking yourself the following questions:
 
-- Who will be using this app?
+- Who will use this app?
 
-- What will they need to do?
+- What will the user need to do?
 
-- How will they do it?
+- How will the user complete the activity?
 
-In this case, we know that travelers will be using the app. They need to log expenses and look at previous expense reports. As far as how they'll do it, you may automatically think, "by using the app, obviously." But our goal is to walk through the mechanics of the use case, not the broad technical answers. By thinking through these questions, we have a use case scenario that can be placed in a narrative format like the below:
+In this case, you know that travelers will use the app. They need to log expenses and view previous expense reports. How they plan to complete those actions is where you will need to make in-depth considerations. The goal is for you to examine the mechanics of the use case, not the broad technical answers. By evaluating these questions, you will have a use case scenario that you can place in a narrative format, such as the following scenario.
 
-> Travelers will log into the app on their phone and start a report as soon as they begin accruing expenses. They'll continue to log expenses as the trip progresses. As soon as all expenses have been logged, they'll submit the expenses which will be sent to their supervisor. They need to be able to check when the expenses have been approved and sent to accounting so they can predict when they'll see their reimbursement.
+> A traveler will sign in to the app on their phone and will start a report when they begin to accrue expenses. They'll continue to log expenses as the trip progresses. When all expenses have been logged, the traveler will submit the expenses, which will be sent to their supervisor. The traveler needs the ability to check when the expenses have been approved and sent to accounting so that they can predict when the reimbursement will be available.
 
-You can see by this use case that travelers need not only to submit expenses, but to save them as a draft to come back to later. They need to see expense reports they've submitted in the past, but be unable to see other travelers' expenses. For this, they'll need:
+This use case shows that travelers need to submit expenses and save them as a draft to return to later. They need to view expense reports that they've submitted in the past but shouldn't be able to view other travelers' expenses. As a result, the traveler will need the following components:
 
-- A screen where they can submit a new expense report or view previous reports, including those being drafted.
+- A screen where they can submit a new expense report or view previous reports, including those that are being drafted
 
-- A screen to edit expense reports, whether new or a previous draft.
+- A screen to edit expense reports, whether a new or previous draft
 
-- A screen to see all previous reports.
+- A screen to view all previous reports
 
-You can also see from the use case that the app needs to have the functionality to save drafts and send information to a supervisor, possibly in the form of an email.
+The use case also indicates that the app needs the functionality to save drafts and send information to a supervisor, possibly in the form of an email.
 
-Consider writing another use case to expand functionality beyond the traveler's needs. You could have the supervisors approve through the app or accounting check expenses in the app. The different types of users will have different requirements and possible need different screens or functionality. Now you can see how to plan out a complete app by walking through various use cases.
+Consider writing another use case to expand functionality beyond the traveler's needs. You could have the supervisors approve through the app or accounting check expenses in the app. The different types of users will have different requirements and a possible need for different screens or functionality. Now, you have learned how to plan a complete app by exploring various use cases.
