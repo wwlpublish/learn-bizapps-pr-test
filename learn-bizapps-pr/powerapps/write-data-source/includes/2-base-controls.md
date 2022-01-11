@@ -1,5 +1,9 @@
 One of the benefits of building out later screens in your app is that you can copy controls from previous screens.
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQjJY]
+
+1. In case you have not completed the previous modules within this learning path, you may download the [packaging files](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/expense%20report%20app%20-%20module%205). This way you can complete the exercises within this module without having to start from the beginning of this learning path.
+
 1. On the **Tree view**, select **Scr_AllExpenses** and hold down the **Ctrl** key so you can select the following controls simultaneously: **Lbl_Header_AllExpenses**, **Icn_Back_AllExpenses**, **Lbl_TripDestination_AllExpenses**.
 
 1. Once you've selected all of the controls, press **Ctrl + C** to copy the controls and then visit **Scr_EditExpense** and press **Ctrl + V** to paste the controls.
@@ -16,8 +20,8 @@ One of the benefits of building out later screens in your app is that you can co
 
    Your screen should look like this:
 
-   > [!div class="mx-imgBorder"]
-   > [![Screenshot of Power Apps Insert view with the label selected.](../media/label.png)](../media/label.png#lightbox)
+      > [!div class="mx-imgBorder"]
+      > [![Screenshot of Power Apps Insert view with the label selected.](../media/label.png)](../media/label.png#lightbox)
 
    There are many controls needed for this page. Below is a list of controls to add and the properties that need to be changed. This may take a while, but it's important to have all the fields for which we need to write data. If you can't find a control, it's typically in the Input drop down of the Insert tab.
 
@@ -141,7 +145,7 @@ One of the benefits of building out later screens in your app is that you can co
 
    There are certainly some properties we'll go back and change, such as calculating a total and writing the OnSelect formula for the buttons and icon. But building out the controls and design first is common in app building. That allows you to concentrate on one thing at a time. First the design and ensuring you have all the controls you need, and then the technical aspects and the logic.
 
-   There are still more controls we need to add, but all of them are inside of the gallery. To add a control inside a gallery, ensure you're selecting the first item and then insert as normal. If you don't see the control repeated for every line in the gallery, delete the control and try again. When this happens, it's typically because the entire gallery is selected instead of just the first item of the gallery. If the whole gallery is selected and you attempt to add a control in the gallery, it will add the control outside the gallery. That won't work for what we're doing in this scenario.
+   There are still more controls we need to add, but all of them are inside of the gallery. To add a control inside a gallery, ensure you're selecting the first item and then insert as normal. If you don't see the control repeated for every line in the gallery, delete the control and try again. When this happens, it's typically because the entire gallery is selected instead of just the first item of the gallery. If the whole gallery is selected and you attempt to add a control in the gallery, it will add the control outside the gallery. That will not work for what we're doing in this scenario.
 
    In the screenshot below, you can see only the first item is selected. This is what it should look like when adding controls in your gallery.
 
