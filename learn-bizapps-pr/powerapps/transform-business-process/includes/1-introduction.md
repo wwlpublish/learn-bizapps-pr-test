@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQA6G]
+
 For this module's scenario, you are an employee of Contoso. Contoso has been using a Microsoft Excel workbook to track employee expenses. When an employee embarks on a business trip, they enter their travel expenses into a spreadsheet and then email the completed spreadsheet to their supervisor. After the supervisor has approved the expenses, they will send the spreadsheet by email to the accounting department, which has its own internal approval process. Finally, the employee will receive a reimbursement.
 
 > [!div class="mx-imgBorder"]
