@@ -2,7 +2,7 @@ Microsoft Cloud for Financial Services relies on various components from Dynamic
 
 | Capability | License |
 |------------|---------|
-| Unified Customer Profile | Microsoft PowerApps, Microsoft Dynamics 365 Customer Insights (optional) |
+| Unified customer profile | Microsoft PowerApps, Microsoft Dynamics 365 Customer Insights (optional) |
 | Customer onboarding | Microsoft Power Apps, Microsoft Power Automate |
 | Collaboration Manager for Loans | Microsoft Office E3+ |
 | Banking Customer Engagement | Omnichannel for Customer Service |
