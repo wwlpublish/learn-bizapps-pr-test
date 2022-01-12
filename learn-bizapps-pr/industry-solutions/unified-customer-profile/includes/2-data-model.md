@@ -10,13 +10,13 @@ In this task, you will explore the main tables that are related to Unified custo
 
 Definitions for the Unified customer profile table are as follows:
 
-- [Contact](/common-data-model/schema/core/industrycommon/financialservices/financialservicescommondatamodel/contact/?azure-portal=true)(customer) - Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
+- [Contact](/common-data-model/schema/core/industrycommon/financialservices/financialservicescommondatamodel/contact/?azure-portal=true) (customer) - Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
 
 - [Account](/common-data-model/schema/core/industrycommon/financialservices/financialservicescommondatamodel/account/?azure-portal=true) - Business that represents a customer or potential customer. The company that is billed in business transactions.
 
 - [Bank](/common-data-model/schema/core/industrycommon/financialservices/financialservicescommondatamodel/bank/?azure-portal=true) - The bank that the branch is associated with.
 
-- [Branch](/common-data-model/schema/core/industrycommon/financialservices/financialservicescommondatamodel/branch/?azure-portal=true) - The branch of the main bank, when  the borrower applies for a loan at a branch
+- [Branch](/common-data-model/schema/core/industrycommon/financialservices/financialservicescommondatamodel/branch/?azure-portal=true) - The branch of the main bank, when  the borrower applies for a loan at a branch.
 
 
 > [!div class="mx-imgBorder"]
