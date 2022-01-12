@@ -2,7 +2,7 @@
 uid: learn-bizapps.financial-training-environment-preparation
 metadata:
  title: Financial Services training environment preparation
- description: This module will walk you through the process of obtaining a training environment to be used for all the later modules in this Learning Path. The Microsoft Cloud for Financial Services is a conflux of Microsoft Dynamics 365 and Microsoft 365. To take full advantage of the Microsoft Cloud for Financial Services solution and the rest of this Learning Path, we recommend having access to both clouds. If you already have a Microsoft 365 tenant and licenses for all Microsoft Cloud for Financial Services apps(/industry/financial-services/configure-cloud-for-financial-services/?azure-portal=true), then you can skip this module and go on to the next module in this Learning Path.
+ description: This module explains the process of obtaining a training environment that you can use for all subsequent modules in this learning path. Microsoft Cloud for Financial Services is a conflux of Microsoft Dynamics 365 and Microsoft 365. To take advantage of the Cloud for Financial Services solution and the rest of this learning path, we recommend that you have access to both clouds. If you already have a Microsoft 365 tenant and licenses for all Microsoft Cloud for Financial Services apps, then you can skip this module and go on to the next module in this learning path.
  ms.date: 01/14/2022
  author: DaveBeasley
  ms.author: dbeasley
@@ -11,12 +11,12 @@ metadata:
 title: Financial Services training environment preparation
 summary: |
   [!include[](../includes/module-banner.md)]
-  This module will walk you through the process of obtaining a training environment to be used for all the later modules in this Learning Path. The Microsoft Cloud for Financial Services is a conflux of Microsoft Dynamics 365 and Microsoft 365. To take full advantage of the Microsoft Cloud for Financial Services solution and the rest of this Learning Path, we recommend having access to both clouds. If you already have a Microsoft 365 tenant and licenses for all Microsoft Cloud for Financial Services apps(/industry/financial-services/configure-cloud-for-financial-services/?azure-portal=true), then you can skip this module and go on to the next module in this Learning Path.
+  This module explains the process of obtaining a training environment that you can use for all subsequent modules in this learning path. Microsoft Cloud for Financial Services is a conflux of Microsoft Dynamics 365 and Microsoft 365. To take advantage of the Cloud for Financial Services solution and the rest of this learning path, we recommend that you have access to both clouds. If you already have a Microsoft 365 tenant and licenses for all Microsoft Cloud for Financial Services apps, then you can skip this module and go on to the next module in this learning path.
 abstract: |
     In this module, you will:
-    - Learn which applications are required to deploy Microsoft Cloud for Financial Services
-    - Learn how to obtain trial licenses for all Microsoft Cloud for Financial Services required applications
-    - Learn how to set up a Microsoft Cloud for Financial Services training environment
+    - Learn which applications are required to deploy Microsoft Cloud for Financial Services.
+    - Learn how to obtain trial licenses for all Microsoft Cloud for Financial Services required applications.
+    - Learn how to set up a Microsoft Cloud for Financial Services training environment.
 prerequisites: You must have a Global Administrator role in your Microsoft 365 tenant to complete the exercises in this module.
 iconUrl: /learn/achievements/financial-training-environment-preparation.svg
 levels:
