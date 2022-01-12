@@ -13,45 +13,45 @@ durationInMinutes: 6
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: For this solution, we've decided to use multiple tables and relate them. What is our primary reason for doing this?
+  - content: For this solution, you've decided to use multiple tables and then relate them. What is your primary reason for doing this process?
     choices: 
-    - content: To implement data validation.
+    - content: To implement data validation
       isCorrect: false
       explanation: Parent-child relationships don't inherently help with data validation.
-    - content: To allow us to restrict what information is visible or accessible to the end users.
+    - content: To allow you to restrict what information is visible or accessible to users
       isCorrect: false 
-      explanation: While parent-child relationships could help us restrict what security groups can see what data, that isn't of interest to us in this case. 
-    - content: To make data entry easier.
+      explanation: While parent-child relationships could help restrict certain security groups from viewing specific types of data, it's not of concern in this case. 
+    - content: To make data entry easier
       isCorrect: false 
-      explanation: Parent-child relationships don't make data entry easier. In fact, if your user is editing directly in the data source, they make data entry more difficult.
-    - content: To limit having duplicative information in every line.
+      explanation: Parent-child relationships don't make data entry easier. In fact, editing directly in the data source makes data entry more difficult.
+    - content: To limit having duplicate information in every line
       isCorrect: true 
-      explanation: Parent-child relationships help prevent having multiple repetitive fields in a table. Read more [here](/powerapps/maker/data-platform/create-edit-entity-relationships/?azure-portal=true).
-  - content: Which of the following isn't a reason why we want to use canvas apps in this solution?
+      explanation: Parent-child relationships help prevent the occurrence of repetitive fields in a table.
+  - content: Which of the following options is not a reason for using canvas apps in this solution?
     choices: 
-    - content: Canvas apps are quickly and easily spun up.
+    - content: Canvas apps are quickly and easily activated.
       isCorrect: true 
-      explanation: While Canvas apps are quicker to spin up than more traditionally coded apps, they can still take time, depending on the complexity of the problem. Model-driven apps are less customizable and thus are quicker to spin up.
+      explanation: While Canvas apps are quicker to activate than more traditionally coded apps, they can still take time, depending on the complexity of the problem. Model-driven apps are less customizable and thus quicker to activate.
     - content: Canvas apps are highly customizable.
       isCorrect: false 
-      explanation: We want to use canvas apps in this case because they're highly customizable and allow us to tailor our solutions to our specific needs.
-    - content: Canvas apps can access a plethora of data sources, including Dataverse, which allow us to use already existing user information.
+      explanation: You want to use canvas apps in this case because they're highly customizable and will allow you to tailor the solutions to your specific needs.
+    - content: Canvas apps can access numerous data sources, including Dataverse, which will allow you to use already existing user information.
       isCorrect: false 
-      explanation: We want to use Outlook and Dataverse in this solution, and down the road may be interested in bringing in even more data sources. This is an important part of our solution.
-    - content: Canvas apps are easy to learn.
+      explanation: You want to use Outlook and Dataverse in this solution. Later, you might be interested in bringing in more data sources. Canvas apps are an important part of your solution.
+    - content: Canvas apps are simple to learn.
       isCorrect: false 
-      explanation: If you have ever used Excel formulas, you have the foundational knowledge needed to learn Power Apps. Many of the functions are the same, and the easy, drag and drop Power Apps studio makes it easy to jump in. 
+      explanation: If you have used Excel formulas, you have the necessary foundational knowledge to learn Power Apps. Many functions are similar, and the drag-and-drop functionality of Power Apps Studio helps make it easier to start.
   - content: What kind of data should be in the parent table of a parent-child relationship? 
     choices: 
-    - content: Data that will be accessed the most.
+    - content: Data that will be accessed the most
       isCorrect: false
-      explanation: The parent table should house any information that is relevant to all of the child records.  
-    - content: Data that needs to be access-restricted based on security permissions.
+      explanation: The parent table should contain information that is relevant to all child records.  
+    - content: Data that needs to be access-restricted based on security permissions
       isCorrect: false 
-      explanation: The parent table should house any information that is relevant to all of the child records.
-    - content: Data that relates to some, but not all, of the child records.
+      explanation: The parent table should contain information that is relevant to all child records.
+    - content: Data that relates to some, but not all, child records
       isCorrect: false 
       explanation: The information from a parent record must apply to all child records to have a proper parent-child relationship.
-    - content: Data that stays the same across all child records.
+    - content: Data that stays the same across all child records
       isCorrect: true 
-      explanation: Parent-child relationships allow us to eliminate duplicative information from being stored.
+      explanation: Parent-child relationships allow you to eliminate duplicate information from being stored.
