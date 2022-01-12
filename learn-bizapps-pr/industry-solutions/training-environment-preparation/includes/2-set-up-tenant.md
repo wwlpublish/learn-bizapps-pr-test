@@ -31,7 +31,7 @@ In this task, you'll learn how to create a trial tenant along with the required 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Dynamics 365 Customer Engagement Plan Trial wizard email page.](../media/email.png)](../media/email.png#lightbox)
 
-   If the email is already using other Microsoft Services, the following warning will appear.
+   If the email is already using other Microsoft services, the following warning will appear.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the warning "Looks like you're already using this email with another Microsoft service."](../media/warning.png)](../media/warning.png#lightbox)
