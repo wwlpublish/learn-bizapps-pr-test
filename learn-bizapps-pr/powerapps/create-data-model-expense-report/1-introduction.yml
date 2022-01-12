@@ -3,7 +3,7 @@ uid: learn-bizapps.create-data-model-expense-report.1-introduction
 title: Introduction
 metadata: 
   title: Introduction
-  description: Introduction to creating, using, and relating tables in Dataverse. 
+  description: Introduction to creating a data model for an expense report app 
   ms.date: 12/17/2021 
   author: jadaphillips 
   ms.author: jadaphillips 
