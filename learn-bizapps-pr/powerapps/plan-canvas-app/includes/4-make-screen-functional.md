@@ -29,4 +29,4 @@ Start by adding a couple of blank screens by following these steps:
 
 Now, you've completed the functionality of your welcome screen. Let's review decisions made throughout this module.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQF6A]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWQF6A]
