@@ -2,7 +2,7 @@ To deploy Microsoft Cloud for Financial Services in a Microsoft Dataverse enviro
 
 In this exercise, you'll learn how to create a demo tenant. You can skip this exercise if you've already created a demo tenant and have added the trial licenses.
 
-## Task 1: Create a Microsoft 365 tenant
+## Create a Microsoft 365 tenant
 
 In this task, you'll learn how to create a trial tenant along with the required Microsoft Dynamics 365 and Microsoft 365 trial licenses. You can skip this task if you already have a tenant.
 
