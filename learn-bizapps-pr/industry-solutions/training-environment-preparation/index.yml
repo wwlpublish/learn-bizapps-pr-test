@@ -2,7 +2,7 @@
 uid: learn-bizapps.financial-training-environment-preparation
 metadata:
  title: Financial Services training environment preparation
- description: This module explains the process of obtaining a training environment that you can use for all subsequent modules in this learning path. Microsoft Cloud for Financial Services is a conflux of Microsoft Dynamics 365 and Microsoft 365. To take advantage of the Cloud for Financial Services solution and the rest of this learning path, we recommend that you have access to both clouds. If you already have a Microsoft 365 tenant and licenses for all Microsoft Cloud for Financial Services apps, then you can skip this module and go on to the next module in this learning path.
+ description: Learn how to prepare an environment for Microsoft Cloud for Financial Services.
  ms.date: 01/14/2022
  author: DaveBeasley
  ms.author: dbeasley
