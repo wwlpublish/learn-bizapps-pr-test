@@ -14,7 +14,7 @@ Now that you've planned your app, you're ready to start building by following th
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Canvas app from blank dialog with Format set to Phone.](../media/phone.png)](../media/phone.png#lightbox)
 
-   The Microsoft Power Apps Studio page will open, where you'll build your entire app (and where you'll spend time in the next three modules). Canvas apps save automatically every two minutes when you're building in Power Apps Studio, except for the first time. Therefore, after you have set up your app, it's a good idea to save by following these steps:
+   The Microsoft Power Apps Studio page will open, where you'll build your entire app (and where you'll spend time in the next three modules within this learning path). Canvas apps save automatically every two minutes when you're building in Power Apps Studio, except for the first time. Therefore, after you have set up your app, it's a good idea to save by following these steps:
 
 1. In the upper-left corner, select **File**.
 
