@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata:
  title: Check your knowledge
  description: Answer the following questions to see what you've learned.
- ms.date: 12/17/2021
+ ms.date: 01/12/2022
  author: jadaphillips
  ms.author: jadaphillips
  ms.topic: interactive-tutorial
@@ -13,39 +13,36 @@ durationInMinutes: 6
 quiz:
   title: Answer the following questions to see what you've learned.
   questions:
-  - content: How do you create many-to-many relationships between Dataverse tables?
+  - content: There are five phases in the development cycle. What is the next phase in the cycle after the planning phase?
     choices:
-    - content: Create a column of the type Lookup in the one side table.
-      isCorrect: false
-      explanation: In many-to-many relationships, no explicit columns are being created. 
-    - content: Create a column of the type Lookup in the many side table.
-      isCorrect: false
-      explanation: In many-to-many relationships, no explicit columns are being created. 
-    - content: Create a column of the type Lookup in the one and many side table.
-      isCorrect: false
-      explanation: In many-to-many relationships, no explicit columns are being created. 
-    - content: Create the relationship by selecting the two tables that you want to create the relationship for in the relationship's menu of the tables.
+    - content: Design Phase
       isCorrect: true
-      explanation: In many-to-many relationships, no explicit columns are being created. You would create the relationship by selecting the two tables that you want to create the relationship for.
-  - content: What does a custom global choice type allow you to do?
+      explanation: Correct. Designing the app is an important part of the process, where you start to specify what you'll be creating in the making phase based on the information you've gathered in the planning phase. 
+    - content: Deploy & Refine Phase
+      isCorrect: false
+      explanation: Incorrect. The design phase is after the planning phase. The deploy and refine phase comes after you have completed the planning, designing, developing, and testing phases. 
+    - content: Make (Develop) Phase
+      isCorrect: false
+      explanation: Incorrect. The design phase is after the planning phase. The make/develop phase comes after you have completed the planning and designing phases.
+  - content: What is the typical nomenclature for naming controls?
     choices:
-    - content: You can share your custom choices in the Microsoft app store.
+    - content: control_screen
       isCorrect: false
-      explanation: It allows you to reuse the custom choice set among other tables in the same Dataverse environment.
-    - content: You can only use the custom choice in the table where it was created.
-      isCorrect: false
-      explanation: It allows you to reuse the custom choice set among other tables in the same Dataverse environment.
-    - content: It allows you to reuse the custom choice set among other tables in the same Dataverse environment.
+      explanation: Incorrect. A typical nomenclature follows the pattern of control_purpose_screen.
+    - content: control_purpose_screen
       isCorrect: true
-      explanation: It allows you to reuse the custom choice set among other tables in the same Dataverse environment.
-    - content: It allows you to reuse the custom choice set among other tables in multiple Dataverse environments.
+      explanation: Correct. A typical nomenclature follows the pattern of control_purpose_screen.
+    - content: purpose_screen_control
       isCorrect: false
-      explanation: It allows you to reuse the custom choice set among other tables in the same Dataverse environment.
-  - content: Is the many-to-one relationship the child perspective of a one-to-many relationship?
+      explanation: A typical nomenclature follows the pattern of control_purpose_screen.
+    - content: purpose_control_screen
+      isCorrect: false
+      explanation: A typical nomenclature follows the pattern of control_purpose_screen.
+  - content: When building a Canvas app in Power Apps Studio, does it save automatically?
     choices:
-    - content: Yes, it is.
-      isCorrect: true
-      explanation: A many-to-one relationship is the child perspective of a one-to-many relationship.
-    - content: No, it isn't.
+    - content: Yes, every two minutes.
       isCorrect: false
-      explanation: A many-to-one relationship is the child perspective of a one-to-many relationship.
+      explanation: Incorrect. Canvas apps save automatically every two minutes when you're building in Power Apps Studio, except for the first time.
+    - content: Yes, every two minutes, except for the first time.
+      isCorrect: true
+      explanation: Correct. It's essential to save your work the first time, then it will automatically save every two minutes.

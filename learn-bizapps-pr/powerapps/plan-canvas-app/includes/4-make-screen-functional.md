@@ -27,4 +27,6 @@ Start by adding a couple of blank screens by following these steps:
 
 1. Hold down the **Alt** key on your keyboard and then select one of the buttons to observe the **OnSelect** property in action.
 
-Now, you've completed the functionality of your welcome screen.
+Now, you've completed the functionality of your welcome screen. Let's review decisions made throughout this module.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQF6A]

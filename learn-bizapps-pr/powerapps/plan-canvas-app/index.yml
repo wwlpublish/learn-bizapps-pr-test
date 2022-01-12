@@ -3,7 +3,7 @@ uid: learn-bizapps.plan-canvas-app
 metadata:
  title: Plan a canvas app and start to build 
  description: It might be tempting to immediately begin building your Microsoft Power Apps canvas app, but you need to complete the essential first steps in planning the app. In this module, you'll learn about those steps and how to build the simpler elements of the Expense Report app and connect it to your data.
- ms.date: 12/17/2021
+ ms.date: 01/12/2022
  author: jadaphillips
  ms.author: jadaphillips
  ms.topic: interactive-tutorial
