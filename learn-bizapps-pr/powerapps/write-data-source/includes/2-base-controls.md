@@ -1,3 +1,11 @@
+As an app developer, you'll probably also design the app. Although getting into design is outside the scope of this learning path, you'll notice a couple of design elements that may help you in future builds.
+
+One of the easiest ways to enhance your app's User Interface is by not overcrowding your screens with too many controls. Think about the end user, how they're going to navigate from screen-to-screen, enter data, view data, and so on. How you design and lay out app screens can have as much effect as a poorly functioning app. Users may be less likely to use the app if there's too much going on and it's not intuitive.
+
+So when building your app screens, make sure to use control properties like spacing, alignment, fill, and color. Use consistent headers and button placement. For example, in this scenario we're implementing various font colors and font fills, which help break up the screen nicely without making it look too overwhelming. Notice that the header is one color, the parent information another, the expense details another, and the main controls yet another color. If we eliminated these colors and left the groups of controls with the same background, it would be much less organized and more confusing to the user.
+
+## Adjust controls and properties
+
 One of the benefits of building out later screens in your app is that you can copy controls from previous screens.
 
 1. On the **Tree view**, select **Scr_AllExpenses** and hold down the **Ctrl** key so you can select the following controls simultaneously: **Lbl_Header_AllExpenses**, **Icn_Back_AllExpenses**, **Lbl_TripDestination_AllExpenses**.
@@ -217,11 +225,3 @@ One of the benefits of building out later screens in your app is that you can co
    > [![Screenshot of Power Apps showing the gallery items filled with controls.](../media/gallery-filled.png)](../media/gallery-filled.png#lightbox)
 
 Now that we have all of the controls required to make this screen, we can concentrate on adding the functionality.
-
-## A quick note on design
-
-As an app developer, you'll probably also design the app. Although getting into design is outside the scope of this learning path, you'll notice a couple of design elements that may help you in future builds.
-
-One of the easiest ways to enhance your app's User Interface is by not overcrowding your screens with too many controls. Think about the end user, how they're going to navigate from screen-to-screen, enter data, view data, and so on. How you design and lay out app screens can have as much effect as a poorly functioning app. Users may be less likely to use the app if there's too much going on and it's not intuitive.
-
-So when building your app screens, make sure to use control properties like spacing, alignment, fill, and color. Use consistent headers and button placement. For example, in this scenario we're implementing various font colors and font fills, which help break up the screen nicely without making it look too overwhelming. Notice that the header is one color, the parent information another, the expense details another, and the main controls yet another color. If we eliminated these colors and left the groups of controls with the same background, it would be much less organized and more confusing to the user.
