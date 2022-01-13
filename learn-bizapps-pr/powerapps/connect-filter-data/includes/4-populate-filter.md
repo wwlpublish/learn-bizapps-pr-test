@@ -67,7 +67,7 @@ Now that you have the gallery looking the way that you want, you need to add mor
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Tree view pane with the ellipsis next to App selected and Run OnStart highlighted.](../media/run.png)](../media/run.png#lightbox)
 
-    Now that your variable is populated, you can use it to filter your gallery.
+Now that your variable is populated, you can use it to filter your gallery.
 
 1. Select **Gal_ExpenseReports_AllExpenses** in the **Tree view** and then make sure that the **Items** property is visible in the dropdown menu.
 
