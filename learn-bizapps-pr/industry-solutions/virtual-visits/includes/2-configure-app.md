@@ -305,12 +305,17 @@ In this task, we'll activate the Flows and Connection References that deployed a
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Power Apps Solutions view showing the New solution button.](../media/solutions.png)](../media/solutions.png#lightbox)
 
-1. Name the solution "LamnaHealthcare", choose the **CDS** **Default Publisher** and select **Create**.
+1. Name the solution "LamnaHealthcare", choose the **CDS Default Publisher** and select **Create**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the New solution dialog filled in.](../media/new-solution.png)](../media/new-solution.png#lightbox)
 
-1. Select **+ Add existing** and select **Cloud flow**.
+1. Select the new **LamnaHealthcare** solution and click **Edit**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the solution selected with edit button.](../media/solution-edit.png)](../media/solution-edit.png#lightbox)
+
+1. Select **+ Add existing** and select **Cloud flow** under Automation.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Power Apps with the Add existing menu expanded and Cloud flow selected.](../media/cloud.png)](../media/cloud.png#lightbox)
@@ -320,7 +325,7 @@ In this task, we'll activate the Flows and Connection References that deployed a
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Add existing cloud flows dialog with C F Schedule Teams Meeting selected.](../media/existing.png)](../media/existing.png#lightbox)
 
-1. **Select** and open the Cloud flow.
+1. Select the Cloud flow. Navigate to Details in a new tab on the command bar to open in Power Automate.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Solutions > LamnaHealthCare with C F Schedule Teams Meeting added.](../media/flow.png)](../media/flow.png#lightbox)
@@ -355,7 +360,7 @@ In this task, we'll activate the Flows and Connection References that deployed a
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the completed flow in Power Automate.](../media/save.png)](../media/save.png#lightbox)
 
-1. Select the **Back arrow** to return to the flow's main page.
+1. Select the **Back arrow** to return to the flow's main page. Ensure it has completed saving.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the flow's main page in Power Automate.](../media/flow-main.png)](../media/flow-main.png#lightbox)

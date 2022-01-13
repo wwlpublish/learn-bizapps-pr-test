@@ -11,6 +11,9 @@ Virtual Care focuses on the **Enhance patient engagement** priority scenario by 
 
 This lab will focus on the healthcare story of Reed Flores.
 
+> [!div class="mx-imgBorder"]
+> [![Diagram of healthcare data model basics with virtual visits highlighted.](../media/virtual-visits.png)](../media/virtual-visits.png#lightbox)
+
 After coming home from hiking, Reed noticed he had a new rash on his right arm and leg. He decides to schedule a virtual appointment to get a diagnosis.
 
 In this lab, you'll first play the role of a Lamna Healthcare system administrator. You'll configure the Microsoft Cloud for Healthcare Virtual Clinic application to be used for virtual appointments. Then you'll play the role of Reed by scheduling a virtual appointment with his practitioner. Finally, you'll join the virtual appointment from the view of a practitioner to observe the complete end-to-end experience.
