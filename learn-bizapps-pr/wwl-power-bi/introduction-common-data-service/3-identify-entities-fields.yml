@@ -4,12 +4,13 @@ title: Identify tables and columns in Dataverse
 metadata:
   title: Identify tables and columns in Dataverse
   description: "Identify tables and columns in Dataverse"
-  ms.date: 08/05/2021
+  ms.date: 01/05/2022
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/3-identify-entities-fields.md)]

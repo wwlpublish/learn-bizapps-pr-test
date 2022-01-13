@@ -4,7 +4,7 @@ It's important to understand the fundamental information about the Approvals con
 
 Microsoft Power Automate gives you the flexibility to connect to data or a service by using a connector. Connectors come in two tiers: standard and premium. Approval connectors are part of the standard tier. Standard connectors are part of your Microsoft 365 licenses and no other license is needed. Premium connectors require either a per-flow or a per-user license. For more information on flow licenses, see the links in the Summary unit at the end of this module.
 
-##  Determine if the connector can be blocked
+## Determine if the connector can be blocked
 
 An organization's data is critical to its success. Data needs to be readily available for decision-making, but it also needs to be protected so that it isn't shared with audiences who shouldn't have access to it. To protect data, you can use Power Automate to create and enforce data loss prevention (DLP) policies that define the consumer connectors that specific business data can be shared with.
 

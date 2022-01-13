@@ -14,15 +14,14 @@ SharePoint and the approval connectors are the most commonly used connectors in 
 
 **Start from blank** lets you create a custom flow to meet your requirements, and you can use triggers such as:
 
-- Automate cloud flow
+| Flow type  |Description|
+|------------|:-------------|
+| Automate | Create an automation that is triggered by an event  |
+| Instant | Start an automation with a click of a button|
+| Scheduled |Schedule an automation such as daily data upload|
+| Desktop | Flows are used to automate tasks on the Web or the desktop|
+| Business process | Flows provide a guide for people to get work done |
 
-- Instant cloud flow
-
-- Scheduled cloud flow
-
-- Desktop flow
-
-- Business process flow
 
 **Start from a template** gives you the flexibility to use an existing flow that is similar to your requirement. Changes usually include text or user information.
 
@@ -33,18 +32,23 @@ Connectors are the services that you use every day, and with the **Start from a 
 Every SharePoint action in Power Automate has an ellipsis (**...**) button that you can select to access the menu. Selecting the ellipsis will provide you with key features and capabilities.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the ellipsis buttons next to SharePoint actions.](../media/menu.jpg)](../media/menu.jpg#lightbox)
+> [![Screenshot of the ellipsis buttons next to SharePoint actions.](../media/menu.png)](../media/menu.png)
 
 The following sections describe SharePoint actions in Power Automate:
 
 - **Copy to my clipboard (Preview)** - This action allows you to duplicate an action inside of your flow by copying and pasting it.
 
+- **New Comment** - This action allows you to leave comments or suggestions for flow makers.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the new comment action.](../media/new-comments.png)](../media/new-comments.png)
+
 - **Rename** - The actions and conditions come with default names, and this setting gives you the option to rename them.
 
-- **Add a comment** - This feature allows you to add a comment. Comments are used to help the flow makers remember the reason why this action or condition was added.
+- **Add a note** - This feature allows you to add a note. Notes are used to help the flow makers remember the reason why this action or condition was added.
 
    > [!div class="mx-imgBorder"]
-   > [![Screenshot of a comment box in an action.](../media/comment.jpg)](../media/comment.jpg#lightbox)
+   > [![Screenshot of a comment box in an action.](../media/note.png)](../media/note.png#lightbox)
 
 - **Static result (Preview)** - By setting up static results for an action in your flow, you can simulate output data from that action. Enabling static results on an action doesn't run the action but returns the mock data instead.
 
@@ -53,18 +57,12 @@ The following sections describe SharePoint actions in Power Automate:
 
 - **Settings** - Other settings include **Secure Inputs**, **Secure Outputs**, **Asynchronous Pattern**, **Automatic decompression**, **Timeout**, **Retry Policy**, and **Tracked Properties**.
 
-   > [!div class="mx-imgBorder"]
-   > [![Screenshot of the additional settings dialog.](../media/settings.jpg)](../media/settings.jpg#lightbox)
-
 - **Configure run after** - Occasionally, certain situations don't result exactly as you expected in your flow, which is where the **Configure run after** option helps. You can define any number of steps to run after the failure of an action.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Configure run after with "is successful" selected.](../media/configure-run-after.jpg)](../media/configure-run-after.jpg#lightbox)
 
 - **Peek code** - Peek code gives you the flexibility to view the actions from a code perspective. Through this view, you can see details such as IDs, authentication types, and the links that are used to make API calls.
-
-   > [!div class="mx-imgBorder"]
-   > [![Screenshot of the Peek code view showing code for inputs and parameters.](../media/peek-code.jpg)](../media/peek-code.jpg#lightbox)
 
 - **Delete Step** - You can delete the current step that you are in. A dialog box will appear, confirming if you want to delete the step.
 

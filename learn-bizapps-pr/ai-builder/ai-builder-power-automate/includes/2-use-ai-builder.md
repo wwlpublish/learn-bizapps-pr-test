@@ -25,13 +25,13 @@ Employees might want to process emails according to their overall sentiment, for
 
 - After sharing a document, I want to track the positive and negative feedback.
 
-AI Builder allows you to analyze overall sentiment of a text and even the sentiment of each sentence. By using a Power Automate flow, you can apply the **AI Builder sentiment analysis** model on receipt of an email and be notified of the sentiment of important emails to you.
+AI Builder allows you to analyze the overall sentiment of a text and even the sentiment of each sentence. By using a Power Automate flow, you can apply the **AI Builder sentiment analysis** model on receipt of an email and be notified of the sentiment of important emails to you.
 
 You can also combine the sentiment analysis with key phrase detection by using the **AI Builder key phrase extraction** model.
 
 ## Dematerialize documents
 
-Companies can have multiple sites in which some key information is still entered on paper form. Afterward, an agent will manually enter the form content into a centralized tool.
+Some companies have multiple sites where key information is still gathered on paper. Afterward, an agent will manually enter the paper content into a centralized tool.
 
 This process can be improved by using Power Automate and AI Builder in the following ways:
 
@@ -89,6 +89,19 @@ In this example, we're just using our logged-in user account, but in a real-worl
 1. At the bottom of the screen, select **Save**.
 
 Any new emails will now be routed to the correct Helpdesk mailbox based on the language detected.
+
+   > [!Note]
+   >  You may get the below error. If you do then go back to the **AI Builder Language Detection** step, click in the item/requestv2/countryhint field, in **Dynamic content**
+   >  select **The plain text content** and then delete it and then click **Save**.
+
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the flow save error message.](../media/03-ai-builder-flow-error.png)](../media/03-ai-builder-flow-error.png#lightbox)
+
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the error message to remove and save again.](../media/03-ai-builder-flow-error-2.png)](../media/03-ai-builder-flow-error-2.png#lightbox)
+
+The flow should now save successfully.
+
 
 This example is meant to demonstrate the possibilities and potential of using Power Automate and AI in your own organizations.  
 

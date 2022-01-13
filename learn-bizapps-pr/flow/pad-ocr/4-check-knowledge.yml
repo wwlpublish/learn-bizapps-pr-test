@@ -15,15 +15,15 @@ quiz:
   questions: 
   - content: "Which one of the following OCR engines does Power Automate for desktop support?"
     choices: 
-    - content: "Microsoft MODI"
+    - content: "Windows OCR engine"
       isCorrect: false 
-      explanation: "Power Automate for desktop supports the Google Tesseract OCR engine."
+      explanation: "Power Automate for desktop supports both Windows and Google Tesseract OCR engines."
     - content: "Google Tesseract"
       isCorrect: true 
-      explanation: "Power Automate for desktop supports the Google Tesseract OCR engine."
+      explanation: "Power Automate for desktop supports both Windows and Google Tesseract OCR engines."
     - content: "Both"
       isCorrect: false 
-      explanation: "Power Automate for desktop supports the Google Tesseract OCR engine."
+      explanation: "Power Automate for desktop supports both Windows and Google Tesseract OCR engines."
   - content: "Width and height multipliers make the OCR extraction more effective, when:"
     choices: 
     - content: "You set them to the highest possible values"

@@ -4,12 +4,13 @@ title: Evaluate options
 metadata:
   title: Evaluate options
   description: "Evaluate options"
-  ms.date: 09/02/2021
+  ms.date: 12/13/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/10-evaluate-options.md)]
