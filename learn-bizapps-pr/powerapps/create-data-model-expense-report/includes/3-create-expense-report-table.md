@@ -13,7 +13,7 @@ To create a new table in Dataverse, follow these steps:
 
     A flyout menu will open, asking questions about your new table. The **Display name** field is shown first on the screen in Dataverse. You will use the plural name in model-driven apps and when you're writing to Dataverse through Microsoft Power Automate. However, for this exercise, you will keep your display name singular and your plural name as something that makes logical sense. Dataverse will try recommending names for you, but the names aren't always ideal. The next field is **Name**, which is a system table name. All custom tables begin with a series of letters and numbers, which will differ from tenant to tenant. This information can't be changed. Your system name should be similar to your display name but with no spaces or symbols other than an underscore. As you enter your display name, other names will populate. In this case, you don't need to change the other names, but you should always ensure that they make sense.
 
-    After your table information, the information for the **Primary Name Column** is included. This column is not the **ID** column, but it will act as a primary field for users to distinguish records. This exercise will use trip destination because it's easily distinguishable for users. If you want to expand this table to all expense reports and not solely to travel-related expense reports, you would use something else, such as a title column. The **Primary Name Column** will always be a text column. Additionally, the column has a display name and a system name; make sure that you follow the same rules in this scenario as you did for the table name.
+    After your table information, the information for the **Primary Name Column** is included. This column is not the **ID** column, but it will act as a primary field for users to distinguish records. This exercise will use trip destination because it's easily distinguishable for users. If you want to expand this table to all expense reports and not solely to travel-related expense reports, you would use something else, such as a title column. The **Primary Name Column** will always be a text column. Additionally, the column has a display name and a system name; make sure that you follow the same rules as you did for the table name.
 
     Now, you can include attachments. If your scenario includes taking pictures of receipts or plane tickets, you might want to select the **Enable attachments** feature. The subject of attachments isn't covered in this learning path. You can enable attachments after creating the table, so you don't need to know on creation of the table whether your solution requires this functionality.
 
@@ -146,7 +146,7 @@ Create a new table called **Expense Report Details** by using the following deta
 
 ### Column information
 
-Now, create custom columns for this table by using the following columns and details information:
+Now, create custom columns for this table by using the following columns and detailed information:
 
 - **Display name** - Category
 

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQA6R]
+
 Now that you have all tables that you plan to use and have columns inside them, you need a way to relate those tables. In the previous exercise, you didn't add user information in the Expense Report table or Expense Report information in the Expense Report Details table. Dataverse helps make connecting all of these tables easier.
 
 ### Relate expense report to expense report details
