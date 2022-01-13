@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWQA7j]
+
 Now that you've added the data source to Power Apps, added a gallery, and populated Dataverse, you should be ready to display data. Return to your canvas app and go to the **Scr_AllExpenses** screen. If you had this screen open in another tab, notice that the gallery hasn't populated yet. Power Apps caches your data source and doesn't always have the most up-to-date version if you're making changes.
 
 To fix this issue, follow these steps:
@@ -217,10 +219,8 @@ Now, your gallery has the exact appearance that you want. However, you still nee
              Traveler.'Primary Email'=VarUser.Email
          ),
          Filter(
-             Filter(
-                 'Expense Reports',
-                 Traveler.'Primary Email'=VarUser.Email
-             ),
+            'Expense Reports',
+            Traveler.'Primary Email'=VarUser.Email,
              'Trip Destination'=Ddn_Destination_AllExpenses.Selected.Result
          ) 
     )

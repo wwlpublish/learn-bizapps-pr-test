@@ -1,4 +1,7 @@
-When building an app, you will first create a data model and then build that model in Microsoft Dataverse. To ensure that your solution meets the needs of your user, you need to interact with the data. This module continues with the scenario where you are building the expense report app. If you didn't complete the previous modules, you can download the files by going to (insert link). The files contain the completed work on the Travel Expense Report app thus far. 
+When building an app, you will first create a data model and then build that model in Microsoft Dataverse. To ensure that your solution meets the needs of your user, you need to interact with the data. This module continues with the scenario where you are building the expense report app.
+
+>[!NOTE]	
+	>In case you have not completed the previous modules within this learning path, you may download the [packaging files](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/expense-report-app-module-4). The files contain the completed work on the Travel Expense Report app thus far.
 
 1. Select the **Data** button to the left of the tree view. In the **Data** pane, select the **+ Add data** dropdown menu.
 
