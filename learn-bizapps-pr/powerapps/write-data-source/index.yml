@@ -2,8 +2,8 @@
 uid: learn-bizapps.write-data-source
 metadata:
  title: Write to a data source in an expense report app
- description: Once you've created a data model, planned your app, and built out screens, it’s now time to edit your data. Learn how the data connects to your Expense Report canvas app, how it will display, and how to edit your data.
- ms.date: 12/17/2021
+ description: Once you've created a data model, planned your app, and built out screens, it’s now time to edit your data. Learn how the data connects to your expense report canvas app, how it will display, and how to edit your data.
+ ms.date: 01/13/2022
  author: jadaphillips
  ms.author: jadaphillips
  ms.topic: interactive-tutorial
@@ -11,13 +11,13 @@ metadata:
 title: Write to a data source in an expense report app
 summary: |
   [!include[](../includes/module-banner.md)]
-  Once you've created a data model, planned your app, and built out screens, it’s now time to edit your data.  Learn how the data connects to your Expense Report canvas app, how it will display, and how to edit your data.
+  Once you've created a data model, planned your app, and built out screens, it’s now time to edit your data.  Learn how the data connects to your expense report canvas app, how it will display, and how to edit your data.
 abstract: |
-    In this module, you'll:
+    In this module, you will:
     - Learn to write to a data source in a canvas app
     - Implement basic logic for controls
     - Integrate and write a parent/child data model
-prerequisites: Basic understanding of Microsoft canvas apps and Dataverse.
+prerequisites: Basic understanding of canvas apps from Microsoft Power Apps and Microsoft Dataverse
 iconUrl: /learn/achievements/write-data-source.svg
 levels:
 - beginner

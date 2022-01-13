@@ -1,4 +1,4 @@
-We've come a long way, but we're not done yet. There's still the matter of the expense details, or the individual transactions that add to the expense report. This is slightly more complex as we have to write many different lines at once, so let's dive in.
+We've come a long way, but we're not done yet. There's still the matter of the expense details, or the individual transactions that add to the expense report. This is slightly more complex as we have to write many different lines at once, so let's begin.
 
 Instead of connecting directly to the data source like with Gal_ExpenseReports_AllExpenses, we're going to store the information in a Collection. A Collection is a special type of variable that stores a table of data instead of a single record or value. It stores this table for later use in the app. To that end, let's get started on implementing this functionality.
 
@@ -71,7 +71,7 @@ Instead of connecting directly to the data source like with Gal_ExpenseReports_A
 
    Let's take a look at the Total field now, remember earlier we stated we were going to configure this field later in the module, well that time has come.
 
-1. On **Lbl_Total_EditExpense**, add onto the **Text** property so that it reads `"Total: " & Text(Sum(Gal_ExpenseDetails_EditExpense.AllItems, Value(Txt_Amount_EditExpense.Text)), "$#,###.##")`.
+1. On **Lbl_Total_EditExpense**, add onto the **Text** property so that it reads `"Total: " & Text(Sum(Gal_ExpenseDetails_EditExpense.AllItems, Value(Txt_Amount_EditExpense.Text)), "$#,###.##")`
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Power Apps with the total label selected and the text property set.](../media/total.png)](../media/total.png#lightbox)

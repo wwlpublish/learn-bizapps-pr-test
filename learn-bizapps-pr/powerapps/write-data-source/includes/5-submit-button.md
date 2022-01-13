@@ -1,15 +1,19 @@
-Our next challenge to tackle is the Submit button and configuring that functionality. Fortunately, there are only a few minor differences between the **Save as draft** button logic and the **Submit button** logic.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWQjJY]
+
+Our next challenge to tackle is the **Submit** button and configuring that functionality. Fortunately, there are only a few minor differences between the **Save as draft** button logic and the **Submit** logic.
 
 1. Copy the Patch() statement from the OnSelect property of **Btn_SaveAsDraft_EditExpense.**
 
 1. Select **Btn_Submit_EditExpense** and paste the copied code in the **OnSelect** property.
 
-1. Update the `'Report Status':['Report Status'.Draft]` portion of code to be `'Report Status':['Report Status'.Awaiting approval]`. It should look like this:
+1. Update the `'Report Status':['Report Status'.Draft]` portion of code to be `'Report Status':['Report Status'.'Awaiting Approval']`
+
+    It should look like this:
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Power Apps .](../media/updated.png)](../media/updated.png#lightbox)
 
-   The rest of the code is still valid, and doesn't need to be modified. Since we don't need the logic for switching status or any edit versus new logic for the details, you can copy the **RemoveIf()** and **ForAll()** code to the Submit button as well.
+   The rest of the code is still valid, and doesn't need to be modified. Since we don't need the logic for switching status or any edit versus new logic for the details, you can copy the **RemoveIf()** and **ForAll()** code to the **Submit** button as well.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Power Apps showing the remove if and for all parts of the formula from the last unit.](../media/formula-3.png)](../media/formula-3.png#lightbox)
@@ -50,6 +54,6 @@ This function allows you to send an email from Power Apps simply by pressing a b
 
 You can see in the body how we're combining text as we did for the dates on the All Expenses screen. You may also notice that the recipient for this email is the logged-in user, which is common for testing.
 
-In production, you would need a way to tell who the supervisor of the logged-in user is. If your company keeps this information in your Active Directory, you can connect it as a data source and find the supervisor. Otherwise, you may need a table to look up a user's manager or send all approvals to one person.
+In production, you would need a way to tell who the supervisor of the logged-in user is. If your company keeps this information in your Azure Active Directory, you can connect it as a data source and find the supervisor. Otherwise, you may need a table to look up a user's manager or send all approvals to one person.
 
 You can expand this email to include a lot more information. As a practice, try referencing some other fields to add more detail to your email.

@@ -2,7 +2,7 @@ With our data setup, we need to write to not only one, but two tables on this sc
 
 ## Use variables to control data flow
 
-1. From the Tree view, select the **Scr_Welcome**.
+1. From the **Tree view**, select the **Scr_Welcome**.
 
 1. Select **Btn_NewExpense_Welcome** button and add to the existing **OnSelect** property code. To run functions one after the other, they need to be separated by a semicolon, so after the **Navigate()** function, add `;Set(VarExpenseMode, "New")`. Don't forget you can format the text to be cleaner.
 
@@ -17,7 +17,7 @@ With our data setup, we need to write to not only one, but two tables on this sc
 
 1. From the **Scr_AllExpenses** screen, select the **NextArrow** in **Gal_ExpenseReports_AllExpenses**.
 
-1. Update the **OnSelect** property with the following code, **Set(VarExpenseMode, "Edit"); Set(VarExpense, ThisItem); Navigate(Scr_EditExpense)**.
+1. Update the **OnSelect** property with the following code, **Set(VarExpenseMode, "Edit"); Set(VarExpense, ThisItem); Navigate(Scr_EditExpense)**
 
    The OnSelect property should now look like this:
 
@@ -35,7 +35,7 @@ With our data setup, we need to write to not only one, but two tables on this sc
 
    With the variables in place, we can reference existing data and then clear it out.
 
-1. For **Txt_Destination_EditExpense**, set the **Default** property to `VarExpense.'Trip Destination'`.
+1. For **Txt_Destination_EditExpense**, set the **Default** property to `VarExpense.'Trip Destination'`
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Power Apps with the textbox selected showing the default property.](../media/default.png)](../media/default.png#lightbox)
@@ -108,7 +108,7 @@ As you likely remember from creating the fields, **Report Status** is a choice f
 
 For the final field, **Traveler**, we're finding the logged-in user in the Users table using a **LookUp()** function. The LookUp() function takes the data source *Users* and finds the first record in that table that fits the condition `'Primary Email' = VarUser.Email`. For this reason, it's important to use a field that will be unique, like email.
 
-Hopefully that helps to provide a bit more detail and clarification around what we just did. As we continue throughout this module, take your time. If needed, try breaking down the code into smaller pieces. That will help with learning and ultimately becoming a better Power Apps Developer.
+Hopefully, that helps to provide a bit more detail and clarification around what we just did. As we continue throughout this module, take your time. If needed, try breaking down the code into smaller pieces. That will help with learning and ultimately becoming a better Power Apps Developer.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Power Apps showing the code behind the Save as Draft button.](../media/save-draft.png)](../media/save-draft.png#lightbox)
