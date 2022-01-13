@@ -80,4 +80,4 @@ In this exercise, you will create a marketing email that will be used to reach o
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Save and Go live buttons.](../media/go-live.png)](../media/go-live.png#lightbox)
 
-Congratulations, you have completed the steps to create a marketing email that can be used for patient outreach. This marketing email will be used in the next exercise.
+Congratulations, you have completed the steps to create a marketing email that can be used for patient outreach. This marketing email will be used in the next exercise. For more information on creating marketing emails, see [Create a marketing email (Dynamics 365 Marketing)](/dynamics365/marketing/create-marketing-email/?azure-portal=true).

@@ -84,4 +84,4 @@ Now let’s make our own patient journey for patients with hypermetropia.
 
 1. After your patient journey has started, you will be able to gather key metrics and insights from the record. This information will become available at a time that is based on the date and time that you chose for the start of the customer journey. You can return to view the results later if they aren't yet available.
 
-Congratulations, you have created a patient journey which will send the invitation email to the Healthy Eye Seminar to members of the Patients with Hypermetropia segment.
+Congratulations, you have created a patient journey which will send the invitation email to the Healthy Eye Seminar to members of the Patients with Hypermetropia segment. For more information on patient journeys, see [Create a simple customer journey (Dynamics 365 Marketing)](/dynamics365/marketing/create-simple-customer-journey/?azure-portal=true).

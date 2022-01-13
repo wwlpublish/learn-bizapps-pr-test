@@ -12,7 +12,7 @@ In this exercise, you will create a healthcare-focused, virtual marketing event 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Schedule section, showing the Time zone, Start date, and End date areas.](../media/schedule.png)](../media/schedule.png#lightbox)
 
-1.  Select **Save**.
+1.  Select **Save**. This will open more options on the command bar.
 
 1.  Because this event will be virtual, in the **Stream This Event Online** section, change the **Do you want to stream this event** toggle to **Yes**.
 
@@ -32,7 +32,7 @@ In this exercise, you will create a healthcare-focused, virtual marketing event 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Launch stage.](../media/launch.png)](../media/launch.png#lightbox)
 
-1.  Select **Go live** on the command bar.
+1.  Select **Go live** on the command bar. If you don’t see Go live available, select Save first.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Go live button on the command bar.](../media/go-live-command.png)](../media/go-live-command.png#lightbox)

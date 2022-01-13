@@ -19,6 +19,9 @@ Patient Outreach focuses on the **Enhance patient engagement** priority scenario
 
 This lab focuses on the healthcare story of Elizabeth Moore.
 
+> [!div class="mx-imgBorder"]
+> [![Diagram of healthcare data model basics with patient outreach highlighted.](../media/patient-outreach-step.png)](../media/patient-outreach-step.png#lightbox)
+
 At an annual checkup earlier this year, Elizabeth learned that she has hypermetropia, a common eye condition in adults in which nearby objects are blurry. Lamna Healthcare Company has seen a recent influx of patients who want to be more educated on hypermetropia and has decided to increase their patient outreach efforts by hosting a virtual marketing event.
 
 In this lab, you will play the role of a Lamna Healthcare Company marketing administrator and will use the Patient Outreach capabilities in Microsoft Cloud for Healthcare to create a virtual marketing event.
