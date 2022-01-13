@@ -152,7 +152,7 @@ In this task, you will create a new relationship, edit its relationship type, an
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the relationship added to the Connections tab.](../media/relationship-added.png)](../media/relationship-added.png#lightbox)
 
-1. Now that you have added the relationship, you can edit it. On the **Relationships** grid on the right, hover your cursor over the contact name record and then select the edit icon.
+1. Now that you have added the relationship, you can edit it. On the **Relationships** grid on the right, hover your pointer over the contact name record and then select the edit icon.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Relationships grid, showing the relationship and the edit icon highlighted.](../media/edit-relationship.png)](../media/edit-relationship.png#lightbox)
