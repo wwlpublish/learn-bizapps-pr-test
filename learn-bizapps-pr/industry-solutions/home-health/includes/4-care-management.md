@@ -61,7 +61,7 @@ In this task, you will assign the **Field Service - Resource** role to Home Heal
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Field Service - Resource security role.](../media/manage-user-roles.png)](../media/manage-user-roles.png#lightbox)
 
-Congratulations, you have assigned the Field Service - Resource role to a Field Service Mobile Home Health user in Microsoft Cloud for Healthcare.
+Congratulations, you have assigned the Field Service - Resource role to a Field Service Mobile Home Health user in Microsoft Cloud for Healthcare. This user will be able to use the Field Service Mobile application as a home health user.
 
 ## Task 2: Download the Field Service Mobile app and sign in
 
@@ -84,41 +84,6 @@ Congratulations, you have downloaded and signed in to the Field Service Mobile a
 ## Task 3: Use the Field Service Mobile app to manage Home Health work orders
 
 In this task, you will assign a Home Health work order to your Home Health bookable resource. Next, you will view and update the work order in the Field Service Mobile app and then view those changes in the Microsoft Cloud for Healthcare Home Health app.
-
-1.  Go to [https://make.powerapps.com](https://make.powerapps.com/?azure-portal=true).
-
-1.  Open the **Home Health** app.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Home Health app.](../media/home-health-app-selected.png)](../media/home-health-app-selected.png#lightbox)
-
-1.  Go to **Home Care** and open the unscheduled **Home Care Work Order 00034** for the Contoso, Ltd. household (opening any unscheduled Home Care work order is acceptable).
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Home Care option in the Home Health screen.](../media/home-care-work-order.png)](../media/home-care-work-order.png#lightbox)
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Active Home Cares screen.](../media/active-home-cares.png)](../media/active-home-cares.png#lightbox)
-
-1.  Scroll down to the **Primary Incident** section and set the **Primary Incident Estimated Duration** option to **1 hour** (this setting will ensure that the work order appropriates time on the resource's calendar after it's been scheduled).
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Primary Incident Estimated Duration menu.](../media/duration.png)](../media/duration.png#lightbox)
-
-1.  Select **Save & Close**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Save & Close button.](../media/save-close-button.png)](../media/save-close-button.png#lightbox)
-
-1.  Go to the **Schedule Board** and select **Unscheduled Work Orders**. You may have to expand the footer area using the bottom center arrow.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Unscheduled Work Orders option in the schedule board.](../media/unscheduled.png)](../media/unscheduled.png#lightbox)
-
-1.  **Drag** the **Home Health Work Order 00034** onto the **Schedule Board** to assign it to your **Bookable Resource**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Home Health work order moved onto the schedule board.](../media/drag-drop.png)](../media/drag-drop.png#lightbox)
 
 1.  On your mobile device, sign in to the Field Service Mobile app as your bookable resource user. If you encounter a message that states, "Contact your administrator for access to your organization's mobile apps," select the menu icon in the upper left and set the **Show non-production apps** toggle to **Yes** (because the list shows production apps by default).
 
@@ -165,4 +130,4 @@ In this task, you will assign a Home Health work order to your Home Health booka
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the System Status displayed as Completed.](../media/open-completed.png)](../media/open-completed.png#lightbox)
 
-**Congratulations!** You have assigned a Home Health Work Order to a Home Health Bookable Resource, made updates to the work order in the Field Service mobile app, and then viewed those changes in the Microsoft Cloud for Healthcare Home Health app.
+**Congratulations!** You have assigned a Home Health Work Order to a Home Health Bookable Resource, made updates to the work order in the Field Service mobile app, and then viewed those changes in the Microsoft Cloud for Healthcare Home Health app. For more information on the Field Service mobile app, see [Install and set up the Field Service (Dynamics 365) mobile app](/dynamics365/field-service/mobile-power-app-get-started/?azure-portal=true).

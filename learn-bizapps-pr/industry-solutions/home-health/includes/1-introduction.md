@@ -1,4 +1,4 @@
-The Home Health application in Microsoft Cloud for Healthcare allows provider personnel to schedule appointments for the patient based on various factors. It allows you to communicate accurate information, at the correct time, to the appropriate people, to provide safe and effective care to your patients. With the Home Health app, you can manage home visit schedules, notify patients, and give access to medical information to the provider.
+The Home Health application in Microsoft Cloud for Healthcare allows provider personnel to schedule appointments for the patient based on various factors. It allows you to communicate accurate information, at the correct time, to the appropriate people, to provide safe, and effective care to your patients. With the Home Health app, you can manage home visit schedules, notify patients, and give access to medical information to the provider.
 
 Key capabilities of the Home Health app include:
 
@@ -20,6 +20,9 @@ Home Health focuses on the **Empowering health team collaboration** and **Enhanc
 ## Healthcare story
 
 This lab focuses on the healthcare story of Monica Thomson.
+
+> [!div class="mx-imgBorder"]
+> [![Diagram of healthcare data model basics with home health highlighted.](../media/home-health.png)](../media/home-health.png#lightbox)
 
 Monica sprained her knee while ice skating last winter and was prescribed at-home physical therapy by her practitioner to rehabilitate the injury. To facilitate this home care scenario, Lamna Healthcare Company has deployed Microsoft Cloud for Healthcare's Home Health capabilities.
 
