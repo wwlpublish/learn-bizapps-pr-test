@@ -4,12 +4,13 @@ title: Business rules
 metadata:
   title: Business rules
   description: "Business rules"
-  ms.date: 08/05/2021
+  ms.date: 01/05/2022
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
 azureSandbox: false
+labModal: false
 durationInMinutes: 7
 content: |
   [!include[](includes/6-business-rules.md)]

@@ -59,7 +59,7 @@ You add components to your app by using the App Designer.
 
 ## Create a form
 
-1.	On the left navigation pane, expand **Data**, and then select **Tables**.
+1.	On the left navigation pane, expand **Dataverse**, and then select **Tables**.
 
 2.	Select a table, such as the account table, and then select the **Forms** tab.
 
@@ -75,7 +75,7 @@ You add components to your app by using the App Designer.
 
 ## Edit a form
 
-1.	On the left navigation pane, expand **Data**, and then select **Tables**.
+1.	On the left navigation pane, expand **Dataverse**, and then select **Tables**.
 
 2.	Select a table, such as the account table, and then select the **Forms** tab.
 

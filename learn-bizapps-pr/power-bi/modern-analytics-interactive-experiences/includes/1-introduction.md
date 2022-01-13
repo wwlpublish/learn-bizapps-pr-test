@@ -33,8 +33,15 @@ Many Power BI visuals incorporate conditional formatting features. Conditional f
 The following demo shows you how to apply conditional formatting. You can add icons to a matrix to make it easier to identify trends and outliers, create color scales to generate a heatmap of good or bad outcomes, or apply specific colors for identification purposes. Power BI offers a wide variety of options to apply and modify the formatting within a report.
 
 > [!div class="mx-imgBorder"]
-> [![Demonstration showing how to apply conditional formatting.](../media/animated-conditional-formatting-demo.gif)](../media/animated-conditional-formatting-demo.gif#lightbox)
+> ![Demonstration of Power BI Conditional Formatting.](../media/conditional-format.gif)
 
+## Power BI visuals -- small multiples
+
+You can split a chart across a dimension into rows and columns using small multiples in the blink of an eye. On a line, column, bar, area chart, look for the “Small Multiples” field in the visualization field settings to add the dimension you'd like to multiply and assign your desired number of rows & columns to display in the visualizations grid. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Demonstration of Power BI Small Multiples.](../media/small-multiples.gif)
 ## Power BI visuals -- AI/decomposition tree
 
 Power BI includes AI functionality and enhancements. The decomposition tree visual in Power BI enables you to visualize data across multiple dimensions. It automatically aggregates data and enables drilling down into dimensions in any order. As an artificial intelligence (AI) visualization, you can ask it to find the next dimension to drill down into based on certain criteria. This feature makes it a valuable tool for data exploration and root cause analysis. The Q&A feature in Power BI enables you to explore your data in your own words.

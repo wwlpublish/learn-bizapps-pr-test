@@ -15,12 +15,14 @@ For example, when a user enters, "It costs 1000 dollars," the bot will use this 
 
 Prebuilt entities will cover many common information types. However, situations will occur where language understanding will be needed for an organization-specific scenario. For example, if you are building a bot for an outdoor store, the bot might need to acknowledge different types of outdoor products. A custom entity called **Outdoor Products** could be created. This custom entity ensures that when someone enters a question about outdoor products related to fishing, skiing, or boating, the bot can direct them to the appropriate place.
 
-You can create custom entities by going to the **Entities** tab on the side navigation pane and selecting **New custom entity**. After you have defined the name of the entity, provide the items that you want to be included in it.
+You can create custom entities by going to the **Entities** tab on the side navigation pane and selecting **New custom entity**. You can choose to create an entity using either the Closed list or Regular expression (Regex) method. Using the closed list method, after you have defined the name of the entity, you can provide the items that you want to be included in it. If using Regex, you can define the name and regular expression pattern for the entity.
 
-The following image shows a created custom entity called **Outdoor Store Categories** with an added list of outdoor product category names.
+The following image shows a closed list-created custom entity called **Outdoor Store Categories** with an added list of outdoor product category names.
 
 > [!div class="mx-imgBorder"]
 > [![List items to use as values stored in variables.](../media/4-2.png)](../media/4-2.png#lightbox)
+
+Regex entities are ideal for complex pattern matching against a user's input, or if you need to allow for specific variations in how a user might format or enter their input in a conversation. For example, this could be an ID number, credit card number, or IP address.
 
 ### Work with smart match
 

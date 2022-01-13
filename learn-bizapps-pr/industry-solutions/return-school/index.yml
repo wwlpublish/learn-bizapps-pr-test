@@ -28,8 +28,8 @@ roles:
 - functional-consultant 
 - maker
 products:  
-- industry-solutions 
-- return-to-school 
+- power-platform
+- power-apps
 units: 
 - learn-bizapps.return-school.1-introduction 
 - learn-bizapps.return-school.2-features-benefits 

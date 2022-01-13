@@ -32,7 +32,7 @@ For each environment, you will need to provide the following information:
 -   **Region** - Defines the [support data region](/power-virtual-agents/data-location/?azure-portal=true) where the environment will be created.
 
 > [!div class="mx-imgBorder"]
-> [![name, environment, and region for environment](../media/power-virtual-agents-2-1-ssm.png)](../media/power-virtual-agents-2-1-ssm.png#lightbox)
+> [![name, environment, and region for environment](../media/admin-center.png)](../media/admin-center.png#lightbox)
 
 If you want to have a Microsoft Dataverse database created for the environment to use entities like accounts, contacts, and other business-related data, you can set the **Create a database for this environment** field to **Yes**. Additionally, you should select **Yes** if you are using Power Virtual Agents in conjunction with other Dynamics 365 applications. Data from Dataverse can be used in bots to provide tailored customer experiences. After the Dataverse database has been created, new bots can be deployed to the environment from the Power Virtual Agents portal.
 

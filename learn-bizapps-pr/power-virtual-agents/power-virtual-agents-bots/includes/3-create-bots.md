@@ -3,19 +3,19 @@ Before you start creating bots, it is important to consider what the bot will be
 You can create bots by selecting the bot icon in the Power Virtual Agents interface. Bots are created for each environment. By default, all bots will be created in the [default Power Apps environment for your organization or tenant](/power-virtual-agents/environments-first-run-experience/?azure-portal=true), unless otherwise specified. You can choose which environment that you want to use by selecting **more options** to see a list of available environments.
 
 > [!div class="mx-imgBorder"]
-> [![New bot button and environment and bot association](../media/power-virtual-agents-3-1-ssm.png)](../media/power-virtual-agents-3-1-ssm.png#lightbox)
+> [![New bot button and environment and bot association](../media/bot-list.png)](../media/bot-list.png#lightbox)
 
 In the **Create a new bot** dialog box, enter a name for your bot. Select **Create** to begin the bot-building process, which can take up to 15 minutes for the first bot that you create in an environment. Subsequent bots take less time to create.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of change environment for new bot creation.](../media/power-virtual-agents-3-3-ssm.png)](../media/power-virtual-agents-3-3-ssm.png#lightbox)
+> [![Screenshot of change environment for new bot creation.](../media/create-bot.png)](../media/create-bot.png#lightbox)
 
 ## Delete a bot
 
 Bots that are no longer needed can be removed from your environment. This situation might occur when the bot is being replaced with a different bot, or if the bot no longer fits the needs of your organization. Use the bot icon on the top menu bar and then select the bot that you want to delete. Select the **Settings** icon and **General settings**, and then select the **Delete Bot** option.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of general settings for deleting a bot.](../media/power-virtual-agents-3-2-ssm.png)](../media/power-virtual-agents-3-2-ssm.png#lightbox)
+> [![Screenshot of general settings for deleting a bot.](../media/general-settings.png)](../media/general-settings.png#lightbox)
 
 ## Work with the Power Virtual Agents user interface
 
@@ -24,7 +24,7 @@ The Power Virtual Agents user interface provides you with all the tools necessar
 The following image shows an example of what the user interface looks like.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of user interface example process.](../media/power-virtual-agents-3-4-ssm.png)](../media/power-virtual-agents-3-4-ssm.png#lightbox)
+> [![Screenshot of user interface example process.](../media/interface.png)](../media/interface.png#lightbox)
 
 The following list describes the Power Virtual Agents user interface features, as indicated in the previous image:
 

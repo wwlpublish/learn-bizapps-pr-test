@@ -59,4 +59,4 @@ To see how the app runs on mobile, install the Power Apps Mobile app on your pho
 
 3. On your phone or tablet, run the flooring-estimates app in Power Apps Mobile. If you do not want to install the app, you can run it in a browser.
 
-4. If you do not see the flooring-estimates app, then in your Power Apps Mobile app, select the hamburger menu in the top left of the screen and toggle on **Show non-production apps**.
+4. If you do not see the flooring-estimates app, then in your Power Apps Mobile app, select the user account menu and toggle on **Show non-production apps**. You may need to swipe to the left or tap your profile icon to get this option.

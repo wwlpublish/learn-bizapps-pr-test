@@ -1,0 +1,17 @@
+﻿### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-to-power-bi-mobile-apps.4-maximize-your-experience
+title: Maximize your experience
+metadata: 
+  title:  Maximize your experience
+  description: Learn how to maximize your experience with the Power BI mobile app by creating shortcuts and alerts, sharing reports and dashboards, playing reports as slideshows, and using split-screen mode to work side-by-side with other apps. 
+  ms.date: 11/26/2021 
+  author: paulinbar
+  ms.author: painbar 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+   
+durationInMinutes: 12 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/4-maximize-your-experience.md)] 
+

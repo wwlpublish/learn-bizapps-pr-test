@@ -13,7 +13,7 @@ You can change the color of each bar (or other element, depending on the type of
 
 ## Conditional formatting
 
-You can change the color based on a value or measure. To do so, select the vertical ellipsis next to **Default color**.
+You can change the color based on a value or measure. To do so, select the formula box next to **Default color**.
 
   ![Image of the Conditional Formatting option below the Visualizations pane.](../media/10-power-bi-desktop-conditional-formatting.png)
 
@@ -29,4 +29,4 @@ In the Analytics pane, you can create many other lines for a visual, such as Min
 
 You can create a border around an individual visualization, and like other controls, you can specify the color of that border as well.
 
-For more information, see [Tips and tricks for color formatting in Power BI](/power-bi/visuals/service-tips-and-tricks-for-color-formatting/?azure-portal=true).
+For more information, see [Tips and tricks for color formatting in Power BI](https://docs.microsoft.com/power-bi/visuals/service-tips-and-tricks-for-color-formatting/?azure-portal=true).
