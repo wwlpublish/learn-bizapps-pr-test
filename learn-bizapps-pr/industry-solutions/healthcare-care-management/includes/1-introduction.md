@@ -17,7 +17,7 @@ Care Management focuses on both **Enhance patient engagement** and **Empower hea
 > [!div class="mx-imgBorder"]
 > [![Diagram of patient engagement and team collaboration.](../media/engagement-collaboration.png)](../media/engagement-collaboration.png#lightbox)
 
-## Healthcare Story
+## Healthcare story
 
 This lab will focus on the story of Lamna Healthcare Company, who is opening a new location in Redmond, WA.
 
