@@ -221,7 +221,7 @@ Now, your gallery has the exact appearance that you want. However, you still nee
          Filter(
             'Expense Reports',
             Traveler.'Primary Email' = VarUser.Email,
-             'Trip Destination' = Ddn_Destination_AllExpenses.Selected.Result
+            'Trip Destination' = Ddn_Destination_AllExpenses.Selected.Result
          ) 
     )
     ```
