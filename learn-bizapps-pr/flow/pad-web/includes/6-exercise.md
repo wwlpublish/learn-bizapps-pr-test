@@ -1,13 +1,13 @@
 In this exercise, you'll create a flow that extracts gainer stocks from the MSN website and stores them in a new Excel worksheet.
 
 > [!NOTE]
-> The exercise is developed based on the USA version of the MSN Money page, but it'll work with all the regional versions with the same structure.
+> The exercise is developed based on the USA version of the MSN Money page, but it'll work with all the regional versions with the same structure. If the structure of the page gets updated, you have to modify the flow accordingly. 
 
 1. Launch the Power Automate for desktop console and create a new flow named **Gainer stocks extraction**.
 
     ![Screenshot of the Build a flow dialog.](..\media\exercise-new-flow.png)
 
-1. Deploy a browser launching action and set its initial URL to the [MSN Money main page](https://www.msn.com/money). For this example, we used the **Launch new Edge** action; however, all browser launching actions can be used.
+1. Deploy a browser launching action and set its initial URL to the [MSN Money main page](https://www.msn.com/money). For this example, we used the **Launch new Microsoft Edge** action; however, all browser launching actions can be used.
 
    ![Screenshot of the Launch new Edge action.](..\media\exercise-launch-new-edge.png)
 

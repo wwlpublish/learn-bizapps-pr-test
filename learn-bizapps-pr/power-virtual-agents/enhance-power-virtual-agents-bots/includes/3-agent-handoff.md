@@ -46,10 +46,12 @@ For more information, see [Microsoft Docs](/azure/active-directory/develop/howto
 
 Each bot can only be configured to send conversations to one Omnichannel for Customer Service instance. You can define the Dynamics 365 instance in the individual bot. If conversations from multiple bots will be sent to your Dynamics 365 instance, each bot will need to be configured individually.
 
-To configure the handoff, select **Settings > Transfer to agent**. This screen allows you to define how the bot will facilitate handoff to different applications. Select the Dynamics 365 Omnichannel for Customer Service tile to begin the configuration process.
+To configure the handoff, select **Manage > Agent transfers**. This screen allows you to define how the bot will facilitate handoff to different applications. Select the Omnichannel tile to begin the configuration process.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of how to transfer to agent settings selection.](../media/3-3.png)](../media/3-3.png#lightbox)
+
+You will need to select the Omnichannel for Customer Service environment that you want to use with the bot. Make sure that you select an environment where your Omnichannel for Customer Service instance is provisioned. The list shows all available environments, even if Omnichannel for Customer Service is not provisioned.
 
 The primary component that you need to provide is the application ID for the app that you previously created for the Azure AD registration. Omnichannel for Customer Service models bots as application users in the application. Modeling bots as application users ensures that the bot can have conversations sent to it like a human agent would. It is important that the application ID is unique to your organization (your Microsoft Dataverse organization or environment). Each bot that will interact with the same Omnichannel for Customer Service environment will need to use a different application ID. You might need to create multiple application registrations to support multiple bots.
 
@@ -60,14 +62,10 @@ Power Virtual Agents uses a Microsoft [Teams channel](/power-virtual-agents/get
 > [!div class="mx-imgBorder"]
 > [![Power Virtual Agents Application ID comes from the app registration in Azure AD.](../media/3-4.png)](../media/3-4.png#lightbox)
 
-The last part of the configuration process is to select the Omnichannel for Customer Service environment that you want to use with the bot. Make sure that you select an environment where your Omnichannel for Customer Service instance is provisioned. The list shows all available environments, even if Omnichannel for Customer Service is not provisioned.
-
 When the connection has been established, you can select the **Go to Omnichannel** link to [continue configuring the bot connection in Omnichannel for Customer Service](/dynamics365/omnichannel/administrator/configure-bot-virtual-agent/?azure-portal=true).
 
 ### Remove Omnichannel for Customer Service connection
 
-As of the time when this course was published, it was not possible to remove the connection setting after it was already set up. If you erroneously connected to the wrong instance or environment, a new bot will need to be created and then connected to Omnichannel for Customer Service again.
-
-After the handoff has been configured, you will need to finish the remaining configuration in Omnichannel for Customer Service.
+You can select **Disconnect bot** to disable the application user that represents the bot in your omnichannel instance. This will disconnect the bot from the specified omnichannel environment. To add your bot back, you'll need to connect it again.
 
 For more information, see [Microsoft Docs](/dynamics365/omnichannel/administrator/configure-bot-virtual-agent/?azure-portal=true) and [configure generic handoff](/power-virtual-agents/configure-generic-handoff/?azure-portal=true).

@@ -1,6 +1,6 @@
 Portal makers can use a template language to build the output that combines static content. Similarly, makers can use a template language when working with multiple pages and dynamic content that comes from Microsoft Dataverse and making changes from one page to the next. The static elements are written in HTML, and the dynamic elements are written in Liquid. The Liquid elements act as placeholders: Before the output is sent to the browser, the Liquid elements are replaced by data from Dataverse.
 
-Power Apps portals implements numerous extensions that are specific to the portals and Dataverse.
+Power Apps portals implements many extensions that are specific to the portals and Dataverse.
 
 [Available Liquid objects](/powerapps/maker/portals/liquid/liquid-objects/?azure-portal=true) include:
 
@@ -9,13 +9,13 @@ Power Apps portals implements numerous extensions that are specific to the porta
 - Website
 - Generic entities
 
-[Power Apps Dataverse table tags](/powerapps/maker/portals/liquid/portals-table-tags/?azure-portal=true) include:
+[Power Apps Dataverse table tags](/powerapps/maker/portals/liquid/portals-entity-tags/?azure-portal=true) include:
 
-- chart
+- Chart
 - Power BI
-- tablelist
-- tableview
-- fetchxml
+- Tablelist
+- Tableview
+- Fetchxml
 
 In the following example, the **Active Currencies** view is being loaded and all returned records are displayed. In portals Studio, this code produces output because of the implicit design-time privileges of the maker. However, on the portal, the user needs to have Read privileges assigned on the **currency** table for the fragment to return any data.
 

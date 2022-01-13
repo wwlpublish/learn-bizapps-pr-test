@@ -1,4 +1,4 @@
-As you start to build complex apps with Power Apps, one concept that you will need to become familiar with is relating data. Relating data is when you create a connection between two different data sources. An example is a travel expense app where you want to have one record for the trip and then one or more records for the individual expenses like food and lodging.
+As you start to build complex apps with Power Apps, one concept that you'll need to become familiar with is relating data. Relating data is when you create a connection between two different data sources. An example is a travel expense app where you want to have one record for the trip and then one or more records for the individual expenses like food and lodging.
 
 The following table is an example of storing all of the expense data in
 one Microsoft Dataverse table.
@@ -11,7 +11,7 @@ one Microsoft Dataverse table.
 | 4  | Cincinnati  | 5/2/2020  | Training       | Cab          | 23.99           |
 | 5  | Cincinnati  | 5/2/2020  | Training       | Lunch        | 12.44           |
 
-The example above shows that there is numerous redundant data because each row has all of the information for the entire trip. A better way to store this data would be with parent and child tables, and then create a relationship between the two entities. The next example shows what the two tables would look like.
+The example above shows that there's redundant data because each row has all of the information for the entire trip. A better way to store this data would be with parent and child tables, and then create a relationship between the two entities. The next example shows what the two tables would look like.
 
 First, the parent table with only one entry per trip.
 
@@ -31,12 +31,12 @@ reference to the parent record.
 | 4  | Cab          | 23.99          | 2            |
 | 5  | Lunch        | 12.44          | 2            |
 
-Here you see one entry for each expense. There is also a new column for
+Here you see one entry for each expense. There's also a new column for
 TripID. This column creates the relationship by specifying the record ID
 of the parent record. This allows you to query the details of the
 associated trip.
 
-When building relationships, it is also possible to relate data from two
+When building relationships, you can also relate data from two
 different data sources. An example of this is storing customer
 information in a CRM system, such as Dynamics 365, and then using that
 information as part of a SharePoint list for sales regions. With
@@ -48,5 +48,5 @@ within one app is seamless.
 > [!NOTE]
 > Dataverse can define relationships using Lookup columns, creating the structure and connecting the tables for you. This is outside the scope of this primer on relationships but worth noting as you consider data sources.
 
-In the next section, you will learn the functions and formulas for
-utilizing relationships in Power Apps.
+In the next section, you'll learn the functions and formulas for
+using relationships in Power Apps.

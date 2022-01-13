@@ -336,6 +336,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/learn/breadcrumb/toc.json",
       "extendBreadcrumb": true,
+      "ms.suite": "office",
       "feedback_system": "None",
       "clicktale": true,
       "uhfHeaderId":"MSDocsHeader-Learn"
