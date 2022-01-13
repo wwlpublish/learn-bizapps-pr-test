@@ -18,7 +18,7 @@ This window can be accessed at any time, by double-clicking the action in the wo
 
 ## Variables
 
-Variables are data containers that Power Automate for desktop uses to store data for later use. In the previous screenshot, **%ButtonPressed%** is a variable created by the **Display Message** action. Variables are contained between percentage marks, which allows them to stand out from simple text.
+Variables are data containers that Power Automate for desktop uses to store data for later use. In the previous screenshot, **%ButtonPressed%** is a variable created by the **Display message** action. Variables are contained between percentage marks, which allows them to stand out from simple text.
 
 Variables can be produced as output from actions, or used as input for other actions. Opening an Excel worksheet, for example, produces a variable containing the Excel instance. This variable may then be used as input in any following actions that require interaction with that particular Excel instance:
 
