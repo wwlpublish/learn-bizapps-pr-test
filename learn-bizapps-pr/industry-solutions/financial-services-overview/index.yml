@@ -2,7 +2,7 @@
 uid: learn-bizapps.financial-services-overview 
 metadata: 
  title: Microsoft Cloud for Financial Services overview
- description: This module describes the overall capabilities included in the Microsoft Cloud for Financial Services. 
+ description: This module describes the overall capabilities that are included in Microsoft Cloud for Financial Services. 
  ms.date: 01/14/2022  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,12 +11,12 @@ metadata:
 title: Microsoft Cloud for Financial Services overview
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn about the overall capabilities included in the Microsoft Cloud for Financial Services.  
+  Learn about the overall capabilities that are included in Microsoft Cloud for Financial Services.  
 abstract: |  
     In this module, you will: 
-    - Introduction to Microsoft Cloud for Financial Services
-    - Financial Services Industry trends and prioritization of functional capabilities
-    - Architecture of Microsoft Cloud for Financial Services 
+    - Learn about Microsoft Cloud for Financial Services.
+    - Discover Cloud for Financial Services industry trends and prioritization of functional capabilities.
+    - Explore the architecture of Cloud for Financial Services. 
 prerequisites: None
 iconUrl: /learn/achievements/financial-services-overview.svg  
 levels:  
