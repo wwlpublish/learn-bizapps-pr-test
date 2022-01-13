@@ -1,4 +1,4 @@
-To fully understand the Microsoft Cloud for Healthcare data model, it's important to first understand Common Data Model. If you've ever had to bring together data from multiple systems and applications, you know that it can be an expensive and time-consuming task. Without the ability to share and understand the same data easily, each application, or data integration project, would require a custom implementation.
+If you've ever had to bring together data from multiple systems and applications, you know that it can be an expensive and time-consuming task. Without the ability to share and understand the same data easily, each application, or data integration project, would require a custom implementation.
 
 Common Data Model simplifies this process by providing a shared data language for business and analytical applications to use. It's a common machine-understandable way to describe data with semantic consistency across business, transactional, analytical, and industry domains. This feature helps
 drive interoperability across apps and services from the Microsoft ecosystem and allows customers to create insights from their data.

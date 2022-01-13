@@ -30,12 +30,18 @@ On top of these three layers is the final package, which is based on your select
 
 ## Healthcare data model (preview)
 
-The Microsoft healthcare data model is available for preview on the Microsoft Cloud Solution Center at solutions.microsoft.com. The solution doesn't have dependencies. It contains the entities, relationships, resources, and other processes to manage your healthcare data, including clinical communication, appointments, encounters, care teams, procedures, medications, and more.
+The Microsoft healthcare data model is available for preview on the Microsoft Cloud Solution Center at [https://solutions.microsoft.com](https://solutions.microsoft.com/?azure-portal=true). The solution doesn't have dependencies. It contains the entities, relationships, resources, and other processes to manage your healthcare data, including clinical communication, appointments, encounters, care teams, procedures, medications, and more.
 
 For more information, see [Healthcare overview](/common-data-model/schema/core/industrycommon/healthcare/healthcare-overview/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of healthcare solutions and entities that are included in the healthcare data model.](../media/3-healthcare.png)](../media/3-healthcare.png#lightbox)
+> [![Screenshot of Microsoft Cloud for Healthcare solutions and entities that are included with the Healthcare components tile highlighted.](../media/3-healthcare.png)](../media/3-healthcare.png#lightbox)
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of Microsoft Cloud for Healthcare with Filter by capability set to Healthcare components showing Healthcare data model and Azure Healthcare APIs.](../media/3-components.png)](../media/3-components.png#lightbox)
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Healthcare data model (preview) info box.](../media/3-data-model.png)](../media/3-data-model.png#lightbox)
 
 ## Deprecation of Dynamics 365 Healthcare Accelerator
 
