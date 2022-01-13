@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.healthcare-care-management 
+metadata: 
+ title: Healthcare Care Management
+ description: The Care Management application as part of Microsoft Cloud for Healthcare allows health organizations to view and manage their healthcare data all in one place.  It helps providers create, personalize, and view care plans as well as manage care teams, view clinical timelines, and acquire health analytics. This lab will ensure your environment has the proper data imported to progress through the series of labs.
+ ms.date: 01/14/2022  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-industry-solutions  
+title: Healthcare care management
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The Care Management application as part of Microsoft Cloud for Healthcare allows health organizations to view and manage their healthcare data all in one place.  It helps providers create, personalize, and view care plans as well as manage care teams, view clinical timelines, and acquire health analytics. 
+abstract: |  
+    In this module, you will: 
+    - Explore the Healthcare Data Model
+    - Navigate the Care Management application
+    - Create a new location record for Lamna Healthcare Company
+prerequisites: Training environment preparation
+iconUrl: /learn/achievements/healthcare-care-management.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products: 
+- industry-solutions 
+- mscloud-healthcare
+units: 
+- learn-bizapps.healthcare-care-management.1-introduction 
+- learn-bizapps.healthcare-care-management.2-explore-data-model 
+- learn-bizapps.healthcare-care-management.3-navigate-application 
+- learn-bizapps.healthcare-care-management.4-create-location 
+- learn-bizapps.healthcare-care-management.5-check 
+- learn-bizapps.healthcare-care-management.6-summary 
+badge: 
+  uid: learn-bizapps.healthcare-care-management.badge 
