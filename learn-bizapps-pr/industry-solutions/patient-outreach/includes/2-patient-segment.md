@@ -106,4 +106,4 @@ In this exercise, you will create a patient segment by using the Patient Outreac
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Members list.](../media/members.png)](../media/members.png#lightbox)
 
-Congratulations, you have completed the steps to create a patient segment that can be used for patient outreach. This patient segment will be used in the tasks in the next exercise.
+Congratulations, you have completed the steps to create a patient segment that can be used for patient outreach. This patient segment will be used in the tasks in the next exercise. For more information about dynamics segments, see [Create a dynamic segment (Dynamics 365 Marketing)](/dynamics365/marketing/create-segment/?azure-portal=true). For more information about segments in general, see [Working with segments (Dynamics 365 Marketing)](/dynamics365/marketing/segmentation-lists-subscriptions/?azure-portal=true).
