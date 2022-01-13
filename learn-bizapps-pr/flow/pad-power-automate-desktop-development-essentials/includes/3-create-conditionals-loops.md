@@ -18,9 +18,9 @@ We want to check whether the variable that contains the data we read from the wo
 > Selecting the variable icon next to the input field will produce a list of available variables to add to the field; this makes variables easier to handle.
 >![Screenshot of the variable icon and variable list.](..\media\variable-icon.png)
 
-Press OK to add the action to the workspace. An **End If** action is also automatically added, to signify the end of the conditional block of actions; any actions added between the **If** and **End If** actions will only run if the condition in the **If** action is met.
+Press **Save** to add the action to the workspace. An **End** action is also automatically added, to signify the end of the conditional block of actions; any actions added between the **If** and **End** actions will only run if the condition in the **If** action is met.
 
-We will add a **Write to Excel Worksheet** action to test this. If the header is not correct, we would like to write it in:
+We will add a **Write to Excel worksheet** action to test this. If the header is not correct, we would like to write it in:
 
 ![Screenshot of the Write to Excel worksheet action properties dialog.](..\media\write-to-excel-worksheet-action-properties.png)
 
@@ -38,9 +38,9 @@ The **Loop** action initializes an index variable, and repeats until said variab
 
 Configured as above, the variable **%LoopIndex%** will be initialized to 2, and will be incremented by 1 each time the loop repeats, until it reaches the value 10.
 
-When we add the **Loop** action, an **End Loop** action is also automatically added to the workspace; this is analogous to the **End If** action in the previous unit.
+When we add the **Loop** action, an **End** action is also automatically added to the workspace; this is analogous to the **End** action in the previous unit.
 
-Between the **Loop** and **End Loop** actions, we will add a **Write to Excel Worksheet** action, which will write the ID in each row:
+Between the **Loop** and **End** actions, we will add a **Write to Excel worksheet** action, which will write the ID in each row:
 
 ![Screenshot of the Write to Excel worksheet action properties dialog with parameters filled in.](..\media\write-to-excel-worksheet-action-properties-continued.png)
 
