@@ -21,6 +21,9 @@ Home Health focuses on the **Empowering health team collaboration** and **Enhanc
 
 This lab focuses on the healthcare story of Monica Thomson.
 
+> [!div class="mx-imgBorder"]
+> [![Diagram of healthcare data model basics with home health highlighted.](../media/home-health.png)](../media/home-health.png#lightbox)
+
 Monica sprained her knee while ice skating last winter and was prescribed at-home physical therapy by her practitioner to rehabilitate the injury. To facilitate this home care scenario, Lamna Healthcare Company has deployed Microsoft Cloud for Healthcare's Home Health capabilities.
 
 In this lab, you will play the role of a Lamna Healthcare Company Home Health dispatcher to configure the Home Health application.

@@ -58,6 +58,9 @@ To create a bookable resource in the Home Health application, follow these steps
 
 1.  Select the **Field Service** tab to optionally configure other aspects of the bookable resource. **Save** the record.
 
+	> [!div class="mx-imgBorder"]
+	> ![Screenshot of the Field Service tab selected with save button.](../media/field-service-save.png)
+
 1.  After you have saved the bookable resource, you can set the working hours of the resource. Working hours are considered by the following entities:
 
 	-   The schedule board, by displaying working and nonworking hours as different colors.

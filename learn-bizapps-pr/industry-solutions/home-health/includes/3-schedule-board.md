@@ -42,10 +42,17 @@ The following screenshot shows an example of a configured schedule board.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Home Health app in the Apps list.](../media/home-health-app.png)](../media/home-health-app.png#lightbox)
 
-1.  Select **Home Care** on the left sitemap and open the **Thomson Household** Home Care Work Order record.
+1.  Now we will associate the Thomson Household home care work order with the Spanish fluency characteristic, so they match Monica with someone who is fluent in Spanish.  We have already applied this characteristic to her practitioner. We also want to set the estimated duration for the home visit.
+
+	Select **Home Care** on the left sitemap and open the **Thomson Household** Home Care Work Order record.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the active home care work orders.](../media/home-care-record.png)](../media/home-care-record.png#lightbox)
+
+1. On the Summary tab, scroll down to the Primary Incident section and set the **Primary Incident Estimated Duration** to 1 hour (this will ensure that the work order takes up time on the Resource’s calendar).
+
+	> [!div class="mx-imgBorder"]
+	> ![Screenshot of the primary incident estimated duration field.](../media/primary-incident-duration.png)
 
 1. Select **Related** and then select **Characteristics**.
 
@@ -90,6 +97,11 @@ The following screenshot shows an example of a configured schedule board.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Time Zone menu.](../media/time-zone.png)](../media/time-zone.png#lightbox)
 
+1.	Open the Unscheduled Work Orders by selecting the small arrow at the bottom of the screen.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the hourly view with arrow to open unscheduled work orders.](../media/arrow.png)](../media/arrow.png#lightbox)
+
 1. Find the work order that you added the **Spanish fluency** characteristic to and then select the grid to highlight it. Select **Find Availability** to open the schedule assistant filter.
 
 	> [!div class="mx-imgBorder"]
@@ -105,5 +117,5 @@ The following screenshot shows an example of a configured schedule board.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Exit Search button.](../media/exit-search.png)](../media/exit-search.png#lightbox)
 
-Congratulations, you have configured a schedule board tab and scheduled a Home Health visit by using the bookable resource that you created in the previous task in this exercise.
+Congratulations, you have configured a schedule board tab and scheduled a Home Health visit by using the bookable resource that you created in the previous task in this exercise. For more information on schedule boards, see [Use and configure the schedule board (Dynamics 365 Field Service)](/dynamics365/field-service/configure-schedule-board/?azure-portal=true).
 
