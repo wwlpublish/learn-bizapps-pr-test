@@ -1,17 +1,17 @@
-When building an app, you first spend your time creating a data model and building that model out in Dataverse. So that your solution can meet the needs of your user, it's important that we also interact with the data. We will continue to build the expense report app, and if you did not complete the earlier modules you may download the files here (insert link). The files contain the completed work on the expense report app thus far. 
+When building an app, you will first create a data model and then build that model in Microsoft Dataverse. To ensure that your solution meets the needs of your user, you need to interact with the data. This module continues with the scenario where you are building the expense report app. If you didn't complete the previous modules, you can download the files by going to (insert link). The files contain the completed work on the Travel Expense Report app thus far. 
 
-1. Start by selecting the **Data** button to the left of the tree view. Once there, select the drop-down to **Add data**.
+1. Select the **Data** button to the left of the tree view. In the **Data** pane, select the **+ Add data** dropdown menu.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Data pane with the Add data button highlighted.](../media/add-data.png)](../media/add-data.png#lightbox)
 
-1. Once the drop-down has opened, a few tables from Dataverse will pop up, search **Users** and select that table to add it as a data source in your app.
+1. When the dropdown menu opens, a few tables from Dataverse will appear. Search for and select **Users** to add that table as a data source in your app.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Select a data source dialog with Users highlighted.](../media/users.png)](../media/users.png#lightbox)
 
-1. Repeat this process to add your **Expense Reports** and **Expense Report Details** tables. You'll notice that Dataverse gives you the plural names for your tables. This is one reason we ensure that our plural name is a logical extension of the table name when creating custom tables in Dataverse. You may also see other data sources. To see all possible connectors for Power Apps, check out the [documentation](/connectors/connector-reference/?azure-portal=true). You can also select any data source in the link to learn more.
+1. Repeat this process to add your **Expense Reports** and **Expense Report Details** tables. Dataverse gives you the plural names for your tables so that you can ensure that your plural name is a logical extension of the table name when you're creating custom tables in Dataverse. Additionally, you can view other data sources. To view all possible connectors for Microsoft Power Apps, go to [Connector reference overview](/connectors/connector-reference/?azure-portal=true). You can also select any data source in the link to learn more.
 
-    We may add more data sources later, but this will be everything we need for this module.
+    You can add more data sources later, but this information is everything that you will need for this module.
 
-1. Go back to the **Tree view** to continue building.
+1. Return to the **Tree view** to continue building.
