@@ -3,7 +3,7 @@ uid: learn-bizapps.healthcare-care-management
 metadata: 
  title: Healthcare Care Management
  description: The Care Management application as part of Microsoft Cloud for Healthcare allows health organizations to view and manage their healthcare data all in one place.  It helps providers create, personalize, and view care plans as well as manage care teams, view clinical timelines, and acquire health analytics. This lab will ensure your environment has the proper data imported to progress through the series of labs.
- ms.date: 1/14/2022  
+ ms.date: 01/14/2022  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
