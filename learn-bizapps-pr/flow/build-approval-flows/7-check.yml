@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.build-approval-flows.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 12/01/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 6 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What are connectors used for in Power Automate? 
+    choices:  
+    - content: Connectors are used to start a flow.
+      explanation: Connectors let you connect to a service like Salesforce, Microsoft 365, Twitter. 
+      isCorrect: false 
+    - content: Connectors let you build a flow that accepts user input.
+      explanation: Connectors let you connect to a service like Twitter.
+      isCorrect: false 
+    - content: Connectors let you connect to a service like Salesforce, Microsoft 365, Twitter.
+      explanation: Connectors let you connect to a service like Salesforce, Microsoft 365, Twitter.
+      isCorrect: true 
+  - content: What are templates used for in Power Automate?
+    choices: 
+    - content: As demos to learn how Power Automate flows work. 
+      explanation: Templates are pre-built flows for common business scenarios you can quickly and easily use to solve business problems.
+      isCorrect: false 
+    - content: As working flows, which you can select and start using for business use.
+      explanation: You can use an existing flow template for your business use as is o make modifications to it. 
+      isCorrect: true 
+    - content: As partially work flows templates, which need several design changes.
+      explanation: Templates are pre-built flows for common business scenarios you can quickly and easily use to solve business problems.
+      isCorrect: false 
+    - content: A template with actions only. You need to add conditions.
+      explanation: Templates are pre-built flows for common business scenarios you can quickly and easily use to solve business problems.
+      isCorrect: false 
+  - content: What is the primary use of Approvals in Power Automate?
+    choices: 
+    - content: Manage the approval of documents or processes across several services.
+      explanation: Approval is an action that is used to approve documents or several services such as SharePoint, Dynamics 365, etc.
+      isCorrect: true 
+    - content: Manage the approval of documents only.
+      explanation: Approval is an action that is used to approve documents such as Word, Excel, PowerPoint, etc.
+      isCorrect: false 
+    - content: Manage the approval of services such as SharePoint.
+      explanation: Approval is an action that is used to approve documents such as Word, Excel, PowerPoint, etc.
+      isCorrect: false 
+    - content: Manage the approval of Microsoft Word documents and Dynamics 365 processes.
+      explanation: Approval is an action that is used to approve documents such as Word, Excel, PowerPoint, etc. 
+      isCorrect: false 

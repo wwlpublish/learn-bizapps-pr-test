@@ -177,27 +177,23 @@ Importing the solution is a required installation process that helps ensure that
 
 	|     Name                                     |     Current Value                                                                                                                                                                                                                                                  |
 	|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-	|     Power   Automate environment variable    |     For a US   environment: [https://us.flow.microsoft.com/manage/environments/](https://us.flow.microsoft.com/manage/environments/?azure-portal=true)        <br>For an EMEA environment: [https://emea.flow.microsoft.com/manage/environments/](https://emea.flow.microsoft.com/manage/environments/?azure-portal=true)          <br> For a GCC   environment: [https://gov.flow.microsoft.us/manage/environments/](https://gov.flow.microsoft.us/manage/environments/?azure-portal=true)          |
-	|     Admin eMail                              |     Email address   that is used in flows to send notifications to admins; this should be either your   email address or a distribution list                                                                                                                               |
-	|     Also Delete from CoE                              |     Recommend Yes here to delete objects from the CoE inventory when they are deleted from the tenant. No will keep a record that an app or flow existed in the past.                                                                                                                               |
-	|     Approval Admin                              |     The email address used in flows to send approvals to admins; this cannot be a distribution list.                                                                                                                               |
-	|     Community URL                             |     Link to your internal Microsoft Power Platform community (for example, Yammer or Teams).                                                                                                                               |
-	|     Developer Compliance Center URL                              |     Leave empty on Import and do the following to populated after set up of the Governance components.  <br> Navigate to the details page of the Developer Compliance Center (canvas app) included with this solution, and copy the web link (to launch the app) and paste it into this variable.                                                                                                                               |
-	|     Environment Request Admin App Url                              |     Link to the Admin - Power Platform Resource RMS canvas app included in this solution. Leave empty on Import and fill it in once the app is installed. <br>To do that, navigate to the details page of the Admin - Power Platform Resource RMS (canvas app) included with this solution, and use the web link (to launch the app).                                                                                                                        
 	|     PowerApp Maker environment variable                              |     The maker URL used by PowerApps for your cloud, including trailing slash. Here are examples: For a US environment: [https://make.powerapps.com](https://make.powerapps.com) <br>For a GCC environment: [https://make.gov.powerapps.us](https://make.gov.powerapps.us) <br>For a GCC High environment: [https://make.high.powerapps.us/](https://make.high.powerapps.us/)                                                                                                                               |
+	|     Developer Compliance Center URL                              |     Leave empty on Import and do the following to populated after set up of the Governance components.  <br> Navigate to the details page of the Developer Compliance Center (canvas app) included with this solution, and copy the web link (to launch the app) and paste it into this variable.                                                                                                                               |
+	|     Admin eMail                              |     Email address   that is used in flows to send notifications to admins; this should be either your   email address or a distribution list                                                                                                                               |
+	|     Community URL                             |     Link to your internal Microsoft Power Platform community (for example, Yammer or Teams).                                                                                                                               |
 	|     PowerApp Player environment variable                              |     The player URL used by PowerApps for your cloud, including trailing slash. Here are examples: For a US environment: [https://app.powerapps.com](https://app.powerapps.com) <br>For a GCC environment: [https://app.gov.powerapps.us](https://app.gov.powerapps.us) <br>For a GCC High environment: [https://app.gov.powerapps.us/](https://app.gov.powerapps.us/)                                                                                                                            |
-	|     PowerApp Player environment variable                              |     The player URL used by PowerApps for your cloud, including trailing slash. Here are examples: For a US environment: [https://app.powerapps.com](https://app.powerapps.com) <br>For a GCC environment: [https://app.gov.powerapps.us](https://app.gov.powerapps.us) <br>For a GCC High environment: [https://app.gov.powerapps.us/](https://app.gov.powerapps.us/)    
-	|
-	|     Power Platform Maker Microsoft 365 Group                              |     The Admin \| Welcome Email flow sends a welcome email to onboard new makers and adds them to a Microsoft 365 group. You can use this group to send communications to your makers or invite them to a Yammer or Teams group. Configure the group ID here.                                                                                                                        
-	|     TenantID                              |     Your Azure Tenant ID.
-
-
+	|     Environment Request Admin App Url                              |     Link to the Admin - Power Platform Resource RMS canvas app included in this solution. Leave empty on Import and fill it in once the app is installed. <br>To do that, navigate to the details page of the Admin - Power Platform Resource RMS (canvas app) included with this solution, and use the web link (to launch the app).                               |  
+	|     Power Platform Make Office 365 Group                              |     The Admin Welcome Email flow sends a welcome email to onboard new makers and adds them to an Office 365 group. You can use this group to send communications to your makers or invite them to a Yammer or Teams group. Configure the group ID here.| 
+	|     Approval Admin                              |     The email address used in flows to send approvals to admins; this cannot be a distribution list.                                                                                                                   |                                                                            
+	|     Power   Automate environment variable    |     For a US   environment: [https://us.flow.microsoft.com/manage/environments/](https://us.flow.microsoft.com/manage/environments/?azure-portal=true)        <br>For an EMEA environment: [https://emea.flow.microsoft.com/manage/environments/](https://emea.flow.microsoft.com/manage/environments/?azure-portal=true)          <br> For a GCC   environment: [https://gov.flow.microsoft.us/manage/environments/](https://gov.flow.microsoft.us/manage/environments/?azure-portal=true)          |    
+	|     TenantID                              |     Your Azure Tenant ID. Follow these [instructions](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant) to find your tenant ID.                                                                                 |
+		
 	> [!div class="mx-imgBorder"]
 	> [![Update environment variable values.](../media/environment-variable-ssm.png)](../media/environment-variable-ssm.png#lightbox)
 
 1. Select **Import**.
 
-The import can take up to 10 minutes to be completed.
+The import can take up to 10 minutes to be completed. 
 
 ## Activate the sync template flows
 
@@ -207,56 +203,27 @@ The first run of these will be long running. To avoid issues, enable the flows i
 
 1.  Select the **Center of Excellence - Core Components** solution
 
-1. Turn on **CLEANUP - Admin | Sync Template v2 (Check Deleted)**.
+1. Turn on the following flows:
+	1. CLEANUP HELPER - Check Deleted (Canvas Apps)
+	1. CLEANUP HELPER - Check Deleted (Cloud Flows)
+	1. CLEANUP HELPER - Check Deleted (Custom Connectors)
+	1. CLEANUP HELPER - Check Deleted (Model Driven Apps)
+	1. CLEANUP HELPER - Check Deleted (PVA)
+
+1. Turn on **CLEANUP - Admin | Sync Template v3 (Check Deleted)**.
 
 1.  Wait until it finishes before you turn on any other flows.
 
-1.  Ensure that the Sync Template v2 flows are already turned on for the following object types: Apps, Connectors, Custom Connectors, Flows, Model Driven Apps, Power Virtual Agents, Robotic Process Automation.
+1.  Ensure that the Admin | Sync Template v3 flows are already turned on for the following object types: Apps, Connectors, Custom Connectors, Flows, Model Driven Apps.
 
-1.  Turn on **Admin | Sync Template v2**. When it completes, turn it off again.
+1.  Turn on **Admin | Sync Template v3**. When it completes, turn it off again.
 
 1.  The previous action will cause the flows for the objects that are listed in step 3 to run. Wait until all are complete.
 
-1.  Turn on **Admin | Sync Template v2**.
+1.  Turn on **Admin | Sync Template v3**.
 
 1.  Turn on the rest of the flows that are listed in the solution.
 
-## Configure the CoE Settings table
-
-This section explains how to enter data in the CoE Settings table. This table will hold a single row of information that contains your logo, brand colors, and so on, that different applications will reference.
-
-The following assets depend on the CoE Settings table:
-
-- **Canvas apps** - The optional branding details (logo, brand colors) in all canvas apps are pulled from this table. Optional support and community channel links are also used.
-
-- **Optional flows** - The optional branding details and support channel links are used in communication flows. You'll also configure links to canvas apps in the settings. (The main flow that syncs data to the resource tables doesn't depend on this setting configuration.)
-
-To configure CoE settings:
-
-1.  Go to make.powerapps.com, select **Apps**, and then open Microsoft Power Platform Admin View model-driven app in Play mode.
-
-1.  On the left pane, select **Configure**.
-
-1.  On the **Configure view** screen, select **+ New**.
-
-1.  Provide values, as shown in the following table.
-
-	|     Setting                           |     Value                                                                                                                                                                                                                                               |
-	|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-	|     Company Name                      |     Your company   name as it will appear in dashboards                                                                                                                                                                                                 |
-	|     Brand Logo                        |     Link to your   logo as an image file                                                                                                                                                                                                                |
-	|     Brand Primary   Color             |     Hexadecimal   value of your primary brand color (#CCCCCC)                                                                                                                                                                                           |
-	|     Brand   Secondary Color           |     Hexadecimal   value of your secondary brand color (#DDDDDD)                                                                                                                                                                                         |
-	|     Email End-User Support          |     Email address   for your helpdesk or user computing support team                                                                                                                                                                                    |
-	|     Tenant Type                       |     The type of   tenant you have. Possible values:     Commercial   (use if your URL is [https://make.powerapps.com](https://make.powerapps.com/?azure-portal=true))     GCC (use if   your URL is [https://make.gov.powerapps.us](https://make.gov.powerapps.us/?azure-portal=true))     GCC High (use   if your URL is [https://make.high.powerapps.us](https://make.high.powerapps.us/?azure-portal=true))    |
-	|     Link to   Community Channel       |     Link to your   internal Microsoft Power Platform community (for example, Yammer or Teams)                                                                                                                                                           |
-	|     Link to   Learning Resource       |     Link to   internal Microsoft Power Platform learning resources, or you can link to [Create a canvas app in Power Apps](/learn/paths/create-powerapps/?WT.mc_id=twitter-social-donasa/?azure-portal=true)                                                                                                                                                   |
-	|     Link to   Policy Documentation    |     Link to   internal Microsoft Power Platform policies; for example, a Teams channel or   SharePoint site                                                                                                                                             |
-	|     Version                           |     Set to 1.0                                                                                                                                                                                                                                          |
-
-1.  Select **Save**.
-
-You don't need to add more records to the CoE Settings table. Any dependent components will always get values from the first record.
 
 ## Set up audit log sync
 
@@ -278,7 +245,7 @@ After the sync flows have finished running (depending on the number of environme
 
 To check the status of a flow:
 
-1.  Select **Admin | Sync Template v2**, which will open a new tab on the **Flow detail** page.
+1.  Select **Admin | Sync Template v3**, which will open a new tab on the **Flow detail** page.
 
 1.  View Runs.
 
@@ -299,7 +266,6 @@ Environment variables are used to store application and flow configuration data 
 	|     Name                                     |     Current value                                                                                                                                                                                                                                        |
 	|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 	|     Power   Automate environment variable    |     For a US   environment: [https://us.flow.microsoft.com/manage/environments/](https://us.flow.microsoft.com/manage/environments/?azure-portal=true)    For an EMEA environment: [https://emea.flow.microsoft.com/manage/environments/](https://emea.flow.microsoft.com/manage/environments/?azure-portal=true)     For a GCC   environment: [https://gov.flow.microsoft.us/manage/environments/](https://gov.flow.microsoft.us/manage/environments/?azure-portal=true)          |
-	|     Admin eMail                              |     Email address   that is used in flows to send notifications to admins; this should be either your   email address or a distribution list                                                                                                                     |
-	|     eMail Header   Style                     |     CSS style   that is used to format emails that are sent to admins and makers. A default value is   provided                                                                                                                                                  |
-	|     Also Delete   from CoE                   |     When the   Admin \| Sync Template v2 (Check Deleted) flow is run, it denotes whether   you want the items deleted from CoE (Yes, which is the default) or   marked as deleted (No).                                                           |
+	|     Admin eMail                              |     The email address   that is used in flows to send notifications to admins; this should be either your   email address or a distribution list                                                                                                                     |
+
 

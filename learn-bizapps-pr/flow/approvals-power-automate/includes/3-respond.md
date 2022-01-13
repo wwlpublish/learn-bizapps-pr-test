@@ -7,7 +7,7 @@ The **Approvals** connector in Power Automate gives you the flexibility to appro
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Approval and Reject options for a purchase request.](../media/approvals-request.jpg)](../media/approvals-request.jpg#lightbox)
 
-After the approval has been made, the email body automatically updates, as shown in the following screenshot, thereby ensuring that you don't approve or reject multiple times.
+After the approval has been made, the email body automatically updates, as shown in the following screenshot. It updates to ensure that you don't approve or reject multiple times.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the email updated to approved status.](../media/after-approve.jpg)](../media/after-approve.jpg#lightbox)
@@ -24,9 +24,9 @@ Similar to the desktop Outlook client, you have the flexibility to add a comment
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Comments feature in the browser.](../media/respond-browser-comment.png)](../media/respond-browser-comment.png#lightbox)
 
-After the approval process has been completed, the email body automatically updates (as shown in the following screenshot), thereby ensuring that you don't approve or reject multiple times.
+After the approval process has been completed, the email body automatically updates, as shown in the following screenshot. It updates to ensure you don't approve or reject multiple times.
 
-Additionally, you can sign in to <https://flow.microsoft.com>, select the **Action items** drop-down menu, and select **Approvals**. The **Received** section will show the item that is pending your approval.
+Additionally, you can sign in to [https://flow.microsoft.com](https://flow.microsoft.com/?azure-portal=true), select the **Action items** drop-down menu, and select **Approvals**. The **Received** section will show the item that is pending your approval.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Approvals received with pending list.](../media/approve-power-automate.png)](../media/approve-power-automate.png#lightbox)

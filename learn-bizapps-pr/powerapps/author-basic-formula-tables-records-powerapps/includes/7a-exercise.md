@@ -105,7 +105,7 @@ In this exercise, you will practice using tables. You will create a collection, 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of new labels and text inputs.](../media/labels.png)](../media/labels.png#lightbox)
 
-1. Repeat the pervious 3 steps for **City** and **Population** now.
+1. Repeat the previous 3 steps for **City** and **Population** now.
 
 1. Select an option in the dropdown to see this in action.
 	

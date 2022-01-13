@@ -1,4 +1,4 @@
-Microsoft Power Platform Center of Excellence (COE) Starter Kit is a set of
+Microsoft Power Platform Center of Excellence (CoE) Starter Kit is a set of
 apps, flows, a custom connector, and a Power BI dashboard that allows
 organizations to govern their Microsoft Power Platform environments. The tool is
 freely available for download on
@@ -50,7 +50,7 @@ unknowingly breaking someone's app.
 
 ### Catalog tenant resources, visualize data in Power BI
 
-While Admin Analytics, which is found in Microsoft Power Platform Admin center,
+While Admin Analytics, which is found in the Microsoft Power Platform Admin center,
 provides some insight into the use of Power Apps and Power Automate,
 it does so within the context of an environment. This parameter makes
 developing a holistic picture of usage difficult. However,
@@ -126,7 +126,7 @@ application removed from the environment.
 
 ### App Catalog
 
-The App Catalog application acts as a catalog that helps with discoverability of apps.
+The App Catalog application acts as a catalog that helps with the discoverability of apps.
 Users can explore featured apps and browse apps by category. The app catalog can be a
 great entry point to launch apps for end users and makers can explore to see if an
 application already exists before they create another app that provides similar functionality.
