@@ -1,5 +1,3 @@
-Now that you have learned about the mechanics of sharing, publishing, and maintaining your app, you can learn about application lifecycle management (ALM).
-
 Previously, you learned that app development is not a process with a clear beginning and end but is more like a cycle. Apps are related to processes, which are constantly changing and improving. As new technology is released and best practices change, your apps will require more updates. This process is sometimes referred to as application lifecycle management (ALM). It begins with a concept or process and continues through the first iteration of planning and subsequent development. Then, the app goes through testing with a small group of users, deployment to remaining users, general maintenance before a change occurs, and then the process begins again.
 
 > [!div class="mx-imgBorder"]
