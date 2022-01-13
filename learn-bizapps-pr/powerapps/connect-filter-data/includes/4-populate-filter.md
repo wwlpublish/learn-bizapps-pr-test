@@ -216,12 +216,12 @@ Now, your gallery has the exact appearance that you want. However, you still nee
          IsBlank(Ddn_Destination_AllExpenses.Selected.Result),
          Filter(
              'Expense Reports',
-             Traveler.'Primary Email'=VarUser.Email
+             Traveler.'Primary Email' = VarUser.Email
          ),
          Filter(
             'Expense Reports',
-            Traveler.'Primary Email'=VarUser.Email,
-             'Trip Destination'=Ddn_Destination_AllExpenses.Selected.Result
+            Traveler.'Primary Email' = VarUser.Email,
+             'Trip Destination' = Ddn_Destination_AllExpenses.Selected.Result
          ) 
     )
     ```
