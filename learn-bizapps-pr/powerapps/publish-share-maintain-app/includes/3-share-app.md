@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWQy3A]
+
 After you've successfully published your app, it's time to share it so that users can begin testing the app.
 
 1. Go to [http://make.powerapps.com](http://make.powerapps.com/?azure-portal=true). Your app should be listed in the lower part of the screen. If you can't find your app, select **Apps** in the navigation menu.
