@@ -35,6 +35,9 @@ The Patient Access Portal and Patient Service Center modules focus on the **Enha
 
 The lab for this module will focus on the healthcare story of Casey Jensen.
 
+> [!div class="mx-imgBorder"]
+> [![Diagram of healthcare data model basics with patient access and service center highlighted.](../media/patient-access.png)](../media/patient-access.png#lightbox)
+
 Casey is an avid runner but has exercise-induced asthma and requires an albuterol inhaler to help her breathe while running. Casey has realized that her current albuterol inhaler is low on medication and decides that it's a good time to get a refill.
 
 In this lab, you'll first play the role of a Lamna Healthcare system administrator, where you'll set up the Patient Access portal and various tools in the Patient Service Center application. Next, you'll play the role of Casey, who will sign in to the portal, navigate the various options, interact with the Azure Health Bot, and escalate to a live agent in Patient Service Center to refill the medication.
