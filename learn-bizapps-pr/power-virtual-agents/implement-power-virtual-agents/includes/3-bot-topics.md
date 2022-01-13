@@ -1,6 +1,6 @@
 Topics are the no-code way to create discrete conversation paths that, when used together within a single bot, allow users to have a conversation with a bot that feels natural and flows appropriately.
 
-Topics are siloed in each bot and can't be shared, even if they're part of the same environment. You do have the option to copy an existing topic, which is automatically created and saved in the same bot and, by default, the **Status** is set to **Off**.
+Topics are siloed in each bot and can't be shared, even if they're part of the same environment. You have the option to copy an existing topic, which is automatically created and saved in the same bot and, by default, the **Status** is set to **Off**.
 
 > [!div class="mx-imgBorder"]
 > [![List of topics with the ellipsis button selected next to Lesson 1 - A simple topic, and with the Make a copy option highlighted.](../media/make-copy.png)](../media/make-copy.png#lightbox)
@@ -13,4 +13,4 @@ By default, each bot comes with 12 topics, of which only four can be turned off.
 > [!div class="mx-imgBorder"]
 > [![Twelve default topics showing that four are on, but can be switched off, while the remaining eight topics are always on.](../media/12-topics.png)](../media/12-topics.png#lightbox)
 
-Currently, the only way to export and import topics from one environment to another is by using solutions and migrating the entire chatbot. In **Solutions**, you can add your existing chatbot and it will include all its topics automatically.
+You can export and import topics from one environment to another by using solutions and migrating the entire chatbot. In **Solutions**, you can add your existing chatbot and it will include all its topics automatically.

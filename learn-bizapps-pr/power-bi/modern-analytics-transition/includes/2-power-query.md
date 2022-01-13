@@ -36,3 +36,6 @@ To launch the Power Query editor in Power BI Desktop, select the **Transform dat
 > [![Screenshot of Excel Power Query Editor on the left and Power BI Desktop Power Query Editor on the right.](../media/power-query-editors.png)](../media/power-query-editors.png#lightbox)
 
 The Power Query editors are nearly identical. You still have all the same functionality regardless of which application launched the editor.
+
+>[!NOTE]
+>Power Query also exists in the Power BI Service as **dataflows** to empower reuse of clean and transformed data for enterprise solutioning.

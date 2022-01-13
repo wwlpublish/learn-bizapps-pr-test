@@ -9,7 +9,7 @@ You can add fallback topics by selecting the **Settings** icon from the top navi
 
 ### Customize the system fallback topic
 
-After the system fallback topic has been enabled, you will see a new **Go to fallback topic** option on the screen. Selecting **Go to fallback topic** will take you to the topic. The newly created fallback topic will also be available under **System Topics** in the topic list.
+After the system fallback topic has been enabled, you will see a new **Go to fallback topic** option on the screen. Selecting **Go to fallback topic** will take you to the topic. The newly created fallback topic will also be available as a  **System Topic** in the topic list.
 
 Unlike other topics, the fallback topic does not have a trigger phrase; the unrecognized user input is what triggers the topic.
 

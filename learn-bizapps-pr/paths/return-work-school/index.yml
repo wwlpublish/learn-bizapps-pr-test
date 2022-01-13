@@ -21,10 +21,7 @@ roles:
 - business-user
 products:
 - power-platform
-- power-automate
-- industry-solutions 
-- return-to-school
-- return-to-workplace
+- power-apps
 modules:
 - learn-bizapps.introduction-return-workplace-solution 
 - learn-bizapps.return-school 

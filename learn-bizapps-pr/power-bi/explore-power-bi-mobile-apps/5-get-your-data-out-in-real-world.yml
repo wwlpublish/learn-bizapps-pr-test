@@ -1,0 +1,16 @@
+﻿### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-to-power-bi-mobile-apps.5-get-your-data-out-in-real-world
+title: Get your data when you're out in the real world
+metadata: 
+  title:  Get your data out in the real world
+  description: Learn how to access and filter data based on your geographic location or on QR codes and barcodes you scan. 
+  ms.date: 11/26/2021 
+  author: paulinbar
+  ms.author: painbar 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+   
+durationInMinutes: 12 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/5-get-your-data-out-in-real-world.md)]
