@@ -2,7 +2,7 @@ The **Configure run after** option and email notification is beneficial in helpi
 
 ## Use the Configure run after option to handle errors
 
-With the **Configure run after** option, you can identify which step failed and, if it did, bring that to your attention. The setting, **is successful,** in the notification is the default; however, you would use **has failed** setting to handle errors.
+With the **Configure run after** option, you can identify which step failed and, if it did, bring that to your attention. The setting, **is successful,** in the notification is the default; however, you would use the **has failed** setting to handle errors.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Configure run after option with "is successful" selected.](../media/configure-run-after.jpg)](../media/configure-run-after.jpg#lightbox)

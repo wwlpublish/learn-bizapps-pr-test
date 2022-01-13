@@ -28,7 +28,6 @@ products:
 - power-automate
 - power-platform
 - power-virtual-agents
-- ai-builder
 units: 
 - learn-bizapps.power-platform-architecture.1-introduction
 - learn-bizapps.power-platform-architecture.2-environments

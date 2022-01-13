@@ -34,8 +34,12 @@ To finish the exercise, complete the following tasks:
 
 To create a web template, follow these steps:
 
-1. Open [Dynamics 365 Home](https://home.dynamics.com/?azure-portal=true).
+1. Go to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and confirm you have selected the correct environment in the upper right.
+1. Select **Apps**.
 1. Select the Portals Management app.
+
+    > [![Screenshot of the portal management app highlighted.](../media/portal-management-app.png)](../media/portal-management-app.png#lightbox)
+
 1. Select **Web Templates**.
 1. Select **+ New**.
 1. Enter the following values:
@@ -47,11 +51,11 @@ To create a web template, follow these steps:
     ```twig
     {% fetchxml accounts %}
     <fetch>
-      <table name="account">
+      <entity name="account">
         <attribute name="name" />
         <attribute name="numberofemployees" />
         <attribute name="revenue" />
-      </table>
+      </entity>
     </fetch>
     {% endfetchxml %}
     [
@@ -113,7 +117,7 @@ To add table permissions, follow these steps:
     - **Name** - Account Directory
     - **Table Name** - Select account table
     - **Website** - Select your current website
-    - **Scope** - Select **Global**
+    - **Access Type** - Select **Global**
     - **Privileges** - Select **Read**
 1. Select **Save**.
 1. Scroll to the **Web Roles** subgrid.

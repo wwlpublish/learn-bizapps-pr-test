@@ -8,7 +8,7 @@ If you don't have a process yet, select **Process advisor > Create > Create a ne
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Create button within process advisor.](../media/create-new-process.png)](../media/create-new-process.png#lightbox)
 
-Name your process. Provide a description to help you and your users understand the process that is being analyzed. Select **Create**.
+Name your process. Provide a description to help you and your users understand the process that is being analyzed. The **Recordings** process is by default selected. Leave that as is and then select **Create**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Process name field and the Create button.](../media/name-create.png)](../media/name-create.png#lightbox)

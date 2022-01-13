@@ -1,6 +1,6 @@
 This module introduced many different Microsoft Power Platform concepts,
 including environments' Data Loss Prevention (DLP) policies, and reviewed
-many of the tools that are found in the Center of Excellence (COE) Starter Kit.
+many of the tools that are found in the Center of Excellence (CoE) Starter Kit.
 All these features and tools are key to organizations governing their
 environments.
 

@@ -28,8 +28,6 @@ in the following figure.
 -   **Data integration** - This section lets you create or add pre-defined
     connections and monitor these connections between Microsoft Dataverse and other data stores like Salesforce or SQL Server.
 
--   **Tenant** - This section lets you monitor licenses and quotas.
-
 ![Environment Listing](../media/list-environments.png)
 
 Take a few moments to explore the options by going to the admin center

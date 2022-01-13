@@ -4,12 +4,13 @@ title: Administer
 metadata:
   title: Administer
   description: "Administer"
-  ms.date: 08/05/2021
+  ms.date: 01/05/2022
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/7-administer.md)]

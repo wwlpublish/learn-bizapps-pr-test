@@ -81,6 +81,7 @@ Management believes that improved data collection and standardized processes wil
 
     -   Comments - Text Area
 
+
 1. When you are finished, select the **Save Table** button to save the new columns. Make sure that you select the **Save Table** button or none of the columns will be added.
 
 	> [!div class="mx-imgBorder"]
@@ -131,6 +132,9 @@ Now, you will add the columns as Steps in the first Stage in the **Customer Chec
 	> [![Screenshot of Edit Security Roles with the Data Step 2 settings highlighted.](../media/17-add-last-name-data-step.png)](../media/17-add-last-name-data-step.png#lightbox)    
 
 1.  Select the **Components** tab, and then drag more data steps and add columns that were added earlier under Stage One (Entry Date, Address, City, State, and so on).
+
+	> [!NOTE]
+	> If you do not see the new columns you just added in **Data Field** then click on **Update** which is available in the top menu next to **Validate** and **Save As**. If you still do not see the new columns, then close the flow and edit it again.
 
 1.  When you are done, Stage 1 should appear as shown in the following figure. If all appears correct, select the **Update** button in the ribbon.
 
