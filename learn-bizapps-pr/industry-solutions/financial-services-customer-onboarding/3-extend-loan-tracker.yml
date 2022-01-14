@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.financial-services-customer-onboarding.3-extend-loan-tracker 
+title: Exercise - Extend loan tracker
+metadata: 
+  title: Exercise - Extend loan tracker
+  description: Steps to extend the loan tracker.
+  ms.date: 01/14/2022 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-extend-loan-tracker.md)] 
