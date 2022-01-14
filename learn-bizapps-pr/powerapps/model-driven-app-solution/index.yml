@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.model-driven-app-solution 
 metadata: 
- title: Introduction to the model-driven app solution and business case
+ title: Transform a business process to a model-driven app
  description: This module will focus on introducing the student to the data and business scenario the solution will address. The Power Apps model-driven app will be used as the solution and the data will be stored in Dataverse.
- ms.date: 11/03/2021  
+ ms.date: 01/14/2022  
  author: jadaphillips  
  ms.author: jadaphillips  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Introduction to the model-driven app solution and business case
+title: Transform a business process to a model-driven app
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  One of the hardest aspects of becoming a maker in the Power Platform is knowing how to start with your company’s existing data and translate that into a model-driven app. This module will help users get into the mindset of a Power Apps maker and start thinking of a model-driven app as the solution. 
+  One of the hardest aspects of becoming a maker in the Power Platform is knowing how to start with your company’s existing data and translate that into a model-driven app. This module will help you get into the mindset of a Power Apps maker and start thinking of a model-driven app as the solution. 
 abstract: |  
     In this module, you will: 
     - Understand the data and solution being built with this learning path
     - Understand how to relate an Excel based solution to Power Apps model-driven apps
     - Gain insight into model-driven apps design decisions
-prerequisites: A basic understanding of Microsoft model-driven apps and Dataverse.
+prerequisites: A basic understanding of Microsoft model-driven apps and Dataverse
 iconUrl: /learn/achievements/model-driven-app-solution.svg  
 levels:  
 - beginner   
@@ -25,7 +25,8 @@ roles:
 - maker  
 products: 
 - power-platform
-- power-apps 
+- power-apps
+- common-data-service 
 units: 
 - learn-bizapps.model-driven-app-solution.1-introduction 
 - learn-bizapps.model-driven-app-solution.2-model-driven-app-solution 
