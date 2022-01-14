@@ -11,9 +11,6 @@ In this task, you'll learn how to create a trial tenant along with the required 
 1. Go to [https://trials.dynamics.com](https://trials.dynamics.com/?azure-portal=true), scroll down, and then select **Try for free** in the **Dynamics 365 Customer Service** card.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Microsoft Dynamics 365 free trial page on the Sales tab.](../media/trial.png)](../media/trial.png#lightbox)
-
-    > [!div class="mx-imgBorder"]
     > [![Screenshot of the Service tab with Dynamics 365 Customer Service selected.](../media/service.png)](../media/service.png#lightbox)
 
 1. A pop-up window will appear, asking you to enter your email to start your free trial. Leave the **email ID** field blank and then select **Start your free trial**.
