@@ -2,11 +2,11 @@ In this exercise, you'll embed the **Omnichannel Chat Widget** into the Power Ap
 
 **Customer self-service portal**: A customer self-service portal enables customers to access self-service knowledge, support resources, view the progress of their cases, and provide feedback.
 
-**Portal Management**: Application to help you get started with the advanced portal configuration. In this walk-through, you'll learn how to configure Chat widget in **Portal Management** app.
+**Portal Management**: Application to help you get started with the advanced portal configuration. In this walk-through, you'll learn how to configure the Chat widget in the **Portal Management** app.
 
-1. In <https://make.powerapps.com/>, open the **Portal Management** app.
+1. In [Power Apps](https://make.powerapps.com/?azure-portal=true), open the **Portal Management** app.
 
-    1. > [!div class="mx-imgBorder"]
+    > [!div class="mx-imgBorder"]
     > [![Screenshot of the Apps menu with the Portal Management option selected.](../media/71-portal-management.png)](../media/71-portal-management.png#lightbox)
 
 1. Select **Content Snippets** in the left navigation pane
@@ -46,4 +46,4 @@ In this exercise, you'll embed the **Omnichannel Chat Widget** into the Power Ap
 
 1. Select **Save and Close**.
 
-**Congratulations!** In this exercise, you have successfully updated the chat widget in the Power App Portal Content Snippets. With this configuration, the Health Bot will be visible on the Power Apps portal, for both the customer self-service template and the healthcare patient portal template.
+**Congratulations!** In this exercise, you've successfully updated the chat widget in the Power App Portal Content Snippets. With this configuration, the Health Bot will be visible on the Power Apps portal, for both the customer self-service template and the healthcare patient portal template.

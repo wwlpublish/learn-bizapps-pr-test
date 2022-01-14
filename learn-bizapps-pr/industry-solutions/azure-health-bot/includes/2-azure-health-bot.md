@@ -1,4 +1,4 @@
-In this exercise, you will do the following:
+In this exercise, you'll do the following:
 
 - Set up Health Bot from Azure portal
 
@@ -6,33 +6,33 @@ In this exercise, you will do the following:
 
 - Configure and enable Bot channel to obtain a Bot ID
 
-**Azure Health Bot** empowers developers in healthcare organizations to build and deploy AI-powered, compliant, conversational healthcare experiences at scale. It combines built-in medical database with natural language capabilities to understand clinical terminology and can be easily customized to support your organization\'s clinical use cases. The service ensures alignment with industry compliance requirements and is privacy protected to HIPAA standards. To learn more about Azure Health Bot, reference this [Azure Health Bot documentation](/azure/health-bot/).
+**Azure Health Bot** empowers developers in healthcare organizations to build and deploy AI-powered, compliant, conversational healthcare experiences at scale. It combines built-in medical database with natural language capabilities to understand clinical terminology and can be easily customized to support your organization's clinical use cases. The service ensures alignment with industry compliance requirements and is privacy protected to HIPAA standards. To learn more about Azure Health Bot, reference this [Azure Health Bot documentation](/azure/health-bot/).
 
-Task 1: Install Azure Health Bot in Azure Subscription
+## Task 1: Install Azure Health Bot in Azure subscription
 
-1. While logged in to your Microsoft 365 tenant, open a new tab in your internet browser incognito or in-private mode and navigate to Azure portal at <https://portal.azure.com/>
+1. While logged into your Microsoft 365 tenant, open a new tab in your internet browser incognito or in-private mode and navigate to Azure portal at [https://portal.azure.com](https://portal.azure.com/?azure-portal=true)
 
-1. Search for **Azure Health Bot** in the top search bar and **select** from the search results.
+1. Search for **Azure Health Bot** in the top search bar and select it from the search results.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Azure Health Bot top search bar.](../media/2-azure-health-bot.png)](../media/2-azure-health-bot.png#lightbox)
 
-1. Select **Create** button to create a new Azure Health Bot instance.
+1. Select the **Create** button to create a new Azure Health Bot instance.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Azure Health Bot instance with the create button highlighted.](../media/3-create-button.png)](../media/3-create-button.png#lightbox)
 
-1. You will be redirected to the Azure Health Bot page. Enter the following information:
+1. You'll be redirected to the Azure Health Bot page. Enter the following information:
 
-    a.  **Subscription**: Choose your Azure Subscription
+    1. **Subscription**: Choose your Azure Subscription
 
-    b.  **Resource Group**: Use the resource group you created in environment preparation
+    1. **Resource Group**: Use the resource group you created in environment preparation
 
-    c.  **Name**: healthbot-iad (although you may choose any name)
+    1. **Name**: healthbot-iad (although you may choose any name)
 
-    d.  **Region**: Choose the region closest to you
+    1. **Region**: Choose the region closest to you
 
-    e.  **Plan**: Free (F0)
+    1. **Plan**: Free (F0)
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Azure Health Bot page Basics tab and associated fields.](../media/4-azure-basics.png)](../media/4-azure-basics.png#lightbox)
@@ -42,12 +42,12 @@ Task 1: Install Azure Health Bot in Azure Subscription
 1. On the Review and create page, verify your details are correct as Azure validates your Health Bot. When the create button is enabled after validation passes, select **Create**.
 
     > [!NOTE]
-    > It will take few seconds to run the backend process before the Create button is enabled.*
+    > It will take few seconds to run the backend process before the Create button is enabled.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Axure Health Bot review and create terms and create button.](../media/5-review-create.png)](../media/5-review-create.png#lightbox)
+    > [![Screenshot of the Azure Health Bot review and create terms and create button.](../media/5-review-create.png)](../media/5-review-create.png#lightbox)
 
-1. You will be redirected to the **Deployment** page for your new Azure Health Bot.
+1. You'll be redirected to the **Deployment** page for your new Azure Health Bot.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Azure Health Bot Deployment page](../media/6-deployment-page.png)](../media/6-deployment-page.png#lightbox)
@@ -57,7 +57,7 @@ Task 1: Install Azure Health Bot in Azure Subscription
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Azure Health Bot Overview page and Go to resource button.](../media/6-deployment-page.png)](../media/6-deployment-page.png#lightbox)
 
-1. You will be redirected to the **Resource** page for your new Azure Health Bot. Select the **Management portal** link on the right of the Essential section to open your Azure Health Bot instance configuration page.
+1. You'll be redirected to the **Resource** page for your new Azure Health Bot. Select the **Management portal** link on the right of the Essential section to open your Azure Health Bot instance configuration page.
 
     > [!NOTE]
     > Please copy this Management portal link and store it to access the Health Bot later.
@@ -65,14 +65,14 @@ Task 1: Install Azure Health Bot in Azure Subscription
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Resource page Management portal link on the right of the Essentials section.](../media/11-management-portal.png)](../media/11-management-portal.png#lightbox)
 
-1. You will be navigated to your new Azure Health Bot instance homepage.
+1. Your new Azure Health Bot instance homepage appears.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Azure Health Bot welcome page.](../media/12-welcome.png)](../media/12-welcome.png#lightbox)
 
 **Congratulations!** You've successfully created a new Health Bot instance in your Azure tenant.
 
-## Task 2: Update Azure Health Bot Settings to Enable Dynamics 365 Integration
+## Task 2: Update Azure Health Bot settings to enable Dynamics 365 integration
 
 1. On the Azure Health Bot homepage, **expand** the side navigation bar to see the sitemap labels.
 
@@ -87,14 +87,14 @@ Task 1: Install Azure Health Bot in Azure Subscription
 1. Select **Configuration** > **Conversation** on the navigation bar.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Configuration left navigation menu with the Conversation menu option highlighted.](../media/15-configuration-conversation.png)](../media/15-configuration-conversation.png#lightbox)
+    > ![Screenshot of the Configuration left navigation menu with the Conversation menu option highlighted.](../media/15-configuration-conversation.png)
 
-1. You'll be landed in the **Interactions** tab.
+1. The **Interactions** tab appears.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Azure Health Bot Interactions page with Global defaults information displayed.](../media/6-interactions.png)](../media/6-interactions.png#lightbox)
 
-1. Select **Human Handoff** tab in the Conversation settings.
+1. Select the **Human Handoff** tab in the Conversation settings.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Human Handoff page including fields for End user timeout, Agent timeout and Waiting message.](../media/17-human-handoff.png)](../media/17-human-handoff.png#lightbox)
@@ -114,19 +114,19 @@ Task 1: Install Azure Health Bot in Azure Subscription
 1. Navigate to **Integration** > **Channels.**
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Integration menu with the Channel option highlighted.](../media/20-integration-channels.png)](../media/20-integration-channels.png#lightbox)
+    > ![Screenshot of the Integration menu with the Channel option highlighted.](../media/20-integration-channels.png)
 
-1. In the Channels list, select the toggle to **enable Microsoft Teams.**
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Channels list including the Microsoft Tams option.](../media/21-teams.png)](../media/21-teams.png#lightbox)
-
-1. This will bring out a side window with your **Bot Id** information. **Copy and store** the BotId for later to use when creating the Dynamics 365 Application User.
+1. In the Channels list, select the toggle to enable **Microsoft Teams.**
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Microsoft Teams Channel window with Bot ID and Save button.](../media/22-bot-identification.png)](../media/22-bot-identification.png#lightbox)
+    > [![Screenshot of the Channels list including the Microsoft Teams option.](../media/21-teams.png)](../media/21-teams.png#lightbox)
 
-1. Select **Save**. This should enable Teams channel and your Microsoft Teams toggle should reflect accordingly.
+1. This will bring out a side window with your **Bot ID** information. **Copy** and store the **BotId** value for later to use when creating the Dynamics 365 Application User.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Microsoft Teams Channel window with Bot ID and Save button.](../media/22-bot-identification.png)
+
+1. Select **Save** to enable the Teams channel and your Microsoft Teams toggle should reflect accordingly.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Teams Channel with the Microsoft Teams option toggled on.](../media/23-teams-toggle.png)](../media/23-teams-toggle.png#lightbox)
@@ -135,16 +135,16 @@ Task 1: Install Azure Health Bot in Azure Subscription
 
 ## Task 3: Obtain Azure Application ID
 
-In this task, you will be using the Azure Application ID you created in your Azure tenant during environment preparation. You may have called it "**MCH Application Id**". Registering this ID established a trusted relationship between your Dynamics 365 app and the Microsoft identity platform.
+In this task, you'll be using the Azure Application ID you created in your Azure tenant during environment preparation. You may have called it "**MCH Application ID**". Registering this ID established a trusted relationship between your Dynamics 365 app and the Microsoft identity platform.
 
-We will now obtain the client ID and store it to later create a Dynamics 365 Application User to bridge the authentication between Azure Health Bot and Power Apps.
+We'll now obtain the client ID and store it to later create a Dynamics 365 Application User to bridge the authentication between Azure Health Bot and Power Apps.
 
 1. Navigate back to the Azure portal and search for **App Registrations** in the Search box.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Azure Portal Search box with App Registrations entered.](../media/24-app-registrations.png)](../media/24-app-registrations.png#lightbox)
 
-1. You will be landed in the App registrations homepage on the **Owned applications** tab.
+1. The App registrations homepage opens to the **Owned applications** tab.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Owned applications tab on the App registrations homepage.](../media/25-owned-applications.png)](../media/25-owned-applications.png#lightbox)
@@ -152,9 +152,9 @@ We will now obtain the client ID and store it to later create a Dynamics 365 App
 1. Select the **All applications** tab.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the All applications tab on the App registrations homepage.](../media/26-all-applications.png)](../media/26-all-applications.png#lightbox)
+    > ![Screenshot of the All applications tab on the App registrations homepage.](../media/26-all-applications.png)
 
-1. To **search** for our Application ID, type "**MCH Application Id**" in the Search box.
+1. To **search** for our Application ID, type "**MCH Application ID**" in the Search box.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of MCH Application ID entered in the App registrations search box.](../media/27-mch-application.png)](../media/27-mch-application.png#lightbox)
