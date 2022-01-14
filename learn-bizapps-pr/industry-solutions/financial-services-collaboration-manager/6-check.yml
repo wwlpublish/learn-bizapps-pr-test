@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-services-collaboration-manager.6-check
+title: Check your knowledge
+metadata:
+ title: Check your knowledge
+ description: Answer the following questions to see what you've learned.
+ ms.date: 01/14/2022
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-mscloud-financial
+durationInMinutes: 8
+quiz:
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: Which of the following options is NOT a key capability of Collaboration Manager for Loans?
+    choices:
+    - content: Retail Banking Sample Portal
+      isCorrect: true
+      explanation: Correct. The Retail Banking Sample Portal is included as part of the Customer Onboarding solution in Microsoft Cloud for Financial Services.
+    - content: Loan processing business process flow
+      isCorrect: false
+      explanation: Incorrect. The Retail Banking Sample Portal is included as part of the Customer Onboarding solution in Microsoft Cloud for Financial Services.
+    - content: Microsoft Planner tasks
+      isCorrect: false
+      explanation: Incorrect. The Retail Banking Sample Portal is included as part of the Customer Onboarding solution in Microsoft Cloud for Financial Services.
+    - content: Meetings
+      isCorrect: false
+      explanation: Incorrect. The Retail Banking Sample Portal is included as part of the Customer Onboarding solution in Microsoft Cloud for Financial Services.
+  - content: What kind of app is Collaboration Manager for Loans?
+    choices:
+    - content: Canvas app
+      isCorrect: false
+      explanation: Incorrect. Collaboration Manager is a model-driven application for Dynamics 365.
+    - content: Model-driven app
+      isCorrect: true
+      explanation: Correct. Collaboration Manager is a model-driven application for Dynamics 365.
+    - content: Desktop app
+      isCorrect: false
+      explanation: Incorrect. Collaboration Manager is a model-driven application for Dynamics 365.
+    - content: Teams app
+      isCorrect: false
+      explanation: Incorrect. Collaboration Manager is a model-driven application for Dynamics 365.
+  - content: Which of the following allows you to keep track of a loan as it progresses from origination to closing?
+    choices:
+    - content: Loan Application Process
+      isCorrect: false
+      explanation: Incorrect. Business Process Flows are used to visually track the status and stage of a record in Dynamics 365.
+    - content: Power Apps flow
+      isCorrect: false
+      explanation: Incorrect. Business Process Flows are used to visually track the status and stage of a record in Dynamics 365.
+    - content: Business Process flow
+      isCorrect: true
+      explanation: Correct. Business Process Flows are used to visually track the status and stage of a record in Dynamics 365.
+    - content: Dynamics 365 Process
+      isCorrect: false
+      explanation: Incorrect. Business Process Flows are used to visually track the status and stage of a record in Dynamics 365.
+  - content: You can schedule meetings with customer and team members by using what application?
+    choices:
+    - content: Microsoft Planner
+      isCorrect: false
+      explanation: Incorrect. Microsoft Teams allows for meetings to be scheduled with both customers and team members.
+    - content: Microsoft Teams
+      isCorrect: true
+      explanation: Correct. Microsoft Teams allows for meetings to be scheduled with both customers and team members.
+    - content: Microsoft Flow
+      isCorrect: false
+      explanation: Incorrect. Microsoft Teams allows for meetings to be scheduled with both customers and team members.
+    - content: Microsoft Schedule Master
+      isCorrect: false
+      explanation: Incorrect. Microsoft Teams allows for meetings to be scheduled with both customers and team members.

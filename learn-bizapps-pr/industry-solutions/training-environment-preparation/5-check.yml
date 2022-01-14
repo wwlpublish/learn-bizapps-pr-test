@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-training-environment-preparation.5-check
+title: Check your knowledge
+metadata:
+ title: Check your knowledge
+ description: Answer the following questions to see what you've learned.
+ ms.date: 01/14/2022
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-industry-solutions
+durationInMinutes: 8
+quiz:
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: Which of the following licenses is not required for Microsoft Cloud for Financial Services?
+    choices:
+    - content: Dynamics 365 Marketing
+      isCorrect: false
+      explanation: Incorrect. Dynamics 365 Marketing is required for Microsoft Cloud for Financial Services.
+    - content: Dynamics 365 Customer Service
+      isCorrect: false
+      explanation: Incorrect. Dynamics 365 Customer Service is required for Microsoft Cloud for Financial Services.
+    - content: Dynamics 365 Sales
+      isCorrect: true
+      explanation: Correct. Dynamics 365 Sales is not required for Microsoft Cloud for Financial Services.
+    - content: Dynamics 365 Field Service
+      isCorrect: false
+      explanation: Incorrect. Dynamics 365 Field Service is required for Microsoft Cloud for Financial Services.
+  - content: What type of Power Apps portal is deployed for Microsoft Cloud for Healthcare?
+    choices:
+    - content: Starter portal
+      isCorrect: true
+      explanation: Correct. The Starter portal is deployed for Microsoft Cloud for Healthcare.
+    - content: Community portal
+      isCorrect: false
+      explanation: Incorrect. The Community portal isn't deployed for Microsoft Cloud for Healthcare.
+    - content: Partner portal
+      isCorrect: false
+      explanation: Incorrect. The Partner portal isn't deployed for Microsoft Cloud for Healthcare.
+    - content: Customer portal
+      isCorrect: false
+      explanation: Incorrect. The Customer portal isn't deployed for Microsoft Cloud for Healthcare.
+  - content: Where do you go to deploy Microsoft Cloud for Financial Services?
+    choices:
+    - content: Power Platform admin center
+      isCorrect: false
+      explanation: Incorrect. You don't go to Power Platform admin center to deploy Microsoft Cloud for Financial Services.
+    - content: Power Apps maker portal
+      isCorrect: false
+      explanation: Incorrect. You don't go to Power Apps maker portal to deploy Microsoft Cloud for Financial Services.
+    - content: Microsoft 365 admin center
+      isCorrect: false
+      explanation: Incorrect. You don't go to Microsoft admin center to deploy Microsoft Cloud for Financial Services.
+    - content: Microsoft Solution Center
+      isCorrect: true
+      explanation: Correct. You go to Microsoft Solution Center to deploy Microsoft Cloud for Financial Services.
+  - content: Which of the following licenses is required to deploy Banking customer engagement in Microsoft Cloud for Financial Services?
+    choices:
+    - content: Microsoft Azure
+      isCorrect: false
+      explanation: Incorrect. Microsoft Azure isn't required to deploy Banking customer engagement in Microsoft Cloud for Financial Services.
+    - content: Microsoft Teams
+      isCorrect: false
+      explanation: Incorrect. Microsoft Teams isn't required to deploy Banking customer engagement in Microsoft Cloud for Financial Services.
+    - content: Dynamics 365 Customer Service
+      isCorrect: true
+      explanation: Correct. Dynamics 365 Field Service is required to deploy Banking customer engagement in Microsoft Cloud for Financial Services.
+    - content: Dynamics 365 Field Service
+      isCorrect: false
+      explanation: Incorrect. Dynamics 365 Field Service isn't required to deploy Banking customer engagement in Microsoft Cloud for Financial Services.

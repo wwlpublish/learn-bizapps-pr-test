@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-services-data-model.2-common-data-model
+title: Common Data Model schema
+metadata:
+  title: Common Data Model schema
+  description: Learn about the standardized, extensible data schemas published by Microsoft.
+  ms.date: 01/14/2022
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-financial-services
+durationInMinutes: 2
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/2-common-data-model.md)]
