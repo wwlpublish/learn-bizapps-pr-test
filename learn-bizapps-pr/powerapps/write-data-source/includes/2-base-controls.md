@@ -165,7 +165,7 @@ One benefit of building out later screens in your app is that you can copy contr
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Power Apps with the gallery showing empty items after the labels and right arrows are deleted.](../media/empty-gallery.png)](../media/empty-gallery.png#lightbox)
 
-   You still don't have a data source attached to the gallery. You'll take care of that later. For now, remember to select the first item in the gallery and then add the following controls:
+   You still don't have a data source attached to the gallery. You'll complete that task later. For now, remember to select the first item in the gallery and then add the following controls:
 
    - **Text input** control
      - **Default**: ""
