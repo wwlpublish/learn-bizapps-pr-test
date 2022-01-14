@@ -103,10 +103,10 @@ In this task, you will create a new group, edit its group members and group fina
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the group holdings.](../media/group-holdings.png)](../media/group-holdings.png#lightbox)
 
-   The changes will display on the **Connections** tab in the **Group financial holdings** list.
+    The changes will display on the **Connections** tab in the **Group financial holdings** list.
 
-   > [!div class="mx-imgBorder"]
-   > [![Screenshot of the Connections tab in the Group financial holdings list.](../media/holdings-list.png)](../media/holdings-list.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the Connections tab in the Group financial holdings list.](../media/holdings-list.png)](../media/holdings-list.png#lightbox)
 
 1. Now that you have added and edited a new group, you can delete it. Select the **Delete** icon in the **Custom Group** area.
 
@@ -118,10 +118,10 @@ In this task, you will create a new group, edit its group members and group fina
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Delte group dialog to confirm deletion.](../media/delete-confirmation.png)](../media/delete-confirmation.png#lightbox)
 
-The **Connections** tab will remove the custom group and reset to the previous experience.
+   The **Connections** tab will remove the custom group and reset to the previous experience.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the custom group removed from the Connections tab.](../media/group-removed.png)](../media/group-removed.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the custom group removed from the Connections tab.](../media/group-removed.png)](../media/group-removed.png#lightbox)
 
 ## Task 3: Add, edit, and delete a relationship
 
