@@ -3,7 +3,7 @@ uid: learn-bizapps.add-business-process-flow
 metadata: 
  title: Add a business process flow inside the model-driven app
  description: This module will teach users how to add a simple business process flow to a model-driven app.
- ms.date: 11/03/2021  
+ ms.date: 01/14/2022  
  author: jadaphillips  
  ms.author: jadaphillips  
  ms.topic: interactive-tutorial  
@@ -11,15 +11,13 @@ metadata:
 title: Add a business process flow inside the model-driven app
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  In this module we will learn how to add a business process flow to our app to provide users with guided path throughout the app. 
+  Learn how to add a business process flow to our app to provide users with guided path throughout the app. 
 abstract: |  
     In this module, you will: 
     - Create a simple business process flow
     - Add a business process flow to a model-driven app
     - Edit a business process flow
-prerequisites: | 
-    - A basic understanding of Microsoft model-driven apps, Dataverse and Power Automate.
-    - Completion of prior modules and exercises in this Learning Path is required. Each module in this Learning Path builds from the previous, to complete the exercises in this module please ensure that you have successfully completed all of the previous modules and exercises in this Learning Path.
+prerequisites: Basic understanding of Microsoft model-driven apps, Dataverse and Power Automate
 iconUrl: /learn/achievements/add-business-process-flow.svg  
 levels:  
 - beginner   
@@ -27,7 +25,9 @@ roles:
 - maker  
 products: 
 - power-platform
-- power-apps 
+- power-apps
+- common-data-service
+- power-automate 
 units: 
 - learn-bizapps.add-business-process-flow.1-introduction 
 - learn-bizapps.add-business-process-flow.2-exercise 

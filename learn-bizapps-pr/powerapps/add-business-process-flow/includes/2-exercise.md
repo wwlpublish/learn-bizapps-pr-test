@@ -1,3 +1,5 @@
+>If you have not completed the previous modules within this learning path, download the [packaging files](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/business-process-flow). The files contain the completed work on the Accident Tracking app thus far.
+
 1. To get started, navigate to [Power Apps](https://make.powerapps.com/?azure-portal=true) and sign in with your Microsoft credentials.
 
 1. Select **Flows**.
