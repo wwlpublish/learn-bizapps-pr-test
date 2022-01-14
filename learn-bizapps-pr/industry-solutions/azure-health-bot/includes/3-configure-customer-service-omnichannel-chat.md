@@ -294,4 +294,4 @@ In this task, we'll set up basic chat routing. This lets users chat with a bot u
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the sample Patient Portal Chat Widget General Settings tab with the Code snippet section highlighted.](../media/70-widget-code-snippet.png)](../media/70-widget-code-snippet.png#lightbox)
 
-> **Congratulations!** In this exercise, you have successfully configured Customer Service Omnichannel Live chat by creating the necessary Users, Queues, Work Streams, Context Variables, Routing Rules, and Chat Widget. These all work together and allow patients to chat with a virtual health bot with the option to escalate up to a human agent if needed.
+**Congratulations!** In this exercise, you have successfully configured Customer Service Omnichannel Live chat by creating the necessary Users, Queues, Work Streams, Context Variables, Routing Rules, and Chat Widget. These all work together and allow patients to chat with a virtual health bot with the option to escalate up to a human agent if needed.
