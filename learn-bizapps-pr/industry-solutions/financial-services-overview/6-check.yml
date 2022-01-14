@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.financial-services-overview.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 01/14/2022 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-industry-solutions 
+durationInMinutes: 8 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What is the purpose of the Unified customer profile capability?
+    choices: 
+    - content: Empower employees with meaningful collaboration.
+      isCorrect: false
+      explanation: Incorrect. Unified customer profile provides a comprehensive view of a customer’s financial situation to help banks take advantage of cross-sell/up-sell opportunities, helping to increase a customer’s lifetime value and loyalty.
+    - content: Gain a comprehensive view of the customer’s financial situation.
+      isCorrect: true 
+      explanation: Correct. Unified customer profile provides a comprehensive view of a customer’s financial situation to help banks take advantage of cross-sell/up-sell opportunities, helping to increase a customer’s lifetime value and loyalty.
+    - content: Maintain a comprehensive compliance posture.
+      isCorrect: false 
+      explanation: Incorrect. Unified customer profile provides a comprehensive view of a customer’s financial situation to help banks take advantage of cross-sell/up-sell opportunities, helping to increase a customer’s lifetime value and loyalty.
+    - content: No such capability is included in Microsoft Cloud for Financial Services.
+      isCorrect: false 
+      explanation: Incorrect. Unified customer profile provides a comprehensive view of a customer’s financial situation to help banks take advantage of cross-sell/up-sell opportunities, helping to increase a customer’s lifetime value and loyalty.
+  - content: What are the potential methods of extending and integrating Microsoft Cloud for Financial Services? 
+    choices: 
+    - content: Microsoft Cloud for Financial Services has limited extensibility and integration options.  
+      isCorrect: false 
+      explanation: Incorrect. Service integrators, independent software vendors, and customers can extend Microsoft Cloud for Financial Services at the data model level, at the application layer, and by using APIs and integrations.  
+    - content: Extensibility and integration can be achieved by extending the industry data model and integrating their bespoke solutions with Microsoft Cloud for Financial Services. 
+      isCorrect: True 
+      explanation: Correct. Service integrators, independent software vendors, and customers can extend Microsoft Cloud for Financial Services at the data model level, at the application layer, and by using APIs and integrations.  
+    - content: Financial institutions can integrate with Microsoft Cloud for Financial Services by using their integration technologies.  
+      isCorrect: false 
+      explanation: Incorrect. Service integrators, independent software vendors, and customers can extend Microsoft Cloud for Financial Services at the data model level, at the application layer, and by using APIs and integrations.  
+    - content: Only service integrators can set up and extend Microsoft Cloud for Financial Services. 
+      isCorrect: false 
+      explanation: Incorrect. Service integrators, independent software vendors, and customers can extend Microsoft Cloud for Financial Services at the data model level, at the application layer, and by using APIs and integrations.
+  - content: How are customers and partners able to achieve data interoperability with Microsoft Cloud for Financial Services?
+    choices: 
+    - content: By using integration services such as Microsoft Azure Logic Apps
+      isCorrect: false
+      explanation: Incorrect. Data model and connectors form the foundational elements of Microsoft Cloud for Financial Services. These elements are tailored to the financial services industry, thus enabling interoperable connections between a financial institution’s banking systems and Microsoft Cloud for Financial Services. 
+    - content: By using prebuilt connectors and the retail banking data model  
+      isCorrect: true 
+      explanation: Correct. Data model and connectors form the foundational elements of Microsoft Cloud for Financial Services. These elements are tailored to the financial services industry, thus enabling interoperable connections between a financial institution’s banking systems and Microsoft Cloud for Financial Services.
+    - content: By using Power Apps flows
+      isCorrect: false 
+      explanation: Incorrect. Data model and connectors form the foundational elements of Microsoft Cloud for Financial Services. These elements are tailored to the financial services industry, thus enabling interoperable connections between a financial institution’s banking systems and Microsoft Cloud for Financial Services. 
+    - content: By using business process flows
+      isCorrect: false 
+      explanation: Incorrect. Data model and connectors form the foundational elements of Microsoft Cloud for Financial Services. These elements are tailored to the financial services industry, thus enabling interoperable connections between a financial institution’s banking systems and Microsoft Cloud for Financial Services.
+  - content: Currently, Microsoft Cloud for Financial Services is focused on which specific financial industry subvertical?  
+    choices: 
+    - content: Commercial banking
+      isCorrect: false
+      explanation: Incorrect. The current release of Microsoft Cloud for Financial Services focuses on retail banking.
+    - content: Retail banking
+      isCorrect: true 
+      explanation: Correct. The current release of Microsoft Cloud for Financial Services focuses on retail banking.
+    - content: Insurance
+      isCorrect: false
+      explanation: Incorrect. The current release of Microsoft Cloud for Financial Services focuses on retail banking.
+    - content: It can support any financial industry subvertical
+      isCorrect: false 
+      explanation: Incorrect. The current release of Microsoft Cloud for Financial Services focuses on retail banking.

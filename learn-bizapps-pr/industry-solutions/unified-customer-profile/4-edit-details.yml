@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.unified-customer-profile.4-edit-details 
+title: Exercise - Edit details in Unified customer profile
+metadata: 
+  title: Exercise - Edit details in Unified customer profile
+  description: Learn how to edit details in Unified customer profile.
+  ms.date: 01/14/2022 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-edit-details.md)] 
