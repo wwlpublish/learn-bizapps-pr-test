@@ -61,7 +61,7 @@ Now that your app is functioning well, it's time to start setting up the app log
 
 ## Configure app logic
 
-In this scenario, and in many real-world scenarios, users will need the functionality to add new items and edit existing items. Additionally, you will want to include the functionality for users to save as draft. This functionality allows them work on an item over multiple days or sessions before they submit for approval. 
+In this scenario, and in many real-world scenarios, users will need the functionality to add new items and edit existing items. Additionally, you will want to include the functionality for users to save as draft. This functionality allows them to work on an item over multiple days or sessions before they submit for approval. 
 
 1. On the **Scr_EditExpense** screen, select **Btn_SaveAsDraft_EditExpense** and then change the **OnSelect** property as follows:
 
