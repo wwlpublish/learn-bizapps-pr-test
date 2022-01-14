@@ -1,6 +1,4 @@
-For this module's scenario, you are an employee of Contoso, an electronic manufacturing company.
-
-Contoso has been using a shared Microsoft Excel workbook to track employee accidents at its various locations. The workbook contains a table in which location managers record data related to employee's accidents. Recently they've been having problems with data being accidentally overwritten by multiple users of the workbook, data inconsistencies in some of the fields, and overall performance issues with the workbook. Your manager has asked you to replace the workbook with a better solution, which will eliminate the issues being experienced.
+For this module's scenario, you are an employee of Contoso, an electronic manufacturing company. Contoso has been using a shared Microsoft Excel workbook to track employee accidents at its various locations. The workbook contains a table in which location managers record data related to employee's accidents. Recently they've been having problems with data being accidentally overwritten by multiple users of the workbook, data inconsistencies in some of the fields, and overall performance issues with the workbook. Your manager has asked you to replace the workbook with a better solution, which will eliminate the issues being experienced.
 
 The requirements of the solution include the following:
 
