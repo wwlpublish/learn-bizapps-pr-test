@@ -34,7 +34,7 @@ quiz:
       explanation: Incorrect. Unlike the Microsoft Financial Services Accelerator, the Microsoft Cloud for Financial Services is only available as a part of a Licensed SKU. 
     - content: "False"
       isCorrect: true
-      explanation: Incorrect. Unlike the Microsoft Financial Services Accelerator, the Microsoft Cloud for Financial Services is only available as a part of a Licensed SKU. 
+      explanation: Correct. Unlike the Microsoft Financial Services Accelerator, the Microsoft Cloud for Financial Services is only available as a part of a Licensed SKU. 
   - content: What are the options for extending the Microsoft Cloud for Financial Services Data Model? 
     choices:
     - content: The Tables can be extended just like any other Dataverse Table.
