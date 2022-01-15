@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.financial-services-customer-onboarding.2-retail-banking 
+title: Exercise - Configure Retail Banking Portal
+metadata: 
+  title: Exercise - Configure Retail Banking Portal
+  description: Steps to configure the Retail Banking Portal.
+  ms.date: 01/14/2022 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-retail-banking.md)] 

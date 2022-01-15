@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.financial-services-customer-onboarding.1-introduction 
+title: Introduction
+metadata: 
+  title: Introduction
+  description: Introduction to customer onboarding.
+  ms.date: 01/14/2022 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 
