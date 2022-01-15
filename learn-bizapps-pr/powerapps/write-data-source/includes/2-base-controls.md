@@ -1,35 +1,35 @@
-As an app developer, you'll probably also design the app. Although getting into design is outside the scope of this learning path, you'll notice a couple of design elements that may help you in future builds.
+As an app developer, you'll likely also design the app. Though design is outside the scope of this learning path, you might notice a couple of design elements that might help you in future builds.
 
-One of the easiest ways to enhance your app's User Interface is by not overcrowding your screens with too many controls. Think about the end user, how they're going to navigate from screen-to-screen, enter data, view data, and so on. How you design and lay out app screens can have as much effect as a poorly functioning app. Users may be less likely to use the app if there's too much going on and it's not intuitive.
+A simple way to enhance your app's user interface (UI) is by not overcrowding your screens with too many controls. Consider the end user and how they will navigate from screen-to-screen, enter data, view data, and so on. How you design app screens can have as much effect as a poorly functioning app. Users might be less likely to use the app if it's overly complicated and not intuitive.
 
-So when building your app screens, make sure to use control properties like spacing, alignment, fill, and color. Use consistent headers and button placement. For example, in this scenario we're implementing various font colors and font fills, which help break up the screen nicely without making it look too overwhelming. Notice that the header is one color, the parent information another, the expense details another, and the main controls yet another color. If we eliminated these colors and left the groups of controls with the same background, it would be much less organized and more confusing to the user.
+Therefore, when building your app screens, make sure to use control properties like spacing, alignment, fill, and color. Also, you should use consistent headers and button placement. For example, in this scenario, you're implementing various font colors and font fills, which will help divide the screen pleasantly without it appearing too overwhelming. Notice that the header is one color, the parent information another color, the expense details another, and the main controls yet another color. If you eliminated these colors and left the groups of controls with the same background, it would appear less organized and be more confusing to the user.
 
 ## Adjust controls and properties
 
-One of the benefits of building out later screens in your app is that you can copy controls from previous screens.
+One benefit of building out later screens in your app is that you can copy controls from previous screens.
 
-1. On the **Tree view**, select **Scr_AllExpenses** and hold down the **Ctrl** key so you can select the following controls simultaneously: **Lbl_Header_AllExpenses**, **Icn_Back_AllExpenses**, **Lbl_TripDestination_AllExpenses**.
+1. On the **Tree view**, select **Scr_AllExpenses** and then hold down the **Ctrl** key so that you can select the following controls simultaneously: **Lbl_Header_AllExpenses**, **Icn_Back_AllExpenses**, **Lbl_TripDestination_AllExpenses**.
 
-1. Once you've selected all of the controls, press **Ctrl + C** to copy the controls and then visit **Scr_EditExpense** and press **Ctrl + V** to paste the controls.
+1. After you've selected the controls, press the **Ctrl + C** keyboard shortcut to copy the controls. Go to **Scr_EditExpense** and press the **Ctrl + V** keys to paste the controls.
 
 1. Rename your newly copied controls with the correct screen name at the end (EditExpense).
 
-1. Update the following properties of your header label as well, to these values:
+1. Update the following properties of your header label to these values:
 
-    - **Text**: "Expense Report for " & VarUser.FullName
-    - **PaddingLeft**: 64
-    - **PaddingRight**: 64
+    - **Text** - "Expense Report for " & VarUser.FullName
+    - **PaddingLeft** - 64
+    - **PaddingRight** - 64
 
-1. Finally, change the **Height** property of your trip destination label to **281**.
+1. Change the **Height** property of your trip destination label to **281**.
 
-   Your screen should look like this:
+   Your screen should resemble the following screenshot.
 
       > [!div class="mx-imgBorder"]
-      > [![Screenshot of Power Apps Insert view with the label selected.](../media/label.png)](../media/label.png#lightbox)
+      > [![Screenshot of the Insert view in Microsoft Power Apps, with the label selected.](../media/label.png)](../media/label.png#lightbox)
 
-   There are many controls needed for this page. Below is a list of controls to add and the properties that need to be changed. This may take a while, but it's important to have all the fields for which we need to write data. If you can't find a control, it's typically in the Input drop down of the Insert tab.
+   Many controls are needed for this page. The following list shows the controls that you can add and the properties that you need to change. This process might take a while, but it's important to have all fields for which you need to write data. If you can't find a control, it's typically in the **Input** dropdown menu of the **Insert** tab.
 
-1. Add the following controls and properties, as seen in the tables below:
+1. Add the following controls and properties:
 
    - **Text input** control
      - **Default**: ""
@@ -82,7 +82,7 @@ One of the benefits of building out later screens in your app is that you can co
      - **Name**: Dte_Arrival_EditExpense
 
    - **Label** control
-     - **Text**: "Total: "
+     - **Text**: "Total:"
      - **Size**: 21
      - **X**: 0
      - **Y**: 945
@@ -142,30 +142,30 @@ One of the benefits of building out later screens in your app is that you can co
      - **Fill**: ColorFade(Lbl_Header_EditExpense.Fill, 50%)
      - **Name**: Gal_ExpenseDetails_EditExpense
 
-   After adding all of those controls, your app screen should look something like this:
+   After you have added those controls, your app screen should look similar to the following screenshot.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Power Apps with the controls added to the app screen.](../media/controls-added.png)](../media/controls-added.png#lightbox)
 
-   There are certainly some properties we'll go back and change, such as calculating a total and writing the **OnSelect** formula for the buttons and icon. But building out the controls and design first is common in app building. That allows you to concentrate on one thing at a time. First the design and ensuring you have all the controls you need, and then the technical aspects and the logic.
+   You can certainly return to change some properties, such as calculating a total and writing the **OnSelect** formula for the buttons and icon. However, building out the controls and design first is common in app building. That approach will allow you to concentrate on one task at a time. First, you should focus on the design and ensuring that you have the controls that you need. Then, you can focus on the technical aspects and the logic.
 
-   There are still more controls we need to add, but all of them are inside of the gallery. To add a control inside a gallery, ensure you're selecting the first item and then insert as normal. If you don't see the control repeated for every line in the gallery, delete the control and try again. When this happens, it's typically because the entire gallery is selected instead of just the first item of the gallery. If the whole gallery is selected and you attempt to add a control in the gallery, it will add the control outside the gallery. That will not work for what we're doing in this scenario.
+   You still need to add more controls, but they are inside the gallery. To add a control inside a gallery, ensure that you're selecting the first item and then insert as normal. If you don't find the control repeated for every line in the gallery, delete the control and try again. Typically, this situation occurs because the entire gallery is selected instead of only the first item. If the whole gallery is selected, and you attempt to add a control in the gallery, it will add the control outside the gallery. That approach will not work for what you're doing in this scenario.
 
-   In the screenshot below, you can see only the first item is selected. This is what it should look like when adding controls in your gallery.
+   The following screenshot shows that only the first item is selected, and it exemplifies what the screen should look like when you're adding controls in your gallery.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the gallery with the first empty item in it selected.](../media/gallery-item.png)](../media/gallery-item.png#lightbox)
 
-   Before adding new controls, we're going to delete the labels and arrow icon since we don't need them.
+   Before adding new controls, you need to delete the labels and arrow icon because you don't need them.
 
-1. Select the two Labels and the right arrow Icon in your gallery and press **Delete**. The only control in your gallery should be the separator. Select it in your Tree view and change the **Fill** property to **RGBA(204, 242, 252, 1)**.
+1. Select the two Labels and the right arrow icon in your gallery and then press the **Delete** key. The only control in your gallery should be the separator. Select it in your **Tree view** and then change the **Fill** property to **RGBA(204, 242, 252, 1)**.
 
-   Your app should look like this:
+   Your app should now resemble the following image.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Power Apps with the gallery showing empty items after the labels and right arrows are deleted.](../media/empty-gallery.png)](../media/empty-gallery.png#lightbox)
 
-   We still don't have a data source attached to the gallery--we'll take care of that later. For now, remember to select the first item in the gallery and add the following controls:
+   You still don't have a data source attached to the gallery. You'll complete that task later. For now, remember to select the first item in the gallery and then add the following controls:
 
    - **Text input** control
      - **Default**: ""
@@ -219,9 +219,9 @@ One of the benefits of building out later screens in your app is that you can co
      - **Color**: Lbl_Header_EditExpense.Fill
      - **Name**: Icn_Trash_EditExpense
 
-   After adding all of the controls in the gallery, your app should look like this:
+   After you have added these controls in the gallery, your app should resemble the following screenshot.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Power Apps showing the gallery items filled with controls.](../media/gallery-filled.png)](../media/gallery-filled.png#lightbox)
 
-Now that we have all of the controls required to make this screen, we can concentrate on adding the functionality.
+Now that you have all controls that are required to make this screen, you can add the functionality.
