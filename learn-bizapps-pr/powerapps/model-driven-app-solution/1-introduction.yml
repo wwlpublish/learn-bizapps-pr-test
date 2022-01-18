@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.model-driven-app-solution.1-introduction 
-title: Introduction to the business scenario
+title: Introduction
 metadata: 
-  title: Introduction to the business scenario
-  description: Learn about the business scenario.
+  title: Introduction
+  description: Introduction to transforming a business process to a model-driven app
   ms.date: 01/14/2022 
   author: jadaphillips 
   ms.author: jadaphillips 
