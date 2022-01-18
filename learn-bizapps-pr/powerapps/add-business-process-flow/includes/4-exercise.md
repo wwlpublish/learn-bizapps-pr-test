@@ -84,7 +84,7 @@ In this scenario, you will send an email automatically to the head of security c
 
 1. In the search box, type **Outlook** and then select **Send an email (V2) - Office 365 Outlook**.
 
-1. In the **To** field, enter your email address (you can change this later to the head of security).
+1. In the **To** field, enter your email address (you can change this address later to the head of security).
 
 1. For the **Subject** of the email, enter **New Accident Recorded**.
 
