@@ -127,7 +127,7 @@ To obtain a trial license for Microsoft Cloud for Financial Services, follow the
 1. Enter the email address that is associated with your tenant. Select **Next**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the You've selected Microsoft Cloud for Healthcare AddOn wizard showing the email field.](../media/email-health.png)](../media/email-health.png#lightbox)
+    > [![Screenshot of the You've selected Microsoft Cloud for Financial AddOn wizard showing the email field.](../media/email-health.png)](../media/email-health.png#lightbox)
 
 1. Select **Sign In > Try now > Continue**.
 
@@ -135,14 +135,14 @@ To obtain a trial license for Microsoft Cloud for Financial Services, follow the
     > [![Screenshot of the wizard showing the email address filled in and the Sign In button.](../media/sign-in.png)](../media/sign-in.png#lightbox)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Admin Check out confirm your order dialog for Microsoft Cloud for Healthcare with the Try now button.](../media/try-health.png)
+    > ![Screenshot of the Admin Check out confirm your order dialog for Microsoft Cloud for Financial with the Try now button.](../media/try-health.png)
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Admin order receipt with confirmation of Microsoft Cloud for Healthcare Addon trial with the Continue button.](../media/receipt-health.png)](../media/receipt-health.png#lightbox)
+    > [![Screenshot of Admin order receipt with confirmation of Microsoft Cloud for Financial Addon trial with the Continue button.](../media/receipt-health.png)](../media/receipt-health.png#lightbox)
 
-1. Assign the newly acquired Microsoft Cloud for Healthcare Addon trial license to your user by going to **Users > Active users**. Select your user and then select **Manage product licenses**.
+1. Assign the newly acquired Microsoft Cloud for Financial Addon trial license to your user by going to **Users > Active users**. Select your user and then select **Manage product licenses**.
 
-1. Select the **Microsoft Cloud for Healthcare Addon** license and then select **Save changes**.
+1. Select the **Microsoft Cloud for Financial Addon** license and then select **Save changes**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the licenses list for the user with Microsoft Cloud for Healthcare AddOn selected and the Save changes button.](../media/license-health.png)](../media/license-health.png#lightbox)
+    > [![Screenshot of the licenses list for the user with Microsoft Cloud for Financial AddOn selected and the Save changes button.](../media/license-health.png)](../media/license-health.png#lightbox)
