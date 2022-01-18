@@ -19,7 +19,7 @@ The best way to learn how to attach the business process flow that you created i
   > [!div class="mx-imgBorder"]
   > [![Screenshot of the new business process flow table being added.](../media/table-added.png)](../media/table-added.png#lightbox)
 
-Your next steps will be to add a place inside your model-driven app to view the data from the business process flow entity. This location is where users can view the status and other data that is related to the **BPF\_AccidentRecording** business process flow.
+Your next steps will be to add a place inside your model-driven app to view the data from the business process flow entity. This location is where users can view the status and other data that are related to the **BPF\_AccidentRecording** business process flow.
 
 1. Select **Save** to save your changes before performing the next steps.
 
