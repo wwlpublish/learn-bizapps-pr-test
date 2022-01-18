@@ -15,43 +15,43 @@ quiz:
   questions: 
   - content: Where is the data from a business process flow stored?
     choices: 
-    - content: All data associated with a business process flow is stored in one or more tables in Dataverse automatically.
+    - content: All data that is associated with a business process flow is stored in one or more tables in Dataverse automatically.
       isCorrect: true 
-      explanation: All data associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
-    - content: Data is stored in the same table as the table associated with the business process flow.
+      explanation: All data that is associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
+    - content: Data is stored in the same table as the table that is associated with the business process flow.
       isCorrect: false 
-      explanation: All data associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
+      explanation: All data that is associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
     - content: Business process flow data is not stored anywhere.
       isCorrect: false 
-      explanation: All data associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
-    - content: Create a new custom entity, associated with the business process flow to store the data.
+      explanation: All data that is associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
+    - content: To store the data, you need to create a new custom entity that is associated with the business process flow.
       isCorrect: false 
-      explanation: All data associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
-  - content: Which sentence best describes what a business process flow is?
+      explanation: All data that is associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
+  - content: Which sentence best describes a business process flow?
     choices: 
-    - content: It is an automated way to complete tedious data entry tasks.
+    - content: It's an automated way to complete tedious data entry tasks.
       isCorrect: false 
-      explanation: A business process flow is a visual guide meant to help users complete a business process by using a set of predefined stages.
-    - content: A business process flow is a visual guide meant to help users complete a business process by using a set of predefined stages.
+      explanation: A business process flow is a visual guide that is meant to help users complete a business process by using a set of predefined stages.
+    - content: It's a visual guide that is meant to help users complete a business process by using a set of predefined stages.
       isCorrect: true 
-      explanation: A business process flow is a visual guide meant to help users complete a business process by using a set of predefined stages.
-    - content: It is a way to integrate multiple data sources into a model-driven app.
+      explanation: A business process flow is a visual guide that is meant to help users complete a business process by using a set of predefined stages.
+    - content: It's a way to integrate multiple data sources into a model-driven app.
       isCorrect: false 
-      explanation: A business process flow is a visual guide meant to help users complete a business process by using a set of predefined stages.
-    - content: A business process flow is a way to automate sending emails to persons within your organization.
+      explanation: A business process flow is a visual guide that is meant to help users complete a business process by using a set of predefined stages.
+    - content: It's a way to automate sending emails to persons within your organization.
       isCorrect: false 
-      explanation: A business process flow is a visual guide meant to help users complete a business process by using a set of predefined stages.
+      explanation: A business process flow is a visual guide that is meant to help users complete a business process by using a set of predefined stages.
   - content: How do you attach a business process flow to a model-driven app?
     choices: 
-    - content: Go into the table and then link it using the form designer.
+    - content: Go into the table and then link it by using the form designer.
       isCorrect: false 
-      explanation: Go into the app designer, select business process flows, and select the business process flow from the list of available flows.
-    - content: Go into the app designer, select business process flows, and select the business process flow from the list of available flows.
+      explanation: Go into the app designer, select Business Process Flows, and then select the business process flow from the list of available flows.
+    - content: Go into the app designer, select Business Process Flows, and then select the business process flow from the list of available flows.
       isCorrect: true 
-      explanation: Go into the app designer, select business process flows, and select the business process flow from the list of available flows.
-    - content: You need visual studio to attach a business process flow to a model-driven app.
+      explanation: Go into the app designer, select Business Process Flows, and then select the business process flow from the list of available flows.
+    - content: You need Visual Studio to attach a business process flow to a model-driven app.
       isCorrect: false 
-      explanation: Go into the app designer, select business process flows, and select the business process flow from the list of available flows.
+      explanation: Go into the app designer, select Business Process Flows, and then select the business process flow from the list of available flows.
     - content: Use Power Automate to attach a business process flow to a model-driven app.
       isCorrect: false 
-      explanation: Go into the app designer, select business process flows, and select the business process flow from the list of available flows.
+      explanation: Go into the app designer, select Business Process Flows, and then select the business process flow from the list of available flows.
