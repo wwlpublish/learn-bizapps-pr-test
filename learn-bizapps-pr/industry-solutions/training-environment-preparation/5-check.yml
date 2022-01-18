@@ -27,20 +27,20 @@ quiz:
     - content: Dynamics 365 Field Service
       isCorrect: false
       explanation: Incorrect. Dynamics 365 Field Service is required for Microsoft Cloud for Financial Services.
-  - content: What type of Power Apps portal is deployed for Microsoft Cloud for Healthcare?
+  - content: What type of Power Apps portal is deployed for Microsoft Cloud for Financial Services?
     choices:
     - content: Starter portal
       isCorrect: true
-      explanation: Correct. The Starter portal is deployed for Microsoft Cloud for Healthcare.
+      explanation: Correct. The Starter portal is deployed for Microsoft Cloud for Financial Services.
     - content: Community portal
       isCorrect: false
-      explanation: Incorrect. The Community portal isn't deployed for Microsoft Cloud for Healthcare.
+      explanation: Incorrect. The Community portal isn't deployed for Microsoft Cloud for Financial Services.
     - content: Partner portal
       isCorrect: false
-      explanation: Incorrect. The Partner portal isn't deployed for Microsoft Cloud for Healthcare.
+      explanation: Incorrect. The Partner portal isn't deployed for Microsoft Cloud for Financial Services.
     - content: Customer portal
       isCorrect: false
-      explanation: Incorrect. The Customer portal isn't deployed for Microsoft Cloud for Healthcare.
+      explanation: Incorrect. The Customer portal isn't deployed for Microsoft Cloud for Financial Services.
   - content: Where do you go to deploy Microsoft Cloud for Financial Services?
     choices:
     - content: Power Platform admin center
