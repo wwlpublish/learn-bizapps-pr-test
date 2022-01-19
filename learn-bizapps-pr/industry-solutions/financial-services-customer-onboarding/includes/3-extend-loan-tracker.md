@@ -2,13 +2,13 @@ In this exercise, you will learn how to:
 
 - Create a new Power Apps solution.
 
-- Create a new business process flow for tracking loans in the loan tracker application.
+- Create a new business process flow for tracking loans in the Loan Tracker application.
 
-- Publish the business process flow to the loan tracker application.
+- Publish the business process flow to the Loan Tracker application.
 
 The business process flow presents the current application stage. This feature allows the loan manager to see the application's current stage in the process. The bank can choose to set as many stages as needed.
 
-When the loan tracker application is installed, the business process flow contains four stages:
+When the Loan Tracker application is installed, the business process flow contains four stages:
 
 -   Loan verification
 
