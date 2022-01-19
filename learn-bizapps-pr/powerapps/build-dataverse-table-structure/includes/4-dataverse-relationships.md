@@ -1,4 +1,4 @@
-Before we build the final AccidentTable,* it is beneficial to understand the different type of relationships. As mentioned earlier in the module we will need to build the following relationships between our custom tables:
+Before we build the final *AccidentTable*, it is beneficial to understand the different type of relationships. As mentioned earlier in the module we will need to build the following relationships between our custom tables:
 
 - There will be a one-to-many relationship from the location table (LocationTable) to our main accident table (AccidentTable)
 

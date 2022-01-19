@@ -16,7 +16,7 @@ In this exercise, we will create two more custom tables to store additional data
 
 1. Select **Create**, at the bottom.
 
-1. Under the **Columns** tab, find the *LocationId* field and Select it.
+1. Under the **Columns** tab, find the *LocationId* field and select it.
 
 1. On the columns tab, on the right, change the **Data type** from Text to **Autonumber**.
 
@@ -77,7 +77,7 @@ It is good practice to name your custom choice with a prefix to help identify it
 
     - **Searchable:** *Yes*
 
-1. In the bottom right, Select **Save Table**, to ensure your changes are saved.
+1. In the bottom right, select **Save Table**, to ensure your changes are saved.
 
 ### Create Custom TypeofAccident Table
 
@@ -127,4 +127,4 @@ It is good practice to name your custom choice with a prefix to help identify it
 
     - **Searchable:** *Yes*
 
-1. In the bottom right, Select **Save Table**, to ensure your changes are saved.
+1. In the bottom right, select **Save Table**, to ensure your changes are saved.

@@ -1,4 +1,4 @@
-By default, all full Dataverse environments have a set of standard tables that can be used to build business applications. It is best practice to try to use those existing tables to build solutions. For example, data about customers can be stored in the existing accounts or contacts tables. Although there are many tables, sometimes your app requires the creation of custom tables to store the data. In our scenario this is the case, as none of the existing tables have the meta data to support our app. In this unit, we will learn how to create custom tables in Dataverse. We will create the following tables:
+By default, all full Dataverse environments have a set of standard tables that can be used to build business applications. It is best practice to try to use those existing tables to build solutions. For example, data about customers can be stored in the existing accounts or contacts tables. Although there are many tables, sometimes your app requires the creation of custom tables to store the data. In our scenario this is the case, as none of the existing tables have the meta data to support our app. In this unit, we will learn how to create custom tables in Microsoft Dataverse. We will create the following tables:
 
 ### EmployeeTable
 
@@ -170,4 +170,4 @@ Now that our table has been created, let's begin creating the columns we will us
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Employee Picture Display name and Image Data type highlighted with Primary image checkbox selected.](../media/12-employee-picture.png)](../media/12-employee-picture.png#lightbox)
 
-1. In the bottom right, Select **Save Table**.
+1. In the bottom right, select **Save Table**.
