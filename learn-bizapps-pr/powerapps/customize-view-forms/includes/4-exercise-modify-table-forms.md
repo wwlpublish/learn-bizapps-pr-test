@@ -4,11 +4,11 @@ Modify the main form for the LocationTable. Sign in into Power Apps and follow t
 
 1. Search for the ***LocationTable*** we created in the previous module. You can search for it by selecting **Custom** and then typing "**location**" in the search bar.
 
-1. Select the ***LocationTable*** and then click on **Forms**, find the **Main** information form, and then click on it to navigate to the forms design experience.
+1. Select the ***LocationTable*** and then click on **Forms**, find the **Main** information form, and then select it to navigate to the forms design experience.
 
 1. Add the **Owner** (This is Dataverse standard field that quickly shows the user who was the user that created the record in the table) to the **Header** section of the table. To do this, drag and drop the **Owner** field in the top right of the header.
 
-1. Add the fields a user will enter for locations in the **General** section of the form. To do this click on **Table columns** icon on the right, this will reveal the different fields in the *LocationsTable.* Next using drag and drop place the fields in the **General** section. Put them in the following order:
+1. Add the fields a user will enter for locations in the **General** section of the form. To do this select **Table columns** icon on the right, this will reveal the different fields in the *LocationsTable.* Next, using drag and drop place the fields in the **General** section. Put them in the following order:
 
     1. **LocationId**
 
@@ -22,11 +22,11 @@ Modify the main form for the LocationTable. Sign in into Power Apps and follow t
 
     Now let's test our form, we will create a few location records.
 
-1. Click **Back** on the top left to navigate back to the table's menu.
+1. Select **Back** on the top left to navigate back to the table's menu.
 
-1. Click on **Data** to reveal the records view of the table.
+1. Select **Data** to reveal the records view of the table.
 
-1. Click the **+ Add record** button on the top left to navigate to new main form. This form should look like the one we customized in the previous steps.
+1. Select the **+ Add record** button on the top left to navigate to new main form. This form should look like the one we customized in the previous steps.
 
 1. Enter a new location, see location details below:
 
@@ -34,7 +34,7 @@ Modify the main form for the LocationTable. Sign in into Power Apps and follow t
 
     - **LocationCountry:** *Choose USA from the drop-down*
 
-1. Click **Save**.
+1. Select **Save**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Location table General tab with Location ID, Location Name and Location Country fields completed.](../media/16-location-table.png)](../media/16-location-table.png#lightbox)
@@ -47,11 +47,11 @@ Sign into Power Apps and follow these steps to modify default views:
 
 1. Search for the ***TypeofAccidentTable*** we created in the previous module. You can search for it by selecting **Custom** and then typing "**typeofaccident**" in the search bar.
 
-1. Select the table and then click on **Forms**, find the **Main** information form, and then click on it to navigate to the forms design experience.
+1. Select the table and then select **Forms**, find the **Main** information form, and then select it to navigate to the forms design experience.
 
 1. Add the **Owner** (This is Dataverse standard field that quickly shows the user who was the user that created the record in the table) to the **Header** section of the table. To do this, drag and drop the **Owner** field in the top right of the header.
 
-1. Add the fields a user will enter for type of accidents in the **General** section of the form. To do this click on **Table columns** icon on the right, this will reveal the different fields in the *TypeofAccidentsTable.* Next using drag and drop place the fields in the **General** section. Put them in the following order:
+1. Add the fields a user will enter for type of accidents in the **General** section of the form. To do this select the **Table columns** icon on the right, this will reveal the different fields in the *TypeofAccidentsTable.* Next, using drag and drop place the fields in the **General** section. Put them in the following order:
 
     1. **TypeofAccidentId**
 
@@ -61,15 +61,15 @@ Sign into Power Apps and follow these steps to modify default views:
 
 1. Set the ***TypeofAccidentId*** field to be read-only. Select the ***TypeofAccidentId*** field and on the right under the Properties check the **Read-only** check box.
 
-1. To complete the changes, click **Publish** in the top right.
+1. To complete the changes, select **Publish** in the top right.
 
     Now let's test our form, we will create a type of accident record.
 
-1. Click **Back** on the top left to navigate back to the table's menu.
+1. Select **Back** on the top left to navigate back to the table's menu.
 
-1. Now click on **Data** to reveal the records view of the table.
+1. Now select on **Data** to reveal the records view of the table.
 
-1. Click on **+ Add record** button on the top left to navigate to new main form. This form should look like the one we customized in the previous steps.
+1. Select the **+ Add record** button on the top left to navigate to new main form. This form should look like the one we customized in the previous steps.
 
 1. Enter a new type of accident, see accident details below:
 
@@ -90,7 +90,7 @@ The process for modifying this form is the same, the difference with this one is
 
 1. Search for the ***AccidentTable*** we created in the previous module. You can search for it by selecting **Custom** and then typing "**accident**" in the search bar.
 
-1. Select the table and then click on **Forms**, find the **Main** information form, and then click on it to navigate to the forms design experience.
+1. Select the table and then select **Forms**, find the **Main** information form, and then select it to navigate to the forms design experience.
 
 1. Add the **Owner** (This is Dataverse standard field that quickly shows the user who was the user that created the record in the table) to the **Header** section of the table. To do this simply drag and drop the **Owner** field in the top right of the header.
 
@@ -114,7 +114,7 @@ The process for modifying this form is the same, the difference with this one is
 
 1. Repeat steps 7 and 8 for the ***AccidentTypeId field***, set the Default view to Active TypeofAccidentTables.
 
-1. Now click on the **Components** section and then click on **1-column tab** to add a new tab in the general section.
+1. Now select the **Components** section and then select the **1-column tab** to add a new tab in the general section.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Components section with layout options for column tabs and sections.](../media/18-components.png)](../media/18-components.png#lightbox)
@@ -132,29 +132,29 @@ The process for modifying this form is the same, the difference with this one is
 
 1. On the Form, select the ***General*** tab.
 
-1. From the left navigation menu, click the **Components** section, select **Subgrid** and then check the **Show related records** check box.
+1. From the left navigation menu, select the **Components** section, select **Subgrid** and then check the **Show related records** check box.
 
 1. Find the ***EmployeesTable*** and then select the **Active Employees** as the **Default view**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Subgrid layout options selected for Table and Default View.](../media/20-subgrid-views.png)](../media/20-subgrid-views.png#lightbox)
 
-1. Click **Done** to add it. You should see it at the bottom of the form.
+1. Select **Done** to add it. You should see it at the bottom of the form.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the subgrid views table and default view option menu with the Involved Employee label highlighted.](../media/21-involved-employees.png)](../media/21-involved-employees.png#lightbox)
 
 1. Give the Subgrid a more meaningful name, in the Label under Properties, enter ***Involved Employees**.*
 
-1. Click **Publish**, to complete the form.
+1. Select **Publish**, to complete the form.
 
     Now let's test our form, we will create a new accident record.
 
-1. Click **Back** on the top left to navigate back to the table's menu.
+1. Select **Back** on the top left to navigate back to the table's menu.
 
-1. Click on **Data**, to reveal the records view of the table.
+1. Select **Data**, to reveal the records view of the table.
 
-1. Click the **+ Add record** button on the top left to navigate to new main form. This form should look like the one we customized in the previous steps.
+1. Select the **+ Add record** button on the top left to navigate to new main form. This form should look like the one we customized in the previous steps.
 
 1. Enter a new accident record, see accident details below:
 
@@ -173,14 +173,14 @@ The process for modifying this form is the same, the difference with this one is
 
 1. Once the record is saved, the subgrid in the bottom should appear allowing you to add the involved employees.
 
-1. Click on **Add Existing Employee,** press enter in the **Look for records** box to reveal the employee names. Select both Adele Vance and Cameron White from the list.
+1. Select the **Add Existing Employee,** press enter in the **Look for records** box to reveal the employee names. Select both Adele Vance and Cameron White from the list.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Lookup Records Employee Table list showing records for Delia Dennis and Patti Fernandez.](../media/22-records.png)](../media/22-records.png#lightbox)
 
 1. Select **Add**, at the bottom to add them.
 
-1. You may have to click **Refresh**, for them to show up.
+1. You may have to select **Refresh**, for them to show up.
 
 1. Select **Save**, to complete.
 

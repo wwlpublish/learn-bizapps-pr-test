@@ -6,7 +6,7 @@ In this exercise, we will modify the views for our ***LocationTable** and **Type
 
 1. Find and select the custom ***LocationTable***.
 
-1. Click **Views** and then select the **Active LocationTables** view. Once again, you will be redirected to the view designer studio.
+1. Select **Views** and then select the **Active LocationTables** view. Once again, you will be redirected to the view designer studio.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Views option highlighted and the Active Location Tables option selected.](../media/7-views-option.png)](../media/7-views-option.png#lightbox)
@@ -25,9 +25,9 @@ In this exercise, we will modify the views for our ***LocationTable** and **Type
 
 1. Find **Views** and then select the **Active TypeofAccidentsTables** view to open the view designer studio.
 
-1. Select the ***AccidentName*** column, click on it and then it should be added to the grid. Repeat the same process for ***AccidentSeverity**.* At the end, you should have the fields on the grid.
+1. Select the ***AccidentName*** column. It should now be added to the grid. Repeat the same process for ***AccidentSeverity**.* At the end, you should have the fields on the grid.
 
-1. Click **Publish**, to save, and publish your changes.
+1. Select **Publish**, to save, and publish your changes.
 
 ### Modify the view for AccidentTable
 
@@ -41,11 +41,11 @@ The process for modifying this view is the same, the difference with this one is
 
 1. On the main menu, expand **Dataverse** and select **Tables**.
 
-1. Find the custom ***AccidentTable*** and then click on it to select it.
+1. Find the custom ***AccidentTable*** and then select it.
 
-1. Click **Views** and then select the **Active AccidentTables** view to open the view designer studio.
+1. Select **Views** and then select the **Active AccidentTables** view to open the view designer studio.
 
-1. Select the ***AccidentDescription*** column, click on it and then it should be added to the grid. Repeat the same process for ***ManagerComments**, **AccidentDate, and **ManagerReviewed**.* At the end, you should have the fields on the grid.
+1. Select the ***AccidentDescription*** column, and now it should be added to the grid. Repeat the same process for ***ManagerComments**, **AccidentDate, and **ManagerReviewed**.* At the end, you should have the fields on the grid.
 
 1. To add fields from the related table, select **Related** and then you will see the list of tables that have a relationship with this table. By default, all tables in **Dataverse** have standard relationships with other standard tables such as the **User** table.
 

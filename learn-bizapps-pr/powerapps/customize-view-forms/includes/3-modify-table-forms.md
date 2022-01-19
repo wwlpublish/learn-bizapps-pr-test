@@ -2,7 +2,7 @@ In the previous lesson we learned about table **views,** now it's time to learn 
 
 ### What are forms?
 
-Using the Excel workbook to track accidents gave users the ability to log and modify accident reports. The user would insert a new row for new accidents or modify existing accidents directly in the spreadsheet. The goal of table forms is to give the user the ability to log new accidents, modify existing records or even delete records. Forms offer an easy way for users to enter data and solve many of Excel's downfalls such as data validation, which leads to incorrect data being collected.
+Using the Excel workbook to track accidents gave users the ability to log and modify accident reports. The user would insert a new row for new accidents or modify existing accidents directly in the spreadsheet. The goal of table forms is to give the user the ability to log new accidents, modify existing records or even delete records. Forms offer an easy way for users to enter data and solve issues such as data validation, which leads to incorrect data being collected.
 
 **Forms** are the user interface that allows users of the application to interact with the data being stored in the underlying tables. By utilizing forms, the app maker can allow users to create new, edit, and delete records from the tables.
 
@@ -16,9 +16,9 @@ Follow these steps to modify default views:
 
 1. From Power Apps, on the main menu, expand **Dataverse** and select **Tables**.
 
-1. Click on the **Tables** menu and then search for the ***EmployeeTable*** we created in the previous module. You can search for it by selecting **Custom** and then typing "**employee**" in the search bar.
+1. Select the **Tables** menu and then search for the ***EmployeeTable*** we created in the previous module. You can search for it by selecting **Custom** and then typing "**employee**" in the search bar.
 
-1. Select the table and then click on **Forms**, find the **Main** information form, and then click on it to navigate to the forms design experience.
+1. Select the table and then select **Forms**, find the **Main** information form, and then select it to navigate to the forms design experience.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Forms tab with the Main Information option highlighted.](../media/10-main-information.png)](../media/10-main-information.png#lightbox)
@@ -50,7 +50,7 @@ Follow these steps to modify default views:
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Employee ID properties with the Read-only label selected.](../media/13-read-only.png)](../media/13-read-only.png#lightbox)
 
-1. To complete the changes, click **Publish** in the top right.
+1. To complete the changes, select **Publish** in the top right.
 
     Now let's test our form, we will create a few employee records.
 

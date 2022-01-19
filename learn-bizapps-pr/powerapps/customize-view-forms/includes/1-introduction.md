@@ -1,6 +1,6 @@
 Using an Excel sheet as the method to track company accidents gave the user the ability to view and review logged accidents. It also had the ability to filter the Excel rows based on the cells criteria. The role of a table view is to give the user the same ability in the model-driven app. Views also give the user the ability to review accident records without the risks of overriding or deleting data, errors, which are common in Excel.
 
-Before jumping right into the how's, let's take a moment to briefly review what is a view? And how does it help in model-driven app making.
+Before discussing the how's, let's take a moment to briefly review what is a view? Also, how does it help in model-driven app making?
 
 Views define how a list of records for a specific table appears in your app. It defines the columns shown, the width, sort behavior, and default filters of the records shown in the list. Just like the name implies, think of views as a way to present data to the user for review only.
 
@@ -9,11 +9,11 @@ Views define how a list of records for a specific table appears in your app. It 
 
 By default, the tables that we created in the previous module have a set of default views we can use to quickly and easily show meaningful data to the users. In this module we will focus on modifying these defaults views, but keep in mind that the same concepts would apply if you wanted to create a new custom view(s). For more information about Views in model-driven apps, see [Understand model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views/?azure-portal=true).
 
-Now that you have a better understanding of Views and some additional information, let's jump right into our first exercise and look at how to modify a default table view.
+Now that you have a better understanding of Views and some additional information, let's start our first exercise and look at how to modify a default table view.
 
 ### Modify default table views
 
-In this section and next exercises we will be modifying the standard views from the tables we created in the prior module. We will turn these views into the one place where app users will be able to review the data stored in the tables. We will make sure that the data being presented is organized and relevant to the app user. For example, we want to make sure the app user can review all the data relevant for an employee under one concise list.
+In this section and next exercises we will be modifying the standard views from the tables we created in the Build the Dataverse table schema for the model-driven app module (insert link to module and package files). We will turn these views into the one place where app users will be able to review the data stored in the tables. We will make sure that the data being presented is organized and relevant to the app user. For example, we want to make sure the app user can review all the data relevant for an employee under one concise list.
 
 Sign in into Power Apps and follow these steps to modify default views:
 
@@ -28,7 +28,7 @@ Sign in into Power Apps and follow these steps to modify default views:
 
 1. Once you have located the *EmployeeTable*, select ***EmployeeTable*** and then select **Views**.
 
-1. Find and click on the **Active EmployeeTables** view. You will then be redirected to the Dataverse view designer studio.
+1. Locate and select on the **Active EmployeeTables** view. You will then be redirected to the Dataverse view designer studio.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Employee table view with Active Employee Tables highlighted.](../media/3-active-tables.png)](../media/3-active-tables.png#lightbox)
@@ -45,7 +45,7 @@ Sign in into Power Apps and follow these steps to modify default views:
 
 1. By default, this view already has our ***EmployeeId*** column added and the ***Created On*** column. Select the Created On column and from the dropdown select **Remove**. The Created On column will no longer show up in our view.
 
-1. Now add the ***EmployeeName*** column to the view, to do this, just click on it and then it should be added to the grid.
+1. Now add the ***EmployeeName*** column to the view, to do this, just select on it and then it should be added to the grid.
 
 1. Repeat step 8 for ***EmployeeDOB** and **EmployeeEmail**.* Once done, your screen should look like the screenshot below with the fields showing on the grid:
 
