@@ -15,8 +15,8 @@ summary: |
 abstract: |  
     In this module, you will: 
     - Set up the Retail Banking Sample Portal.
-    - Extend the Loan Tracker application.
-    - Embed the Loan Tracker app in Microsoft Teams.
+    - Extend the loan tracker application.
+    - Embed the loan tracker app in Microsoft Teams.
     - Submit and approve a loan.
 prerequisites: Training environment preparation
 iconUrl: /learn/achievements/financial-services-customer-onboarding.svg  
