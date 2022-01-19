@@ -2,7 +2,7 @@
 uid: learn-bizapps.financial-services-customer-onboarding 
 metadata: 
  title: Financial Services customer onboarding in Microsoft Cloud for Financial Services
- description: Learn how to onboard customers. 
+ description: Learn about the customer onboarding process within Microsoft Cloud for Financial Services. 
  ms.date: 01/14/2022  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,14 +11,14 @@ metadata:
 title: Financial Services customer onboarding in Microsoft Cloud for Financial Services
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  In this module you'll learn how to streamline the customer-onboarding experience within a financial services organization by configuring self-service tools in the Microsoft Cloud for Financial Services that enable relationship managers to monitor the loan process. Customers can efficiently apply for and track a loan by easily accessing a mobile app or portal, while the automated pipeline helps them review and validate application information. Relationship managers can monitor the loan process and ensure consistent, reliable customer experiences. More information can be found at [Customer onboarding overview](/dynamics365/industry/financial-services/customer-onboarding-overview/?azure-portal=true). 
+  In this module, you'll learn how to streamline the customer onboarding experience within a financial services organization. By setting up self-service tools in Cloud for Financial Services, you will enable relationship managers to monitor the loan process and ensure consistent, reliable customer experiences. Furthermore, customers can efficiently apply for and track a loan by accessing a mobile app or portal, while the automated pipeline helps them review and validate application information.
 abstract: |  
     In this module, you will: 
-    - Configure the Retail Banking Sample Portal
-    - Extend the Loan Tracker application
-    - Embed the Loan Tracker app in Microsoft Teams
-    - Submit and approve a loan
-prerequisites: Training Environment Preparation
+    - Set up the Retail Banking Sample Portal.
+    - Extend the Loan Tracker application.
+    - Embed the Loan Tracker app in Microsoft Teams.
+    - Submit and approve a loan.
+prerequisites: Training environment preparation
 iconUrl: /learn/achievements/financial-services-customer-onboarding.svg  
 levels:  
 - intermediate   
