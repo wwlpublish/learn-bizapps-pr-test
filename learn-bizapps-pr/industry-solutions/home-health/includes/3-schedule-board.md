@@ -75,7 +75,7 @@ The following screenshot shows an example of a configured schedule board.
 	> [!div class="mx-imgBorder"]
 	> ![Screenshot of the work order saved.](../media/saved-work-order.png)
 	
-1. Select Save and Close.  You will now see the new characteristic requirement in the subgrid.
+1. Select **Save and Close**.  You will now see the new characteristic requirement in the subgrid.
 
 	> [!div class="mx-imgBorder"]
 	> ![Screenshot of the characteristic requirement in the subgrid.](../media/characteristic-saved.png)
