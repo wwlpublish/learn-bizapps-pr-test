@@ -74,7 +74,7 @@ By default, the Basic and Enhanced Microsoft Teams integration is disabled for c
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the collaborate from Dynamics 365 window, with the Finish button selected.](../media/collaborate-finish.png)](../media/collaborate-finish.png#lightbox)
 
-1. Both Microsoft Teams integration settings should now be set to **Yes**. Select **OK**.
+1. Both Microsoft Teams integration settings will now be set to **Yes**. Select **OK**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of both integration settings set to Yes.](../media/integration-settings.png)](../media/integration-settings.png#lightbox)
