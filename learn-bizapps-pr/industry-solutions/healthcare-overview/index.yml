@@ -30,7 +30,8 @@ products:
 units: 
 - learn-bizapps.healthcare-overview.1-introduction 
 - learn-bizapps.healthcare-overview.2-engagement 
-- learn-bizapps.healthcare-overview.3-check 
-- learn-bizapps.healthcare-overview.4-summary 
+- learn-bizapps.healthcare-overview.3-collaboration
+- learn-bizapps.healthcare-overview.check 
+- learn-bizapps.healthcare-overview.summary 
 badge: 
   uid: learn-bizapps.healthcare-overview.badge 
