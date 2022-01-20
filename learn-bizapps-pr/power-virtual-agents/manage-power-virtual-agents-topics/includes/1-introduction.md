@@ -1,5 +1,7 @@
 Assisting customers with AI virtual agents, often referred to as bots, is a major business trend today. Bots are being used to expand self-service support experiences for customers and to help ease agent workloads by handling specific types of support topics that are of the highest volume and easily automated. Bots help users accomplish specific tasks by using AI to identify the customer's intent and present content or implement actions that are related to that intent. For example, if someone asks about the weather conditions where they live, a virtual agent bot could find out where they live and provide them with a detailed weather forecast for their area. Virtual agents could also be programmed to help the customer check their account balance, reserve a hotel room, or send them to a live agent who can assist them with issues that are beyond the virtual agent's capability. The virtual agent needs to know what information to present to the customer based on what they are asking for.
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQUNo]
+
 Consider a customer's interaction with a virtual agent as a conversation that you would have with another person. While each conversation is different, they all have their main parts:
 
 - **Conversation beginning** - Each conversation is initiated by an event such as answering a phone, a face-to-face greeting, or through engagement in other formats.

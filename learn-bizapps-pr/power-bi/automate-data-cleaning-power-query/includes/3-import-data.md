@@ -66,3 +66,6 @@ Now, you can complete tasks that previously required multiple find and replace a
 
 > [!NOTE]
 > The amount of customization that can be applied to a folder import is near limitless, making folders with multiple file types and formats consumable with the correct Power Query mashup.
+
+> [!NOTE] 
+> When using Power Query, the logic or Applied Steps set of instructions is saved with the XLSX file. No changes are happening to the SOURCE data files, the source file or system data remains unimpacted. 
