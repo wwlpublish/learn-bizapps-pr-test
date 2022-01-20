@@ -2,7 +2,7 @@
 uid: learn-bizapps.model-driven-app-solution 
 metadata: 
  title: Transform a business process to a model-driven app
- description: This module will focus on introducing the student to the data and business scenario the solution will address. The Power Apps model-driven app will be used as the solution and the data will be stored in Dataverse.
+ description: This module introduces the data and business scenario that the solution will address. A model-driven app from Microsoft Power Apps will be used as the solution, and the data will be stored in Microsoft Dataverse.
  ms.date: 01/14/2022  
  author: jadaphillips  
  ms.author: jadaphillips  
@@ -11,13 +11,13 @@ metadata:
 title: Transform a business process to a model-driven app
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  One of the hardest aspects of becoming a maker in the Power Platform is knowing how to start with your company’s existing data and translate that into a model-driven app. This module will help you get into the mindset of a Power Apps maker and start thinking of a model-driven app as the solution. 
+  A difficult aspect of becoming a maker in Microsoft Power Platform is knowing how to start with your company’s existing data and then translate that data into a model-driven app. This module will help you get into the mindset of a Power Apps maker and start thinking of a model-driven app as the solution.
 abstract: |  
     In this module, you will: 
-    - Understand the data and solution being built with this learning path
-    - Understand how to relate an Excel based solution to Power Apps model-driven apps
-    - Gain insight into model-driven apps design decisions
-prerequisites: A basic understanding of Microsoft model-driven apps and Dataverse
+    - Learn about the data and solution that is being built with this learning path.
+    - Learn how to relate a Microsoft Excel-based solution to model-driven apps from Power Apps.
+    - Gain insight into model-driven app design decisions.
+prerequisites: Basic understanding of Microsoft model-driven apps and Microsoft Dataverse
 iconUrl: /learn/achievements/model-driven-app-solution.svg  
 levels:  
 - beginner   
