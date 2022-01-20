@@ -20,7 +20,7 @@ Follow these steps to modify default table forms:
 
 1. Select the **Tables** menu and then search for **EmployeeTable** that you created in the previous module. You can search for it by selecting **Custom** and then typing **employee** in the search bar.
 
-1. Select the table and then select **Forms**. Find the **Main** information form, and then select it to navigate to the forms design experience.
+1. Select the table and then select **Forms**. Find and select the **Main** information form to navigate to the forms design experience.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Forms tab with the Main Information option highlighted.](../media/10-main-information.png)](../media/10-main-information.png#lightbox)
@@ -30,7 +30,7 @@ Follow these steps to modify default table forms:
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Tree view with the Information section expanded and highlighted.](../media/11-tree-view.png)](../media/11-tree-view.png#lightbox)
 
-1. Add the **Owner** (a Dataverse standard field that indicates the user who created the record in the table) to the **Header** section of the table by dragging and dropping the **Owner** field in the upper right of the header.
+1. Add the **Owner** (a Dataverse standard field that identifies the user who created the record in the table) to the **Header** section of the table by dragging the **Owner** field and then dropping it to the upper right of the header.
 
 1. Add the fields that a user will enter for employees in the **General** section of the form. Select the **Table columns** icon on the right, which will show the different fields in **EmployeeTable**. Drag the fields and then drop them into the **General** section. Put the fields in the following order:
 
@@ -58,7 +58,7 @@ Follow these steps to modify default table forms:
 
 1. Select **Back** in the upper left to return to the table's menu.
 
-1. Select **Data** to reveal the records view of the table.
+1. Select **Data** to show the records view of the table.
 
 1. Select the **+ Add record** button in the upper left to navigate to a new main form. This form should resemble the one that you customized in the previous steps.
 
