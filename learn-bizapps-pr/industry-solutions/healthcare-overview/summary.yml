@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.healthcare-overview.4-summary 
+uid: learn-bizapps.healthcare-overview.summary 
 title: Summary
 metadata: 
   title: Summary
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 1 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/4-summary.md)] 
+ [!include[](includes/summary.md)] 

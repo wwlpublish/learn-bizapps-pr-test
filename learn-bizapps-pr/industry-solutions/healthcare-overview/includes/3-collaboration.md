@@ -9,7 +9,7 @@ Microsoft Cloud for Healthcare makes enterprise-wide health team collaboration a
 > [!div class="mx-imgBorder"]
 > [![Diagram of health team collaboration.](../media/collaboration.png)](../media/collaboration.png#lightbox)
 
-Microsoft Cloud for Healthcare helps to increase communication and collaborate more efficiently in real-time to address issues from single-patient monitoring through pandemic-level crises that necessitate a broader reach and level of interaction. You can manage complex workflows from a single application to effectively manage cases and minimize costs especially for patients with chronic illnesses or long-term care plans, including the ability to monitor patients remotely.
+Microsoft Cloud for Healthcare helps to increase communication and collaborate more efficiently in real time to address issues from single-patient monitoring through pandemic-level crises that necessitate a broader reach and level of interaction. You can manage complex workflows from a single application to effectively manage cases and minimize costs especially for patients with chronic illnesses or long-term care plans, including the ability to monitor patients remotely.
 
 ## Featured Healthcare applications
 
@@ -21,7 +21,7 @@ The applications provided by Microsoft Cloud for Healthcare that focus primarily
 
 -   **Care Team Member**: Access through the Feld Service mobile app to support home care visits and update the specifics of visit on a mobile device.
 
--   **Virtual Visits**: Enable a full virtual experience by connecting patients and providers through Microsoft Teams to support remote scheduling, consultations, and more.
+-   **Virtual Visits**: Enable a full-virtual experience by connecting patients and providers through Microsoft Teams to support remote scheduling, consultations, and more.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram of health team collaboration features.](../media/collaboration-features.png)](../media/collaboration-features.png#lightbox)
@@ -49,7 +49,7 @@ There are various features included in Care Management, including the following:
 
 ### Home health
 
-Manage home visit schedules, notify patients, and give providers access to medical information, even while on the go. With the Home health app, provider personnel can schedule appointments for the patient based on a variety of factors. Providers can view patient information directly in context, and a guided business process flow ensures that each measure is taken before and after booking the appointment.
+Manage home visit schedules, notify patients, and give providers access to medical information, even while on the go. With the Home health app, provider personnel can schedule appointments for the patient based on various factors. Providers can view patient information directly in context, and a guided business process flow ensures that each measure is taken before and after booking the appointment.
 
 Home health extends Microsoft Dynamics 365 Field Service with healthcare-specific capabilities as part of Microsoft Cloud for Healthcare.
 
@@ -93,7 +93,7 @@ There are various features included in the Care Team Member app, including the f
 
 ### Virtual visits
 
-In the current COVID-19 pandemic, many patients might prefer to visit their medical providers virtually rather than in-person. Video conferencing provides a way for clinicians to provide high-quality, personalized, and affordable consultations. Using the complete meetings platform in Microsoft Teams, providers will be able to schedule, manage, and conduct virtual visits with patients.
+In the current COVID-19 pandemic, many patients might prefer to visit their medical providers rather than in person. Video conferencing provides a way for clinicians to provide high-quality, personalized, and affordable consultations. Using the complete meetings platform in Microsoft Teams, providers will be able to schedule, manage, and conduct virtual visits with patients.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the visit clinic view with ](../media/virtual-visits.png)](../media/virtual-visits.png#lightbox)
