@@ -192,7 +192,7 @@ The app is installed, along with a workspace of the same name that has all
 the artifacts needed for
 further [customization](/power-bi/connect-data/service-template-apps-install-distribute#customize-and-share-the-app).
 
->![NOTE]
+>[!NOTE]
 >   If you use an installation link for an app that isn't listed on AppSource, a
 >   validation dialog box will ask you to confirm your choice.
 
