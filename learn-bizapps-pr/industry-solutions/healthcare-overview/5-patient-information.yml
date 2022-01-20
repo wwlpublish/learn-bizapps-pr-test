@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.healthcare-overview.5-patient-information
+title: Protect patient information
+metadata: 
+  title: Protect patient information
+  description: Learn about protecting patient information.
+  ms.date: 01/20/2022 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 1 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-patient-information.md)] 
