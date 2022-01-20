@@ -1,4 +1,6 @@
-Using an Excel workbook to track accidents gave users a one stop to view, review and add new accidents records. The goal of building a model-driven app is to achieve the same concept. It will package all of the tables, views, and forms into a business application where users can do all the activities related to accident tracking.
+In this module, we will continue our work on the accident tracking application. You can download the package file (insert link) to access the application work built thus far.
+
+Using a Microsoft Excel workbook to track accidents gave users a one stop to view, review and add new accidents records. The goal of building a model-driven app is to achieve the same concept. It will package all of the tables, views, and forms into a business application where users can do all the activities related to accident tracking.
 
 The best way to get familiar with the classic app designer is to jump right into building an app. During the app creation process, you'll learn more about the different components of model-driven apps and how to work with the **App Designer**.
 

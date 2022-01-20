@@ -1,4 +1,4 @@
-In this exercise, we'll add the other tables we created in prior modules as sub areas.
+In this exercise, we'll add the other tables we created in prior modules (insert packaging note/file here).
 
 1. Navigate back to your browser tab with the App Designer open to continue where we left off in the previous section. If you've closed the App Designer browser tab, navigate to [make.powerapps.com](https://make.powerapps.com/?azure-portal=true) and under **Apps**, find our **Employee Tracking Application**. Select the three dots and then **Edit**.
 
