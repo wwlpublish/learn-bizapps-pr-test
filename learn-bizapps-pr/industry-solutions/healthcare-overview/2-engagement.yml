@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.healthcare-overview.2-engagement 
+title: Enhance patient engagement
+metadata: 
+  title: Enhance patient engagement
+  description: Learn to enhance patient engagement.
+  ms.date: 01/20/2022 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 8 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-engagement.md)] 
