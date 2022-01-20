@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.financial-services-customer-onboarding 
 metadata: 
- title: Financial Services customer onboarding in Microsoft Cloud for Financial Services
+ title: Customer onboarding in Microsoft Cloud for Financial Services
  description: Learn about the customer onboarding process within Microsoft Cloud for Financial Services. 
  ms.date: 01/14/2022  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-industry-solutions  
-title: Financial Services customer onboarding in Microsoft Cloud for Financial Services
+title: Customer onboarding in Microsoft Cloud for Financial Services
 summary: |  
   [!include[](../includes/module-banner.md)] 
   In this module, you'll learn how to streamline the customer onboarding experience within a financial services organization. By setting up self-service tools in Cloud for Financial Services, you will enable relationship managers to monitor the loan process and ensure consistent, reliable customer experiences. Furthermore, customers can efficiently apply for and track a loan by accessing a mobile app or portal, while the automated pipeline helps them review and validate application information.
