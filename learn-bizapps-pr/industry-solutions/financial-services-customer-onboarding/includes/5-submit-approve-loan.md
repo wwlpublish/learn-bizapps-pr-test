@@ -1,22 +1,24 @@
-In this exercise, you will learn how to do the following:
+In this exercise, you will learn how to:
 
-- Log into the Retail Banking portal as a customer and submit a loan request
+- Sign in to the Retail Banking Portal as a customer and then submit a loan request.
 
-- Log into Loan Tracker in Microsoft Teams as a Loan Representative and approve the loan
+- Sign in to the Loan Tracker application in Microsoft Teams as a loan representative and approve the loan.
 
-## Task 1: Log into the Retail Banking portal as a customer and submit a loan request
+## Task 1: Sign in to the Retail Banking Portal as a customer and submit a loan request
 
-1.  Using an In-Private or Incognito window, navigate to [Power Apps](https://make.powerapps.com/?azure-portal=true).
+To sign in to the Retail Banking Portal as a customer and then submit a loan request, follow these steps:
 
-1.  Select the correct environment from the upper right **Environment** drop-down.
+1.  Use an In-Private or Incognito window and go to [Power Apps](https://make.powerapps.com/?azure-portal=true).
+
+1.  Select the correct environment from the **Environment** dropdown menu in the upper-right corner.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the environment menu.](../media/environment-menu.png)](../media/environment-menu.png#lightbox)
+	> [![Screenshot of the Environment dropdown menu in the upper-right corner in Power Apps.](../media/environment-menu.png)](../media/environment-menu.png#lightbox)
 
 1.  Select **Apps** on the left navigation bar.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the navigation menu with apps selected.](../media/apps.png)](../media/apps.png#lightbox)
+	> [![Screenshot of the navigation menu, showing Apps selected.](../media/apps.png)](../media/apps.png#lightbox)
 
 1.  Open the Woodgrove Banking Portal and sign in as Allen Contoso.
 
@@ -29,119 +31,121 @@ In this exercise, you will learn how to do the following:
 1.  Expand Allen Contoso's information and select **Onboarding Wizard** to initiate a mortgage loan request.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of onboarding wizard in the menu.](../media/onboarding-wizard.png)](../media/onboarding-wizard.png#lightbox)
+	> [![Screenshot of the Onboarding Wizard option selected in the menu.](../media/onboarding-wizard.png)](../media/onboarding-wizard.png#lightbox)
 
-1.  Under Mortgage Details, fill out the following information and select **Next**:
+1.  Under **Mortgage details**, fill out the following information and then select **Next**:
 
-	- **Mortgage Purpose**: Home purchase
+	- **Mortgage purpose** - Home purchase
 	
-	- **Loan Term**: 360
+	- **Loan term** - 360
 	
-	- **Mortgage amount required (USD):** 500,000
+	- **Mortgage amount required (USD)** - 500,000
 	
-	- **Down payments (USD):** 80,000
+	- **Down payment (USD)** - 80,000
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the mortgage details.](../media/mortgage-details.png)](../media/mortgage-details.png#lightbox)
+	> [![Screenshot of the Mortgage details filled out.](../media/mortgage-details.png)](../media/mortgage-details.png#lightbox)
 
-7.  Under Your details, fill out the following information and select **Next**:
+7.  Under **Your details**, fill out the following information and then select **Next**:
 
-	- **Title**: Mr.
+	- **Title** - Mr.
 
-	- **First Name**: Allen
+	- **First Name** - Allen
 
-	- **Last Name**: Contoso
+	- **Last Name** - Contoso
 
-	- **Date of Birth**: 10/01/1980
+	- **Date of Birth** - 10/01/1980
 
-	- **National Number**: 555-55-5555
+	- **National Number** - 555-55-5555
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the tell us about yourself details.](../media/self-details.png)](../media/self-details.png#lightbox)
+	> [![Screenshot of the Tell us about yourself details filled out.](../media/self-details.png)](../media/self-details.png#lightbox)
 
-	- **Phone number**: (859) 555-0274
+	- **Phone number** - (859) 555-0274
 
-	- **Street address 1**: 123 Main Street
+	- **Address 1** - 123 Main Street
 
-	- **Email Address**: AllenContoso\@example.com
+	- **Email address** - AllenContoso\@example.com
 
-	- **City**: Redmond
+	- **City** - Redmond
 
-	- **State**: WA
+	- **State** - WA
 
-	- **Country/Region**: USA
+	- **Country/Region** - USA
 
-	- **Zip/Postal Code**: 98072
+	- **Zip/Postal Code** - 98072
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the contact information.](../media/contact-information.png)](../media/contact-information.png#lightbox)
 
-	- **Employment's status**: Full time
+	- **Employment's status** - Full time
 
-	- **Job Title**: Owner
+	- **Job title** - Owner
 
-	- **Employer's name**: Contoso Industries
+	- **Employer's name** - Contoso Industries
 
-	- **When did you begin working there?**: 01/01/2021
+	- **When did you begin working there?** - 01/01/2021
 
-	- **I'm currently working there**: Yes
+	- **I'm currently working there** - Yes
 
-	- **Credit score:** 800
+	- **Credit score** - 800
 
-	- **How many loans have you taken in the last 90 days:** 0
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the tell us about your financial status details.](../media/financial-status.png)](../media/financial-status.png#lightbox)
-
-	- **Asset type:** Savings account
-
-	- **Balance or value (USD):** 250000
-
-	- **Asset description:** Savings
+	- **How many loans have you taken in the last 90 days** - 0
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the assets details.](../media/assets.png)](../media/assets.png#lightbox)
+	> [![Screenshot of the Tell us about your financial status details filled out.](../media/financial-status.png)](../media/financial-status.png#lightbox)
+
+	- **Asset type** - Savings account
+
+	- **Balance or value (USD)** - 250000
+
+	- **Asset description** - Savings
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Your assets details filled out.](../media/assets.png)](../media/assets.png#lightbox)
 
 1.  Select **Sole borrower** and then select **Next**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of sole borrower selected.](../media/sole-borrower.png)](../media/sole-borrower.png#lightbox)
+	> [![Screenshot of Sole borrower selected.](../media/sole-borrower.png)](../media/sole-borrower.png#lightbox)
 
-1.  Scroll down to the bottom of the page, **check** the certification check box, and select **Submit application**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the certification check box with submit application button.](../media/submit-application.png)](../media/submit-application.png#lightbox)
-
-1. Select **Go to my personal page** to see the loan application status.
+1.  Scroll down to the bottom of the page, select the certification checkbox, and then select **Submit application**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the go to my personal page button.](../media/personal-page.png)](../media/personal-page.png#lightbox)
+	> [![Screenshot of the certification checkbox with the Submit application button selected.](../media/submit-application.png)](../media/submit-application.png#lightbox)
+
+1. Select **Go to my personal page** to view the loan application status.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Go to my personal page button.](../media/personal-page.png)](../media/personal-page.png#lightbox)
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the personal page details.](../media/personal-page-details.png)](../media/personal-page-details.png#lightbox)
 
-## Task 2: Log into Loan Tracker in Microsoft Teams as a Loan Representative and approve the loan
+## Task 2: Sign in to Loan Tracker in Microsoft Teams as a loan representative and approve the loan
 
-1.  While logged in to your Microsoft 365 tenant, open a new tab and go to [Microsoft Teams.](https://teams.microsoft.com/?azure-portal=true).
+Follow these steps to sign in to Loan Tracker in Microsoft Teams as a loan representative and approve the loan:
 
-1.  Navigate to the Teams channel you created, go to Loan Tracker and search for the Allen Contoso mortgage loan application that you created.
+1.  While signed in to your Microsoft 365 tenant, open a new tab and go to [Microsoft Teams](https://teams.microsoft.com/?azure-portal=true).
+
+1.  Go to the Teams channel that you created, go to Loan Tracker, and then search for the Allen Contoso mortgage loan application that you created.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the mortgage loan application in the Teams channel.](../media/teams-loan-application.png)](../media/teams-loan-application.png#lightbox)
 
-1.  Click through the steps and fill in the fields in the Loan Application BPF to advance the Loan application to a new stage.
+1.  Go through the steps and then fill in the fields in **Loan application BPF** to advance the loan application to a new stage.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the loan application business process flow on the origination stage.](../media/origination.png)](../media/origination.png#lightbox)
+	> [![Screenshot of Loan application BPF on the Origination stage.](../media/origination.png)](../media/origination.png#lightbox)
 
-1.  **Input** your initials in the **Confirmed By** textbox in the new Quality Check stage. Select **Next Stage**.
+1.  Enter your initials in the **Confirmed By** text box in the new **Quality Check** stage. Select **Next Stage**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the quality check stage.](../media/quality-check-stage.png)](../media/quality-check-stage.png#lightbox)
+	> [![Screenshot of the Quality Check stage, showing the Next Stage button selected.](../media/quality-check-stage.png)](../media/quality-check-stage.png#lightbox)
 
 1.  Close the loan.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the closing stage of the loan.](../media/close-loan.png)](../media/close-loan.png#lightbox)
+	> [![Screenshot of the Closing stage of the loan.](../media/close-loan.png)](../media/close-loan.png#lightbox)
 
-**Congratulations!** You have successfully created a new loan application using the Retail Banking Sample Portal and verified the loan application using Loan Tracker in Microsoft Cloud for Financial Services.
+Congratulations, you have successfully created a new loan application by using the Retail Banking Sample Portal and have verified the loan application by using Loan Tracker in Microsoft Cloud for Financial Services.
