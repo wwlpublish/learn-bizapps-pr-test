@@ -11,4 +11,4 @@ If you intend to publish your solutions and reach out to your customers, the del
 In summary, multiple solution delivery models are available to Microsoft partners and providers to help bring value to customers.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Common Data Model solution delivery model.](../media/4-extensibility.jpg)](../media/4-extensibility.jpg#lightbox)
+> [![Screenshot of Common Data Model solution delivery model.](../media/4-extensibility.png)](../media/4-extensibility.png#lightbox)
