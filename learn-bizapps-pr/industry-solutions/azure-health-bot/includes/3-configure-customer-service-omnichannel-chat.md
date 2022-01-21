@@ -46,9 +46,6 @@ In the following tasks, you'll complete these steps:
 
 1. While in the Enabled User list, scroll to **find your user** or use the **Search** bar.
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of searching for user in enabled user list](../media/35-search-bar.png)](../media/35-search-bar.png#lightbox)
-
 1. Select your user for the training and select **Manage Roles** on the top command bar.
 
     > [!div class="mx-imgBorder"]
