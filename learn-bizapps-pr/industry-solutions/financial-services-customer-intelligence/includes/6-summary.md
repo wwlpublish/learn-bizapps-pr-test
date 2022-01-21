@@ -1,0 +1,1 @@
+This lab taught you how to explore the Customer Insights elements associated with the Customer Intelligence solution in Microsoft Cloud for Financial Services. First, you learned to understand the Retail Banking Churn model. Then you walked through the process of building your own Retail Banking Churn model in Customer Insights using sample data.

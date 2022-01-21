@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-services-customer-intelligence.5-check
+title: Check your knowledge
+metadata:
+ title: Check your knowledge
+ description: Answer the following questions to see what you've learned.
+ ms.date: 01/28/2022
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-mscloud-financial
+durationInMinutes: 8
+quiz:
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: Customer Intelligence uses what app to unify important, relevant, and accurate customer information across multiple sources?
+    choices:
+    - content: Dynamics 365 Customer Insights
+      isCorrect: true
+      explanation: Correct.
+    - content: Power Apps
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Dynamics 365 Customer Service
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Dynamics 365 for Sales
+      isCorrect: false
+      explanation: Incorrect.
+  - content: What are calculated aggregate entities that offer indicators informing segmentation?
+    choices:
+    - content: Retail banking segments
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Retail banking measures
+      isCorrect: true
+      explanation: Correct.
+    - content: Retail banking churn predictions
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Retail banking accounts
+      isCorrect: false
+      explanation: Incorrect.
+  - content: You can ________ customers into groups that share similar values, share-of-wallet, and engagement habits.
+    choices:
+    - content: Churn
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Measure
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Segment
+      isCorrect: true
+      explanation: Correct.
+    - content: Collect
+      isCorrect: false
+      explanation: Incorrect.
+  - content: What Dynamics 365 Customer Insights permissions are required for the Retail Banking churn prediction?
+    choices:
+    - content: System Administrator
+      isCorrect: false
+      explanation: Incorrect.
+    - content: Contributor
+      isCorrect: true
+      explanation: Correct.
+    - content: Read-only
+      isCorrect: false
+      explanation: Incorrect.
+    - content: No permissions are required
+      isCorrect: false
+      explanation: Incorrect.
