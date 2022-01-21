@@ -95,9 +95,6 @@ Once you have completed all the previous tasks to install and configure the prer
 
 1.  Select the **Deploy** button in the upper right.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the deploy button on the solutions page.](../media/deploy-solutions.png)](../media/deploy-solutions.png#lightbox)
-
 	> [!NOTE]
 	> Health assistant is not a required Healthcare solution to complete any lab in this series. If you do want to deploy Health assistant, Sales Insights is a required license.
 
