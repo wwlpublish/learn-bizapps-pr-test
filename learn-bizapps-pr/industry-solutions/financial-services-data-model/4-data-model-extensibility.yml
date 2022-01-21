@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.financial-services-data-model.4-data-model-extensibility
-title: Data Model extensibility and known limitations
+title: Data model extensibility and known limitations
 metadata:
-  title: Data Model extensibility and known limitations
+  title: Data model extensibility and known limitations
   description: Learn about extensibility factors and known limitations.
   ms.date: 01/14/2022
   author: DaveBeasley

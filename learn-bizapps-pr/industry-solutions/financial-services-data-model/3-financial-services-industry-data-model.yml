@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.financial-services-data-model.3-financial-services-industry-data-model
-title: Microsoft Cloud for Financial Services Industry data model
+title: Microsoft Cloud for Financial Services industry data model
 metadata:
-  title: Microsoft Cloud for Financial Services Industry data model
+  title: Microsoft Cloud for Financial Services industry data model
   description: Learn about data model layering and the three interconnected layers in the Cloud for Financial Services data model.
   ms.date: 01/14/2022
   author: DaveBeasley
