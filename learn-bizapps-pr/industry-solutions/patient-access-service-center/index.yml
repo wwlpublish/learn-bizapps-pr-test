@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.patient-access-service-center 
 metadata: 
- title: Enable patients to access the Patient Access Portal
+ title: Enable patients to access the Patient Access portal
  description: Provide patients with access to their health data, appointment scheduling, and information through the Patient Access portal and the Patient Service Center. 
  ms.date: 01/21/2022  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-healthcare  
-title: Enable patients to access the Patient Access Portal
+title: Enable patients to access the Patient Access portal
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Provide patients with access to their health data, appointment scheduling, and information through the Patient Access portal and the Patient Service Center.
