@@ -240,8 +240,7 @@ Typically, to ensure accuracy of the knowledge article, someone else should revi
 
 You should now be in the **Publish** stage and **Status Reason** should have changed to **Approved**.
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Publish stage highlighted and Status Reason in the upper-right corner showing as Approved.](../media/119-publish-status-reason.png)](../media/119-publish-status-reason.png#lightbox)
+   ![Screenshot of the Publish stage highlighted and Status Reason in the upper-right corner showing as Approved.](../media/119-publish-status-reason.png)
 
 Congratulations, you have successfully reviewed and approved the knowledge article. Next, you will learn how to publish the knowledge article to be available during Patient Service Center calls.
 
