@@ -27,7 +27,7 @@ The following screenshot shows an example of a configured schedule board.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Scheduling Parameters button.](../media/scheduling-parameters.png)](../media/scheduling-parameters.png#lightbox)
 
-1.  Change the **Connect to Maps** option to **Yes**, and then select **OK** to accept the terms.
+1.  Change the **Connect to Maps** option to **Yes**, and then select **OK** to accept the terms. If it is already set to yes, you can skip this step. 
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of Connect to Maps set as Yes.](../media/connect-maps.png)](../media/connect-maps.png#lightbox)
