@@ -3,7 +3,7 @@ uid: learn-bizapps.build-dataverse-table-structure.7-summary
 title: Summary
 metadata: 
   title: Summary
-  description: Summary of Dataverse tables and the relationships between the tables.  
+  description: Summary of building the Dataverse table schema for the model-driven app  
   ms.date: 01/19/2022 
   author: jadaphillips 
   ms.author: jadaphillips 
