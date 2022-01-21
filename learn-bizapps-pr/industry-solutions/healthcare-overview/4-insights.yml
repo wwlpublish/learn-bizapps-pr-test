@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.healthcare-overview.4-insights
+title: Improve clinical and operational insights
+metadata: 
+  title: Improve clinical and operational insights
+  description: Learn about improving clinical and operational insights.
+  ms.date: 01/20/2022 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 9 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-insights.md)] 
