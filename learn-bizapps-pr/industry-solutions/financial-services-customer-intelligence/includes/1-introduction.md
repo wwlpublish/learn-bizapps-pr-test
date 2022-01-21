@@ -4,13 +4,13 @@ Retail banking churn prediction is an AI-based model that helps to predict the l
 
 ## Prerequisites
 
-- FSI components, available within Microsoft Cloud for Financial Services in Microsoft Cloud Solution Center). More information: [Deploy Microsoft Cloud for Financial Services solutions powered by Dynamics 365](https://review.docs.microsoft.com/dynamics365/industry/financial-services/deploy/?azure-portal=true).
+- FSI components, available within Microsoft Cloud for Financial Services in Microsoft Cloud Solution Center). More information: [Deploy Microsoft Cloud for Financial Services solutions powered by Dynamics 365](/dynamics365/industry/financial-services/deploy/?azure-portal=true).
 
-- At least Contributor permissions in Dynamics 365 Customer Insights. More information: [User permissions](https://review.docs.microsoft.com/dynamics365/customer-insights/audience-insights/permissions/?azure-portal=true).
+- At least Contributor permissions in Dynamics 365 Customer Insights. More information: [User permissions](/dynamics365/customer-insights/audience-insights/permissions/?azure-portal=true).
 
 - An understanding of what churn means for your bank. A customer has churned if all their financial holdings are canceled or their usage of their financial holdings has dropped.
 
-- Prerequisite data: Learn more [here](https://docs.microsoft.com/dynamics365/industry/financial-services/churn-prediction/?azure-portal=true).
+- Prerequisite data: Learn more [here](/dynamics365/industry/financial-services/churn-prediction/?azure-portal=true).
 
 ## Industry prioritized scenarios
 

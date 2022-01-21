@@ -125,7 +125,7 @@ In this task, you'll create a storage account within the resource group that you
     > [![Screenshot of Add role assignment on the Members tab again.](../media/select-members.png)](../media/select-members.png#lightbox)
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Selected members again.](../media/selected.png)](../media/image.png#lightbox)
+    > [![Screenshot of Selected members again.](../media/selected.png)](../media/selected.png#lightbox)
 
 1. Select **Review + assign** to assign the role.
 
