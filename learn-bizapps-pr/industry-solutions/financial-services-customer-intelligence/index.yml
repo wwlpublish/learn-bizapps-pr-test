@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-bizapps.financial-services-customer-intelligence
 metadata:
- title: Customer Intelligence
- description: In this module, you'll explore the Customer Insights elements associated with the Customer Intelligence solution in Microsoft Cloud for Financial Services. You'll learn to understand the Retail Banking Churn model. Then, you'll walk through the process of building your own Retail Banking Churn model in Customer Insights using sample data.
+ title: Customer Intelligence in Microsoft Cloud for Financial Services
+ description: Learn about customer intelligence in Microsoft Cloud for Financial Services.
  ms.date: 01/28/2022
  author: DaveBeasley
  ms.author: dbeasley
  ms.topic: interactive-tutorial
  ms.prod: learning-mscloud-financial
-title: Customer Intelligence
+title: Customer Intelligence in Microsoft Cloud for Financial Services
 summary: |
   [!include[](../includes/module-banner.md)]
   In this module you'll explore the Customer Insights elements associated with the Customer Intelligence solution in Microsoft Cloud for Financial Services. You'll learn to understand the Retail Banking Churn model. Then, you'll walk through the process of building your own Retail Banking Churn model in Customer Insights using sample data.
@@ -25,7 +25,6 @@ roles:
 - business-user
 - functional-consultant
 products:
-- dynamics-365
 - mscloud-financial
 - industry-solutions
 units:
