@@ -16,6 +16,6 @@ Common Data Model isn't a service. Rather, it's a semantically rich set of table
 
 Common Data Model includes a set of standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as Patient and Care Plan, to simplify the creation, aggregation, and analysis of data. The following screenshot shows some elements of the standard tables with the Healthcare data model highlighted in the overall Common Data Model schema.
 
-   > [![Screenshot of Common Data Model schema.](../media/2-schema.png)](../media/2-schema.png#lightbox)
+[![Screenshot of Common Data Model schema.](../media/2-schema.png)](../media/2-schema.png#lightbox)
 
 For more information, see [Common Data Model](/common-data-model/?azure-portal=true).
