@@ -1,4 +1,4 @@
-Microsfot Cloud for Healthcare includes Patient Access and Patient Service Center.
+Microsoft Cloud for Healthcare includes Patient Access and Patient Service Center.
 
 ### Patient Access
 
