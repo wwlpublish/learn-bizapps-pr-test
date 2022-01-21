@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-bizapps.virtual-visits
+metadata:
+ title: Virtual visits in Microsoft Cloud for Healthcare
+ description: In this module, you'll learn how to configure the Virtual Clinic application as part of the Microsoft Cloud for Healthcare. The Virtual Clinic application allows clinicians to use video conferencing to provide high-quality, personalized, and affordable consultations. Using the entire meetings platform in Microsoft Teams, providers can schedule, manage, and conduct virtual visits with patients.
+ ms.date: 01/21/2022
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-industry-solutions
+title: Virtual visits in Microsoft Cloud for Healthcare
+summary: |
+  [!include[](../includes/module-banner.md)]
+  In this module, you'll learn how to configure the Virtual Clinic application as part of the Microsoft Cloud for Healthcare. The Virtual Clinic application allows clinicians to use video conferencing to provide high-quality, personalized, and affordable consultations. Using the entire meetings platform in Microsoft Teams, providers can schedule, manage, and conduct virtual visits with patients.
+abstract: |
+    In this module, you'll:
+    - Configure the Virtual Clinic app
+    - Configure Microsoft Teams for virtual visits
+    - Schedule a virtual visit in the Patient Portal
+prerequisites: Training environment preparation
+iconUrl: /learn/achievements/virtual-visits.svg
+levels:
+- intermediate
+roles:
+- business-user
+- functional-consultant
+products:
+- industry-solutions
+- mscloud-healthcare
+units:
+- learn-bizapps.virtual-visits.1-introduction
+- learn-bizapps.virtual-visits.2-configure-app
+- learn-bizapps.virtual-visits.3-configure-teams
+- learn-bizapps.virtual-visits.4-schedule-virtual-visit
+- learn-bizapps.virtual-visits.5-check
+- learn-bizapps.virtual-visits.6-summary
+badge:
+  uid: learn-bizapps.virtual-visits.badge
