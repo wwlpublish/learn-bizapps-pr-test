@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.healthcare-overview.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 01/21/2022 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-industry-solutions 
+durationInMinutes: 8 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What are the three prioritized scenarios that Microsoft Cloud for Healthcare focuses on?
+    choices: 
+    - content: Educate patients, encourage care members, increase care coordination
+      isCorrect: false
+      explanation: Microsoft Cloud for Healthcare focuses on enhancing patient engagement, empowering health team collaboration, and improving insights.
+    - content: Engage patients, energize care team, inform care coordinators
+      isCorrect: false 
+      explanation: Microsoft Cloud for Healthcare focuses on enhancing patient engagement, empowering health team collaboration, and improving insights.
+    - content: Enhance patient engagement, empower health team collaboration, improve insights
+      isCorrect: true 
+      explanation: Microsoft Cloud for Healthcare focuses on enhancing patient engagement, empowering health team collaboration, and improving insights.
+    - content: Enlighten patients, ensure quality care plans, initiate home visits
+      isCorrect: false 
+      explanation: Microsoft Cloud for Healthcare focuses on enhancing patient engagement, empowering health team collaboration, and improving insights.
+  - content: Which Microsoft technologies are utilized by Microsoft Cloud for Healthcare?
+    choices: 
+    - content: Dynamics 365 and Power Platform
+      isCorrect: false
+      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Power Platform, Microsoft 365, and Azure.
+    - content: Microsoft 365
+      isCorrect: false 
+      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Power Platform, Microsoft 365, and Azure.
+    - content: Azure
+      isCorrect: false 
+      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Power Platform, Microsoft 365, and Azure.
+    - content: All the above
+      isCorrect: true 
+      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Power Platform, Microsoft 365, and Azure.
+  - content: Which of the following principles help Microsoft maintain data integrity in the cloud and protect patient information?
+    choices: 
+    - content: Security
+      isCorrect: false
+      explanation: Security, privacy, and compliance all help Microsoft maintain data integrity in the cloud and protect patient information.
+    - content: Privacy
+      isCorrect: false 
+      explanation: Security, privacy, and compliance all help Microsoft maintain data integrity in the cloud and protect patient information.
+    - content: Compliance
+      isCorrect: false 
+      explanation: Security, privacy, and compliance all help Microsoft maintain data integrity in the cloud and protect patient information.
+    - content: All the above
+      isCorrect: true 
+      explanation: Security, privacy, and compliance all help Microsoft maintain data integrity in the cloud and protect patient information.
+  - content: Currently, the Microsoft Cloud for Healthcare is focused on which specific healthcare industry subvertical?
+    choices: 
+    - content: Pharmaceuticals
+      isCorrect: false
+      explanation: The Microsoft Cloud for Healthcare is focused on payor/provider.
+    - content: Payor/Provider
+      isCorrect: true 
+      explanation: The Microsoft Cloud for Healthcare is focused on payor/provider.
+    - content: Life Sciences
+      isCorrect: false 
+      explanation: The Microsoft Cloud for Healthcare is focused on payor/provider.
+    - content: Can support any financial industry vertical
+      isCorrect: false 
+      explanation: The Microsoft Cloud for Healthcare is focused on payor/provider.
