@@ -3,7 +3,7 @@ uid: learn-bizapps.patient-access-service-center
 metadata: 
  title: Patient access and service center
  description: Provide patients with access to their health data, appointment scheduling, and information through the Patient Access portal and the Patient Service Center. 
- ms.date: 11/30/2021  
+ ms.date: 01/21/2022  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
