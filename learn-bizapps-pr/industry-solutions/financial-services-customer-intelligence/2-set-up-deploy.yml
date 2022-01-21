@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.financial-services-customer-intelligence.2-set-up-deploy
+title: Set up and deploy Dynamics 365 Customer Insights components
+metadata:
+  title: Set up and deploy Dynamics 365 Customer Insights components
+  description: Learn about Customer Intelligence components, create a Customer Insights instance, and deploy Customer Intelligence from Microsoft Solution Center.
+  ms.date: 01/28/2022
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-mscloud-financial
+durationInMinutes: 6
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/2-set-up-deploy.md)]
