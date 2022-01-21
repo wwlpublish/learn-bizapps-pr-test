@@ -3,7 +3,7 @@ uid: learn-bizapps.customize-view-forms.3-modify-table-forms
 title: Modify table forms in Dataverse
 metadata: 
   title: Modify table forms in Dataverse
-  description: Use table forms to give the user the ability to log new accidents, modify, or delete existing records.
+  description: Use table forms so that users can log new accidents and modify or delete existing records.
   ms.date: 01/15/2022 
   author: jadaphillips 
   ms.author: jadaphillips 
