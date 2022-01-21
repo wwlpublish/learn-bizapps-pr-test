@@ -1,3 +1,7 @@
+Microsfot Cloud for Healthcare includes Patient Access and Patient Service Center.
+
+### Patient Access
+
 You can provide patients with access to their health data, in-person and virtual appointment scheduling, and information through knowledge articles. Patient Access provides a portal that will help you give patients the ability to chat with a health bot, communicate with a caregiver, and view their clinical data.
 
 Patient Access includes the following capabilities that you can provide to your patients:
