@@ -162,7 +162,7 @@ In this task, you'll create a storage account within the resource group that you
 In this task, you'll create an Azure container from the storage account that you created in the previous task. This Azure container will be used as a staging area for data that will be ingested by Customer Insights. To learn more about Azure containers, see [Azure Container Instances documentation](/azure/container-instances/?azure-portal=true).
 
 > [!Important]
-> To download the JSON files that you'll use to transform the data for Customer Insights, select this link: [create-azure-components-json.zip](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/financial-services-industry/create-azure-components-json.zip). In the GitHub page that appears, select the **Download** button on the right.
+> To download the JSON files that you'll use to transform the data for Customer Insights, select this link: [create-azure-components-json.zip](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/financial-services-industry/create-azure-components-json.zip/?azure-portal=true). In the GitHub page that appears, select the **Download** button on the right.
 
 1. In the Storage account you created in the previous task, select **Containers**.
 
