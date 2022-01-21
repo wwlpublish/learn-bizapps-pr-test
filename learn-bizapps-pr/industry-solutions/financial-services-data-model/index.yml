@@ -2,7 +2,7 @@
 uid: learn-bizapps.financial-services-data-model
 metadata:
  title: Financial Services data model in Microsoft Cloud for Financial Services
- description: This Module describes the dedicated data model included in the Microsoft Cloud for Financial Services.
+ description: This module describes the dedicated data model that is included in Microsoft Cloud for Financial Services.
  ms.date: 01/14/2022
  author: DaveBeasley
  ms.author: dbeasley
@@ -11,12 +11,12 @@ metadata:
 title: Financial Services data model in Microsoft Cloud for Financial Services
 summary: |
   [!include[](../includes/module-banner.md)]
-  This Module describes the dedicated data model included in the Microsoft Cloud for Financial Services.
+  This module describes the dedicated data model that is included in Microsoft Cloud for Financial Services.
 abstract: |
     In this module, you will:
-    - Get an overview of Microsoft's Common Data Model
-    - Learn about the intricacies and layers of Cloud for Financial Services Data Model
-    - Learn about the Extensibility options in Cloud for Financial Services Data Model
+    - Get an overview of Common Data Model.
+    - Learn about the intricacies and layers of Cloud for Financial Services data model
+    - Learn about the extensibility options in Cloud for Financial Services data model
 prerequisites: None
 iconUrl: /learn/achievements/financial-services-data-model.svg
 levels:
