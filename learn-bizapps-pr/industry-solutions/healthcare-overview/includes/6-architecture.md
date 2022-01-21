@@ -15,17 +15,17 @@ The Microsoft Cloud for Healthcare is built on a foundation of security and trus
 
 -   **Enhance Patient Experience**: This core healthcare capability is delivered using the following components:
 
-    -   **Personalized Care**: Utilize Patient Access using a Power Apps portal. Allow care coordinators to chat with patients through the Patient Service Center using D365 Omnichannel for Customer Service.
+    -   **Personalized Care**: Utilize Patient Access using a Power Apps portal. Allow care coordinators to chat with patients through the Patient Service Center using Dynamics 365 Omnichannel for Customer Service.
 
-    -   **Patient Outreach**: Target outreach to healthcare patients using D365 Marketing.
+    -   **Patient Outreach**: Target outreach to healthcare patients using Dynamics 365 Marketing.
 
-    -   **Virtual Health:** Integrate Microsoft Teams and a D365 model-driven application created specifically for virtual care providers.
+    -   **Virtual Health:** Integrate Microsoft Teams and a Dynamics 365 model-driven application created specifically for virtual care providers.
 
 -   **Empower Care Team Collaboration**: This core healthcare capability is delivered using the following components:
 
-    -   **Care Collaboration**: Utilize the Health Assistant with D365 Microsoft Sales and Sales Insights Add-in.
+    -   **Care Collaboration**: Utilize the Health Assistant with Dynamics 365 Microsoft Sales and Sales Insights Add-in.
 
-    -   **Care Coordination**: Provide Home Health capabilities using the D365 Field Service application and D365 Field Service mobile app. Care Management is a D365 model-driven application, which has no prerequisite D365 applications.
+    -   **Care Coordination**: Provide Home Health capabilities using the Dynamics 365 Field Service application and Dynamics 365 Field Service mobile app. Care Management is a Dynamics 365 model-driven application, which has no prerequisite Dynamics 365 applications.
 
     -   **Continuous Patient Monitoring:** Utilize Azure Healthcare APIs to unify data from diverse streams such as clinical, imaging, device, and unstructured data using FHIR and DICOM services and Azure IoT Connector for FHIR.
 

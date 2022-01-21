@@ -19,7 +19,7 @@ The applications provided by Microsoft Cloud for Healthcare that focus primarily
 
 -   **Home Health**: Streamline home care with resource management and route optimization tools.
 
--   **Care Team Member**: Access through the Feld Service mobile app to support home care visits and update the specifics of visit on a mobile device.
+-   **Care Team Member**: Access through the Field Service mobile app to support home care visits and update the specifics of visit on a mobile device.
 
 -   **Virtual Visits**: Enable a full-virtual experience by connecting patients and providers through Microsoft Teams to support remote scheduling, consultations, and more.
 
