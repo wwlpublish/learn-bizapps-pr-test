@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.azure-health-bot.7-summary
+title: Summary
+metadata:
+  title: Summary
+  description: Summary of the Microsoft Azure Health bot, Dynamics 365 Customer Service for Omnichannel, and PowerApps Customer self-service portal integration.
+  ms.date: 01/21/2022
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-industry-solutions
+durationInMinutes: 3
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/7-summary.md)]

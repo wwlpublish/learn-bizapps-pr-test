@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.patient-outreach 
+metadata: 
+ title: Patient outreach in Microsoft Cloud for Healthcare
+ description: Learn how to enhance patient engagement within a healthcare organization by using patient outreach tools. The Patient Outreach application is part of Microsoft Cloud for Healthcare, and it focuses on patient campaign management, which helps you organize and automate marketing and communicate with patients. The app helps healthcare providers reach out to their communities and patients in a targeted, efficient way. Providers can choose email, text, regular mail, or a combination, to provide healthcare information to specific groups of patients and community members.
+ ms.date: 01/21/2022 
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-industry-solutions  
+title: Patient outreach in Microsoft Cloud for Healthcare
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The Patient Outreach application in Microsoft Cloud for Healthcare focuses on patient campaign management, which helps you organize and automate marketing and communicate with patients. It helps healthcare providers reach out to their communities and patients in a targeted, efficient way. Providers can choose email, text, regular mail, or a combination, to provide healthcare information to specific groups of patients and community members. 
+abstract: |  
+    In this module, you will: 
+    - Create a patient segment.
+    - Create a marketing email.
+    - Create a patient journey.
+    - Create a virtual healthcare marketing event.
+prerequisites: |  
+    - Training environment preparation module
+    - Care management module 
+iconUrl: /learn/achievements/patient-outreach.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products: 
+- industry-solutions
+- mscloud-healthcare
+units: 
+- learn-bizapps.patient-outreach.1-introduction 
+- learn-bizapps.patient-outreach.2-patient-segment 
+- learn-bizapps.patient-outreach.3-marketing-email 
+- learn-bizapps.patient-outreach.4-patient-journey 
+- learn-bizapps.patient-outreach.5-virtual-event 
+- learn-bizapps.patient-outreach.6-check 
+- learn-bizapps.patient-outreach.7-summary 
+badge: 
+  uid: learn-bizapps.patient-outreach.badge 
