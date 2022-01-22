@@ -17,55 +17,55 @@ quiz:
     choices:
     - content: Dynamics 365 Customer Insights
       isCorrect: true
-      explanation: Correct.
+      explanation: Correct. Customer Insights lets you access important customer information from multiple sources.
     - content: Power Apps
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Customer Insights lets you access important customer information from multiple sources.
     - content: Dynamics 365 Customer Service
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Customer Insights lets you access important customer information from multiple sources.
     - content: Dynamics 365 for Sales
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Customer Insights lets you access important customer information from multiple sources.
   - content: What are calculated aggregate entities that offer indicators informing segmentation?
     choices:
     - content: Retail banking segments
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Measures provide indicators for informing segmentation.
     - content: Retail banking measures
       isCorrect: true
-      explanation: Correct.
+      explanation: Correct. Measures provide indicators for informing segmentation.
     - content: Retail banking churn predictions
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Measures provide indicators for informing segmentation.
     - content: Retail banking accounts
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Measures provide indicators for informing segmentation.
   - content: You can ________ customers into groups that share similar values, share-of-wallet, and engagement habits.
     choices:
     - content: Churn
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Segments allow you to group similar values.
     - content: Measure
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Segments allow you to group similar values.
     - content: Segment
       isCorrect: true
-      explanation: Correct.
+      explanation: Correct. Segments allow you to group similar values.
     - content: Collect
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Segments allow you to group similar values.
   - content: What Dynamics 365 Customer Insights permissions are required for the Retail Banking churn prediction?
     choices:
     - content: System Administrator
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Retail Banking churn prediction is permitted by a Contributor.
     - content: Contributor
       isCorrect: true
-      explanation: Correct.
+      explanation: Correct. Retail Banking churn prediction is permitted by a Contributor.
     - content: Read-only
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Retail Banking churn prediction is permitted by a Contributor.
     - content: No permissions are required
       isCorrect: false
-      explanation: Incorrect.
+      explanation: Incorrect. Retail Banking churn prediction is permitted by a Contributor.
