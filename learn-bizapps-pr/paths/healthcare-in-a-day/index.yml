@@ -26,6 +26,7 @@ products:
 modules:
 - learn-bizapps.training-environment-preparation-healthcare
 - learn-bizapps.healthcare-data-model
+- learn-bizapps.healthcare-overview
 - learn-bizapps.healthcare-care-management 
 - learn-bizapps.patient-outreach 
 - learn-bizapps.home-health

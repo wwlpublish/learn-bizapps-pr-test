@@ -30,6 +30,7 @@ modules:
 - learn-bizapps.unified-customer-profile
 - learn-bizapps.financial-services-customer-onboarding
 - learn-bizapps.financial-services-collaboration-manager
+- learn-bizapps.financial-services-customer-intelligence
 trophy:
   uid: learn.financial-services-in-a-day.trophy
 
