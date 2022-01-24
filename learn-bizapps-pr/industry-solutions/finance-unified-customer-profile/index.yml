@@ -1,0 +1,40 @@
+### YamlMime:Module 
+uid: learn-bizapps.finance-unified-customer-profile 
+metadata: 
+ title: Gain customer insight with Unified customer profile in Financial Services
+ description: In this module, you will explore the Unified customer profile application. This application shows a 360-degree perspective of the customer, consolidated into a unified dashboard within Microsoft Cloud for Financial Services. 
+ ms.date: 01/14/2022  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-industry-solutions  
+title: Gain customer insight with Unified customer profile in Financial Services
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module explores the Unified customer profile application, which shows a 360-degree perspective of the customer, consolidated into a unified dashboard within Microsoft Cloud for Financial Services. After exploring the application and its data model, you will extend the overall scenario by editing the details of a customer’s profile and adding new controls to the application.
+abstract: |  
+    In this module, you will: 
+    - Explore the Unified customer profile data model.
+    - Explore the Unified customer profile application.
+    - Edit customer details in Unified customer profile.
+    - Extend the Unified customer profile application.
+prerequisites: Training environment preparation 
+iconUrl: /learn/achievements/finance-unified-customer-profile.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products: 
+- mscloud-financial
+- industry-solutions 
+units: 
+- learn-bizapps.finance-unified-customer-profile.1-introduction 
+- learn-bizapps.finance-unified-customer-profile.2-data-model 
+- learn-bizapps.finance-unified-customer-profile.3-explore-application 
+- learn-bizapps.finance-unified-customer-profile.4-edit-details 
+- learn-bizapps.finance-unified-customer-profile.5-extend 
+- learn-bizapps.finance-unified-customer-profile.6-check 
+- learn-bizapps.finance-unified-customer-profile.7-summary 
+badge: 
+  uid: learn-bizapps.finance-unified-customer-profile.badge 

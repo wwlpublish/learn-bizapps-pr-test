@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.finance-unified-customer-profile.5-extend 
+title: Exercise - Extend Unified customer profile
+metadata: 
+  title: Exercise - Extend Unified customer profile
+  description: Learn how to extend Unified customer profile.
+  ms.date: 01/14/2022 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-industry-solutions 
+durationInMinutes: 7 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-extend.md)] 
