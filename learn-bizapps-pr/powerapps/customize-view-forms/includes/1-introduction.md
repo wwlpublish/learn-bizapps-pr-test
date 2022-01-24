@@ -1,4 +1,9 @@
+ > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWSJjU]
+
 Previously, by using a Microsoft Excel worksheet as the method to track company accidents, people could view and review logged accidents. This method also offered users the ability to filter the Excel rows based on the cell's criteria. Currently, the role of a table view is to give the user that same ability in the model-driven app. With views, users can review accident records without the risk of overriding or deleting data or causing errors, which are common issues in Excel.
+
+>[!NOTE]
+> If you haven't completed the previous modules within this learning path, download the [packaging files](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/customize-views-forms). These files contain the completed work on the Accident Tracking app thus far.
 
 Views define how a list of records for a specific table will appear in your app. Additionally, views define the columns that are shown and the width, sort behavior, and default filters of the records that are shown in the list. Views are a way for you to present data to the user for review only.
 
@@ -11,7 +16,7 @@ Now that you have an overview of views, you can begin your first exercise and ob
 
 ### Modify default table views
 
-In this section, and the next exercises, you will modify the standard views from the tables that you created in the Build the Dataverse table schema for the model-driven app module (insert link to module and package files). You will turn these views into the one place where app users can review the data that is stored in the tables. Then, you will make sure that the presented data is organized and relevant to the app user. For example, you want to make sure that the app user can review all data that is relevant for an employee under one concise list.
+In this section, and the next exercises, you will modify the standard views from the tables that you created in the Build the Dataverse table structure for the model-driven app module. You will turn these views into the one place where app users can review the data that is stored in the tables. Then, you will make sure that the presented data is organized and relevant to the app user. For example, you want to make sure that the app user can review all data that is relevant for an employee under one concise list.
 
 Sign in to Microsoft Power Apps and then follow these steps to modify default views:
 

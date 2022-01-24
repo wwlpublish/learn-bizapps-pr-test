@@ -121,7 +121,7 @@ The process for modifying the **AccidentTable** form is the same as the previous
 
 1. In the **Properties** pane, for the **Label**, enter **Manager Review**. For the **Name**, enter **ManagerReview**. (Essentially, the name is the same for both; however, because the **Label** is what shows on the view, it should have a space. The **Name** field is a unique field that is used for referencing, so generally it's best to avoid spaces for the name.)
 
-1. Add the following fields to the new section:
+1. Add the following fields to the new tab:
 
     - **ManagerReviewed**
 
@@ -176,7 +176,7 @@ The process for modifying the **AccidentTable** form is the same as the previous
 1. Select **Add Existing Employee**, then press **Enter** in the **Look for records** box to reveal the employee names. Select **Adele Vance** and **Cameron White** from the list.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Employee Tables list in the Lookup Records section, showing records for Delia Dennis and Patti Fernandez.](../media/22-records.png)](../media/22-records.png#lightbox)
+    > [![Screenshot of the Employee Tables list in the Lookup Records section, showing records for employee id 1001 and 1002.](../media/22-records.png)](../media/22-records.png#lightbox)
 
 1. Select **Add** to add the employee names.
 

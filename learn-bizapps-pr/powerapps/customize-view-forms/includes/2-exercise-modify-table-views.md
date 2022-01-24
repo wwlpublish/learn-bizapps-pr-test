@@ -1,5 +1,8 @@
 In this exercise, you will modify the views for **LocationTable** and **TypeofAccidentTable**. The end goal will be to modify the existing view and add the columns of data that are most relevant to the app user into one list.
 
+>[!NOTE]
+> If you haven't completed the previous modules within this learning path, download the [packaging files](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/customize-views-forms). These files contain the completed work on the Accident Tracking app thus far.
+
 ### Modify the view for LocationTable
 
 Follow these steps to modify the view for **LocationTable**:
