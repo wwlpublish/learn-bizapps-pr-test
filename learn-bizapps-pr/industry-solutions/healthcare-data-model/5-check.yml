@@ -29,23 +29,23 @@ quiz:
       explanation: Dynamics 365 Healthcare Accelerator was deprecated in November 2020.
   - content: Which one of the following apps is not used by the Microsoft Cloud for Healthcare data model?
     choices:
-    - content: Dynamics 365 Sales
+    - content: Dynamics 365 Project Operations
       isCorrect: true
-      explanation: Dynamics 365 Sales is not used by the Microsoft Cloud for Healthcare data model.
+      explanation: Dynamics 365 Project Operations is not used by the Microsoft Cloud for Healthcare data model.
     - content: Dynamics 365 Field Service
       isCorrect: false
-      explanation: Dynamics 365 Sales is not used by the Microsoft Cloud for Healthcare data model.
+      explanation: Dynamics 365 Project Operations is not used by the Microsoft Cloud for Healthcare data model.
     - content: Dynamics 365 for Marketing
       isCorrect: false
-      explanation: Dynamics 365 Sales is not used by the Microsoft Cloud for Healthcare data model.
+      explanation: Dynamics 365 Project Operations is not used by the Microsoft Cloud for Healthcare data model.
     - content: Dynamics 365 Customer Service
       isCorrect: false
-      explanation: Dynamics 365 Sales is not used by the Microsoft Cloud for Healthcare data model.
+      explanation: Dynamics 365 Project Operations is not used by the Microsoft Cloud for Healthcare data model.
   - content: The healthcare data model for Dynamics 365 is based on which of the following entities?
     choices:
     - content: Common Data Model
       isCorrect: false
-      explanation: The healthcare data model for Dynamics 365 is based on the Fast Healthcare Interoperability Resources (FHIR) standards framework.
+      explanation: The healthcare data model for Dynamics 365 is based on:
     - content: Fast Healthcare Interoperability Resources (FHIR) standards framework
       isCorrect: true
       explanation: The healthcare data model for Dynamics 365 is based on the Fast Healthcare Interoperability Resources (FHIR) standards framework.
@@ -55,17 +55,17 @@ quiz:
     - content: Azure Synapse
       isCorrect: false
       explanation: The healthcare data model for Dynamics 365 is based on the Fast Healthcare Interoperability Resources (FHIR) standards framework.
-  - content: Common Data Model in Microsoft Cloud for Healthcare sits on top of which application?
+  - content: Common Data Model can be used by which of the following services?
     choices:
     - content: Microsoft Dataverse
       isCorrect: false
-      explanation: Common Data Model sits on top of Microsoft Azure.
+      explanation: Common Data Model is used by Microsoft Datavers, Dynamics 365, Microsoft Power Platform, and Azure.
+    - content: Microsoft Dynamics 365 and Power Platform
+      isCorrect: false
+      explanation: Common Data Model is used by Microsoft Datavers, Dynamics 365, Microsoft Power Platform, and Azure.
     - content: Microsoft Azure
+      isCorrect: false
+      explanation: Common Data Model is used by Microsoft Datavers, Dynamics 365, Microsoft Power Platform, and Azure.
+    - content: All the above
       isCorrect: true
-      explanation: Common Data Model sits on top of Microsoft Azure.
-    - content: Microsoft Teams
-      isCorrect: false
-      explanation: Common Data Model sits on top of Microsoft Azure.
-    - content: Microsoft Word
-      isCorrect: false
-      explanation: Common Data Model sits on top of Microsoft Azure.
+      explanation: Common Data Model is used by Microsoft Datavers, Dynamics 365, Microsoft Power Platform, and Azure.
