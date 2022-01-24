@@ -45,7 +45,7 @@ quiz:
     choices:
     - content: Common Data Model
       isCorrect: false
-      explanation: The healthcare data model for Dynamics 365 is based on:
+      explanation: "The healthcare data model for Dynamics 365 is based on:"
     - content: Fast Healthcare Interoperability Resources (FHIR) standards framework
       isCorrect: true
       explanation: The healthcare data model for Dynamics 365 is based on the Fast Healthcare Interoperability Resources (FHIR) standards framework.
