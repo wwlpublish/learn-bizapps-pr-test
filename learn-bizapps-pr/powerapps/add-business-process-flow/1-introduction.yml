@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.add-business-process-flow.1-introduction 
+title: Introduction
+metadata: 
+  title: Introduction
+  description: Introduction to adding a business process flow inside the model-driven app
+  ms.date: 01/14/2022 
+  author: jadaphillips 
+  ms.author: jadaphillips 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 
