@@ -26,7 +26,8 @@ roles:
 products: 
 - power-platform
 - power-apps
-- common-data-service 
+- common-data-service
+- office-excel 
 units: 
 - learn-bizapps.model-driven-app-solution.1-introduction 
 - learn-bizapps.model-driven-app-solution.2-model-driven-app-solution 
