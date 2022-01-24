@@ -25,6 +25,7 @@ roles:
 - maker  
 products: 
 - power-apps
+- power-platform
 - common-data-service 
 units: 
 - learn-bizapps.build-dataverse-table-structure.1-introduction 

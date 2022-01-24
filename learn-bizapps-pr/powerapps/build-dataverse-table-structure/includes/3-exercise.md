@@ -1,5 +1,8 @@
 In this exercise, you will create two more custom tables to store more data for your employee accident tracking application.
 
+>[!NOTE]
+> If you haven't completed the previous modules within this learning path, download the [packaging files](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/create-dataverse-table). These files contain the completed work on the Accident Tracking app thus far.
+
 ### Create a custom LocationTable
 
 Follow these steps to create a custom **LocationTable**:

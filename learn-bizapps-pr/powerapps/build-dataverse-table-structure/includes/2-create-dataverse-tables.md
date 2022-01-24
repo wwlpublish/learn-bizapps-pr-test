@@ -2,6 +2,9 @@ By default, all full Dataverse environments have a set of standard tables that y
 
 The following sections describe the tables that you will create in this module.
 
+>[!NOTE]
+> If you haven't completed the previous modules within this learning path, download the [packaging files](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/create-dataverse-table). These files contain the completed work on the Accident Tracking app thus far.
+
 ### EmployeeTable
 
 You will use the **EmployeeTable** to track details about employees of your company. For simplicity in this scenario, you will create only the following fields or attributes to track the employees.
