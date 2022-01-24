@@ -3,7 +3,7 @@ uid: learn-bizapps.build-dataverse-table-structure.1-introduction
 title: Introduction
 metadata: 
   title: Introduction 
-  description: Introduction to Dataverse table structures and the relationships between those tables.  
+  description: Introduction to building the Dataverse table schema for the model-driven app  
   ms.date: 01/19/2022 
   author: jadaphillips 
   ms.author: jadaphillips 

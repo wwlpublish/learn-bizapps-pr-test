@@ -1,130 +1,134 @@
-In this exercise, we will create two more custom tables to store additional data for our employee accident tracking application.
+In this exercise, you will create two more custom tables to store more data for your employee accident tracking application.
 
-### Create Custom LocationTable
+### Create a custom LocationTable
 
-1. On the main menu, expand **Dataverse** and select **Tables**.
+Follow these steps to create a custom **LocationTable**:
 
-1. Select **+ New Table**.
+1. On the main menu, expand **Dataverse** and then select **Tables**.
+
+1. Select **+ New table**.
 
 1. Enter the following information:
 
-    - **Display Name:** *LocationTable*
+    - **Display name** - LocationTable
 
-        The **Plural display name** will auto populate automatically, you can choose to modify it but, in our case, we will use the default.
+    - **Plural display name** - This field will automatically populate. You can choose to modify it, but for this exercise, you will use the default.
 
-    - **Primary Name Column Display Name:** *LocationId* (Note: the primary name is the column showed to users when they select records from this table, also the column shown on the many side when a Lookup column is used)
+    - **Primary Name Column > Display name** - LocationId (The primary name is the column that displays for users when they select records from this table. Also, this column is shown on the **many** side when a lookup column is used.)
 
-1. Select **Create**, at the bottom.
+1. Select **Create**.
 
-1. Under the **Columns** tab, find the *LocationId* field and select it.
+1. Under the **Columns** tab, find and select the **LocationId** field.
 
-1. On the columns tab, on the right, change the **Data type** from Text to **Autonumber**.
+1. On the **Columns** tab, change the **Data type** dropdown menu from **Text** to **Autonumber**.
 
-1. On the Autonumber type, select **String prefixed number**.
+1. On the **Autonumber type** dropdown menu, select **String prefixed number**.
 
-1. On the Minimum number of digits, enter **4**.
+1. In the **Minimum number of digits** field, enter **4**.
 
-1. For the Seed value, enter **1000**.
+1. In the **Seed value** field, enter **1000**.
 
-1. With our *LocationTable* now created, select **+ Add Column** and create the following columns below:
+1. Now that your **LocationTable** has been created, select **+ Add column** and then create the following columns:
 
-    - **Display name:** *LocationName*
+    - **Display name** - LocationName
 
-    - **Data type:** *Text*
+    - **Data type** - Text
 
-    - **Required:** Required (we want to prevent users from entering a location record without a name)
+    - **Required** - Required (you want to prevent users from entering a location record without a name)
 
-    - **Searchable:** *Yes*
+    - **Searchable** - Yes
 
-    - **Display name:** *LocationCountry*
+    - **Display name** - LocationCountry
 
-    - **Data type:** *Choice*
+    - **Data type** - Choice
 
-    - In the **Choice** field Select the **+ New choice** to create a new set of choices to store the different countries Contoso has locations in.
+    - In the **Choice** field, select the **+ New choice** button to create a new set of choices to store the different countries that Contoso has locations in.
 
         > [!div class="mx-imgBorder"]
         > [![Screenshot of the Choice field and New choice menu option highlighted.](../media/13-new-choice.png)](../media/13-new-choice.png#lightbox)
 
-It is good practice to name your custom choice with a prefix to help identify it as a choice object later.
+As a good practice, name your custom choice with a prefix to help identify it as a choice object later.
 
-1. For the Display name, enter **ChLocationCountry**.
+1. In the **Display name** field, enter **ChLocationCountry**.
 
-1. Select **View more** and make sure that **Global choice** is selected. (**Global choice** will allow the custom choice to be able to be used in different tables context within the same Dataverse environment, **Local choice** will only allow the choice to be used in this table context only.)
+1. Select **View more** and then make sure that the **Global choice** option is selected. (With the **Global choice** option, you can use the custom choice in different table contexts within the same Dataverse environment. With the **Local choice** option, you can only use the custom choice in this table context only.)
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the ChLocationCountry Display name and Name fields highlighted.](../media/14-location-country.png)](../media/14-location-country.png#lightbox)
+    > [![Screenshot of ChLocationCountry entered in the Display name field and the Global choice option selected.](../media/14-location-country.png)](../media/14-location-country.png#lightbox)
 
-1. In the Items section, select **Add new item** and enter **USA**.
+1. In the **Items** section, select **Add new item** and then enter **USA**.
 
-1. Select **Add new item**, enter **SPAIN**.
+1. Select **Add new item** and then enter **SPAIN**.
 
     > [!NOTE]
-    > You can add additional choices for countries if you would like, but for our example we will just be using USA and SPAIN.
+    > You can add more choices for countries, but for this example, you will use USA and SPAIN.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of USA and Spain options listed as new items.](../media/15-items.png)](../media/15-items.png#lightbox)
 
     > [!NOTE]
-    > Choice fields are great when the number of options is small, and the items don't change often or not at all.
+    > Choice fields are beneficial when the number of options is limited and when items change infrequently or not at all.
 
 1. Select **Save**.
 
-    - **Default value:** *\[No default value\]*
+    - **Default value** - \[No default value\]
 
-        (This is useful if you want to always display a location as the default, such as the most common country where locations exist.)
+        (This setting is useful if you want to always display a location as the default, such as the most common country where locations exist.)
 
-    - **Required:** *Required* (we want to prevent users from entering a location record without a location)
+    - **Required** - Required (you want to prevent users from entering a location record without a location)
 
-    - **Searchable:** *Yes*
+    - **Searchable** - Yes
 
-1. In the bottom right, select **Save Table**, to ensure your changes are saved.
+1. Select **Save Table** to ensure that your changes are saved.
 
-### Create Custom TypeofAccident Table
+### Create a custom TypeofAccident table
 
-1. On the main menu, expand **Dataverse** and select **Tables**.
+To create a custom **TypeofAccident** table, follow these steps:
 
-1. Select **+ New Table**.
+1. On the main menu, expand **Dataverse** and then select **Tables**.
+
+1. Select **+ New table**.
 
 1. Enter the following information:
 
-    - **Display Name:** *TypeofAccidentTable* (Note: You don't need to enter the *Table* suffix, just doing as preference for this exercise).
+    - **Display name** - TypeofAccidentTable (You don't need to enter the *Table* suffix; you're only doing so as a preference for this exercise.)
 
-    The **Plural display name** will auto populate automatically, you can choose to modify it but, in our case, we will use the default.
+    - **Plural display name** - This field will automatically populate. You can choose to modify it, but for this exercise, you will use the default.
 
-    - **Primary Name Column Display Name:** *TypeofAccidentId* (Note: the primary name is the column showed to users when they select records from this table, also the column shown on the many side when a Lookup column is used).
+    - **Primary Name Column > Display name** - TypeofAccidentId (The primary name is the column that is shown to users when they select records from this table. Also, the column is shown on the **many** side when a lookup column is used.)
 
-1. Select **Create**, at the bottom.
+1. Select **Create**.
 
-1. Under the **Columns** tab, find the *TypeofAccidentId* field and Select it.
+1. Under the **Columns** tab, find and select the **TypeofAccidentId** field.
 
-1. On the columns tab, on the right, change the **Data type** from Text to **Autonumber**.
+1. On the **Columns** tab, change the **Data type** dropdown menu from **Text** to **Autonumber**.
 
-1. On the Autonumber type, select **String prefixed number**.
+1. On the **Autonumber type** dropdown menu, select **String prefixed number**.
 
-1. On the Minimum number of digits, enter **4**.
+1. In the **Minimum number of digits** field, enter **4**.
 
-1. For the Seed value, enter **1000**.
+1. In the **Seed value** field, enter **1000**.
 
-1. With our TypeofAccidentTable now created, select **+ Add Column** and create the following columns below:
+1. After the **TypeofAccidentTable** has been created, you can select **+ Add column** and then create the following columns:
 
-    - **Display name:** *AccidentName*
+    - **Display name** - AccidentName
 
-    - **Data type:** *Text*
+    - **Data type** - Text
 
-    - **Required:** *Required*
+    - **Required** - Required
 
-    - **Searchable:** *Yes*
+    - **Searchable** - Yes
 
-    - **Display name:** *AccidentSeverity*
+    - **Display name** - AccidentSeverity
 
-    - **Data type:** *Choice*
+    - **Data type** - Choice
 
-    - **Choice:** Create a new choice option called *ChAccidentSeverity* and add five new items. Items are numbers from 1 to 5
+    - **Choice** - Create a new choice option called **ChAccidentSeverity** and then add five new items. Items are numbered from one to five.
 
-    - **Default value:** *\[No default value\]*
+    - **Default value** - \[No default value\]
 
-    - **Required:** *Required*
+    - **Required** - Required
 
-    - **Searchable:** *Yes*
+    - **Searchable** - Yes
 
-1. In the bottom right, select **Save Table**, to ensure your changes are saved.
+1. Select **Save Table** to ensure that your changes are saved.
