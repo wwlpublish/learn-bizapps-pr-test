@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.add-business-process-flow.4-exercise 
-title: Exercise – Create a Power Automate flow to notify a person when a business process flow is finished
+title: Exercise – Create a Power Automate flow to notify when a business process flow is finished
 metadata: 
-  title: Exercise – Create a Power Automate flow to notify a person when a business process flow is finished
-  description: Steps to create a Power Automate flow to notify a person when a business process flow is finished.
+  title: Exercise – Create a Power Automate flow to notify when a business process flow is finished
+  description: Practice creating a Power Automate flow to notify a person when a business process flow is finished.
   ms.date: 01/14/2022 
   author: jadaphillips 
   ms.author: jadaphillips 
