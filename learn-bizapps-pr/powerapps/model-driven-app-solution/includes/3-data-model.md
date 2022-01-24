@@ -5,7 +5,7 @@ You might find it helpful to visualize the flow of your data in a picture diagra
 > [!div class="mx-imgBorder"]
 > [![Diagram showing the model-driven app data model depicted in tables and relationships.](../media/diagram-data-model.png)](../media/diagram-data-model.png#lightbox)
 
-In the preceding image, number one represents a one-to-many relationship, and number two represents a many-to-many relationship
+In the preceding image, number one represents a one-to-many relationship, and number two represents a many-to-many relationship.
 
 As indicated in the diagram, you will be creating four different tables in Dataverse to be the base for your model-driven app data model. Additionally, you will add the following elements to the app:
 
