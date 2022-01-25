@@ -30,4 +30,4 @@ In this exercise, we'll add the other tables we created in prior modules.
 1. Select **Play**, to view the model-driven app.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Power Apps Accident Tracking Application with the Accident Tracking section highlighted.](../media/preview-2.png)](../media/preview-2.png#lightbox)
+    > [![Screenshot of Power Apps Accident Tracking Application with the Accident Tracking section highlighted.](../media/preview2.png)](../media/preview2.png#lightbox)

@@ -86,9 +86,6 @@ For example, we create a many-to-many relationship between our **EmployeeTable**
 
 1. Select the record for **Rita Book**.
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Power Apps Accident Tracking Application with EmployeeTables open and Rita Book highlighted.](../media/rita.png)](../media/rita.png#lightbox)
-
 1. Now select **Related** and select the **AccidentTables**.
 
     > [!div class="mx-imgBorder"]
