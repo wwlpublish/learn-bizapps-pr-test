@@ -10,7 +10,7 @@ In this exercise, you'll add the other tables that you created in prior modules.
 
 1. Select **Site Map** to navigate to the site map designer.
 
-1. Select the **Employees** sub area, and then on the right under **Components**, drag the new **Sub Area** below your **EmployeeTables** sub area.
+1. Select the **Employees** sub area, and then under **Components**, drag the new **Sub Area** below your **EmployeeTables** sub area.
 
 1. Select **Entity** as the **Type**.
 
