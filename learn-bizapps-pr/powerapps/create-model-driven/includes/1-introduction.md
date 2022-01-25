@@ -1,6 +1,6 @@
 In this module, we'll continue our work on the accident tracking application. 
 
- > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWSyMp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWSyMp]
 
 >[!NOTE]
 > If you haven't completed the previous modules within this learning path, download the [packaging files](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/create-model-driven-app). These files contain the completed work on the Accident Tracking app thus far.
