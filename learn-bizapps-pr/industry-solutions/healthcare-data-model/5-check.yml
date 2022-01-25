@@ -27,20 +27,20 @@ quiz:
     - content: Dynamics 365 Field Service
       isCorrect: false
       explanation: Dynamics 365 Healthcare Accelerator was deprecated in November 2020.
-  - content: Which one of the following apps is not used by the Microsoft Cloud for Healthcare data model?
+  - content: Which one of the following apps isn't used by the Microsoft Cloud for Healthcare data model?
     choices:
     - content: Dynamics 365 Project Operations
       isCorrect: true
-      explanation: Dynamics 365 Project Operations is not used by the Microsoft Cloud for Healthcare data model.
+      explanation: Dynamics 365 Project Operations isn't used by the Microsoft Cloud for Healthcare data model.
     - content: Dynamics 365 Field Service
       isCorrect: false
-      explanation: Dynamics 365 Project Operations is not used by the Microsoft Cloud for Healthcare data model.
+      explanation: Dynamics 365 Project Operations isn't used by the Microsoft Cloud for Healthcare data model.
     - content: Dynamics 365 for Marketing
       isCorrect: false
-      explanation: Dynamics 365 Project Operations is not used by the Microsoft Cloud for Healthcare data model.
+      explanation: Dynamics 365 Project Operations isn't used by the Microsoft Cloud for Healthcare data model.
     - content: Dynamics 365 Customer Service
       isCorrect: false
-      explanation: Dynamics 365 Project Operations is not used by the Microsoft Cloud for Healthcare data model.
+      explanation: Dynamics 365 Project Operations isn't used by the Microsoft Cloud for Healthcare data model.
   - content: The healthcare data model for Dynamics 365 is based on which of the following entities?
     choices:
     - content: Common Data Model
