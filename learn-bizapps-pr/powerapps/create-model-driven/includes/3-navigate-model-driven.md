@@ -1,10 +1,10 @@
-An important aspect of model-driven apps is the data model and how the different tables relate to each other. This section reviews how those relationships help simplify data navigation and allow users to view the following information:
+An important aspect of model-driven apps is the data model and how the different tables relate to each other. This section reviews how those relationships help simplify data navigation and allow users to view:
 
-- Accidents that an employee has been involved in
+- Accidents that an employee has been involved in.
 
-- Accidents that have occurred in a particular location
+- Accidents that have occurred in a particular location.
 
-- A list of all accidents
+- A list of all accidents.
 
 Finding the related records for the preceding information is possible because of the table relationships that are built during your data modeling module. In the next exercises, you'll accomplish this task by using the **Related** view in model-driven apps.
 
@@ -16,7 +16,7 @@ To observe how the app functions, start by creating new records:
 
 1. Select the **Employees** sub area and then select **New**.
 
-   This step will direct you to the main form that you modified in the previous unit. In the next steps, you will create two new employees.
+   This step will direct you to the main form that you modified in the previous unit. In the next steps, you'll create two new employees.
 
 1. Create the first new employee with the following information:
 
@@ -28,9 +28,9 @@ To observe how the app functions, start by creating new records:
 
 1. Select **Save** and then add a new employee picture file.
 
-    **EmployeePicture** - Choose a picture
+    **EmployeePicture** - Choose a picture.
 
-1. Create the second new employee with the following information:
+1. Create another new employee with the following information:
 
     - **EmployeeName** - Andrew Hill
 
@@ -40,21 +40,21 @@ To observe how the app functions, start by creating new records:
 
 1. Select **Save** and then add a new employee picture file.
 
-    **EmployeePicture** - Choose a picture
+    **EmployeePicture** - Choose a picture.
 
-1. Create a new location. Go to **LocationTable** from the app and then select **New**:
+1. Create a new location. Go to **LocationTable** from the app, select **New**, and then add the following information:
 
     - **LocationName** - Contoso East
 
     - **LocationCountry** - USA
 
-1. Create a new type of accident. Go to **TypeofAccidentTable** from the app and then select **New**:
+1. Create a new type of accident. Go to **TypeofAccidentTable** from the app, select **New**, and then add the following information:
 
     - **AccidentName** - Head Trauma
 
     - **AccidentSeverity** - 5
 
-1. Create two new accidents. Go to **AccidentTable** from the app and then select **New**:
+1. Create two new accidents. Go to **AccidentTable** from the app, select **New**, and then add the following information:
 
     - **LocationId** - From the dropdown menu, select **Contoso East**.
 
@@ -93,7 +93,7 @@ For example, you can create a many-to-many relationship between your **EmployeeT
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the General tab in Employee Table, with an arrow pointing to the Related dropdown menu and AccidentTables highlighted.](../media/related.png)](../media/related.png#lightbox)
 
-   You will be directed to a view that lists the accidents that **Rita Book** has been involved in.
+   You'll be directed to a view that lists the accidents that **Rita Book** has been involved in.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of AccidentTable Associated View.](../media/accidents.png)](../media/accidents.png#lightbox)
