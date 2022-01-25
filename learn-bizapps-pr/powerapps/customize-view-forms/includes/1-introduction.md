@@ -16,7 +16,7 @@ Now that you have an overview of views, you can begin your first exercise and ob
 
 ### Modify default table views
 
-In this section, and the next exercises, you will modify the standard views from the tables that you created in the Build the Dataverse table structure for the model-driven app module. You will turn these views into the one place where app users can review the data that is stored in the tables. Then, you will make sure that the presented data is organized and relevant to the app user. For example, you want to make sure that the app user can review all data that is relevant for an employee under one concise list.
+In this section, and the next exercises, you will modify the standard views from the tables that you created in the Build the Dataverse table schema for the model-driven app module. You will turn these views into the one place where app users can review the data that is stored in the tables. Then, you will make sure that the presented data is organized and relevant to the app user. For example, you want to make sure that the app user can review all data that is relevant for an employee under one concise list.
 
 Sign in to Microsoft Power Apps and then follow these steps to modify default views:
 
