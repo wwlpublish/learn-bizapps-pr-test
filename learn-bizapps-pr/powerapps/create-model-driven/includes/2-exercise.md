@@ -1,6 +1,9 @@
-In this exercise, we'll add the other tables we created in prior modules (insert packaging note/file here).
+In this exercise, we'll add the other tables we created in prior modules.
 
-1. Navigate back to your browser tab with the App Designer open to continue where we left off in the previous section. If you've closed the App Designer browser tab, navigate to [make.powerapps.com](https://make.powerapps.com/?azure-portal=true) and under **Apps**, find our **Employee Tracking Application**. Select the three dots and then **Edit**.
+>[!NOTE]
+> If you haven't completed the previous modules within this learning path, download the [packaging files](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/create-model-driven-app). These files contain the completed work on the Accident Tracking app thus far.
+
+1. Navigate back to your browser tab with the app designer open to continue where we left off in the previous section. If you've closed the app designer browser tab, navigate to [make.powerapps.com](https://make.powerapps.com/?azure-portal=true) and under **Apps**, find our **Employee Tracking Application**. Select the three dots and then **Edit**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the App Designer with the menu next to Accident Tracking Application expanded and the edit option highlighted.](../media/edit.png)](../media/edit.png#lightbox)

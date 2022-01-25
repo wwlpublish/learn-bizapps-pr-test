@@ -32,11 +32,11 @@ From the picture above, you may notice the name of that view is actually **Accid
 
     - **AccidentSeverity**
 
-1. Select **Publish**, to save and finish the process.
+1. Select **Publish**, to save, and finish the process.
 
 1. Select **Back**, to return to Dataverse.
 
-1. Select **Apps,** find and select the **Accident Tracking Application**.
+1. Select **Apps,** find, and select the **Accident Tracking Application**.
 
 1. Navigate to **EmployeeTables** and then select the **Rita Book** record.
 

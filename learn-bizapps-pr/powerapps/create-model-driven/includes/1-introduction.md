@@ -1,27 +1,32 @@
-In this module, we will continue our work on the accident tracking application. You can download the package file (insert link) to access the application work built thus far.
+In this module, we'll continue our work on the accident tracking application. 
+
+ > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWSyMp]
+
+>[!NOTE]
+> If you haven't completed the previous modules within this learning path, download the [packaging files](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/create-model-driven-app). These files contain the completed work on the Accident Tracking app thus far.
 
 Using a Microsoft Excel workbook to track accidents gave users a one stop to view, review and add new accidents records. The goal of building a model-driven app is to achieve the same concept. It will package all of the tables, views, and forms into a business application where users can do all the activities related to accident tracking.
 
-The best way to get familiar with the classic app designer is to jump right into building an app. During the app creation process, you'll learn more about the different components of model-driven apps and how to work with the **App Designer**.
+The best way to get familiar with the classic app designer is to jump right into building an app. During the app creation process, you'll learn more about the different components of Microsoft model-driven apps and how to work with the **app designer**.
 
-The **App Designer** is where all the components of the app come together to put the tables, views, and forms we created into one single cohesive business application. The concept of the model-driven app is to have one business application where app users can review and update all the records related to a business process. In our example we'll create a model-driven app where users can view and update employees, locations, accident types, and report accidents efficiently.
+The **app designer** is where all the components of the app come together to put the tables, views, and forms we created into one single cohesive business application. The concept of the model-driven app is to have one business application where app users can review and update all the records related to a business process. In our example, we'll create a model-driven app where users can view and update employees, locations, accident types, and report accidents efficiently.
 
-Let's review the components of the **App Designer**:
+Let's review the components of the **app designer**:
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of .Picture showing sample app designer view.](../media/app-designer.png)](../media/app-designer.png#lightbox)
 
-- **Site Map** - This is where the general navigation of the model driven app will be designed. The site map represents the order and menus that appear on the left side of a model-driven app.
+- **Site Map** - This is where the general navigation of the model -driven app will be designed. The site map represents the order and menus that appear on the left side of a model-driven app.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the site map for the app with Accident tracking highlighted.](../media/site-map.png)](../media/site-map.png#lightbox)
 
-- **Dashboards and Business Process Flows** - Dashboards allow you to present data using charts and visuals. Business process flows are a visual guide that helps user navigate a business process. We'll talk more about BPF in the next module
+- **Dashboards and Business Process Flows** - Dashboards allow you to present data using charts and visuals. Business process flows are a visual guide that helps user navigate a business process. We'll talk more about Business Process Flows (BPF) in the next module.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the business process flow for the New AccidentTable.](../media/flow.png)](../media/flow.png#lightbox)
 
-- **Entity View** - This section will list out all of the tables being used and referenced in the model-driven app
+- **Entity View** - This section will list out all of the tables being used and referenced in the model-driven app.
 
 ## Create a new model-driven app
 
