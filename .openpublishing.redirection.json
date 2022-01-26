@@ -1,6 +1,111 @@
 {
   "redirections": [
     {
+      "source_path": "learn-bizapps-pr/paths/work-healthcare-solution/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/get-started-healthcare/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/get-started-healthcare/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/get-started-healthcare/1-5-features-benefits.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/get-started-healthcare/2-technologies.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/get-started-healthcare/3-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/get-started-healthcare/4-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/deployment-planning-healthcare/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/deployment-planning-healthcare/1-azure-deployment-planning.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/deployment-planning-healthcare/2-healthcare-powered-deployment-planning.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/deployment-planning-healthcare/3-cloud-deployment-planning.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/deployment-planning-healthcare/4-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/deployment-planning-healthcare/5-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/use-healthcare-solution/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/use-healthcare-solution/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/use-healthcare-solution/2-patient-access.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/use-healthcare-solution/3-home-health.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/use-healthcare-solution/4-patient-outreach.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/use-healthcare-solution/5-patient-service-center.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/use-healthcare-solution/6-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/industry-solutions/use-healthcare-solution/7-summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
+      "redirect_document_id⁯": false
+    },
+    {
       "source_path": "learn-bizapps-pr/flow/intro-power-automate-buttons/7-exercise.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-power-automate-buttons/",
       "redirect_document_id⁯": false
