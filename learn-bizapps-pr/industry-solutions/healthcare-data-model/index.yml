@@ -20,7 +20,7 @@ abstract: |
 prerequisites: None
 iconUrl: /learn/achievements/healthcare-data-model.svg
 levels:
-- intermediate
+- beginner
 roles:
 - business-user
 - functional-consultant
