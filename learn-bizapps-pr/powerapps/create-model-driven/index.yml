@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.create-model-driven 
 metadata: 
- title: Create an accident tracking model-driven app
- description: Learn how to combine key table components into an employee accident tracking application. A model-driven app is a combination of tables, table relationships, table views, and forms working cohesively to allow users to track information efficiently and effectively.
+ title: Create an accident tracking model-driven app in Power Apps
+ description: Learn how to create an employee accident tracking model-driven app in Microsoft Power Apps.
  ms.date: 01/20/2022  
  author: jadaphillips  
  ms.author: jadaphillips  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Create an accident tracking model-driven app
+title: Create an accident tracking model-driven app in Power Apps
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn how to combine key table components into an employee accident tracking application. A model-driven app is a combination of tables, table relationships, table views, and forms working cohesively to allow users to track information efficiently and effectively.
+  Learn how to combine key table components into an employee accident tracking model-driven app in Power Apps. A model-driven app is a combination of tables, table relationships, table views, and forms that work cohesively so that users can track information efficiently.
 abstract: |  
     In this module, you will: 
-    - Learn how to create a model-driven app
-    - Publish the model-driven app
-    - Understand the different components of model-driven apps
-prerequisites: The Target Audience should have a basic understanding of Microsoft model-driven apps and Microsoft Dataverse
+    - Learn how to create a model-driven app in Power Apps.
+    - Publish the model-driven app.
+    - Discover the different components of model-driven apps.
+prerequisites: Basic understanding of Microsoft model-driven apps and Microsoft Dataverse
 iconUrl: /learn/achievements/create-model-driven.svg  
 levels:  
 - beginner   
