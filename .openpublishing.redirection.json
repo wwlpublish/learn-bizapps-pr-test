@@ -1,7 +1,7 @@
 {
   "redirections": [
     {
-      "source_path": "learn-bizapps-pr/paths/work-healthcare-solution/",
+      "source_path": "learn-bizapps-pr/paths/work-healthcare-solution/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/healthcare-in-a-day/",
       "redirect_document_id⁯": false
     },
