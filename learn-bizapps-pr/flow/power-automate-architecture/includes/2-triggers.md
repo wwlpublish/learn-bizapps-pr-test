@@ -17,13 +17,13 @@ This section will focus on using the triggers for Dataverse. Automated flows can
 
 In the trigger step, you have to specify the trigger condition:
 
-- Create
-- Create or update
-- Create or delete
-- Create or update or delete
-- Delete
-- Update
-- Update or delete
+- Added
+- Added or deleted
+- Added or modified
+- Added or modified or deleted
+- Deleted
+- Modified
+- Modified or deleted
 
 The **Dataverse** connector has a single instant trigger when a flow step is run from a business process flow. This feature allows a Power Automate cloud flow to be manually initiated by a user as a step in a business process flow.
 
