@@ -18,7 +18,7 @@ In this box, you can type any text you want. This can be text or just a copy and
 When you use text in a Power Automate expression, you'll use the single quote (') at the beginning and end of each string. For example, if you wanted to combine the string “Today is” and the output from our expression above that returns a date in an expression, you would use the **Concat** function and your syntax would be:
 
 ```regex
-concat('Today is',outputs('Compose'))
+concat('Today is ',outputs('Compose'))
 ```
 
 > [!div class="mx-imgBorder"]
