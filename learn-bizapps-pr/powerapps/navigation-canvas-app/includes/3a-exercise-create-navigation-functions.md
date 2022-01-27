@@ -6,7 +6,7 @@ navigate to different screens depending on the control they select. In
 the following example, you will create a three screen app to
 demonstrate the **Navigate** and **Back()** functionality.
 
-1. Go to the [Power Apps Studio](https://make.powerapps.com/?azure-portal=true). If you are using the virtual environment, skip to step 2.
+1. Go to the [Power Apps Studio](https://make.powerapps.com/?azure-portal=true).
 
 1. Select the **New app** dropdown and choose **Canvas**
 1. A new window will open in your browser, create a name and choose **Tablet layout**. Select **Create**.
