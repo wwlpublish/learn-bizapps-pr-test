@@ -32,11 +32,11 @@ After selecting the appropriate UI elements, the actions are configured to press
 
 Like UI elements, images can be added to the flow, and used in related actions.
 
-When clicking the **Capture new Image** button, the cursor changes, enabling users to select an image to extract in detail:
+When clicking the **Capture new image** button, the cursor changes, enabling users to select an image to extract in detail:
 
 ![Screenshot of the capture image cursor with crosshairs.](..\media\capture-image.png)
 
-After the image is given a name, it can be used in image recognition Actions, like **Move Mouse to Image**:
+After the image is given a name, it can be used in image recognition Actions, like **Move mouse to image**:
 
 ![Screenshot of the Move mouse to image action properties dialog.](..\media\move-mouse-to-image-action-properties.png)
 

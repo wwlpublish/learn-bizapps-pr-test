@@ -20,7 +20,7 @@ The selected options will take effect when this action encounters an exception. 
 
 ![Screenshot of the alternative path subflow.](..\media\alternative-path-subflow.png)
 
-Then configure the previous action’s exception handling accordingly, by pressing **New Rule** and selecting **Run subflow**:
+Then configure the previous action’s exception handling accordingly, by pressing **New rule** and selecting **Run subflow**:
 
 ![Screenshot of the Launch Excel action properties exception handling with alternative path added.](..\media\launch-excel-action-properties-exception-handling-continued.png)
 
