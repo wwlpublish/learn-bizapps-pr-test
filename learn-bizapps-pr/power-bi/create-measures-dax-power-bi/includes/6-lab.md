@@ -28,7 +28,7 @@ In this task, you will create the **Salesperson** table (direct relationship to 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Salesperson new column formula.](../media/lab-6-2-ssm.png)](../media/lab-6-2-ssm.png#lightbox)
 
-	For your convenience, all DAX definitions in this lab can be copied from the **D:\DA100\Lab06A\Assets\Snippets.txt** file.
+	For your convenience, all DAX definitions in this lab can be copied from the **D:\DA100\Lab05\Assets\Snippets.txt** file.
 
 	A calculated table is created by first entering the table name, followed by the equals symbol (=), followed by a DAX formula that returns a table. The table name cannot already exist in the data model.
 
