@@ -15,8 +15,8 @@ summary: |
 abstract: |
     In this module, you'll:
     - Explore Customer Intelligence components.
-    - Learn about the Retail Banking Churn model.
-    - Build a Retail Banking Churn model.
+    - Learn about the Retail banking churn model.
+    - Build a Retail banking churn model.
 prerequisites: Training environment preparation
 iconUrl: /learn/achievements/financial-services-customer-intelligence.svg
 levels:
