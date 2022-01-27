@@ -1,11 +1,10 @@
 ﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.author-advanced-formulas.4a-exercise-forall
-title: Lab - Using the ForAll function in a gallery
-labId: 107547
+title: Exercise - Using the ForAll function in a gallery
 metadata: 
-  title: Lab - Using the ForAll function in a gallery 
+  title: Exercise - Using the ForAll function in a gallery 
   description: This exercise will teach you how to use the ForAll function in a gallery.
-  ms.date: 10/15/2021  
+  ms.date: 01/26/2022  
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial 
@@ -14,5 +13,4 @@ metadata:
 durationInMinutes: 7 
 content: |
   [!include[](../includes/unit-banner.md)]
-  [!include[](../includes/power-apps-accessing-labs.md)]
   [!include[](includes/4a-exercise-forall.md)] 
