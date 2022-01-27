@@ -11,12 +11,12 @@ metadata:
 title: Customer Intelligence in Microsoft Cloud for Financial Services
 summary: |
   [!include[](../includes/module-banner.md)]
-  In this module you'll explore the Customer Insights elements associated with the Customer Intelligence solution in Microsoft Cloud for Financial Services. You'll learn to understand the Retail Banking Churn model. Then, you'll walk through the process of building your own Retail Banking Churn model in Customer Insights using sample data.
+  In this module, you'll explore the Dynamics 365 Customer Insights elements that are associated with the Customer Intelligence solution in Microsoft Cloud for Financial Services. You'll learn about the Retail Banking Churn model and how to use sample data to build your own Retail Banking Churn model in Customer Insights.
 abstract: |
     In this module, you'll:
-    - Explore Customer Intelligence components
-    - Understand the Retail Banking Churn model
-    - Build a Retail Banking Churn model
+    - Explore Customer Intelligence components.
+    - Learn about the Retail Banking Churn model.
+    - Build a Retail Banking Churn model.
 prerequisites: Training environment preparation
 iconUrl: /learn/achievements/financial-services-customer-intelligence.svg
 levels:
