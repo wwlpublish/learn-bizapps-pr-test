@@ -13,7 +13,7 @@ durationInMinutes: 8
 quiz:
   title: Answer the following questions to see what you've learned.
   questions:
-  - content: Customer Intelligence uses what app to unify important, relevant, and accurate customer information across multiple sources?
+  - content: Customer intelligence uses which app to unify important, relevant, and accurate customer information across multiple sources?
     choices:
     - content: Dynamics 365 Customer Insights
       isCorrect: true
@@ -27,7 +27,7 @@ quiz:
     - content: Dynamics 365 for Sales
       isCorrect: false
       explanation: Incorrect. Customer Insights lets you access important customer information from multiple sources.
-  - content: What are calculated aggregate entities that offer indicators informing segmentation?
+  - content: What are calculated aggregate entities that offer indicators for informing segmentation?
     choices:
     - content: Retail banking segments
       isCorrect: false
@@ -55,7 +55,7 @@ quiz:
     - content: Collect
       isCorrect: false
       explanation: Incorrect. Segments allow you to group similar values.
-  - content: What Dynamics 365 Customer Insights permissions are required for the Retail Banking churn prediction?
+  - content: What Dynamics 365 Customer Insights permissions are required for the Retail banking churn prediction?
     choices:
     - content: System Administrator
       isCorrect: false
