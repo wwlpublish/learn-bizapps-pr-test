@@ -1,19 +1,21 @@
 ### YamlMime:LearningPath
 uid: learn-bizapps.financial-services-in-a-day
 metadata:
-  title: Get setup quickly with Microsoft Cloud for Financial Services
+  title: Get started with Microsoft Cloud for Financial Services
   description: Learn how to use Microsoft Cloud for Financial Services.
   ms.date: 01/14/2022
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-financial-services-in-a-day
-title:  Get setup quickly with Microsoft Cloud for Financial Services
+title:  Get started with Microsoft Cloud for Financial Services
 summary: |
   [!include[](../../includes/lp-banner.md)]
-  Microsoft Cloud for Financial Services provides capabilities to manage data to deliver differentiated experiences, empower employees, and combat financial crime while facilitating security, compliance, and interoperability.  
+  Microsoft Cloud for Financial Services provides capabilities to manage financial services data at scale. This makes it easier for financial services organizations to deliver differentiated experiences, empower employees, and combat financial crime. These experiences also facilitate security, compliance, and interoperability of financial data.  
+  
+  In this Learning Path, you’ll gain a foundational understanding of Microsoft Cloud for Financial Services and its core components. You'll be guided through hands-on exercises as you configure, extend, and integrate financial services applications deployed through Microsoft Cloud for Financial Services using Dynamics 365, Power Platform, Microsoft 365, and Azure in your own environment. You'll dive into various modules to explore the Microsoft Cloud for Financial Services applications, including Unified Customer Profile, Customer Onboarding, Collaboration Manager for Loans, and Customer Intelligence.
 prerequisites: |
-  - To successfully complete the exercises in this Learning Path, complete the module on [environment preparation](/learn/modules/training-environment-preparation/).
+  - To complete the exercises in this Learning Path, complete the module on [environment preparation](/learn/modules/training-environment-preparation/).
 iconUrl: /learn/achievements/financial-services-in-a-day.svg
 levels:
 - intermediate
