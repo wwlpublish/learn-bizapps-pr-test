@@ -1,6 +1,6 @@
-Customer Intelligence unifies important, relevant, and accurate customer information across multiple sources through Microsoft Dynamics 365 Customer Insights. This solution empowers the agent to engage with customers based on relevant insights. Customer Intelligence combines demographic information, financial measures, and attitudes to form financial segments and AI models. These insights help agents to quickly understand the customer.
+Customer intelligence unifies important, relevant, and accurate customer information across multiple sources through Microsoft Dynamics 365 Customer Insights. This solution empowers the agent to engage with customers based on relevant insights. Customer intelligence combines demographic information, financial measures, and attitudes to form financial segments and AI models. These insights help agents to quickly understand the customer.
 
-Retail banking churn prediction is an AI-based model that helps predict the likelihood of a customer leaving the bank or becoming dormant. To create a new retail banking churn prediction, after you fulfill the prerequisites, go to the **Intelligence > Predictions** page in the Dynamics 365 Customer Insights portal. Select **My predictions** to view other predictions that you've created.
+Retail banking churn prediction is an AI-based model that helps predict the likelihood of a customer leaving the bank or becoming dormant. To create a new Retail banking churn prediction, after you fulfill the prerequisites, go to the **Intelligence > Predictions** page in the Dynamics 365 Customer Insights portal. Select **My predictions** to view other predictions that you've created.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ Make sure that you meet the following prerequisites prior to starting this modul
 
 ## Industry prioritized scenarios
 
-Customer Intelligence focuses on the **Deliver Differentiated Customer Experience and Empower Employees** scenario of Microsoft Cloud for Financial Services by helping you personalize customer interactions with relevant financial information through banking customer engagement.
+Customer intelligence focuses on the **Deliver Differentiated Customer Experience and Empower Employees** scenario of Microsoft Cloud for Financial Services by helping you personalize customer interactions with relevant financial information through banking customer engagement.
 
 > [!div class="mx-imgBorder"]
 > [![Microsoft Cloud for Financial Services capabilities for retail banking include Customer onboarding, Unified customer profile, Risk assurance and support, Regulatory compliance assessments, and so on.](../media/bank-capabilities.png)](../media/bank-capabilities.png#lightbox)
