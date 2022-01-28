@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.financial-services-customer-intelligence.3-create-components-build-factory
-title: Create Azure Components and build a data pipeline in Azure Data Factory
+title: Create Azure components and build a data pipeline in Azure Data Factory
 metadata:
-  title: Create Azure Components and build a data pipeline in Azure Data Factory
-  description: Learn to build a data pipeline and ingest sample data into an Azure data lake.
+  title: Create Azure components and build a data pipeline in Azure Data Factory
+  description: Learn how to build a data pipeline and ingest sample data into an Azure data lake.
   ms.date: 01/21/2022
   author: DaveBeasley
   ms.author: dbeasley
