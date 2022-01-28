@@ -1,4 +1,4 @@
-In this exercise, you'll create a new location record for the **Lamna Healthcare Company** organization. They've opened a new branch in Redmond, Washington and you need to ensure that this location is in the system.
+In this exercise, you'll create a new location record for the **Lamna Healthcare Company** organization. They've opened a new branch in Redmond, Washington, and you need to ensure that this location is in the system.
 
 1.  In Power Apps, select **Apps** in the left site map. Select and open **Care Management**.
 
