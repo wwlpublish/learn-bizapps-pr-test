@@ -6,7 +6,7 @@ In this exercise, you'll explore the Customer intelligence components of Microso
 
 [Engagement insights (preview)](/dynamics365/customer-insights/engagement-insights/?azure-portal=true) helps you interactively analyze how your customers are using your services and products, individually and holistically, on websites, mobile apps, and connected products. You can combine behavioral analytics with transactional, demographic, survey, and other data types from Microsoft Dynamics 365 Customer Insights. With Engagement insights, you can maintain full control over your customer data to ensure the highest level of data governance and compliance
 
-## Task 1: Create a Dynamics 365 Customer Insights instance
+## Create a Dynamics 365 Customer Insights instance
 
 In this task, you'll create a new Customer Insights sandbox environment. To set up **Customer intelligence** correctly, you need to first create a Customer Insights sandbox environment and then connect it to your Microsoft Dataverse environment with no data sources specified. After you're connected, you'll use [Microsoft Cloud Solution Center](https://solutions.microsoft.com/?azure-portal=true) to deploy **Customer intelligence** from **Unified customer profile**, specifying the Customer Insights environment that you will create in this task.
 
