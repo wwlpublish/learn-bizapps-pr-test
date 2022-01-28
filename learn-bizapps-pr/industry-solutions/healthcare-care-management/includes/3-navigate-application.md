@@ -101,4 +101,4 @@ In this exercise, you'll navigate the patient record and explore the detailed in
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Related tab list.](../media/related.png)](../media/related.png#lightbox)
 
-Congratulations, you have explored the Care Management app and its featured data within a patient record.
+Congratulations, you've explored the Care Management app and its featured data within a patient record.
