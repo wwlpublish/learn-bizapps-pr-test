@@ -15,16 +15,16 @@ quiz:
   questions: 
   - content: What are the key capabilities for Care Management?
     choices: 
-    - content: Care Team, Care Plan, Clinical Timeline, Virtual Clinic 
+    - content: Care Team, Care Plan, Clinical Timeline, and Virtual Clinic 
       isCorrect: true 
       explanation: The key capabilities for Care Management are Care Team, Care Plan, Clinical Timeline, and Virtual Clinic. 
-    - content: Care Team, Medications, Encounters, Patient Interactions
+    - content: Care Team, Medications, Encounters, and Patient Interactions
       isCorrect: false 
       explanation: The key capabilities for Care Management are Care Team, Care Plan, Clinical Timeline, and Virtual Clinic. 
-    - content: Care Plan, Clinical Timeline, Resource Scheduling, Patient Interactions
+    - content: Care Plan, Clinical Timeline, Resource Scheduling, and Patient Interactions
       isCorrect: false 
       explanation: The key capabilities for Care Management are Care Team, Care Plan, Clinical Timeline, and Virtual Clinic. 
-    - content: Care Plan, Clinical Timeline, Virtual Clinic, Encounters
+    - content: Care Plan, Clinical Timeline, Virtual Clinic, and Encounters
       isCorrect: false 
       explanation: The key capabilities for Care Management are Care Team, Care Plan, Clinical Timeline, and Virtual Clinic. 
   - content: Which entity table does the data model use for Patients, Practitioners, and Related People?
@@ -41,25 +41,25 @@ quiz:
     - content: Organization
       isCorrect: false 
       explanation: The data model uses Contact as the entity table for Patients, Practitioners, and Related People.
-  - content: What are the four sections of the sitemap in the Care Management application?
+  - content: What are the four sections of the site map in the Care Management application?
     choices: 
-    - content: Administration, Care Management, Clinical Data, Health Analytics
+    - content: Administration, Care Management, Clinical Data, and Health Analytics
       isCorrect: false
       explanation: The four sections of the sitemap in the Care Management application are Administration, Care Management, Clinical Data, and Templates.
-    - content: Administration, Care Management, Clinical Data, Templates
+    - content: Administration, Care Management, Clinical Data, and Templates
       isCorrect: true 
       explanation: The four sections of the sitemap in the Care Management application are Administration, Care Management, Clinical Data, and Templates.
-    - content: Administration, Care Plans, Timeline, Health Analytics
+    - content: Administration, Care Plans, Timeline, and Health Analytics
       isCorrect: false 
       explanation: The four sections of the sitemap in the Care Management application are Administration, Care Management, Clinical Data, and Templates.
-    - content: Administration, Care Plans, Timeline, Templates
+    - content: Administration, Care Plans, Timeline, and Templates
       isCorrect: false 
       explanation: The four sections of the sitemap in the Care Management application are Administration, Care Management, Clinical Data, and Templates.
-  - content: Does the Clinical Timeline tab on the Patient form display both a calendar pane that shows events for the selected week and an agenda pane that shows previous or upcoming events for that patient?
+  - content: Does the Clinical Timeline tab on the Patient form display a calendar pane that shows events for the selected week and an agenda pane that shows previous or upcoming events for that patient?
     choices: 
     - content: Yes
       isCorrect: true 
-      explanation: The Clinical Timeline tab on the Patient form displays both a calendar pane that shows events for the selected week and an agenda pane that shows previous or upcoming events for that patient.
+      explanation: The Clinical Timeline tab on the Patient form displays a calendar pane that shows events for the selected week and an agenda pane that shows previous or upcoming events for that patient.
     - content: No
       isCorrect: false 
-      explanation: The Clinical Timeline tab on the Patient form displays both a calendar pane that shows events for the selected week and an agenda pane that shows previous or upcoming events for that patient.
+      explanation: The Clinical Timeline tab on the Patient form displays a calendar pane that shows events for the selected week and an agenda pane that shows previous or upcoming events for that patient.

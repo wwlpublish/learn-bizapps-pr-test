@@ -11,12 +11,12 @@ metadata:
 title: Manage healthcare data with Care Management in Microsoft Cloud for Healthcare
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The Care Management application as part of Microsoft Cloud for Healthcare allows health organizations to view and manage their healthcare data all in one place.  It helps providers create, personalize, and view care plans as well as manage care teams, view clinical timelines, and acquire health analytics. 
+  The Care Management application, as part of Microsoft Cloud for Healthcare, allows health organizations to view and manage their healthcare data in one place. It helps providers create, personalize, and view care plans, in addition to managing care teams, viewing clinical timelines, and acquiring health analytics.
 abstract: |  
     In this module, you will: 
-    - Explore the Healthcare Data Model
-    - Navigate the Care Management application
-    - Create a new location record for Lamna Healthcare Company
+    - Explore the Microsoft Cloud for Healthcare data model.
+    - Navigate the Care Management application.
+    - Create a new location record for Lamna Healthcare Company.
 prerequisites: Training environment preparation
 iconUrl: /learn/achievements/healthcare-care-management.svg  
 levels:  
