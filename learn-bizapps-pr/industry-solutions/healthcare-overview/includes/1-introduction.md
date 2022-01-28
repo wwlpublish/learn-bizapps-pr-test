@@ -64,7 +64,7 @@ Microsoft Cloud for Healthcare provides integrated and trusted capabilities. The
 
 These capabilities support three priority scenarios, which are highlighted by Microsoft Cloud for Healthcare in the following ways:
 
--   **Enhance patient engagement** - Enable patient data to flow securely across the care continuum, creating individualized patient experiences and delivering virtual health tools to facilitate communication between providers and patients
+-   **Enhance patient engagement** - Enable patient data to flow securely across the care continuum, creating individualized patient experiences and delivering virtual health tools to facilitate communication between providers and patients.
 
 -   **Empower health team collaboration** - Expedite the health teams' ability to coordinate care, collaborate on a shared, unified view of the patient, and continually monitor patients across remote locations.
 
