@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.financial-services-customer-intelligence.4-configure-churn-model
-title: Configure the Retail Banking churn model in Dynamics 365 Customer Insights
+title: Set up the Retail banking churn model in Customer Insights
 metadata:
-  title: Configure the Retail Banking churn model in Dynamics 365 Customer Insights
-  description: Learn to configure the Retail Banking churn model in Dynamics 365 Customer Insights.
+  title: Set up the Retail banking churn model in Customer Insights
+  description: Learn how to set up the Retail banking churn model in Dynamics 365 Customer Insights.
   ms.date: 01/21/2022
   author: DaveBeasley
   ms.author: dbeasley
