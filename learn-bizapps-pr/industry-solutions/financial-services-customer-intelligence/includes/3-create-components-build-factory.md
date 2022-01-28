@@ -130,7 +130,7 @@ In this task, you'll create a storage account within the resource group that you
 1. Select **Review + assign** to assign the role.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Members tab on the Add role assignment page, showing the Review + assign button.](../media/assign.png)](../media/assign.png#lightbox)
+    > [![Screenshot of the Members tab on the Add role assignment page, showing the Review + assign button after member selection.](../media/assign.png)](../media/assign.png#lightbox)
 
 1. Return to **Access Control (IAM)** and select **Add role assignment** one more time.
 
