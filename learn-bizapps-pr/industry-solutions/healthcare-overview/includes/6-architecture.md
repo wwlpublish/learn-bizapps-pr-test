@@ -7,7 +7,7 @@ Microsoft Cloud for Healthcare is built on a foundation of security and trust, a
 
 The core architectural components of Microsoft Cloud for Healthcare are:
 
--   **Core healthcare systems** - Represent your existing health data sources and systems, including EHR, medical imaging, -omics, external data, IoMT, billing and finance, and CRM data.
+-   **Core healthcare systems** - Represent your existing health data sources and systems, including EHR, medical imaging, external data, IoMT, billing and finance, and CRM data.
 
 -   **Security and compliance** - Ingest and enrich any volume, variety, or velocity of healthcare data while gaining cloud computing capabilities and services from the world's most secure and compliant cloud.
 
