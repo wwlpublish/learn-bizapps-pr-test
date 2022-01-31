@@ -49,7 +49,7 @@ A scope determines whose actions trigger the flow, whether anyone in the organiz
 
 1. Run the **Customer Check In** business process flow.
 
-1. Enter some values in the first stage fields and then enter a value in the
+1. Enter some values in the first-stage fields and then enter a value in the
 **Name** field on the main screen (the field is on the **General** form under
 the Business process flow diagram) so that values are in the record before you save it.
 
