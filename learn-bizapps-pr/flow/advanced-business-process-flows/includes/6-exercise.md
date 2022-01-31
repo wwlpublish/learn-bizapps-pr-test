@@ -1,14 +1,10 @@
-One last enhancement needs to be made before you can complete your business process
-flow. Before you begin, quickly review the fields on the main form under the
-diagram of your business process flow.
+One last enhancement needs to be made before you can complete your business process flow. Before you begin, quickly review the fields on the main form under the diagram of your business process flow.
 
 The following screenshot shows a new instance of your business process flow.
 Notice that only two fields are shown on the main screen (outlined in red): **Name** and **Owner**.
 The name of the record is similar to the title of this record, and the
 owner of the record is the current user who created the instance of the
-current business process flow. As mentioned previously, you can enhance 
-the user experience by ensuring an appropriate number of fields for every 
-stage. Now, you will add some fields to make this screen more useful.
+current business process flow. As mentioned previously, you can enhance the user experience by ensuring an appropriate number of fields for every stage. Now, you’ll add some fields to make this screen more useful.
 
 ![Immersive flow with only two fields on main form.](../media/25-immersive-flow-2-fields-main-form.png)
 
@@ -40,9 +36,9 @@ that you have been working in, select **Data**, **Tables**, and then select the 
 
     - **Service Comments** - Multiline Text
 
-1. After you have added the new fields, save the entity by
+1. After you’ve added the new fields, save the entity by
 selecting the **Save Table** button. Don't skip saving the entity or
-your new fields will not be saved with the entity.
+your new fields won’t be saved with the entity.
 
    ![Screenshot of Power Apps Customer Check In on the Fields tab with the Save Entity button highlighted.](../media/16-save-entity.png)
 
@@ -61,20 +57,23 @@ open the model-driven forms designer.
    ![Select the Switch to classic button in the ribbon.](../media/32-select-switch-classic.png)
 
 1. Scroll down to the **General** section at the bottom of the form.
-Double-click the **Name** field, rename the label to **Invoice Description**, and then select the **OK** button.
+Double-click the **Name** field, rename the label to **Invoice Number**, and then select the **OK** button.
 
-	> [!div class="mx-imgBorder"]
-	> [![Rename the Name field to Invoice Title and select the OK button.](../media/33-rename-title-field.png)](../media/33-rename-title-field.png#lightbox)
+   > [!div class="mx-imgBorder"]
+    > [![General section of the form.](../media/31a-general-section-of-form.png)](../media/33-rename-title-field.png#lightbox)
 
-1. Drag the new fields that you previously added in this exercise from the list of fields on the right to the General form area on the left. 
+    > [!div class="mx-imgBorder"]
+    > [![Rename the Name field to Invoice Title and select the OK button.](../media/33-rename-title-field.png)](../media/33-rename-title-field.png#lightbox)
 
-	> [!div class="mx-imgBorder"]
-	> [![Drag fields from the list of fields on the right to the canvas on the left.](../media/331-drag-field.png)](../media/331-drag-field.png#lightbox)
- 
+1. Drag the new fields that you previously added in this exercise from the list of fields on the right to the General form area on the left.
+
+    > [!div class="mx-imgBorder"]
+    > [![Drag fields from the list of fields on the right to the canvas on the left.](../media/331-drag-field.png)](../media/331-drag-field.png#lightbox)
+
 1. Select the **Save** button and then select the **Publish** button in the ribbon at the top of the form designer.
-   
-	> [!div class="mx-imgBorder"]
-	> [![Save and publish form by selecting buttons in the ribbon.](../media/34-save-publish-form.png)](../media/34-save-publish-form.png#lightbox)
+
+    > [!div class="mx-imgBorder"]
+    > [![Save and publish form by selecting buttons in the ribbon.](../media/34-save-publish-form.png)](../media/34-save-publish-form.png#lightbox)
 
 1. Close the **Designer** tab in the browser.
 
@@ -89,7 +88,7 @@ main form and the stages and then save the record.
 ## Add read-only fields to the form
 
 Your next task is to add a few fields to the main form
-from the data that you entered within a few of the stages. You will
+from the data that you entered within a few of the stages. You’ll
 make these fields read-only.
 
 1. Navigate and sign in to [Power Apps](https://make.powerapps.com/), make sure that you are in the environment
@@ -126,7 +125,7 @@ General section of the form, as shown in the following screenshot.
 
     - Last Name
 
-    - Smog Cert Number
+    - Certificate Number
 
     ![Screenshot of Customer Check In form with General fields highlighted.](../media/41-add-additional-fields-stages.png)
 
@@ -141,19 +140,11 @@ read-only, and then select the **OK** button.
 
     - Last Name
 
-    - Smog Cert Number
+    - Certificate Number
 
 1. Select the **Save** button in the ribbon and then select **Publish**.
 
     ![Screenshot highlighting the Save and Publish buttons in the ribbon.](../media/43-save-publish-form.png)
-
-1. Close the **Form Designer** tab and return to the business process
-flow designer. Double-click the first stage and rename it to **Customer
-Info**. Double-click the second stage and rename to **Automobile Info**, as
-shown in the following figure. Select the **Update** button in the ribbon so all
-the changes are saved and ready to use.
-
-   ![Screenshot showing the stages properly named.](../media/44-name-stages.png)
 
 1. Close the flow designer screen and refresh your browser. Run the **Customer
 Check In** flow to check that all the changes that you made are working properly.
@@ -161,4 +152,4 @@ The business process flow should look like the following screenshot.
 
    ![Main form with all fields added for Automobile Info.](../media/45-nearly-finished-main-form.png)
 
-Congratulations, you've created a working business process flow.  
+Congratulations, you've created a working business process flow.

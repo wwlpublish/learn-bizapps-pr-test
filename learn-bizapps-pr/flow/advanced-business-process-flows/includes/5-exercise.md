@@ -1,6 +1,6 @@
 In the previous exercise, you created a business process flow that includes logical
 branching for vehicles that were made in 1971 or before and all others that were made in
-1972 and beyond. Now, you will enhance that flow by adding a simple instant flow in
+1972 and beyond. Now, you’ll enhance that flow by adding a simple instant flow in
 Power Automate. Instant flows can connect to hundreds of cloud services, extending your business
 process flow beyond data entry and basic logic. You'll create an instant flow that sends an email to
 the store manager (you) when a new customer check-in record is created.
@@ -21,8 +21,8 @@ the store manager (you) when a new customer check-in record is created.
 
     ![Screenshot of the search results for Dataverse with the When a record is created option highlighted.](../media/20-search-common-data-service.png)
 
-1. Choose the change type **Create** and the table used in your business process flow, in this case **Customer Check In**. You must also choose a scope. 
-A scope determines whose actions trigger the flow, whether anyone in the organization, in your business unit, or yourself (user). For now, you can choose 
+1. Choose the change type **Added** and the table used in your business process flow, in this case **Customer Check In**. You must also choose a scope.
+A scope determines whose actions trigger the flow, whether anyone in the organization, in your business unit, or yourself (user). For now, you can choose
 **User** since you have yet to test this process. Once complete, select **+ New step**.
 
     ![Dataverse When a record is created trigger with the three values filled in and the New step button highlighted.](../media/21-fill-out-record-created-trigger.png)
@@ -47,7 +47,7 @@ A scope determines whose actions trigger the flow, whether anyone in the organiz
 
 1. Close the instant flow that you created and then select **My flows** and **Business process flows**.
 
-1. Run the **Customer Check In** business process flow.  
+1. Run the **Customer Check In** business process flow.
 
 1. Enter some values in the first stage fields and then enter a value in the
 **Name** field on the main screen (the field is on the **General** form under
@@ -57,4 +57,4 @@ the Business process flow diagram) so that values are in the record before you s
 
    ![Received email notification message in Outlook email message.](../media/24-received-email-notification.png)
 
-Congratulations, you have now created an instant flow that works with your business process flow.
+Congratulations, you’ve now created an instant flow that works with your business process flow.
