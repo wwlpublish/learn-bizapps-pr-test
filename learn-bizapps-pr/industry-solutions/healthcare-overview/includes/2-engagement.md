@@ -9,7 +9,7 @@ Microsoft Cloud for Healthcare enables enriched data to flow through every point
 > [!div class="mx-imgBorder"]
 > [![Diagram of patient engagement enhancement.](../media/engagement.png)](../media/engagement.png#lightbox)
 
-Microsoft Cloud for Healthcare gives you the tools to help increase patient satisfaction and build stronger relationships through enhanced, personalized experiences. Whether on the go or with a provider, patients can stay engaged in their healthcare to ensure that they can schedule appointments or get questions answered when they need. By increasing access to self-service tools and by personalizing outreach, your providers can ensure that every patient receives care that's tailored to their unique needs.
+Microsoft Cloud for Healthcare gives you the tools to help increase patient satisfaction and build stronger relationships through enhanced, personalized experiences. Whether on the go or with a provider, patients can be engaged in their healthcare to ensure that they can schedule appointments or get questions answered when they need. By increasing access to self-service tools and by personalizing outreach, your providers can ensure that every patient receives care that's tailored to their unique needs.
 
 ## Featured healthcare applications
 
@@ -76,7 +76,7 @@ Various features that are included in **Patient Access** are:
 
 ### Patient Service Center
 
-With the **Patient Service Center** feature, you can engage with your patients in the way that they want by using chat. Additionally, you can monitor automatic conversations through the Azure Health Bot service. Service agents can help your patients with information and setting up appointments.
+With the **Patient Service Center** feature, you can engage with your patients in the way that they want by using chat. Additionally, you can monitor automatic conversations through the Azure Health Bot Service. Service agents can help your patients with information and setting up appointments.
 
 **Patient Service Center** builds on Dynamics 365 Customer Service and its Digital Messaging Add-in to add healthcare-specific capabilities to Microsoft Cloud for Healthcare.
 
