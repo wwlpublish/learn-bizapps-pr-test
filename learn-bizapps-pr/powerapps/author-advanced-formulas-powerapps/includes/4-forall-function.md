@@ -1,7 +1,7 @@
 Previously you learned to use single-purpose functions to operate
 against a table. Those are ideal and perform well, but sometimes you
-need more flexibility or you need to do something that is not covered by one of those
-functions. For those situations, there is the **ForAll** function.
+need more flexibility or you need to do something that isn’t covered by one of those
+functions. For those situations, there’s the **ForAll** function.
 
 The **ForAll** function evaluates a formula for all records of a table.
 The formula can calculate a value and/or perform actions, such as
@@ -12,8 +12,8 @@ formula. You can reference them by name as you would any other value.
 You can also reference control properties and other values throughout your app.
 
 For example, you could use ForAll(CustomerOrders,
-Office365.SendEmail(Email, "Thank you", " You are a great customer " & FirstName)) to send a separate email to all of the email addresses in the
-CustomerOrders table. The email subject would be "Thank You" and the body would be "You are a great customer" followed by the value stored in the
+Office365.SendEmail(Email, "Thank you", " You’re a great customer " & FirstName)) to send a separate email to all of the email addresses in the
+CustomerOrders table. The email subject would be "Thank You" and the body would be "You’re a great customer" followed by the value stored in the
 FirstName field.
 
 This example varies from the **Concat** example in two important ways.
@@ -27,7 +27,7 @@ of the fields for each record are available to be used.
 Things to know when using ForAll
 --------------
 
-With **ForAll** there is a tremendous amount of power, but there are
+With **ForAll** there’s a tremendous amount of power, but there are
 also several things to know as you start to build your formula.
 
 -   The formula can include functions that take action, such as
@@ -53,7 +53,7 @@ also several things to know as you start to build your formula.
     undefined.
 
 The **ForAll** function has a lot more rules than most Power Apps
-functions. Also, because you cannot use functions like Set and
+functions. Also, because you can’t use functions like Set and
 UpdateContext sometimes you must find another way to approach your
 formula. Often the reason you wanted to use **Set** with **ForAll** was
 to track the number of records that were modified or to capture

@@ -1,4 +1,4 @@
-When working with data sometimes you need to be able to modify the data. Common scenarios include taking a table of records and combining the records into one string to display or taking a string and turning it into multiple records in a table. With
+When working with data sometimes, you need to be able to modify the data. Common scenarios include taking a table of records and combining the records into one string to display or taking a string and turning it into multiple records in a table. With
 Power Apps you use the **Concat** and **Split** functions to accomplish
 this task.
 
@@ -42,8 +42,7 @@ A separator string is used to break the text string apart. The separator
 can be zero, one, or more characters that are matched as a whole in the
 text string. Using a zero length or blank separator results in each
 character being broken out individually. The matched separator
-characters are not returned in the result. If no separator match is
-found then the entire text string is returned as a single result.
+characters aren’t returned in the result. If no separator match is found, then the entire text string is returned as a single result.
 
 For example, you could use Split("Canada, Mexico, United States of
 America", ",") to create a single column table with three records. The
@@ -52,5 +51,5 @@ data from a multi-value field and you want to use those values in a
 drop-down control. In this example, you would set the Items property of
 the drop-down control with the formula.
 
-In the next unit, you will learn how to process a formula once for every
+In the next unit, you’ll learn how to process a formula once for every
 record in a table. 

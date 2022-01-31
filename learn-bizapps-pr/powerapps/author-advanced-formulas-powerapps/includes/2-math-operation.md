@@ -8,7 +8,7 @@ Power Apps](/powerapps/maker/canvas-apps/formula-reference/?azure-portal=true).
 ## Counting functions
 
 Counting functions are used to compute the number of records in a table
-of data based on criteria. They are often used to provide visual
+of data based on criteria. They’re often used to provide visual
 indicators back to the user.
 
 For example, you could use CountIf(TasksTable, Complete = "No") to count
@@ -52,7 +52,7 @@ The aggregate functions are used to provide summary information from a table of 
 For example, you could use Max(CustomerOrders, SalePrice) to find the
 maximum value stored in the SalePrice column of the CustomerOrders
 table. With this information, you could confirm that the price entered
-in a Form control did not exceed that price before letting the user
+in a Form control didn’t exceed that price before letting the user
 submit the form.
 
 Power Apps includes the following aggregate functions:
@@ -84,5 +84,5 @@ Or by passing a table and expression to them such as:
 > Average(OrdersTable, OrderAmount)
 
 This formula would return the average of the OrderAmount column from the
-OrdersTable. In a later unit, you will learn how to split and combine data with
+OrdersTable. In a later unit, you’ll learn how to split and combine data with
 functions. 

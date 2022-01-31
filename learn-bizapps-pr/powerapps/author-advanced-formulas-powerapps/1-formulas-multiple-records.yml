@@ -4,7 +4,7 @@ title: Formulas that process multiple records
 metadata: 
   title: Formulas that process multiple records 
   description: Formulas that process multiple records 
-  ms.date: 06/29/2021  
+  ms.date: 01/31/2022  
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial 
@@ -14,4 +14,3 @@ durationInMinutes: 6
 content: |
   [!include[](../includes/unit-banner.md)]
   [!include[](includes/1-formulas-multiple-records.md)] 
-
