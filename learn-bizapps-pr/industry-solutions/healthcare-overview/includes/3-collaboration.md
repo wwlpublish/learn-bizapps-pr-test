@@ -85,7 +85,7 @@ Various features that are included in the Care Team Member app are:
 
 -   **Home Visit Summary** - View a full summary of the visit. If the user has adequate permissions, they can update the estimated date and time of the visit.
 
--   **Home Visit Tasks** - View the tasks that must be performed during the home visit. The user can also update these tasks as they are completed.
+-   **Home Visit Tasks** - View the tasks that must be performed during the home visit. The user can also update these tasks as they're completed.
 
 -   **Patient Details** - View the full detail of a patient's record, including clinical data, care plans, clinical timeline, and care team viewer.
 
