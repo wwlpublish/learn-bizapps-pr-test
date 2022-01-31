@@ -11,7 +11,7 @@ The core architectural components of Microsoft Cloud for Healthcare are:
 
 -   **Security and compliance** - Ingest and enrich any volume, variety, or velocity of healthcare data while gaining cloud computing capabilities and services from the world's most secure and compliant cloud.
 
--   **Industry data model** - Includes comprehensive data tables and relationships, which helps make it easier for healthcare organizations to quickly set up and deploy solutions by using a common collection of entities.
+-   **Industry data model** - Includes comprehensive data tables and relationships, which help make it easier for healthcare organizations to quickly set up and deploy solutions by using a common collection of entities.
 
 -   **Microsoft platform layers** - The core healthcare capabilities are built on top of the industry-leading cloud technologies from Microsoft, including Azure, Microsoft Power Platform, Dynamics 365, and Microsoft 365. Use your data to power applications and business processes.
 
