@@ -60,7 +60,7 @@ open the model-driven forms designer.
 Double-click the **Name** field, rename the label to **Invoice Number**, and then select the **OK** button.
 
    > [!div class="mx-imgBorder"]
-    > [![General section of the form.](../media/31a-general-section-of-form.png)](../media/33-rename-title-field.png#lightbox)
+    > [![General section of the form.](../media/31a-general-section-form.png)](../media/31a-general-section-form.png#lightbox)
 
     > [!div class="mx-imgBorder"]
     > [![Rename the Name field to Invoice Title and select the OK button.](../media/33-rename-title-field.png)](../media/33-rename-title-field.png#lightbox)
