@@ -39,7 +39,7 @@ Modern healthcare organizations have data coming from a myriad of sources. Patie
 > [!div class="mx-imgBorder"]
 > [![Diagram of healthcare data sources.](../media/data-sources.png)](../media/data-sources.png#lightbox)
 
-Ingesting and managing several different forms of data requires many systems. Electronic medical records (EMR) and electronic health records (EHR) systems might house structured data to help make actionable insights easier. However other unstructured data sources, such as device and sensor data, SDoH data, imaging data, -omic data, voice data, financial data, and operational data, make analyzing data to reveal actionable insights difficult. Because different organizations use different systems and tools, it's nearly impossible to create a consolidated view of the patient as they travel from provider to provider.
+Ingesting and managing several different forms of data requires many systems. Electronic medical records (EMR) and electronic health records (EHR) systems might house structured data to help make actionable insights easier. However other unstructured data sources, such as device and sensor data, SDoH data, imaging data, voice data, financial data, and operational data, make analyzing data to reveal actionable insights difficult. Because different organizations use different systems and tools, it's nearly impossible to create a consolidated view of the patient as they travel from provider to provider.
 
 To overcome these challenges, healthcare organizations must harness the power of their data.
 
