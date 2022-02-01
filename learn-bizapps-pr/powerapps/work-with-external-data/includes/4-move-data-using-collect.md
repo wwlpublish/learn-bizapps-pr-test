@@ -1,4 +1,4 @@
-Collections are a special kind of data source. They're local to the app and not backed by a connection to a service in the cloud, so the information can not be shared across devices for the same user or between users. Collections can be created dynamically with the Collect function. They don't need to be established ahead of time, as connection-based data sources do. In other words, collections are just variables, so their contents aren't saved if the user closes the app, and anyone else running the app can't access any data that they contain. To save the information from your collection, write it to a data source. There are two primary ways of saving data in
+Collections are a special kind of data source. They're local to the app and not backed by a connection to a service in the cloud, so the information can’t be shared across devices for the same user or between users. Collections can be created dynamically with the Collect function. They don't need to be established ahead of time, as connection-based data sources do. In other words, collections are just variables, so their contents aren't saved if the user closes the app, and anyone else running the app can't access any data that they contain. To save the information from your collection, write it to a data source. There are two primary ways of saving data in
 a collection.
 
 ## Use the Collect function
@@ -46,7 +46,7 @@ FavoriteColorColumnSource: FavoriteColor}))
 This formula would add records to the data source named **DataSourceName**, setting the **NameColumnSource** and
 **FavoriteColorColumnSource** columns with the values from your collection but only for the records where **UpdateSource** was set to true.
 
-This example could be further optimized, but it should demonstrate to you the concept and pieces for dynamically saving your collection to a data source.
+This example could be further optimized, but it should demonstrate the concept and pieces for dynamically saving your collection to a data source.
 
 For more information on ForAll, see [ForAll Documentation](/powerapps/maker/canvas-apps/functions/function-forall/?azure-portal=true).
 

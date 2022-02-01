@@ -15,7 +15,7 @@ Add tabular data sources by following the same steps as in the previous procedur
 
 1.  Select **+ Add a connection**.
 
-1.  At the bottom of **Connect to data**, click **Connect**.
+1.  At the bottom of **Connect to data**, select **Connect**.
 
 	In order to connect to an on-premises SharePoint server, you need to have selected the on-premises data gateway.
 
@@ -29,11 +29,11 @@ Add tabular data sources by following the same steps as in the previous procedur
 
 1.  Select **Connect**.
 
-You have connected to your SharePoint list, and you can display the data in the gallery control.
+You’ve connected to your SharePoint list, and you can display the data in the gallery control.
 
 ## Add an action data source such as Office 365 Outlook
 
-You can use this method to add any data source. After it is added, it will be available throughout your app.
+You can use this method to add any data source. After it’s added, it will be available throughout your app.
 
 1.  In Power Apps Studio, select the **View** tab.
 

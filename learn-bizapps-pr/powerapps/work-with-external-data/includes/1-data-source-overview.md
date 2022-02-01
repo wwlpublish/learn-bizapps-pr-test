@@ -29,7 +29,7 @@ premium connectors, such as these examples:
 Data sources provide data as either actions or one or more tables. Some data sources, such as Dataverse, SharePoint, and SQL Server provide your data in a structured table. With table data sources, you can easily
 display the data in a gallery or a form. In Power Apps, you can use multiple functions for working with tables of data.
 
-Other data sources, such as the Office 365 Users connector or Project Online, are action-based. When you connect to these data sources, you can run different actions by using various functions. Generally, you must explicitly connect these functions to controls to interact with them. They do not work automatically like tabular data sources. For example, this function connects to Office 365 and queries user data.
+Other data sources, such as the Office 365 Users connector or Project Online, are action-based. When you connect to these data sources, you can run different actions by using various functions. Generally, you must explicitly connect these functions to controls to interact with them. They don’t work automatically like tabular data sources. For example, this function connects to Office 365 and queries user data.
 
 ```
 Office365Users.SearchUser()

@@ -1,6 +1,6 @@
-In this exercise, you will work with external data in your canvas app.
+In this exercise, you’ll work with external data in your canvas app.
 
-You will need to download the [spreadsheet](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/shape-data/shape-data-learn.zip) to complete this exercise. Select download once the link opens. Extract the Excel spreadsheet and upload the spreadsheet to your own OneDrive.
+You’ll need to download the [spreadsheet](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/shape-data/shape-data-learn.zip) to complete this exercise. Select download once the link opens. Extract the Excel spreadsheet and upload the spreadsheet to your own OneDrive.
 
 ## Add a data source
 
@@ -8,7 +8,7 @@ You will need to download the [spreadsheet](https://github.com/MicrosoftDocs/msl
 
 1.  Create a new Power Apps Canvas app from blank and call it *ExternalData.* Select the **Tablet** format.
 
-1.  Make sure you have added the Excel sheet (link above) to your OneDrive.
+1.  Make sure you’ve added the Excel sheet (link above) to your OneDrive.
 
 1.  On the **Insert** tab, select **Gallery**, and then select the option for a vertical gallery.
 
@@ -21,20 +21,20 @@ You will need to download the [spreadsheet](https://github.com/MicrosoftDocs/msl
 
 1.  Select **+ Add a connection**.
 
-1.  At the bottom of **OneDrive for Business**, click **Connect**.
+1.  At the bottom of **OneDrive for Business**, select **Connect**.
 
 1.  When prompted to **Choose an Excel file,** navigate to where you stored the Excel file you downloaded in Step 3 and select it.
 
-1. Check the **Items** table and then click **Connect**.
+1. Check the **Items** table and then select **Connect**.
 
 	> [!div class="mx-imgBorder"]
 	> ![Screenshot of connecting data.](../media/connect-data.png)
 
-You have connected to your **Excel** table in **OneDrive for Business**, and you can display the data in the gallery control.
+You’ve connected to your **Excel** table in **OneDrive for Business**, and you can display the data in the gallery control.
 
 ## Display and interact with your data in a gallery
 
-1.  Click on the gallery you have added.
+1.  Select the gallery you’ve added.
 
 1.  In the properties pane on the right, select the drop-down menu for the **Layout** property.
 
@@ -53,9 +53,9 @@ You have connected to your **Excel** table in **OneDrive for Business**, and you
 	> [!div class="mx-imgBorder"]
 	> ![Screenshot of gallery fields.](../media/gallery-fields.png)
 
-1.  Click the X towards the right of **Data** to exit
+1.  Select the X towards the right of **Data** to exit
 
-1.  On the gallery, click on the price in the first row.
+1.  On the gallery, select the price in the first row.
 
 1.  In the formula bar, make sure Text is Selected and type the following:
 
@@ -66,13 +66,13 @@ You have connected to your **Excel** table in **OneDrive for Business**, and you
 	> [!div class="mx-imgBorder"]
 	> ![Screenshot of Unit Price Text.](../media/unit-price-text.png)
 
-1.  On the gallery, click on the image in the first row.
+1.  On the gallery, select the image in the first row.
 
 1.  In the properties pane on the right, select the drop-down menu for the **Image Position** property.
 
-1. Select **Fill** and you will see that the image now fills up the space.
+1. Select **Fill** and you’ll see that the image now fills up the space.
 
-You have now configured and interacted with the data in your gallery.
+You’ve now configured and interacted with the data in your gallery.
 
 ## Moving data between collections and data sources
 
@@ -80,7 +80,7 @@ You have now configured and interacted with the data in your gallery.
 
 1.  Change the text on the button to **Add to Collection**.
 
-1.  Click on the button, and in the formula bar, replace OnSelect value of **false** with this expression:
+1.  Select the button, and in the formula bar, replace OnSelect value of **false** with this expression:
 
     ```powerappsfl
     Collect(ItemsCollection, Items)
@@ -95,13 +95,13 @@ You have now configured and interacted with the data in your gallery.
 	> [!div class="mx-imgBorder"]
 	> ![Screenshot of the add to Collection button.](../media/add-collection-button.png)
 
-1.  Click the **Preview** button in the top right of the Power Apps editor to enter preview mode. Click on the **Add to Collection** button. Click the **X** in the top right to close out of preview mode.
+1.  Select the **Preview** button in the top right of the Power Apps editor to enter preview mode. Select the **Add to Collection** button. Select the **X** in the top right to close out of preview mode.
 
-1.  On the **View** tab, select **Collections** and then select **ItemsCollection**. You will then see that all records from **Items** data source has been added into the **ItemsCollection** collection.
+1.  On the **View** tab, select **Collections** and then select **ItemsCollection**. You’ll then see that all records from Items data source have been added into the **ItemsCollection** collection.
 
 ## Explore other functions that can be used with Collections
 
-1.  On the **Insert** Tab, select **New Screen** and then click on **Blank**.
+1.  On the **Insert** Tab, select **New Screen** and then select **Blank**.
 
 1.  On the **Insert** Tab, select **Data Table** and position it next to the gallery.
 
@@ -114,14 +114,14 @@ You have now configured and interacted with the data in your gallery.
 
 1.  In the properties pane on the right, select the **Edit fields** button for the **Fields** property.
 
-1.  Click **+ Add field**.
+1.  Select **+ Add field**.
 
-1.  Select all available fields and then click **Add**.
+1.  Select all available fields and then select **Add**.
 
 	> [!div class="mx-imgBorder"]
 	> ![Screenshot of data table fields.](../media/data-table.png)
 
-1.  Click the X towards the right of **Data** to exit.
+1.  Select the X towards the right of **Data** to exit.
 
 1.  On the **Insert** tab, select **Button** and position your button underneath your table. Repeat this process four times.
 
@@ -135,7 +135,7 @@ You have now configured and interacted with the data in your gallery.
     Collect(AddCollection, AddColumns(ItemsCollection, "Revenue", UnitPrice * UnitsSold))
     ```
 
-    Here, we have created a new collection called *AddCollection*, which copies all data from the *ItemsCollection* collection but in addition we use the *AddColumns* function to add a new column called *Revenue, which is calculated as UnitPrice * UnitsSold.
+    Here, we’ve created a new collection called *AddCollection*, which copies all data from the *ItemsCollection* collection but in addition we use the *AddColumns* function to add a new column called *Revenue, which is calculated as UnitPrice * UnitsSold.
 
 1. Select the **Drop Column** button.
 
@@ -144,7 +144,7 @@ You have now configured and interacted with the data in your gallery.
     ```powerappsfl
     Collect(DropCollection, DropColumns(ItemsCollection, "UnitPrice"))
     ```
-    Here, we have created a new collection called *DropCollection*, which copies all data from the *ItemsCollection* collection but in addition we use the *DropColumns* function to remove the UnitPrice Column.
+    Here, we’ve created a new collection called *DropCollection*, which copies all data from the *ItemsCollection* collection but in addition we use the *DropColumns* function to remove the UnitPrice Column.
 
 1. Select the **Show Column** button.
 
@@ -153,7 +153,7 @@ You have now configured and interacted with the data in your gallery.
     ```powerappsfl
     Collect(ShowCollection, ShowColumns(ItemsCollection, "Name"))
     ```
-    Here, we have created a new collection called *ShowCollection*, which copies all data from the *ItemsCollection* collection but in addition we use the *ShowColumns* function to only show the *Name* column.
+    Here, we’ve created a new collection called *ShowCollection*, which copies all data from the *ItemsCollection* collection but in addition we use the *ShowColumns* function to only show the *Name* column.
 
 1. Select the **Rename Column** button.
 
@@ -162,11 +162,11 @@ You have now configured and interacted with the data in your gallery.
     ```powerappsfl
     Collect(RenameCollection, RenameColumns(ItemsCollection, "Name", "Product"))
     ```
-    Here, we have created a new collection called *RenameCollection*, which copies all data from the *ItemsCollection* collection but in addition we use the *RenameColumns* function to rename the *Name* column to *Product.*
+    Here, we’ve created a new collection called *RenameCollection*, which copies all data from the *ItemsCollection* collection but in addition we use the *RenameColumns* function to rename the *Name* column to *Product.*
 
-1. Click the **Preview** button in the top right of the Power Apps editor to enter preview mode. Click all four buttons. Click the **X** in the top right to close out of preview mode.
+1. Select the **Preview** button in the top right of the Power Apps editor to enter preview mode. Select all four buttons. Select the **X** in the top right to close out of preview mode.
 
-1. On the **View** tab, select **Collections** and then select each of the additional collections you have created to see what effect the functions had.
+1. On the **View** tab, select **Collections** and then select each of the additional collections you’ve created to see what effect the functions had.
 
 	> [!div class="mx-imgBorder"]
 	> ![Screenshot of four new buttons.](../media/new-buttons.png)
@@ -189,7 +189,7 @@ You have now configured and interacted with the data in your gallery.
 
 1.  On the **Insert** tab, select **Button** and position your button underneath your Labels. Change text on Button to *Update*.
 
-1.  Click the Text Input next to the *Name* label.
+1.  Select the Text Input next to the *Name* label.
 
 7.  In the formula bar, make sure you have the **Default** property selected and then change the expression to the following:
 
@@ -215,7 +215,7 @@ Let's recap what we've done.
 
 **Patch** - Allows us to *modify* or create a record in your data source.
 
-**First(Filter**...) - We use this to filter the data source by Name.  The name is from the Text Input named TextInput1. If you have  renamed your Text Input, then you would need to update the expression  accordingly.
+**First(Filter**...) - We use this to filter the data source by Name.  The name is from the Text Input named TextInput1. If you’ve  renamed your Text Input, then you would need to update the expression  accordingly.
 
 Once the matching record is found, it updates the description based on  what you have written in the *New Description* text input.
 
