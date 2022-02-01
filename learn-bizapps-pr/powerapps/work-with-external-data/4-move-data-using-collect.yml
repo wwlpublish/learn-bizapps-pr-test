@@ -4,12 +4,11 @@ title: Move data between collections and data sources by using Collect
 metadata: 
   title: Move data between collections and data sources by using Collect 
   description: Move data between collections and data sources by using Collect 
-  ms.date: 09/16/2020 
+  ms.date: 02/01/2022  
   author: jadaphillips
   ms.author: jadaphillips
   ms.topic: interactive-tutorial 
-  ms.prod: learning-powerapps 
-   
+  ms.prod: learning-powerapps    
 durationInMinutes: 8 
 content: |
   [!include[](../includes/unit-banner.md)]

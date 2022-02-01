@@ -4,12 +4,11 @@ title: Add a data source
 metadata: 
   title: Add a data source 
   description: Add a data source 
-  ms.date: 09/16/2020 
+  ms.date: 02/01/2022 
   author: jadaphillips
   ms.author: jadaphillips
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
-   
 durationInMinutes: 10  
 content: |
   [!include[](../includes/unit-banner.md)]
