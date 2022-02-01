@@ -19,7 +19,7 @@ If this is the first time you're adding this connector in this environment, you'
 
 ## User profile information
 
-You have a few options to get user information in the canvas app. To get information of the user who is using the app, you can either user the function at the **App OnStart** or **OnSelect** of a button.
+You have a few options to get user information in the canvas app. To get information about the user who is using the app, you can either use the function at the **App OnStart** or **OnSelect** of a button.
 
 ### App OnStart
 
@@ -43,6 +43,7 @@ Below shows the attributes that can be automatically populated in your app savin
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the user profile information.](../media/user-profile-information.png)](../media/user-profile-information.png#lightbox)
+
 
 ### Control OnSelect
 
@@ -87,3 +88,5 @@ To display all the direct reports, add a **Vertical Gallery** option from the In
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the vertical gallery option from the insert menu with items property set.](../media/list-direct-users-names.png)](../media/list-direct-users-names.png#lightbox)
+
+For more information on the Office 365 User connection, see [Office 365 Users Connector Documentation.](/connectors/office365users/?azure-portal=true)
