@@ -4,7 +4,7 @@ You can display this information in a label on your app. You can display one fun
 
 ## Add a connection
 
-The Office 365 Users is a Standard connector that can be used in Power Apps. To add, simply click on Data, Add data and search for 'Office'. Click on Office 365 Users and click on Office 365 Users again.
+The Office 365 Users is a Standard connector that can be used in Power Apps. To add, select Data, Add data and search for 'Office'. Select Office 365 Users and select Office 365 Users again.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the data icon with add data button and search results for office.](../media/office-365-users-connector.png)](../media/office-365-users-connector.png#lightbox)
@@ -12,20 +12,20 @@ The Office 365 Users is a Standard connector that can be used in Power Apps. To 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the add data window with Office 365 users selected.](../media/office-365-users-connector-2.png)](../media/office-365-users-connector-2.png#lightbox)
 
-If this is the first time you're adding this connector in this environment, you'll see the following pop-up message, click Connect to add this connection.
+If this is the first time you're adding this connector in this environment, you'll see the following pop-up message, select Connect to add this connection.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Office 365 users window with connect button.](../media/first-time-office-365-users-connection.png)](../media/first-time-office-365-users-connection.png#lightbox)
 
 ## User profile information
 
-You have a few options to get user information in the canvas app. To get information of the user who is using the app, you can either user the function at the **App OnStart** or **OnSelect** of a button.
+You have a few options to get user information in the canvas app. To get information about the user who is using the app, you can either use the function at the **App OnStart** or **OnSelect** of a button.
 
 ### App OnStart
 
 Here we'll get the user information we're looking for and save it to a global variable making it easy to reuse it throughout the app.
 
-Click on App, select the OnStart property and add the following formula.
+Select App, select the OnStart property and add the following formula.
 
 `Set(varUserInfo, Office365Users.MyProfileV2())`
 
@@ -43,6 +43,7 @@ Below shows the attributes that can be automatically populated in your app savin
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the user profile information.](../media/user-profile-information.png)](../media/user-profile-information.png#lightbox)
+
 
 ### Control OnSelect
 
@@ -72,7 +73,7 @@ You can confirm this is the correct manager by verifying in Azure Active Directo
 
 Another feature that comes with Office 365 Users is the ability to find all the users who directly report to a single manager. This information is gathered from Microsoft Azure Active Directory.
 
-We will use a combination of a **Collection** and **Gallery** to present the list of users. A **Collection** is a variable that can store a list of information, which can be easily accessible throughout the use of the app. A **Gallery** control can show multiple records from a data source, and each record can contain multiple types of data. In this scenario, our data source is the **Collection**.
+We’ll use a combination of a **Collection** and **Gallery** to present the list of users. A **Collection** is a variable that can store a list of information, which can be easily accessible throughout the use of the app. A **Gallery** control can show multiple records from a data source, and each record can contain multiple types of data. In this scenario, our data source is the **Collection**.
 
 Add a **ComboBox** control and set its Items property to `Office365Users.SearchUser()`. Next, set it's **OnSelect** to `ClearCollect(colDirectReports, Office365Users.DirectReportsV2(ComboBox1_1.Selected.Id).value)`.
 
@@ -87,3 +88,5 @@ To display all the direct reports, add a **Vertical Gallery** option from the In
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the vertical gallery option from the insert menu with items property set.](../media/list-direct-users-names.png)](../media/list-direct-users-names.png#lightbox)
+
+For more information on the Office 365 User connection, see [Office 365 Users Connector Documentation.](/connectors/office365users/?azure-portal=true)
