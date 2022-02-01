@@ -15,57 +15,57 @@ quiz:
   questions: 
   - content: What are the three prioritized scenarios that Microsoft Cloud for Healthcare focuses on?
     choices: 
-    - content: Educate patients, encourage care members, increase care coordination
+    - content: Educate patients, encourage care members, and increase care coordination
       isCorrect: false
       explanation: Microsoft Cloud for Healthcare focuses on enhancing patient engagement, empowering health team collaboration, and improving insights.
-    - content: Engage patients, energize care team, inform care coordinators
+    - content: Engage patients, energize care teams, and inform care coordinators
       isCorrect: false 
       explanation: Microsoft Cloud for Healthcare focuses on enhancing patient engagement, empowering health team collaboration, and improving insights.
-    - content: Enhance patient engagement, empower health team collaboration, improve insights
+    - content: Enhance patient engagement, empower health team collaboration, and improve insights
       isCorrect: true 
       explanation: Microsoft Cloud for Healthcare focuses on enhancing patient engagement, empowering health team collaboration, and improving insights.
-    - content: Enlighten patients, ensure quality care plans, initiate home visits
+    - content: Enlighten patients, ensure quality care plans, and initiate home visits
       isCorrect: false 
       explanation: Microsoft Cloud for Healthcare focuses on enhancing patient engagement, empowering health team collaboration, and improving insights.
-  - content: Which Microsoft technologies are utilized by Microsoft Cloud for Healthcare?
+  - content: Which Microsoft technologies are used by Microsoft Cloud for Healthcare?
     choices: 
-    - content: Dynamics 365 and Power Platform
+    - content: Dynamics 365 and Microsoft Power Platform
       isCorrect: false
-      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Power Platform, Microsoft 365, and Azure.
+      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Microsoft Power Platform, Microsoft 365, and Azure.
     - content: Microsoft 365
       isCorrect: false 
-      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Power Platform, Microsoft 365, and Azure.
+      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Microsoft Power Platform, Microsoft 365, and Azure.
     - content: Azure
       isCorrect: false 
-      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Power Platform, Microsoft 365, and Azure.
+      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Microsoft Power Platform, Microsoft 365, and Azure.
     - content: All the above
       isCorrect: true 
-      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Power Platform, Microsoft 365, and Azure.
+      explanation: Microsoft Cloud for Healthcare uses Dynamics 365, Microsoft Power Platform, Microsoft 365, and Azure.
   - content: Which of the following principles help Microsoft maintain data integrity in the cloud and protect patient information?
     choices: 
     - content: Security
       isCorrect: false
-      explanation: Security, privacy, and compliance all help Microsoft maintain data integrity in the cloud and protect patient information.
+      explanation: Security, privacy, and compliance help Microsoft maintain data integrity in the cloud and protect patient information.
     - content: Privacy
       isCorrect: false 
-      explanation: Security, privacy, and compliance all help Microsoft maintain data integrity in the cloud and protect patient information.
+      explanation: Security, privacy, and compliance help Microsoft maintain data integrity in the cloud and protect patient information.
     - content: Compliance
       isCorrect: false 
-      explanation: Security, privacy, and compliance all help Microsoft maintain data integrity in the cloud and protect patient information.
+      explanation: Security, privacy, and compliance help Microsoft maintain data integrity in the cloud and protect patient information.
     - content: All the above
       isCorrect: true 
-      explanation: Security, privacy, and compliance all help Microsoft maintain data integrity in the cloud and protect patient information.
-  - content: Currently, the Microsoft Cloud for Healthcare is focused on which specific healthcare industry subvertical?
+      explanation: Security, privacy, and compliance help Microsoft maintain data integrity in the cloud and protect patient information.
+  - content: Currently, Microsoft Cloud for Healthcare is focused on which specific healthcare industry subvertical?
     choices: 
     - content: Pharmaceuticals
       isCorrect: false
-      explanation: The Microsoft Cloud for Healthcare is focused on payor/provider.
-    - content: Payor/Provider
+      explanation: Microsoft Cloud for Healthcare is focused on payor/provider.
+    - content: Payor/provider
       isCorrect: true 
-      explanation: The Microsoft Cloud for Healthcare is focused on payor/provider.
-    - content: Life Sciences
+      explanation: Microsoft Cloud for Healthcare is focused on payor/provider.
+    - content: Life sciences
       isCorrect: false 
-      explanation: The Microsoft Cloud for Healthcare is focused on payor/provider.
-    - content: Can support any financial industry vertical
+      explanation: Microsoft Cloud for Healthcare is focused on payor/provider.
+    - content: It supports any financial industry vertical
       isCorrect: false 
-      explanation: The Microsoft Cloud for Healthcare is focused on payor/provider.
+      explanation: Microsoft Cloud for Healthcare is focused on payor/provider.

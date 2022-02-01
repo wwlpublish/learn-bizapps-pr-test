@@ -1,40 +1,42 @@
-The Microsoft Cloud for Healthcare is built on a foundation of security and trust and uses a combination of Microsoft products to address the industry-prioritized scenarios focused on the payor and provider space for healthcare. The illustration below reflects the conceptual architecture of the Microsoft Cloud for Healthcare including the applications and services available, which align to each capability, the associated required Microsoft technologies, and the third-party extensions that are driven by Independent Software Vendors and System Integrators.
+Microsoft Cloud for Healthcare is built on a foundation of security and trust, and it uses a combination of Microsoft products to address the industry-prioritized scenarios that are focused on the payor and provider space for healthcare. The following illustration shows the conceptual architecture of Microsoft Cloud for Healthcare, including the available applications and services that align to each capability, the associated required Microsoft technologies, and the external extensions that are driven by independent software vendors (ISVs) and system integrators.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram of the conceptual architecture of Microsoft Cloud for Healthcare.](../media/conceptual-architecture.png)](../media/conceptual-architecture.png#lightbox)
 
 ## Core components
 
--   **Core healthcare systems**: These represent your existing health data sources and systems, including EHR, medical imaging, -omics, third-party data, IoMT, billing and finance, and CRM data.
+The core architectural components of Microsoft Cloud for Healthcare are:
 
--   **Security and Compliance**: Easily ingest and enrich any volume, variety, or velocity of healthcare data while gaining cloud computing capabilities and services from the world's most secure and compliant cloud.
+-   **Core healthcare systems** - Represent your existing health data sources and systems, including EHR, medical imaging, external data, IoMT, billing and finance, and CRM data.
 
--   **Industry Data model**: The Industry data model, comprised of comprehensive data tables and relationships, make it easier for healthcare organizations to quickly configure and deploy solutions using a common collection of entities.
+-   **Security and compliance** - Ingest and enrich any volume, variety, or velocity of healthcare data while gaining cloud computing capabilities and services from the world's most secure and compliant cloud.
 
--   **Microsoft Platform Layers**: The core healthcare capabilities are built on top of Microsoft's industry leading Cloud technologies including Microsoft Azure, Power Platform, Dynamics 365, and Microsoft 365. Use your data to power applications and business processes.
+-   **Industry data model** - Includes comprehensive data tables and relationships, which help make it easier for healthcare organizations to quickly set up and deploy solutions by using a common collection of entities.
 
--   **Enhance Patient Experience**: This core healthcare capability is delivered using the following components:
+-   **Microsoft platform layers** - The core healthcare capabilities are built on top of the industry-leading cloud technologies from Microsoft, including Azure, Microsoft Power Platform, Dynamics 365, and Microsoft 365. Use your data to power applications and business processes.
 
-    -   **Personalized Care**: Utilize Patient Access using a Power Apps portal. Allow care coordinators to chat with patients through the Patient Service Center using Dynamics 365 Omnichannel for Customer Service.
+-   **Enhance patient experience** - Cloud for Healthcare delivers this core healthcare capability by using the following components:
 
-    -   **Patient Outreach**: Target outreach to healthcare patients using Dynamics 365 Marketing.
+    -   **Personalized care** - Use Patient Access by using a Power Apps portal. Allow care coordinators to chat with patients through the Patient Service Center by using Omnichannel for Customer Service.
 
-    -   **Virtual Health:** Integrate Microsoft Teams and a Dynamics 365 model-driven application created specifically for virtual care providers.
+    -   **Patient Outreach** - Target outreach to healthcare patients by using Dynamics 365 Marketing.
 
--   **Empower Care Team Collaboration**: This core healthcare capability is delivered using the following components:
+    -   **Virtual Health** - Integrate Microsoft Teams and a Dynamics 365 model-driven application that has been created specifically for virtual care providers.
 
-    -   **Care Collaboration**: Utilize the Health Assistant with Dynamics 365 Microsoft Sales and Sales Insights Add-in.
+-   **Empower care team collaboration** - Cloud for Healthcare delivers this core healthcare capability by using the following components:
 
-    -   **Care Coordination**: Provide Home Health capabilities using the Dynamics 365 Field Service application and Dynamics 365 Field Service mobile app. Care Management is a Dynamics 365 model-driven application, which has no prerequisite Dynamics 365 applications.
+    -   **Care collaboration** - Use the Health Assistant with Dynamics 365 Sales and the Sales Insights Add-in for Microsoft Dynamics 365 Sales.
 
-    -   **Continuous Patient Monitoring:** Utilize Azure Healthcare APIs to unify data from diverse streams such as clinical, imaging, device, and unstructured data using FHIR and DICOM services and Azure IoT Connector for FHIR.
+    -   **Care coordination** - Provide Home Health capabilities by using the Dynamics 365 Field Service application and Dynamics 365 Field Service mobile app. Care Management is a Dynamics 365 model-driven application, which has no prerequisite Dynamics 365 applications.
 
--   **Improve Clinical and Operational Insights**: This capability focuses on utilizing Azure Healthcare APIs (preview) and the Healthcare data model for data interoperability, operational analytics, and clinical analytics.
+    -   **Continuous patient monitoring** - Use Azure Healthcare APIs to unify data from diverse streams, such as clinical, imaging, device, and unstructured data, by using FHIR and DICOM services and Microsoft Azure IoT Connector for FHIR.
 
--   **Platform Extensibility**: This capability is delivered by Independent Software Vendors and System Integrators by extending the Industry Data model and integrating their solutions with Microsoft Cloud for Healthcare. Microsoft partners can build on and extend core cloud capabilities with healthcare-specific apps and platforms for payors, providers, biopharma, and MedTech organizations.
+-   **Improve clinical and operational insights** - This capability focuses on using Azure Healthcare APIs (preview) and the healthcare data model for data interoperability, operational analytics, and clinical analytics.
 
-The Microsoft Cloud for Healthcare provides unique capabilities designed to meet the healthcare's most pressing needs. With an end-to-end, highly configurable platform, you can take advantage of healthcare-specific capabilities including bots, portals for patients and care teams, templates, apps, AI models and intelligence, custom Power BI dashboards, pre-configured workflows, and more. The solution is also intended to help healthcare organizations meet industry-specific rules and regulations.
+-   **Platform extensibility** - This capability is delivered by ISVs and system integrators by extending the industry data model and integrating their solutions with Microsoft Cloud for Healthcare. Microsoft partners can build on and extend core cloud capabilities with healthcare-specific apps and platforms for payors, providers, biopharma, and MedTech organizations.
 
-With our partners, Microsoft is reimagining healthcare with innovative tools and services on a highly configurable, end-to-end cloud platform specifically for the healthcare space. Enabling customers to deliver better care, experiences, and insights to improve global health outcomes.
+Microsoft Cloud for Healthcare provides unique capabilities that are designed to meet the healthcare industry's most pressing needs. With an end-to-end, highly configurable platform, you can take advantage of healthcare-specific capabilities, such as bots, portals for patients and care teams, templates, apps, AI models and intelligence, custom Power BI dashboards, preconfigured workflows, and more. The solution is also intended to help healthcare organizations meet industry-specific rules and regulations.
 
-By bringing this all together with the Microsoft Cloud for Healthcare, health organizations can enhance patient engagement, empower health team collaboration, and improve clinical and operational insights, all while protecting health information.
+With its partners, Microsoft is reimagining healthcare with innovative tools and services on a highly configurable, end-to-end cloud platform that's specifically designed for the healthcare space. As a result, healthcare organizations can deliver better care, experiences, and insights to improve global health outcomes.
+
+By bringing these components together with Microsoft Cloud for Healthcare, health organizations can enhance patient engagement, empower health team collaboration, and improve clinical and operational insights, all while protecting health information.
