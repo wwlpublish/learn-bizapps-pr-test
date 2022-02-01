@@ -1,15 +1,15 @@
-### YamlMime:ModuleUnit 
-uid: learn-bizapps.advanced-business-process-flows.6-exercise 
-title: Exercise – Enhance the main form that is associated with the business process flow
-metadata: 
-  title: Exercise – Enhance the main form that is associated with the business process flow 
-  description: Learn how to enhance the main form that is associated with the business process flow.  
-  ms.date: 06/28/2021  
+### YamlMime:ModuleUnit
+uid: learn-bizapps.advanced-business-process-flows.6-exercise
+title: Exercise - Enhance the main form that is associated with the business process flow
+metadata:
+  title: Exercise - Enhance the main form that is associated with the business process flow
+  description: Learn how to enhance the main form that is associated with the business process flow.
+  ms.date: 01/31/2022
   author: DaveBeasley
   ms.author: dbeasley
-  ms.topic: interactive-tutorial 
-  ms.prod: learning-power-automate 
-durationInMinutes: 12 
-content: | 
- [!include[](../includes/unit-banner.md)] 
- [!include[](includes/6-exercise.md)] 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+durationInMinutes: 12
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/6-exercise.md)]
