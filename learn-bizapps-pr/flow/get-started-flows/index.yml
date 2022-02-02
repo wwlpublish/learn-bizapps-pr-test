@@ -1,14 +1,14 @@
-﻿### YamlMime:Module 
-uid: learn-bizapps.flow-get-started 
-metadata: 
-  title: Get started with Power Automate 
+﻿### YamlMime:Module
+uid: learn-bizapps.flow-get-started
+metadata:
+  title: Get started with Power Automate
   description: Learn how to create simple flows to make your life easier.
-  ms.date: 10/1/2021
+  ms.date: 02/01/2022
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-power-automate
-title: Get started with Power Automate 
+title: Get started with Power Automate
 summary: |
   [!include[](../includes/module-banner.md)]
   Power Automate is an online workflow service that automates actions across the most common apps and services.
@@ -20,16 +20,16 @@ prerequisites: |
     - Signed up for Power Automate
     - Have a OneDrive for Business account
 iconUrl: /learn/achievements/get-started-with-flow.svg
-levels:  
-- beginner 
-roles:  
+levels:
+- beginner
+roles:
 - business-user
 - maker
 - functional-consultant
-products:  
+products:
 - power-platform
 - power-automate
-units: 
+units:
 - learn-bizapps.flow-get-started.1-flow-introduction
 - learn-bizapps.flow-get-started.2-flow-create-first
 - learn-bizapps.flow-get-started.3-learn-to-use-flow-mobile-app
