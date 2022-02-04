@@ -32,7 +32,7 @@ Power Apps portals transact directly with Dataverse data. You can create lists a
 
 Power Apps portals extend Dataverse solutions to internal and external audiences in a more secure way. Portal visitors can access portals as either anonymous or authenticated users.
 
-![Diagram of Power Apps portals architecture.](../media/7-portal-architecture-1.png)
+![Diagram of Power Apps portals architecture.](../media/7-portal-architecture-2.png)
 
 ## Expose Dataverse data
 
