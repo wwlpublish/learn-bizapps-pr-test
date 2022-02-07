@@ -8,7 +8,7 @@ Now, when users run your published app outside of Power Apps Studio, it will sen
 
 The following video demonstrates how to set up a canvas app from Power Apps for Application Insights.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP06z]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP06z]
 
 The rest of this topic explores some options that you should consider when setting up Application Insights for your app.
 
