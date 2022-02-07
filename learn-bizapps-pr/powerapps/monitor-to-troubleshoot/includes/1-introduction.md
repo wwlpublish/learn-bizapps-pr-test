@@ -31,7 +31,7 @@ and then retest without leaving Power Apps Studio or Monitor. The
 following video shows how to activate Monitor and review the captured data.
 
 **Video**: Demo the Monitor tool
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO4s1]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWO4s1]
 
 In addition to interactively working with Monitor, you can enable
 it to be used in published applications to collaborate with remote
