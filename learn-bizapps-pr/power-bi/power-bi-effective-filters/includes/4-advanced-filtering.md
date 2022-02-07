@@ -23,7 +23,7 @@ Cross filtering (and cross highlighting) works between any two visuals. However,
 
 To gain a better understanding of visual interactions, watch the following video that describes a use case and shows how to configure it.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO1bN]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWO1bN]
 
 For more information, see [Filters and highlighting in Power BI reports](/power-bi/create-reports/power-bi-reports-filters-and-highlighting/?azure-portal=true).
 
