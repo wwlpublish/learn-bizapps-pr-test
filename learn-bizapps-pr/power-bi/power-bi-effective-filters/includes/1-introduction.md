@@ -43,4 +43,4 @@ A good example of a measure that overrides report filters is a three-month movin
 
 To gain a better understanding of report filtering, watch the following video that describes filter techniques at design time and consumption time.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWObCg]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWObCg]

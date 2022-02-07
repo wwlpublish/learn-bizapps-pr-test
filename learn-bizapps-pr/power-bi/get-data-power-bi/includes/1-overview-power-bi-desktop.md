@@ -1,6 +1,6 @@
 ﻿Power BI Desktop is a free application for PCs that lets you gather, transform, and visualize your data. In this module, you'll learn how to find and collect data from different sources and how to clean or transform it. You'll also learn tricks to make data-gathering easier.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWFP5V]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFP5V]
 
 Power BI Desktop and the Power BI Service work together. You can create your reports and dashboards in Power BI Desktop, and then publish them to the Power BI Service for others to consume. 
 

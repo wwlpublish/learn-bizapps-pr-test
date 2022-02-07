@@ -8,7 +8,7 @@ Relationships allow users to query data from multiple tables. The only way for t
 > [![A relationship view in Power BI with multiple relationship fields.](../media/relationships.png)](../media/relationships.png#lightbox)
 
 **Video**: Demo of Advanced Editor
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWy75u]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWy75u]
 
 Before you further explore the importance of the relationship field, you need to learn more about dimensional modeling, which will help you better structure your relationship model. By now, you should have hands-on experience creating a snowflake branch on your model, in addition to an understanding of the difference between dimension and fact tables and between normalized and de-normalized tables.
 
