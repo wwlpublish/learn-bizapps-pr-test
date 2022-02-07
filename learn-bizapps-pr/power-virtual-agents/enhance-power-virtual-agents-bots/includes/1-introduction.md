@@ -1,6 +1,6 @@
 Microsoft Power Virtual Agents empowers your teams to create powerful bots through a guided, no-code graphical interface. This ability allows you to use the benefits of bots without having to rely on data scientists or developers, and it helps to address many of today's challenges in building bots. With Power Virtual Agents, you can eliminate the gap between the subject matter experts and development teams that are building the bots, and you can reduce latency between teams recognizing an issue and updating the bot to address the issue. Power Virtual Agents also removes the complexity of exposing teams to the nuances of conversational AI and the need to write complex code.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQUNn]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWQUNn]
 
 Power Virtual Agents helps make creating bots quick and simple, and it includes the following features that help you enhance your bot's functionality to make it even more powerful:
 
