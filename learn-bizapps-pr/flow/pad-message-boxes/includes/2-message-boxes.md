@@ -1,8 +1,8 @@
-Message boxes enable real-time interaction between users and flows. **Message boxes** actions can be used both to provide input to flows and provide output to the users.
+Message boxes enable real-time interaction between users and flows. Message boxes actions can be used both to provide input to flows and provide output to the users.
 
 ## Output actions
 
-To examine how the output message boxes function, replicate the following flow that extracts data from an Excel file and populate it into a web platform.
+To examine how the output message boxes function, replicate the following flow that extracts data from an Excel file and populates it into a web portal.
 
 > [!NOTE]
 > The **Populate_Web_Form** subflow should contain all the functionality to populate the Excel data into the web portal. For this example, you can use any web portal for which you have access rights.
@@ -27,7 +27,7 @@ As an example, examine the following flow that requires a file path and a multi-
 
 ![Screenshot of the input function workspace.](..\media\input-function-workspace.png)
 
-The following **Display select file dialog** action displays a dialog for the user to select a .text file.
+The following **Display select file dialog** action displays a dialog for the user to select a .txt file.
 
 ![Screenshot of the Display select file dialog action properties.](..\media\display-select-file-dialog-action-properties.png)
 
@@ -57,6 +57,6 @@ All input elements are identified by a unique ID that you can use to access the 
 
 Apart from these elements, the custom form designer provides actions that enable you to implement additional functionality to your form.
 
-The submit actions allow you to gather the data provided by the user or use it as a cancel button. When an action is pressed, its unique ID is saved into the **ButtonPressed** variable. If your form contains many actions, use conditionals to implement different flow behavior for each scenario.
+The submit action allows you to gather the data provided by the user or use it as a cancel button. When an action is pressed, its unique ID is saved into the **ButtonPressed** variable. If your form contains many actions, use this variable and conditionals to implement different flow behavior for each scenario.
 
 ![Screenshot of a flow checking which form button has been pressed.](..\media\custom-form-example.png)
