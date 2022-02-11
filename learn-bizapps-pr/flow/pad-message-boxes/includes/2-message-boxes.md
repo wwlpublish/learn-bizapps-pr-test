@@ -1,39 +1,62 @@
-Message boxes enable real-time interaction between users and flows. **Message boxes** actions can be used both to provide input to flows, as well as provide output to the users.
-
-We will examine both cases in the following paragraphs.
+Message boxes enable real-time interaction between users and flows. **Message boxes** actions can be used both to provide input to flows and provide output to the users.
 
 ## Output actions
 
-To demonstrate actions that provide output to the user, we'll examine a flow that extracts data from an excel file and enters it into a web platform:
+To examine how the output message boxes function, replicate the following flow that extracts data from an Excel file and populate it into a web platform.
+
+> [!NOTE]
+> The **Populate_Web_Form** subflow should contain all the functionality to populate the Excel data into the web portal. For this example, you can use any web portal for which you have access rights.
 
 ![Screenshot of the output function workspace.](..\media\output-function-workspace.png)
 
-Based on the data size and the time it takes to process each entry, this flow may take a lot of time to complete. When the flow is finished, we could add a message informing the user that the flow has run, and mention the number of claims processed:
+Depending on the data size and the processing steps for each entry, the flow may take significant time to complete. When the flow is finished, add a message box to inform the user that the flow has finished successfully and display the number of claims processed.
 
-![Screenshot of the Display message action properties dialog.](..\media\display-message-action-properties.png)
+![Screenshot of the Display message action properties.](..\media\display-message-action-properties.png)
 
-![Screenshot of the display message action in workspace.](..\media\display-message-action-in-workspace.png)
+In the following screenshot, you can examine how the **Display message** action affects what the user sees when the flow runs successfully.
 
-Let’s examine how this action will affect what the user sees. When the flow is complete, the user is notified:
-
-![Screenshot of the message box showing the number of claims processed as 4765.](..\media\message-box.png)
+![Screenshot of the message box showing the number of claims processed.](..\media\message-box.png)
 
 ## Input actions
 
-Another important function of message boxes actions is allowing users to provide input to the flow.
+The second function of message boxes actions is enabling users to provide input to the flow.
 
-User input may come in many forms – text, date and time, files and folders, etc. Each of these input types corresponds to a different message box action.
+User input may come in many forms, such as text, datetime, files and folders, etc. Each of these input types corresponds to a different message box action.
 
-As an example, consider the following flow, which receives a file path and a multi-line text as input from the user, and appends the text input to the file:
+As an example, examine the following flow that requires a file path and a multi-line text as input from the user and appends the text input to the file.
 
 ![Screenshot of the input function workspace.](..\media\input-function-workspace.png)
 
-The **Display Select File Dialog** action will produce a dialog window for the user to select a file; in this example, it is configured to filter for .txt files only:
+The following **Display select file dialog** action displays a dialog for the user to select a .text file.
 
 ![Screenshot of the Display select file dialog action properties.](..\media\display-select-file-dialog-action-properties.png)
 
-The **Display Input Dialog** action is configured to receive multi-line text as input:
+The **Display input dialog** action is configured to receive a multi-line text as input.
 
-![Screenshot of the Display select file dialog input action properties.](..\media\display-input-dialog-action-properties.png)
+![Screenshot of the Display input dialog action properties.](..\media\display-input-dialog-action-properties.png)
 
-Running this flow will prompt the user to select a text file; they will then be prompted to enter the input; and finally, the input will be appended to the selected file.
+In the following screenshot, you can see the dialog produced by the **Display input dialog** action.
+
+![Screenshot of a multi-line text message box.](..\media\text-input-dialog.png)
+
+## Custom forms
+
+As presented in the previous sections, you can use the input and output message boxes for scenarios where a single input or output is required, respectively.
+
+However, some automation scenarios may require a combination of multiple inputs or/and outputs. The best approach to implement this functionality is creating a custom form.
+
+To create a custom form, deploy the **Display custom form** action and press the **Custom form designer** button to open the form designer.
+
+![Screenshot of the Custom form designer button in the Display custom form action.](..\media\display-custom-form-action.png)
+
+The designer provides a variety of input elements, such as text, date, and file inputs, and some non-interactive elements, such as texts and images.
+
+All input elements are identified by a unique ID that you can use to access the provided data later in your flow. The data are stored in the **CustomFormData** custom object variable, and you can use the following notation to access them: **CustomFormData['ElementID']**.
+
+![Screenshot of a selected text input element.](..\media\text-input-element.png)
+
+Apart from these elements, the custom form designer provides actions that enable you to implement additional functionality to your form.
+
+The submit actions allow you to gather the data provided by the user or use it as a cancel button. When an action is pressed, its unique ID is saved into the **ButtonPressed** variable. If your form contains many actions, use conditionals to implement different flow behavior for each scenario.
+
+![Screenshot of a flow checking which form button has been pressed.](..\media\custom-form-example.png)
