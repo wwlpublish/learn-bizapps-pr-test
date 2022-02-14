@@ -1,8 +1,8 @@
-The ID reader is located on the **Build** page in AI Builder.
+The ID reader is located on the **Explore** page in AI Builder.
 
-When you sign in to Microsoft Power Automate or Power Apps, you can go to **AI Builder** on the left menu and then select **Build**.
+When you sign in to Microsoft Power Automate or Power Apps, you can go to **AI Builder** on the left menu and then select **Explore**.
 
-The AI Builder home page contains all AI capabilities that you need. In the **Get straight to productivity** section, select **Identity document reader**, where you'll learn more about this AI capability. The **Try it out** section shows the output on some sample identity documents (IDs). You can also try to upload an ID and view the extracted data. Remember, the ID reader only works with passports (all passports) and US driver licenses (more document types might be added eventually).
+The AI Builder home page contains all AI capabilities that you need. Select the Identity document reader prebuilt model and you’ll learn more about this AI capability. You’ll see the output on some preloaded samples but you also can upload an ID and view the extracted data. Remember, the ID reader only works with passports (all passports) and US driver licenses (more document types might be added eventually).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Power Automate on the A I Builder tab.](../media/ai-builder.png)](../media/ai-builder.png#lightbox)
