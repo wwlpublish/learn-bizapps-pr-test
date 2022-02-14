@@ -6,9 +6,9 @@ AI capabilities are brought to your apps and flows by models. A model can be bui
 
 AI Builder comes with a wide variety of models to enhance your apps and business processes.
 
-1. Sign in to Power Apps or Power Automate and select **AI Builder > Build** on the left menu. Each tile represents a different AI capability that you can bring to your business.
+1. Sign in to Power Apps or Power Automate and select **AI Builder > Explore** on the left menu. Each tile represents a different AI capability that you can bring to your business.
 
-   ![AI Builder within Power Apps shows the Build tab selected.](../media/image2.jpg)
+   ![AI Builder within Power Apps shows the Build tab selected.](../media/image2.png)
 
 1. Select any tile.
 

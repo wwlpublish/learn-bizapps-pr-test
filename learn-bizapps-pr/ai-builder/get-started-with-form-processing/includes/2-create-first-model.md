@@ -5,7 +5,7 @@ The following procedures will show you how to create a Form processing model in 
 Follow these steps to sign in to AI Builder:
 
 1. Go to Power Automate or Power Apps and sign in with your organizational account.
-1. In the left pane, select AI Builder > Build.
+1. In the left pane, select AI Builder > Explore.
 1. Select Form processing.
 1. Enter a name for your model.
 1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can use sample data we will be using in this guided experience. You can download the sample data [here](https://go.microsoft.com/fwlink/?linkid=2128080).
