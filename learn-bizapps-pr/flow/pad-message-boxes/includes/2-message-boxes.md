@@ -51,7 +51,7 @@ To create a custom form, deploy the **Display custom form** action and press the
 
 The designer provides a variety of input elements, such as text, date, and file inputs, and some non-interactive elements, such as texts and images.
 
-All input elements are identified by a unique ID that you can use to access the provided data later in your flow. The data are stored in the **CustomFormData** custom object variable, and you can use the following notation to access them: **CustomFormData['ElementID']**.
+All input elements are identified by a unique ID that you can use to access the provided data later in your flow. The data are stored in the **CustomFormData** custom object variable, and you can use the following notation to access them: **%CustomFormData['ElementID']%**.
 
 ![Screenshot of a selected text input element.](..\media\text-input-element.png)
 
