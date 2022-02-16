@@ -35,7 +35,7 @@ For example, with AI Builder you can:
 
 - Recognize and count items in images.
 
-![AI Builder dashboard shows My Object Detection with 4 object names selected, 948 images added, and ready to tag objects in images.](../media/image1.jpg)
+![AI Builder dashboard shows My Object Detection with 4 object names selected, 948 images added, and ready to tag objects in images.](../media/image-1.jpg)
 
 A common use of AI Builder is to automate processes. The following
 examples can help you think about how you can use AI in your business:
@@ -61,7 +61,7 @@ examples can help you think about how you can use AI in your business:
 
 You can access AI Builder within Power Apps and Power Automate.
 
-![AI Builder within Power Apps on the Build tab. You can refine a model or use a ready-made tool like the business card reader.](../media/image2.png)
+![AI Builder within Power Apps on the Build tab. You can refine a model or use a ready-made tool like the business card reader.](../media/image-2.png)
 
 Two available areas under AI Builder in the left side menu are:
 
