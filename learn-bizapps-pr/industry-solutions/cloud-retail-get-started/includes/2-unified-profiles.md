@@ -46,7 +46,7 @@ To create and train your model, you need to follow a few general steps that will
 You'll first name your model, then select some preferences for your model. These preferences include prediction period number of days and transaction threshold definitions. Next you'll map the data columns from the entities mentioned above. And finally, you'll set a frequency for retraining your model. Retraining your model improves the accuracy of your predictions. Select **Save and run** to begin the prediction process. Review the progress of your model on the **My predictions** tab in the Intelligence area of navigation in Customer Insights.
 
 > [!div class="mx-imgBorder"]
-> [![Screen image of the My Predictions tab of Intelligence area in Customer Insights.](../media/my-predictions.png)](../media/my-predictions.png#lightbox)
+> ![Screen image of the My Predictions tab of Intelligence area in Customer Insights.](../media/my-predictions.png)
 
 ### Prediction results
 
