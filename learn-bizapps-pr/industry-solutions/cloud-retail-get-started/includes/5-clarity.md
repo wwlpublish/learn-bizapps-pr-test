@@ -18,8 +18,6 @@ The unique features of Clarity that help you understand user behavior include:
 
 - Deep AI and machine learning algorithms power insights to help you analyze user behavior efficiently.
 
-Clarity is General Data Protection Regulation (GDPR) compliant as a data controller. It also processes data in compliance with California Consumer Privacy Act. For more information, see the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement/?azure-portal=true).
-
 Clarity provides heatmaps, session recordings and machine learning insights based on the user behavior of your defined projects.
 
 ## Heatmaps
