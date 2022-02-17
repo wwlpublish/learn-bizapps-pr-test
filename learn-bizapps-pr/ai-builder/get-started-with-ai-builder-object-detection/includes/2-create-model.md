@@ -4,7 +4,7 @@ Follow these steps to sign in to AI Builder:
 
 1. Go to Power Apps or Power Automate and sign in with your organizational account.
 
-2. In the left pane, select **AI Builder > Build**.
+2. In the left pane, select **AI Builder > Explore**.
 
 3. Select **Object Detection**.
 

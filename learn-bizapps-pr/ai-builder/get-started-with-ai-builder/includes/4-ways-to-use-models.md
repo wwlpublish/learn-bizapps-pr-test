@@ -4,7 +4,7 @@ After creating your AI Builder model, you can use it in Power Apps and Power Aut
 
 After your model has completed training, you can view important details about your newly trained model on a details page for that model. The information might vary depending on the model type.
 
-![Models > My Form Processing model shows a Training document with Publish and Quick Test buttons, a Selected fields list, and how your model is used.](../media/image4.jpg)
+![Models > My Form Processing model shows a Training document with Publish and Quick Test buttons, a Selected fields list, and how your model is used.](../media/image-4.jpg)
 
 On the model details page, you can see the customizations that you made to train your model.
 In some cases, it shows additional insights on the training performance.
@@ -37,12 +37,12 @@ This selection redirects you to the canvas app creation experience, with the AI
 Builder component already added to your canvas and your model
 automatically linked to the component.
 
-![FormProcessor1 is in design view with the Text property set to Analyze.](../media/image5.jpg)
+![FormProcessor1 is in design view with the Text property set to Analyze.](../media/image-5.jpg)
 
 You can add AI Builder components to your existing apps at any time
 by selecting the **Insert** tab and then selecting the component from the **AI Builder** menu.
 
-![A I Builder menu is expanded to reveal Business card reader, Form Processor, Object detector, and Text recognizer options.](../media/image6.jpg)
+![A I Builder menu is expanded to reveal Business card reader, Form Processor, Object detector, and Text recognizer options.](../media/image-6.jpg)
 
 ## Use your model in a flow
 
@@ -52,7 +52,7 @@ your model type supports it.
 This selection redirects you to the flow template page in Power Automate. Confirm
 the connections and then select **Continue**.
 
-![My Form Processing flow shows Manually trigger a flow, and Predict.](../media/image7.jpg)
+![My Form Processing flow shows Manually trigger a flow, and Predict.](../media/image-7.jpg)
 
 In the flow creation experience, you'll find the AI Builder action
 already added to your flow and your model automatically linked to the
