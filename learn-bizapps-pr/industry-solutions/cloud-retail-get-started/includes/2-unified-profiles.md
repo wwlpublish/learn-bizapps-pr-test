@@ -20,10 +20,6 @@ With the information in unified customer profiles, you can build segments and mi
 
 While Customer Insights offers you much greater information about your customers, connecting it to external systems, such as Dynamics 365 Marketing, allows you to expand that knowledge into action and engagement. To learn more about Customer Insights, see [Unlock customer intent with Dynamics 365 Customer Insights](/learn/paths/build-customer-insights/?azure-portal=true).
 
-Let's take a look at Customer Insights and the unified customer profile.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWVHaF]
-
 ## Retail channel churn
 
 Expand insight into your customer with the retail channel churn predictive model. Microsoft Cloud for Retail Unified customer profile (currently available in the U.S.) includes an AI-based churn predictive model, designed for omnichannel retail and built atop Customer Insights.
