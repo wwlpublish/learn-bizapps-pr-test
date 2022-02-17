@@ -37,7 +37,7 @@ Your first task in this module is to create a basic dashboard. For this scenario
 
 You've uploaded your reports into Power BI service and are now viewing the report in Power BI service. How do you create a dashboard? You can pin an entire report page, or you can pin individual tiles, both of which will be discussed later.
 
-The pinning process pulls visuals from your report and "pins" them to a dashboard for easy viewing. When you make changes to any of the visuals in the report, changes will be reflected on the dashboard.
+The pinning process pulls visuals from your report and "pins" them to a dashboard for easy viewing. When you make changes to the visuals in the report, and then re-publish to Power BI Service, changes will be reflected on the dashboard.
 
 To look at a specific visual, consider that you want to pin your tile, **Sales by Category**, onto a new dashboard for easy viewing. You can complete this task by hovering over the visual. In the visual header, select the **Pin Visual** icon, as shown in the following image.
 
@@ -54,11 +54,11 @@ After you have selected **Pin**, you will be redirected to your new dashboard, w
 > [!div class="mx-imgBorder"]
 > [![Pin a single tile to a dashboard](../media/01-pin-single-tile-ss.png)](../media/01-pin-single-tile-ss.png#lightbox)
 
-One of biggest benefits of a dashboard is being able to pin a visual that is sourced from a different dataset. The following section explains how you can add a visual onto your **Category** dashboard.
+One of biggest benefits of a dashboard is being able to pin a visual that is sourced from a different dataset. The following section explains how you can add a visual onto your **Tailwind Dashboard** from a different report.
 
 ## Pin a tile from a different report
 
-What if you want to pin a visual from a different report (and different dataset) to an existing dashboard? To continue with the scenario, you want to add an **Orders over Time** visual, which is housed in a different report to **Tailwind Dashboard**. You can perform the same procedure in which you hover over the visual in the original report and then select the **Pin** icon. The following window will appear, but this time, you want to pin this visual onto an existing dashboard called **Category**.
+What if you want to pin a visual from a different report (and different dataset) to an existing dashboard? To continue with the scenario, you want to add an **Orders over Time** visual, which is housed in a different report to **Tailwind Dashboard**. You can perform the same procedure in which you hover over the visual in the original report and then select the **Pin** icon. The following window will appear, but this time, you want to pin this visual onto an existing dashboard called **Tailwind Dashboard**.
 
 > [!div class="mx-imgBorder"]
 > [![Pin to dashboard](../media/01-pin-dash-ss.png)](../media/01-pin-dash-ss.png#lightbox)
@@ -70,5 +70,5 @@ When you navigate to your dashboard, notice that both visuals are now pinned, re
 
 Now that you have learned how to pin individual tiles, you can learn how to pin an entire report page, which will be discussed later in this module.
 
-For more information, see [Introduction to dashboard tiles.](/power-bi/create-reports/service-dashboard-tiles/?azure-portal=true)
+For more information, see [Introduction to dashboard tiles.](https://docs.microsoft.com/power-bi/create-reports/service-dashboard-tiles/?azure-portal=true)
 

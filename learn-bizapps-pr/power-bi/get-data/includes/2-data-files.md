@@ -67,7 +67,7 @@ In Power BI, on the **Home** tab, select **Get data**. In the list that displa
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Home Ribbon get data dropdown menu select excel.](../media/2-get-data-excel-ssm.png)](../media/2-get-data-excel-ssm.png#lightbox)
 
-Depending on your selection, you need to find and open your data source. You might be prompted to sign into a service, such as OneDrive, to authenticate your request. In this example, you will open the **Employee Data** Excel workbook that is stored on the Desktop.
+Depending on your selection, you need to find and open your data source. You might be prompted to sign into a service, such as OneDrive, to authenticate your request. In this example, you will open the **Employee Data** Excel workbook that is stored on the Desktop (Remember, no files are provided for practice, these are hypothetical steps).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of selecting the file called employee data stored on the desktop.](../media/2-excel-save-data-ssm.png)](../media/2-excel-save-data-ssm.png#lightbox)

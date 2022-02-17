@@ -2,7 +2,7 @@ You can create a model in AI Builder by following a few simple steps.
 
 ## Select a model type
 
-Sign in to Power Apps or Power Automate and select **AI Builder > Build** on the left menu.
+Sign in to Power Apps or Power Automate and select **AI Builder > Explore** on the left menu.
 
 The two classes of model are:
 
