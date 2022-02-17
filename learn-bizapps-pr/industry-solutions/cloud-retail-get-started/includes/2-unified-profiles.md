@@ -56,7 +56,7 @@ You'll first name your model, then select some preferences for your model. These
 
 Once initial training has completed, you should review the results of the prediction model. Select the model for review and choose **View** from the options.
 
-![Screen image of right-click menu with View highlighted.](../media/view.png)
+:::image type="content" source="../media/view.png" alt-text="Screen image of right-click menu with View highlighted.":::
 
 You'll find three primary sections of data on the results page: training model performance, churn risk by percentile and most influential attributes.
 

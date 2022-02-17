@@ -61,16 +61,16 @@ Clarity allows you to have as many projects as you need, and you manage them fro
 
 To support team collaboration, you can invite other users to be members of the project. The following shows how you can manage the project's team members.
 
-![Screenshot of Microsoft Clarity Team page showing the Add team member button.](../media/team.png)
+:::image type="content" source="../media/team.png" alt-text="Screenshot of Microsoft Clarity Team page showing the Add team member button.":::
 
 ### Review information for setup
 
 On the project setup, you can get the code snippet that needs to be on your site. You can also configure settings like Google Analytics integration and use of cookies. Integrating your Clarity project with Google Analytics allows Clarity to link session playbacks with your Google Analytics dashboard. Once you identify the sessions you need more information on, jump to Google Analytics Dashboard to debug and understand user pain points.
 
-![Screenshot of Setup with Advanced settings expanded to show Cookies, and How to install Clarity expanded to show Install tracking code manually.](../media/setup.png)
+:::image type="content" source="../media/setup.png" alt-text="Screenshot of Setup with Advanced settings expanded to show Cookies, and How to install Clarity expanded to show Install tracking code manually.":::
 
 ### Review and edit masking options
 
 Clarity masks all sensitive content on your website by default. The sensitive content includes all input box content, numbers, and email addresses. Clarity doesn't capture masked content. You can modify the configuration to choose what Clarity will track by either masking or unmasking it.
 
-![Screenshot of Masking options Masking mode and Mask by element.](../media/masking.png)
+:::image type="content" source="../media/masking.png" alt-text="Screenshot of Masking options Masking mode and Mask by element.":::
