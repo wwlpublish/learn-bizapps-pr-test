@@ -8,11 +8,8 @@ In this unit, you will:
 
 &nbsp;
 
-**Video**: Overview of Power BI Desktop and the Power BI service
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kOEX]
-
 > [!NOTE]
-> To follow along with the examples in the videos and on this page, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**) if you haven't already.
+> To follow along with the examples in this module, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**) if you haven't already.
 
 ## Launch Power BI Desktop
 
@@ -41,7 +38,7 @@ To create a visual, drag a field from the **Fields** list onto the **Report** vi
 
 ![Drag a field onto the Report view canvas to create a visual.](../media/02-power-bi-desktop-drag-field.png)
 
-For example, Power BI Desktop automatically created a map-based visualization because it recognized that the **State** field contained geolocation data. (Note that screenshot examples come from a variety of datasets.)
+For example, Power BI Desktop automatically created a map-based visualization because it recognized that the **Country** field contained geolocation data. 
 
 ## Publish a report
 
