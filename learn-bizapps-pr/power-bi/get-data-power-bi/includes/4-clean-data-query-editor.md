@@ -6,12 +6,6 @@ In this unit, you will transform data with Power Query Editor.
 
 &nbsp;
 
-**Video**: Transform data
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x9uw]
-
-> [!NOTE]
-> To follow along with the examples on this page, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**) if you haven't already.
-
 ### Launch Power Query Editor
 
 To begin, select **Transform data** from the **Navigator** window to launch Power Query Editor. You can also launch Power Query Editor directly from Power BI Desktop by using the **Transform data** button on the Home ribbon.
