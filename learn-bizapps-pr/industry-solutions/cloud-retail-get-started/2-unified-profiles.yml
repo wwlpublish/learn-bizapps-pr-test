@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.cloud-retail-get-started.2-unified-profiles
+title: Deeper dive into unified customer profiles and retail churn
+metadata:
+  title: Deeper dive into unified customer profiles and retail churn
+  description: Take a look at the unified customer profile, customer insights, and retail churn.
+  ms.date: 02/24/2022
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-mscloud-retail
+durationInMinutes: 8
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/2-unified-profiles.md)]

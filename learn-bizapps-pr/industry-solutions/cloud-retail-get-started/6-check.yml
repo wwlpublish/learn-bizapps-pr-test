@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.cloud-retail-get-started.6-check
+title: Check your knowledge
+metadata:
+ title: Check your knowledge
+ description: Answer the following questions to see what you've learned.
+ ms.date: 02/24/2022
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-mscloud-retail
+durationInMinutes: 6
+quiz:
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: Which of the following entities is required to configure the retail churn model?
+    choices:
+    - content: External data.
+      isCorrect: false
+      explanation: Incorrect. Three data entities require mapping to the retail churn model, customer data, session data and transaction data.
+    - content: Session data.
+      isCorrect: true
+      explanation: Correct. Three data entities require mapping to the retail churn model, customer data, session data and transaction data.
+    - content: Insights data.
+      isCorrect: false
+      explanation: Incorrect. Three data entities require mapping to the retail churn model, customer data, session data and transaction data.
+  - content: What is Clarity Insights?
+    choices:
+    - content: The collection of projects in Microsoft Clarity.
+      isCorrect: false
+      explanation: Incorrect. Clarity Insights are a set of Machine Learning (ML) based filters and recommendations on what content should be most important for you.
+    - content: Sites and masking definitions.
+      isCorrect: false
+      explanation: Incorrect. Clarity Insights are a set of Machine Learning (ML) based filters and recommendations on what content should be most important for you.
+    - content: Machine Learning based filters and recommendations.
+      isCorrect: true
+      explanation: Correct. Clarity Insights are a set of Machine Learning (ML) based filters and recommendations on what content should be most important for you.
+    - content: Filters for retail sites.
+      isCorrect: false
+      explanation: Incorrect. Clarity Insights are a set of Machine Learning (ML) based filters and recommendations on what content should be most important for you.
+  - content: Where does Dynamics 365 Connected Spaces store its data?
+    choices:
+    - content: Local storage.
+      isCorrect: false
+      explanation: Incorrect. The data from Dynamics 365 Connected Spaces is stored in Microsoft Dataverse, part of the Power Platform.
+    - content: Microsoft Dataverse.
+      isCorrect: true
+      explanation: Correct. The data from Dynamics 365 Connected Spaces is stored in Microsoft Dataverse, part of the Power Platform.
+    - content: Microsoft OneDrive.
+      isCorrect: false
+      explanation: Incorrect. The data from Dynamics 365 Connected Spaces is stored in Microsoft Dataverse, part of the Power Platform.
+    - content: Power Automate.
+      isCorrect: false
+      explanation: Incorrect. The data from Dynamics 365 Connected Spaces is stored in Microsoft Dataverse, part of the Power Platform.
