@@ -2,7 +2,7 @@
 uid: learn-bizapps.cloud-retail-get-started
 metadata:
  title: Get started with Microsoft Cloud for Retail
- description: In this learning path, we explore Microsoft Cloud for Retail and first steps to get started in your organization.
+ description: In this module, we explore Microsoft Cloud for Retail and first steps to get started in your organization.
  ms.date: 02/18/2022
  author: DaveBeasley
  ms.author: dbeasley
@@ -16,7 +16,7 @@ abstract: |
     In this module, you'll:
     - Understand the capabilities of Microsoft Cloud for Retail
     - Evaluate the use of Microsoft Cloud for Retail in your organization
-prerequisites: •	Basic understanding of Microsoft Power Platform, Azure, and retail use case scenarios.
+prerequisites: Basic understanding of Microsoft Power Platform, Azure, and retail use case scenarios.
 iconUrl: /learn/achievements/cloud-retail-get-started.svg
 levels:
 - beginner
