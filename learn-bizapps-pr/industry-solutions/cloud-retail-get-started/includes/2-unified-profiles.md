@@ -1,4 +1,4 @@
-Customer data platforms share common elements such as data collection, profile unification, segmentation, and activation. With unified customer profiles in Dynamics 365 Customer Insights, you get that and more. Customer Insights includes out of the box profiles that can be enriched using included services to better know your customer and get a single view of them with the unified customer profile. Dynamics 365 Customer Insights are managed and maintained by the business users in your organization, avoiding the added expense of more costly IT resources. As part of the unified customer profile in Customer Insights, you can include a custom retail churn score using the retail channel churn predictive model in Microsoft Cloud for Retail.
+Customer data platforms share common elements such as data collection, profile unification, segmentation, and activation. With unified customer profiles in Dynamics 365 Customer Insights, you get that and more. Customer Insights includes out of the box profiles that can be enriched using included services to better know your customer and get a single view of them with the unified customer profile. Dynamics 365 Customer Insights is managed and maintained by the business users in your organization, avoiding the added expense of more costly IT resources. As part of the unified customer profile in Customer Insights, you can include a custom retail churn score using the retail channel churn predictive model in Microsoft Cloud for Retail.
 
 ## Customer Insights
 
@@ -20,9 +20,13 @@ With the information in unified customer profiles, you can build segments and mi
 
 While Customer Insights offers you much greater information about your customers, connecting it to external systems, such as Dynamics 365 Marketing, allows you to expand that knowledge into action and engagement. To learn more about Customer Insights, see [Unlock customer intent with Dynamics 365 Customer Insights](/learn/paths/build-customer-insights/?azure-portal=true).
 
+Let's take a look at Customer Insights and the unified customer profile.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWVHaF]
+
 ## Retail channel churn
 
-Expand insight into your customer with the retail channel churn predictive model. Microsoft Cloud for Retail Unified customer profile (currently available in the U.S.) includes an AI-based churn predictive model, designed for omnichannel retail and built atop Customer Insights.
+Expand insight into your customer with the retail channel churn predictive model. Microsoft Cloud for Retail Unified customer profile (currently available in the U.S.) includes an AI based churn predictive model, designed for omnichannel retail and built atop Customer Insights.
 
 Create a retail channel churn predictive model to fit your business needs, and gain cross-channel insights into the chance of retail customer churn. Run your company data through this model, training it to improve its predictions and identify the factors that contribute to churn, at the customer level.
 

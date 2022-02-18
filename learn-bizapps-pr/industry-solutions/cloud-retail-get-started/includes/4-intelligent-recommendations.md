@@ -16,7 +16,7 @@ A key goal of Microsoft Cloud for Retail is to elevate the shopping experience. 
 
 ![Example of Frequently bought together on a checkout page.](../media/frequently.png)
 
-**People also like** - Returns products for a given seed product based on consumer purchase patterns. Can be changed based on consumer action (purchase, views). One of the most effective recommendations channels is the People also like (or buy) list, most commonly found on a Product details page. People also like is based on explicit signals (transactional, recently viewed) and creates a strong relationship between items using information about other users' consumption.
+**People also like** - Returns products for a given seed product based on consumer purchase patterns. Can be changed based on consumer action (purchase, views). One of the most effective recommendations channels is the People also like (or buy) list, most commonly found on a Product details page. People also like, is based on explicit signals (transactional, recently viewed) and creates a strong relationship between items using information about other users' consumption.
 
 ![Example of People also like on a product detail page.](../media/people.png)
 
