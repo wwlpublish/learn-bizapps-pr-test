@@ -166,7 +166,7 @@ After you have completed these steps, your data will appear as currency.
 
 ## Explore the report
 
-Power BI links your charts to be interactive when selecting a visual in one chart; the other charts will automatically adjust. For example, if you click on the data point for March under **Total Production Cost and Shipping by Month**, the other two charts will adjust to show data for that month. **Total Cost by Month** will highlight the data for March while the **Materials, Printing, Assembly, and Shipping by Month** line graph shows just the data point for March. Click on the same data point to revet all the charts back to normal.
+Power BI links your charts to be interactive when selecting a visual in one chart; the other charts will automatically adjust. For example, if you click on the data point for March under **Total Production Cost and Shipping by Month**, the other two charts will adjust to show data for that month. **Total Cost by Month** will highlight the data for March while the **Materials, Printing, Assembly, and Shipping by Month** line graph shows just the data point for March. Click on the same data point to revert all the charts back to normal.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Contoso Cost Trends report with March data selected in the Total Production Cost and Shipping by Month chart.](../media/image-65.png)](../media/image-65.png#lightbox)
