@@ -4,7 +4,7 @@ Customer data platforms share common elements such as data collection, profile u
 
 Dynamics 365 Customer Insights works well with your data that is ready to process. If your data needs major transformation, consider using Microsoft Azure Synapse in addition to, or instead of, Customer Insights. For more information, see [Transform data in Azure Data Factory and Azure Synapse Analytics](/azure/data-factory/transform-data/?azure-portal=true).
 
-When you first start with Customer Insights, you'll choose one of two paths to focus on: Audience Insights or Engagement Insights (currently in preview). Select **Audience Insights** to unify disparate data across multiple sources for a 360-degree view of your customers. Select **Engagement Insights** to better understand customer behavior across websites, mobile apps, and connected products. You can switch your path any time. For a self-guided tour of Customer Insights, see  [Microsoft Guided Tours](https://guidedtour.microsoft.com/en-us/guidedtour/dynamics/customer-insights/5/1/?azure-portal=true).
+When you first start with Customer Insights, you'll choose one of two paths to focus on: Audience Insights or Engagement Insights (currently in preview). Select **Audience Insights** to unify disparate data across multiple sources for a 360-degree view of your customers. Select **Engagement Insights** to better understand customer behavior across websites, mobile apps, and connected products. You can switch your path anytime. For a self-guided tour of Customer Insights, see  [Microsoft Guided Tours](https://guidedtour.microsoft.com/en-us/guidedtour/dynamics/customer-insights/5/1/?azure-portal=true).
 
 ### Unified customer profile in Customer Insights
 
@@ -38,7 +38,7 @@ To complete setup and training of your retail churn model, you need to meet the 
 
 - At least Contributor permissions in Dynamics 365 Customer Insights
 
-- An understanding of what churn means for your organization (a customer is considered to have *churned* if their purchase value or volume drop below thresholds that you define)
+- An understanding of what churn means for your organization (a customer is considered to have *churned* if their purchase value or volume drops below thresholds that you have defined)
 
 Three data entities require mapping to the retail churn model: customer data, session data, and transaction data. With each entity, you'll have columns of data that are required for setting up and training the model and some columns that are optional. With all AI models, the more data that you set up for training, the more accurate predictions can be. Furthermore, with more accurate predictions, the value of the churn model is greater for your organization.
 
