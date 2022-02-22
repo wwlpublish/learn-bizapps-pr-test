@@ -4,12 +4,13 @@ title: Build a dashboard
 metadata:
   title: Build a dashboard
   description: "Build a dashboard"
-  ms.date: 06/25/2021
+  ms.date: 02/22/2022
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-bi
 azureSandbox: false
+labModal: false
 durationInMinutes: 10
 content: |
   [!include[](includes/5-build-dashboard.md)]
