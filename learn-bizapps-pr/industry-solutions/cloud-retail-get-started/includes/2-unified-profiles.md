@@ -38,7 +38,7 @@ To complete setup and training of your retail churn model, you need to meet the 
 
 - At least Contributor permissions in Dynamics 365 Customer Insights
 
-- An understanding of what churn means for your organization (a customer is considered to have *churned* if their purchase value or volume drops below thresholds that you have defined)
+- An understanding of what churn means for your organization (a customer is considered to have *churned* if their purchase value or volume drops below thresholds that you've defined)
 
 Three data entities require mapping to the retail churn model: customer data, session data, and transaction data. With each entity, you'll have columns of data that are required for setting up and training the model and some columns that are optional. With all AI models, the more data that you set up for training, the more accurate predictions can be. Furthermore, with more accurate predictions, the value of the churn model is greater for your organization.
 
