@@ -4,12 +4,13 @@ title: Transform data
 metadata:
   title: Transform data
   description: "Transform data"
-  ms.date: 06/25/2021
+  ms.date: 02/22/2022
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-bi
 azureSandbox: false
+labModal: false
 durationInMinutes: 8
 content: |
   [!include[](includes/3-transform-data.md)]

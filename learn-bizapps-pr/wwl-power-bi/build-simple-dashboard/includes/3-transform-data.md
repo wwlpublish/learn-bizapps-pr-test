@@ -26,11 +26,11 @@ Let's make a custom column using Power Query editor.
 You have successfully created a custom column. Although we won't be using this test column for visuals, you will need this skill to transform your data in the future.
 
 > [!NOTE]
-> For more information on calculated columns, including the use of IF statements, see Tutorial: [Create calculated columns in Power BI Desktop](/power-bi/desktop-tutorial-create-calculated-columns).
+> For more information on calculated columns, including the use of IF statements, see Tutorial: [Create calculated columns in Power BI Desktop](/power-bi/desktop-tutorial-create-calculated-columns?).
 
 ## Model Data
 
-Now we that we have created a column that we don't need, let's hide it so that it doesn't get in the way of creating our visuals. There are many actions you can perform to transform your data in the Report building tab without going into Edit Queries.
+Now we have created a column that we don't need, let's hide it so that it doesn't get in the way of creating our visuals. There are many actions you can perform to transform your data in the Report building tab without going into Edit Queries.
 
 1. On the fields pane, right click the newly created **Test Column**.
     ![Model data](../media/test-column.png)
