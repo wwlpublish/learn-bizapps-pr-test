@@ -32,9 +32,9 @@ Use these resources to discover more.
 
 ### Learn more about transforming data by visiting the following links:
 
-- [Tutorial: Create calculated columns in Power BI Desktop](/power-bi/desktop-tutorial-create-calculated-columns)
+- [Tutorial: Create calculated columns in Power BI Desktop](/power-bi/desktop-tutorial-create-calculated-columns?)
 
-- [Sort by column in Power BI Desktop](/power-bi/desktop-sort-by-column)
+- [Sort by column in Power BI Desktop](/power-bi/desktop-sort-by-column?)
 
 - [Model Data in Power BI](/learn/modules/model-data-power-bi/)
 
