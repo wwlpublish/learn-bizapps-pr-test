@@ -1,7 +1,7 @@
 As the original author (or citizen developer) of a Microsoft Modern Analytics solution, you have identified the data sources for your business intelligence reporting needs and connected those disparate data sources from your various lines of business systems by using Power Query. The next and most critical step is to create a data model. A data model is a series of tables that are linked together with relationships between them, along with a series of calculations and metrics that are based on those tables and relationships.
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWKC9g]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWKC9g]
 
 > [!div class="mx-imgBorder"]
 > [![Modern Analysis ecosystem: Author > Raw Data > Power Query > Data Model > Excel Canvas > Power BI Reports Focus on Data Model.](../media/1-data-model.png)](../media/1-data-model.png#lightbox)

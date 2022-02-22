@@ -1,15 +1,15 @@
-### YamlMime:ModuleUnit 
-uid: learn-bizapps.advanced-business-process-flows.5-exercise 
-title: Exercise – Add an instant flow
-metadata: 
-  title: Exercise – Add an instant flow 
-  description: Learn how to add an instant flow.  
-  ms.date: 06/28/2021  
+### YamlMime:ModuleUnit
+uid: learn-bizapps.advanced-business-process-flows.5-exercise
+title: Exercise - Add an instant flow
+metadata:
+  title: Exercise - Add an instant flow
+  description: Learn how to add an instant flow.
+  ms.date: 01/31/2022
   author: DaveBeasley
   ms.author: dbeasley
-  ms.topic: interactive-tutorial 
-  ms.prod: learning-power-automate 
-durationInMinutes: 8 
-content: | 
- [!include[](../includes/unit-banner.md)] 
- [!include[](includes/5-exercise.md)] 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+durationInMinutes: 8
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/5-exercise.md)]

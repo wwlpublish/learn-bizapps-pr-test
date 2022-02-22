@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-bizapps.azure-health-bot
+metadata:
+ title: Azure Health Bot in Microsoft Cloud for Healthcare
+ description: In this module, you'll explore the Azure Health Bot and discover how healthcare organizations can use it to build and deploy AI-powered, compliant, conversational healthcare experiences at scale.  The Azure Health Bot combines built-in medical database with natural language capabilities to understand clinical terminology and can be easily customized to support your organization's clinical use cases. The service ensures alignment with industry compliance requirements and is privacy protected to HIPAA standards.
+ ms.date: 01/21/2022
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-industry-solutions
+title: Azure Health Bot in Microsoft Cloud for Healthcare
+summary: |
+  [!include[](../includes/module-banner.md)]
+  In this module, you'll explore the Azure Health Bot and discover how healthcare organizations can use it to build and deploy AI-powered, compliant, conversational healthcare experiences at scale.  The Azure Health Bot combines built-in medical database with natural language capabilities to understand clinical terminology and can be easily customized to support your organization's clinical use cases. The service ensures alignment with industry compliance requirements and is privacy protected to HIPAA standards.
+abstract: |
+    In this module, you will:
+    - Set up Azure Health Bot
+    - Configure Dynamics 365 Customer Service Omnichannel Live Chat
+    -	Embed Azure Health Bot in a Power Apps Portal
+    -	Extend Azure Health Bot with custom scenarios
+prerequisites: Training Environment Preparation, an Azure subscription with Administrator access, Dynamics 365 Customer Service for Omnichannel and Power Apps Customer Self-service Portal.
+iconUrl: /learn/achievements/azure-health-bot.svg
+levels:
+- intermediate
+roles:
+- business-user
+- functional-consultant
+products:
+- industry-solutions
+- mscloud-healthcare
+units:
+- learn-bizapps.azure-health-bot.1-introduction
+- learn-bizapps.azure-health-bot.2-azure-health-bot
+- learn-bizapps.azure-health-bot.3-configure-customer-service-omnichannel-chat
+- learn-bizapps.azure-health-bot.4-embed-power-apps-health-bot
+- learn-bizapps.azure-health-bot.5-extend-custom-scenarios
+- learn-bizapps.azure-health-bot.6-check
+- learn-bizapps.azure-health-bot.7-summary
+badge:
+  uid: learn-bizapps.azure-health-bot.badge

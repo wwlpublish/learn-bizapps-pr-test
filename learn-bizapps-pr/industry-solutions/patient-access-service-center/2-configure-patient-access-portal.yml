@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.patient-access-service-center.2-configure-patient-access-portal 
+title: Exercise - Set up and navigate the Patient Access portal
+metadata: 
+  title: Exercise - Set up and navigate the Patient Access portal
+  description: Practice setting up and modifying an external patient portal template and creating patient registration accounts. 
+  ms.date: 01/21/2022 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-healthcare 
+durationInMinutes: 13 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-configure-patient-access-portal.md)] 

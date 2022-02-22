@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 10/07/2021
+ ms.date: 02/02/2022
  author: heyrob 
  ms.author: robde 
  ms.topic: interactive-tutorial 
@@ -32,9 +32,9 @@ quiz:
     - content: T-SQL
       isCorrect: false
       explanation: This option doesn't exist when connecting to AAS cubes.  
-    - content: Direct Query
+    - content: Live connection
       isCorrect: true 
-      explanation: This will reflect cube changes immediately. 
+      explanation: This will reflect cube changes immedieately. 
   - content: What can you do to improve performance when you're getting data in Power BI? 
     choices: 
     - content: Perform some calculations in the original data source 

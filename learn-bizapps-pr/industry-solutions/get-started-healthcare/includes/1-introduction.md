@@ -1,3 +1,0 @@
-The Healthcare solution is composed of various integrated Microsoft technologies (Dynamics 365, Microsoft 365, and Azure) that are tailored specifically for healthcare organizations. The solution provides features that will enable healthcare practitioners to better engage with their colleagues and patients. The solution provides rapid access to patient information and insights to provide the ability to create targeted treatment plans. The solution also provides patients with tools to more easily engage with their healthcare provider team.
-
-In this module, we'll cover the components of the Healthcare solution along with the associated technology. Future modules will go into more detail on deployment, configuration, and use.

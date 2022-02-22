@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.cloud-retail-get-started.3-connected-spaces
+title: Dynamics 365 Connected Spaces Preview
+metadata:
+  title: Dynamics 365 Connected Spaces Preview
+  description: Learn about the Dynamics 365 Connected Spaces Preview and how to use it for shopper analytics.
+  ms.date: 02/18/2022
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-mscloud-retail
+durationInMinutes: 6
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/3-connected-spaces.md)]

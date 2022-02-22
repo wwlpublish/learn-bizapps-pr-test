@@ -1,18 +1,18 @@
-In this exercise, you will learn how to do the following:
+In this exercise, you will learn how to:
 
-- Create a new Power Apps solution
+- Create a new Power Apps solution.
 
-- Create a new Business Process Flow for tracking loans in Loan Tracker
+- Create a new business process flow for tracking loans in the Loan Tracker application.
 
-- Publish the Business Process Flow to Loan Tracker
+- Publish the business process flow to the Loan Tracker application.
 
-The **business process flow (BPF)** presents the current application stage. This feature allows the loan manager to see the application's current stage in the process. The bank can choose to set as many stages as needed.
+The business process flow presents the current application stage. This feature allows the loan manager to see the application's current stage in the process. The bank can choose to set as many stages as needed.
 
 When the Loan Tracker application is installed, the business process flow contains four stages:
 
 -   Loan verification
 
--   Loan Processing
+-   Loan processing
 
 -   Underwriting
 
@@ -21,99 +21,103 @@ When the Loan Tracker application is installed, the business process flow contai
 In this exercise, you will extend the business process flow for loans to include a new **Quality Check** stage.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the loan verification step in the loan application process.](../media/loan-verification.png)](../media/loan-verification.png#lightbox)
+> [![Screenshot of the Loan verification step in the loan application process.](../media/loan-verification.png)](../media/loan-verification.png#lightbox)
 
 ## Task 1: Create a new Power Apps solution
 
-1.  Using an In-Private or Incognito window, navigate to [Power Apps](https://make.powerapps.com/?azure-portal=true).
+To create a new Power Apps solution, follow these steps:
 
-1.  Select the correct environment from the upper right **Environment** drop-down.
+1.  Use an In-Private or Incognito window and go to [Power Apps](https://make.powerapps.com/?azure-portal=true).
+
+1.  Select the correct environment from the **Environment** dropdown menu in the upper-right corner.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the environment menu.](../media/environment-menu.png)](../media/environment-menu.png#lightbox)
+	> [![Screenshot of the Environment menu in Power Apps.](../media/environment-menu.png)](../media/environment-menu.png#lightbox)
 
 1.  Select **Solutions** on the left navigation bar.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the navigation menu with solutions selected.](../media/solutions.png)](../media/solutions.png#lightbox)
+	> [![Screenshot of the navigation menu with Solutions selected.](../media/solutions.png)](../media/solutions.png#lightbox)
 
 1.  Select **+ New solution**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of new solution button.](../media/new-solution.png)](../media/new-solution.png#lightbox)
+	> [![Screenshot of the New solution button.](../media/new-solution.png)](../media/new-solution.png#lightbox)
 
-1.  Name the new solution **Woodgrove Banking**, select the **CDS Default Publisher** and select **Create**.
+1.  Name the new solution **Woodgrove Banking**, select **CDS Default Publisher**, and then select **Create**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the new solution details.](../media/solution-details.png)](../media/solution-details.png#lightbox)
+	> [![Screenshot of the New solution details, showing the Create button.](../media/solution-details.png)](../media/solution-details.png#lightbox)
 
-## Task 2: Extend the Loan Application Business Process Flow
+## Task 2: Extend the loan application business process flow
+
+To extend the loan application business process flow, follow these steps:
 
 1.  Select **Woodgrove Banking** to open the solution.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of Woodgrove Banking in the solution list.](../media/woodgrove-banking.png)](../media/woodgrove-banking.png#lightbox)
+	> [![Screenshot of Woodgrove Banking selected in the Solutions list.](../media/woodgrove-banking.png)](../media/woodgrove-banking.png#lightbox)
 
-1.  Select **+ Add existing** and then choose **Process**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the add existing menu with process selected.](../media/add-process.png)](../media/add-process.png#lightbox)
-
-1.  Search for "**BPF**" in search box, select **Loan application BPF**, and select **Add**.
+1.  Select **+ Add existing** and then select **Process**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Loan application business process flow selected.](../media/loan-application.png)](../media/loan-application.png#lightbox)
+	> [![Screenshot of the Add existing menu with Process selected.](../media/add-process.png)](../media/add-process.png#lightbox)
 
-1.  Open the **Loan application BPF**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the business process flow for loan application selected.](../media/loan-application-business-process-flow.png)](../media/loan-application-business-process-flow.png#lightbox)
-
-1.  Deactivate the BPF.
+1.  In the search box, enter **BPF**, select **Loan application BPF**, and then select **Add**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the business process flow deactivate button.](../media/deactivate.png)](../media/deactivate.png#lightbox)
+	> [![Screenshot of Loan application BPF selected, showing the Add button.](../media/loan-application.png)](../media/loan-application.png#lightbox)
+
+1.  Open **Loan application BPF**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the process deactivate confirmation.](../media/deactivate-confirmation.png)](../media/deactivate-confirmation.png#lightbox)
+	> [![Screenshot of Loan application BPF being selected.](../media/loan-application-business-process-flow.png)](../media/loan-application-business-process-flow.png#lightbox)
 
-1.  Extend the BPF by selecting and dragging a Stage in between the Underwriting and Closure stages.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the extend business process flow steps.](../media/extend.png)](../media/extend.png#lightbox)
-
-1.  Select the New Stage, give it a Display Name of Quality Check and select Apply.
+1.  Deactivate the business process flow.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the new stage named quality check.](../media/quality-check.png)](../media/quality-check.png#lightbox)
-
-1.  Expand Steps under the new stage and select Data Step #1.
+	> [![Screenshot of Loan application BPF in Power Apps, with the Deactivate button.](../media/deactivate.png)](../media/deactivate.png#lightbox)
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the data step selected.](../media/data-step.png)](../media/data-step.png#lightbox)
+	> [![Screenshot of the Process Deactivate Confirmation message with the Deactivate button selected.](../media/deactivate-confirmation.png)](../media/deactivate-confirmation.png#lightbox)
 
-1.  Enter the following information and select **Apply**:
+1.  Extend the business process flow by selecting and dragging a stage in between the **Underwriting** and **Closure** stages.
 
-	- **Step Name**: Confirmed By
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the steps to extend the business process flow.](../media/extend.png)](../media/extend.png#lightbox)
+
+1.  Select the new stage, give it a **Display Name** of **Quality Check**, and then select **Apply**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the new stage named Quality Check and the Apply button selected.](../media/quality-check.png)](../media/quality-check.png#lightbox)
+
+1.  Expand **Steps** under the new stage and then select **Data Step #1**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of Data Step 1 selected.](../media/data-step.png)](../media/data-step.png#lightbox)
+
+1.  Enter the following information and then select **Apply**:
+
+	- **Step Name** - Confirmed By
 	
-	- **Data Field**: Text placeholder
+	- **Data Field** - Text placeholder
 	
-	- **Required**: Yes
+	- **Required** - Yes
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the data step details.](../media/data-step-details.png)](../media/data-step-details.png#lightbox)
+	> [![Screenshot of the Data Step details.](../media/data-step-details.png)](../media/data-step-details.png#lightbox)
 
 1. Select **Save** to save your changes.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of save button to save changes.](../media/save.png)](../media/save.png#lightbox)
+	> [![Screenshot of the Save button to save changes.](../media/save.png)](../media/save.png#lightbox)
 
-1. Select Activate to activate the BPF
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of activate button to activate the business process flow.](../media/activate.png)](../media/activate.png#lightbox)
+1. Select **Activate** to activate the business process flow.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the activate confirmation window.](../media/activate-confirmation.png)](../media/activate-confirmation.png#lightbox)
+	> [![Screenshot of the Activate button to activate the business process flow.](../media/activate.png)](../media/activate.png#lightbox)
 
-**Congratulations!** You have extended the Loan application BPF by adding another stage for loan applications in Microsoft Cloud for Financial Services.
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Process Activate Confirmation window.](../media/activate-confirmation.png)](../media/activate-confirmation.png#lightbox)
+
+Congratulations, you have extended the Loan application business process flow by adding another stage for loan applications in Microsoft Cloud for Financial Services.

@@ -37,7 +37,7 @@ The **Selected visuals** scope will target only those visuals that are selected 
 Setting **Bookmark** scope is best described with an example. For a demonstration on the use of the **Selected visuals** scope, watch the following video.
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWObCd]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWObCd]
 
 ## Bookmark examples
 

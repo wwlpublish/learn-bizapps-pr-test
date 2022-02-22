@@ -1,0 +1,1 @@
+In this module, you learned about the healthcare industry trends that have shaped the basis for Microsoft Cloud for Healthcare. You learned about the prioritized scenarios and the relevant capabilities, along with their product requirements. Finally, you learned about the architecture and the core components that form Microsoft Cloud for Healthcare.

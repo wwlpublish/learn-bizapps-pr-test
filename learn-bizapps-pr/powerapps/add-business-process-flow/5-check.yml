@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.add-business-process-flow.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 01/14/2022 
+ author: jadaphillips 
+ ms.author: jadaphillips 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 6 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Where is the data from a business process flow stored?
+    choices: 
+    - content: All data that is associated with a business process flow is stored in one or more tables in Dataverse automatically.
+      isCorrect: true 
+      explanation: All data that is associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
+    - content: Data is stored in the same table as the table that is associated with the business process flow.
+      isCorrect: false 
+      explanation: All data that is associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
+    - content: Business process flow data is not stored anywhere.
+      isCorrect: false 
+      explanation: All data that is associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
+    - content: To store the data, you need to create a new custom entity that is associated with the business process flow.
+      isCorrect: false 
+      explanation: All data that is associated with the business process flow can only be stored in one or more tables in Microsoft Dataverse.
+  - content: Which sentence best describes a business process flow?
+    choices: 
+    - content: It's an automated way to complete tedious data entry tasks.
+      isCorrect: false 
+      explanation: A business process flow is a visual guide that is meant to help users complete a business process by using a set of predefined stages.
+    - content: It's a visual guide that is meant to help users complete a business process by using a set of predefined stages.
+      isCorrect: true 
+      explanation: A business process flow is a visual guide that is meant to help users complete a business process by using a set of predefined stages.
+    - content: It's a way to integrate multiple data sources into a model-driven app.
+      isCorrect: false 
+      explanation: A business process flow is a visual guide that is meant to help users complete a business process by using a set of predefined stages.
+    - content: It's a way to automate sending emails to persons within your organization.
+      isCorrect: false 
+      explanation: A business process flow is a visual guide that is meant to help users complete a business process by using a set of predefined stages.
+  - content: How do you attach a business process flow to a model-driven app?
+    choices: 
+    - content: Go into the table and then link it by using the form designer.
+      isCorrect: false 
+      explanation: Go into the app designer, select Business Process Flows, and then select the business process flow from the list of available flows.
+    - content: Go into the app designer, select Business Process Flows, and then select the business process flow from the list of available flows.
+      isCorrect: true 
+      explanation: Go into the app designer, select Business Process Flows, and then select the business process flow from the list of available flows.
+    - content: You need Visual Studio to attach a business process flow to a model-driven app.
+      isCorrect: false 
+      explanation: Go into the app designer, select Business Process Flows, and then select the business process flow from the list of available flows.
+    - content: Use Power Automate to attach a business process flow to a model-driven app.
+      isCorrect: false 
+      explanation: Go into the app designer, select Business Process Flows, and then select the business process flow from the list of available flows.

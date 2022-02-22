@@ -18,7 +18,7 @@ For a demonstration of the four different techniques, watch the following video.
 
 &nbsp;
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWObCc]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWObCc]
 
 ### Use drillable visuals
 

@@ -25,7 +25,7 @@ Essentially, the **Key influencers** visual is many visuals inside one frame. Wh
 The capabilities of the **Key influencers** visual are best described by following an example. For a demonstration of the **Key influencers** visual, watch the following video.
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO1bL]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWO1bL]
 
 For more information, see [Create key influencers visualizations](/power-bi/visuals/power-bi-visualization-influencers).
 
@@ -43,7 +43,7 @@ For a demonstration of the **Decomposition Tree** visual, watch the following vi
 The capabilities of the **Decomposition Tree** visual are best described by following an example. For a demonstration of the **Decomposition Tree** visual, watch the following video.
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO1bM]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWO1bM]
 
 For more information, see [Create and view decomposition tree visuals in Power BI](/power-bi/visuals/power-bi-visualization-decomposition-tree).
 
@@ -62,4 +62,4 @@ For a demonstration of the **Q&A** visual, watch the following video.
 For more information, see [Use Power BI Q&A to explore your data and create visuals](/power-bi/create-reports/power-bi-tutorial-q-and-a).
 
 &nbsp;
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWObCf]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWObCf]

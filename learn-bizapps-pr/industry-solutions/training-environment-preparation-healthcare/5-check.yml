@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.training-environment-preparation-healthcare.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 01/21/2022 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-industry-solutions 
+durationInMinutes: 8 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which of the following licenses is not required for Microsoft Cloud for Healthcare?
+    choices: 
+    - content: Dynamics 365 Marketing
+      isCorrect: false
+      explanation: Dynamics 365 Project Operations is not required for Microsoft Cloud for Healthcare.
+    - content: Dynamics 365 Customer Service
+      isCorrect: false 
+      explanation: Dynamics 365 Project Operations is not required for Microsoft Cloud for Healthcare.
+    - content: Dynamics 365 Project Operations
+      isCorrect: true 
+      explanation: Dynamics 365 Project Operations is not required for Microsoft Cloud for Healthcare.
+    - content: Dynamics 365 Field Service
+      isCorrect: false 
+      explanation: Dynamics 365 Project Operations is not required for Microsoft Cloud for Healthcare.
+  - content: Which template do you use to create a Power Apps Portal before deploying Microsoft Cloud for Healthcare? 
+    choices: 
+    - content: Customer self-service portal
+      isCorrect: true
+      explanation: Customer self-service portal is deployed for Microsoft Cloud for Healthcare.
+    - content: Community portal
+      isCorrect: false 
+      explanation: Customer self-service portal is deployed for Microsoft Cloud for Healthcare.
+    - content: Partner portal
+      isCorrect: false 
+      explanation: Customer self-service portal is deployed for Microsoft Cloud for Healthcare.
+    - content: Customer portal
+      isCorrect: false
+      explanation: Customer self-service portal is deployed for Microsoft Cloud for Healthcare.
+  - content: Where do you go to deploy Microsoft Cloud for Healthcare?
+    choices: 
+    - content: Microsoft Power Platform admin center
+      isCorrect: false
+      explanation: Go to the Microsoft Cloud Solution Center to deploy Microsoft Cloud for Healthcare.
+    - content: Power Apps Maker Portal
+      isCorrect: false 
+      explanation: Go to the Microsoft Cloud Solution Center to deploy Microsoft Cloud for Healthcare.
+    - content: Microsoft Admin Center
+      isCorrect: false
+      explanation: Go to the Microsoft Solutions Center to deploy Microsoft Cloud for Healthcare.
+    - content: Microsoft Cloud Solution Center
+      isCorrect: true
+      explanation: Go to the Microsoft Cloud Solution Center to deploy Microsoft Cloud for Healthcare.
+  - content: Which of the following is required to deploy Patient Outreach in Microsoft Cloud for Healthcare?
+    choices: 
+    - content: Microsoft Azure
+      isCorrect: false
+      explanation: Dynamics 365 Marketing is required to deploy Patient Outreach in Microsoft Cloud for Healthcare.
+    - content: Microsoft Teams
+      isCorrect: false 
+      explanation: Dynamics 365 Marketing is required to deploy Patient Outreach in Microsoft Cloud for Healthcare.
+    - content: Dynamics 365 Marketing
+      isCorrect: true
+      explanation: Dynamics 365 Marketing is required to deploy Patient Outreach in Microsoft Cloud for Healthcare.
+    - content: Dynamics 365 Field Service
+      isCorrect: false 
+      explanation: Dynamics 365 Marketing is required to deploy Patient Outreach in Microsoft Cloud for Healthcare.

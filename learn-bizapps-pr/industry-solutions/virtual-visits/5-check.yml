@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.virtual-visits.5-check
+title: Check your knowledge
+metadata:
+ title: Check your knowledge
+ description: Answer the following questions to see what you've learned.
+ ms.date: 01/21/2022
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-industry-solutions
+durationInMinutes: 8
+quiz:
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: A practitioner specialty can be created as what kind of record type in the Virtual Clinic application?
+    choices:
+    - content: Activity
+      isCorrect: false
+      explanation: A practitioner specialty cannot be created as an Activity record type in the Virtual Clinic application.
+    - content: Codeable Concept
+      isCorrect: true
+      explanation: A practitioner specialty can be created as a Codeable Concept record type in the Virtual Clinic application.
+    - content: Task
+      isCorrect: false
+      explanation: A practitioner specialty cannot be created as a Task record type in the Virtual Clinic application.
+    - content: Description
+      isCorrect: false
+      explanation: A practitioner specialty cannot be created as a Description record type in the Virtual Clinic application.
+  - content: Slots are related to what type of record?
+    choices:
+    - content: Schedules
+      isCorrect: true
+      explanation: Slots are used in schedules.
+    - content: Contacts
+      isCorrect: false
+      explanation: Slots aren't used in contacts.
+    - content: Locations
+      isCorrect: false
+      explanation: Slots aren't used in locations.
+    - content: Codeable Concepts
+      isCorrect: false
+      explanation: Slots aren't used in Codeable Concepts.
+  - content: Where are environment variables for Virtual Visits configured?
+    choices:
+    - content: Portal.azure.com
+      isCorrect: false
+      explanation: Virtual Visits aren't configured in portal.azure.com.
+    - content: Make.powerapps.com
+      isCorrect: true
+      explanation: Virtual Visits are configured in make.powerapps.com.
+    - content: Admin.powerplatform.com
+      isCorrect: false
+      explanation: Virtual Visits aren't configured in admin.powerplatform.com.
+    - content: Teams.microsoft.com
+      isCorrect: false
+      explanation: Virtual Visits aren't configured in teams.microsoft.com.
+  - content: To embed the Virtual Clinic app in Microsoft Teams, you must add what type of Power App as a tab?
+    choices:
+    - content: Canvas app
+      isCorrect: false
+      explanation: To embed the Virtual Clinic app, you don't add the Canvas app as a tab.
+    - content: Model-driven app
+      isCorrect: true
+      explanation: To embed the Virtual Clinic app, you must add the Model-driven app as a tab.
+    - content: Dynamics 365 app
+      isCorrect: false
+      explanation: To embed the Virtual Clinic app, you don't add the Dynamics 365 app as a tab.
+    - content: Azure app
+      isCorrect: false
+      explanation: To embed the Virtual Clinic app, you don't add the Azure app as a tab.

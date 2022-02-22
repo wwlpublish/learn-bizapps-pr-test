@@ -1,5 +1,25 @@
 ### YamlMime:Achievements
 achievements:
+- uid: learn-bizapps.work-healthcare-solution.trophy
+  type: trophy
+  title: Work with Microsoft Cloud for Healthcare
+  summary: Work with Microsoft Cloud for Healthcare
+  iconUrl: /learn/achievements/work-healthcare-solution.svg
+- uid: learn-bizapps.get-started-healthcare.badge
+  type: badge
+  title: Get started with Microsoft Cloud for Healthcare solutions powered by Dynamics 365
+  summary: Get started with Microsoft Cloud for Healthcare solutions powered by Dynamics 365
+  iconUrl: /learn/achievements/get-started-healthcare.svg
+- uid: learn-bizapps.deployment-planning-healthcare.badge
+  type: badge
+  title: Deployment planning of Microsoft Cloud for Healthcare
+  summary: Badge for Deployment planning of Microsoft Cloud for Healthcare module.
+  iconUrl: /learn/achievements/deployment-planning-healthcare.svg
+- uid: learn-bizapps.use-healthcare-solution.badge
+  type: badge
+  title: Use Microsoft Cloud for Healthcare solutions
+  summary: Badge for Use Microsoft Cloud for Healthcare solutions module.
+  iconUrl: /learn/achievements/use-healthcare-solution.svg
 - uid: learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.badge
   type: badge
   title: Implement robotic process automation with Microsoft Power Automate, Teams, desktop flow, and AI Builder

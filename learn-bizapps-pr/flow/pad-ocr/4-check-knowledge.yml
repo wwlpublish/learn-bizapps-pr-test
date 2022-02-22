@@ -19,10 +19,10 @@ quiz:
       isCorrect: false 
       explanation: "Power Automate for desktop supports both Windows and Google Tesseract OCR engines."
     - content: "Google Tesseract"
-      isCorrect: true 
+      isCorrect: false 
       explanation: "Power Automate for desktop supports both Windows and Google Tesseract OCR engines."
     - content: "Both"
-      isCorrect: false 
+      isCorrect: true 
       explanation: "Power Automate for desktop supports both Windows and Google Tesseract OCR engines."
   - content: "Width and height multipliers make the OCR extraction more effective, when:"
     choices: 

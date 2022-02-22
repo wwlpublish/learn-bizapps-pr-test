@@ -1,6 +1,6 @@
 Today, organizations look for more effective ways to deliver customer service solutions to their customers. Customers seek faster and more precise self-service support options, while businesses seek to satisfy their customers with faster, better customer service. The intersection of these needs can be met with Microsoft Power Virtual Agents. Power Virtual Agents provides businesses with a way to build a library of the most easily answered questions and offer a user experience that helps customers retrieve that information with fast and simple queries by using a bot. Power Virtual Agents is simple for non-technical users to write and expand quickly and it's desirable for customers who are accustomed to searching the internet for answers to their questions.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQUNm]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWQUNm]
 
 A bot is a form of AI that simulates human conversation through a chat interface. Bots listen for keywords and phrases that relate to the library of known, common customer issues (topics) that are stored in the bot, and it will return answers quickly and iteratively as the customer continues the chat. The bot continues to check if the customer's question has been answered and then refines its selection of topics to solve the customer's problem.
 

@@ -17,6 +17,9 @@ Use this action to add multiple images. When an action includes multiple images,
 1. Determine the mouse movement's animation type and speed.
 1. Determine which occurrence of the image the action should move the mouse to.
 1. Send a left mouse click after moving the cursor to the image. Set the click to occur immediately after the cursor has been moved to the image or specify a delay in seconds.
+
+   ![Screenshot of the Move mouse to image action properties.](..\media\move-mouse-image-action-properties.png)
+
 1. Set the action to wait for the image to appear onscreen as well as a duration for the wait
 1. Determine which algorithm to use when searching for the image.
 1. Use the graphical tool to determine which part of the image the cursor moves to; center, left, middle, upper right etc.
@@ -27,7 +30,7 @@ Use this action to add multiple images. When an action includes multiple images,
 1. Select Subregion to capture an area of the screen or active window. The subregion uses four coordinates that specify a rectangular area on the screen or window.
 1. Optionally, store the coordinates of the image found in two separate variables
 
-   ![Screenshot of the Move Mouse to Image action properties dialog.](..\media\move-mouse-image-action-properties.png)
+   ![Screenshot of the Move mouse to image action advanced properties.](..\media\move-mouse-image-action-properties-advanced.png)
 
 Specify a string of text on the screen to move the cursor to with the **Move Mouse to Text on screen**. The action moves the cursor to the text, even if it is stored as an image such as a jpg or pdf file. For this action, you must specify an optical character recognition (OCR) engine or an OCR engine variable. The callouts in the following illustration show how to configure this action.
 

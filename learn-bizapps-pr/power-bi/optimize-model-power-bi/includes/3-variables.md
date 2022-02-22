@@ -40,7 +40,7 @@ RETURN
     SalesVariance
 ```
 
-In the first measure definition in the table, the formula is inefficient because it requires Power BI to evaluate the same expression twice. The second definition is more efficient because, due to the variable, Power BI only needs to evaluate the PARALLEDPERIOD expression once.
+In the first measure definition in the table, the formula is inefficient because it requires Power BI to evaluate the same expression twice. The second definition is more efficient because, due to the variable, Power BI only needs to evaluate the PARALLELPERIOD expression once.
 
 If your data model has multiple queries with multiple measures, the use of variables could cut the overall query processing time in half and improve the overall performance of the data model. Furthermore, this solution is a simple one; imagine the savings as the formulas get more complicated, for instance, when you are dealing with percentages and running totals.
 
