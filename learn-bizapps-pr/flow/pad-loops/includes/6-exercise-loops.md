@@ -44,3 +44,5 @@ Before starting, you should create two empty folders, named **PDF** and **DOCX**
 1. Within the loop, add a **Write text to file** action to add the file index number to the contents of the .txt file. Since the **Loop** action only increases the loop index, the file in question will have to be retrieved using the **%Files%** variable and the loop index. To start counting the files from one and not zero, add one to the index number.
 
     ![Screenshot of the write text to file action properties dialog.](..\media\write-text-to-file-action-properties.png)
+
+    
