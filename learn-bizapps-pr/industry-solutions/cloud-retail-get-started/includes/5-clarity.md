@@ -63,7 +63,7 @@ To support team collaboration, you can invite other users to be members of the p
 
 ### Review information for setup
 
-On the project setup, you can get the code snippet that needs to be on your site. Additionally, you can set up Google Analytics integration and use of cookies. Integrating your Clarity project with Google Analytics allows Clarity to link session playbacks with your Google Analytics dashboard. After you have identified the sessions that you need more information on, go to Google Analytics Dashboard to debug and understand user pain points.
+On the project setup, you can get the code snippet that needs to be on your site. Additionally, you can set up Google Analytics integration and use of cookies. Integrating your Clarity project with Google Analytics allows Clarity to link session playbacks with your Google Analytics dashboard. After you've identified the sessions that you need more information on, go to Google Analytics Dashboard to debug and understand user pain points.
 
 :::image type="content" source="../media/setup.png" alt-text="Screenshot of Setup with Advanced settings expanded to show Cookies, and How to install Clarity expanded to show Install tracking code manually.":::
 
