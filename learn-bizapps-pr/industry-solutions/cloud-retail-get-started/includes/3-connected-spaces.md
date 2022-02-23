@@ -4,18 +4,18 @@ At the core of this solution is [Responsible AI](https://www.microsoft.com/ai/r
 
 - **Shopper analytics** - Use cameras that are pointed at entry and exit locations, receive counts and trends for traffic in the store, and observe how shoppers change by the hour and by day. You can also identify the busiest day of the week and use it to plan shifts.
 
-> [!div class="mx-imgBorder"]
-> [![Screen image showing the setup of a step to add a skill to a space.](../media/shopper-analytics.png)](../media/shopper-analytics.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screen image showing the setup of a step to add a skill to a space.](../media/shopper-analytics.png)](../media/shopper-analytics.png#lightbox)
 
 - **Display effectiveness** - Measure the effectiveness of displays (end caps in your store) to gain an understanding of how many people walked past the display and how many have actively engaged with it. Use this data to do A/B testing to determine the best locations to put your promotional content or to understand how the display is doing.
 
-> [!div class="mx-imgBorder"]
-> [![Screen image showing the setup of another step to add a skill to a space.](../media/display-effectiveness.png)](../media/display-effectiveness.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screen image showing the setup of another step to add a skill to a space.](../media/display-effectiveness.png)](../media/display-effectiveness.png#lightbox)
 
 - **Queue management** - Measure the customer wait time that's experienced in queues, use the data to plan to open more queues, and achieve a better understanding of business that is lost due to queue abandonment.
 
-> [!div class="mx-imgBorder"]
-> [![Screen image showing the setup of a step to add a skill to a space for queue management.](../media/queue-management.png)](../media/queue-management.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screen image showing the setup of a step to add a skill to a space for queue management.](../media/queue-management.png)](../media/queue-management.png#lightbox)
 
 ## Get started
 
