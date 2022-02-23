@@ -46,7 +46,7 @@ Your data might include a catalog or user interactions, for example. Your catalo
 
 ### Run the AI-ML service
 
-After data has been structured and shared, and after the Intelligent Recommendations service instance has been initiated, the *cooking* process begins. Data is processed and modeled according to business needs and scenarios. You can monitor progress by examining the output logs to make sure that everything runs smoothly.
+After data has been structured and shared, and after the Intelligent Recommendations service instance has been initiated, the process begins. Data is processed and modeled according to business needs and scenarios. You can monitor progress by examining the output logs to make sure that everything runs smoothly.
 
 With an extensible architecture, businesses have the power to introduce more business logic and manage multiple instances of recommendation models. These multiple instances are useful for experimentation or for creating use cases with different signals.
 
