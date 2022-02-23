@@ -70,10 +70,10 @@ The results page will display three primary sections of data: training model per
 
   - **C** - When the model accurately predicted less than 50 percent of the total predictions
 
-![Screen image showing the model score of a successful model.](../media/performance.png)
+   ![Screen image showing the model score of a successful model.](../media/performance.png)
 
 - **Churn risk by percentile** - Groups of customers based on their predicted risk of churn. This data can help you later if you want to create a segment of customers with high churn risk. For example, such segments can help you understand where your cutoff should be for customer retention segments.
 
-![Screen image of a chart that's displaying churn risks.](../media/churn-risk.png)
+   ![Screen image of a chart that's displaying churn risks.](../media/churn-risk.png)
 
 - **Most influential factors** - Many factors are considered when you're creating your prediction. Each factor has its importance calculated for the aggregated predictions that a model creates. You can use these factors to help validate your prediction results. Additionally, you can use this information to create segments that could help influence churn risk for customers.
