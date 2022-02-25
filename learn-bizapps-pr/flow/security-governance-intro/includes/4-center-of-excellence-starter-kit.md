@@ -48,11 +48,11 @@ You can use this app to:
 
 - Use the DLP Editor to create new policies:
 
-![Demonstration of the C O E Data Loss Prevention editor.](../dlp-editor-new.gif)
+![Demonstration of the C O E Data Loss Prevention editor for new policies.](../media/dlp-editor-new.gif)
 
 You can use the DLP Editor to update existing policies:
 
-![Demonstration of the C O E Data Loss Prevention editor.](../dlp-editor-existing.gif)
+![Demonstration of the C O E Data Loss Prevention editor for existing policies.](../media/dlp-editor-existing.gif)
 
 ### Catalog tenant resources, visualize data in Power BI
 
@@ -81,7 +81,7 @@ contains tabs that provide the following reports:
         Production, Sandbox, Trial), and then identifies the creators of the
         environments and when the environment was created.
 
-![Screenshot of the Center Of Excellence P B I.](../media/coe-environments.png)
+![Screenshot of the Center Of Excellence environments.](../media/coe-environments.png)
 
 - **Apps** - Provides insights into the usage of apps, including
         the number of sessions and users that the app has been shared
@@ -92,7 +92,7 @@ contains tabs that provide the following reports:
   - **App detail** - Examines the specifics of the app, including
         the connection type and when the app was last published.
 
-![Screenshot of the Center Of Excellence P B I.](../media/coe-apps.png)
+![Screenshot of the Center Of Excellence apps.](../media/coe-apps.png)
 
 - **Flows** - Displays a flow creation trend that will break down
         when flows were created. This report will also pivot data based
@@ -113,7 +113,7 @@ contains tabs that provide the following reports:
         insight into the popularity of specific connectors within your
         tenant.
 
-![Screenshot of the Center Of Excellence P B I.](../media/coe-flows.png)
+![Screenshot of the Center Of Excellence flows.](../media/coe-flows.png)
 
 ### App Audit
 
