@@ -41,7 +41,7 @@ First, let's create the SharePoint list.
     - Add a *Yes/No* column and name it *ApprovalStatus*. Set the Default value to **No**, which will ensure all items must be reviewed by the approver before the tweet can be approved.
     - Add a *Single line of text* column and name it *ApproverComments*. The approver can then add a comment about the approval status.
 
-![Screenshot of list settings.](../media/create-column.png)
+![Screenshot of the create column button.](../media/create-column.png)
 
 1. Copy the URL of the SharePoint list. You'll use it when you create the flow.
 
