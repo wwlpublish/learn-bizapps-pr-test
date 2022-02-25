@@ -14,14 +14,34 @@ You'll use a template that starts an approval process whenever a new item is cre
 
 First, let's create the SharePoint list.
 
-1. On your SharePoint site, create a SharePoint list and name it *ContosoTweets*.
+1. On your SharePoint site, select the gear settings icon on the top right and then select **Site contents**.
 
-1. Open the list, and select **+ Add column** to add the following columns. Select **Save** after you create each column.
+    ![Screenshot of the SharePoint site settings.](../media/sharepoint-site-settings.png)
+
+1. Select **New** and then select **List**.
+
+    ![Screenshot of the SharePoint new list.](../media/new-list.png)
+
+1. Select **Blank list**.
+
+    ![Screenshot of the Blanks list.](../media/create-blank-list.png)
+
+1. Name the list as *ContosoTweets*.
+
+    ![Screenshot of the new list.](../media/name-new-list.png)
+
+1. Select the gear settings icon on the top right and select **List settings**. 
+
+![Screenshot of list settings.](../media/list-settings.png)
+
+1. Open the list and select **+ Add column** to add the following columns. Select **Save** after you create each column.
 
     - Add a *Multiple lines of text* column and name it *TweetContent*. This column will hold the content of the tweets that will require approval.
     - Add a *Date and time* column and name it *TweetDate*. Toggle the **Include Time** option to Yes.
     - Add a *Yes/No* column and name it *ApprovalStatus*. Set the Default value to **No**, which will ensure all items must be reviewed by the approver before the tweet can be approved.
     - Add a *Single line of text* column and name it *ApproverComments*. The approver can then add a comment about the approval status.
+
+![Screenshot of list settings.](../media/create-column.png)
 
 1. Copy the URL of the SharePoint list. You'll use it when you create the flow.
 
@@ -32,7 +52,12 @@ First, let's create the SharePoint list.
 
     ![Screenshot of the Templates page on the Approval tab with search results for "Post list items to twitter after approval" highlighted.](../media/create-approval.png)
 
-1. Make sure your account credentials for **SharePoint**, **Approvals**, and **Twitter** are entered and are correct. If any of these connections are not entered, select the **+** icon next the connection and enter your credentials accordingly.
+1. Make sure your account credentials for **SharePoint**, **Approvals**, and **Twitter** are entered and are correct. If any of these connections aren't entered, select the **+** icon next the connection and enter your credentials accordingly.
+
+1. For Twitter authentication you'll receive a pop-up window similar to this one. 
+
+    ![Screenshot of Twitter authorization.](../media/twitter-sign.png)
+
 
 1. Once all of these connections are set up properly, select **Continue** to proceed.
 
@@ -54,6 +79,10 @@ First, let's create the SharePoint list.
 1. In the **Item Link Description** field, enter *Contoso Tweet List*.
 
     ![Screenshot of Item Link and Item Link Description fields.](../media/tweet-item-link.png)
+
+1. Select **Expand condition** and confirm the settings.
+
+    ![Screenshot of flow condition.](../media/flow-condition.png)
 
 1. In the **If yes** section of the **Condition**, select **Add an action**.
 
