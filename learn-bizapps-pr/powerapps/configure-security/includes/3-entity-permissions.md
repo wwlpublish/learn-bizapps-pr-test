@@ -13,8 +13,11 @@ You can create a table permission in the Portal Management app and associate it 
 Follow these steps to create a new **Table Permission** row:
 
 1. Identify the table that will be secured.
+
 1. Define scope.
+
 1. For any scope other than Global, select the relationships that define that scope.
+
 1. Determine the privileges that are being granted to the role through this permission.
 
 > [!IMPORTANT]
