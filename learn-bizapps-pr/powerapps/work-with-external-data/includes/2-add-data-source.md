@@ -17,7 +17,7 @@ Add tabular data sources by following the same steps as in the previous procedur
 
 1.  At the bottom of **Connect to data**, select **Connect**.
 
-	In order to connect to an on-premises SharePoint server, you need to have selected the on-premises data gateway.
+	To connect to an on-premises SharePoint server, you need to have selected the on-premises data gateway.
 
 1.  When prompted, perform either of these steps:
 
@@ -63,6 +63,6 @@ This formula will do the following.
 | Subject              | "Subject of the email"|             |
 | Body                 | "Body of the email"   |              |
 
-An important concept to understand about data sources is that some data sources, such as SQL Server, use stored credentials that are shared by all users of the connector. Others, such as Microsoft Dataverse, SharePoint, and other Office 365 connectors, use the user's credentials. For example, every user who uses an app based on data in a SharePoint list needs the appropriate permissions in SharePoint to interact with that data.
+An important concept to understand about data sources is that some data sources, such as SQL Server, utilize stored credentials that are shared by all users of the connector. Others, such as Microsoft Dataverse, SharePoint, and other Office 365 connectors, utilize the user's credentials. For example, every user who works with an app based on data in a SharePoint list needs the appropriate permissions in SharePoint to interact with that data.
 
 In the next unit of this module, you'll learn more about the gallery control and how to display your data. 
