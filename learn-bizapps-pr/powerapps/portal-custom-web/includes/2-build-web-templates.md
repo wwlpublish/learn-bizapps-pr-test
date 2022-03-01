@@ -16,9 +16,9 @@ The `fetchxml` tag allows users to query data from Dataverse and renders the res
 {% fetchxml varResults %}
 <!— Fetchxml query -->
 <fetch>
-  <table name="account">
+  <entity name="account">
     <attribute name="name" />
-  </table>
+  </entity>
 </fetch>
 {% endfetchxml %}
 ```
