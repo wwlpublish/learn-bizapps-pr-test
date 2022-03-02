@@ -9,9 +9,8 @@ Now that you have reviewed this module, you should be able to:
 
 ## Key takeaways
 
-| | |
-| - | - |
 | ![Icon of lightbulb](../media/key-takeaway.png) | Here are the four key takeaways: |
+| - | - |
 | | 1. Power Automate has hundreds of connectors to ensure you can create useful solutions that integrate with all your business programs. |
 | | 2. Power Automate has hundreds of templates that combine actions and triggers from connectors to create workflows useful for any business scenario. |
 | | 3. Automation can save your business time and energy spent on repetitive tasks and make your business run more smoothly. |
