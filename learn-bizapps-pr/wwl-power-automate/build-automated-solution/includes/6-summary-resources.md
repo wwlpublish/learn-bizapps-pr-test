@@ -26,10 +26,10 @@ Use these resources to discover more.
 
 ### Review additional Power Automate documentation
 
-- [Power Automate Documentation](https://docs.microsoft.com/flow/)
+- [Power Automate Documentation](/flow)
 
 ### Additional Learn Modules
 
-- [Get started with Power Automate](https://docs.microsoft.com/learn/modules/get-started-with-flow/)
+- [Get started with Power Automate](/learn/modules/get-started-with-flow)
 
-- [Build more complex flows with Power Automate](https://docs.microsoft.com/learn/modules/build-more-flows/)
+- [Build more complex flows with Power Automate](/learn/modules/build-more-flows)
