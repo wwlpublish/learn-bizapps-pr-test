@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.share-cloud-flow.share-co-ownership
+title: Share using co-ownership
+metadata:
+  title: Share using co-ownership
+  description: Learn what happens when you assign a co-owner to a flow.
+  ms.date: 03/11/2022
+  author: jadaphillips
+  ms.author: jadaphillips
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+durationInMinutes: 9
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/share-co-ownership.md)]
