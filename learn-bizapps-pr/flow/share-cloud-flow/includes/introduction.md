@@ -27,11 +27,13 @@ When a cloud flow is shared with you individually, you'll receive an email. The 
 
 If you're a co-owner of a cloud flow, the flow won't show in your **My Flows** > **Cloud flows** list but will show in the **My Flows** > **Shared with me** list.
 
-![Screenshot showing My Flows Shared with me list.](../media/shared-me.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing My Flows Shared with me list.](../media/shared-me.png)
 
 If you don't recognize a flow and want to know who shared it with you, select the flow name. The detail page will list the original flow owner.
 
-![Screenshot showing the flow detail page so you can find the original owner.](../media/flow-details.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the flow detail page so you can find the original owner.](../media/flow-details.png)
 
 For instant cloud flows that you access as a run-only user, you'll only see it in the app that supports the flow's instant trigger. For example, a button flow would show in the Power Automate mobile app. A Microsoft Teams selected message would show in Microsoft Teams and Dataverse when a record is selected in the Power Apps model-driven app. When you're a run-only user, the flow won't appear in **My Flows** > **Shared with me** list.
 

@@ -7,7 +7,7 @@ You can only create solutions in a Power Platform environment with Microsoft Dat
 For a user to run or modify a cloud flow, they must first be added as a Dataverse environment user. For example, if you try to share with a user that isn't a member, you'll see the following not found message.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot showing adding a user that isn't in the Dataverse environment.](../media/not-dataverse.png)](../media/not-dataverse.png#lightbox)
+> ![Screenshot showing adding a user that isn't in the Dataverse environment.](../media/not-dataverse.png)
 
 If you created the environment, you're an environment administrator and can [add the user](/power-platform/admin/add-users-to-environment/?azure-portal=true), otherwise any of the environment administrators can. The newly added user will need to have a security role assigned that gives them at least user-level privileges to the Processes table. A good built-in security role that would give them that would be the [Environment Maker role](/power-platform/admin/database-security?azure-portal=true#environments-with-a-dataverse-database). However, you can also use or create a custom security role as well.
 
@@ -19,7 +19,7 @@ Once added, you can share a solution cloud flow with the user, and they'll be ab
 You can share a solution flow with a group of users, but it's done using [Dataverse Teams](/power-platform/admin/manage-teams/?azure-portal=true) instead of user groups. You can still use Azure Active Directory Security groups or Office Groups, but the group must first be associated with a Dataverse Team. In the following image, we show adding a Dataverse team that is associated with the Office Group My Sales Team.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot showing creating a new team and associating it with an office group in the admin portal.](../media/members.png)](../media/members.png#lightbox)
+> ![Screenshot showing creating a new team and associating it with an office group in the admin portal.](../media/members.png)
 
 Before you can share flows with the team, just like a user, it will need to be associated with a security role. Once completed, you can share a solution cloud flow with the team and that will give owner access to the cloud flow to all members of the group.
 

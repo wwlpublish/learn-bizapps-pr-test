@@ -41,7 +41,7 @@ quiz:
     - content: Share the flow with the other users.
       isCorrect: false
       explanation: Incorrect. Co-owners of the flow can share it with other users.
-  - content: To share a cloud flow that is in a solution with an Office Group what must be completed first in the environment?
+  - content: To share a cloud flow that is in a solution with an Office Group, what must be completed first in the environment?
     choices:
     - content: Create a Dataverse Team associated with the Office Group.
       isCorrect: true
@@ -55,7 +55,7 @@ quiz:
     - content: Use a Dataverse team and manually add the same group members.
       isCorrect: false
       explanation: Incorrect. Sharing a solution cloud flow with an Office group is done by sharing with a Dataverse team. You must first create a Dataverse Team associated with the Office Group. It isn't necessary to manually add the same members to the Dataverse team.
-  - content: You shared a flow that includes Dataverse connection using run-only option. You want run-only users to be able to run this flow regardless of whether they have access to Dataverse. Which option should you select for the Dataverse connection?
+  - content: You shared a flow that includes a Dataverse connection using the run-only option. You want run-only users to be able to run this flow regardless of whether they have access to Dataverse. Which option should you select for the Dataverse connection?
     choices:
     - content: Provided by run-only user.
       isCorrect: false

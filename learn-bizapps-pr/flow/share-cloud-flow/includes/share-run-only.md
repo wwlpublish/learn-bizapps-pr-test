@@ -31,7 +31,7 @@ At the bottom of the share panel for each connector used by the flow, you can co
 The default option is **Provided by run-only user** which means the first time a new user uses the flow they'll be prompted to create a connection for the connectors that use that option. In the following example, Dave the flow owner has shared a flow with Julie and the following prompt for connections will show on first use.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot showing the user prompted to configure connections when they run the flow.](../media/run-flow.png)](../media/run-flow.png#lightbox)
+> ![Screenshot showing the user prompted to configure connections when they run the flow.](../media/run-flow.png)
 
 In the above image, you can see that Julie already had a Microsoft Teams and Office 365 Outlook connection but needs to sign into SharePoint. All connectors for this flow will be in the context of Julie's connections.
 

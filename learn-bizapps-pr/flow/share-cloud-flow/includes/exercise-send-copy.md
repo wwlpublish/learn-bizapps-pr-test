@@ -1,9 +1,9 @@
 In this exercise, you'll create a cloud flow, send a copy of the cloud flow to yourself, and then test the cloud flow.
 
 > [!IMPORTANT]
-> Use a test environment.
+> Use a test environment for the exercise.
 
-## Task 1: Create cloud flow
+## Task 1: Create a cloud flow
 
 In this task, you'll create a cloud flow that will send a daily weather notification for a given city.
 
@@ -16,7 +16,7 @@ In this task, you'll create a cloud flow that will send a daily weather notifica
     > [!div class="mx-imgBorder"]
     > ![Screenshot of scheduled cloud flow configuration.](../media/scheduled.png)
 
-1. select **+ New step**.
+1. Select **+ New step**.
 
 1. Search for weather and select **Get forecast for today** (MSN Weather).
 

@@ -1,11 +1,12 @@
 When you select the share option on a selected cloud flow, you'll navigate to a page to manage the owners of the flow.
 
-![Screenshot showing share icon location next to the edit icon.](../media/share.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing share icon location next to the edit icon.](../media/share.png)
 
 By adding users or groups to the list of Owners, you create co-ownership of the flow with those users.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot showing the owners list where you can add users or groups.](../media/owners-list.png)](../media/owners-list.png#lightbox)
+> ![Screenshot showing the owners list where you can add users or groups.](../media/owners-list.png)
 
 In the above example, Dave is the original flow owner, and they've shared it with Julie and My Sales Team. My Sales Team is a group, and anyone who is a group member automatically becomes the flow co-owner.
 
@@ -39,13 +40,15 @@ When you build a flow and add actions, some of the actions will use connectors. 
 
 On the share page, in the Embedded connections section, you can see which connections are used in the flow.
 
-![Screenshot showing the connections used.](../media/embedded.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the connections used.](../media/embedded.png)
 
 All flow owners have access to these connections only for this flow. That allows them to add more steps to the flow using these connections without the need to authenticate or create new connections. But it doesn't allow them to use the connection outside of the flow.
 
 If Julie edits the flow and adds a step to send an email using the Office 365 connector, it's added to the list of connections with Julie as the connection user. If the flow is executed, the emails are sent from Julie, and Dave is still the creator of the SharePoint list item. The connection list now looks like the following, showing the connection Julie added.
 
-![Screenshot showing a connection created by another co-owner.](../media/julie.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing a connection created by another co-owner.](../media/julie.png)
 
 When collaborating with others on a flow, you might want to designate one user to manage the connections so they're all in the same context.
 
