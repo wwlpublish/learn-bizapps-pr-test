@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn-bizapps.share-cloud-flow
+metadata:
+ title: Share a cloud flow with Power Automate
+ description: In this module, we explore how you can share Power Automate cloud flows with other users in your organization.
+ ms.date: 03/11/2022
+ author: jadaphillips
+ ms.author: jadaphillips
+ ms.topic: interactive-tutorial
+ ms.prod: learning-power-automate
+title: Share a cloud flow with Power Automate
+summary: |
+  [!include[](../includes/module-banner.md)]
+  In this module, you'll learn how and when to share cloud flows and which types to use. When you create a new Power Automate cloud flow, it's only visible, editable, and runnable by you. By sharing, you can allow other users within your organization to run or help edit your automation.
+abstract: |
+    In this module, you'll:
+    - Learn the ways you can share a cloud flow and benefits of each
+    - Understand who you can share cloud flows with
+    - Learn differences in sharing various types of cloud flows
+    - Learn how connections are handled when you share cloud flows
+    - Find out about options for sharing via co-ownership
+    - Understand run-only permissions
+    - Understand differences in sharing solution and non-solution cloud flows
+prerequisites: Basic Power Automate experience
+iconUrl: /learn/achievements/share-cloud-flow.svg
+levels:
+- beginner
+roles:
+- maker
+- functional-consultant
+products:
+- power-platform
+- power-automate
+units:
+- learn-bizapps.share-cloud-flow.introduction
+- learn-bizapps.share-cloud-flow.share-co-ownership
+- learn-bizapps.share-cloud-flow.share-run-only
+- learn-bizapps.share-cloud-flow.use-send-copy
+- learn-bizapps.share-cloud-flow.exercise-send-copy
+- learn-bizapps.share-cloud-flow.solutions-sharing
+- learn-bizapps.share-cloud-flow.check
+- learn-bizapps.share-cloud-flow.summary
+badge:
+  uid: learn-bizapps.share-cloud-flow.badge
