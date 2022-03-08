@@ -32,7 +32,7 @@ Users with the Global Administrator and Power Platform Administrator tenant role
 
 Sharing critical business flows with at least one other user can be important in case the flow creator is out of the office or left the company and a change is required.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4PwbB]
 
 ## Connections
 
