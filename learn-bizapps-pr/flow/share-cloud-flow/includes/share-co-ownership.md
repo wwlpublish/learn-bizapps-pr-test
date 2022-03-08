@@ -1,16 +1,16 @@
-When you select the share option on a selected cloud flow, you'll navigate to a page to manage the owners of the flow.
+When you select the **Share** option on a selected cloud flow, you'll be directed to a page to manage the owners of the flow.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing share icon location next to the edit icon.](../media/share.png)
+> ![Screenshot showing the Share icon location next to the Edit icon.](../media/share.png)
 
-By adding users or groups to the list of Owners, you create co-ownership of the flow with those users.
+By adding users or groups to the list of owners, you'll create co-ownership of the flow with those users.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the owners list where you can add users or groups.](../media/owners-list.png)
 
-In the above example, Dave is the original flow owner, and they've shared it with Julie and My Sales Team. My Sales Team is a group, and anyone who is a group member automatically becomes the flow co-owner.
+In the preceding example, Dave is the original flow owner who's shared it with Julie and My Sales Team. My Sales Team is a group, and anyone who is a group member will become the flow co-owner automatically.
 
-As co-owners of the flow, these users have permission to perform the following actions:
+Co-owners of the flow will have permission to perform the following actions:
 
 - Run the flow on demand for instant and scheduled flows.
 
@@ -26,39 +26,41 @@ As co-owners of the flow, these users have permission to perform the following a
 
 - Delete the flow.
 
-Given that co-owners have full permissions including delete access, you should only add users that you trust and need to perform these activities. If the flow is an instant flow and all the users need is to run the flow, it's better to add them as run-only users instead of co-owners. You'll learn about run-only users in the next unit.
+Considering that co-owners have full permissions, including delete access, you should only add users whom you trust and need to perform these activities. If the flow is an instant flow and users only need to run the flow, it's better that you add them as run-only users instead of co-owners. You'll learn about run-only users in the next unit.
 
-Users with the Global Administrator and Power Platform Administrator tenant roles can also manage the flows Owners, including adding themselves to the list.
+Users who have the Global Administrator and Microsoft Power Platform Administrator tenant roles can also manage the flow's owners, including adding themselves to the list.
 
-Sharing critical business flows with at least one other user can be important in case the flow creator is out of the office or left the company and a change is required.
+Sharing critical business flows with at least one other user can be crucial in case the flow creator is out of the office or has left the company and a change is required.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4PwbB]
 
 ## Connections
 
-When you build a flow and add actions, some of the actions will use connectors. The first time a connector is used, a connection will be established and will be used by the actions. To establish the connection the user modifying the flow is required to authenticate. That connection will be associated with that user and actions performed will be in that context. For example, if Dave added a SharePoint action to add an item to a list, it would show Dave added the list item when that action ran.
+When you build a flow and add actions, some actions will use connectors. The first time that a connector is used, a connection will be established and used by the actions. To establish the connection, the user who is modifying the flow will be required to authenticate. That connection will be associated with that user, and actions that are performed will be in that context. For example, if Dave added a SharePoint action to add an item to a list, it would show that Dave added the list item when that action ran.
 
-On the share page, in the Embedded connections section, you can see which connections are used in the flow.
+On the **Share** page, the **Embedded connections** section shows which connections are used in the flow.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the connections used.](../media/embedded.png)
+> ![Screenshot showing the connections that are used in the flow.](../media/embedded.png)
 
-All flow owners have access to these connections only for this flow. That allows them to add more steps to the flow using these connections without the need to authenticate or create new connections. But it doesn't allow them to use the connection outside of the flow.
+All flow owners have access to these connections, but only for this flow. That access allows them to add more steps to the flow by using these connections without the need to authenticate or create new connections. However, the access doesn't allow them to use the connection outside of the flow.
 
-If Julie edits the flow and adds a step to send an email using the Office 365 connector, it's added to the list of connections with Julie as the connection user. If the flow is executed, the emails are sent from Julie, and Dave is still the creator of the SharePoint list item. The connection list now looks like the following, showing the connection Julie added.
+If Julie edits the flow and then adds a step to send an email by using the Office 365 connector, it's added to the list of connections with Julie as the connection user. If the flow is run, the emails will be sent from Julie and Dave will still be the creator of the SharePoint list item. The connection list will now resemble the following screenshot, which shows the connection that Julie added.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing a connection created by another co-owner.](../media/julie.png)
 
-When collaborating with others on a flow, you might want to designate one user to manage the connections so they're all in the same context.
+When collaborating with others on a flow, you might want to designate one user to manage the connections so that they're all in the same context.
 
-Any of the flow owners can use any of these connections in this flow to perform actions on your behalf. So you should watch out for inadvertent elevation of the permissions and only add owners that you trust. For example, in the flow above, Julie can access information in SharePoint as Dave regardless of whether they have permissions to do so as themself.
+Any flow owner can use any connection in this flow to perform actions on your behalf. Consequently, you should watch out for inadvertent elevation of the permissions and only add owners whom you trust. For example, in the previous flow, Julie can access information in SharePoint as Dave, regardless of whether they have permissions to do so as themselves.
 
-## Do I need to share using co-ownership?
+## Determine the need to share by using co-ownership
+
+The following table describes scenarios to help you determine whether you need to share by using co-ownership or not. 
 
 | Scenario | Options |
 | -------- |-------- |
 | I want to allow another user to edit my flow | Co-ownership is the best option. |
-| I have a flow that triggers when someone adds a list item to SharePoint, or creates a row in a Dataverse table. Do I need to add each user that adds items as a co-owner of my flow? | No, this is an automated flow triggered by an event. As long as the flow connection user has access to the list or table the flow will run properly without needing to add all users as owners or run-only. |
-| I have an instant flow and I want others to run the flow. | Co-ownership isn't required; you should set them up as run-only users. |
-| I have a scheduled flow and I want others to run it on demand in addition to the scheduled times. | Co-ownership is the best option just be aware they'll have more permissions than just running the flow. |
+| I have a flow that triggers when someone adds a list item to SharePoint or creates a row in a Dataverse table. Do I need to add every user who adds items as a co-owner of my flow? | No, this flow is an automated flow that's triggered by an event. As long as the flow connection user has access to the list or table, the flow will run properly without you needing to add all users as owners or run-only. |
+| I have an instant flow and I want others to run the flow. | Co-ownership isn't required; you should set up the users as run-only. |
+| I have a scheduled flow and I want others to run it on demand in addition to the scheduled times. | Co-ownership is the best option. However, be aware that the users will have more permissions than only running the flow. |
