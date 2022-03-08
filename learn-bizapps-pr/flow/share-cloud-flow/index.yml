@@ -11,16 +11,16 @@ metadata:
 title: Share a cloud flow with Power Automate
 summary: |
   [!include[](../includes/module-banner.md)]
-  When you create a new Power Automate cloud flow, it's only visible, editable, and runnable by you. By sharing, you can allow other users within your organization to run or help edit your automation. In this module, you'll learn how and when to share cloud flows and which types to use.
+  When you create a new Power Automate cloud flow, you’re the only one who can view, edit, and run it. By sharing a cloud flow, you can allow other users within your organization to run or help edit your automation. In this module, you'll learn how and when to share cloud flows and which types to use.
 abstract: |
     In this module, you'll:
-    - Learn the ways you can share a cloud flow and benefits of each
-    - Understand who you can share cloud flows with
-    - Learn differences in sharing various types of cloud flows
-    - Learn how connections are handled when you share cloud flows
-    - Find out about options for sharing via co-ownership
-    - Understand run-only permissions
-    - Understand differences in sharing solution and non-solution cloud flows
+    - Learn the ways that you can share a cloud flow and the benefits of each.
+    - Discover whom you can share cloud flows with.
+    - Learn the differences in sharing various types of cloud flows.
+    - Learn how connections are handled when you share cloud flows.
+    - Find out about different options for sharing through co-ownership.
+    - Learn about run-only permissions.
+    - Discover the differences between sharing solution and non-solution cloud flows.
 prerequisites: Basic Power Automate experience
 iconUrl: /learn/achievements/share-cloud-flow.svg
 levels:
