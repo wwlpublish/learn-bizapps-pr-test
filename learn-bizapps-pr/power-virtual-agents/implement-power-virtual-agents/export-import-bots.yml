@@ -5,8 +5,8 @@ metadata:
   title: Export and import bots
   description: Learn how to use solutions to move chatbots from the development environment to testing and to production.
   ms.date: 03/09/2022
-  author: DaveBeasley
-  ms.author: dbeasley
+  author: heyrob
+  ms.author: robde
   ms.topic: interactive-tutorial
   ms.prod: learning-power-virtual-agents
 durationInMinutes: 4

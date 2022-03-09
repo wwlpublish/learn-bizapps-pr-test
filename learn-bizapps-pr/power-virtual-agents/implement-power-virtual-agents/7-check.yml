@@ -5,8 +5,8 @@ metadata:
  title: Check your knowledge
  description: Answer the following questions to see what you've learned.
  ms.date: 03/09/2022
- author: DaveBeasley
- ms.author: dbeasley
+ author: heyrob
+ ms.author: robde
  ms.topic: interactive-tutorial
  ms.prod: learning-power-virtual-agents
 durationInMinutes: 10

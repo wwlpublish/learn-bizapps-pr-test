@@ -5,8 +5,8 @@ metadata:
   title: Administer and manage
   description: Learn about the analytics that you can administer and how to manage security.
   ms.date: 03/09/2022
-  author: DaveBeasley
-  ms.author: dbeasley
+  author: heyrob
+  ms.author: robde
   ms.topic: interactive-tutorial
   ms.prod: learning-power-virtual-agents
 durationInMinutes: 9
