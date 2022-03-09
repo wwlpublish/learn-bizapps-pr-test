@@ -43,7 +43,7 @@ quiz:
       explanation: Currently, the only option to connect with tables is by using Power Automate flow. To trigger the flow, you would use the Call an action feature in the chatbot authoring canvas.
   - content: What authentication options are currently available?
     choices:
-    - content: No authentication, Only for Teams, and Manual using Azure Active Directory
+    - content: No authentication, Only for Teams, and Manual (For any channel including Teams)
       isCorrect: true
       explanation: The three authentication options that you can choose from are No authentication, Only for Teams, and Manual using Azure Active Directory.
     - content: Azure Active Directory and Microsoft 365 Groups
