@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.share-cloud-flow.share-run-only
-title: Share using the run-only option
+title: Share by using the run-only option
 metadata:
-  title: Share using the run-only option
-  description: Learn to share flows so that users can execute the flow, but can't make changes to it.
-  ms.date: 03/11/2022
+  title: Share by using the run-only option
+  description: Learn how to share flows so that users can run the flow but can't make changes to it.
+  ms.date: 03/08/2022
   author: jadaphillips
   ms.author: jadaphillips
   ms.topic: interactive-tutorial

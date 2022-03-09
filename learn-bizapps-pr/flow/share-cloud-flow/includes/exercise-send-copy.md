@@ -5,46 +5,46 @@ In this exercise, you'll create a cloud flow, send a copy of the cloud flow to y
 
 ## Task 1: Create a cloud flow
 
-In this task, you'll create a cloud flow that will send a daily weather notification for a given city.
+In this task, you'll create a cloud flow that will send a daily weather notification for a certain city.
 
-1. Navigate to [Power Automate](https://us.flow.microsoft.com/?azure-portal=true) and make sure you're in the correct environment.
+1. Go to [Power Automate](https://us.flow.microsoft.com/?azure-portal=true) and make sure that you're in the correct environment.
 
-1. Select **My flows** and select **Scheduled cloud flow**.
+1. Select **My flows > Scheduled cloud flow**.
 
-1. Enter **Daily weather** for Flow name, select Repeat every **1 Day**, and select **Create**.
+1. Enter **Daily weather** for **Flow name**. For **Repeat every**, select **1 Day** and then select **Create**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of scheduled cloud flow configuration.](../media/scheduled.png)
+    > ![Screenshot of the scheduled cloud flow configuration.](../media/scheduled.png)
 
 1. Select **+ New step**.
 
-1. Search for weather and select **Get forecast for today** (MSN Weather).
+1. Search for **weather** and then select **Get forecast for today** (MSN Weather).
 
-1. Enter **Denver** or any city you like for Location, select **Imperial** for Units, and select **+ New step**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the get forecast for today flow step.](../media/forecast.png)
-
-1. Search for send email and select **Send me an email notification**.
-
-1. Enter **Today's weather** for Subject, select the Body and select **Day Summary** from the dynamic content pane.
+1. Enter **Denver** or any city that you want for **Location**, select **Imperial** for **Units**, and then select **+ New step**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of send email notification flow step.](../media/day-summary.png)](../media/day-summary.png#lightbox)
+    > ![Screenshot of the Get forecast for today flow step.](../media/forecast.png)
 
-1. Type **with High** on the body and select **Temperature High** from the dynamic content pane.
+1. Search for **send email** and then select **Send me an email notification**.
 
-1. Type **and Low** on the body and select **Temperature Low** from the dynamic content pane.
-
-1. The **Send me an email notification** step should now look like the image below. Select **Save** and wait for the flow to be saved.
+1. Enter **Today's weather** for **Subject**, select the **Body**, and then select **Day Summary** from the **Dynamic content** pane.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the send email notification flow step with a red rectangle around the save flow button.](../media/save.png)
+    > [![Screenshot of the Send me an email notification flow step.](../media/day-summary.png)](../media/day-summary.png#lightbox)
+
+1. Type **with High** in the **Body** field and then select **Temperature High** from the **Dynamic content** pane.
+
+1. Type **and Low** in the **Body** field and then select **Temperature Low** from the **Dynamic content** pane.
+
+1. The **Send me an email notification** step should now resemble the following image. Select **Save** and then wait for the flow to be saved.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Send me an email notification flow step with the Save button highlighted.](../media/save.png)
 
 1. Select the back button.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the back to flow details button.](../media/back.png)
+    > ![Screenshot of the back button to return to the flow details.](../media/back.png)
 
 1. Select **Run**.
 
@@ -52,22 +52,22 @@ In this task, you'll create a cloud flow that will send a daily weather notifica
 
 1. Select **Done**.
 
-1. The flow run should succeed.
+   The flow run should succeed.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the flow run history.](../media/succeeded.png)
+    > ![Screenshot of the flow run history showing the word Succeeded highlighted.](../media/succeeded.png)
 
-1. Select the **App** launcher, right select **Outlook** and select **Open in a new tab**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the app launcher with a red rectangle around the Open in new tab button for Outlook.](../media/new-tab.png)
-
-1. You should receive the email notification sent by the flow. Select to open the email.
-
-1. The email should look like the image below.
+1. Select the **App** launcher, right-click **Outlook**, and then select **Open in new tab**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of an email sent by the cloud flow](../media/email-2.png)
+    > ![Screenshot of the app launcher, showing Outlook selected with the Open in new tab button highlighted.](../media/new-tab.png)
+
+1. You should receive the email notification that was sent by the flow. Select to open the email.
+
+   The email should resemble the following image.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of an email sent by the cloud flow.](../media/email-2.png)
 
 1. Go to the flow details browser tab.
 
@@ -75,31 +75,31 @@ In this task, you'll create a cloud flow that will send a daily weather notifica
 
 ## Task 2: Send a copy
 
-In this task, you'll send a copy of the cloud flow you created to yourself. You may send the copy to another user if you have more than one user in your tenant.
+In this task, you'll send a copy of the cloud flow that you created to yourself. You might send the copy to another user if you have more than one user in your tenant.
 
 1. Select **Send a copy**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the send a copy of the flow button](../media/send.png)
+    > ![Screenshot of the Send a copy button.](../media/send.png)
 
-1. Enter **Cloud flow that sends a weather email notification** for Description, select your username and any other user you would like to send the copy, and select **Send**.
+1. Enter **Cloud flow that sends a weather email notification** in the **Description** field, select your username and any other user that you want to send the copy to, and then select **Send**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the send a copy of the flow dialog](../media/send-2.png)
+    > ![Screenshot of the Send a copy dialog.](../media/send-2.png)
 
 1. Go to the Outlook browser tab.
 
-1. You should receive an email from Power automate. Select **Create my flow**.
+1. You should receive an email from Power Automate. Select **Create My Flow**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the cloud flow template sent by power automate](../media/create.png)
+    > ![Screenshot of the cloud flow template that's sent by Power Automate, with the Create My Flow button highlighted.](../media/create.png)
 
-1. Power automate should launch and display the flow template. Select **Continue to flow creation**.
+1. Power Automate should launch and display the flow template. Select **Continue to flow creation**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the cloud flow template](../media/continue.png)
+    > ![Screenshot of the cloud flow template, showing the Continue to flow creation button.](../media/continue.png)
 
-1. Power automate should show you the connectors the flow uses. Select **Create flow**.
+1. Power Automate should display the connectors that the flow uses. Select **Create flow**.
 
 1. Select **Run**.
 
@@ -107,11 +107,11 @@ In this task, you'll send a copy of the cloud flow you created to yourself. You 
 
 1. Select **Done**.
 
-1. The flow should succeed, and you should receive te weather email notification.
+   The flow should succeed, and you should receive the weather email notification.
 
 1. Select **My flows**.
 
-1. You should see the original flow you created, and the flow copy you sent to yourself. Assuming you sent the copy to yourself.
+   The original flow that you created should display, and the flow copy that you sent to yourself should also display, assuming that you sent the copy to yourself.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of cloud flows.](../media/flows.png)](../media/flows.png#lightbox)
