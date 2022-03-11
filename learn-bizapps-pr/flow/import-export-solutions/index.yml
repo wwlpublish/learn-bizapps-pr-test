@@ -32,7 +32,7 @@ roles:
 products: 
 - power-platform
 - power-automate 
-- dataverse
+- common-data-service
 units: 
 - learn-bizapps.import-export-solutions.introduction 
 - learn-bizapps.import-export-solutions.connection-references 

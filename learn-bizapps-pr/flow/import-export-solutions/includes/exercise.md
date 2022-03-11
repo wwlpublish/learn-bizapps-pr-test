@@ -191,7 +191,7 @@ In this task, you'll edit the flow to use the environment location variable.
 1. The email should show the weather for Seattle.
 
 	> [!div class="mx-imgBorder"]
-	> ![Screenshot of an email sent by the cloud flow.](../media/weather-email.png)
+	> ![Screenshot of an email sent by the cloud flow for Seattle weather.](../media/weather-email.png)
 
 ## Exercise 4: Export solution
 
@@ -284,5 +284,4 @@ In this exercise, you'll import the solution you created into a new environment
 1. The email should show the weather for Phoenix.
 
 	> [!div class="mx-imgBorder"]
-	> ![Screenshot of an email sent by the cloud flow.](../media/cloud-flow-weather-email.png)
-
+	> ![Screenshot of an email sent by the cloud flow for Phoenix weather.](../media/cloud-flow-weather-email.png)
