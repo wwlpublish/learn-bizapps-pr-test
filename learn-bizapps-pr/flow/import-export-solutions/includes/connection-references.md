@@ -48,7 +48,7 @@ If you didn't pre-create or only want to change a connection reference naming, y
 
 ## Use existing connection references
 
-Power Automate will try to use existing connection references from the current solution but also will look at them in other solutions in the same environment. If you look at your solution object list and can't find a connection reference for the connections that you're using after creating your flow, then your flow is probably using a connection reference from another solution. If that isn't an intended action, you will need to use the pre-create process to add a new connection reference in your solution and then change your flow actions to use that connection reference. If you intend to share the connection, then you should select **Add existing > More > Connection references** and then choose the existing connection reference to add to your current solution.
+Power Automate will try to use existing connection references from the current solution but also will look at them in other solutions in the same environment. If you look at your solution object list and can't find a connection reference for the connections that you're using after creating your flow, then your flow is probably using a connection reference from another solution. If that isn't an intended action, you'll need to use the pre-create process to add a new connection reference in your solution and then change your flow actions to use that connection reference. If you intend to share the connection, then you should select **Add existing > More > Connection references** and then choose the existing connection reference to add to your current solution.
 
 ## Remove connection references
 
@@ -62,4 +62,4 @@ The following image shows an example of the **Dependencies** page, which lists a
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the connection reference dependencies.](../media/dependencies.png)
 
-If none of the dependencies are from your current solution, you can remove the connection reference from the solution without issue. If dependencies are listed, then you'll be blocked from physically deleting the connection reference. In that event, you will need to edit each dependent component and remove their use of the connection reference before you can delete it.
+If none of the dependencies are from your current solution, you can remove the connection reference from the solution without issue. If dependencies are listed, then you'll be blocked from physically deleting the connection reference. In that event, you'll need to edit each dependent component and remove their use of the connection reference before you can delete it.
