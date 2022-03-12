@@ -5,7 +5,7 @@ In this exercise, you'll create a cloud flow outside of a Dataverse solution.
 
 ## Exercise 1: Create a cloud flow
 
-In this task, you'll a create a cloud flow that will send a daily weather notification for a certain city.
+In this task, you'll create a cloud flow that will send a daily weather notification for a certain city.
 
 1.  Go to [Power Automate](https://powerautomate.microsoft.com/?azure-portal=true) and make sure that you're in the correct environment.
 
