@@ -25,7 +25,7 @@ Whenever you export solutions manually from Solution Explorer, you'll be prompte
 
 The **Publish all changes** option isn't required for cloud flows, but is a good idea if you have other solution components. Certain customizations that make changes to the user interface components require that they be published before export.
 
-Check for issues by running an analysis on all your solution components. This analysis is similar to a flow checker, but for all components in your solution, and it'll warn you of issues. 
+Check for issues by running an analysis on all your solution components. This analysis is similar to a flow checker, but for all components in your solution, and it will warn you of issues. 
 
 The second prompt is for a version number and for you to select **Managed** or **Unmanaged**.
 
@@ -38,7 +38,7 @@ For the **Export as** option, we recommend that you do the export twice, once fo
 
 ## Import solutions
 
-To deploy a solution to another environment, you will import an exported solution file. You can import the managed or unmanaged solution file.
+To deploy a solution to another environment, you'll import an exported solution file. You can import the managed or unmanaged solution file.
 
 Importing an unmanaged solution should target development environments. After the import has completed, the solution components will have been merged into the environment. You won't be able to undo the action, and removing the solution will only remove the solution and not the solution components that are merged into the environment. If the solution already exists in the environment, an import will update and overwrite existing matching resources. All solution imports are additive and any solution component that's not in the new version will still exist in the environment after an update import completes. Make sure that you don't accidentally overwrite recent work since the last export and that you only import unmanaged solutions into intended environments.
 
