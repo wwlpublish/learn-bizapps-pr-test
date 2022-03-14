@@ -21,7 +21,7 @@ The following video demonstrates the basics of how comments work in cloud flows.
 
 ## Get started with comments
 
-The comment feature is enabled for cloud flows that are edited in Microsoft Power Platform environments that have Microsoft Dataverse set up. Your cloud flow doesn't need to be in a Dataverse solution or use Dataverse connector actions. You can use Dataverse to store the comments. If you're using Dataverse solutions, you can only add comments to cloud flows in unmanaged solutions, which typically happens in the development environments.
+The comment feature is enabled for cloud flows that are edited in Microsoft Power Platform environments that have Microsoft Dataverse set up. Your cloud flow doesn't need to be in a Dataverse solution or use Dataverse connector actions. You can use Dataverse to store the comments. If you're using Dataverse solutions, you can only add comments to cloud flows in unmanaged solutions, which typically happen in the development environments.
 
 After you've saved your flow the first time, you can start adding comments from the trigger or any action step in the cloud flow.
 
