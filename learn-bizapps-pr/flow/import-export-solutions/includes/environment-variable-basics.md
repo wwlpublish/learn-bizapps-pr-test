@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4R3SS]
+
 When you build Power Automate cloud flows, it's common to have values that you specify on the flow steps that are specific to an environment that the flow is implementing in. For example, flow actions might refer to document name, external service URL, or email address for notifications that can vary between the environments, such as development, test, and production.
 
 Environment variables allow separate definition and setup of those values from the cloud flow definition. Then, the environment variable can have a different value in each environment where the cloud flow is deployed. Other Microsoft Power Platform resources, such as Power Apps or custom connectors, can also use environment variables. After the environment variable values have been defined, cloud flows can replace hard-coded content with environment variable values, similar to how other dynamic content is used.
