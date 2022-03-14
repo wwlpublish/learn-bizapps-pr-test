@@ -23,7 +23,7 @@ quiz:
       explanation: Incorrect. When you create a new Power Automate cloud flow, only you can view, edit, and run it. By sharing, you can allow other users within your organization to help edit your automation. Any co-owner can add comments.
     - content: Any flow owner
       isCorrect: true
-      explanation: Correct. When you create a new Power Automate cloud flow, only you can view, edit, and run it. By sharing, you can allow other users within your organization to help edit your automation. Any user whom you share with becomes a co-owner and can add comments.
+      explanation: Correct. When you create a new Power Automate cloud flow, only you can view, edit, and run it. By sharing, you can allow other users within your organization to help edit your automation. Any user whom you share with will become a co-owner and can add comments.
   - content: What can you comment on in a cloud flow?
     choices:
     - content: Any action step, but not the trigger
@@ -48,7 +48,7 @@ quiz:
       explanation: Incorrect. You should @mention them in the comment.
     - content: All co-owners are notified of new comments
       isCorrect: false
-      explanation: Incorrect. Owners can view the comments if they open the flow. You should @mention them in the comment so that they will be notified.
+      explanation: Incorrect. Owners can view the comments if they open the flow. You should @mention them in the comment so that they'll be notified.
     - content: Send them an email because comments can't notify them
       isCorrect: false
       explanation: Incorrect. Manual email isn't required; you should @mention them in the comment.
