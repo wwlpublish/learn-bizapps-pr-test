@@ -2,7 +2,7 @@
 uid: learn-bizapps.import-export-solutions 
 metadata: 
  title: Import and export solutions with cloud flows 
- description: Learn to use solutions to transport cloud flows from one environment to another.
+ description: Learn how to use solutions to transport cloud flows from one environment to another.
  ms.date: 03/11/2022  
  author: jadaphillips  
  ms.author: jadaphillips  
@@ -13,16 +13,15 @@ summary: |
   [!include[](../includes/module-banner.md)] 
   Explore how you can use solutions to transport your cloud flows from one environment to another.
 abstract: |  
-    In this module, you'll learn about: 
-    - Basics of using solutions with cloud flows 
-    - Manual and automated options for working with solutions
-    - Benefits of using solutions with cloud flows
-    - How to add new and existing cloud flows to a solution
-    - Understand connection references
-    - Use environment variables to avoid hard coded values
-    - Export solutions
-    - Import solutions
-prerequisites: Basic Power Automate experience.
+    In this module, you'll: 
+    - Learn about the basics of using solutions with cloud flows. 
+    - Learn about the manual and automated options for working with solutions.
+    - Discover the benefits of using solutions with cloud flows.
+    - Learn how to add new and existing cloud flows to a solution.
+    - Learn about connection references.
+    - Use environment variables to avoid hard coded values.
+    - Import and export solutions.
+prerequisites: Basic Microsoft Power Automate experience
 iconUrl: /learn/achievements/import-export-solutions.svg  
 levels:  
 - beginner   
