@@ -42,7 +42,7 @@ The output would look like the following example:
 By using Liquid in Power Apps portals, you can:
 
 - Add dynamic content directly to webpage content or to a content snippet.
-- [Store source content by using web templates](/dynamics365/customer-engagement/portals/store-content-web-templates/?azure-portal=true), entirely through configuration within Power Apps, for use throughout the Power Apps portals content management system.
+- [Store source content by using web templates](/dynamics365/portals/store-content-web-templates?azure-portal=true), entirely through configuration within Power Apps, for use throughout the Power Apps portals content management system.
 - [Render a website header and primary navigation bar](/powerapps/maker/portals/liquid/render-site-header-primary-navigation/?azure-portal=true), entirely through configuration within Power Apps.
 
 In these scenarios, you'll have dynamic access to Power Apps portals features, such as site settings, content snippets, table lists and forms, and so on.
