@@ -17,7 +17,7 @@ Key uses of comments include:
 
 The following video demonstrates the basics of how comments work in cloud flows.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4QTFv]
 
 ## Get started with comments
 
