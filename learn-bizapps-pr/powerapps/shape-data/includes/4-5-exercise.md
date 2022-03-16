@@ -111,7 +111,7 @@ You have now configured and interacted with the data in your gallery.
 
     **"Name"** - Represents the column or column where the search is made
 
-    This will return all the records where the *Name* column contained the value entered in the Text Input control *SearchInput*.
+    This will return all the rows where the *Name* column contained the value entered in the Text Input control *SearchInput*.
 
 4.  If you wanted to search more than one column, you can append the column names at the end of the expression.
 
@@ -151,11 +151,11 @@ Within Power Apps, you can utilize the concept of using one function to supply i
 
     **Items** - Refers to the Data Source name
 
-    **Collect** - Will copy all records from the **Items** into the **ItemsCollection** collection
+    **Collect** - Will copy all rows from the **Items** into the **ItemsCollection** collection
 
 4.  Run the app. select the button. Stop running the app.
 
-5.  On the **View** tab, select **Collections** and then select **ItemsCollection**. You will then see that all records from **Items** data source are been added into the **ItemsCollection** collection
+5.  On the **View** tab, select **Collections** and then select **ItemsCollection**. You will then see that all rows from **Items** data source are been added into the **ItemsCollection** collection
 
 **Explore other functions, which can be used with Collections**
 
