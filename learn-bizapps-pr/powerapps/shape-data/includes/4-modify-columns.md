@@ -3,7 +3,7 @@ rows, but sometimes you need to modify the columns of the rows
 while using the rows. For example, if you were creating a shopping
 cart app for sending digital assets to a customer, you would need a way
 to keep track of the selected assets. Ideally, you would have a
-temporary column for tracking the selected rows that only exists
+temporary column for tracking the selected rows that only exist
 inside of Power Apps and does not modify the original data source.
 Fortunately, Power Apps offers a solution.
 
