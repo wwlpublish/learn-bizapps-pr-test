@@ -9,7 +9,7 @@ To create a Dataverse for Teams table, follow these steps:
 1. Create a new Dataverse for Teams table in the same team as the chatbot. Remember that you'll need to create it by using **Power Apps for Teams**.  In Power Apps for Teams, select the **Build** tab, select **See all**, select **New**, and select **Table**.  
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Sales Project Team with a row for each contact.](../media/power-apps-table.png)](../media/power-apps-table.png#lightbox)
+	> [![Screenshot of the Build tab with new menu and table selected.](../media/power-apps-table.png)](../media/power-apps-table.png#lightbox)
 
    Name your new table **Sales Project Team** and select **Save**.  The columns and data types to use are as follows:
 
