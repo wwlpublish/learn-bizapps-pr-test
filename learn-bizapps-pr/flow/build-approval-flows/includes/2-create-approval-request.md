@@ -28,7 +28,7 @@ First, let's create the list.
 
 1. Name the list as *ContosoTweets*.
 
-    ![Screenshot of the new list.](../media/name-new-list.png)
+    ![Screenshot of the second new list.](../media/name-new-list.png)
 
 1. Select the gear settings icon on the top right and select **List settings**. 
 
