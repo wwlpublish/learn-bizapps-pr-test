@@ -21,13 +21,16 @@ If this is the first time that the chatbot is published, only team members can a
 
 -   **Copy link** - Send users a link to the chatbot.
 
--   **Add to Teams** - Add the bot to the **Built by your colleagues** section under Teams Apps.
+-   **Add to a team** - Add the bot to a particular team. With this option selected, anyone in your team will be able to find the bot in the **Built by your colleagues** section in the Teams app store. 
+
+-   **Show in Teams app store** - Make your bot appear in the Teams app store, with options to show to your teammates and shared users, or show to everyone in your org.  
     
 > [!NOTE]
-> Only team members can use the link or see the chatbot that is listed in the **Built by your colleagues** section in Teams.
+> - Only team members can use the link or see the chatbot that is listed in the **Built by your colleagues** section in Teams. 
+>- Publishing to the entire organization requires administrative approval, whereas adding your bot to a team does not require admin involvement.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Built by your colleagues in Teams.](../media/image-34.png)](../media/image-34.png#lightbox)
+> [![Screenshot of Built by your colleagues highlights on Apps, Built by your colleages, and the bot itself.](../media/image-34.png)](../media/image-34.png#lightbox)
 
 To make the chatbot accessible to the entire organization, continue on to the next section.
 

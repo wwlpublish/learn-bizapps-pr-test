@@ -37,7 +37,7 @@ To create a new chatbot, follow these steps:
     
     When you are creating a new chatbot, team owners and the bot creator have read/write access by default. Team members only have read access to the chatbot.
 
-    If this is your first time creating a chatbot or Power Apps application in the team, you will receive a notification that the process will be slightly longer than usual while the system sets up. Select **Close** to continue and then wait a few minutes for Teams to notify you that the chatbot is ready. After setup has completed, open the notification under **Activity** and then select **Next**.
+    If this is your first time creating a chatbot or Power Apps application in the team, you will receive a notification that the process will be slightly longer than usual while the system sets up. Select **Close** to continue and then wait a few minutes for Teams to notify you that the chatbot is ready. After setup has been completed, open the notification under **Activity** and then select **Next**.
     
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the setup is complete notification.](../media/image-3.png)](../media/image-3.png#lightbox)
