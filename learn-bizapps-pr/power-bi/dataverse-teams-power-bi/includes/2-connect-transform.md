@@ -48,7 +48,7 @@ To connect to Dataverse for Teams table data, follow these steps:
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Get Data page with Microsoft Power Platform selected and Dataverse highlighted.](../media/image-4.png)](../media/image-4.png#lightbox)
 
-1. Enter the environment URL for the Dataverse for Teams table that you copied previously. Remove the **https://** protocol and the trailing slash (**/**) from the URL. Set **Data Connectivity mode** to **Import** and then select **OK**.
+1. Here you will be prompted to sign into Organizational account.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Dataverse dialog box with Environment domain set to org0e211cd1.crm.dynamics.com and Data Connectivity mode set to Import.](../media/image-5.png)](../media/image-5.png#lightbox)
