@@ -1,4 +1,4 @@
-For your **Event Contacts** chatbot, you need to expand the number of countries that have contacts. Instead of listing all countries in the message node, you want to ask the user which country they need contact information for. To accomplish this task, you will use inputs, variables, and conditions.
+For your **Event Contacts** chatbot, you need to expand the number of countries that have contacts. Instead of listing all countries in the message node, you want to ask the user which country they need contact information for. To accomplish this task, you'll use inputs, variables, and conditions.
 
 - **Inputs** - The user's response in the **Ask a question** node.
 
@@ -38,7 +38,7 @@ To add inputs and variables with the question node, follow these steps:
     > [!div class="mx-imgBorder"]
 	> [![Screenshot of the Variable Properties screen with Name field.](../media/image-14.png)](../media/image-14.png#lightbox)
 
-Two variables are available by default: **bot.UserDisplayName**, which provides the user's name, and **bot.UserID**, which provides the user's sign-in name. By using **bot.UserDisplayName**, the chatbot can call the user by name, which personalizes the experience. You can use **bot.UserID** to create a condition node to take actions based on which user whom the bot is interacting with.
+Two variables are available by default: **bot.UserDisplayName**, which provides the user's name, and **bot.UserID**, which provides the user's sign in name. By using **bot.UserDisplayName**, the chatbot can call the user by name, which personalizes the experience. You can use **bot.UserID** to create a condition node to take actions based on which user whom the bot is interacting with.
 
 To have the **Event Contacts** chatbot greet the user by name, add a new message node at the chatbot's beginning. Move your canvas so that you can view the Trigger Phrases node and add a node, then select **Show a message**. When entering information in the message node, select the **{X} insert variable** drop-down menu and select **bot.UserDisplayName**.
 

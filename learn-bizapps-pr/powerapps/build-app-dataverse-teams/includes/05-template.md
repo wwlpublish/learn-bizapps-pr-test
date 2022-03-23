@@ -6,7 +6,7 @@ Each app has unique requirements and uses various Office 365 services. The insta
 
 ## Employee ideas app
 
-With the **Employee ideas** app, you can collect ideas from your team and then review, manage, and vote on them to see which ones are worth exploring. Additionally, you can use campaigns to organize the team's ideas. The app will post each idea to a Team channel as they are submitted.
+With the **Employee ideas** app, you can collect ideas from your team and then review, manage, and vote on them to see which ones are worth exploring. Additionally, you can use campaigns to organize the team's ideas. The app will post each idea to a Team channel as they're submitted.
 
 ![Screenshot of the Employee ideas app.](../media/22-employee-ideas.png)
 
@@ -34,7 +34,7 @@ The **Issue reporting** app provides a personalized view for each team member, w
 
 ![Screenshot showing the issues template reporting.](../media/26-issue-report.png)
 
-Other ready-to-install template include: **Bulletins** and **Milestones**.  
+Other ready-to-install templates include: **Bulletins** and **Milestones**.  
 
 The **Bulletins** template allows you to keep your team informed of all company communications, broadcasts and announcements in an easy-to-consume experience.
 

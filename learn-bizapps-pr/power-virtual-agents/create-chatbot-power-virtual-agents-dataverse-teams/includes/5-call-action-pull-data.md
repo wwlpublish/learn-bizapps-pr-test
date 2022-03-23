@@ -6,7 +6,7 @@ For example, the **Event Contacts** chatbot could provide the Sales Project team
 
 To create a Dataverse for Teams table, follow these steps:
 
-1. Create a new Dataverse for Teams table in the same team as the chatbot. Remember that you will need to create it by using **Power Apps for Teams**.  In Power Apps for Teams, select the **Build** tab, select **See all**, select **New**, and select **Table**.  
+1. Create a new Dataverse for Teams table in the same team as the chatbot. Remember that you'll need to create it by using **Power Apps for Teams**.  In Power Apps for Teams, select the **Build** tab, select **See all**, select **New**, and select **Table**.  
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Sales Project Team with a row for each contact.](../media/power-apps-table.png)](../media/power-apps-table.png#lightbox)
@@ -23,7 +23,7 @@ To create a Dataverse for Teams table, follow these steps:
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Sales Project Team with a row for each contact.](../media/image-21.png)](../media/image-21.png#lightbox)
 
-1. Close the table when you are finished.
+1. Close the table when you're finished.
 
 ## Step 2 - Add an action 
 
@@ -44,14 +44,14 @@ To add an action, follow these steps:
 
 1. On the authoring canvas inside the **Message** node, enter **Let me look up the Sales Project Team!**
 
-1. Select **Save** to save the bot at this point. When the Power Automate flow is created, you will switch to a Power Automate editor. Changes that are not saved to the chatbot could be lost.
+1. Select **Save** to save the bot at this point. When the Power Automate flow is created, you'll switch to a Power Automate editor. Changes that aren't saved to the chatbot could be lost.
 
 1. Add a new node after the message node and then select **Call an action > Create a flow**.
     
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the call an action flyout message with create a flow selected.](../media/image-23.png)](../media/image-23.png#lightbox)
     
-    There are various templates available for you to choose from. Each template allows you to pass information to the flow when it is triggered. After the flow has finished, information can be passed back to the chatbot.  To look at some more template options you can select **See more templates**.  Some notables include:
+    There are various templates available for you to choose from. Each template allows you to pass information to the flow when it's triggered. After the flow has finished, information can be passed back to the chatbot.  To look at some more template options, you can select **See more templates**.  Some notables include:
     
     **Power Virtual Agents Flow Template** - This template only has the steps to receive and send information to the chatbot.
 
@@ -136,7 +136,7 @@ To add an action, follow these steps:
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the ContactData option selected.](../media/image-31.png)](../media/image-31.png#lightbox)
 
-1. Select **Save**. If the **Test bot** pane is not visible, select the **Test bot** menu option.
+1. Select **Save**. If the **Test bot** pane isn't visible, select the **Test bot** menu option.
 
 Enter one of the trigger phrases to test the chatbot.
 

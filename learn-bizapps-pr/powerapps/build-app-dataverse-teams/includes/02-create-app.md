@@ -43,7 +43,7 @@ The hero template for your app will display. It's currently empty because you ha
 
 1. Add new columns to your table by selecting **+ New column**.
 
-   For each column, provide a **Name** and then select the **Type** of data that it holds. By choosing the appropriate data type, you will be able to access intelligent, out-of-the-box features to make your app more manageable for people to use.
+   For each column, provide a **Name** and then select the **Type** of data that it holds. By choosing the appropriate data type, you'll be able to access intelligent, out-of-the-box features to make your app more manageable for people to use.
 
    For the table, you need to track the date that the equipment was deployed, the location, whether service is needed, and relevant notes.
 
@@ -63,7 +63,7 @@ The hero template for your app will display. It's currently empty because you ha
 
      ![Screenshot of adding a Notes column in the app.](../media/08-notes.png)
 
-      The following list of data types are available by using the visual table editor. For a complete list of all available data types and how they work, see the links in the Summary unit at the end of this module.
+      The following list of data types is available by using the visual table editor. For a complete list of all available data types and how they work, see the links in the Summary unit at the end of this module.
 
       |     Data Type    |     Description    |
       |-|-|
@@ -93,7 +93,7 @@ The hero template for your app will display. It's currently empty because you ha
 
 1. Select **Close** to finish editing the table. It might take a few minutes to process the table. After the processing has been completed, the hero template will appear, showing the data loaded into the app.
 
-1. Select **Save** in the toolbar to create the first saved version. After the first save, Power Apps will continue to save automatically every two minutes while you are editing.
+1. Select **Save** in the toolbar to create the first saved version. After the first save, Power Apps will continue to save automatically every two minutes while you're editing.
 
 ## Step 5: Preview and test your app
 

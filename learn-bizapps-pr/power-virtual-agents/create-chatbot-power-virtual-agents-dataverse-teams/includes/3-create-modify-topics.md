@@ -55,7 +55,7 @@ For the **Event Contacts** chatbot, you want the chatbot to respond to the quest
 
 1. Select **+ New topic**.
 
-1. To name this topic or add details about it, click on **Details** in the menu at the top of the screen.  Name your topic **Event Contacts** and press **Save**.
+1. To name this topic or add details about it, select **Details** in the menu at the top of the screen.  Name your topic **Event Contacts** and press **Save**.
 
     > [!div class="mx-imgBorder"]
 	> [![Screenshot of the Details pane highlighting the name entry field and the save button.](../media/details-name-save.png)](../media/details-name-save.png#lightbox)
@@ -99,9 +99,9 @@ For the **Event Contacts** chatbot, you want the chatbot to respond to the quest
 
 1. Select **Save**.
 
-1. In the **Test bot** pane enter questions that contain one of the trigger phrases to observe how the bot responds. If the Test bot pane is not appearing on the canvas, click on **Test bot** from the menu at the top right of the screen. 
+1. In the Test bot pane, enter questions that contain one of the trigger phrases to observe how the bot responds. If the Test bot pane isn't appearing on the canvas, select **Test bot** from the menu at the top right of the screen. 
     
     > [!div class="mx-imgBorder"]
 	> [![Screenshot of the Test bot button with trigger phrases.](../media/image-10.png)](../media/image-10.png#lightbox)
 
-Congratulations, you have created your first chatbot by using Power Virtual Agents for Teams. The next unit expands the chatbot to use inputs, variables, and conditions.
+Congratulations, you've created your first chatbot by using Power Virtual Agents for Teams. The next unit expands the chatbot to use inputs, variables, and conditions.

@@ -1,8 +1,8 @@
-When the chatbot is ready, it needs to be published so that users can interact with it. Publishing is also required after you have edited the chatbot and you want users to be able to access the latest content. By having a published version, you can make future updates to the chatbot without impacting users.
+When the chatbot is ready, it needs to be published so that users can interact with it. Publishing is also required after you've edited the chatbot and you want users to be able to access the latest content. By having a published version, you can make future updates to the chatbot without impacting users.
 
 The first time that the chatbot is published, only members of the team that the chatbot is associated with can access it. You can direct team members to the chatbot by providing them a link or by adding the chatbot to the **Built by your colleagues** section in Teams.
 
-If the chatbot is for the whole organization, you will submit it for review by your Teams admin. After it has been approved, the chatbot will be accessible to all users and will appear in the **Built by your org** section in Teams.
+If the chatbot is for the whole organization, you'll submit it for review by your Teams admin. After it has been approved, the chatbot will be accessible to all users and will appear in the **Built by your org** section in Teams.
 
 ## Publish the chatbot
 
@@ -17,7 +17,7 @@ To publish the chatbot, follow these steps:
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Publish latest content message.](../media/image-33.png)](../media/image-33.png#lightbox)
 
-If this is the first time that the chatbot is published, only team members can access it. If the chatbot is only intended for team members, you will need to direct users on how to access it. Select **Share the bot** to select the best method for your situation:
+If this is the first time that the chatbot is published, only team members can access it. If the chatbot is only intended for team members, you'll need to direct users on how to access it. Select **Share the bot** to select the best method for your situation:
 
 -   **Copy link** - Send users a link to the chatbot.
 

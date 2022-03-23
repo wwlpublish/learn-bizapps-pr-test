@@ -54,7 +54,7 @@ To create and connect a flow, follow these steps:
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Power Apps trigger in the search results.](../media/image-16.png)](../media/image-16.png#lightbox)
 
-1. The flow is now editable. It only has Power Apps defined as the trigger. With the Power Apps (V2) connector, we are going to add an input by selecting clicking **+ Add an input**. Then under **Choose the type of user input**, select Text.  There is nothing further you need to add right now.
+1. The flow is now editable. It only has Power Apps defined as the trigger. With the Power Apps (V2) connector, we're going to add an input by selecting clicking **+ Add an input**. Then under **Choose the type of user input**, select Text.  There's nothing further you need to add right now.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the add an input and choose the type of user input with the Power Apps (V2) connector.](../media/power-apps-v2-connector.png)](../media/power-apps-v2-connector.png#lightbox)
@@ -137,7 +137,7 @@ Now let's edit the flow and change the **Post as** from **Flow bot** to **User**
 
 1. Expand the **Post message in a chat or channel** action and for Post as, change this to **User**.
 
-1. In the Message section, clear out the dynamic content and then you'll need to re-add it back to the field. When you update the Post as section, it's not uncommon for dynamic content to also need updated.
+1. In the Message section, clear out the dynamic content and then you'll need to readd it back to the field. When you update the Post as section, it's not uncommon for dynamic content to also need updated.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the corrupted Dynamic Content for Message.](../media/corrupt-32.png)](../media/corrupt-32.png#lightbox)
