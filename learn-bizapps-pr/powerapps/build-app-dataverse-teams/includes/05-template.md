@@ -2,7 +2,7 @@ Microsoft created a few sample apps that can be used as-is or customized to suit
 
 ![Screenshot of Teams template apps offering.](../media/21-add-team.png)
 
-Each app has unique requirements and uses various Office 365 services. The install process might be slightly different depending on what is needed. To install any of these apps, left-click on it and then select **Add to a team**.
+Each app has unique requirements and uses various Office 365 services. The install process might be slightly different depending on what is needed. To install any of these apps, left-click on it and then select **Add to a team**. Keep in mind that it may take a while to install the selected app into the channel, but you’ll get a notification when the app is installed.
 
 ## Employee ideas app
 
@@ -33,3 +33,11 @@ The **Manage issues** app gives an overview of all tracked tasks and can create 
 The **Issue reporting** app provides a personalized view for each team member, where they can view, edit, and create new items.
 
 ![Screenshot showing the issues template reporting.](../media/26-issue-report.png)
+
+Other ready-to-install template include: **Bulletins** and **Milestones**.  
+
+The **Bulletins** template allows you to keep your team informed of all company communications, broadcasts and announcements in an easy-to-consume experience.
+
+The **Milestones** template provides the team the ability to plan, track and prioritize work capacity across projects in a central place.
+
+Other templates including **Profile+**, **Boards**, and **Perspectives** can be installed into Teams via GitHub.
