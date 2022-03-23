@@ -25,7 +25,7 @@ The following table provides an overview of the column types for the list in Mic
 The following screenshot shows the list in Microsoft Lists. Lists automatically adds the **Created**, **Created By**, **Modified**, and **Modified By** columns.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the list of Columns.](../media/4-1-columns.png)](../media/4-1-columns.png#lightbox)
+> [![Screenshot of the list in Microsoft Lists of Columns.](../media/4-1-columns.png)](../media/4-1-columns.png#lightbox)
 
 Return to the **Travel Reimbursement** list and, from the ribbon, select **Integrate > Power Automate > Create a flow**.
 

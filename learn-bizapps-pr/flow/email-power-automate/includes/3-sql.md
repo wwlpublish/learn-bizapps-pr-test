@@ -53,7 +53,7 @@ First, we'll set up the SharePoint site to monitor changes.
 
 1. Select **Create**.
 
-1. On the **When an item is created or modified** card, enter the site address, and then select the name of the list in Microsoft Lists that your flow monitors for new or updated items.
+1. On the **When an item is created or modified** card, enter the site address, and then select the name of the list that your flow monitors for new or updated items.
 
     ![Screenshot of When an item is created or modified with the Site Address set to a SharePoint teams address, and List Name set to TravelTimeList.](../media/configure-sharepoint-trigger.png)
 
@@ -145,7 +145,7 @@ Next, if the item exists in the destination, update it with the changes.
 
     ![Screenshot of the finished flow. When an item is created or modified, get rows. If length is equal to zero, Insert row. If not, Update row.](../media/finished-flow.png)
 
-Now, whenever an item in your list, the source, changes, your flow is triggered. It either inserts a new item or updates an existing item in SQL Database, the destination.
+Now, whenever an item in your source, the list in Microsoft Lists, changes, your flow is triggered. It either inserts a new item or updates an existing item in SQL Database, the destination.
 
 > [!NOTE]
 > Your flow isn't triggered when an item is deleted from the source. If this scenario is important to you, consider adding a separate column that indicates when an item is no longer needed.
