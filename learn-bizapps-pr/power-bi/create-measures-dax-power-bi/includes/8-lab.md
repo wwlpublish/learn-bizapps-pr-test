@@ -212,9 +212,8 @@ In this task, you will create several measures with DAX expressions that use the
 	)
 	```
 
-        > [!NOTE]
-        > The double pipe (||) is the logical OR operator. For more information, see [DAX operators](/dax/dax-operator-reference/?azure-portal=true).
-
+   > [!NOTE]
+   > The double pipe (||) is the logical OR operator. For more information, see [DAX operators](/dax/dax-operator-reference/?azure-portal=true).
 
 1. Notice that the **Sales % Group** measure now only returns a value when a region or country is in scope.
 
