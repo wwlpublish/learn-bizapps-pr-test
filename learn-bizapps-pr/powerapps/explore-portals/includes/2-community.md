@@ -87,7 +87,7 @@ An effective way to maximize the use of helpful content is the ability to search
 
 The Power Apps portals **Knowledge Article** feature is available on the Community, Customer self-service, Employee self-service, and Partner portals.
 
-To configure the Power Apps portals **Knowledge Article** feature, see the [Documentation](/dynamics365/customer-engagement/portals/configure-knowledge-categories-articles).
+To configure the Power Apps portals **Knowledge Article** feature, see the [Documentation](/powerapps/maker/portals/customer-engagement-apps/configure-knowledge-categories-articles/?azure-portal=true).
 
 An organization can determine which of its existing knowledge articles should be surfaced on the portal by setting the **Internal** flag and by associating the knowledge article to the appropriate categories.
 
