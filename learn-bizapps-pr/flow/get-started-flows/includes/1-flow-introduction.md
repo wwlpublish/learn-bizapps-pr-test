@@ -7,11 +7,10 @@ If you're a beginner with Power Automate, this module will get you going. If you
 In this module, you will:
 
 - Learn what Power Automate is and how it can be used
-- Create a flow that automatically saves email attachments
-- Learn how to create a button flow to send yourself a reminder
 - Create a flow that runs on a schedule
-- Create a flow that posts tweets
+- Create a flow that automatically saves email attachments
 - Share a flow that your team can use
+- Troubleshoot flows
 
 ## What is Power Automate?
 
