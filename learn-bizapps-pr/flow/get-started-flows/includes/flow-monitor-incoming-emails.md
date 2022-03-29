@@ -7,7 +7,7 @@ Microsoft Office 365
 ## Specify the SharePoint site and library
 You can use any SharePoint site of your choice and can also use an existing library.
 
-In this scenario, we'll use the following SharePoint site and its default **Documents** library which is available out-of-box.
+In this scenario, we'll use the following SharePoint site and its default **Documents** library, which is available out-of-box.
 
 ![Screenshot of the SharePoint site.](../media/sharepoint-site.png)
 
@@ -51,7 +51,7 @@ First, you must select the trigger (event) that starts the flow.
 
 1. Add the following:
 
-     **Site Address** - Either copy and paste your URL or click on the drop-down and select your site, 
+     **Site Address** - Either copy and paste your URL or select the drop-down and select your site
  
      **Folder Path** - Select **/Shared Documents**
  
@@ -65,6 +65,6 @@ First, you must select the trigger (event) that starts the flow.
 
     ![Screenshot of the apply to each button.](../media/apply-to-each.png)
 
-You have successfully built a **Power Automate** flow which will monitor your **Outlook** inbox for any emails that have the text **Daily report** in their **Subject line** and have **Attachments**.
+You have successfully built a **Power Automate** flow, which will monitor your **Outlook** inbox for any emails that have the text **Daily report** in their **Subject line** and have **Attachments**.
 
 ![Screenshot of the flow design.](../media/flow-design.png)

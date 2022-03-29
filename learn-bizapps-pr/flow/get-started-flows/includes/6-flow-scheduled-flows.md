@@ -67,7 +67,7 @@ Here’s what the Excel table looks like
 
     ![Screenshot of the Dynamic content menu being used to set the first and last names.](../media/mailchimp-names.png)
 
-And there you have it!
+And there you've it!
 
 This flow will now run once a day. It will:
 
