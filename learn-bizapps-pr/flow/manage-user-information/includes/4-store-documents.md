@@ -69,4 +69,4 @@ Here's an overview of the entire flow:
 And here's what the virtual button looks like in the Power Automate mobile app:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of block calendar flow overview.](../media/button-mobile-device.png)
+> ![Screenshot of block calendar flow overview in the mobile app.](../media/button-mobile-device.png)
