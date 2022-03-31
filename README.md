@@ -1,3 +1,4 @@
+updated by Star 2022-03-31 17:19
 updated by Star 2022-03-31 16:47
 # Microsoft Learn - Business Applications (Power Platform) training content
 
