@@ -1,3 +1,4 @@
+updated by Star 2022-03-31 16:47
 # Microsoft Learn - Business Applications (Power Platform) training content
 
 This repository contains the Microsoft Learn modules and learning paths for Microsoft Business Applications products, such as Microsoft Flow, Microsoft PowerApps, and Microsoft Power BI. Review this README file to understand how you can assist in contributing to the Microsoft Learn training content.
@@ -25,6 +26,8 @@ The content in the Microsoft Learn repositories is developed, organized, and dis
 To view all of the available landing pages, you can navigate to them from the header of the Learn home page.
 
 ## Contributions and feedback
+
+
 
 We welcome contributions and feedback. How you contribute depends on who you are and the sort of changes you'd like to contribute. For more information about how to understand the content files, view our [create a module](https://review.docs.microsoft.com/learn-docs/docs/create-a-module?branch=master#implementation) documentation.
 
